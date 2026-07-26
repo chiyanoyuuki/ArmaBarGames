@@ -3,7 +3,6 @@ import { useSearchParams } from "react-router-dom";
 import {
   C2S,
   TEAM_AVATARS,
-  VOTES_PER_TEAM,
   type GameState,
   type TeamJoinAck,
 } from "@armabar/shared";
@@ -174,12 +173,13 @@ function VotePanel({ state }: { state: GameState }) {
   const [picked, setPicked] = useState<string[]>([]);
   const [sent, setSent] = useState(false);
   const voting = !!state.voteEndsAt;
+  const maxVotes = state.config.votesPerTeam;
 
   const toggle = (id: string) => {
     setPicked((prev) =>
       prev.includes(id)
         ? prev.filter((x) => x !== id)
-        : prev.length < VOTES_PER_TEAM
+        : prev.length < maxVotes
           ? [...prev, id]
           : prev
     );
@@ -202,7 +202,7 @@ function VotePanel({ state }: { state: GameState }) {
   return (
     <div className="vote-panel">
       <p className="vote-instruction">
-        Choisis jusqu'à {VOTES_PER_TEAM} thèmes ({picked.length}/{VOTES_PER_TEAM})
+        Choisis jusqu'à {maxVotes} thèmes ({picked.length}/{maxVotes})
       </p>
       <div className="vote-list">
         {state.themes.map((t) => (

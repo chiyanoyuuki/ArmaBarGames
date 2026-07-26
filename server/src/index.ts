@@ -13,6 +13,7 @@ import {
   type GameState,
   type HostAdjustScorePayload,
   type HostAuthPayload,
+  type HostConfigurePayload,
   type HostRemoveTeamPayload,
   type HostRenameTeamPayload,
   type HostStartGamePayload,
@@ -80,7 +81,7 @@ io.on("connection", (socket: Socket) => {
   socket.on(
     C2S.CreateRoom,
     (payload: CreateRoomPayload, ack?: Ack<CreateRoomAck>) => {
-      const room = new GameRoom({ totalRounds: payload?.totalRounds });
+      const room = new GameRoom({ config: payload?.config });
       room.attach(makeBroadcaster(io, room.code));
       rooms.set(room.code, room);
       socket.join(room.code);
@@ -144,6 +145,9 @@ io.on("connection", (socket: Socket) => {
   });
 
   // --- Actions host ---
+  socket.on(C2S.HostConfigure, (payload: HostConfigurePayload) => {
+    requireHost(payload)?.configure(payload.config);
+  });
   socket.on(C2S.HostStartVoting, (payload: HostAuthPayload) => {
     requireHost(payload)?.startVoting();
   });

@@ -2,7 +2,9 @@ import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import {
   C2S,
+  CONFIG_LIMITS,
   type CreateRoomAck,
+  type GameConfig,
   type GameState,
 } from "@armabar/shared";
 import { emitAck, socket } from "../socket";
@@ -132,6 +134,7 @@ function HostConsole({
             >
               ▶️ Lancer sans vote (thèmes populaires)
             </button>
+            <ConfigPanel state={state} send={send} />
           </>
         )}
 
@@ -210,6 +213,103 @@ function HostConsole({
             </div>
           ))}
       </div>
+    </div>
+  );
+}
+
+type SendFn = (event: string, extra?: Record<string, unknown>) => void;
+
+function ConfigPanel({ state, send }: { state: GameState; send: SendFn }) {
+  const cfg = state.config;
+  const setCfg = (patch: Partial<GameConfig>) =>
+    send(C2S.HostConfigure, { config: patch });
+
+  return (
+    <details className="config-panel" open>
+      <summary>⚙️ Configuration de la partie</summary>
+      <div className="config-body">
+        <ConfigSlider
+          label="Temps par question"
+          value={cfg.questionTimeMs}
+          limits={CONFIG_LIMITS.questionTimeMs}
+          format={(v) => `${Math.round(v / 1000)} s`}
+          onChange={(v) => setCfg({ questionTimeMs: v })}
+        />
+        <ConfigSlider
+          label="Durée de la réponse (reveal)"
+          value={cfg.revealTimeMs}
+          limits={CONFIG_LIMITS.revealTimeMs}
+          format={(v) => `${Math.round(v / 1000)} s`}
+          onChange={(v) => setCfg({ revealTimeMs: v })}
+        />
+        <ConfigSlider
+          label="Durée du vote des thèmes"
+          value={cfg.voteTimeMs}
+          limits={CONFIG_LIMITS.voteTimeMs}
+          format={(v) => `${Math.round(v / 1000)} s`}
+          onChange={(v) => setCfg({ voteTimeMs: v })}
+        />
+        <ConfigSlider
+          label="Nombre de questions"
+          value={cfg.totalRounds}
+          limits={CONFIG_LIMITS.totalRounds}
+          format={(v) => `${v}`}
+          onChange={(v) => setCfg({ totalRounds: v })}
+        />
+        <ConfigSlider
+          label="Thèmes retenus après le vote"
+          value={cfg.selectedThemeCount}
+          limits={CONFIG_LIMITS.selectedThemeCount}
+          format={(v) => `${v}`}
+          onChange={(v) => setCfg({ selectedThemeCount: v })}
+        />
+        <ConfigSlider
+          label="Votes par équipe"
+          value={cfg.votesPerTeam}
+          limits={CONFIG_LIMITS.votesPerTeam}
+          format={(v) => `${v}`}
+          onChange={(v) => setCfg({ votesPerTeam: v })}
+        />
+        <label className="config-toggle">
+          <span>Bonus de série (+10 %/bonne réponse)</span>
+          <input
+            type="checkbox"
+            checked={cfg.streakBonus}
+            onChange={(e) => setCfg({ streakBonus: e.target.checked })}
+          />
+        </label>
+      </div>
+    </details>
+  );
+}
+
+function ConfigSlider({
+  label,
+  value,
+  limits,
+  format,
+  onChange,
+}: {
+  label: string;
+  value: number;
+  limits: { min: number; max: number; step: number };
+  format: (v: number) => string;
+  onChange: (v: number) => void;
+}) {
+  return (
+    <div className="config-row">
+      <div className="config-row-head">
+        <span>{label}</span>
+        <span className="config-value">{format(value)}</span>
+      </div>
+      <input
+        type="range"
+        min={limits.min}
+        max={limits.max}
+        step={limits.step}
+        value={value}
+        onChange={(e) => onChange(Number(e.target.value))}
+      />
     </div>
   );
 }

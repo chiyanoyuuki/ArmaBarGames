@@ -945,6 +945,57 @@ button.home-card {
   cursor: pointer;
 }
 
+/* --- Panneau de configuration (animateur) ----------------------------- */
+
+.config-panel {
+  background: var(--card);
+  border-radius: 14px;
+  padding: 4px 16px;
+}
+.config-panel summary {
+  cursor: pointer;
+  font-weight: 800;
+  padding: 12px 0;
+  list-style: none;
+}
+.config-panel summary::-webkit-details-marker {
+  display: none;
+}
+.config-body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 8px 0 16px;
+}
+.config-row-head {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.config-value {
+  color: var(--gold);
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+.config-row input[type="range"] {
+  width: 100%;
+  accent-color: var(--accent);
+  height: 24px;
+}
+.config-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  gap: 12px;
+}
+.config-toggle input {
+  width: 24px;
+  height: 24px;
+  accent-color: var(--green);
+}
+
 /* --- Responsive TV -> petit écran ------------------------------------- */
 
 @media (max-width: 780px) {

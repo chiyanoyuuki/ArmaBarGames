@@ -37,6 +37,66 @@ export const VOTE_TIME_MS = 30_000;
 /** Nombre de themes que chaque equipe peut voter. */
 export const VOTES_PER_TEAM = 3;
 
+/** Nombre de themes retenus a l'issue du vote. */
+export const SELECTED_THEME_COUNT = 3;
+
+/** Nombre de questions par partie par defaut. */
+export const DEFAULT_TOTAL_ROUNDS = 12;
+
+/**
+ * Parametres d'une partie, modifiables par l'animateur dans le salon avant le
+ * lancement. Toutes les durees sont en millisecondes.
+ */
+export interface GameConfig {
+  questionTimeMs: number;
+  revealTimeMs: number;
+  voteTimeMs: number;
+  totalRounds: number;
+  selectedThemeCount: number;
+  votesPerTeam: number;
+  streakBonus: boolean;
+}
+
+export const DEFAULT_CONFIG: GameConfig = {
+  questionTimeMs: QUESTION_TIME_MS,
+  revealTimeMs: REVEAL_TIME_MS,
+  voteTimeMs: VOTE_TIME_MS,
+  totalRounds: DEFAULT_TOTAL_ROUNDS,
+  selectedThemeCount: SELECTED_THEME_COUNT,
+  votesPerTeam: VOTES_PER_TEAM,
+  streakBonus: true,
+};
+
+/** Bornes autorisees pour l'UI de configuration (validees aussi cote serveur). */
+export const CONFIG_LIMITS = {
+  questionTimeMs: { min: 5_000, max: 60_000, step: 1_000 },
+  revealTimeMs: { min: 2_000, max: 20_000, step: 1_000 },
+  voteTimeMs: { min: 10_000, max: 120_000, step: 5_000 },
+  totalRounds: { min: 3, max: 40, step: 1 },
+  selectedThemeCount: { min: 1, max: 6, step: 1 },
+  votesPerTeam: { min: 1, max: 5, step: 1 },
+} as const;
+
+/** Applique les bornes a une config partielle et renvoie une config complete. */
+export function sanitizeConfig(
+  base: GameConfig,
+  patch: Partial<GameConfig>
+): GameConfig {
+  const clamp = (key: keyof typeof CONFIG_LIMITS, v: number) => {
+    const { min, max } = CONFIG_LIMITS[key];
+    return Math.min(max, Math.max(min, Math.round(v)));
+  };
+  const next: GameConfig = { ...base, ...patch };
+  next.questionTimeMs = clamp("questionTimeMs", next.questionTimeMs);
+  next.revealTimeMs = clamp("revealTimeMs", next.revealTimeMs);
+  next.voteTimeMs = clamp("voteTimeMs", next.voteTimeMs);
+  next.totalRounds = clamp("totalRounds", next.totalRounds);
+  next.selectedThemeCount = clamp("selectedThemeCount", next.selectedThemeCount);
+  next.votesPerTeam = clamp("votesPerTeam", next.votesPerTeam);
+  next.streakBonus = !!next.streakBonus;
+  return next;
+}
+
 /**
  * Points gagnes pour une bonne reponse : points de base ponderes par la
  * vitesse. Reponse instantanee -> 100% ; a la limite du temps -> 50%.
@@ -140,6 +200,7 @@ export interface GameState {
   roomCode: string;
   phase: GamePhase;
   paused: boolean;
+  config: GameConfig;
   teams: Team[];
 
   // Vote des themes
@@ -171,6 +232,7 @@ export const C2S = {
   TeamVote: "team:vote",
   TeamAnswer: "team:answer",
 
+  HostConfigure: "host:configure",
   HostStartVoting: "host:startVoting",
   HostStartGame: "host:startGame",
   HostNext: "host:next",
@@ -194,7 +256,11 @@ export type SfxKind = "correct" | "wrong" | "tick" | "reveal" | "podium" | "join
 // --- Payloads ------------------------------------------------------------
 
 export interface CreateRoomPayload {
-  totalRounds?: number;
+  config?: Partial<GameConfig>;
+}
+
+export interface HostConfigurePayload extends HostAuthPayload {
+  config: Partial<GameConfig>;
 }
 export interface CreateRoomAck {
   roomCode: string;

@@ -3,11 +3,10 @@ import {
   computeSpeedPoints,
   generateRoomCode,
   streakMultiplier,
-  QUESTION_TIME_MS,
-  REVEAL_TIME_MS,
-  VOTE_TIME_MS,
-  VOTES_PER_TEAM,
+  sanitizeConfig,
+  DEFAULT_CONFIG,
   TEAM_AVATARS,
+  type GameConfig,
   type GamePhase,
   type GameState,
   type PublicQuestion,
@@ -18,9 +17,6 @@ import {
   type SfxKind,
 } from "@armabar/shared";
 import { pickQuestions, playableThemes, themeById, universeById } from "./data.js";
-
-/** Nombre de themes retenus a l'issue du vote. */
-const SELECTED_THEME_COUNT = 3;
 
 export interface Broadcaster {
   emitState(state: GameState): void;
@@ -44,6 +40,7 @@ export class GameRoom {
   private selectedThemeIds: string[] = [];
   private voteEndsAt?: number;
 
+  private config: GameConfig;
   private questions: Question[] = [];
   private round = 0; // 1-based une fois la partie lancee
   private totalRounds: number;
@@ -60,16 +57,25 @@ export class GameRoom {
 
   private broadcaster?: Broadcaster;
 
-  constructor(opts: { totalRounds?: number } = {}) {
+  constructor(opts: { config?: Partial<GameConfig> } = {}) {
     this.code = generateRoomCode();
     this.hostToken = generateRoomCode() + generateRoomCode();
-    this.totalRounds = opts.totalRounds ?? 12;
+    this.config = sanitizeConfig(DEFAULT_CONFIG, opts.config ?? {});
+    this.totalRounds = this.config.totalRounds;
     this.themes = playableThemes();
   }
 
   /** Branche le canal de diffusion une fois le code de room connu. */
   attach(broadcaster: Broadcaster) {
     this.broadcaster = broadcaster;
+  }
+
+  /** Reconfigure la partie (uniquement dans le salon, avant le lancement). */
+  configure(patch: Partial<GameConfig>) {
+    if (this.phase !== "lobby") return;
+    this.config = sanitizeConfig(this.config, patch);
+    this.totalRounds = this.config.totalRounds;
+    this.emit();
   }
 
   // --- Timers ------------------------------------------------------------
@@ -159,8 +165,8 @@ export class GameRoom {
     this.phase = "theme_voting";
     this.votes.clear();
     this.selectedThemeIds = [];
-    this.voteEndsAt = Date.now() + VOTE_TIME_MS;
-    this.schedule(VOTE_TIME_MS, () => this.finalizeVoting());
+    this.voteEndsAt = Date.now() + this.config.voteTimeMs;
+    this.schedule(this.config.voteTimeMs, () => this.finalizeVoting());
     this.emit();
   }
 
@@ -169,7 +175,7 @@ export class GameRoom {
     if (!this.teams.has(teamId)) return;
     const valid = themeIds
       .filter((id) => this.themes.some((t) => t.id === id))
-      .slice(0, VOTES_PER_TEAM);
+      .slice(0, this.config.votesPerTeam);
     this.votes.set(teamId, valid);
     // Vote termine automatiquement si toutes les equipes connectees ont vote.
     const connected = [...this.teams.values()].filter((t) => t.connected);
@@ -196,7 +202,7 @@ export class GameRoom {
     this.selectedThemeIds = [...this.themes]
       .map((t) => t.id)
       .sort((a, b) => (tally[b] ?? 0) - (tally[a] ?? 0))
-      .slice(0, SELECTED_THEME_COUNT);
+      .slice(0, this.config.selectedThemeCount);
     this.playSfx("reveal");
     this.emit();
   }
@@ -209,7 +215,7 @@ export class GameRoom {
         ? overrideThemeIds
         : this.selectedThemeIds.length
           ? this.selectedThemeIds
-          : this.themes.slice(0, SELECTED_THEME_COUNT).map((t) => t.id);
+          : this.themes.slice(0, this.config.selectedThemeCount).map((t) => t.id);
     this.selectedThemeIds = selected;
     this.questions = pickQuestions(selected, this.totalRounds);
     this.totalRounds = this.questions.length;
@@ -238,8 +244,8 @@ export class GameRoom {
     }
     this.phase = "question";
     this.questionStartAt = Date.now();
-    this.questionEndsAt = this.questionStartAt + QUESTION_TIME_MS;
-    this.schedule(QUESTION_TIME_MS, () => this.revealAnswer());
+    this.questionEndsAt = this.questionStartAt + this.config.questionTimeMs;
+    this.schedule(this.config.questionTimeMs, () => this.revealAnswer());
     this.emit();
   }
 
@@ -276,8 +282,13 @@ export class GameRoom {
       if (!team) continue;
       if (rec.optionId === current.correctOptionId) {
         const elapsed = rec.at - this.questionStartAt;
-        const base = computeSpeedPoints(current.difficulty, elapsed);
-        const points = Math.round(base * streakMultiplier(team.streak));
+        const base = computeSpeedPoints(
+          current.difficulty,
+          elapsed,
+          this.config.questionTimeMs
+        );
+        const mult = this.config.streakBonus ? streakMultiplier(team.streak) : 1;
+        const points = Math.round(base * mult);
         team.streak += 1;
         team.score += points;
         gains[teamId] = points;
@@ -301,7 +312,7 @@ export class GameRoom {
     this.playSfx(anyoneRight ? "correct" : "wrong");
     this.emit();
 
-    this.schedule(REVEAL_TIME_MS, () => this.nextQuestion());
+    this.schedule(this.config.revealTimeMs, () => this.nextQuestion());
   }
 
   private finish() {
@@ -370,6 +381,7 @@ export class GameRoom {
       roomCode: this.code,
       phase: this.phase,
       paused: this.paused,
+      config: this.config,
       teams: [...this.teams.values()],
       themes: this.themes,
       voteTally: this.tally(),

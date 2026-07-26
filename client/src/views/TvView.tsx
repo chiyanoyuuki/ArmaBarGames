@@ -220,7 +220,7 @@ function QuestionBoard({ state }: { state: GameState }) {
       <h2 className="question-text">{q.text}</h2>
 
       {!revealing && (
-        <TimerRing remaining={remaining} total={20000} />
+        <TimerRing remaining={remaining} total={state.config.questionTimeMs} />
       )}
 
       <div className="options-grid">
