@@ -1,0 +1,20 @@
+{
+  "themes": [
+    { "id": "manga", "name": "Manga & Anime", "emoji": "🍥" },
+    { "id": "jeux-video", "name": "Jeux vidéo", "emoji": "🎮" },
+    { "id": "musique", "name": "Musique", "emoji": "🎵" },
+    { "id": "cinema", "name": "Cinéma & Séries", "emoji": "🎬" },
+    { "id": "histoire", "name": "Histoire", "emoji": "🏛️" },
+    { "id": "geographie", "name": "Géographie", "emoji": "🗺️" },
+    { "id": "sport", "name": "Sport", "emoji": "⚽" },
+    { "id": "sciences", "name": "Sciences & Nature", "emoji": "🔬" }
+  ],
+  "universes": [
+    { "id": "naruto", "name": "Naruto", "themeId": "manga", "emoji": "🍥" },
+    { "id": "one-piece", "name": "One Piece", "themeId": "manga", "emoji": "🏴‍☠️" },
+    { "id": "the-witcher", "name": "The Witcher", "themeId": "jeux-video", "emoji": "🐺" },
+    { "id": "zelda", "name": "The Legend of Zelda", "themeId": "jeux-video", "emoji": "🗡️" },
+    { "id": "ed-sheeran", "name": "Ed Sheeran", "themeId": "musique", "emoji": "🎸" },
+    { "id": "rock-classique", "name": "Rock classique", "themeId": "musique", "emoji": "🤘" }
+  ]
+}

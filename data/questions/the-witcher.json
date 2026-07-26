@@ -1,0 +1,83 @@
+{
+  "universeId": "the-witcher",
+  "questions": [
+    {
+      "id": "witcher-f1",
+      "difficulty": "facile",
+      "text": "Quelle profession exerce le protagoniste principal de la saga ?",
+      "options": [
+        { "id": "a", "label": "Chasseur de monstres" },
+        { "id": "b", "label": "Forgeron d'armes" },
+        { "id": "c", "label": "Marchand ambulant" },
+        { "id": "d", "label": "Barde itinérant" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Les sorceleurs sont des mutants entraînés pour tuer les monstres contre paiement."
+    },
+    {
+      "id": "witcher-f2",
+      "difficulty": "facile",
+      "text": "De quelle couleur sont les yeux du héros, signe de sa mutation ?",
+      "options": [
+        { "id": "a", "label": "Jaunes" },
+        { "id": "b", "label": "Bleus" },
+        { "id": "c", "label": "Rouges" },
+        { "id": "d", "label": "Verts" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Les yeux de chat jaunes lui permettent de mieux voir dans le noir."
+    },
+    {
+      "id": "witcher-m1",
+      "difficulty": "moyen",
+      "text": "Quelle magicienne aux cheveux noirs est le grand amour du héros ?",
+      "options": [
+        { "id": "a", "label": "Yennefer" },
+        { "id": "b", "label": "Triss" },
+        { "id": "c", "label": "Shani" },
+        { "id": "d", "label": "Keira" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Yennefer de Vengerberg est liée au héros par un vœu du génie."
+    },
+    {
+      "id": "witcher-m2",
+      "difficulty": "moyen",
+      "text": "Comment se nomme la forteresse-école où le héros a été formé ?",
+      "options": [
+        { "id": "a", "label": "Kaer Morhen" },
+        { "id": "b", "label": "Kaer Trolde" },
+        { "id": "c", "label": "Vizima" },
+        { "id": "d", "label": "Novigrad" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Kaer Morhen abrite l'école du Loup."
+    },
+    {
+      "id": "witcher-d1",
+      "difficulty": "dur",
+      "text": "Quel signe magique dresse une barrière protectrice autour du sorceleur ?",
+      "options": [
+        { "id": "a", "label": "Quen" },
+        { "id": "b", "label": "Igni" },
+        { "id": "c", "label": "Aard" },
+        { "id": "d", "label": "Axii" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Igni projette du feu, Aard une onde de choc, Axii charme l'esprit."
+    },
+    {
+      "id": "witcher-p1",
+      "difficulty": "pro",
+      "text": "Comment se nomme le cheval du héros dans les jeux vidéo ?",
+      "options": [
+        { "id": "a", "label": "Ablette" },
+        { "id": "b", "label": "Pégase" },
+        { "id": "c", "label": "Kelpie" },
+        { "id": "d", "label": "Bourrasque" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Geralt appelle toutes ses montures « Ablette » (Roach en anglais)."
+    }
+  ]
+}

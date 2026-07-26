@@ -1,0 +1,135 @@
+{
+  "universeId": "naruto",
+  "questions": [
+    {
+      "id": "naruto-f1",
+      "difficulty": "facile",
+      "text": "Dans quel village se déroule la majeure partie de l'histoire au début de la série ?",
+      "options": [
+        { "id": "a", "label": "Konoha" },
+        { "id": "b", "label": "Suna" },
+        { "id": "c", "label": "Kiri" },
+        { "id": "d", "label": "Iwa" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Konoha, le Village Caché de la Feuille, est fondé par Hashirama Senju."
+    },
+    {
+      "id": "naruto-f2",
+      "difficulty": "facile",
+      "text": "Quelle créature à queues est scellée à l'intérieur du héros ?",
+      "options": [
+        { "id": "a", "label": "Le renard" },
+        { "id": "b", "label": "Le tanuki" },
+        { "id": "c", "label": "La tortue" },
+        { "id": "d", "label": "Le taureau" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Kurama, le démon-renard à neuf queues, est scellé en Naruto à sa naissance."
+    },
+    {
+      "id": "naruto-f3",
+      "difficulty": "facile",
+      "text": "Quel plat le héros préfère-t-il par-dessus tout ?",
+      "options": [
+        { "id": "a", "label": "Les ramen" },
+        { "id": "b", "label": "Les sushis" },
+        { "id": "c", "label": "Les dango" },
+        { "id": "d", "label": "Les takoyaki" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il est client fidèle du stand Ichiraku."
+    },
+    {
+      "id": "naruto-m1",
+      "difficulty": "moyen",
+      "text": "Comment se nomme le père biologique du héros ?",
+      "options": [
+        { "id": "a", "label": "Minato Namikaze" },
+        { "id": "b", "label": "Hiruzen Sarutobi" },
+        { "id": "c", "label": "Dan Katô" },
+        { "id": "d", "label": "Fugaku Uchiwa" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Minato est le Quatrième Hokage, surnommé l'Éclair Jaune de Konoha."
+    },
+    {
+      "id": "naruto-m2",
+      "difficulty": "moyen",
+      "text": "À quel clan appartient le rival de toujours du héros ?",
+      "options": [
+        { "id": "a", "label": "Uchiwa" },
+        { "id": "b", "label": "Hyûga" },
+        { "id": "c", "label": "Nara" },
+        { "id": "d", "label": "Aburame" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le clan Uchiwa est réputé pour son dôjutsu, le Sharingan."
+    },
+    {
+      "id": "naruto-m3",
+      "difficulty": "moyen",
+      "text": "Quelle technique en forme de sphère d'énergie tourbillonnante le héros maîtrise-t-il avec Jiraya ?",
+      "options": [
+        { "id": "a", "label": "Le Rasengan" },
+        { "id": "b", "label": "Le Chidori" },
+        { "id": "c", "label": "L'Amaterasu" },
+        { "id": "d", "label": "Le Kirin" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le Rasengan a été inventé par le Quatrième Hokage."
+    },
+    {
+      "id": "naruto-d1",
+      "difficulty": "dur",
+      "text": "Qui a inventé la technique de la sphère tourbillonnante enseignée plus tard au héros ?",
+      "options": [
+        { "id": "a", "label": "Minato Namikaze" },
+        { "id": "b", "label": "Tobirama Senju" },
+        { "id": "c", "label": "Jiraya" },
+        { "id": "d", "label": "Hashirama Senju" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il lui a fallu trois ans pour la mettre au point."
+    },
+    {
+      "id": "naruto-d2",
+      "difficulty": "dur",
+      "text": "Quel membre de l'Akatsuki fait équipe avec Kisame Hoshigaki ?",
+      "options": [
+        { "id": "a", "label": "Itachi Uchiwa" },
+        { "id": "b", "label": "Deidara Iwa" },
+        { "id": "c", "label": "Sasori Akasuna" },
+        { "id": "d", "label": "Hidan Yugakure" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Itachi et Kisame forment le binôme chargé de capturer Kyûbi."
+    },
+    {
+      "id": "naruto-p1",
+      "difficulty": "pro",
+      "text": "Quel est le nom complet de l'arme légendaire maniée par le Sixième chef du village de la Feuille avant son mandat ?",
+      "options": [
+        { "id": "a", "label": "Kubikiribôchô" },
+        { "id": "b", "label": "Samehada" },
+        { "id": "c", "label": "Nuibari" },
+        { "id": "d", "label": "Kabutowari" }
+      ],
+      "correctOptionId": "b",
+      "funFact": "Samehada, l'épée-requin, absorbe le chakra de ses cibles."
+    },
+    {
+      "id": "naruto-p2",
+      "difficulty": "pro",
+      "text": "Combien de marionnettes humaines Sasori a-t-il transformées au total selon les archives du village de Suna ?",
+      "options": [
+        { "id": "a", "label": "298" },
+        { "id": "b", "label": "112" },
+        { "id": "c", "label": "150" },
+        { "id": "d", "label": "76" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Sa collection compte 298 marionnettes, dont celle du Troisième Kazekage."
+    }
+  ]
+}
