@@ -12,6 +12,7 @@
   "universes": [
     { "id": "naruto", "name": "Naruto", "themeId": "manga", "emoji": "🍥" },
     { "id": "one-piece", "name": "One Piece", "themeId": "manga", "emoji": "🏴‍☠️" },
+    { "id": "harry-potter", "name": "Harry Potter", "themeId": "cinema", "emoji": "⚡" },
     { "id": "the-witcher", "name": "The Witcher", "themeId": "jeux-video", "emoji": "🐺" },
     { "id": "zelda", "name": "The Legend of Zelda", "themeId": "jeux-video", "emoji": "🗡️" },
     { "id": "ed-sheeran", "name": "Ed Sheeran", "themeId": "musique", "emoji": "🎸" },

@@ -1,0 +1,1305 @@
+{
+  "universeId": "harry-potter",
+  "questions": [
+    {
+      "id": "hp-f1",
+      "difficulty": "facile",
+      "text": "Quelle est l'école de sorcellerie où étudie le trio de héros ?",
+      "options": [
+        { "id": "a", "label": "Poudlard" },
+        { "id": "b", "label": "Beauxbâtons" },
+        { "id": "c", "label": "Durmstrang" },
+        { "id": "d", "label": "Ilvermorny" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Poudlard a été fondée il y a plus de mille ans par quatre grands sorciers."
+    },
+    {
+      "id": "hp-f2",
+      "difficulty": "facile",
+      "text": "Dans quelle maison le Choixpeau envoie-t-il Harry, Ron et Hermione ?",
+      "options": [
+        { "id": "a", "label": "Gryffondor" },
+        { "id": "b", "label": "Serpentard" },
+        { "id": "c", "label": "Serdaigle" },
+        { "id": "d", "label": "Poufsouffle" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le Choixpeau a longtemps hésité à envoyer Harry chez Serpentard."
+    },
+    {
+      "id": "hp-f3",
+      "difficulty": "facile",
+      "text": "Quel sport se joue sur des balais volants ?",
+      "options": [
+        { "id": "a", "label": "Le Quidditch" },
+        { "id": "b", "label": "Les Bavboules" },
+        { "id": "c", "label": "La Bataille explosive" },
+        { "id": "d", "label": "Les Échecs sorciers" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Un match ne se termine que lorsque le Vif d'or est attrapé."
+    },
+    {
+      "id": "hp-f4",
+      "difficulty": "facile",
+      "text": "Comment s'appelle le meilleur ami de Harry, issu d'une grande famille rousse ?",
+      "options": [
+        { "id": "a", "label": "Ron Weasley" },
+        { "id": "b", "label": "Drago Malefoy" },
+        { "id": "c", "label": "Dean Thomas" },
+        { "id": "d", "label": "Cedric Diggory" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ron est le sixième garçon d'une fratrie de sept enfants."
+    },
+    {
+      "id": "hp-f5",
+      "difficulty": "facile",
+      "text": "Quelle sorcière brillante et studieuse complète le trio de héros ?",
+      "options": [
+        { "id": "a", "label": "Hermione Granger" },
+        { "id": "b", "label": "Luna Lovegood" },
+        { "id": "c", "label": "Ginny Weasley" },
+        { "id": "d", "label": "Cho Chang" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Hermione a lu tous ses manuels avant même sa première rentrée."
+    },
+    {
+      "id": "hp-f6",
+      "difficulty": "facile",
+      "text": "Qui dirige l'école de sorcellerie au début de la saga ?",
+      "options": [
+        { "id": "a", "label": "Albus Dumbledore" },
+        { "id": "b", "label": "Severus Rogue" },
+        { "id": "c", "label": "Rubeus Hagrid" },
+        { "id": "d", "label": "Cornelius Fudge" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Dumbledore fut aussi un grand alchimiste, ami de Nicolas Flamel."
+    },
+    {
+      "id": "hp-f7",
+      "difficulty": "facile",
+      "text": "Quel est le nom de la chouette blanche appartenant à Harry ?",
+      "options": [
+        { "id": "a", "label": "Hedwige" },
+        { "id": "b", "label": "Coquecigrue" },
+        { "id": "c", "label": "Pattenrond" },
+        { "id": "d", "label": "Croûtard" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Hagrid offre Hedwige à Harry pour son onzième anniversaire."
+    },
+    {
+      "id": "hp-f8",
+      "difficulty": "facile",
+      "text": "De quelle couleur sont les yeux de Harry, hérités de sa mère ?",
+      "options": [
+        { "id": "a", "label": "Verts" },
+        { "id": "b", "label": "Bleus" },
+        { "id": "c", "label": "Marron" },
+        { "id": "d", "label": "Gris" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ce détail rappelle sans cesse à Rogue le regard de Lily."
+    },
+    {
+      "id": "hp-f9",
+      "difficulty": "facile",
+      "text": "Quel mage noir a tenté de tuer Harry lorsqu'il était bébé ?",
+      "options": [
+        { "id": "a", "label": "Voldemort" },
+        { "id": "b", "label": "Grindelwald" },
+        { "id": "c", "label": "Dumbledore" },
+        { "id": "d", "label": "Rusard" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le sortilège a ricoché, laissant à Harry sa cicatrice en éclair."
+    },
+    {
+      "id": "hp-f10",
+      "difficulty": "facile",
+      "text": "De quelle voie de la gare de King's Cross part le train de l'école ?",
+      "options": [
+        { "id": "a", "label": "9¾" },
+        { "id": "b", "label": "7½" },
+        { "id": "c", "label": "10¼" },
+        { "id": "d", "label": "11¾" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "On y accède en traversant le mur entre les voies 9 et 10."
+    },
+    {
+      "id": "hp-m1",
+      "difficulty": "moyen",
+      "text": "Quel est le nom de naissance du mage noir, anagramme de « Je suis Voldemort » ?",
+      "options": [
+        { "id": "a", "label": "Tom Elvis Jedusor" },
+        { "id": "b", "label": "Marvolo Sombre Gaunt" },
+        { "id": "c", "label": "Salazar Elvis Serpentard" },
+        { "id": "d", "label": "Tom Servolo Sombre" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "En version originale, l'anagramme fonctionne avec « Tom Marvolo Riddle »."
+    },
+    {
+      "id": "hp-m2",
+      "difficulty": "moyen",
+      "text": "Qui se cache derrière le surnom de Maraudeur « Cornedrue » ?",
+      "options": [
+        { "id": "a", "label": "James Potter" },
+        { "id": "b", "label": "Sirius Black" },
+        { "id": "c", "label": "Remus Lupin" },
+        { "id": "d", "label": "Peter Pettigrow" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Son Animagus est un cerf, tout comme son Patronus."
+    },
+    {
+      "id": "hp-m3",
+      "difficulty": "moyen",
+      "text": "Quelle forme prend le Patronus de Severus Rogue ?",
+      "options": [
+        { "id": "a", "label": "Une biche" },
+        { "id": "b", "label": "Un cerf" },
+        { "id": "c", "label": "Une loutre" },
+        { "id": "d", "label": "Un lièvre" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le même que celui de Lily, preuve d'un amour resté intact."
+    },
+    {
+      "id": "hp-m4",
+      "difficulty": "moyen",
+      "text": "Quelle balle l'attrapeur doit-il saisir pour mettre fin au match ?",
+      "options": [
+        { "id": "a", "label": "Le Vif d'or" },
+        { "id": "b", "label": "Le Souafle" },
+        { "id": "c", "label": "Le Cognard" },
+        { "id": "d", "label": "Le Percuteur" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "L'attraper rapporte 150 points, souvent décisifs."
+    },
+    {
+      "id": "hp-m5",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle la prison des sorciers, gardée par les Détraqueurs ?",
+      "options": [
+        { "id": "a", "label": "Azkaban" },
+        { "id": "b", "label": "Nurmengard" },
+        { "id": "c", "label": "Gringotts" },
+        { "id": "d", "label": "Serpentard" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Sirius est le seul sorcier connu à s'en être évadé sans aide."
+    },
+    {
+      "id": "hp-m6",
+      "difficulty": "moyen",
+      "text": "Quelle banque, tenue par les gobelins, garde l'or des sorciers ?",
+      "options": [
+        { "id": "a", "label": "Gringotts" },
+        { "id": "b", "label": "Azkaban" },
+        { "id": "c", "label": "Nurmengard" },
+        { "id": "d", "label": "Barjow" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Un dragon aveugle en garde les coffres les plus profonds."
+    },
+    {
+      "id": "hp-m7",
+      "difficulty": "moyen",
+      "text": "Quel quotidien informe la communauté magique britannique ?",
+      "options": [
+        { "id": "a", "label": "La Gazette du sorcier" },
+        { "id": "b", "label": "Le Chicaneur hebdomadaire" },
+        { "id": "c", "label": "Le Grimoire du soir" },
+        { "id": "d", "label": "La Plume vagabonde" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Rita Skeeter y publie ses articles à scandale."
+    },
+    {
+      "id": "hp-m8",
+      "difficulty": "moyen",
+      "text": "Quel elfe de maison Harry libère-t-il en cachant une chaussette dans un livre ?",
+      "options": [
+        { "id": "a", "label": "Dobby" },
+        { "id": "b", "label": "Kreattur" },
+        { "id": "c", "label": "Winky" },
+        { "id": "d", "label": "Ticky" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Un vêtement offert à un elfe le libère de ses maîtres."
+    },
+    {
+      "id": "hp-m9",
+      "difficulty": "moyen",
+      "text": "Quel balai de course Sirius offre-t-il anonymement à Harry ?",
+      "options": [
+        { "id": "a", "label": "L'Éclair de feu" },
+        { "id": "b", "label": "Le Nimbus 2000" },
+        { "id": "c", "label": "Le Nimbus 2001" },
+        { "id": "d", "label": "La Comète 260" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "McGonagall le confisque d'abord, craignant un piège."
+    },
+    {
+      "id": "hp-m10",
+      "difficulty": "moyen",
+      "text": "Quel sortilège, devenu la signature de Harry, désarme l'adversaire ?",
+      "options": [
+        { "id": "a", "label": "Expelliarmus" },
+        { "id": "b", "label": "Stupéfix" },
+        { "id": "c", "label": "Petrificus Totalus" },
+        { "id": "d", "label": "Wingardium Leviosa" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Certains lui reprochent d'en abuser au point de le rendre reconnaissable."
+    },
+    {
+      "id": "hp-m11",
+      "difficulty": "moyen",
+      "text": "Qui enseigne la métamorphose et dirige la maison Gryffondor ?",
+      "options": [
+        { "id": "a", "label": "Minerva McGonagall" },
+        { "id": "b", "label": "Pomona Chourave" },
+        { "id": "c", "label": "Filius Flitwick" },
+        { "id": "d", "label": "Horace Slughorn" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "C'est un Animagus capable de se changer en chat."
+    },
+    {
+      "id": "hp-m12",
+      "difficulty": "moyen",
+      "text": "Qui est le garde-chasse demi-géant, gardien des clés de l'école ?",
+      "options": [
+        { "id": "a", "label": "Rubeus Hagrid" },
+        { "id": "b", "label": "Argus Rusard" },
+        { "id": "c", "label": "Severus Rogue" },
+        { "id": "d", "label": "Cornelius Fudge" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il a un faible pour les créatures les plus dangereuses."
+    },
+    {
+      "id": "hp-m13",
+      "difficulty": "moyen",
+      "text": "Quel objet, hérité de son père, permet à Harry de devenir invisible ?",
+      "options": [
+        { "id": "a", "label": "La cape d'invisibilité" },
+        { "id": "b", "label": "La pierre de résurrection" },
+        { "id": "c", "label": "La baguette de Sureau" },
+        { "id": "d", "label": "La carte du Maraudeur" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "C'est l'une des trois Reliques de la Mort."
+    },
+    {
+      "id": "hp-m14",
+      "difficulty": "moyen",
+      "text": "Quel village entièrement sorcier les élèves visitent-ils le week-end ?",
+      "options": [
+        { "id": "a", "label": "Pré-au-Lard" },
+        { "id": "b", "label": "Godric's Hollow" },
+        { "id": "c", "label": "Loutry Ste Chaspoule" },
+        { "id": "d", "label": "Petit Hangleton" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "On y trouve les célèbres bièraubeurres des Trois Balais."
+    },
+    {
+      "id": "hp-m15",
+      "difficulty": "moyen",
+      "text": "Quelle compétition oppose plusieurs écoles de magie dans le quatrième tome ?",
+      "options": [
+        { "id": "a", "label": "Le Tournoi des Trois Sorciers" },
+        { "id": "b", "label": "La Coupe du monde de Quidditch" },
+        { "id": "c", "label": "Le Championnat de duel" },
+        { "id": "d", "label": "La Grande Bataille de Poudlard" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il avait été interrompu pendant des siècles à cause des morts qu'il causait."
+    },
+    {
+      "id": "hp-m16",
+      "difficulty": "moyen",
+      "text": "Quel objet ancien montre à celui qui s'y regarde son désir le plus profond ?",
+      "options": [
+        { "id": "a", "label": "Le Miroir du Riséd" },
+        { "id": "b", "label": "La Pensine de Poudlard" },
+        { "id": "c", "label": "Le Retourneur de Temps" },
+        { "id": "d", "label": "Le Choixpeau magique" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "« Riséd » est le mot « désir » écrit à l'envers."
+    },
+    {
+      "id": "hp-m17",
+      "difficulty": "moyen",
+      "text": "Quel lieu caché, ouvert par l'héritier de Serpentard, abrite un monstre ?",
+      "options": [
+        { "id": "a", "label": "La Chambre des Secrets" },
+        { "id": "b", "label": "La Salle sur Demande" },
+        { "id": "c", "label": "La Forêt interdite" },
+        { "id": "d", "label": "Le Département des mystères" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Son entrée se trouve dans les toilettes de Mimi Geignarde."
+    },
+    {
+      "id": "hp-m18",
+      "difficulty": "moyen",
+      "text": "Quelle créature géante terrorise l'école dans le deuxième tome ?",
+      "options": [
+        { "id": "a", "label": "Un basilic" },
+        { "id": "b", "label": "Un détraqueur" },
+        { "id": "c", "label": "Un scroutt" },
+        { "id": "d", "label": "Un troll" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Son regard direct tue ; par reflet, il ne fait que pétrifier."
+    },
+    {
+      "id": "hp-m19",
+      "difficulty": "moyen",
+      "text": "Quelle est l'origine des parents d'Hermione Granger ?",
+      "options": [
+        { "id": "a", "label": "Des moldus" },
+        { "id": "b", "label": "Des sorciers" },
+        { "id": "c", "label": "Des cracmols" },
+        { "id": "d", "label": "Des gobelins" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ses parents sont tous deux dentistes."
+    },
+    {
+      "id": "hp-m20",
+      "difficulty": "moyen",
+      "text": "Qui est le capitaine et gardien de l'équipe de Quidditch de Gryffondor à l'arrivée de Harry ?",
+      "options": [
+        { "id": "a", "label": "Olivier Dubois" },
+        { "id": "b", "label": "Cedric Diggory" },
+        { "id": "c", "label": "Marcus Flint" },
+        { "id": "d", "label": "Cormac McLaggen" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il rejoindra plus tard l'équipe professionnelle de Flaquemare."
+    },
+    {
+      "id": "hp-d1",
+      "difficulty": "dur",
+      "text": "Qui enseigne les potions et dirige la maison Serpentard au début de la saga ?",
+      "options": [
+        { "id": "a", "label": "Severus Rogue" },
+        { "id": "b", "label": "Horace Slughorn" },
+        { "id": "c", "label": "Alastor Maugrey" },
+        { "id": "d", "label": "Quirinus Quirrell" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il rêvait en réalité d'enseigner la défense contre les forces du Mal."
+    },
+    {
+      "id": "hp-d2",
+      "difficulty": "dur",
+      "text": "Qui est le parrain de Harry, injustement enfermé à Azkaban ?",
+      "options": [
+        { "id": "a", "label": "Sirius Black" },
+        { "id": "b", "label": "Remus Lupin" },
+        { "id": "c", "label": "Peter Pettigrow" },
+        { "id": "d", "label": "James Potter" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il a passé douze ans en prison pour un crime commis par un autre."
+    },
+    {
+      "id": "hp-d3",
+      "difficulty": "dur",
+      "text": "Quel Animagus se cache sous la forme du rat de compagnie de Ron ?",
+      "options": [
+        { "id": "a", "label": "Peter Pettigrow" },
+        { "id": "b", "label": "Sirius Black" },
+        { "id": "c", "label": "Remus Lupin" },
+        { "id": "d", "label": "Barty Croupton" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Sous sa forme de rat, il lui manque un doigt à une patte."
+    },
+    {
+      "id": "hp-d4",
+      "difficulty": "dur",
+      "text": "Quel professeur de défense, atteint de lycanthropie, enseigne dans le troisième tome ?",
+      "options": [
+        { "id": "a", "label": "Remus Lupin" },
+        { "id": "b", "label": "Gilderoy Lockhart" },
+        { "id": "c", "label": "Alastor Maugrey" },
+        { "id": "d", "label": "Dolores Ombrage" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il apprend à Harry à repousser les Détraqueurs."
+    },
+    {
+      "id": "hp-d5",
+      "difficulty": "dur",
+      "text": "Quel objet Hermione utilise-t-elle pour suivre plusieurs cours simultanément ?",
+      "options": [
+        { "id": "a", "label": "Un Retourneur de Temps" },
+        { "id": "b", "label": "Une Pensine portative" },
+        { "id": "c", "label": "Un Rapeltout doré" },
+        { "id": "d", "label": "Un Déluminateur ancien" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il servira aussi à sauver Sirius et Buck."
+    },
+    {
+      "id": "hp-d6",
+      "difficulty": "dur",
+      "text": "Quel sortilège impardonnable provoque une mort instantanée ?",
+      "options": [
+        { "id": "a", "label": "Avada Kedavra" },
+        { "id": "b", "label": "Endoloris" },
+        { "id": "c", "label": "Impero" },
+        { "id": "d", "label": "Sectumsempra" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Une lumière verte accompagne ce sortilège mortel."
+    },
+    {
+      "id": "hp-d7",
+      "difficulty": "dur",
+      "text": "Qui est le concierge cracmol de l'école, propriétaire de Miss Teigne ?",
+      "options": [
+        { "id": "a", "label": "Argus Rusard" },
+        { "id": "b", "label": "Rubeus Hagrid" },
+        { "id": "c", "label": "Barty Croupton" },
+        { "id": "d", "label": "Cornelius Fudge" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Un cracmol naît de parents sorciers mais ne possède aucun pouvoir."
+    },
+    {
+      "id": "hp-d8",
+      "difficulty": "dur",
+      "text": "Quelle potion permet de prendre l'apparence d'une autre personne ?",
+      "options": [
+        { "id": "a", "label": "Le Polynectar" },
+        { "id": "b", "label": "Le Veritaserum" },
+        { "id": "c", "label": "L'Amortentia" },
+        { "id": "d", "label": "Le Felix Felicis" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Sa préparation demande environ un mois de patience."
+    },
+    {
+      "id": "hp-d9",
+      "difficulty": "dur",
+      "text": "Quel professeur vaniteux, auteur de best-sellers, perd la mémoire dans le deuxième tome ?",
+      "options": [
+        { "id": "a", "label": "Gilderoy Lockhart" },
+        { "id": "b", "label": "Remus Lupin" },
+        { "id": "c", "label": "Quirinus Quirrell" },
+        { "id": "d", "label": "Horace Slughorn" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Son sortilège d'Amnésie se retourne contre lui."
+    },
+    {
+      "id": "hp-d10",
+      "difficulty": "dur",
+      "text": "Quel événement mondain accompagne le Tournoi des Trois Sorciers ?",
+      "options": [
+        { "id": "a", "label": "Le Bal de Noël" },
+        { "id": "b", "label": "La fête de Halloween" },
+        { "id": "c", "label": "Le banquet des Maisons" },
+        { "id": "d", "label": "La Coupe de l'année" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Hermione y apparaît au bras de Viktor Krum."
+    },
+    {
+      "id": "hp-d11",
+      "difficulty": "dur",
+      "text": "Quel élève de Poufsouffle est choisi comme champion de l'école pour le tournoi ?",
+      "options": [
+        { "id": "a", "label": "Cedric Diggory" },
+        { "id": "b", "label": "Viktor Krum" },
+        { "id": "c", "label": "Cormac McLaggen" },
+        { "id": "d", "label": "Ernie Macmillan" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il partage la victoire finale avec Harry par fair-play."
+    },
+    {
+      "id": "hp-d12",
+      "difficulty": "dur",
+      "text": "De quelle école vient le célèbre attrapeur Viktor Krum ?",
+      "options": [
+        { "id": "a", "label": "Durmstrang" },
+        { "id": "b", "label": "Beauxbâtons" },
+        { "id": "c", "label": "Poudlard" },
+        { "id": "d", "label": "Ilvermorny" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il jouait déjà en équipe nationale malgré son jeune âge."
+    },
+    {
+      "id": "hp-d13",
+      "difficulty": "dur",
+      "text": "Comment nomme-t-on un objet dans lequel un mage noir dissimule un fragment de son âme ?",
+      "options": [
+        { "id": "a", "label": "Un Horcruxe" },
+        { "id": "b", "label": "Une Pensine" },
+        { "id": "c", "label": "Un Portoloin" },
+        { "id": "d", "label": "Un Rapeltout" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "En créer un nécessite de commettre un meurtre."
+    },
+    {
+      "id": "hp-d14",
+      "difficulty": "dur",
+      "text": "Quel Horcruxe Harry détruit-il avec un crochet de basilic dans le deuxième tome ?",
+      "options": [
+        { "id": "a", "label": "Le journal de Jedusor" },
+        { "id": "b", "label": "Le médaillon de Serpentard" },
+        { "id": "c", "label": "La bague des Gaunt" },
+        { "id": "d", "label": "Le diadème de Serdaigle" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Personne ne sait alors qu'il s'agit d'un fragment d'âme."
+    },
+    {
+      "id": "hp-d15",
+      "difficulty": "dur",
+      "text": "Quelles créatures ailées ne sont visibles que par ceux ayant vu la mort ?",
+      "options": [
+        { "id": "a", "label": "Les Sombrals" },
+        { "id": "b", "label": "Les Détraqueurs" },
+        { "id": "c", "label": "Les Niffleurs" },
+        { "id": "d", "label": "Les Épouvantards" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ils tirent les diligences qui mènent au château."
+    },
+    {
+      "id": "hp-d16",
+      "difficulty": "dur",
+      "text": "Qui enseigne la divination dans une tour enfumée et parfumée ?",
+      "options": [
+        { "id": "a", "label": "Sibylle Trelawney" },
+        { "id": "b", "label": "Pomona Chourave" },
+        { "id": "c", "label": "Septima Vector" },
+        { "id": "d", "label": "Charity Burbage" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ses prédictions semblent fantaisistes... sauf deux, bien réelles."
+    },
+    {
+      "id": "hp-d17",
+      "difficulty": "dur",
+      "text": "Qui occupe le poste de ministre de la Magie jusqu'au cinquième tome ?",
+      "options": [
+        { "id": "a", "label": "Cornelius Fudge" },
+        { "id": "b", "label": "Rufus Scrimgeour" },
+        { "id": "c", "label": "Kingsley Shacklebolt" },
+        { "id": "d", "label": "Pius Thicknesse" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il nie longtemps le retour du mage noir par pur déni politique."
+    },
+    {
+      "id": "hp-d18",
+      "difficulty": "dur",
+      "text": "Quelle envoyée du Ministère impose sa tyrannie à l'école dans le cinquième tome ?",
+      "options": [
+        { "id": "a", "label": "Dolores Ombrage" },
+        { "id": "b", "label": "Minerva McGonagall" },
+        { "id": "c", "label": "Charity Burbage" },
+        { "id": "d", "label": "Bathilda Tourdesac" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elle punit les élèves avec une plume qui écrit dans leur chair."
+    },
+    {
+      "id": "hp-d19",
+      "difficulty": "dur",
+      "text": "Comment s'appelle le groupe clandestin d'entraînement au duel monté par Harry ?",
+      "options": [
+        { "id": "a", "label": "L'Armée de Dumbledore" },
+        { "id": "b", "label": "L'Ordre du Phénix" },
+        { "id": "c", "label": "La Brigade inquisitoriale" },
+        { "id": "d", "label": "Le Club de Slug" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ses membres se réunissent en secret dans la Salle sur Demande."
+    },
+    {
+      "id": "hp-d20",
+      "difficulty": "dur",
+      "text": "Quelle organisation secrète Dumbledore fonde-t-il pour combattre les mages noirs ?",
+      "options": [
+        { "id": "a", "label": "L'Ordre du Phénix" },
+        { "id": "b", "label": "L'Armée de Dumbledore" },
+        { "id": "c", "label": "La Brigade inquisitoriale" },
+        { "id": "d", "label": "Le Magenmagot suprême" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Son quartier général se trouve au 12, square Grimmaurd."
+    },
+    {
+      "id": "hp-d21",
+      "difficulty": "dur",
+      "text": "Quel est le nom du phénix domestique de Dumbledore ?",
+      "options": [
+        { "id": "a", "label": "Fumseck" },
+        { "id": "b", "label": "Aragog" },
+        { "id": "c", "label": "Buck" },
+        { "id": "d", "label": "Touffu" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ses larmes ont des vertus curatives puissantes."
+    },
+    {
+      "id": "hp-d22",
+      "difficulty": "dur",
+      "text": "Quel animal à trois têtes garde la trappe menant à la pierre philosophale ?",
+      "options": [
+        { "id": "a", "label": "Touffu" },
+        { "id": "b", "label": "Aragog" },
+        { "id": "c", "label": "Norbert" },
+        { "id": "d", "label": "Buck" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "La musique l'endort instantanément."
+    },
+    {
+      "id": "hp-d23",
+      "difficulty": "dur",
+      "text": "Quelle acromantule Hagrid a-t-il élevée en secret dans la forêt interdite ?",
+      "options": [
+        { "id": "a", "label": "Aragog" },
+        { "id": "b", "label": "Norbert" },
+        { "id": "c", "label": "Buck" },
+        { "id": "d", "label": "Fumseck" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Sa présence fit accuser Hagrid d'avoir ouvert la Chambre des Secrets."
+    },
+    {
+      "id": "hp-d24",
+      "difficulty": "dur",
+      "text": "Quel hippogriffe Hagrid présente-t-il en cours, avant qu'il ne soit condamné ?",
+      "options": [
+        { "id": "a", "label": "Buck" },
+        { "id": "b", "label": "Aragog" },
+        { "id": "c", "label": "Touffu" },
+        { "id": "d", "label": "Norbert" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il faut s'incliner devant un hippogriffe avant de l'approcher."
+    },
+    {
+      "id": "hp-d25",
+      "difficulty": "dur",
+      "text": "Quel lieu du château n'apparaît qu'à ceux qui en ont réellement besoin ?",
+      "options": [
+        { "id": "a", "label": "La Salle sur Demande" },
+        { "id": "b", "label": "La Chambre des Secrets" },
+        { "id": "c", "label": "La Grande Salle" },
+        { "id": "d", "label": "La Volière commune" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "On l'appelle aussi la « Pièce va-et-vient »."
+    },
+    {
+      "id": "hp-d26",
+      "difficulty": "dur",
+      "text": "Dans quel objet Dumbledore conserve-t-il et revisite-t-il des souvenirs ?",
+      "options": [
+        { "id": "a", "label": "La Pensine" },
+        { "id": "b", "label": "Le Miroir du Riséd" },
+        { "id": "c", "label": "Le Rapeltout" },
+        { "id": "d", "label": "Le Déluminateur" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "On y plonge le visage pour revivre un souvenir de l'intérieur."
+    },
+    {
+      "id": "hp-d27",
+      "difficulty": "dur",
+      "text": "Quelle incantation permet d'invoquer un gardien lumineux contre les Détraqueurs ?",
+      "options": [
+        { "id": "a", "label": "Expecto Patronum" },
+        { "id": "b", "label": "Spero Patronum" },
+        { "id": "c", "label": "Riddikulus" },
+        { "id": "d", "label": "Lumos Maxima" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il faut se concentrer sur son souvenir le plus heureux."
+    },
+    {
+      "id": "hp-d28",
+      "difficulty": "dur",
+      "text": "Quelle plante étouffe ses victimes mais se rétracte face à la lumière et au feu ?",
+      "options": [
+        { "id": "a", "label": "Le Filet du Diable" },
+        { "id": "b", "label": "La Mandragore" },
+        { "id": "c", "label": "Le Saule cogneur" },
+        { "id": "d", "label": "La Branchiflore" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "« Il aime le noir et l'humidité », rappelle Hermione."
+    },
+    {
+      "id": "hp-d29",
+      "difficulty": "dur",
+      "text": "Quelle plante hurlante, dont le cri peut être fatal, sert à préparer un antidote ?",
+      "options": [
+        { "id": "a", "label": "La Mandragore" },
+        { "id": "b", "label": "Le Filet du Diable" },
+        { "id": "c", "label": "La Branchiflore" },
+        { "id": "d", "label": "L'Aconit tue-loup" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "On porte des cache-oreilles pour la rempoter sans danger."
+    },
+    {
+      "id": "hp-d30",
+      "difficulty": "dur",
+      "text": "Face à un sorcier, quelle est la particularité redoutable d'un Épouvantard ?",
+      "options": [
+        { "id": "a", "label": "Il prend la forme de notre pire peur" },
+        { "id": "b", "label": "Il vole nos souvenirs les plus heureux" },
+        { "id": "c", "label": "Il aspire toute notre magie" },
+        { "id": "d", "label": "Il imite parfaitement notre voix" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le sortilège « Riddikulus » le tourne en ridicule pour le vaincre."
+    },
+    {
+      "id": "hp-p1",
+      "difficulty": "pro",
+      "text": "Quels sont, dans l'ordre, tous les prénoms du directeur Dumbledore ?",
+      "options": [
+        { "id": "a", "label": "Albus Perceval Wulfric Brian" },
+        { "id": "b", "label": "Albus Wulfric Perceval Brian" },
+        { "id": "c", "label": "Albus Brian Perceval Wulfric" },
+        { "id": "d", "label": "Albus Perceval Brian Wulfric" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Un empilement de prénoms typiquement excentrique."
+    },
+    {
+      "id": "hp-p2",
+      "difficulty": "pro",
+      "text": "En quels matériaux sont faits le bois et le cœur de la baguette de Harry ?",
+      "options": [
+        { "id": "a", "label": "Houx et plume de phénix" },
+        { "id": "b", "label": "If et plume de phénix" },
+        { "id": "c", "label": "Houx et ventricule de dragon" },
+        { "id": "d", "label": "Aubépine et crin de licorne" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Sa plume provient de Fumseck, comme celle de la baguette de Voldemort."
+    },
+    {
+      "id": "hp-p3",
+      "difficulty": "pro",
+      "text": "De quel bois est faite la baguette de Lord Voldemort ?",
+      "options": [
+        { "id": "a", "label": "L'if" },
+        { "id": "b", "label": "Le houx" },
+        { "id": "c", "label": "Le sureau" },
+        { "id": "d", "label": "L'aubépine" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "L'if symbolise à la fois la mort et la résurrection."
+    },
+    {
+      "id": "hp-p4",
+      "difficulty": "pro",
+      "text": "Qui se cache derrière les initiales « R.A.B. » gravées dans le faux médaillon ?",
+      "options": [
+        { "id": "a", "label": "Regulus Arcturus Black" },
+        { "id": "b", "label": "Rodolphus Antonin Black" },
+        { "id": "c", "label": "Regulus Alphard Black" },
+        { "id": "d", "label": "Rabastan Aldous Black" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le jeune frère de Sirius s'est sacrifié pour voler un Horcruxe."
+    },
+    {
+      "id": "hp-p5",
+      "difficulty": "pro",
+      "text": "Lequel des trois frères de la légende est l'ancêtre de Harry, possesseur de la cape ?",
+      "options": [
+        { "id": "a", "label": "Ignotus Peverell" },
+        { "id": "b", "label": "Cadmus Peverell" },
+        { "id": "c", "label": "Antioche Peverell" },
+        { "id": "d", "label": "Ignatius Peverell" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Antioche reçut la baguette, Cadmus la pierre, Ignotus la cape."
+    },
+    {
+      "id": "hp-p6",
+      "difficulty": "pro",
+      "text": "Quelle est la véritable identité de la Dame Grise, fantôme de la maison à l'aigle de bronze ?",
+      "options": [
+        { "id": "a", "label": "Helena Serdaigle" },
+        { "id": "b", "label": "Rowena Serdaigle" },
+        { "id": "c", "label": "Ariana Dumbledore" },
+        { "id": "d", "label": "Morgane Serdaigle" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elle avait dérobé le diadème de sa propre mère."
+    },
+    {
+      "id": "hp-p7",
+      "difficulty": "pro",
+      "text": "Quel fantôme a tué la Dame Grise avant de se donner la mort par remords ?",
+      "options": [
+        { "id": "a", "label": "Le Baron Sanglant" },
+        { "id": "b", "label": "Le Moine Gras" },
+        { "id": "c", "label": "Nick Quasi-Sans-Tête" },
+        { "id": "d", "label": "Peeves l'esprit frappeur" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Les chaînes qu'il porte expriment son éternelle culpabilité."
+    },
+    {
+      "id": "hp-p8",
+      "difficulty": "pro",
+      "text": "Combien d'escaliers, réputés changer de place, compte le château de Poudlard ?",
+      "options": [
+        { "id": "a", "label": "142" },
+        { "id": "b", "label": "136" },
+        { "id": "c", "label": "128" },
+        { "id": "d", "label": "150" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Certains mènent à un endroit différent selon le jour."
+    },
+    {
+      "id": "hp-p9",
+      "difficulty": "pro",
+      "text": "À quel âge Nicolas Flamel meurt-il après la destruction de la pierre philosophale ?",
+      "options": [
+        { "id": "a", "label": "665 ans" },
+        { "id": "b", "label": "600 ans" },
+        { "id": "c", "label": "700 ans" },
+        { "id": "d", "label": "525 ans" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Sa femme Pernelle avait, elle, dépassé les 650 ans."
+    },
+    {
+      "id": "hp-p10",
+      "difficulty": "pro",
+      "text": "Comment se nomme la mère sorcière de Tom Jedusor ?",
+      "options": [
+        { "id": "a", "label": "Mérope Gaunt" },
+        { "id": "b", "label": "Bellatrix Gaunt" },
+        { "id": "c", "label": "Morgane Gaunt" },
+        { "id": "d", "label": "Ariana Gaunt" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Descendante de Serpentard, elle mourut peu après l'accouchement."
+    },
+    {
+      "id": "hp-p11",
+      "difficulty": "pro",
+      "text": "Dans quel établissement moldu Tom Jedusor a-t-il grandi ?",
+      "options": [
+        { "id": "a", "label": "L'orphelinat Wool" },
+        { "id": "b", "label": "L'orphelinat Nurmengard" },
+        { "id": "c", "label": "L'orphelinat Barnabé" },
+        { "id": "d", "label": "L'orphelinat Spinner" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "C'est là que Dumbledore le rencontra pour la première fois."
+    },
+    {
+      "id": "hp-p12",
+      "difficulty": "pro",
+      "text": "Qui est réellement le mystérieux « Prince de Sang-Mêlé » ?",
+      "options": [
+        { "id": "a", "label": "Severus Rogue" },
+        { "id": "b", "label": "Tom Jedusor" },
+        { "id": "c", "label": "Regulus Black" },
+        { "id": "d", "label": "Horace Slughorn" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il avait annoté son manuel de potions de formules inédites."
+    },
+    {
+      "id": "hp-p13",
+      "difficulty": "pro",
+      "text": "Quel est le nom de la mère sorcière de Rogue, dont il tira son surnom ?",
+      "options": [
+        { "id": "a", "label": "Eileen Prince" },
+        { "id": "b", "label": "Cordelia Prince" },
+        { "id": "c", "label": "Eileen Selwyn" },
+        { "id": "d", "label": "Eileen Rosier" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Son père moldu, Tobias, lui avait donné son sang mêlé."
+    },
+    {
+      "id": "hp-p14",
+      "difficulty": "pro",
+      "text": "Qui détruit la coupe de Poufsouffle avec un crochet de basilic ?",
+      "options": [
+        { "id": "a", "label": "Hermione Granger" },
+        { "id": "b", "label": "Ron Weasley" },
+        { "id": "c", "label": "Neville Londubat" },
+        { "id": "d", "label": "Harry Potter" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ron et elle étaient allés chercher les crochets dans la Chambre des Secrets."
+    },
+    {
+      "id": "hp-p15",
+      "difficulty": "pro",
+      "text": "Qui décapite le serpent Nagini avec l'épée de Gryffondor ?",
+      "options": [
+        { "id": "a", "label": "Neville Londubat" },
+        { "id": "b", "label": "Ron Weasley" },
+        { "id": "c", "label": "Harry Potter" },
+        { "id": "d", "label": "Molly Weasley" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il sortit l'épée du Choixpeau, comme Harry avant lui."
+    },
+    {
+      "id": "hp-p16",
+      "difficulty": "pro",
+      "text": "Quelle sorcière tue Bellatrix Lestrange lors de la bataille finale ?",
+      "options": [
+        { "id": "a", "label": "Molly Weasley" },
+        { "id": "b", "label": "Minerva McGonagall" },
+        { "id": "c", "label": "Nymphadora Tonks" },
+        { "id": "d", "label": "Ginny Weasley" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "« Pas ma fille, espèce de garce ! » lance-t-elle avant le duel."
+    },
+    {
+      "id": "hp-p17",
+      "difficulty": "pro",
+      "text": "Quel élève déclenche le Feudeymon qui détruit le diadème dans la Salle sur Demande ?",
+      "options": [
+        { "id": "a", "label": "Vincent Crabbe" },
+        { "id": "b", "label": "Gregory Goyle" },
+        { "id": "c", "label": "Drago Malefoy" },
+        { "id": "d", "label": "Blaise Zabini" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il périt dans les flammes maudites qu'il ne savait pas maîtriser."
+    },
+    {
+      "id": "hp-p18",
+      "difficulty": "pro",
+      "text": "En combien de fragments Voldemort cherche-t-il à diviser son âme ?",
+      "options": [
+        { "id": "a", "label": "Sept" },
+        { "id": "b", "label": "Six" },
+        { "id": "c", "label": "Cinq" },
+        { "id": "d", "label": "Neuf" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Sept étant considéré comme le nombre magique le plus puissant."
+    },
+    {
+      "id": "hp-p19",
+      "difficulty": "pro",
+      "text": "Qui tient l'auberge miteuse de la Tête de Sanglier, à Pré-au-Lard ?",
+      "options": [
+        { "id": "a", "label": "Abelforth Dumbledore" },
+        { "id": "b", "label": "Mondingus Fletcher" },
+        { "id": "c", "label": "Gellert Grindelwald" },
+        { "id": "d", "label": "Barnabé Cuffe" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le frère du directeur passe pour aimer un peu trop ses chèvres."
+    },
+    {
+      "id": "hp-p20",
+      "difficulty": "pro",
+      "text": "Quel mage noir Dumbledore a-t-il vaincu lors d'un duel légendaire en 1945 ?",
+      "options": [
+        { "id": "a", "label": "Gellert Grindelwald" },
+        { "id": "b", "label": "Tom Jedusor" },
+        { "id": "c", "label": "Antonin Dolohov" },
+        { "id": "d", "label": "Igor Karkaroff" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ils avaient pourtant été très proches dans leur jeunesse."
+    },
+    {
+      "id": "hp-p21",
+      "difficulty": "pro",
+      "text": "Comment se nomme la sœur cadette du célèbre directeur de Poudlard, morte jeune et tragiquement ?",
+      "options": [
+        { "id": "a", "label": "Ariana Dumbledore" },
+        { "id": "b", "label": "Kendra Dumbledore" },
+        { "id": "c", "label": "Bathilda Dumbledore" },
+        { "id": "d", "label": "Helena Dumbledore" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "On ne sait jamais qui, dans le duel à trois, lança le sort fatal."
+    },
+    {
+      "id": "hp-p22",
+      "difficulty": "pro",
+      "text": "La découverte des douze usages de quelle substance a rendu Dumbledore célèbre ?",
+      "options": [
+        { "id": "a", "label": "Le sang de dragon" },
+        { "id": "b", "label": "Le venin de basilic" },
+        { "id": "c", "label": "Les larmes de phénix" },
+        { "id": "d", "label": "La poudre de corne" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "C'est écrit noir sur blanc au dos de sa carte de Chocogrenouille."
+    },
+    {
+      "id": "hp-p23",
+      "difficulty": "pro",
+      "text": "En quel animal le professeur McGonagall peut-elle se métamorphoser ?",
+      "options": [
+        { "id": "a", "label": "Un chat" },
+        { "id": "b", "label": "Un corbeau" },
+        { "id": "c", "label": "Une chouette" },
+        { "id": "d", "label": "Un lièvre" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ses marques autour des yeux rappellent ses lunettes."
+    },
+    {
+      "id": "hp-p24",
+      "difficulty": "pro",
+      "text": "Sous quelle forme d'insecte Rita Skeeter espionne-t-elle illégalement ?",
+      "options": [
+        { "id": "a", "label": "Un scarabée" },
+        { "id": "b", "label": "Une abeille" },
+        { "id": "c", "label": "Une mouche" },
+        { "id": "d", "label": "Une libellule" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "C'est une Animagus non déclarée, ce qu'Hermione utilise pour la faire chanter."
+    },
+    {
+      "id": "hp-p25",
+      "difficulty": "pro",
+      "text": "Quel élève possède un Mimbulus mimbletonia, plante rare qui gicle du Pus-jus ?",
+      "options": [
+        { "id": "a", "label": "Neville Londubat" },
+        { "id": "b", "label": "Luna Lovegood" },
+        { "id": "c", "label": "Ernie Macmillan" },
+        { "id": "d", "label": "Dean Thomas" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ce mot de passe végétal permet même d'entrer chez Gryffondor."
+    },
+    {
+      "id": "hp-p26",
+      "difficulty": "pro",
+      "text": "Quel portrait garde l'entrée de la salle commune de Gryffondor ?",
+      "options": [
+        { "id": "a", "label": "La Grosse Dame" },
+        { "id": "b", "label": "La Dame Grise" },
+        { "id": "c", "label": "Le Chevalier du Catogan" },
+        { "id": "d", "label": "Le Baron Sanglant" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Sirius lacéra sa toile pour tenter d'entrer."
+    },
+    {
+      "id": "hp-p27",
+      "difficulty": "pro",
+      "text": "Quelle élève trahit l'Armée de Dumbledore et se retrouve défigurée par un sortilège ?",
+      "options": [
+        { "id": "a", "label": "Marietta Edgecombe" },
+        { "id": "b", "label": "Cho Chang" },
+        { "id": "c", "label": "Pansy Parkinson" },
+        { "id": "d", "label": "Romilda Vane" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le mot « CAFARD » resta longtemps inscrit en boutons sur son visage."
+    },
+    {
+      "id": "hp-p28",
+      "difficulty": "pro",
+      "text": "Comment se nomme le demi-frère géant de Hagrid, caché dans la forêt ?",
+      "options": [
+        { "id": "a", "label": "Graup" },
+        { "id": "b", "label": "Golgomath" },
+        { "id": "c", "label": "Karkus" },
+        { "id": "d", "label": "Morholt" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Hagrid tente patiemment de lui apprendre à parler anglais."
+    },
+    {
+      "id": "hp-p29",
+      "difficulty": "pro",
+      "text": "Comment s'appelle la mère géante de Hagrid ?",
+      "options": [
+        { "id": "a", "label": "Fridwulfa" },
+        { "id": "b", "label": "Olympe Maxime" },
+        { "id": "c", "label": "Kendra Rowle" },
+        { "id": "d", "label": "Mérope Selwyn" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elle abandonna Hagrid alors qu'il était encore très jeune."
+    },
+    {
+      "id": "hp-p30",
+      "difficulty": "pro",
+      "text": "Dans les livres, qui fournit à Harry la Branchiflore pour la deuxième tâche ?",
+      "options": [
+        { "id": "a", "label": "Dobby" },
+        { "id": "b", "label": "Neville Londubat" },
+        { "id": "c", "label": "Cedric Diggory" },
+        { "id": "d", "label": "Alastor Maugrey" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Au cinéma, c'est Neville qui joue ce rôle : un classique piège à fans."
+    },
+    {
+      "id": "hp-p31",
+      "difficulty": "pro",
+      "text": "Qui a formulé la prophétie liant le destin de Harry à celui de Voldemort ?",
+      "options": [
+        { "id": "a", "label": "Sibylle Trelawney" },
+        { "id": "b", "label": "Cassandra Trelawney" },
+        { "id": "c", "label": "Firenze le centaure" },
+        { "id": "d", "label": "Albus Dumbledore" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elle n'a aucun souvenir d'avoir prononcé cette vraie prédiction."
+    },
+    {
+      "id": "hp-p32",
+      "difficulty": "pro",
+      "text": "Quel espion a surpris le début de la prophétie derrière une porte, à la Tête de Sanglier ?",
+      "options": [
+        { "id": "a", "label": "Severus Rogue" },
+        { "id": "b", "label": "Peter Pettigrow" },
+        { "id": "c", "label": "Igor Karkaroff" },
+        { "id": "d", "label": "Lucius Malefoy" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il rapporta ces bribes à Voldemort, puis passa sa vie à le regretter."
+    },
+    {
+      "id": "hp-p33",
+      "difficulty": "pro",
+      "text": "Dans quel service du Ministère Sirius Black trouve-t-il la mort ?",
+      "options": [
+        { "id": "a", "label": "Le Département des mystères" },
+        { "id": "b", "label": "Le bureau des Aurors" },
+        { "id": "c", "label": "Le Magenmagot" },
+        { "id": "d", "label": "L'Atrium central" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il bascule à travers un mystérieux voile, poussé par Bellatrix."
+    },
+    {
+      "id": "hp-p34",
+      "difficulty": "pro",
+      "text": "Quelles équipes s'affrontent en finale de la Coupe du monde de Quidditch du quatrième tome ?",
+      "options": [
+        { "id": "a", "label": "Irlande contre Bulgarie" },
+        { "id": "b", "label": "Angleterre contre Bulgarie" },
+        { "id": "c", "label": "Irlande contre Égypte" },
+        { "id": "d", "label": "France contre Bulgarie" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "L'Irlande gagne alors même que Krum attrape le Vif d'or."
+    },
+    {
+      "id": "hp-p35",
+      "difficulty": "pro",
+      "text": "De quelle équipe de Quidditch Ron Weasley est-il un supporter inconditionnel ?",
+      "options": [
+        { "id": "a", "label": "Les Canons de Chudley" },
+        { "id": "b", "label": "Les Harpies de Holyhead" },
+        { "id": "c", "label": "Les Tornades de Tutshill" },
+        { "id": "d", "label": "Les Frelons de Wimbourne" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Une équipe qui n'a plus rien gagné depuis 1892."
+    },
+    {
+      "id": "hp-p36",
+      "difficulty": "pro",
+      "text": "Dans quelle équipe entièrement féminine Ginny Weasley joue-t-elle en professionnelle ?",
+      "options": [
+        { "id": "a", "label": "Les Harpies de Holyhead" },
+        { "id": "b", "label": "Les Canons de Chudley" },
+        { "id": "c", "label": "Les Pies de Montrose" },
+        { "id": "d", "label": "Les Tornades de Tutshill" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "La seule équipe de la ligue à n'accepter que des sorcières."
+    },
+    {
+      "id": "hp-p37",
+      "difficulty": "pro",
+      "text": "Quel professeur Barty Croupton Junior usurpe-t-il grâce au Polynectar dans le quatrième tome ?",
+      "options": [
+        { "id": "a", "label": "Alastor Maugrey" },
+        { "id": "b", "label": "Remus Lupin" },
+        { "id": "c", "label": "Gilderoy Lockhart" },
+        { "id": "d", "label": "Quirinus Quirrell" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il garde le vrai Auror enfermé dans une malle à sept serrures."
+    },
+    {
+      "id": "hp-p38",
+      "difficulty": "pro",
+      "text": "Quels sont les quatre surnoms des créateurs de la Carte du Maraudeur ?",
+      "options": [
+        { "id": "a", "label": "Lunard, Queudver, Patmol et Cornedrue" },
+        { "id": "b", "label": "Cornedrue, Patmol, Lunard et Verdenol" },
+        { "id": "c", "label": "Lunard, Queudver, Pointdur et Cornedrue" },
+        { "id": "d", "label": "Patmol, Lunard, Sombral et Cornedrue" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Chaque surnom renvoie à la forme d'Animagus ou à la condition de son porteur."
+    },
+    {
+      "id": "hp-p39",
+      "difficulty": "pro",
+      "text": "Quelle est la devise latine officielle de Poudlard ?",
+      "options": [
+        { "id": "a", "label": "Draco dormiens nunquam titillandus" },
+        { "id": "b", "label": "Draco dormiens semper vigilandus" },
+        { "id": "c", "label": "Sapientia potentia summa est" },
+        { "id": "d", "label": "Fortuna favet magis fortibus" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elle signifie : « Ne jamais chatouiller un dragon qui dort »."
+    },
+    {
+      "id": "hp-p40",
+      "difficulty": "pro",
+      "text": "Quel mot unique Rogue prononce-t-il pour révéler son amour resté intact pour Lily ?",
+      "options": [
+        { "id": "a", "label": "Toujours" },
+        { "id": "b", "label": "À jamais" },
+        { "id": "c", "label": "Encore" },
+        { "id": "d", "label": "Pardon" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "« After all this time? » — « Always », dans la version originale."
+    }
+  ]
+}
