@@ -1,0 +1,1305 @@
+{
+  "universeId": "disney",
+  "questions": [
+    {
+      "id": "dis-f1",
+      "difficulty": "facile",
+      "text": "Comment s'appelle le jeune lion héros du film « Le Roi Lion » ?",
+      "options": [
+        { "id": "a", "label": "Simba" },
+        { "id": "b", "label": "Mufasa" },
+        { "id": "c", "label": "Scar" },
+        { "id": "d", "label": "Kovu" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "En swahili, son prénom signifie tout simplement « lion »."
+    },
+    {
+      "id": "dis-f2",
+      "difficulty": "facile",
+      "text": "Quelle sœur possède des pouvoirs de glace dans « La Reine des Neiges » ?",
+      "options": [
+        { "id": "a", "label": "Elsa" },
+        { "id": "b", "label": "Anna" },
+        { "id": "c", "label": "Vaiana" },
+        { "id": "d", "label": "Raiponce" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Sa chanson « Libérée, délivrée » a fait le tour du monde."
+    },
+    {
+      "id": "dis-f3",
+      "difficulty": "facile",
+      "text": "Quel personnage bleu jaillit de la lampe magique dans « Aladdin » ?",
+      "options": [
+        { "id": "a", "label": "Le Génie" },
+        { "id": "b", "label": "Jafar" },
+        { "id": "c", "label": "Iago" },
+        { "id": "d", "label": "Abu" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il accorde trois vœux à son maître."
+    },
+    {
+      "id": "dis-f4",
+      "difficulty": "facile",
+      "text": "Quel objet Cendrillon perd-elle sur les marches à minuit ?",
+      "options": [
+        { "id": "a", "label": "Une pantoufle de verre" },
+        { "id": "b", "label": "Une couronne d'or" },
+        { "id": "c", "label": "Un collier de perles" },
+        { "id": "d", "label": "Un éventail brodé" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le prince s'en sert pour retrouver sa mystérieuse danseuse."
+    },
+    {
+      "id": "dis-f5",
+      "difficulty": "facile",
+      "text": "Combien de nains recueillent la jeune princesse dans « Blanche-Neige » ?",
+      "options": [
+        { "id": "a", "label": "Sept" },
+        { "id": "b", "label": "Cinq" },
+        { "id": "c", "label": "Six" },
+        { "id": "d", "label": "Huit" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Parmi eux : Prof, Grincheux, Simplet, Timide, Atchoum, Joyeux et Dormeur."
+    },
+    {
+      "id": "dis-f6",
+      "difficulty": "facile",
+      "text": "Comment s'appelle la petite sirène rousse, fille du roi des mers ?",
+      "options": [
+        { "id": "a", "label": "Ariel" },
+        { "id": "b", "label": "Ursula" },
+        { "id": "c", "label": "Jasmine" },
+        { "id": "d", "label": "Vaiana" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elle rêve de vivre parmi les humains."
+    },
+    {
+      "id": "dis-f7",
+      "difficulty": "facile",
+      "text": "Quelle jeune femme passionnée de lecture tombe amoureuse d'un prince changé en monstre ?",
+      "options": [
+        { "id": "a", "label": "Belle" },
+        { "id": "b", "label": "Aurore" },
+        { "id": "c", "label": "Jasmine" },
+        { "id": "d", "label": "Raiponce" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Sa gentillesse finit par briser le sortilège."
+    },
+    {
+      "id": "dis-f8",
+      "difficulty": "facile",
+      "text": "Que se passe-t-il pour Pinocchio à chaque fois qu'il ment ?",
+      "options": [
+        { "id": "a", "label": "Son nez s'allonge" },
+        { "id": "b", "label": "Ses oreilles poussent" },
+        { "id": "c", "label": "Sa voix change" },
+        { "id": "d", "label": "Ses mains grandissent" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "La Fée Bleue le transformera finalement en vrai petit garçon."
+    },
+    {
+      "id": "dis-f9",
+      "difficulty": "facile",
+      "text": "Quel ours débonnaire devient l'ami de Mowgli dans « Le Livre de la Jungle » ?",
+      "options": [
+        { "id": "a", "label": "Baloo" },
+        { "id": "b", "label": "Bagheera" },
+        { "id": "c", "label": "Kaa" },
+        { "id": "d", "label": "Louie" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Sa devise : « Il en faut peu pour être heureux »."
+    },
+    {
+      "id": "dis-f10",
+      "difficulty": "facile",
+      "text": "Comment s'appelle la jeune navigatrice polynésienne partie sauver son île ?",
+      "options": [
+        { "id": "a", "label": "Vaiana" },
+        { "id": "b", "label": "Elsa" },
+        { "id": "c", "label": "Ariel" },
+        { "id": "d", "label": "Mérida" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elle est guidée par l'océan lui-même."
+    },
+    {
+      "id": "dis-m1",
+      "difficulty": "moyen",
+      "text": "Quel lion à la balafre complote pour s'emparer du trône dans « Le Roi Lion » ?",
+      "options": [
+        { "id": "a", "label": "Scar" },
+        { "id": "b", "label": "Mufasa" },
+        { "id": "c", "label": "Rafiki" },
+        { "id": "d", "label": "Zazu" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il s'allie aux hyènes pour parvenir à ses fins."
+    },
+    {
+      "id": "dis-m2",
+      "difficulty": "moyen",
+      "text": "Quelle expression signifie « sans souci » et donne son titre à une chanson culte ?",
+      "options": [
+        { "id": "a", "label": "Hakuna Matata" },
+        { "id": "b", "label": "Bibbidi Bobbidi" },
+        { "id": "c", "label": "Zip-a-dee-doo-dah" },
+        { "id": "d", "label": "Supercalifragilistic" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "C'est une véritable expression swahilie."
+    },
+    {
+      "id": "dis-m3",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle le bonhomme de neige qui rêve de connaître l'été ?",
+      "options": [
+        { "id": "a", "label": "Olaf" },
+        { "id": "b", "label": "Sven" },
+        { "id": "c", "label": "Kristoff" },
+        { "id": "d", "label": "Hans" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elsa l'a créé par magie en repensant à son enfance."
+    },
+    {
+      "id": "dis-m4",
+      "difficulty": "moyen",
+      "text": "Quelle chanson Elsa entonne-t-elle en bâtissant son palais de glace ?",
+      "options": [
+        { "id": "a", "label": "Libérée, délivrée" },
+        { "id": "b", "label": "Ce rêve bleu" },
+        { "id": "c", "label": "L'air du vent" },
+        { "id": "d", "label": "Un jour mon prince viendra" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Son titre original est « Let It Go »."
+    },
+    {
+      "id": "dis-m5",
+      "difficulty": "moyen",
+      "text": "Quelle princesse d'Agrabah possède un tigre nommé Rajah ?",
+      "options": [
+        { "id": "a", "label": "Jasmine" },
+        { "id": "b", "label": "Ariel" },
+        { "id": "c", "label": "Aurore" },
+        { "id": "d", "label": "Mulan" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elle refuse d'épouser un prince par simple obligation."
+    },
+    {
+      "id": "dis-m6",
+      "difficulty": "moyen",
+      "text": "Quel grand vizir cherche à s'emparer du trône d'Agrabah ?",
+      "options": [
+        { "id": "a", "label": "Jafar" },
+        { "id": "b", "label": "Iago" },
+        { "id": "c", "label": "Hadès" },
+        { "id": "d", "label": "Scar" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Son dernier vœu, devenir un génie, cause sa perte."
+    },
+    {
+      "id": "dis-m7",
+      "difficulty": "moyen",
+      "text": "Quelle sorcière mi-femme mi-pieuvre dérobe la voix d'Ariel ?",
+      "options": [
+        { "id": "a", "label": "Ursula" },
+        { "id": "b", "label": "Maléfique" },
+        { "id": "c", "label": "Cruella" },
+        { "id": "d", "label": "Gothel" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elle range la voix volée dans un coquillage."
+    },
+    {
+      "id": "dis-m8",
+      "difficulty": "moyen",
+      "text": "Quel objet enchanté en forme de chandelier accueille Belle au château ?",
+      "options": [
+        { "id": "a", "label": "Lumière" },
+        { "id": "b", "label": "Big Ben" },
+        { "id": "c", "label": "Mrs Samovar" },
+        { "id": "d", "label": "Zip" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il chante le célèbre « C'est la fête »."
+    },
+    {
+      "id": "dis-m9",
+      "difficulty": "moyen",
+      "text": "Quel chasseur vaniteux veut épouser Belle contre son gré ?",
+      "options": [
+        { "id": "a", "label": "Gaston" },
+        { "id": "b", "label": "Maurice" },
+        { "id": "c", "label": "LeFou" },
+        { "id": "d", "label": "Philippe" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il finit par tomber du haut du château."
+    },
+    {
+      "id": "dis-m10",
+      "difficulty": "moyen",
+      "text": "Quel petit dragon rouge accompagne l'héroïne à la guerre dans « Mulan » ?",
+      "options": [
+        { "id": "a", "label": "Mushu" },
+        { "id": "b", "label": "Sisu" },
+        { "id": "c", "label": "Kaa" },
+        { "id": "d", "label": "Figaro" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il se présente comme le gardien déchu des ancêtres."
+    },
+    {
+      "id": "dis-m11",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle le petit singe compagnon d'Aladdin ?",
+      "options": [
+        { "id": "a", "label": "Abu" },
+        { "id": "b", "label": "Iago" },
+        { "id": "c", "label": "Rajah" },
+        { "id": "d", "label": "Meeko" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il a une fâcheuse tendance à voler tout ce qui brille."
+    },
+    {
+      "id": "dis-m12",
+      "difficulty": "moyen",
+      "text": "Quel tigre mangeur d'hommes menace Mowgli dans la jungle ?",
+      "options": [
+        { "id": "a", "label": "Shere Khan" },
+        { "id": "b", "label": "Le roi Louie" },
+        { "id": "c", "label": "Bagheera noire" },
+        { "id": "d", "label": "Kaa le python" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il craint par-dessus tout le feu des hommes."
+    },
+    {
+      "id": "dis-m13",
+      "difficulty": "moyen",
+      "text": "Quel pirate à la main remplacée par un appendice métallique pourchasse Peter Pan ?",
+      "options": [
+        { "id": "a", "label": "Le Capitaine Crochet" },
+        { "id": "b", "label": "Le mousse Mr Mouche" },
+        { "id": "c", "label": "Le corsaire Long John" },
+        { "id": "d", "label": "Le flibustier Barbe-Noire" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il est terrifié par le crocodile qui a goûté sa main."
+    },
+    {
+      "id": "dis-m14",
+      "difficulty": "moyen",
+      "text": "Quelle petite fée espiègle et jalouse accompagne Peter Pan ?",
+      "options": [
+        { "id": "a", "label": "Clochette" },
+        { "id": "b", "label": "Wendy" },
+        { "id": "c", "label": "Ariel" },
+        { "id": "d", "label": "Jasmine" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Sa poussière permet de voler... à condition d'y croire."
+    },
+    {
+      "id": "dis-m15",
+      "difficulty": "moyen",
+      "text": "Quelle méchante fée jette un sort mortel sur la princesse Aurore ?",
+      "options": [
+        { "id": "a", "label": "Maléfique" },
+        { "id": "b", "label": "Ursula" },
+        { "id": "c", "label": "Cruella" },
+        { "id": "d", "label": "Gothel" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Vexée de ne pas avoir été invitée au baptême."
+    },
+    {
+      "id": "dis-m16",
+      "difficulty": "moyen",
+      "text": "Quelle femme excentrique veut faire un manteau avec des chiots dalmatiens ?",
+      "options": [
+        { "id": "a", "label": "Cruella d'Enfer" },
+        { "id": "b", "label": "Madame Gothel" },
+        { "id": "c", "label": "Lady Tremaine" },
+        { "id": "d", "label": "La Reine de Cœur" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Sa chevelure bicolore est devenue mythique."
+    },
+    {
+      "id": "dis-m17",
+      "difficulty": "moyen",
+      "text": "Quelle princesse aux très longs cheveux dorés est enfermée au sommet d'une tour ?",
+      "options": [
+        { "id": "a", "label": "Raiponce" },
+        { "id": "b", "label": "Aurore" },
+        { "id": "c", "label": "Cendrillon" },
+        { "id": "d", "label": "Blanche-Neige" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ses cheveux magiques guérissent et rajeunissent."
+    },
+    {
+      "id": "dis-m18",
+      "difficulty": "moyen",
+      "text": "Quel cheval ailé est le fidèle compagnon d'Hercule ?",
+      "options": [
+        { "id": "a", "label": "Pégase" },
+        { "id": "b", "label": "Maximus" },
+        { "id": "c", "label": "Khan" },
+        { "id": "d", "label": "Philippe" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Zeus l'a créé à partir d'un nuage pour son fils."
+    },
+    {
+      "id": "dis-m19",
+      "difficulty": "moyen",
+      "text": "Quel vieux singe sage présente le lionceau Simba au royaume ?",
+      "options": [
+        { "id": "a", "label": "Rafiki" },
+        { "id": "b", "label": "Zazu" },
+        { "id": "c", "label": "Timon" },
+        { "id": "d", "label": "Pumbaa" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Son nom signifie « ami » en swahili."
+    },
+    {
+      "id": "dis-m20",
+      "difficulty": "moyen",
+      "text": "Quelle jeune femme de La Nouvelle-Orléans rêve d'ouvrir son propre restaurant ?",
+      "options": [
+        { "id": "a", "label": "Tiana" },
+        { "id": "b", "label": "Vaiana" },
+        { "id": "c", "label": "Mulan" },
+        { "id": "d", "label": "Pocahontas" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elle est la première princesse Disney afro-américaine."
+    },
+    {
+      "id": "dis-d1",
+      "difficulty": "dur",
+      "text": "Comment s'appelle le roi, père de Simba, tué dans une ruée de gnous ?",
+      "options": [
+        { "id": "a", "label": "Mufasa" },
+        { "id": "b", "label": "Scar" },
+        { "id": "c", "label": "Rafiki" },
+        { "id": "d", "label": "Kovu" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il revient parler à son fils dans les nuages."
+    },
+    {
+      "id": "dis-d2",
+      "difficulty": "dur",
+      "text": "Quel duo, un suricate et un phacochère, recueille Simba en exil ?",
+      "options": [
+        { "id": "a", "label": "Timon et Pumbaa" },
+        { "id": "b", "label": "Timon et Rafiki" },
+        { "id": "c", "label": "Zazu et Pumbaa" },
+        { "id": "d", "label": "Nala et Timon" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ils lui enseignent leur philosophie insouciante."
+    },
+    {
+      "id": "dis-d3",
+      "difficulty": "dur",
+      "text": "Comment s'appelle le renne fidèle de Kristoff dans « La Reine des Neiges » ?",
+      "options": [
+        { "id": "a", "label": "Sven" },
+        { "id": "b", "label": "Olaf" },
+        { "id": "c", "label": "Maximus" },
+        { "id": "d", "label": "Khan" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Kristoff lui prête souvent une voix pour lui répondre."
+    },
+    {
+      "id": "dis-d4",
+      "difficulty": "dur",
+      "text": "Quel prince séduisant se révèle finalement être un traître dans « La Reine des Neiges » ?",
+      "options": [
+        { "id": "a", "label": "Hans" },
+        { "id": "b", "label": "Kristoff" },
+        { "id": "c", "label": "Naveen" },
+        { "id": "d", "label": "Éric" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il convoitait le trône d'Arendelle depuis le début."
+    },
+    {
+      "id": "dis-d5",
+      "difficulty": "dur",
+      "text": "Comment se nomme le royaume d'Elsa et Anna ?",
+      "options": [
+        { "id": "a", "label": "Arendelle" },
+        { "id": "b", "label": "Corona" },
+        { "id": "c", "label": "Agrabah" },
+        { "id": "d", "label": "Motunui" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ses décors s'inspirent des fjords scandinaves."
+    },
+    {
+      "id": "dis-d6",
+      "difficulty": "dur",
+      "text": "Quel perroquet bavard sert d'acolyte au vizir Jafar ?",
+      "options": [
+        { "id": "a", "label": "Iago" },
+        { "id": "b", "label": "Abu" },
+        { "id": "c", "label": "Zazu" },
+        { "id": "d", "label": "Flit" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il porte le nom d'un personnage de Shakespeare."
+    },
+    {
+      "id": "dis-d7",
+      "difficulty": "dur",
+      "text": "Quel crabe musicien veille sur Ariel pour le compte du roi des mers ?",
+      "options": [
+        { "id": "a", "label": "Sébastien" },
+        { "id": "b", "label": "Polochon" },
+        { "id": "c", "label": "Eurêka" },
+        { "id": "d", "label": "Louis" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il interprète le célèbre « Sous l'océan »."
+    },
+    {
+      "id": "dis-d8",
+      "difficulty": "dur",
+      "text": "Comment s'appelle le roi des océans, père d'Ariel ?",
+      "options": [
+        { "id": "a", "label": "Triton" },
+        { "id": "b", "label": "Neptune" },
+        { "id": "c", "label": "Éric" },
+        { "id": "d", "label": "Protée" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il manie un puissant trident magique."
+    },
+    {
+      "id": "dis-d9",
+      "difficulty": "dur",
+      "text": "Quel objet enchanté, une horloge sur pattes, est très à cheval sur le règlement ?",
+      "options": [
+        { "id": "a", "label": "Big Ben" },
+        { "id": "b", "label": "Lumière" },
+        { "id": "c", "label": "Mrs Samovar" },
+        { "id": "d", "label": "Zip" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "En version originale, il s'appelle Cogsworth."
+    },
+    {
+      "id": "dis-d10",
+      "difficulty": "dur",
+      "text": "Quelle petite tasse ébréchée est le fils de Mrs Samovar ?",
+      "options": [
+        { "id": "a", "label": "Zip" },
+        { "id": "b", "label": "Lumière" },
+        { "id": "c", "label": "Big Ben" },
+        { "id": "d", "label": "Fifi" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "En anglais, il se prénomme Chip."
+    },
+    {
+      "id": "dis-d11",
+      "difficulty": "dur",
+      "text": "Quel grillon élégant sert de conscience à Pinocchio ?",
+      "options": [
+        { "id": "a", "label": "Jiminy Cricket" },
+        { "id": "b", "label": "Cri-Kee" },
+        { "id": "c", "label": "Timothée" },
+        { "id": "d", "label": "Sébastien" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "La Fée Bleue le nomme officiellement gardien de la conscience."
+    },
+    {
+      "id": "dis-d12",
+      "difficulty": "dur",
+      "text": "Quelle gigantesque baleine avale Gepetto puis Pinocchio ?",
+      "options": [
+        { "id": "a", "label": "Monstro" },
+        { "id": "b", "label": "Willie" },
+        { "id": "c", "label": "Dumbo" },
+        { "id": "d", "label": "Nessie" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ils s'en échappent en la faisant éternuer."
+    },
+    {
+      "id": "dis-d13",
+      "difficulty": "dur",
+      "text": "Quel chef des envahisseurs Huns menace la Chine dans « Mulan » ?",
+      "options": [
+        { "id": "a", "label": "Shan Yu" },
+        { "id": "b", "label": "Chi Fu" },
+        { "id": "c", "label": "Shang Li" },
+        { "id": "d", "label": "Yao Ping" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il possède un immense faucon dressé pour l'espionnage."
+    },
+    {
+      "id": "dis-d14",
+      "difficulty": "dur",
+      "text": "Quel raton laveur gourmand accompagne Pocahontas ?",
+      "options": [
+        { "id": "a", "label": "Meeko" },
+        { "id": "b", "label": "Flit" },
+        { "id": "c", "label": "Percy" },
+        { "id": "d", "label": "Abu" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il fait équipe avec un colibri nommé Flit."
+    },
+    {
+      "id": "dis-d15",
+      "difficulty": "dur",
+      "text": "Quelle femelle gorille élève Tarzan comme son propre fils ?",
+      "options": [
+        { "id": "a", "label": "Kala" },
+        { "id": "b", "label": "Kerchak" },
+        { "id": "c", "label": "Terk" },
+        { "id": "d", "label": "Sabor" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "La bande-son est signée Phil Collins."
+    },
+    {
+      "id": "dis-d16",
+      "difficulty": "dur",
+      "text": "Quel dieu aux cheveux de flammes bleues veut renverser l'Olympe dans « Hercule » ?",
+      "options": [
+        { "id": "a", "label": "Hadès" },
+        { "id": "b", "label": "Zeus" },
+        { "id": "c", "label": "Hermès" },
+        { "id": "d", "label": "Poséidon" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ses cheveux virent au rouge quand il se met en colère."
+    },
+    {
+      "id": "dis-d17",
+      "difficulty": "dur",
+      "text": "Quel voleur au grand cœur aide Raiponce à quitter sa tour ?",
+      "options": [
+        { "id": "a", "label": "Flynn Rider" },
+        { "id": "b", "label": "Prince Naveen" },
+        { "id": "c", "label": "Prince Éric" },
+        { "id": "d", "label": "Beau Kristoff" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il est recherché surtout à cause de son portrait raté."
+    },
+    {
+      "id": "dis-d18",
+      "difficulty": "dur",
+      "text": "Quel caméléon est le fidèle confident de Raiponce ?",
+      "options": [
+        { "id": "a", "label": "Pascal" },
+        { "id": "b", "label": "Meeko" },
+        { "id": "c", "label": "Flit" },
+        { "id": "d", "label": "Cri-Kee" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il change de couleur selon ses humeurs."
+    },
+    {
+      "id": "dis-d19",
+      "difficulty": "dur",
+      "text": "Comment s'appelle la princesse condamnée à s'endormir cent ans après une piqûre ?",
+      "options": [
+        { "id": "a", "label": "Aurore" },
+        { "id": "b", "label": "Blanche-Neige" },
+        { "id": "c", "label": "Cendrillon" },
+        { "id": "d", "label": "Jasmine" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Seul un baiser d'amour véritable peut la réveiller."
+    },
+    {
+      "id": "dis-d20",
+      "difficulty": "dur",
+      "text": "Quel sorcier vaudou, « l'homme de l'ombre », transforme Naveen en grenouille ?",
+      "options": [
+        { "id": "a", "label": "Docteur Facilier" },
+        { "id": "b", "label": "Docteur Frankenstein" },
+        { "id": "c", "label": "Baron Karza" },
+        { "id": "d", "label": "Maître Yaga" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ses « amis de l'autre côté » finissent par l'emporter."
+    },
+    {
+      "id": "dis-d21",
+      "difficulty": "dur",
+      "text": "Quel demi-dieu fanfaron, couvert de tatouages vivants, accompagne Vaiana ?",
+      "options": [
+        { "id": "a", "label": "Maui" },
+        { "id": "b", "label": "Kai" },
+        { "id": "c", "label": "Tui" },
+        { "id": "d", "label": "Sina" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ses tatouages racontent tous ses exploits passés."
+    },
+    {
+      "id": "dis-d22",
+      "difficulty": "dur",
+      "text": "À quelle déesse Vaiana doit-elle rendre le cœur volé pour sauver son île ?",
+      "options": [
+        { "id": "a", "label": "Te Fiti" },
+        { "id": "b", "label": "Pélé" },
+        { "id": "c", "label": "Hina" },
+        { "id": "d", "label": "Nani" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Privée de son cœur, elle s'était muée en démon de feu."
+    },
+    {
+      "id": "dis-d23",
+      "difficulty": "dur",
+      "text": "Quel orang-outan veut percer le secret du feu auprès de Mowgli ?",
+      "options": [
+        { "id": "a", "label": "Le roi Louie" },
+        { "id": "b", "label": "Shere Khan" },
+        { "id": "c", "label": "Chef Akela" },
+        { "id": "d", "label": "Père Baloo" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il chante « Être un homme comme vous »."
+    },
+    {
+      "id": "dis-d24",
+      "difficulty": "dur",
+      "text": "Dans quelle cité fictive se déroulent les aventures d'Aladdin ?",
+      "options": [
+        { "id": "a", "label": "Agrabah" },
+        { "id": "b", "label": "Corona" },
+        { "id": "c", "label": "Arendelle" },
+        { "id": "d", "label": "Motunui" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "La Caverne aux Merveilles se cache dans le désert alentour."
+    },
+    {
+      "id": "dis-d25",
+      "difficulty": "dur",
+      "text": "Comment s'appelle le chat noir sournois de la belle-mère de Cendrillon ?",
+      "options": [
+        { "id": "a", "label": "Lucifer" },
+        { "id": "b", "label": "Figaro" },
+        { "id": "c", "label": "Gédéon" },
+        { "id": "d", "label": "Berlioz" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il passe son temps à pourchasser les souris Gus et Jaq."
+    },
+    {
+      "id": "dis-d26",
+      "difficulty": "dur",
+      "text": "Quel jeune lapin devient le meilleur ami du faon Bambi ?",
+      "options": [
+        { "id": "a", "label": "Panpan" },
+        { "id": "b", "label": "Fleur" },
+        { "id": "c", "label": "Toby" },
+        { "id": "d", "label": "Roger" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il tape du pied quand il est nerveux."
+    },
+    {
+      "id": "dis-d27",
+      "difficulty": "dur",
+      "text": "Quel chat de gouttière séducteur aide Duchesse et ses chatons dans « Les Aristochats » ?",
+      "options": [
+        { "id": "a", "label": "Thomas O'Malley" },
+        { "id": "b", "label": "Le chat Berlioz" },
+        { "id": "c", "label": "Le matou Gédéon" },
+        { "id": "d", "label": "Le siamois Shere" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "L'histoire se déroule dans le Paris de la Belle Époque."
+    },
+    {
+      "id": "dis-d28",
+      "difficulty": "dur",
+      "text": "Quel court-métrage de 1928 révèle Mickey Mouse au monde entier ?",
+      "options": [
+        { "id": "a", "label": "Steamboat Willie" },
+        { "id": "b", "label": "Fantasia" },
+        { "id": "c", "label": "Silly Symphonies" },
+        { "id": "d", "label": "Le Vilain Petit Canard" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "C'est l'un des premiers dessins animés entièrement sonorisés."
+    },
+    {
+      "id": "dis-d29",
+      "difficulty": "dur",
+      "text": "En quelle année sort « Blanche-Neige », tout premier long-métrage animé du studio ?",
+      "options": [
+        { "id": "a", "label": "1937" },
+        { "id": "b", "label": "1940" },
+        { "id": "c", "label": "1928" },
+        { "id": "d", "label": "1950" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Beaucoup le surnommaient « la folie de Disney » avant sa sortie."
+    },
+    {
+      "id": "dis-d30",
+      "difficulty": "dur",
+      "text": "Quel petit satyre bougon entraîne les futurs héros, dont Hercule ?",
+      "options": [
+        { "id": "a", "label": "Phil" },
+        { "id": "b", "label": "Zeus" },
+        { "id": "c", "label": "Pain" },
+        { "id": "d", "label": "Panic" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Son nom complet est Philoctète."
+    },
+    {
+      "id": "dis-p1",
+      "difficulty": "pro",
+      "text": "À quelle espèce animale appartient précisément Timon dans « Le Roi Lion » ?",
+      "options": [
+        { "id": "a", "label": "Un suricate" },
+        { "id": "b", "label": "Une mangouste" },
+        { "id": "c", "label": "Un raton laveur" },
+        { "id": "d", "label": "Une belette" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "On le confond souvent avec une mangouste."
+    },
+    {
+      "id": "dis-p2",
+      "difficulty": "pro",
+      "text": "Rafiki n'est pas un simple singe : de quelle espèce s'agit-il exactement ?",
+      "options": [
+        { "id": "a", "label": "Un mandrill" },
+        { "id": "b", "label": "Un babouin" },
+        { "id": "c", "label": "Un gorille" },
+        { "id": "d", "label": "Un gibbon" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Sa face colorée est typique de cette espèce."
+    },
+    {
+      "id": "dis-p3",
+      "difficulty": "pro",
+      "text": "Que signifie le prénom « Simba » en swahili ?",
+      "options": [
+        { "id": "a", "label": "Lion" },
+        { "id": "b", "label": "Roi" },
+        { "id": "c", "label": "Courage" },
+        { "id": "d", "label": "Soleil" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Beaucoup de noms du film sont de vrais mots swahilis."
+    },
+    {
+      "id": "dis-p4",
+      "difficulty": "pro",
+      "text": "Que signifie approximativement le nom « Pumbaa » en swahili ?",
+      "options": [
+        { "id": "a", "label": "Nigaud" },
+        { "id": "b", "label": "Rapide" },
+        { "id": "c", "label": "Affamé" },
+        { "id": "d", "label": "Joyeux" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le terme évoque quelqu'un d'étourdi ou de négligent."
+    },
+    {
+      "id": "dis-p5",
+      "difficulty": "pro",
+      "text": "Quel est le rang de Hans parmi les princes des îles du Sud ?",
+      "options": [
+        { "id": "a", "label": "Treizième" },
+        { "id": "b", "label": "Dixième" },
+        { "id": "c", "label": "Septième" },
+        { "id": "d", "label": "Cinquième" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Aucune chance d'hériter d'un trône chez lui, d'où son plan."
+    },
+    {
+      "id": "dis-p6",
+      "difficulty": "pro",
+      "text": "De quel pays réel les décors d'Arendelle s'inspirent-ils largement ?",
+      "options": [
+        { "id": "a", "label": "La Norvège" },
+        { "id": "b", "label": "La Suède" },
+        { "id": "c", "label": "L'Islande" },
+        { "id": "d", "label": "Le Danemark" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Les équipes se sont rendues à Bergen pour les repérages."
+    },
+    {
+      "id": "dis-p7",
+      "difficulty": "pro",
+      "text": "Quel est le véritable nom du charmant voleur Flynn Rider ?",
+      "options": [
+        { "id": "a", "label": "Eugène Fitzherbert" },
+        { "id": "b", "label": "Edmund Fitzwilliam" },
+        { "id": "c", "label": "Eugène Fitzwilliam" },
+        { "id": "d", "label": "Edward Fitzherbert" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il a emprunté son surnom à un héros de livre de son enfance."
+    },
+    {
+      "id": "dis-p8",
+      "difficulty": "pro",
+      "text": "Comment s'appelle le royaume dont Raiponce est la princesse perdue ?",
+      "options": [
+        { "id": "a", "label": "Corona" },
+        { "id": "b", "label": "Arendelle" },
+        { "id": "c", "label": "Agrabah" },
+        { "id": "d", "label": "Vardaros" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Chaque année, on y lâche des lanternes pour la princesse disparue."
+    },
+    {
+      "id": "dis-p9",
+      "difficulty": "pro",
+      "text": "Quel âge a Ariel dans le film d'animation de 1989 ?",
+      "options": [
+        { "id": "a", "label": "16 ans" },
+        { "id": "b", "label": "18 ans" },
+        { "id": "c", "label": "14 ans" },
+        { "id": "d", "label": "21 ans" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Un âge qui explique son impulsivité face au monde des humains."
+    },
+    {
+      "id": "dis-p10",
+      "difficulty": "pro",
+      "text": "Combien de sœurs aînées Ariel a-t-elle ?",
+      "options": [
+        { "id": "a", "label": "Six" },
+        { "id": "b", "label": "Cinq" },
+        { "id": "c", "label": "Sept" },
+        { "id": "d", "label": "Quatre" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elle est la benjamine des sept filles de Triton."
+    },
+    {
+      "id": "dis-p11",
+      "difficulty": "pro",
+      "text": "Quel prénom est traditionnellement attribué au prince changé en Bête ?",
+      "options": [
+        { "id": "a", "label": "Adam" },
+        { "id": "b", "label": "Antoine" },
+        { "id": "c", "label": "Alexandre" },
+        { "id": "d", "label": "Adrien" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ce prénom n'est jamais prononcé dans le film de 1991."
+    },
+    {
+      "id": "dis-p12",
+      "difficulty": "pro",
+      "text": "Jusqu'à quel âge du prince la rose enchantée devait-elle être brisée par l'amour ?",
+      "options": [
+        { "id": "a", "label": "21 ans" },
+        { "id": "b", "label": "18 ans" },
+        { "id": "c", "label": "25 ans" },
+        { "id": "d", "label": "30 ans" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le prologue précise que la rose fleurirait jusqu'à cet âge."
+    },
+    {
+      "id": "dis-p13",
+      "difficulty": "pro",
+      "text": "Quel acteur prête sa voix au Génie dans la version originale de 1992 ?",
+      "options": [
+        { "id": "a", "label": "Robin Williams" },
+        { "id": "b", "label": "Eddie Murphy" },
+        { "id": "c", "label": "Jim Carrey" },
+        { "id": "d", "label": "Billy Crystal" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il a improvisé une grande partie de ses répliques."
+    },
+    {
+      "id": "dis-p14",
+      "difficulty": "pro",
+      "text": "Comment s'appelle le tigre de compagnie de la princesse Jasmine ?",
+      "options": [
+        { "id": "a", "label": "Rajah" },
+        { "id": "b", "label": "Shere" },
+        { "id": "c", "label": "Kimba" },
+        { "id": "d", "label": "Sultan" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il n'apprécie guère les prétendants de sa maîtresse."
+    },
+    {
+      "id": "dis-p15",
+      "difficulty": "pro",
+      "text": "Comment s'appellent les deux souris couturières amies de Cendrillon ?",
+      "options": [
+        { "id": "a", "label": "Gus et Jaq" },
+        { "id": "b", "label": "Bernard et Bianca" },
+        { "id": "c", "label": "Timothée et Roquefort" },
+        { "id": "d", "label": "Fivel et Tanya" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elles lui confectionnent sa première robe de bal."
+    },
+    {
+      "id": "dis-p16",
+      "difficulty": "pro",
+      "text": "Quel est le nom de la cruelle belle-mère de Cendrillon ?",
+      "options": [
+        { "id": "a", "label": "Lady Tremaine" },
+        { "id": "b", "label": "Dame Gothel" },
+        { "id": "c", "label": "Dame Mim" },
+        { "id": "d", "label": "Reine Grimhilde" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ses filles se nomment Anastasie et Javotte."
+    },
+    {
+      "id": "dis-p17",
+      "difficulty": "pro",
+      "text": "Lequel de ces noms est bien celui d'un des sept nains ?",
+      "options": [
+        { "id": "a", "label": "Prof" },
+        { "id": "b", "label": "Sournois" },
+        { "id": "c", "label": "Costaud" },
+        { "id": "d", "label": "Malin" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "C'est le seul des sept à porter des lunettes."
+    },
+    {
+      "id": "dis-p18",
+      "difficulty": "pro",
+      "text": "Quelle chanson les sept nains entonnent-ils en rentrant de la mine ?",
+      "options": [
+        { "id": "a", "label": "Heigh-Ho" },
+        { "id": "b", "label": "Sous l'océan" },
+        { "id": "c", "label": "Ce rêve bleu" },
+        { "id": "d", "label": "L'air du vent" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ils y extraient des diamants toute la journée."
+    },
+    {
+      "id": "dis-p19",
+      "difficulty": "pro",
+      "text": "Sous quel nom masculin Mulan se fait-elle passer pour rejoindre l'armée ?",
+      "options": [
+        { "id": "a", "label": "Ping" },
+        { "id": "b", "label": "Li" },
+        { "id": "c", "label": "Chen" },
+        { "id": "d", "label": "Hua" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elle prend la place de son père trop âgé pour combattre."
+    },
+    {
+      "id": "dis-p20",
+      "difficulty": "pro",
+      "text": "Comment s'appelle le cheval de Mulan ?",
+      "options": [
+        { "id": "a", "label": "Khan" },
+        { "id": "b", "label": "Maximus" },
+        { "id": "c", "label": "Pégase" },
+        { "id": "d", "label": "Philippe" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il partage son nom avec un célèbre conquérant mongol."
+    },
+    {
+      "id": "dis-p21",
+      "difficulty": "pro",
+      "text": "Quel animal sert de nounou aux enfants Darling dans « Peter Pan » ?",
+      "options": [
+        { "id": "a", "label": "Une chienne nommée Nana" },
+        { "id": "b", "label": "Un chat nommé Félix" },
+        { "id": "c", "label": "Un chien nommé Pluto" },
+        { "id": "d", "label": "Une chienne nommée Lady" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elle dort dans une niche, à même le jardin."
+    },
+    {
+      "id": "dis-p22",
+      "difficulty": "pro",
+      "text": "En plus de la main de Crochet, qu'a avalé le crocodile qui le pourchasse ?",
+      "options": [
+        { "id": "a", "label": "Un réveil" },
+        { "id": "b", "label": "Une boussole" },
+        { "id": "c", "label": "Une longue-vue" },
+        { "id": "d", "label": "Un trésor" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Son tic-tac prévient de son approche."
+    },
+    {
+      "id": "dis-p23",
+      "difficulty": "pro",
+      "text": "Sous quel prénom les trois fées élèvent-elles Aurore en secret dans la forêt ?",
+      "options": [
+        { "id": "a", "label": "Églantine" },
+        { "id": "b", "label": "Rose" },
+        { "id": "c", "label": "Bruyère" },
+        { "id": "d", "label": "Marguerite" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "En anglais, ce prénom devient « Briar Rose »."
+    },
+    {
+      "id": "dis-p24",
+      "difficulty": "pro",
+      "text": "Comment s'appellent les trois bonnes fées qui protègent Aurore ?",
+      "options": [
+        { "id": "a", "label": "Flora, Pâquerette et Pimprenelle" },
+        { "id": "b", "label": "Flora, Marguerite et Capucine" },
+        { "id": "c", "label": "Flore, Pâquerette et Primevère" },
+        { "id": "d", "label": "Flora, Pervenche et Pimprenelle" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elles se disputent sans cesse à propos de la couleur de la robe."
+    },
+    {
+      "id": "dis-p25",
+      "difficulty": "pro",
+      "text": "En quelle créature Maléfique se transforme-t-elle pour le combat final ?",
+      "options": [
+        { "id": "a", "label": "Un dragon" },
+        { "id": "b", "label": "Un serpent géant" },
+        { "id": "c", "label": "Un corbeau" },
+        { "id": "d", "label": "Un loup" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le prince l'abat avec une épée bénie par les fées."
+    },
+    {
+      "id": "dis-p26",
+      "difficulty": "pro",
+      "text": "Outre Pongo et Perdita, combien de chiots comptent « Les 101 Dalmatiens » ?",
+      "options": [
+        { "id": "a", "label": "99" },
+        { "id": "b", "label": "100" },
+        { "id": "c", "label": "98" },
+        { "id": "d", "label": "101" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Quinze sont nés dans la portée, les autres ont été rachetés."
+    },
+    {
+      "id": "dis-p27",
+      "difficulty": "pro",
+      "text": "Quel serpent hypnotiseur tente de dévorer Mowgli dans la jungle ?",
+      "options": [
+        { "id": "a", "label": "Kaa" },
+        { "id": "b", "label": "Nagini" },
+        { "id": "c", "label": "Sir Hiss" },
+        { "id": "d", "label": "Anaconda" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Son regard tourbillonnant endort ses proies."
+    },
+    {
+      "id": "dis-p28",
+      "difficulty": "pro",
+      "text": "Quel animal est « Fleur », l'ami timide du faon Bambi ?",
+      "options": [
+        { "id": "a", "label": "Une moufette" },
+        { "id": "b", "label": "Un lapin" },
+        { "id": "c", "label": "Un écureuil" },
+        { "id": "d", "label": "Un raton laveur" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Bambi lui donne ce surnom par méprise adorable."
+    },
+    {
+      "id": "dis-p29",
+      "difficulty": "pro",
+      "text": "Quelles trois créatures partagent un seul œil et tiennent le fil des destinées dans « Hercule » ?",
+      "options": [
+        { "id": "a", "label": "Les Moires" },
+        { "id": "b", "label": "Les Muses" },
+        { "id": "c", "label": "Les Harpies" },
+        { "id": "d", "label": "Les Gorgones" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elles annoncent à Hadès sa défaite programmée."
+    },
+    {
+      "id": "dis-p30",
+      "difficulty": "pro",
+      "text": "Quel crabe géant, obsédé par les objets brillants, détient l'hameçon de Maui ?",
+      "options": [
+        { "id": "a", "label": "Tamatoa" },
+        { "id": "b", "label": "Sébastien" },
+        { "id": "c", "label": "Louis" },
+        { "id": "d", "label": "Kakamora" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il vit dans le royaume des monstres, Lalotai."
+    },
+    {
+      "id": "dis-p31",
+      "difficulty": "pro",
+      "text": "Comment s'appelle l'île natale de Vaiana ?",
+      "options": [
+        { "id": "a", "label": "Motunui" },
+        { "id": "b", "label": "Te Fiti" },
+        { "id": "c", "label": "Lalotai" },
+        { "id": "d", "label": "Bora Nui" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ses habitants avaient cessé de naviguer au large."
+    },
+    {
+      "id": "dis-p32",
+      "difficulty": "pro",
+      "text": "Quelle lapine devient la première de son espèce dans la police de Zootopie ?",
+      "options": [
+        { "id": "a", "label": "Judy Hopps" },
+        { "id": "b", "label": "Bianca Rescue" },
+        { "id": "c", "label": "Rita Lapin" },
+        { "id": "d", "label": "Miss Bunny" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elle vient d'une famille de cultivateurs de carottes."
+    },
+    {
+      "id": "dis-p33",
+      "difficulty": "pro",
+      "text": "Quel renard filou fait équipe avec la lapine policière dans « Zootopie » ?",
+      "options": [
+        { "id": "a", "label": "Nick Wilde" },
+        { "id": "b", "label": "Robin Hood" },
+        { "id": "c", "label": "Todd Fox" },
+        { "id": "d", "label": "Basil Renard" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il gagnait sa vie grâce à de petites arnaques aux glaces."
+    },
+    {
+      "id": "dis-p34",
+      "difficulty": "pro",
+      "text": "Quel alligator amateur de jazz rêve de jouer parmi les humains dans « La Princesse et la Grenouille » ?",
+      "options": [
+        { "id": "a", "label": "Louis" },
+        { "id": "b", "label": "Sébastien" },
+        { "id": "c", "label": "Baloo" },
+        { "id": "d", "label": "Ray" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il porte le nom du légendaire Louis Armstrong."
+    },
+    {
+      "id": "dis-p35",
+      "difficulty": "pro",
+      "text": "Quelle luciole cajun tombe amoureuse d'une étoile qu'elle prend pour sa dulcinée ?",
+      "options": [
+        { "id": "a", "label": "Ray" },
+        { "id": "b", "label": "Louis" },
+        { "id": "c", "label": "Naveen" },
+        { "id": "d", "label": "Mama Odie" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il devient lui-même une étoile à ses côtés à la fin."
+    },
+    {
+      "id": "dis-p36",
+      "difficulty": "pro",
+      "text": "Dans quel pays d'Amérique latine se déroule le film « Encanto » ?",
+      "options": [
+        { "id": "a", "label": "La Colombie" },
+        { "id": "b", "label": "Le Mexique" },
+        { "id": "c", "label": "Le Pérou" },
+        { "id": "d", "label": "Le Brésil" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "La maison magique s'y appelle affectueusement « la Casita »."
+    },
+    {
+      "id": "dis-p37",
+      "difficulty": "pro",
+      "text": "De quel membre de la famille Madrigal « on ne parle pas », selon la chanson culte ?",
+      "options": [
+        { "id": "a", "label": "Bruno" },
+        { "id": "b", "label": "Félix" },
+        { "id": "c", "label": "Camilo" },
+        { "id": "d", "label": "Antonio" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ses visions de l'avenir lui ont valu d'être mis à l'écart."
+    },
+    {
+      "id": "dis-p38",
+      "difficulty": "pro",
+      "text": "Quelle jeune fille de la famille Madrigal est la seule à ne recevoir aucun don magique ?",
+      "options": [
+        { "id": "a", "label": "Mirabel" },
+        { "id": "b", "label": "Isabela" },
+        { "id": "c", "label": "Luisa" },
+        { "id": "d", "label": "Dolores" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "C'est pourtant elle qui sauvera la magie familiale."
+    },
+    {
+      "id": "dis-p39",
+      "difficulty": "pro",
+      "text": "Quelle fillette pixelisée devient l'amie du colosse Ralph dans « Les Mondes de Ralph » ?",
+      "options": [
+        { "id": "a", "label": "Vanellope" },
+        { "id": "b", "label": "Ellie" },
+        { "id": "c", "label": "Riley" },
+        { "id": "d", "label": "Penny" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elle est pilote dans le jeu de course Sugar Rush."
+    },
+    {
+      "id": "dis-p40",
+      "difficulty": "pro",
+      "text": "Dans « Fantasia », quel rôle célèbre Mickey Mouse incarne-t-il ?",
+      "options": [
+        { "id": "a", "label": "L'apprenti sorcier" },
+        { "id": "b", "label": "Le chef d'orchestre" },
+        { "id": "c", "label": "Le marin courageux" },
+        { "id": "d", "label": "Le dompteur de lions" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Les balais ensorcelés lui échappent totalement."
+    }
+  ]
+}

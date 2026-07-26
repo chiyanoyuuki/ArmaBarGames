@@ -1,0 +1,1305 @@
+{
+  "universeId": "coupe-du-monde",
+  "questions": [
+    {
+      "id": "cdm-f1",
+      "difficulty": "facile",
+      "text": "En quelle année la France a-t-elle remporté sa première Coupe du monde, à domicile ?",
+      "options": [
+        { "id": "a", "label": "1998" },
+        { "id": "b", "label": "2006" },
+        { "id": "c", "label": "2018" },
+        { "id": "d", "label": "1986" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "La finale s'est jouée au Stade de France, à Saint-Denis."
+    },
+    {
+      "id": "cdm-f2",
+      "difficulty": "facile",
+      "text": "Dans quel pays la France a-t-elle décroché son deuxième titre mondial en 2018 ?",
+      "options": [
+        { "id": "a", "label": "La Russie" },
+        { "id": "b", "label": "Le Brésil" },
+        { "id": "c", "label": "L'Afrique du Sud" },
+        { "id": "d", "label": "Le Qatar" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "La finale s'est disputée à Moscou."
+    },
+    {
+      "id": "cdm-f3",
+      "difficulty": "facile",
+      "text": "Quelle nation a remporté le plus grand nombre de Coupes du monde ?",
+      "options": [
+        { "id": "a", "label": "Le Brésil" },
+        { "id": "b", "label": "L'Allemagne" },
+        { "id": "c", "label": "L'Italie" },
+        { "id": "d", "label": "L'Argentine" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "C'est aussi la seule à avoir gagné sur quatre continents différents."
+    },
+    {
+      "id": "cdm-f4",
+      "difficulty": "facile",
+      "text": "Tous les combien d'années la Coupe du monde masculine a-t-elle lieu ?",
+      "options": [
+        { "id": "a", "label": "Quatre ans" },
+        { "id": "b", "label": "Deux ans" },
+        { "id": "c", "label": "Trois ans" },
+        { "id": "d", "label": "Cinq ans" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elle n'a été interrompue que par la Seconde Guerre mondiale."
+    },
+    {
+      "id": "cdm-f5",
+      "difficulty": "facile",
+      "text": "Quel prodige français de 19 ans a émerveillé la Coupe du monde 2018 ?",
+      "options": [
+        { "id": "a", "label": "Kylian Mbappé" },
+        { "id": "b", "label": "Antoine Griezmann" },
+        { "id": "c", "label": "Olivier Giroud" },
+        { "id": "d", "label": "Paul Pogba" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il a marqué en finale, une première depuis Pelé pour un si jeune joueur."
+    },
+    {
+      "id": "cdm-f6",
+      "difficulty": "facile",
+      "text": "Quelle sélection a remporté la Coupe du monde 2022 au Qatar ?",
+      "options": [
+        { "id": "a", "label": "L'Argentine" },
+        { "id": "b", "label": "La France" },
+        { "id": "c", "label": "Le Brésil" },
+        { "id": "d", "label": "La Croatie" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Un sacre décroché aux tirs au but après une finale de légende."
+    },
+    {
+      "id": "cdm-f7",
+      "difficulty": "facile",
+      "text": "Quel génie argentin a mené son équipe au titre mondial en 1986 ?",
+      "options": [
+        { "id": "a", "label": "Diego Maradona" },
+        { "id": "b", "label": "Lionel Messi" },
+        { "id": "c", "label": "Gabriel Batistuta" },
+        { "id": "d", "label": "Mario Kempes" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ce Mondial reste associé à ses deux buts face à l'Angleterre."
+    },
+    {
+      "id": "cdm-f8",
+      "difficulty": "facile",
+      "text": "De quelle couleur est le trophée soulevé par les vainqueurs de la Coupe du monde ?",
+      "options": [
+        { "id": "a", "label": "Or" },
+        { "id": "b", "label": "Argent" },
+        { "id": "c", "label": "Bronze" },
+        { "id": "d", "label": "Platine" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il représente deux figures soutenant la Terre."
+    },
+    {
+      "id": "cdm-f9",
+      "difficulty": "facile",
+      "text": "Quel joueur brésilien est universellement surnommé « le Roi » du football ?",
+      "options": [
+        { "id": "a", "label": "Pelé" },
+        { "id": "b", "label": "Ronaldo" },
+        { "id": "c", "label": "Zico" },
+        { "id": "d", "label": "Garrincha" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il reste le seul joueur triple champion du monde."
+    },
+    {
+      "id": "cdm-f10",
+      "difficulty": "facile",
+      "text": "Quel meneur de jeu a marqué deux buts de la tête en finale de la Coupe du monde 1998 ?",
+      "options": [
+        { "id": "a", "label": "Zinédine Zidane" },
+        { "id": "b", "label": "Didier Deschamps" },
+        { "id": "c", "label": "Thierry Henry" },
+        { "id": "d", "label": "Youri Djorkaeff" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Deux têtes sur corner qui ont fait basculer la finale."
+    },
+    {
+      "id": "cdm-m1",
+      "difficulty": "moyen",
+      "text": "Sur quel score la France a-t-elle battu le Brésil en finale de la Coupe du monde 1998 ?",
+      "options": [
+        { "id": "a", "label": "3-0" },
+        { "id": "b", "label": "2-1" },
+        { "id": "c", "label": "3-2" },
+        { "id": "d", "label": "4-2" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Emmanuel Petit a scellé le score dans les dernières secondes."
+    },
+    {
+      "id": "cdm-m2",
+      "difficulty": "moyen",
+      "text": "Quelle équipe la France a-t-elle battue en finale de la Coupe du monde 2018 ?",
+      "options": [
+        { "id": "a", "label": "La Croatie" },
+        { "id": "b", "label": "La Belgique" },
+        { "id": "c", "label": "L'Angleterre" },
+        { "id": "d", "label": "Le Brésil" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "C'était la première finale mondiale de ce pays."
+    },
+    {
+      "id": "cdm-m3",
+      "difficulty": "moyen",
+      "text": "Sur quel score s'est terminée la finale 2018 remportée par les Bleus ?",
+      "options": [
+        { "id": "a", "label": "4-2" },
+        { "id": "b", "label": "3-1" },
+        { "id": "c", "label": "2-0" },
+        { "id": "d", "label": "4-3" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Une finale spectaculaire à six buts, rare à ce niveau."
+    },
+    {
+      "id": "cdm-m4",
+      "difficulty": "moyen",
+      "text": "Sur quel joueur italien Zidane a-t-il asséné un coup de tête en finale 2006 ?",
+      "options": [
+        { "id": "a", "label": "Marco Materazzi" },
+        { "id": "b", "label": "Fabio Cannavaro" },
+        { "id": "c", "label": "Gennaro Gattuso" },
+        { "id": "d", "label": "Andrea Pirlo" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ce geste a valu à Zidane un carton rouge pour son dernier match."
+    },
+    {
+      "id": "cdm-m5",
+      "difficulty": "moyen",
+      "text": "Contre quelle équipe la France a-t-elle perdu la finale 2006 aux tirs au but ?",
+      "options": [
+        { "id": "a", "label": "L'Italie" },
+        { "id": "b", "label": "L'Espagne" },
+        { "id": "c", "label": "L'Allemagne" },
+        { "id": "d", "label": "Le Brésil" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "David Trezeguet a manqué le tir au but décisif côté français."
+    },
+    {
+      "id": "cdm-m6",
+      "difficulty": "moyen",
+      "text": "Combien de Coupes du monde le Brésil a-t-il remportées au total ?",
+      "options": [
+        { "id": "a", "label": "Cinq" },
+        { "id": "b", "label": "Quatre" },
+        { "id": "c", "label": "Trois" },
+        { "id": "d", "label": "Six" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "1958, 1962, 1970, 1994 et 2002."
+    },
+    {
+      "id": "cdm-m7",
+      "difficulty": "moyen",
+      "text": "En quelle année s'est tenue la toute première Coupe du monde ?",
+      "options": [
+        { "id": "a", "label": "1930" },
+        { "id": "b", "label": "1928" },
+        { "id": "c", "label": "1934" },
+        { "id": "d", "label": "1950" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Treize nations seulement y participaient."
+    },
+    {
+      "id": "cdm-m8",
+      "difficulty": "moyen",
+      "text": "Quel pays a organisé et remporté la première Coupe du monde en 1930 ?",
+      "options": [
+        { "id": "a", "label": "L'Uruguay" },
+        { "id": "b", "label": "Le Brésil" },
+        { "id": "c", "label": "L'Italie" },
+        { "id": "d", "label": "L'Argentine" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le tournoi célébrait le centenaire de son indépendance."
+    },
+    {
+      "id": "cdm-m9",
+      "difficulty": "moyen",
+      "text": "Quel pays a accueilli la première Coupe du monde disputée sur le sol africain, en 2010 ?",
+      "options": [
+        { "id": "a", "label": "L'Afrique du Sud" },
+        { "id": "b", "label": "Le Nigeria" },
+        { "id": "c", "label": "Le Maroc" },
+        { "id": "d", "label": "L'Égypte" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le son des vuvuzelas y est resté célèbre."
+    },
+    {
+      "id": "cdm-m10",
+      "difficulty": "moyen",
+      "text": "Quelle sélection a soulevé son tout premier trophée mondial en 2010 ?",
+      "options": [
+        { "id": "a", "label": "L'Espagne" },
+        { "id": "b", "label": "Les Pays-Bas" },
+        { "id": "c", "label": "L'Allemagne" },
+        { "id": "d", "label": "Le Brésil" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le point d'orgue de la génération Xavi-Iniesta."
+    },
+    {
+      "id": "cdm-m11",
+      "difficulty": "moyen",
+      "text": "Quel milieu espagnol a inscrit l'unique but de la finale 2010 ?",
+      "options": [
+        { "id": "a", "label": "Andrés Iniesta" },
+        { "id": "b", "label": "Xavi Hernández" },
+        { "id": "c", "label": "David Villa" },
+        { "id": "d", "label": "Fernando Torres" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Un but marqué en toute fin de prolongation."
+    },
+    {
+      "id": "cdm-m12",
+      "difficulty": "moyen",
+      "text": "Quel pays a organisé la Coupe du monde 2014 ?",
+      "options": [
+        { "id": "a", "label": "Le Brésil" },
+        { "id": "b", "label": "L'Argentine" },
+        { "id": "c", "label": "La Russie" },
+        { "id": "d", "label": "L'Afrique du Sud" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le pays hôte y a connu une humiliation historique en demi-finale."
+    },
+    {
+      "id": "cdm-m13",
+      "difficulty": "moyen",
+      "text": "Quelle équipe a remporté la Coupe du monde 2014 ?",
+      "options": [
+        { "id": "a", "label": "L'Allemagne" },
+        { "id": "b", "label": "L'Argentine" },
+        { "id": "c", "label": "Le Brésil" },
+        { "id": "d", "label": "Les Pays-Bas" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Un quatrième titre pour la Mannschaft."
+    },
+    {
+      "id": "cdm-m14",
+      "difficulty": "moyen",
+      "text": "Sur quel score humiliant l'Allemagne a-t-elle éliminé le Brésil en demi-finale 2014 ?",
+      "options": [
+        { "id": "a", "label": "7-1" },
+        { "id": "b", "label": "5-0" },
+        { "id": "c", "label": "4-0" },
+        { "id": "d", "label": "6-2" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Cinq buts avaient déjà été encaissés en moins de trente minutes."
+    },
+    {
+      "id": "cdm-m15",
+      "difficulty": "moyen",
+      "text": "Quels deux pays ont coorganisé la Coupe du monde 2002 ?",
+      "options": [
+        { "id": "a", "label": "La Corée du Sud et le Japon" },
+        { "id": "b", "label": "La Chine et le Japon" },
+        { "id": "c", "label": "La Corée du Sud et la Chine" },
+        { "id": "d", "label": "Le Japon et la Thaïlande" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "La première Coupe du monde organisée en Asie."
+    },
+    {
+      "id": "cdm-m16",
+      "difficulty": "moyen",
+      "text": "Quelle équipe a remporté la Coupe du monde 2002 ?",
+      "options": [
+        { "id": "a", "label": "Le Brésil" },
+        { "id": "b", "label": "L'Allemagne" },
+        { "id": "c", "label": "La France" },
+        { "id": "d", "label": "L'Italie" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Un cinquième titre porté par un Ronaldo au sommet."
+    },
+    {
+      "id": "cdm-m17",
+      "difficulty": "moyen",
+      "text": "Contre quelle équipe Maradona a-t-il marqué son fameux but « de la main » en 1986 ?",
+      "options": [
+        { "id": "a", "label": "L'Angleterre" },
+        { "id": "b", "label": "L'Allemagne" },
+        { "id": "c", "label": "Le Brésil" },
+        { "id": "d", "label": "L'Italie" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il parlera lui-même de « la main de Dieu »."
+    },
+    {
+      "id": "cdm-m18",
+      "difficulty": "moyen",
+      "text": "Quel homme a gagné la Coupe du monde comme joueur en 1998 puis comme sélectionneur en 2018 ?",
+      "options": [
+        { "id": "a", "label": "Didier Deschamps" },
+        { "id": "b", "label": "Zinédine Zidane" },
+        { "id": "c", "label": "Aimé Jacquet" },
+        { "id": "d", "label": "Laurent Blanc" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il était le capitaine de l'équipe de 1998."
+    },
+    {
+      "id": "cdm-m19",
+      "difficulty": "moyen",
+      "text": "Qui était le sélectionneur des Bleus champions du monde en 1998 ?",
+      "options": [
+        { "id": "a", "label": "Aimé Jacquet" },
+        { "id": "b", "label": "Roger Lemerre" },
+        { "id": "c", "label": "Raymond Domenech" },
+        { "id": "d", "label": "Michel Hidalgo" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il a pris sa retraite de sélectionneur juste après le sacre."
+    },
+    {
+      "id": "cdm-m20",
+      "difficulty": "moyen",
+      "text": "Avec quelle sélection Lionel Messi a-t-il enfin remporté la Coupe du monde en 2022 ?",
+      "options": [
+        { "id": "a", "label": "L'Argentine" },
+        { "id": "b", "label": "L'Espagne" },
+        { "id": "c", "label": "Le Brésil" },
+        { "id": "d", "label": "Le Portugal" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le trophée qui manquait encore à son palmarès."
+    },
+    {
+      "id": "cdm-d1",
+      "difficulty": "dur",
+      "text": "Quel pays a remporté sa seule Coupe du monde à domicile, en 1966 ?",
+      "options": [
+        { "id": "a", "label": "L'Angleterre" },
+        { "id": "b", "label": "L'Allemagne" },
+        { "id": "c", "label": "Le Brésil" },
+        { "id": "d", "label": "L'Italie" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "La finale s'est jouée à Wembley."
+    },
+    {
+      "id": "cdm-d2",
+      "difficulty": "dur",
+      "text": "Quel Anglais a inscrit un triplé en finale de la Coupe du monde 1966 ?",
+      "options": [
+        { "id": "a", "label": "Geoff Hurst" },
+        { "id": "b", "label": "Bobby Charlton" },
+        { "id": "c", "label": "Bobby Moore" },
+        { "id": "d", "label": "Gary Lineker" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "C'est encore aujourd'hui le seul triplé en finale de Coupe du monde."
+    },
+    {
+      "id": "cdm-d3",
+      "difficulty": "dur",
+      "text": "Quel pays a décroché son troisième titre mondial en 1970, gagnant à jamais le trophée original ?",
+      "options": [
+        { "id": "a", "label": "Le Brésil" },
+        { "id": "b", "label": "L'Italie" },
+        { "id": "c", "label": "L'Allemagne" },
+        { "id": "d", "label": "L'Uruguay" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Beaucoup considèrent cette équipe comme la plus belle de l'histoire."
+    },
+    {
+      "id": "cdm-d4",
+      "difficulty": "dur",
+      "text": "Quelle nation a gagné la Coupe du monde 1974 à domicile, face aux Pays-Bas ?",
+      "options": [
+        { "id": "a", "label": "L'Allemagne de l'Ouest" },
+        { "id": "b", "label": "Les Pays-Bas" },
+        { "id": "c", "label": "La Pologne" },
+        { "id": "d", "label": "Le Brésil" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Les Néerlandais avaient pourtant ouvert le score sans qu'un Allemand ne touche le ballon."
+    },
+    {
+      "id": "cdm-d5",
+      "difficulty": "dur",
+      "text": "Quel prodige néerlandais, apôtre du « football total », a marqué le Mondial 1974 ?",
+      "options": [
+        { "id": "a", "label": "Johan Cruyff" },
+        { "id": "b", "label": "Marco van Basten" },
+        { "id": "c", "label": "Ruud Gullit" },
+        { "id": "d", "label": "Dennis Bergkamp" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Un geste technique porte d'ailleurs son nom."
+    },
+    {
+      "id": "cdm-d6",
+      "difficulty": "dur",
+      "text": "Quel pays a remporté son premier titre mondial à domicile en 1978 ?",
+      "options": [
+        { "id": "a", "label": "L'Argentine" },
+        { "id": "b", "label": "Les Pays-Bas" },
+        { "id": "c", "label": "Le Brésil" },
+        { "id": "d", "label": "L'Italie" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Mario Kempes en fut le meilleur buteur."
+    },
+    {
+      "id": "cdm-d7",
+      "difficulty": "dur",
+      "text": "Quelle sélection a gagné la Coupe du monde 1982 disputée en Espagne ?",
+      "options": [
+        { "id": "a", "label": "L'Italie" },
+        { "id": "b", "label": "L'Allemagne de l'Ouest" },
+        { "id": "c", "label": "La Pologne" },
+        { "id": "d", "label": "Le Brésil" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le vétéran Dino Zoff soulevait le trophée à 40 ans."
+    },
+    {
+      "id": "cdm-d8",
+      "difficulty": "dur",
+      "text": "Quel attaquant italien a terminé meilleur buteur du Mondial 1982 ?",
+      "options": [
+        { "id": "a", "label": "Paolo Rossi" },
+        { "id": "b", "label": "Marco Tardelli" },
+        { "id": "c", "label": "Bruno Conti" },
+        { "id": "d", "label": "Alessandro Altobelli" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il revenait pourtant d'une longue suspension."
+    },
+    {
+      "id": "cdm-d9",
+      "difficulty": "dur",
+      "text": "Quel pays a remporté la Coupe du monde 1990 organisée en Italie ?",
+      "options": [
+        { "id": "a", "label": "L'Allemagne de l'Ouest" },
+        { "id": "b", "label": "L'Argentine" },
+        { "id": "c", "label": "L'Italie" },
+        { "id": "d", "label": "Le Brésil" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Une revanche de la finale perdue quatre ans plus tôt."
+    },
+    {
+      "id": "cdm-d10",
+      "difficulty": "dur",
+      "text": "Quel pays a accueilli la Coupe du monde 1994 ?",
+      "options": [
+        { "id": "a", "label": "Les États-Unis" },
+        { "id": "b", "label": "Le Mexique" },
+        { "id": "c", "label": "Le Canada" },
+        { "id": "d", "label": "Le Brésil" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Un pari réussi pour développer le football dans le pays."
+    },
+    {
+      "id": "cdm-d11",
+      "difficulty": "dur",
+      "text": "Quel Italien a manqué le tir au but décisif lors de la finale 1994 ?",
+      "options": [
+        { "id": "a", "label": "Roberto Baggio" },
+        { "id": "b", "label": "Franco Baresi" },
+        { "id": "c", "label": "Paolo Maldini" },
+        { "id": "d", "label": "Dino Baggio" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il a envoyé sa frappe au-dessus de la barre."
+    },
+    {
+      "id": "cdm-d12",
+      "difficulty": "dur",
+      "text": "Quelle équipe a remporté la Coupe du monde 1994 aux tirs au but ?",
+      "options": [
+        { "id": "a", "label": "Le Brésil" },
+        { "id": "b", "label": "L'Italie" },
+        { "id": "c", "label": "La Suède" },
+        { "id": "d", "label": "La Bulgarie" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Un quatrième sacre, vingt-quatre ans après le précédent."
+    },
+    {
+      "id": "cdm-d13",
+      "difficulty": "dur",
+      "text": "Quel joueur détient le record de buts inscrits en phase finale de Coupe du monde ?",
+      "options": [
+        { "id": "a", "label": "Miroslav Klose" },
+        { "id": "b", "label": "Ronaldo" },
+        { "id": "c", "label": "Gerd Müller" },
+        { "id": "d", "label": "Just Fontaine" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il a disputé quatre éditions avec l'Allemagne."
+    },
+    {
+      "id": "cdm-d14",
+      "difficulty": "dur",
+      "text": "Combien de buts ce recordman allemand a-t-il inscrits au total en Coupe du monde ?",
+      "options": [
+        { "id": "a", "label": "16" },
+        { "id": "b", "label": "14" },
+        { "id": "c", "label": "15" },
+        { "id": "d", "label": "18" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il a battu le précédent record lors du Mondial 2014."
+    },
+    {
+      "id": "cdm-d15",
+      "difficulty": "dur",
+      "text": "Quel Français détient le record de buts sur une seule édition, avec 13 réalisations en 1958 ?",
+      "options": [
+        { "id": "a", "label": "Just Fontaine" },
+        { "id": "b", "label": "Michel Platini" },
+        { "id": "c", "label": "Thierry Henry" },
+        { "id": "d", "label": "Jean-Pierre Papin" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Un record vieux de plus de soixante ans, jamais approché."
+    },
+    {
+      "id": "cdm-d16",
+      "difficulty": "dur",
+      "text": "Combien de Coupes du monde Pelé a-t-il remportées avec le Brésil ?",
+      "options": [
+        { "id": "a", "label": "Trois" },
+        { "id": "b", "label": "Deux" },
+        { "id": "c", "label": "Quatre" },
+        { "id": "d", "label": "Une" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "En 1958, 1962 et 1970."
+    },
+    {
+      "id": "cdm-d17",
+      "difficulty": "dur",
+      "text": "Quel Brésilien a terminé meilleur buteur du Mondial 2002 avec huit buts ?",
+      "options": [
+        { "id": "a", "label": "Ronaldo" },
+        { "id": "b", "label": "Rivaldo" },
+        { "id": "c", "label": "Ronaldinho" },
+        { "id": "d", "label": "Romário" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Une éclatante rédemption après sa finale ratée en 1998."
+    },
+    {
+      "id": "cdm-d18",
+      "difficulty": "dur",
+      "text": "Quel joueur a été élu meilleur joueur de la Coupe du monde 2006, malgré son expulsion en finale ?",
+      "options": [
+        { "id": "a", "label": "Zinédine Zidane" },
+        { "id": "b", "label": "Fabio Cannavaro" },
+        { "id": "c", "label": "Andrea Pirlo" },
+        { "id": "d", "label": "Gianluigi Buffon" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le vote avait été bouclé avant la fin de la finale."
+    },
+    {
+      "id": "cdm-d19",
+      "difficulty": "dur",
+      "text": "Quel Allemand a marqué le but victorieux en prolongation de la finale 2014 ?",
+      "options": [
+        { "id": "a", "label": "Mario Götze" },
+        { "id": "b", "label": "Thomas Müller" },
+        { "id": "c", "label": "Miroslav Klose" },
+        { "id": "d", "label": "Toni Kroos" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Une reprise de volée à sept minutes de la fin."
+    },
+    {
+      "id": "cdm-d20",
+      "difficulty": "dur",
+      "text": "Contre quelle équipe l'Espagne a-t-elle gagné la finale de la Coupe du monde 2010 ?",
+      "options": [
+        { "id": "a", "label": "Les Pays-Bas" },
+        { "id": "b", "label": "L'Allemagne" },
+        { "id": "c", "label": "L'Uruguay" },
+        { "id": "d", "label": "Le Brésil" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Une finale particulièrement rugueuse et hachée."
+    },
+    {
+      "id": "cdm-d21",
+      "difficulty": "dur",
+      "text": "Comment s'appelait le trophée original, gagné définitivement par le Brésil en 1970 ?",
+      "options": [
+        { "id": "a", "label": "La Coupe Jules Rimet" },
+        { "id": "b", "label": "La Coupe Henri Delaunay" },
+        { "id": "c", "label": "La Coupe FIFA" },
+        { "id": "d", "label": "La Coupe Rimet-Pelé" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elle porte le nom du fondateur de la compétition."
+    },
+    {
+      "id": "cdm-d22",
+      "difficulty": "dur",
+      "text": "Combien de titres mondiaux l'Italie compte-t-elle à son palmarès ?",
+      "options": [
+        { "id": "a", "label": "Quatre" },
+        { "id": "b", "label": "Trois" },
+        { "id": "c", "label": "Deux" },
+        { "id": "d", "label": "Cinq" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "1934, 1938, 1982 et 2006."
+    },
+    {
+      "id": "cdm-d23",
+      "difficulty": "dur",
+      "text": "Dans quel pays le Brésil a-t-il remporté son premier titre mondial en 1958, révélant un Pelé de 17 ans ?",
+      "options": [
+        { "id": "a", "label": "En Suède" },
+        { "id": "b", "label": "Au Chili" },
+        { "id": "c", "label": "En Angleterre" },
+        { "id": "d", "label": "Au Mexique" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le Brésil battait le pays hôte en finale."
+    },
+    {
+      "id": "cdm-d24",
+      "difficulty": "dur",
+      "text": "Sur quel score le Brésil a-t-il battu l'Italie en finale de la Coupe du monde 1970 ?",
+      "options": [
+        { "id": "a", "label": "4-1" },
+        { "id": "b", "label": "3-1" },
+        { "id": "c", "label": "2-0" },
+        { "id": "d", "label": "4-2" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le quatrième but de Carlos Alberto est resté un chef-d'œuvre collectif."
+    },
+    {
+      "id": "cdm-d25",
+      "difficulty": "dur",
+      "text": "Quel pays a accueilli la Coupe du monde 1986, celle du sacre de Maradona ?",
+      "options": [
+        { "id": "a", "label": "Le Mexique" },
+        { "id": "b", "label": "L'Espagne" },
+        { "id": "c", "label": "L'Argentine" },
+        { "id": "d", "label": "Les États-Unis" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le pays remplaçait au pied levé la Colombie, désistée."
+    },
+    {
+      "id": "cdm-d26",
+      "difficulty": "dur",
+      "text": "Contre quelle équipe Maradona a-t-il inscrit son fameux « but du siècle » en 1986 ?",
+      "options": [
+        { "id": "a", "label": "L'Angleterre" },
+        { "id": "b", "label": "La Belgique" },
+        { "id": "c", "label": "L'Allemagne" },
+        { "id": "d", "label": "L'Italie" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Un slalom de plus de soixante mètres, quelques minutes après « la main de Dieu »."
+    },
+    {
+      "id": "cdm-d27",
+      "difficulty": "dur",
+      "text": "Contre quelle équipe l'Argentine a-t-elle gagné la finale 2022 aux tirs au but ?",
+      "options": [
+        { "id": "a", "label": "La France" },
+        { "id": "b", "label": "Le Brésil" },
+        { "id": "c", "label": "La Croatie" },
+        { "id": "d", "label": "Le Maroc" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Beaucoup la considèrent comme la plus belle finale de l'histoire."
+    },
+    {
+      "id": "cdm-d28",
+      "difficulty": "dur",
+      "text": "Quel joueur a inscrit un triplé en finale de la Coupe du monde 2022, fait rarissime ?",
+      "options": [
+        { "id": "a", "label": "Kylian Mbappé" },
+        { "id": "b", "label": "Lionel Messi" },
+        { "id": "c", "label": "Ángel Di María" },
+        { "id": "d", "label": "Julián Álvarez" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Son équipe a pourtant perdu malgré cet exploit."
+    },
+    {
+      "id": "cdm-d29",
+      "difficulty": "dur",
+      "text": "Quel joueur a été élu meilleur joueur de la Coupe du monde 2022 ?",
+      "options": [
+        { "id": "a", "label": "Lionel Messi" },
+        { "id": "b", "label": "Kylian Mbappé" },
+        { "id": "c", "label": "Emiliano Martínez" },
+        { "id": "d", "label": "Luka Modrić" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il remportait ainsi un deuxième Ballon d'or du tournoi après 2014."
+    },
+    {
+      "id": "cdm-d30",
+      "difficulty": "dur",
+      "text": "Quelle sélection africaine a créé la sensation en atteignant les demi-finales en 2022 ?",
+      "options": [
+        { "id": "a", "label": "Le Maroc" },
+        { "id": "b", "label": "Le Sénégal" },
+        { "id": "c", "label": "Le Ghana" },
+        { "id": "d", "label": "Le Cameroun" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Une première pour une nation africaine à ce stade."
+    },
+    {
+      "id": "cdm-p1",
+      "difficulty": "pro",
+      "text": "Quel Français a inscrit le tout premier but de l'histoire de la Coupe du monde, en 1930 ?",
+      "options": [
+        { "id": "a", "label": "Lucien Laurent" },
+        { "id": "b", "label": "Just Fontaine" },
+        { "id": "c", "label": "Jules Rimet" },
+        { "id": "d", "label": "Raymond Kopa" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il l'a marqué face au Mexique."
+    },
+    {
+      "id": "cdm-p2",
+      "difficulty": "pro",
+      "text": "Quelle équipe a fait taire le Maracanã en battant le Brésil lors du match décisif de 1950 ?",
+      "options": [
+        { "id": "a", "label": "L'Uruguay" },
+        { "id": "b", "label": "L'Argentine" },
+        { "id": "c", "label": "La Suède" },
+        { "id": "d", "label": "L'Espagne" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ce traumatisme national est surnommé le « Maracanazo »."
+    },
+    {
+      "id": "cdm-p3",
+      "difficulty": "pro",
+      "text": "Quelle est la seule sélection à avoir participé à toutes les phases finales de Coupe du monde ?",
+      "options": [
+        { "id": "a", "label": "Le Brésil" },
+        { "id": "b", "label": "L'Allemagne" },
+        { "id": "c", "label": "L'Italie" },
+        { "id": "d", "label": "L'Argentine" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "L'Italie et l'Allemagne ont, elles, manqué certaines éditions."
+    },
+    {
+      "id": "cdm-p4",
+      "difficulty": "pro",
+      "text": "Quel joueur Miroslav Klose a-t-il dépassé en 2014 pour devenir meilleur buteur de l'histoire du Mondial ?",
+      "options": [
+        { "id": "a", "label": "Ronaldo" },
+        { "id": "b", "label": "Gerd Müller" },
+        { "id": "c", "label": "Pelé" },
+        { "id": "d", "label": "Just Fontaine" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le Brésilien détenait le record avec quinze buts."
+    },
+    {
+      "id": "cdm-p5",
+      "difficulty": "pro",
+      "text": "Quel gardien soviétique est le seul de son poste à avoir remporté le Ballon d'Or ?",
+      "options": [
+        { "id": "a", "label": "Lev Yachine" },
+        { "id": "b", "label": "Dino Zoff" },
+        { "id": "c", "label": "Gordon Banks" },
+        { "id": "d", "label": "Oliver Kahn" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Surnommé « l'Araignée noire », il l'a reçu en 1963."
+    },
+    {
+      "id": "cdm-p6",
+      "difficulty": "pro",
+      "text": "Quel gardien allemand a été élu meilleur joueur de la Coupe du monde 2002 ?",
+      "options": [
+        { "id": "a", "label": "Oliver Kahn" },
+        { "id": "b", "label": "Jens Lehmann" },
+        { "id": "c", "label": "Manuel Neuer" },
+        { "id": "d", "label": "Sepp Maier" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "C'est le seul gardien à avoir reçu ce trophée."
+    },
+    {
+      "id": "cdm-p7",
+      "difficulty": "pro",
+      "text": "Quelle équipe a conservé son titre mondial en 1938, avant la longue interruption due à la guerre ?",
+      "options": [
+        { "id": "a", "label": "L'Italie" },
+        { "id": "b", "label": "L'Uruguay" },
+        { "id": "c", "label": "L'Allemagne" },
+        { "id": "d", "label": "Le Brésil" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Aucune édition ne s'est tenue entre 1938 et 1950."
+    },
+    {
+      "id": "cdm-p8",
+      "difficulty": "pro",
+      "text": "Quel entraîneur est le seul à avoir remporté deux Coupes du monde, en 1934 et 1938 ?",
+      "options": [
+        { "id": "a", "label": "Vittorio Pozzo" },
+        { "id": "b", "label": "Helmut Schön" },
+        { "id": "c", "label": "Mário Zagallo" },
+        { "id": "d", "label": "Carlos Bilardo" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Un record de longévité au sommet resté inégalé."
+    },
+    {
+      "id": "cdm-p9",
+      "difficulty": "pro",
+      "text": "Quel Brésilien fut champion du monde comme joueur en 1958 et 1962, puis comme sélectionneur en 1970 ?",
+      "options": [
+        { "id": "a", "label": "Mário Zagallo" },
+        { "id": "b", "label": "Pelé" },
+        { "id": "c", "label": "Carlos Alberto" },
+        { "id": "d", "label": "Garrincha" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il fut aussi adjoint lors du sacre de 1994."
+    },
+    {
+      "id": "cdm-p10",
+      "difficulty": "pro",
+      "text": "Quel Allemand a gagné la Coupe du monde comme capitaine en 1974 puis comme sélectionneur en 1990 ?",
+      "options": [
+        { "id": "a", "label": "Franz Beckenbauer" },
+        { "id": "b", "label": "Gerd Müller" },
+        { "id": "c", "label": "Lothar Matthäus" },
+        { "id": "d", "label": "Sepp Maier" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "On le surnommait « le Kaiser »."
+    },
+    {
+      "id": "cdm-p11",
+      "difficulty": "pro",
+      "text": "Quel pays a créé le « Miracle de Berne » en battant la grande Hongrie en finale 1954 ?",
+      "options": [
+        { "id": "a", "label": "L'Allemagne de l'Ouest" },
+        { "id": "b", "label": "L'Autriche" },
+        { "id": "c", "label": "La Suède" },
+        { "id": "d", "label": "L'Uruguay" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "La Hongrie était invaincue depuis quatre ans."
+    },
+    {
+      "id": "cdm-p12",
+      "difficulty": "pro",
+      "text": "Quel légendaire buteur hongrois a perdu la finale du « Miracle de Berne » ?",
+      "options": [
+        { "id": "a", "label": "Ferenc Puskás" },
+        { "id": "b", "label": "Sándor Kocsis" },
+        { "id": "c", "label": "Nándor Hidegkuti" },
+        { "id": "d", "label": "Gyula Grosics" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "La FIFA a donné son nom à son trophée du plus beau but."
+    },
+    {
+      "id": "cdm-p13",
+      "difficulty": "pro",
+      "text": "Quel pays a conservé son titre mondial en 1962, au Chili ?",
+      "options": [
+        { "id": "a", "label": "Le Brésil" },
+        { "id": "b", "label": "La Tchécoslovaquie" },
+        { "id": "c", "label": "Le Chili" },
+        { "id": "d", "label": "L'Uruguay" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Un doublé réussi malgré la blessure précoce de sa star."
+    },
+    {
+      "id": "cdm-p14",
+      "difficulty": "pro",
+      "text": "Quel ailier a porté le Brésil vers le titre en 1962, alors que Pelé était blessé ?",
+      "options": [
+        { "id": "a", "label": "Garrincha" },
+        { "id": "b", "label": "Vavá" },
+        { "id": "c", "label": "Didi" },
+        { "id": "d", "label": "Zagallo" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Surnommé « l'Ange aux jambes tordues »."
+    },
+    {
+      "id": "cdm-p15",
+      "difficulty": "pro",
+      "text": "Sur quel score l'Uruguay a-t-il battu l'Argentine en finale de la première Coupe du monde, en 1930 ?",
+      "options": [
+        { "id": "a", "label": "4-2" },
+        { "id": "b", "label": "2-1" },
+        { "id": "c", "label": "3-1" },
+        { "id": "d", "label": "4-1" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Chaque équipe voulait jouer avec son propre ballon : on en changea à la mi-temps."
+    },
+    {
+      "id": "cdm-p16",
+      "difficulty": "pro",
+      "text": "Combien d'équipes ont disputé la phase finale de chaque Coupe du monde de 1998 à 2022 ?",
+      "options": [
+        { "id": "a", "label": "32" },
+        { "id": "b", "label": "24" },
+        { "id": "c", "label": "16" },
+        { "id": "d", "label": "48" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Avant 1998, elles n'étaient que 24."
+    },
+    {
+      "id": "cdm-p17",
+      "difficulty": "pro",
+      "text": "À combien d'équipes la phase finale passe-t-elle à partir de la Coupe du monde 2026 ?",
+      "options": [
+        { "id": "a", "label": "48" },
+        { "id": "b", "label": "40" },
+        { "id": "c", "label": "36" },
+        { "id": "d", "label": "32" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le plus grand format de l'histoire de la compétition."
+    },
+    {
+      "id": "cdm-p18",
+      "difficulty": "pro",
+      "text": "Quels trois pays coorganiseront la Coupe du monde 2026 ?",
+      "options": [
+        { "id": "a", "label": "États-Unis, Canada et Mexique" },
+        { "id": "b", "label": "États-Unis, Mexique et Brésil" },
+        { "id": "c", "label": "Canada, Mexique et Costa Rica" },
+        { "id": "d", "label": "États-Unis, Canada et Jamaïque" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "La première Coupe du monde coorganisée par trois nations."
+    },
+    {
+      "id": "cdm-p19",
+      "difficulty": "pro",
+      "text": "Comment le trophée original de la compétition a-t-il été renommé en 1946 ?",
+      "options": [
+        { "id": "a", "label": "La Coupe Jules Rimet" },
+        { "id": "b", "label": "La Coupe Victoire" },
+        { "id": "c", "label": "La Coupe FIFA" },
+        { "id": "d", "label": "La Déesse Niké" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "En hommage au président de la FIFA à l'origine du tournoi."
+    },
+    {
+      "id": "cdm-p20",
+      "difficulty": "pro",
+      "text": "En quelle année le trophée Jules Rimet a-t-il été volé au Brésil, puis jamais retrouvé ?",
+      "options": [
+        { "id": "a", "label": "1983" },
+        { "id": "b", "label": "1966" },
+        { "id": "c", "label": "1970" },
+        { "id": "d", "label": "1994" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "On pense qu'il a été fondu par les voleurs."
+    },
+    {
+      "id": "cdm-p21",
+      "difficulty": "pro",
+      "text": "Quel chien a retrouvé le trophée Jules Rimet dérobé en Angleterre en 1966 ?",
+      "options": [
+        { "id": "a", "label": "Pickles" },
+        { "id": "b", "label": "Rex" },
+        { "id": "c", "label": "Buddy" },
+        { "id": "d", "label": "Lassie" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il l'a déniché sous une haie, emballé dans du papier journal."
+    },
+    {
+      "id": "cdm-p22",
+      "difficulty": "pro",
+      "text": "Quel joueur est le plus jeune buteur de l'histoire de la Coupe du monde ?",
+      "options": [
+        { "id": "a", "label": "Pelé" },
+        { "id": "b", "label": "Kylian Mbappé" },
+        { "id": "c", "label": "Michael Owen" },
+        { "id": "d", "label": "Lionel Messi" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il avait 17 ans lors du Mondial 1958."
+    },
+    {
+      "id": "cdm-p23",
+      "difficulty": "pro",
+      "text": "Après Pelé, quel joueur est le deuxième plus jeune buteur en finale de Coupe du monde ?",
+      "options": [
+        { "id": "a", "label": "Kylian Mbappé" },
+        { "id": "b", "label": "Lionel Messi" },
+        { "id": "c", "label": "Wayne Rooney" },
+        { "id": "d", "label": "Michael Owen" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il a marqué en finale 2018 à seulement 19 ans."
+    },
+    {
+      "id": "cdm-p24",
+      "difficulty": "pro",
+      "text": "Quelle nation a disputé le plus grand nombre de finales de Coupe du monde ?",
+      "options": [
+        { "id": "a", "label": "L'Allemagne" },
+        { "id": "b", "label": "Le Brésil" },
+        { "id": "c", "label": "L'Italie" },
+        { "id": "d", "label": "L'Argentine" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Huit finales disputées, même si toutes n'ont pas été gagnées."
+    },
+    {
+      "id": "cdm-p25",
+      "difficulty": "pro",
+      "text": "À partir de quelle édition le trophée du meilleur joueur, le Ballon d'or Adidas, est-il décerné ?",
+      "options": [
+        { "id": "a", "label": "1982" },
+        { "id": "b", "label": "1966" },
+        { "id": "c", "label": "1990" },
+        { "id": "d", "label": "1998" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Paolo Rossi en fut le tout premier lauréat."
+    },
+    {
+      "id": "cdm-p26",
+      "difficulty": "pro",
+      "text": "Sur quel score l'Argentine a-t-elle battu les Pays-Bas en finale 1978, après prolongation ?",
+      "options": [
+        { "id": "a", "label": "3-1" },
+        { "id": "b", "label": "2-1" },
+        { "id": "c", "label": "3-2" },
+        { "id": "d", "label": "2-0" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Les Pays-Bas perdaient là leur deuxième finale consécutive."
+    },
+    {
+      "id": "cdm-p27",
+      "difficulty": "pro",
+      "text": "Quel gardien allemand a violemment percuté le Français Battiston en demi-finale 1982 ?",
+      "options": [
+        { "id": "a", "label": "Harald Schumacher" },
+        { "id": "b", "label": "Sepp Maier" },
+        { "id": "c", "label": "Oliver Kahn" },
+        { "id": "d", "label": "Jean-Marie Pfaff" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Aucune faute ne fut sifflée, à la stupeur générale."
+    },
+    {
+      "id": "cdm-p28",
+      "difficulty": "pro",
+      "text": "Quel Anglais a terminé meilleur buteur de la Coupe du monde 2018 ?",
+      "options": [
+        { "id": "a", "label": "Harry Kane" },
+        { "id": "b", "label": "Kylian Mbappé" },
+        { "id": "c", "label": "Romelu Lukaku" },
+        { "id": "d", "label": "Antoine Griezmann" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Plusieurs de ses buts furent inscrits sur penalty."
+    },
+    {
+      "id": "cdm-p29",
+      "difficulty": "pro",
+      "text": "Quel joueur a été le meilleur buteur de la Coupe du monde 2022, avec huit réalisations ?",
+      "options": [
+        { "id": "a", "label": "Kylian Mbappé" },
+        { "id": "b", "label": "Lionel Messi" },
+        { "id": "c", "label": "Julián Álvarez" },
+        { "id": "d", "label": "Olivier Giroud" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il devançait Messi d'une seule unité."
+    },
+    {
+      "id": "cdm-p30",
+      "difficulty": "pro",
+      "text": "Quel record individuel Lionel Messi a-t-il battu lors du Mondial 2022 ?",
+      "options": [
+        { "id": "a", "label": "Le nombre de matches disputés en Coupe du monde" },
+        { "id": "b", "label": "Le nombre de buts en une seule finale" },
+        { "id": "c", "label": "Le plus grand nombre de titres mondiaux" },
+        { "id": "d", "label": "Le plus grand nombre de cartons rouges" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il a dépassé le total de Lothar Matthäus."
+    },
+    {
+      "id": "cdm-p31",
+      "difficulty": "pro",
+      "text": "Quel capitaine brésilien a conclu la finale 1970 par un but resté dans les mémoires ?",
+      "options": [
+        { "id": "a", "label": "Carlos Alberto" },
+        { "id": "b", "label": "Pelé" },
+        { "id": "c", "label": "Jairzinho" },
+        { "id": "d", "label": "Tostão" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "L'action a impliqué presque toute l'équipe avant sa frappe."
+    },
+    {
+      "id": "cdm-p32",
+      "difficulty": "pro",
+      "text": "Quel Bulgare a co-terminé meilleur buteur du Mondial 1994 en menant sa surprenante équipe en demi-finale ?",
+      "options": [
+        { "id": "a", "label": "Hristo Stoichkov" },
+        { "id": "b", "label": "Emil Kostadinov" },
+        { "id": "c", "label": "Krasimir Balakov" },
+        { "id": "d", "label": "Yordan Letchkov" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il remporta le Ballon d'Or européen cette même année."
+    },
+    {
+      "id": "cdm-p33",
+      "difficulty": "pro",
+      "text": "Quel entraîneur néerlandais a mené la Corée du Sud jusqu'en demi-finale en 2002 ?",
+      "options": [
+        { "id": "a", "label": "Guus Hiddink" },
+        { "id": "b", "label": "Dick Advocaat" },
+        { "id": "c", "label": "Louis van Gaal" },
+        { "id": "d", "label": "Bora Milutinović" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Un parcours qui l'a rendu véritablement culte en Corée."
+    },
+    {
+      "id": "cdm-p34",
+      "difficulty": "pro",
+      "text": "Quel attaquant camerounais, la quarantaine venue, a enflammé le Mondial 1990 de ses danses ?",
+      "options": [
+        { "id": "a", "label": "Roger Milla" },
+        { "id": "b", "label": "Samuel Eto'o" },
+        { "id": "c", "label": "François Omam-Biyik" },
+        { "id": "d", "label": "Patrick Mboma" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le Cameroun atteignit les quarts, une première pour l'Afrique."
+    },
+    {
+      "id": "cdm-p35",
+      "difficulty": "pro",
+      "text": "Quel défenseur français a inscrit un doublé décisif en demi-finale 1998 contre la Croatie ?",
+      "options": [
+        { "id": "a", "label": "Lilian Thuram" },
+        { "id": "b", "label": "Marcel Desailly" },
+        { "id": "c", "label": "Bixente Lizarazu" },
+        { "id": "d", "label": "Laurent Blanc" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ce furent ses deux seuls buts en équipe de France."
+    },
+    {
+      "id": "cdm-p36",
+      "difficulty": "pro",
+      "text": "Quel Croate a remporté le Soulier d'or du Mondial 1998 avec six buts ?",
+      "options": [
+        { "id": "a", "label": "Davor Šuker" },
+        { "id": "b", "label": "Robert Prosinečki" },
+        { "id": "c", "label": "Zvonimir Boban" },
+        { "id": "d", "label": "Alen Bokšić" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "La Croatie terminait troisième pour sa première participation."
+    },
+    {
+      "id": "cdm-p37",
+      "difficulty": "pro",
+      "text": "En 2010, quel pays est devenu le premier hôte éliminé dès le premier tour d'une Coupe du monde ?",
+      "options": [
+        { "id": "a", "label": "L'Afrique du Sud" },
+        { "id": "b", "label": "Le Japon" },
+        { "id": "c", "label": "La Russie" },
+        { "id": "d", "label": "Le Qatar" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le Qatar connaîtra le même sort en 2022."
+    },
+    {
+      "id": "cdm-p38",
+      "difficulty": "pro",
+      "text": "Quel Colombien a remporté le Soulier d'or du Mondial 2014 avec six buts ?",
+      "options": [
+        { "id": "a", "label": "James Rodríguez" },
+        { "id": "b", "label": "Radamel Falcao" },
+        { "id": "c", "label": "Juan Cuadrado" },
+        { "id": "d", "label": "Carlos Bacca" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Sa reprise de volée contre l'Uruguay fut élue plus beau but du tournoi."
+    },
+    {
+      "id": "cdm-p39",
+      "difficulty": "pro",
+      "text": "Sur quel score le Brésil a-t-il battu la Suède en finale de la Coupe du monde 1958 ?",
+      "options": [
+        { "id": "a", "label": "5-2" },
+        { "id": "b", "label": "4-2" },
+        { "id": "c", "label": "3-1" },
+        { "id": "d", "label": "4-1" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le jeune Pelé y signa un doublé."
+    },
+    {
+      "id": "cdm-p40",
+      "difficulty": "pro",
+      "text": "En quel matériau est fait le trophée actuel de la Coupe du monde, créé en 1974 ?",
+      "options": [
+        { "id": "a", "label": "De l'or massif 18 carats" },
+        { "id": "b", "label": "De l'argent plaqué or" },
+        { "id": "c", "label": "Du bronze doré" },
+        { "id": "d", "label": "Du vermeil ciselé" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il pèse un peu plus de six kilos."
+    }
+  ]
+}

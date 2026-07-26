@@ -1,0 +1,1305 @@
+{
+  "universeId": "marvel-mcu",
+  "questions": [
+    {
+      "id": "mcu-f1",
+      "difficulty": "facile",
+      "text": "Quelle est l'identité civile d'Iron Man ?",
+      "options": [
+        { "id": "a", "label": "Tony Stark" },
+        { "id": "b", "label": "Steve Rogers" },
+        { "id": "c", "label": "Bruce Banner" },
+        { "id": "d", "label": "Peter Parker" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Un réacteur ARK maintient les éclats loin de son cœur."
+    },
+    {
+      "id": "mcu-f2",
+      "difficulty": "facile",
+      "text": "Qui se cache derrière le bouclier de Captain America dès la Seconde Guerre mondiale ?",
+      "options": [
+        { "id": "a", "label": "Steve Rogers" },
+        { "id": "b", "label": "Tony Stark" },
+        { "id": "c", "label": "Bucky Barnes" },
+        { "id": "d", "label": "Sam Wilson" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Un sérum expérimental fait de lui le premier super-soldat."
+    },
+    {
+      "id": "mcu-f3",
+      "difficulty": "facile",
+      "text": "Comment s'appelle le marteau enchanté de Thor ?",
+      "options": [
+        { "id": "a", "label": "Mjolnir" },
+        { "id": "b", "label": "Stormbreaker" },
+        { "id": "c", "label": "Gungnir" },
+        { "id": "d", "label": "Excalibur" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Seuls ceux jugés « dignes » peuvent le soulever."
+    },
+    {
+      "id": "mcu-f4",
+      "difficulty": "facile",
+      "text": "De quelle couleur devient Bruce Banner lorsqu'il se transforme sous la colère ?",
+      "options": [
+        { "id": "a", "label": "Vert" },
+        { "id": "b", "label": "Bleu" },
+        { "id": "c", "label": "Rouge" },
+        { "id": "d", "label": "Gris" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Les rayons gamma sont à l'origine de sa transformation."
+    },
+    {
+      "id": "mcu-f5",
+      "difficulty": "facile",
+      "text": "Quel adolescent new-yorkais devient Spider-Man après une morsure d'araignée ?",
+      "options": [
+        { "id": "a", "label": "Peter Parker" },
+        { "id": "b", "label": "Miles Morales" },
+        { "id": "c", "label": "Harry Osborn" },
+        { "id": "d", "label": "Flash Thompson" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il est d'abord repéré et recruté par Tony Stark."
+    },
+    {
+      "id": "mcu-f6",
+      "difficulty": "facile",
+      "text": "Quel titan au menton fendu veut réunir les six Pierres d'Infinité ?",
+      "options": [
+        { "id": "a", "label": "Thanos" },
+        { "id": "b", "label": "Ultron" },
+        { "id": "c", "label": "Loki" },
+        { "id": "d", "label": "Ronan" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il veut effacer la moitié de la vie « par équilibre »."
+    },
+    {
+      "id": "mcu-f7",
+      "difficulty": "facile",
+      "text": "Comment se nomme l'équipe de super-héros réunie par le SHIELD ?",
+      "options": [
+        { "id": "a", "label": "Les Avengers" },
+        { "id": "b", "label": "Les X-Men" },
+        { "id": "c", "label": "Les Gardiens" },
+        { "id": "d", "label": "Les Éternels" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Leur cri de ralliement est « Rassemblement ! »."
+    },
+    {
+      "id": "mcu-f8",
+      "difficulty": "facile",
+      "text": "De quel royaume africain isolé T'Challa est-il le roi ?",
+      "options": [
+        { "id": "a", "label": "Le Wakanda" },
+        { "id": "b", "label": "Asgard" },
+        { "id": "c", "label": "La Sokovie" },
+        { "id": "d", "label": "La Latvérie" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Sa richesse repose sur un métal unique tombé du ciel."
+    },
+    {
+      "id": "mcu-f9",
+      "difficulty": "facile",
+      "text": "Quel dieu de la malice est le frère adoptif de Thor ?",
+      "options": [
+        { "id": "a", "label": "Loki" },
+        { "id": "b", "label": "Odin" },
+        { "id": "c", "label": "Heimdall" },
+        { "id": "d", "label": "Fandral" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il est en réalité un Géant des Glaces recueilli enfant."
+    },
+    {
+      "id": "mcu-f10",
+      "difficulty": "facile",
+      "text": "Quel personnage arboricole des Gardiens ne prononce qu'une seule et même phrase ?",
+      "options": [
+        { "id": "a", "label": "Groot" },
+        { "id": "b", "label": "Rocket" },
+        { "id": "c", "label": "Drax" },
+        { "id": "d", "label": "Yondu" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Seul Rocket comprend vraiment ce qu'il veut dire."
+    },
+    {
+      "id": "mcu-m1",
+      "difficulty": "moyen",
+      "text": "Quel membre des Gardiens de la Galaxie est un raton laveur génétiquement modifié ?",
+      "options": [
+        { "id": "a", "label": "Rocket" },
+        { "id": "b", "label": "Groot" },
+        { "id": "c", "label": "Drax" },
+        { "id": "d", "label": "Kraglin" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il déteste qu'on le traite de « rongeur »."
+    },
+    {
+      "id": "mcu-m2",
+      "difficulty": "moyen",
+      "text": "Quelle est l'identité de Star-Lord, le chef des Gardiens de la Galaxie ?",
+      "options": [
+        { "id": "a", "label": "Peter Quill" },
+        { "id": "b", "label": "Peter Parker" },
+        { "id": "c", "label": "Scott Lang" },
+        { "id": "d", "label": "Stephen Strange" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il a été enlevé de la Terre par des Ravageurs, enfant."
+    },
+    {
+      "id": "mcu-m3",
+      "difficulty": "moyen",
+      "text": "Quel est le vrai nom de la Veuve Noire ?",
+      "options": [
+        { "id": "a", "label": "Natasha Romanoff" },
+        { "id": "b", "label": "Wanda Maximoff" },
+        { "id": "c", "label": "Carol Danvers" },
+        { "id": "d", "label": "Maria Hill" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elle a été formée dans la « Chambre rouge » soviétique."
+    },
+    {
+      "id": "mcu-m4",
+      "difficulty": "moyen",
+      "text": "En quel métal quasi indestructible est fait le bouclier de Captain America ?",
+      "options": [
+        { "id": "a", "label": "Le vibranium" },
+        { "id": "b", "label": "L'adamantium" },
+        { "id": "c", "label": "L'uru" },
+        { "id": "d", "label": "Le titane" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ce métal provient exclusivement du Wakanda."
+    },
+    {
+      "id": "mcu-m5",
+      "difficulty": "moyen",
+      "text": "Quelle profession Stephen Strange exerçait-il avant de devenir un maître des arts mystiques ?",
+      "options": [
+        { "id": "a", "label": "Chirurgien" },
+        { "id": "b", "label": "Avocat" },
+        { "id": "c", "label": "Ingénieur" },
+        { "id": "d", "label": "Journaliste" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Un accident de voiture ruine ses mains et sa carrière."
+    },
+    {
+      "id": "mcu-m6",
+      "difficulty": "moyen",
+      "text": "Qui endosse le plus souvent le costume rétrécissant d'Ant-Man dans le MCU ?",
+      "options": [
+        { "id": "a", "label": "Scott Lang" },
+        { "id": "b", "label": "Hank Pym" },
+        { "id": "c", "label": "Darren Cross" },
+        { "id": "d", "label": "Bill Foster" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "C'est un ex-cambrioleur au grand cœur."
+    },
+    {
+      "id": "mcu-m7",
+      "difficulty": "moyen",
+      "text": "De quelle Pierre d'Infinité, fixée sur son front, Vision tire-t-il la vie ?",
+      "options": [
+        { "id": "a", "label": "L'Esprit" },
+        { "id": "b", "label": "Le Temps" },
+        { "id": "c", "label": "L'Âme" },
+        { "id": "d", "label": "Le Pouvoir" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Cette même Pierre servit auparavant à Loki et à Ultron."
+    },
+    {
+      "id": "mcu-m8",
+      "difficulty": "moyen",
+      "text": "Quel est le nom de la Sorcière Rouge, sœur jumelle de Pietro ?",
+      "options": [
+        { "id": "a", "label": "Wanda Maximoff" },
+        { "id": "b", "label": "Natasha Romanoff" },
+        { "id": "c", "label": "Carol Danvers" },
+        { "id": "d", "label": "Jane Foster" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elle finit par maîtriser la magie du chaos."
+    },
+    {
+      "id": "mcu-m9",
+      "difficulty": "moyen",
+      "text": "Quel ami d'enfance de Steve Rogers devient le Soldat de l'Hiver ?",
+      "options": [
+        { "id": "a", "label": "Bucky Barnes" },
+        { "id": "b", "label": "Sam Wilson" },
+        { "id": "c", "label": "Clint Barton" },
+        { "id": "d", "label": "Phil Coulson" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il a été manipulé et transformé en assassin par Hydra."
+    },
+    {
+      "id": "mcu-m10",
+      "difficulty": "moyen",
+      "text": "Quel héros aux ailes mécaniques reprend le bouclier après le départ de Steve Rogers ?",
+      "options": [
+        { "id": "a", "label": "Sam Wilson" },
+        { "id": "b", "label": "Bucky Barnes" },
+        { "id": "c", "label": "James Rhodes" },
+        { "id": "d", "label": "John Walker" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il devient ainsi le nouveau Captain America."
+    },
+    {
+      "id": "mcu-m11",
+      "difficulty": "moyen",
+      "text": "Qui pilote l'armure militaire baptisée War Machine ?",
+      "options": [
+        { "id": "a", "label": "James Rhodes" },
+        { "id": "b", "label": "Tony Stark" },
+        { "id": "c", "label": "Happy Hogan" },
+        { "id": "d", "label": "Justin Hammer" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Les proches de ce colonel le surnomment « Rhodey »."
+    },
+    {
+      "id": "mcu-m12",
+      "difficulty": "moyen",
+      "text": "Quel Avenger combat presque exclusivement à l'arc ?",
+      "options": [
+        { "id": "a", "label": "Clint Barton" },
+        { "id": "b", "label": "Sam Wilson" },
+        { "id": "c", "label": "Scott Lang" },
+        { "id": "d", "label": "Bucky Barnes" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Œil-de-Faucon ne rate presque jamais sa cible."
+    },
+    {
+      "id": "mcu-m13",
+      "difficulty": "moyen",
+      "text": "Quelle pilote de l'US Air Force devient Captain Marvel ?",
+      "options": [
+        { "id": "a", "label": "Carol Danvers" },
+        { "id": "b", "label": "Maria Rambeau" },
+        { "id": "c", "label": "Natasha Romanoff" },
+        { "id": "d", "label": "Peggy Carter" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elle tire ses pouvoirs de l'énergie du Tesseract."
+    },
+    {
+      "id": "mcu-m14",
+      "difficulty": "moyen",
+      "text": "Qui dirige Stark Industries et finit par épouser Tony Stark ?",
+      "options": [
+        { "id": "a", "label": "Pepper Potts" },
+        { "id": "b", "label": "Peggy Carter" },
+        { "id": "c", "label": "Maria Hill" },
+        { "id": "d", "label": "Christine Palmer" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elle enfile même une armure sous le nom de Rescue."
+    },
+    {
+      "id": "mcu-m15",
+      "difficulty": "moyen",
+      "text": "Quel directeur borgne du SHIELD met sur pied l'« Initiative Avengers » ?",
+      "options": [
+        { "id": "a", "label": "Nick Fury" },
+        { "id": "b", "label": "Phil Coulson" },
+        { "id": "c", "label": "Thaddeus Ross" },
+        { "id": "d", "label": "Alexander Pierce" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Un chat-flerken lui a coûté son œil."
+    },
+    {
+      "id": "mcu-m16",
+      "difficulty": "moyen",
+      "text": "Quelle nouvelle arme Thor forge-t-il après la destruction de son marteau ?",
+      "options": [
+        { "id": "a", "label": "Stormbreaker" },
+        { "id": "b", "label": "Gungnir" },
+        { "id": "c", "label": "Jarnbjorn" },
+        { "id": "d", "label": "Mjolnir" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Cette hache peut même invoquer le Bifrost."
+    },
+    {
+      "id": "mcu-m17",
+      "difficulty": "moyen",
+      "text": "Quelle jeune génie de la technologie est la petite sœur de T'Challa ?",
+      "options": [
+        { "id": "a", "label": "Shuri" },
+        { "id": "b", "label": "Okoye" },
+        { "id": "c", "label": "Nakia" },
+        { "id": "d", "label": "Ramonda" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elle conçoit les gadgets et costumes du Wakanda."
+    },
+    {
+      "id": "mcu-m18",
+      "difficulty": "moyen",
+      "text": "Quel pays fictif Ultron tente-t-il de transformer en météore géant ?",
+      "options": [
+        { "id": "a", "label": "La Sokovie" },
+        { "id": "b", "label": "La Latvérie" },
+        { "id": "c", "label": "Le Wakanda" },
+        { "id": "d", "label": "La Genosha" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "C'est aussi le pays d'origine des jumeaux Maximoff."
+    },
+    {
+      "id": "mcu-m19",
+      "difficulty": "moyen",
+      "text": "Quel être cosmique se révèle être le père biologique de Peter Quill ?",
+      "options": [
+        { "id": "a", "label": "Ego" },
+        { "id": "b", "label": "Yondu" },
+        { "id": "c", "label": "Thanos" },
+        { "id": "d", "label": "Ronan" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il se présente sous la forme d'une planète vivante."
+    },
+    {
+      "id": "mcu-m20",
+      "difficulty": "moyen",
+      "text": "Quel Avenger devient le mentor du jeune Spider-Man ?",
+      "options": [
+        { "id": "a", "label": "Tony Stark" },
+        { "id": "b", "label": "Steve Rogers" },
+        { "id": "c", "label": "Stephen Strange" },
+        { "id": "d", "label": "Nick Fury" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il lui offre un costume bourré de technologie."
+    },
+    {
+      "id": "mcu-d1",
+      "difficulty": "dur",
+      "text": "Quelle fille adoptive de Thanos, à la peau verte, rejoint les Gardiens ?",
+      "options": [
+        { "id": "a", "label": "Gamora" },
+        { "id": "b", "label": "Nebula" },
+        { "id": "c", "label": "Mantis" },
+        { "id": "d", "label": "Ayesha" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "On la présente comme « la femme la plus dangereuse de la galaxie »."
+    },
+    {
+      "id": "mcu-d2",
+      "difficulty": "dur",
+      "text": "Quelle fille adoptive de Thanos, en grande partie cybernétique, est la sœur de Gamora ?",
+      "options": [
+        { "id": "a", "label": "Nebula" },
+        { "id": "b", "label": "Mantis" },
+        { "id": "c", "label": "Proxima" },
+        { "id": "d", "label": "Ayesha" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Thanos remplaçait ses membres à chaque défaite."
+    },
+    {
+      "id": "mcu-d3",
+      "difficulty": "dur",
+      "text": "Quel Ravageur à la peau bleue dirige une flèche mortelle rien qu'en sifflant ?",
+      "options": [
+        { "id": "a", "label": "Yondu" },
+        { "id": "b", "label": "Kraglin" },
+        { "id": "c", "label": "Stakar" },
+        { "id": "d", "label": "Taserface" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il se sacrifie finalement pour sauver Peter Quill."
+    },
+    {
+      "id": "mcu-d4",
+      "difficulty": "dur",
+      "text": "Quel adversaire, cousin de T'Challa, veut renverser le trône du Wakanda ?",
+      "options": [
+        { "id": "a", "label": "Erik Killmonger" },
+        { "id": "b", "label": "Ulysses Klaue" },
+        { "id": "c", "label": "Baron Zemo" },
+        { "id": "d", "label": "Emeric Stane" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Son nom de naissance est N'Jadaka."
+    },
+    {
+      "id": "mcu-d5",
+      "difficulty": "dur",
+      "text": "Quel homme manipule patiemment les Avengers pour les diviser dans « Civil War » ?",
+      "options": [
+        { "id": "a", "label": "Baron Zemo" },
+        { "id": "b", "label": "Baron Mordo" },
+        { "id": "c", "label": "Justin Hammer" },
+        { "id": "d", "label": "Aldrich Killian" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il n'a aucun super-pouvoir, seulement un plan implacable."
+    },
+    {
+      "id": "mcu-d6",
+      "difficulty": "dur",
+      "text": "Quel maître des arts mystiques veille sur la bibliothèque de Kamar-Taj ?",
+      "options": [
+        { "id": "a", "label": "Wong" },
+        { "id": "b", "label": "Mordo" },
+        { "id": "c", "label": "Kaecilius" },
+        { "id": "d", "label": "Cagliostro" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il devient plus tard le Sorcier Suprême."
+    },
+    {
+      "id": "mcu-d7",
+      "difficulty": "dur",
+      "text": "Qui initie Stephen Strange aux arts mystiques à Kamar-Taj ?",
+      "options": [
+        { "id": "a", "label": "L'Ancien" },
+        { "id": "b", "label": "Le Baron Mordo" },
+        { "id": "c", "label": "Maître Wong" },
+        { "id": "d", "label": "Dame Agatha" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ce personnage puise en secret dans les Ténèbres."
+    },
+    {
+      "id": "mcu-d8",
+      "difficulty": "dur",
+      "text": "Quel fanatique kree veut détruire la planète Xandar avec la Pierre du Pouvoir ?",
+      "options": [
+        { "id": "a", "label": "Ronan l'Accusateur" },
+        { "id": "b", "label": "Korath le Traqueur" },
+        { "id": "c", "label": "Yondu Udonta" },
+        { "id": "d", "label": "Thanos le Titan" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il travaille d'abord pour le compte de Thanos."
+    },
+    {
+      "id": "mcu-d9",
+      "difficulty": "dur",
+      "text": "Quel Avenger crée par accident l'intelligence artificielle meurtrière Ultron ?",
+      "options": [
+        { "id": "a", "label": "Tony Stark" },
+        { "id": "b", "label": "Bruce Banner" },
+        { "id": "c", "label": "Hank Pym" },
+        { "id": "d", "label": "Shuri" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il voulait créer « une armure autour du monde »."
+    },
+    {
+      "id": "mcu-d10",
+      "difficulty": "dur",
+      "text": "Quelle déesse de la mort, sœur aînée de Thor, brise son marteau à mains nues ?",
+      "options": [
+        { "id": "a", "label": "Hela" },
+        { "id": "b", "label": "Frigga" },
+        { "id": "c", "label": "Sif" },
+        { "id": "d", "label": "Valkyrie" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elle avait été bannie et effacée de l'histoire d'Asgard."
+    },
+    {
+      "id": "mcu-d11",
+      "difficulty": "dur",
+      "text": "Sur quelle planète-décharge Thor est-il contraint de combattre en gladiateur ?",
+      "options": [
+        { "id": "a", "label": "Sakaar" },
+        { "id": "b", "label": "Xandar" },
+        { "id": "c", "label": "Vormir" },
+        { "id": "d", "label": "Morag" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il y retrouve un « ami de travail » : Hulk."
+    },
+    {
+      "id": "mcu-d12",
+      "difficulty": "dur",
+      "text": "Qui organise les combats de gladiateurs sur la planète Sakaar ?",
+      "options": [
+        { "id": "a", "label": "Le Grand Maître" },
+        { "id": "b", "label": "Le Collectionneur" },
+        { "id": "c", "label": "Le Tribunal Vivant" },
+        { "id": "d", "label": "Le Gardien Ultime" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "C'est le frère du Collectionneur d'objets rares."
+    },
+    {
+      "id": "mcu-d13",
+      "difficulty": "dur",
+      "text": "De quelle planète dévastée Thanos est-il originaire ?",
+      "options": [
+        { "id": "a", "label": "Titan" },
+        { "id": "b", "label": "Sakaar" },
+        { "id": "c", "label": "Xandar" },
+        { "id": "d", "label": "Morag" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Sa surpopulation a inspiré son sinistre projet."
+    },
+    {
+      "id": "mcu-d14",
+      "difficulty": "dur",
+      "text": "Sur quelle planète un sacrifice est-il exigé pour obtenir la Pierre de l'Âme ?",
+      "options": [
+        { "id": "a", "label": "Vormir" },
+        { "id": "b", "label": "Morag" },
+        { "id": "c", "label": "Xandar" },
+        { "id": "d", "label": "Knowhere" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il faut y sacrifier l'être qu'on aime le plus."
+    },
+    {
+      "id": "mcu-d15",
+      "difficulty": "dur",
+      "text": "Quel ancien ennemi de Captain America garde la Pierre de l'Âme sur Vormir ?",
+      "options": [
+        { "id": "a", "label": "Le Crâne Rouge" },
+        { "id": "b", "label": "Le Baron Zemo" },
+        { "id": "c", "label": "Arnim Zola" },
+        { "id": "d", "label": "Alexander Pierce" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le Tesseract l'avait autrefois téléporté jusqu'ici."
+    },
+    {
+      "id": "mcu-d16",
+      "difficulty": "dur",
+      "text": "Quelle empathe aux antennes rejoint les Gardiens après avoir servi Ego ?",
+      "options": [
+        { "id": "a", "label": "Mantis" },
+        { "id": "b", "label": "Nebula" },
+        { "id": "c", "label": "Gamora" },
+        { "id": "d", "label": "Ayesha" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elle ressent les émotions d'autrui par simple contact."
+    },
+    {
+      "id": "mcu-d17",
+      "difficulty": "dur",
+      "text": "Comment s'appelle le père de Tony, cofondateur du SHIELD ?",
+      "options": [
+        { "id": "a", "label": "Howard Stark" },
+        { "id": "b", "label": "Obadiah Stane" },
+        { "id": "c", "label": "Anton Vanko" },
+        { "id": "d", "label": "Edwin Jarvis" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il a aussi participé à la création de Captain America."
+    },
+    {
+      "id": "mcu-d18",
+      "difficulty": "dur",
+      "text": "Quel associé de Stark Industries devient l'Iron Monger dans le premier film ?",
+      "options": [
+        { "id": "a", "label": "Obadiah Stane" },
+        { "id": "b", "label": "Justin Hammer" },
+        { "id": "c", "label": "Aldrich Killian" },
+        { "id": "d", "label": "Anton Vanko" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il commandite l'attentat contre Tony dès le début."
+    },
+    {
+      "id": "mcu-d19",
+      "difficulty": "dur",
+      "text": "Quelle agente, amour de guerre de Steve Rogers, cofonde le SHIELD ?",
+      "options": [
+        { "id": "a", "label": "Peggy Carter" },
+        { "id": "b", "label": "Sharon Carter" },
+        { "id": "c", "label": "Maria Hill" },
+        { "id": "d", "label": "Melinda May" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Steve la retrouve à la toute fin de son parcours."
+    },
+    {
+      "id": "mcu-d20",
+      "difficulty": "dur",
+      "text": "Quel agent du SHIELD Loki tue-t-il, soudant ainsi les Avengers naissants ?",
+      "options": [
+        { "id": "a", "label": "Phil Coulson" },
+        { "id": "b", "label": "Nick Fury" },
+        { "id": "c", "label": "Jasper Sitwell" },
+        { "id": "d", "label": "Brock Rumlow" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ses cartes de collection ensanglantées font le lien."
+    },
+    {
+      "id": "mcu-d21",
+      "difficulty": "dur",
+      "text": "Comment s'appelle la reine mère du Wakanda ?",
+      "options": [
+        { "id": "a", "label": "Ramonda" },
+        { "id": "b", "label": "Okoye" },
+        { "id": "c", "label": "Nakia" },
+        { "id": "d", "label": "Ayo" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elle prend elle-même le trône dans « Wakanda Forever »."
+    },
+    {
+      "id": "mcu-d22",
+      "difficulty": "dur",
+      "text": "Qui commande la garde royale féminine du Wakanda, les Dora Milaje ?",
+      "options": [
+        { "id": "a", "label": "Okoye" },
+        { "id": "b", "label": "Nakia" },
+        { "id": "c", "label": "Shuri" },
+        { "id": "d", "label": "Ayo" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elle manie une lance vibranium redoutable."
+    },
+    {
+      "id": "mcu-d23",
+      "difficulty": "dur",
+      "text": "Quel trafiquant d'armes au bras sonique dérobe du vibranium au Wakanda ?",
+      "options": [
+        { "id": "a", "label": "Ulysses Klaue" },
+        { "id": "b", "label": "Erik Killmonger" },
+        { "id": "c", "label": "Justin Hammer" },
+        { "id": "d", "label": "Aldrich Killian" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il a perdu un bras à cause d'Ultron."
+    },
+    {
+      "id": "mcu-d24",
+      "difficulty": "dur",
+      "text": "Quelle astrophysicienne est le grand amour de Thor sur Terre ?",
+      "options": [
+        { "id": "a", "label": "Jane Foster" },
+        { "id": "b", "label": "Darcy Lewis" },
+        { "id": "c", "label": "Lady Sif" },
+        { "id": "d", "label": "Dame Valkyrie" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elle reviendra brandir elle-même le marteau Mjolnir."
+    },
+    {
+      "id": "mcu-d25",
+      "difficulty": "dur",
+      "text": "Quel gardien tout-voyant surveille le pont Bifrost à Asgard ?",
+      "options": [
+        { "id": "a", "label": "Heimdall" },
+        { "id": "b", "label": "Odin" },
+        { "id": "c", "label": "Fandral" },
+        { "id": "d", "label": "Hogun" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Rien dans les Neuf Royaumes n'échappe à son regard."
+    },
+    {
+      "id": "mcu-d26",
+      "difficulty": "dur",
+      "text": "Qui règne sur Asgard en tant que père de Thor ?",
+      "options": [
+        { "id": "a", "label": "Odin" },
+        { "id": "b", "label": "Heimdall" },
+        { "id": "c", "label": "Bor" },
+        { "id": "d", "label": "Tyr" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il possède un corbeau, un trône et un œil unique."
+    },
+    {
+      "id": "mcu-d27",
+      "difficulty": "dur",
+      "text": "Quel chef des Elfes Noirs veut plonger l'univers dans les ténèbres avec l'Éther ?",
+      "options": [
+        { "id": "a", "label": "Malekith" },
+        { "id": "b", "label": "Laufey" },
+        { "id": "c", "label": "Kurse" },
+        { "id": "d", "label": "Surtur" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Son peuple est plus ancien que l'univers lui-même."
+    },
+    {
+      "id": "mcu-d28",
+      "difficulty": "dur",
+      "text": "Quelle Pierre d'Infinité se cache derrière l'Éther, cette substance rouge et liquide ?",
+      "options": [
+        { "id": "a", "label": "La Réalité" },
+        { "id": "b", "label": "Le Pouvoir" },
+        { "id": "c", "label": "L'Âme" },
+        { "id": "d", "label": "L'Esprit" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le Collectionneur tente un temps de la conserver."
+    },
+    {
+      "id": "mcu-d29",
+      "difficulty": "dur",
+      "text": "Grâce à quelle invention Ant-Man peut-il changer radicalement de taille ?",
+      "options": [
+        { "id": "a", "label": "Les particules Pym" },
+        { "id": "b", "label": "Les particules Stark" },
+        { "id": "c", "label": "Les particules Kree" },
+        { "id": "d", "label": "Les particules Gamma" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elles ouvrent aussi l'accès au Royaume quantique."
+    },
+    {
+      "id": "mcu-d30",
+      "difficulty": "dur",
+      "text": "Quel scientifique crée le virus Extremis et se cache derrière un faux Mandarin dans « Iron Man 3 » ?",
+      "options": [
+        { "id": "a", "label": "Aldrich Killian" },
+        { "id": "b", "label": "Justin Hammer" },
+        { "id": "c", "label": "Trevor Slattery" },
+        { "id": "d", "label": "Ivan Vanko" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il a monté toute une mise en scène terroriste."
+    },
+    {
+      "id": "mcu-p1",
+      "difficulty": "pro",
+      "text": "Quel film lance officiellement l'univers cinématographique Marvel en 2008 ?",
+      "options": [
+        { "id": "a", "label": "Iron Man" },
+        { "id": "b", "label": "L'Incroyable Hulk" },
+        { "id": "c", "label": "Thor" },
+        { "id": "d", "label": "Captain America" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "La scène post-générique introduit déjà Nick Fury."
+    },
+    {
+      "id": "mcu-p2",
+      "difficulty": "pro",
+      "text": "Comment s'appelle la première intelligence artificielle qui assiste Tony Stark ?",
+      "options": [
+        { "id": "a", "label": "Jarvis" },
+        { "id": "b", "label": "Friday" },
+        { "id": "c", "label": "Karen" },
+        { "id": "d", "label": "Edith" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ce nom rend hommage au majordome Edwin Jarvis."
+    },
+    {
+      "id": "mcu-p3",
+      "difficulty": "pro",
+      "text": "Quelle IA remplace Jarvis dans les armures de Stark après « L'Ère d'Ultron » ?",
+      "options": [
+        { "id": "a", "label": "Friday" },
+        { "id": "b", "label": "Karen" },
+        { "id": "c", "label": "Edith" },
+        { "id": "d", "label": "Veronica" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Jarvis a servi de base à la naissance de Vision."
+    },
+    {
+      "id": "mcu-p4",
+      "difficulty": "pro",
+      "text": "Comment s'appelle le vaisseau des Gardiens dans le premier film ?",
+      "options": [
+        { "id": "a", "label": "Le Milano" },
+        { "id": "b", "label": "Le Benatar" },
+        { "id": "c", "label": "Le Quadrant" },
+        { "id": "d", "label": "Le Dark Aster" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Peter Quill l'a baptisé d'après un béguin d'enfance."
+    },
+    {
+      "id": "mcu-p5",
+      "difficulty": "pro",
+      "text": "Le vaisseau des Gardiens tient son nom de quelle actrice, béguin d'enfance de Star-Lord ?",
+      "options": [
+        { "id": "a", "label": "Alyssa Milano" },
+        { "id": "b", "label": "Winona Ryder" },
+        { "id": "c", "label": "Molly Ringwald" },
+        { "id": "d", "label": "Phoebe Cates" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Un clin d'œil à la pop culture des années 1980."
+    },
+    {
+      "id": "mcu-p6",
+      "difficulty": "pro",
+      "text": "Combien de Pierres d'Infinité Thanos doit-il réunir au total ?",
+      "options": [
+        { "id": "a", "label": "Six" },
+        { "id": "b", "label": "Cinq" },
+        { "id": "c", "label": "Sept" },
+        { "id": "d", "label": "Quatre" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Chacune contrôle un aspect fondamental de l'existence."
+    },
+    {
+      "id": "mcu-p7",
+      "difficulty": "pro",
+      "text": "Quelle Pierre d'Infinité se dissimule à l'intérieur du Tesseract ?",
+      "options": [
+        { "id": "a", "label": "L'Espace" },
+        { "id": "b", "label": "Le Temps" },
+        { "id": "c", "label": "L'Esprit" },
+        { "id": "d", "label": "L'Âme" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elle permet d'ouvrir des portails à travers l'univers."
+    },
+    {
+      "id": "mcu-p8",
+      "difficulty": "pro",
+      "text": "Quelle Pierre d'Infinité Doctor Strange protège-t-il dans l'Œil d'Agamotto ?",
+      "options": [
+        { "id": "a", "label": "Le Temps" },
+        { "id": "b", "label": "L'Espace" },
+        { "id": "c", "label": "La Réalité" },
+        { "id": "d", "label": "Le Pouvoir" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il s'en sert pour explorer plus de 14 millions de futurs."
+    },
+    {
+      "id": "mcu-p9",
+      "difficulty": "pro",
+      "text": "Combien d'années séparent le claquement de Thanos du « braquage temporel » des Avengers ?",
+      "options": [
+        { "id": "a", "label": "Cinq ans" },
+        { "id": "b", "label": "Trois ans" },
+        { "id": "c", "label": "Dix ans" },
+        { "id": "d", "label": "Un an" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Scott Lang, lui, n'a vécu que cinq heures dans le Royaume quantique."
+    },
+    {
+      "id": "mcu-p10",
+      "difficulty": "pro",
+      "text": "Quel héros se révèle enfin digne de soulever Mjolnir lors de la bataille finale d'« Endgame » ?",
+      "options": [
+        { "id": "a", "label": "Captain America" },
+        { "id": "b", "label": "Iron Man" },
+        { "id": "c", "label": "War Machine" },
+        { "id": "d", "label": "Le Faucon" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Thor exulte : « Je le savais ! »."
+    },
+    {
+      "id": "mcu-p11",
+      "difficulty": "pro",
+      "text": "Pour obtenir quelle Pierre d'Infinité Natasha Romanoff se sacrifie-t-elle sur Vormir ?",
+      "options": [
+        { "id": "a", "label": "L'Âme" },
+        { "id": "b", "label": "Le Temps" },
+        { "id": "c", "label": "L'Espace" },
+        { "id": "d", "label": "Le Pouvoir" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elle et Clint se battaient pour être celui qui tomberait."
+    },
+    {
+      "id": "mcu-p12",
+      "difficulty": "pro",
+      "text": "Au début d'« Endgame », où Thor frappe-t-il Thanos, regrettant de ne pas l'avoir fait plus tôt ?",
+      "options": [
+        { "id": "a", "label": "À la tête" },
+        { "id": "b", "label": "Au cœur" },
+        { "id": "c", "label": "Au bras" },
+        { "id": "d", "label": "Aux jambes" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "« Cette fois, j'ai visé la tête. »"
+    },
+    {
+      "id": "mcu-p13",
+      "difficulty": "pro",
+      "text": "Par quel monde subatomique les Avengers voyagent-ils dans le temps ?",
+      "options": [
+        { "id": "a", "label": "Le Royaume quantique" },
+        { "id": "b", "label": "Le Royaume des ombres" },
+        { "id": "c", "label": "Le Multivers" },
+        { "id": "d", "label": "Le Bifrost" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le temps s'y comporte de façon totalement imprévisible."
+    },
+    {
+      "id": "mcu-p14",
+      "difficulty": "pro",
+      "text": "Sous quel surnom, mêlant l'intelligence de Banner et la force du colosse vert, apparaît-il dans « Endgame » ?",
+      "options": [
+        { "id": "a", "label": "Professor Hulk" },
+        { "id": "b", "label": "Red Hulk" },
+        { "id": "c", "label": "Hulk gris" },
+        { "id": "d", "label": "World Breaker" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il a passé dix-huit mois à fusionner ses deux natures."
+    },
+    {
+      "id": "mcu-p15",
+      "difficulty": "pro",
+      "text": "Quelle phrase Tony Stark prononce-t-il juste avant de claquer des doigts dans « Endgame » ?",
+      "options": [
+        { "id": "a", "label": "« Je suis Iron Man »" },
+        { "id": "b", "label": "« Avengers, rassemblement »" },
+        { "id": "c", "label": "« Toujours plus haut »" },
+        { "id": "d", "label": "« Sur ta gauche »" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Un écho direct à sa réplique du tout premier film."
+    },
+    {
+      "id": "mcu-p16",
+      "difficulty": "pro",
+      "text": "Quel ordre Captain America lance-t-il enfin au début de la bataille finale d'« Endgame » ?",
+      "options": [
+        { "id": "a", "label": "« Avengers, rassemblement »" },
+        { "id": "b", "label": "« Je peux faire ça toute la journée »" },
+        { "id": "c", "label": "« Wakanda pour toujours »" },
+        { "id": "d", "label": "« Écrase-les, Hulk »" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Les fans attendaient cette réplique depuis des années."
+    },
+    {
+      "id": "mcu-p17",
+      "difficulty": "pro",
+      "text": "Que lance Thanos à Loki en le tuant au tout début d'« Infinity War » ?",
+      "options": [
+        { "id": "a", "label": "« Tu ne seras jamais un dieu »" },
+        { "id": "b", "label": "« Je suis inévitable »" },
+        { "id": "c", "label": "« Parfait équilibre »" },
+        { "id": "d", "label": "« Bonjour, à nouveau »" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il ajoute : « Pas de résurrection cette fois »."
+    },
+    {
+      "id": "mcu-p18",
+      "difficulty": "pro",
+      "text": "Quelle formule Thanos répète-t-il, symbole de son destin implacable ?",
+      "options": [
+        { "id": "a", "label": "« Je suis inévitable »" },
+        { "id": "b", "label": "« Je suis Iron Man »" },
+        { "id": "c", "label": "« Wakanda pour toujours »" },
+        { "id": "d", "label": "« Sur ta gauche »" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Tony la retourne contre lui à la toute fin."
+    },
+    {
+      "id": "mcu-p19",
+      "difficulty": "pro",
+      "text": "Quel acteur incarne Thanos, majoritairement en capture de mouvement ?",
+      "options": [
+        { "id": "a", "label": "Josh Brolin" },
+        { "id": "b", "label": "Mark Ruffalo" },
+        { "id": "c", "label": "Jeff Bridges" },
+        { "id": "d", "label": "Kurt Russell" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il joue aussi Cable dans un tout autre univers Marvel."
+    },
+    {
+      "id": "mcu-p20",
+      "difficulty": "pro",
+      "text": "Quel acteur interprète Bruce Banner à partir du premier « Avengers » ?",
+      "options": [
+        { "id": "a", "label": "Mark Ruffalo" },
+        { "id": "b", "label": "Edward Norton" },
+        { "id": "c", "label": "Eric Bana" },
+        { "id": "d", "label": "Josh Brolin" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il a succédé à Edward Norton dans le rôle."
+    },
+    {
+      "id": "mcu-p21",
+      "difficulty": "pro",
+      "text": "Quel acteur incarne Hulk dans « L'Incroyable Hulk » sorti en 2008 ?",
+      "options": [
+        { "id": "a", "label": "Edward Norton" },
+        { "id": "b", "label": "Mark Ruffalo" },
+        { "id": "c", "label": "Eric Bana" },
+        { "id": "d", "label": "Chris Evans" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il n'a joué le rôle que dans ce seul film."
+    },
+    {
+      "id": "mcu-p22",
+      "difficulty": "pro",
+      "text": "Quel acteur incarne le tout premier Black Panther du MCU ?",
+      "options": [
+        { "id": "a", "label": "Chadwick Boseman" },
+        { "id": "b", "label": "Michael Jordan" },
+        { "id": "c", "label": "Winston Duke" },
+        { "id": "d", "label": "Sterling Brown" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le studio a choisi de ne pas le remplacer après sa disparition."
+    },
+    {
+      "id": "mcu-p23",
+      "difficulty": "pro",
+      "text": "À quelle espèce cosmique appartient Ego, le père de Star-Lord ?",
+      "options": [
+        { "id": "a", "label": "Un Céleste" },
+        { "id": "b", "label": "Un Éternel" },
+        { "id": "c", "label": "Un Kree" },
+        { "id": "d", "label": "Un Skrull" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ces êtres démiurges peuvent façonner des mondes entiers."
+    },
+    {
+      "id": "mcu-p24",
+      "difficulty": "pro",
+      "text": "Quel est le véritable nom du chef des Dix Anneaux, le père de Shang-Chi ?",
+      "options": [
+        { "id": "a", "label": "Xu Wenwu" },
+        { "id": "b", "label": "Trevor Slattery" },
+        { "id": "c", "label": "Aldrich Killian" },
+        { "id": "d", "label": "Wong Yin" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le vrai Mandarin, dont « Iron Man 3 » se moquait avec un imposteur."
+    },
+    {
+      "id": "mcu-p25",
+      "difficulty": "pro",
+      "text": "Quel acteur raté sert de faux Mandarin, simple marionnette, dans « Iron Man 3 » ?",
+      "options": [
+        { "id": "a", "label": "Trevor Slattery" },
+        { "id": "b", "label": "Aldrich Killian" },
+        { "id": "c", "label": "Justin Hammer" },
+        { "id": "d", "label": "Ivan Vanko" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "On le retrouve plus tard dans « Shang-Chi »."
+    },
+    {
+      "id": "mcu-p26",
+      "difficulty": "pro",
+      "text": "Qui a massacré la famille de Drax, nourrissant sa soif de vengeance ?",
+      "options": [
+        { "id": "a", "label": "Ronan" },
+        { "id": "b", "label": "Ego" },
+        { "id": "c", "label": "Yondu" },
+        { "id": "d", "label": "Nebula" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il agissait alors sur les ordres de Thanos."
+    },
+    {
+      "id": "mcu-p27",
+      "difficulty": "pro",
+      "text": "Quel est le vrai nom du Collectionneur, gardien d'objets et de créatures rares ?",
+      "options": [
+        { "id": "a", "label": "Taneleer Tivan" },
+        { "id": "b", "label": "En Dwi Gast" },
+        { "id": "c", "label": "Stakar Ogord" },
+        { "id": "d", "label": "Korath Thak" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Sa collection est détruite quand la Pierre du Pouvoir explose."
+    },
+    {
+      "id": "mcu-p28",
+      "difficulty": "pro",
+      "text": "Quel est le nom véritable du Grand Maître de la planète Sakaar ?",
+      "options": [
+        { "id": "a", "label": "En Dwi Gast" },
+        { "id": "b", "label": "Taneleer Tivan" },
+        { "id": "c", "label": "Kraglin Obfonteri" },
+        { "id": "d", "label": "Stakar Ogord" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "C'est l'un des Doyens de l'Univers, comme le Collectionneur."
+    },
+    {
+      "id": "mcu-p29",
+      "difficulty": "pro",
+      "text": "Quel démon de feu accomplit la prophétie du Ragnarök en détruisant Asgard ?",
+      "options": [
+        { "id": "a", "label": "Surtur" },
+        { "id": "b", "label": "Malekith" },
+        { "id": "c", "label": "Laufey" },
+        { "id": "d", "label": "Kurse" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Thor provoque volontairement cette destruction pour vaincre Hela."
+    },
+    {
+      "id": "mcu-p30",
+      "difficulty": "pro",
+      "text": "Qui est le père biologique de Loki, roi des Géants des Glaces ?",
+      "options": [
+        { "id": "a", "label": "Laufey" },
+        { "id": "b", "label": "Odin" },
+        { "id": "c", "label": "Bor" },
+        { "id": "d", "label": "Surtur" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Odin avait recueilli le nourrisson abandonné après une bataille."
+    },
+    {
+      "id": "mcu-p31",
+      "difficulty": "pro",
+      "text": "Comment s'appelle la mère de Thor, reine d'Asgard ?",
+      "options": [
+        { "id": "a", "label": "Frigga" },
+        { "id": "b", "label": "Hela" },
+        { "id": "c", "label": "Sif" },
+        { "id": "d", "label": "Eir" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Elle avait secrètement enseigné la magie à Loki."
+    },
+    {
+      "id": "mcu-p32",
+      "difficulty": "pro",
+      "text": "Dans quel film Jane Foster reçoit-elle à son tour les pouvoirs du dieu du tonnerre ?",
+      "options": [
+        { "id": "a", "label": "Thor : Love and Thunder" },
+        { "id": "b", "label": "Thor : Ragnarok" },
+        { "id": "c", "label": "Thor : Le Monde des ténèbres" },
+        { "id": "d", "label": "Avengers : Endgame" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le marteau reconstitué la choisit comme nouvelle porteuse."
+    },
+    {
+      "id": "mcu-p33",
+      "difficulty": "pro",
+      "text": "Que prévoient les Accords de Sokovie, qui déchirent les Avengers ?",
+      "options": [
+        { "id": "a", "label": "Placer les héros sous contrôle de l'ONU" },
+        { "id": "b", "label": "Bannir définitivement tous les mutants" },
+        { "id": "c", "label": "Détruire toutes les armures existantes" },
+        { "id": "d", "label": "Dissoudre entièrement le SHIELD" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Tony les soutient, Steve les refuse : la rupture est actée."
+    },
+    {
+      "id": "mcu-p34",
+      "difficulty": "pro",
+      "text": "Quelle est la véritable motivation du Baron Zemo dans « Civil War » ?",
+      "options": [
+        { "id": "a", "label": "Venger sa famille morte à Sokovie" },
+        { "id": "b", "label": "Conquérir le trône du Wakanda" },
+        { "id": "c", "label": "Ressusciter l'organisation Hydra" },
+        { "id": "d", "label": "Voler tout le vibranium mondial" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il ne veut pas tuer les Avengers, mais les monter les uns contre les autres."
+    },
+    {
+      "id": "mcu-p35",
+      "difficulty": "pro",
+      "text": "En quelle année, dans la chronologie, se déroule la bataille de New York du premier « Avengers » ?",
+      "options": [
+        { "id": "a", "label": "2012" },
+        { "id": "b", "label": "2008" },
+        { "id": "c", "label": "2015" },
+        { "id": "d", "label": "2010" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "C'est cette « incursion » que les héros revisitent dans « Endgame »."
+    },
+    {
+      "id": "mcu-p36",
+      "difficulty": "pro",
+      "text": "Comment surnomme-t-on la période où la moitié de la vie a disparu puis est revenue ?",
+      "options": [
+        { "id": "a", "label": "Le Blip" },
+        { "id": "b", "label": "Le Grand Vide" },
+        { "id": "c", "label": "La Purge cosmique" },
+        { "id": "d", "label": "L'Effacement" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le retour brutal a semé un chaos mondial."
+    },
+    {
+      "id": "mcu-p37",
+      "difficulty": "pro",
+      "text": "Quel médecin aide Tony Stark à construire sa toute première armure, prisonnier dans une grotte ?",
+      "options": [
+        { "id": "a", "label": "Ho Yinsen" },
+        { "id": "b", "label": "Anton Vanko" },
+        { "id": "c", "label": "Raza Hamidmi" },
+        { "id": "d", "label": "Wu Bao" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il se sacrifie pour permettre l'évasion de Tony."
+    },
+    {
+      "id": "mcu-p38",
+      "difficulty": "pro",
+      "text": "Quel acteur prête sa voix et ses traits à Ultron ?",
+      "options": [
+        { "id": "a", "label": "James Spader" },
+        { "id": "b", "label": "Josh Brolin" },
+        { "id": "c", "label": "Paul Bettany" },
+        { "id": "d", "label": "Andy Serkis" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Sa gestuelle a été captée pour donner vie au robot."
+    },
+    {
+      "id": "mcu-p39",
+      "difficulty": "pro",
+      "text": "Quel acteur incarne Vision, après avoir longtemps prêté sa voix à Jarvis ?",
+      "options": [
+        { "id": "a", "label": "Paul Bettany" },
+        { "id": "b", "label": "Paul Rudd" },
+        { "id": "c", "label": "Paul Walker" },
+        { "id": "d", "label": "Paul Dano" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il incarne les deux « versions » du même personnage, en somme."
+    },
+    {
+      "id": "mcu-p40",
+      "difficulty": "pro",
+      "text": "Qui Thanos sacrifie-t-il sur Vormir pour obtenir la Pierre de l'Âme dans « Infinity War » ?",
+      "options": [
+        { "id": "a", "label": "Sa fille Gamora" },
+        { "id": "b", "label": "Son frère Eros" },
+        { "id": "c", "label": "Son bras armé Ronan" },
+        { "id": "d", "label": "Sa fille Nebula" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le Crâne Rouge lui révèle qu'il faut sacrifier ce qu'on aime."
+    }
+  ]
+}
