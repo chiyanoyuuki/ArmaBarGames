@@ -149,6 +149,8 @@ function HostConsole({
 
         {(state.phase === "question" || state.phase === "reveal") && (
           <>
+            <BuzzerControls state={state} send={send} />
+            <GradePanel state={state} send={send} />
             <button className="btn big" onClick={() => send(C2S.HostNext)}>
               {state.phase === "question" ? "⏭️ Révéler la réponse" : "⏭️ Question suivante"}
             </button>
@@ -310,6 +312,62 @@ function ConfigSlider({
         value={value}
         onChange={(e) => onChange(Number(e.target.value))}
       />
+    </div>
+  );
+}
+
+function BuzzerControls({ state, send }: { state: GameState; send: SendFn }) {
+  if (state.phase !== "question" || state.question?.type !== "buzzer") return null;
+  const buzz = state.buzz;
+  const current = state.teams.find((t) => t.id === buzz?.current);
+  if (!current) {
+    return <p className="muted">🔔 En attente d'un buzz…</p>;
+  }
+  return (
+    <div className="buzzer-verdict">
+      <p><strong>{current.avatar} {current.name}</strong> a buzzé :</p>
+      <div className="buzzer-verdict-btns">
+        <button className="btn" onClick={() => send(C2S.HostBuzzVerdict, { correct: true })}>
+          ✓ Correct
+        </button>
+        <button className="btn danger" onClick={() => send(C2S.HostBuzzVerdict, { correct: false })}>
+          ✗ Faux
+        </button>
+      </div>
+    </div>
+  );
+}
+
+function GradePanel({ state, send }: { state: GameState; send: SendFn }) {
+  if (state.phase !== "reveal" || state.reveal?.type !== "open") return null;
+  const subs = state.reveal.submissions ?? [];
+  if (subs.length === 0) return null;
+  return (
+    <div className="grade-panel">
+      <p className="muted">Valide les réponses écrites (auto-corrigées) :</p>
+      {subs.map((s) => {
+        const team = state.teams.find((t) => t.id === s.teamId);
+        return (
+          <div key={s.teamId} className="grade-row">
+            <span className="grade-team">{team?.avatar} {team?.name}</span>
+            <span className="grade-text">« {s.text || "—"} »</span>
+            <div className="grade-btns">
+              <button
+                className={`grade-yes ${s.correct ? "on" : ""}`}
+                onClick={() => send(C2S.HostGradeAnswer, { teamId: s.teamId, correct: true })}
+              >
+                Oui
+              </button>
+              <button
+                className={`grade-no ${!s.correct ? "on" : ""}`}
+                onClick={() => send(C2S.HostGradeAnswer, { teamId: s.teamId, correct: false })}
+              >
+                Non
+              </button>
+            </div>
+          </div>
+        );
+      })}
     </div>
   );
 }

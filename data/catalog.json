@@ -7,7 +7,8 @@
     { "id": "histoire", "name": "Histoire", "emoji": "🏛️" },
     { "id": "geographie", "name": "Géographie", "emoji": "🗺️" },
     { "id": "sport", "name": "Sport", "emoji": "⚽" },
-    { "id": "sciences", "name": "Sciences & Nature", "emoji": "🔬" }
+    { "id": "sciences", "name": "Sciences & Nature", "emoji": "🔬" },
+    { "id": "culture", "name": "Culture générale", "emoji": "🧠" }
   ],
   "universes": [
     { "id": "naruto", "name": "Naruto", "themeId": "manga", "emoji": "🍥" },
@@ -19,6 +20,7 @@
     { "id": "the-witcher", "name": "The Witcher", "themeId": "jeux-video", "emoji": "🐺" },
     { "id": "zelda", "name": "The Legend of Zelda", "themeId": "jeux-video", "emoji": "🗡️" },
     { "id": "ed-sheeran", "name": "Ed Sheeran", "themeId": "musique", "emoji": "🎸" },
-    { "id": "rock-classique", "name": "Rock classique", "themeId": "musique", "emoji": "🤘" }
+    { "id": "rock-classique", "name": "Rock classique", "themeId": "musique", "emoji": "🤘" },
+    { "id": "culture-generale", "name": "Culture générale", "themeId": "culture", "emoji": "🧠" }
   ]
 }

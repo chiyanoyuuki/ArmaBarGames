@@ -13,6 +13,7 @@ import { dirname, join } from "node:path";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const DIFFICULTIES = ["facile", "moyen", "dur", "pro"];
+const QUESTION_TYPES = ["qcm", "buzzer", "open", "estimation", "ordre"];
 const QUESTIONS_PER_DIFFICULTY = { facile: 10, moyen: 20, dur: 30, pro: 40 };
 const OPTIONS_PER_QUESTION = 4;
 
@@ -91,45 +92,71 @@ for (const file of files) {
       errors.push(`${tag}: enonce manquant ou trop court`);
     }
 
-    if (!Array.isArray(q.options) || q.options.length !== OPTIONS_PER_QUESTION) {
-      errors.push(`${tag}: doit avoir exactement ${OPTIONS_PER_QUESTION} propositions`);
-      continue;
-    }
-
-    const optIds = q.options.map((o) => o.id);
-    if (new Set(optIds).size !== optIds.length) {
-      errors.push(`${tag}: ids de propositions en double`);
-    }
-    const labels = q.options.map((o) => (o.label ?? "").trim());
-    if (labels.some((l) => l.length === 0)) {
-      errors.push(`${tag}: une proposition a un libelle vide`);
-    }
-    if (new Set(labels.map(normalize)).size !== labels.length) {
-      errors.push(`${tag}: propositions en double`);
-    }
-
-    const correct = q.options.find((o) => o.id === q.correctOptionId);
-    if (!correct) {
-      errors.push(`${tag}: correctOptionId "${q.correctOptionId}" introuvable`);
+    const type = q.type ?? "qcm";
+    if (!QUESTION_TYPES.includes(type)) {
+      errors.push(`${tag}: type invalide "${type}"`);
       continue;
     }
 
     // La reponse ne doit pas apparaitre dans l'enonce.
     const textTokens = new Set(tokens(q.text));
-    const answerTokens = tokens(correct.label).filter((w) => w.length >= 4);
-    const leaked = answerTokens.filter((w) => textTokens.has(w));
-    if (leaked.length > 0) {
-      errors.push(
-        `${tag}: la reponse apparait dans l'enonce (mot(s) : ${leaked.join(", ")})`
-      );
-    }
+    const checkLeak = (label) => {
+      const leaked = tokens(label)
+        .filter((w) => w.length >= 4)
+        .filter((w) => textTokens.has(w));
+      if (leaked.length > 0) {
+        errors.push(
+          `${tag}: la reponse apparait dans l'enonce (mot(s) : ${leaked.join(", ")})`
+        );
+      }
+    };
 
-    // Homogeneite : les propositions doivent avoir un format similaire.
-    const wordCounts = labels.map((l) => tokens(l).length);
-    if (Math.max(...wordCounts) - Math.min(...wordCounts) > 1) {
-      warnings.push(
-        `${tag}: propositions non homogenes (nombre de mots : ${wordCounts.join("/")})`
-      );
+    if (type === "qcm") {
+      if (!Array.isArray(q.options) || q.options.length !== OPTIONS_PER_QUESTION) {
+        errors.push(`${tag}: doit avoir exactement ${OPTIONS_PER_QUESTION} propositions`);
+        continue;
+      }
+      const optIds = q.options.map((o) => o.id);
+      if (new Set(optIds).size !== optIds.length) errors.push(`${tag}: ids de propositions en double`);
+      const labels = q.options.map((o) => (o.label ?? "").trim());
+      if (labels.some((l) => l.length === 0)) errors.push(`${tag}: une proposition a un libelle vide`);
+      if (new Set(labels.map(normalize)).size !== labels.length) errors.push(`${tag}: propositions en double`);
+      const correct = q.options.find((o) => o.id === q.correctOptionId);
+      if (!correct) {
+        errors.push(`${tag}: correctOptionId "${q.correctOptionId}" introuvable`);
+        continue;
+      }
+      checkLeak(correct.label);
+      const wordCounts = labels.map((l) => tokens(l).length);
+      if (Math.max(...wordCounts) - Math.min(...wordCounts) > 1) {
+        warnings.push(`${tag}: propositions non homogenes (nombre de mots : ${wordCounts.join("/")})`);
+      }
+    } else if (type === "buzzer") {
+      if (!q.answer || typeof q.answer !== "string" || !q.answer.trim()) {
+        errors.push(`${tag}: buzzer sans champ "answer"`);
+      } else {
+        checkLeak(q.answer);
+      }
+    } else if (type === "open") {
+      const accepted = Array.isArray(q.acceptedAnswers) ? q.acceptedAnswers : [];
+      const primary = q.answer ?? accepted[0];
+      if (accepted.length === 0 && !q.answer) {
+        errors.push(`${tag}: open sans "acceptedAnswers" ni "answer"`);
+      } else {
+        checkLeak(primary);
+      }
+    } else if (type === "estimation") {
+      if (typeof q.answerValue !== "number") {
+        errors.push(`${tag}: estimation sans "answerValue" numerique`);
+      }
+    } else if (type === "ordre") {
+      if (!Array.isArray(q.items) || q.items.length < 3) {
+        errors.push(`${tag}: ordre doit avoir au moins 3 elements dans "items"`);
+      } else {
+        const ids = q.items.map((it) => it.id);
+        if (new Set(ids).size !== ids.length) errors.push(`${tag}: ids d'elements en double`);
+        if (q.items.some((it) => !(it.label ?? "").trim())) errors.push(`${tag}: un element a un libelle vide`);
+      }
     }
   }
 

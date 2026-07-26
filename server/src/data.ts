@@ -21,7 +21,7 @@ const questionsDir = join(DATA_DIR, "questions");
 for (const file of readdirSync(questionsDir).filter((f) => f.endsWith(".json"))) {
   const raw = JSON.parse(readFileSync(join(questionsDir, file), "utf8"));
   for (const q of raw.questions as Question[]) {
-    questions.push({ ...q, universeId: raw.universeId });
+    questions.push({ ...q, universeId: raw.universeId, type: q.type ?? "qcm" });
   }
 }
 

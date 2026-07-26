@@ -4,15 +4,20 @@ import {
   generateRoomCode,
   streakMultiplier,
   sanitizeConfig,
+  isAnswerClose,
   DEFAULT_CONFIG,
+  DIFFICULTY_POINTS,
   TEAM_AVATARS,
+  type BuzzState,
   type GameConfig,
   type GamePhase,
   type GameState,
   type PublicQuestion,
   type Question,
+  type QuestionOption,
   type RevealState,
   type Team,
+  type TeamSubmission,
   type Theme,
   type SfxKind,
 } from "@armabar/shared";
@@ -24,8 +29,11 @@ export interface Broadcaster {
 }
 
 interface AnswerRecord {
-  optionId: string;
   at: number;
+  optionId?: string; // qcm
+  text?: string; // open
+  value?: number; // estimation
+  orderIds?: string[]; // ordre
 }
 
 export class GameRoom {
@@ -48,6 +56,13 @@ export class GameRoom {
   private questionStartAt = 0;
   private questionEndsAt?: number;
   private reveal?: RevealState;
+
+  // Etat specifique aux types de questions
+  private buzz?: BuzzState;
+  private buzzAt = 0; // horodatage du buzz gagnant (scoring vitesse)
+  private buzzGains: Record<string, number> = {};
+  private shuffledItems?: QuestionOption[]; // ordre : elements melanges (stables)
+  private openPoints = new Map<string, number>(); // open : points si valide (override)
 
   // Gestion des timers avec support pause/reprise.
   private timer?: ReturnType<typeof setTimeout>;
@@ -234,85 +249,258 @@ export class GameRoom {
       this.nextQuestion();
   }
 
+  private current(): Question | undefined {
+    return this.questions[this.round - 1];
+  }
+
   private nextQuestion() {
     this.reveal = undefined;
     this.answers.clear();
+    this.buzz = undefined;
+    this.buzzGains = {};
+    this.shuffledItems = undefined;
+    this.openPoints.clear();
     this.round++;
     if (this.round > this.totalRounds || this.round > this.questions.length) {
       this.finish();
       return;
     }
+    const q = this.current()!;
     this.phase = "question";
     this.questionStartAt = Date.now();
     this.questionEndsAt = this.questionStartAt + this.config.questionTimeMs;
+
+    if (q.type === "buzzer") {
+      this.buzz = { order: [], current: undefined, lockedOut: [], open: true };
+    }
+    if (q.type === "ordre" && q.items) {
+      this.shuffledItems = shuffle(q.items);
+    }
     this.schedule(this.config.questionTimeMs, () => this.revealAnswer());
     this.emit();
   }
 
+  private allConnectedAnswered(): boolean {
+    const connected = [...this.teams.values()].filter((t) => t.connected);
+    return connected.length > 0 && connected.every((t) => this.answers.has(t.id));
+  }
+
+  /** QCM : selection d'une proposition. */
   answer(teamId: string, questionId: string, optionId: string) {
-    if (this.phase !== "question") return;
-    const current = this.questions[this.round - 1];
-    if (!current || current.id !== questionId) return;
-    if (!this.teams.has(teamId)) return;
+    const q = this.current();
+    if (this.phase !== "question" || !q || q.type !== "qcm") return;
+    if (q.id !== questionId || !this.teams.has(teamId)) return;
     if (this.answers.has(teamId)) return; // reponse verrouillee
     this.answers.set(teamId, { optionId, at: Date.now() });
+    if (this.allConnectedAnswered()) this.revealAnswer();
+    else this.emit();
+  }
 
-    // Reveal anticipe si toutes les equipes connectees ont repondu.
-    const connected = [...this.teams.values()].filter((t) => t.connected);
-    if (connected.length > 0 && connected.every((t) => this.answers.has(t.id))) {
+  /** Modes ecrits : open / estimation / ordre. */
+  submit(
+    teamId: string,
+    questionId: string,
+    payload: { text?: string; value?: number; orderIds?: string[] }
+  ) {
+    const q = this.current();
+    if (this.phase !== "question" || !q) return;
+    if (q.type !== "open" && q.type !== "estimation" && q.type !== "ordre") return;
+    if (q.id !== questionId || !this.teams.has(teamId)) return;
+    if (this.answers.has(teamId)) return;
+    this.answers.set(teamId, {
+      at: Date.now(),
+      text: payload.text,
+      value: payload.value,
+      orderIds: payload.orderIds,
+    });
+    if (this.allConnectedAnswered()) this.revealAnswer();
+    else this.emit();
+  }
+
+  /** Buzzer : une equipe appuie. */
+  pressBuzz(teamId: string) {
+    const q = this.current();
+    if (this.phase !== "question" || !q || q.type !== "buzzer" || !this.buzz) return;
+    if (!this.buzz.open || this.buzz.current) return;
+    if (this.buzz.lockedOut.includes(teamId) || !this.teams.has(teamId)) return;
+    this.buzz.current = teamId;
+    this.buzz.open = false;
+    this.buzz.order.push(teamId);
+    this.buzzAt = Date.now();
+    this.clearTimer(); // gel du chrono le temps de la reponse orale
+    this.playSfx("tick");
+    this.emit();
+  }
+
+  /** Buzzer : l'animateur valide (ou non) l'equipe qui a buzze. */
+  buzzVerdict(correct: boolean) {
+    const q = this.current();
+    if (this.phase !== "question" || !q || q.type !== "buzzer" || !this.buzz) return;
+    const teamId = this.buzz.current;
+    if (!teamId) return;
+    const team = this.teams.get(teamId);
+    if (!team) return;
+
+    if (correct) {
+      const elapsed = this.buzzAt - this.questionStartAt;
+      const base = computeSpeedPoints(q.difficulty, elapsed, this.config.questionTimeMs);
+      const mult = this.config.streakBonus ? streakMultiplier(team.streak) : 1;
+      const points = Math.round(base * mult);
+      team.streak += 1;
+      team.score += points;
+      this.buzzGains[teamId] = points;
+      // Les autres perdent leur serie sur ce tour.
+      for (const t of this.teams.values()) if (t.id !== teamId) t.streak = 0;
       this.revealAnswer();
     } else {
-      this.emit(); // met a jour la liste des equipes ayant repondu
+      team.streak = 0;
+      this.buzz.lockedOut.push(teamId);
+      this.buzz.current = undefined;
+      this.buzz.open = true;
+      this.playSfx("wrong");
+      const connected = [...this.teams.values()].filter((t) => t.connected);
+      const allLocked = connected.every((t) => this.buzz!.lockedOut.includes(t.id));
+      if (connected.length > 0 && allLocked) {
+        this.revealAnswer(); // personne n'a trouve
+      } else {
+        // Rouvre le buzzer avec une nouvelle fenetre.
+        this.questionStartAt = Date.now();
+        this.questionEndsAt = this.questionStartAt + this.config.questionTimeMs;
+        this.schedule(this.config.questionTimeMs, () => this.revealAnswer());
+        this.emit();
+      }
     }
   }
 
+  /** Reponse ecrite (open) : l'animateur force le verdict d'une equipe au reveal. */
+  gradeAnswer(teamId: string, correct: boolean) {
+    if (this.phase !== "reveal" || !this.reveal || this.reveal.type !== "open") return;
+    const sub = this.reveal.submissions?.find((s) => s.teamId === teamId);
+    const team = this.teams.get(teamId);
+    if (!sub || !team || sub.correct === correct) return;
+    const oldGain = this.reveal.gains[teamId] ?? 0;
+    const newGain = correct ? this.openPoints.get(teamId) ?? 0 : 0;
+    team.score = Math.max(0, team.score + (newGain - oldGain));
+    this.reveal.gains[teamId] = newGain;
+    sub.correct = correct;
+    sub.auto = false;
+    this.emit();
+  }
+
+  /** Applique les points de vitesse a une equipe pour une bonne reponse. */
+  private awardSpeed(team: Team, difficulty: Question["difficulty"], at: number): number {
+    const base = computeSpeedPoints(difficulty, at - this.questionStartAt, this.config.questionTimeMs);
+    const mult = this.config.streakBonus ? streakMultiplier(team.streak) : 1;
+    const points = Math.round(base * mult);
+    team.streak += 1;
+    team.score += points;
+    return points;
+  }
+
   private revealAnswer() {
-    const current = this.questions[this.round - 1];
-    if (!current) return;
+    const q = this.current();
+    if (!q) return;
     this.clearTimer();
     this.phase = "reveal";
 
     const gains: Record<string, number> = {};
-    const optionCounts: Record<string, number> = {};
-    for (const opt of current.options) optionCounts[opt.id] = 0;
+    const reveal: RevealState = { type: q.type, gains, funFact: q.funFact };
 
-    for (const [teamId, rec] of this.answers) {
-      optionCounts[rec.optionId] = (optionCounts[rec.optionId] ?? 0) + 1;
-      const team = this.teams.get(teamId);
-      if (!team) continue;
-      if (rec.optionId === current.correctOptionId) {
-        const elapsed = rec.at - this.questionStartAt;
-        const base = computeSpeedPoints(
-          current.difficulty,
-          elapsed,
-          this.config.questionTimeMs
-        );
-        const mult = this.config.streakBonus ? streakMultiplier(team.streak) : 1;
-        const points = Math.round(base * mult);
-        team.streak += 1;
-        team.score += points;
-        gains[teamId] = points;
-      } else {
-        team.streak = 0;
-        gains[teamId] = 0;
+    switch (q.type) {
+      case "qcm": {
+        const optionCounts: Record<string, number> = {};
+        for (const opt of q.options ?? []) optionCounts[opt.id] = 0;
+        for (const [teamId, rec] of this.answers) {
+          if (rec.optionId) optionCounts[rec.optionId] = (optionCounts[rec.optionId] ?? 0) + 1;
+          const team = this.teams.get(teamId);
+          if (!team) continue;
+          if (rec.optionId === q.correctOptionId) gains[teamId] = this.awardSpeed(team, q.difficulty, rec.at);
+          else { team.streak = 0; gains[teamId] = 0; }
+        }
+        reveal.correctOptionId = q.correctOptionId;
+        reveal.optionCounts = optionCounts;
+        break;
+      }
+      case "buzzer": {
+        Object.assign(gains, this.buzzGains);
+        reveal.correctAnswer = q.answer;
+        break;
+      }
+      case "open": {
+        const accepted = q.acceptedAnswers?.length ? q.acceptedAnswers : q.answer ? [q.answer] : [];
+        const subs: TeamSubmission[] = [];
+        for (const [teamId, rec] of this.answers) {
+          const team = this.teams.get(teamId);
+          if (!team) continue;
+          const text = rec.text ?? "";
+          const ok = isAnswerClose(text, accepted);
+          this.openPoints.set(teamId, computeSpeedPoints(q.difficulty, rec.at - this.questionStartAt, this.config.questionTimeMs));
+          if (ok) gains[teamId] = this.awardSpeed(team, q.difficulty, rec.at);
+          else { team.streak = 0; gains[teamId] = 0; }
+          subs.push({ teamId, text, correct: ok, auto: true });
+        }
+        reveal.correctAnswer = q.answer;
+        reveal.submissions = subs;
+        break;
+      }
+      case "estimation": {
+        const target = q.answerValue ?? 0;
+        const entries = [...this.answers.entries()].filter(([, r]) => typeof r.value === "number");
+        let best = Infinity;
+        for (const [, r] of entries) best = Math.min(best, Math.abs((r.value as number) - target));
+        const subs: TeamSubmission[] = [];
+        for (const [teamId, rec] of this.answers) {
+          const team = this.teams.get(teamId);
+          if (!team) continue;
+          const val = rec.value;
+          const isClosest = typeof val === "number" && Math.abs(val - target) === best;
+          if (isClosest) {
+            const pts = Math.round(DIFFICULTY_POINTS[q.difficulty] * (this.config.streakBonus ? streakMultiplier(team.streak) : 1));
+            team.streak += 1; team.score += pts; gains[teamId] = pts;
+          } else { team.streak = 0; gains[teamId] = 0; }
+          subs.push({ teamId, value: val, text: typeof val === "number" ? String(val) : "", correct: isClosest, auto: true });
+        }
+        reveal.answerValue = target;
+        reveal.unit = q.unit;
+        reveal.correctAnswer = `${target}${q.unit ? " " + q.unit : ""}`;
+        reveal.submissions = subs;
+        break;
+      }
+      case "ordre": {
+        const correct = q.items ?? [];
+        const total = correct.length || 1;
+        const subs: TeamSubmission[] = [];
+        for (const [teamId, rec] of this.answers) {
+          const team = this.teams.get(teamId);
+          if (!team) continue;
+          const order = rec.orderIds ?? [];
+          let matches = 0;
+          for (let i = 0; i < correct.length; i++) if (order[i] === correct[i].id) matches++;
+          const pts = Math.round(DIFFICULTY_POINTS[q.difficulty] * (matches / total));
+          if (matches === total) team.streak += 1; else team.streak = 0;
+          team.score += pts; gains[teamId] = pts;
+          subs.push({ teamId, orderIds: order, correct: matches === total, auto: true });
+        }
+        reveal.correctOrder = correct;
+        reveal.submissions = subs;
+        break;
       }
     }
-    // Les equipes qui n'ont pas repondu perdent leur serie.
-    for (const team of this.teams.values()) {
-      if (!this.answers.has(team.id)) team.streak = 0;
+
+    // Les equipes qui n'ont pas participe perdent leur serie (hors buzzer).
+    if (q.type !== "buzzer") {
+      for (const team of this.teams.values()) if (!this.answers.has(team.id)) team.streak = 0;
     }
 
-    this.reveal = {
-      correctOptionId: current.correctOptionId,
-      gains,
-      optionCounts,
-      funFact: current.funFact,
-    };
+    this.reveal = reveal;
     const anyoneRight = Object.values(gains).some((g) => g > 0);
     this.playSfx(anyoneRight ? "correct" : "wrong");
     this.emit();
 
-    this.schedule(this.config.revealTimeMs, () => this.nextQuestion());
+    // Auto-avance pour les types automatiques ; l'animateur pilote open/buzzer.
+    if (q.type === "qcm" || q.type === "estimation" || q.type === "ordre") {
+      this.schedule(this.config.revealTimeMs, () => this.nextQuestion());
+    }
   }
 
   private finish() {
@@ -366,13 +554,16 @@ export class GameRoom {
     const theme = universe ? themeById(universe.themeId) : undefined;
     return {
       id: q.id,
+      type: q.type,
       difficulty: q.difficulty,
       text: q.text,
-      options: q.options,
       universeName: universe?.name ?? "",
       themeName: theme?.name ?? "",
       index: this.round,
       total: this.totalRounds,
+      options: q.type === "qcm" ? q.options : undefined,
+      items: q.type === "ordre" ? this.shuffledItems : undefined,
+      unit: q.type === "estimation" ? q.unit : undefined,
     };
   }
 
@@ -393,6 +584,7 @@ export class GameRoom {
       question: this.publicQuestion(),
       questionEndsAt: this.phase === "question" ? this.questionEndsAt : undefined,
       answeredTeamIds: [...this.answers.keys()],
+      buzz: this.phase === "question" && this.buzz ? this.buzz : undefined,
       reveal: this.phase === "reveal" ? this.reveal : undefined,
     };
   }
@@ -408,4 +600,13 @@ export class GameRoom {
   isEmpty(): boolean {
     return this.teams.size === 0;
   }
+}
+
+function shuffle<T>(arr: T[]): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
 }

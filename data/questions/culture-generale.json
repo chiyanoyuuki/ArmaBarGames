@@ -1,0 +1,213 @@
+{
+  "universeId": "culture-generale",
+  "questions": [
+    {
+      "id": "cg-f1",
+      "difficulty": "facile",
+      "type": "qcm",
+      "text": "Quelle est la capitale de l'Italie ?",
+      "options": [
+        { "id": "a", "label": "Rome" },
+        { "id": "b", "label": "Milan" },
+        { "id": "c", "label": "Naples" },
+        { "id": "d", "label": "Turin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-f2",
+      "difficulty": "facile",
+      "type": "open",
+      "text": "Quel océan est le plus vaste du monde ?",
+      "answer": "Pacifique",
+      "acceptedAnswers": ["Pacifique", "océan Pacifique", "le Pacifique"],
+      "funFact": "Il couvre à lui seul environ un tiers de la surface du globe."
+    },
+    {
+      "id": "cg-f3",
+      "difficulty": "facile",
+      "type": "buzzer",
+      "text": "Quel animal est surnommé « le roi de la jungle » ?",
+      "answer": "Le lion",
+      "funFact": "Il vit pourtant dans la savane, pas dans la jungle."
+    },
+    {
+      "id": "cg-f4",
+      "difficulty": "facile",
+      "type": "estimation",
+      "text": "Combien d'os compte le corps humain adulte ?",
+      "answerValue": 206,
+      "unit": "os",
+      "funFact": "Un nouveau-né en a près de 300, qui fusionnent en grandissant."
+    },
+    {
+      "id": "cg-m1",
+      "difficulty": "moyen",
+      "type": "qcm",
+      "text": "Quel artiste de la Renaissance a peint « La Joconde » ?",
+      "options": [
+        { "id": "a", "label": "Léonard de Vinci" },
+        { "id": "b", "label": "Sandro Botticelli" },
+        { "id": "c", "label": "Raphaël Sanzio" },
+        { "id": "d", "label": "Michel-Ange" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-m2",
+      "difficulty": "moyen",
+      "type": "open",
+      "text": "Quel métal précieux a pour symbole chimique « Au » ?",
+      "answer": "Or",
+      "acceptedAnswers": ["or", "l'or"],
+      "funFact": "« Au » vient du latin aurum."
+    },
+    {
+      "id": "cg-m3",
+      "difficulty": "moyen",
+      "type": "ordre",
+      "text": "Classe ces planètes de la plus proche du Soleil à la plus éloignée.",
+      "items": [
+        { "id": "m", "label": "Mercure" },
+        { "id": "v", "label": "Vénus" },
+        { "id": "t", "label": "Terre" },
+        { "id": "a", "label": "Mars" }
+      ],
+      "funFact": "Puis viennent Jupiter, Saturne, Uranus et Neptune."
+    },
+    {
+      "id": "cg-m4",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel fleuve traverse la capitale française ?",
+      "answer": "La Seine",
+      "funFact": "Elle prend sa source en Bourgogne et se jette dans la Manche."
+    },
+    {
+      "id": "cg-m5",
+      "difficulty": "moyen",
+      "type": "estimation",
+      "text": "Quelle est la hauteur de la tour Eiffel, antennes comprises ?",
+      "answerValue": 330,
+      "unit": "mètres",
+      "funFact": "Sa hauteur varie de quelques centimètres selon la température."
+    },
+    {
+      "id": "cg-d1",
+      "difficulty": "dur",
+      "type": "qcm",
+      "text": "Quel physicien a formulé la théorie de la relativité générale ?",
+      "options": [
+        { "id": "a", "label": "Albert Einstein" },
+        { "id": "b", "label": "Isaac Newton" },
+        { "id": "c", "label": "Galilée Galilei" },
+        { "id": "d", "label": "Niels Bohr" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-d2",
+      "difficulty": "dur",
+      "type": "open",
+      "text": "Quelle est la monnaie officielle du Japon ?",
+      "answer": "Yen",
+      "acceptedAnswers": ["yen", "le yen"],
+      "funFact": "Le mot signifie « objet rond » en japonais."
+    },
+    {
+      "id": "cg-d3",
+      "difficulty": "dur",
+      "type": "ordre",
+      "text": "Classe ces événements du plus ancien au plus récent.",
+      "items": [
+        { "id": "a", "label": "Chute de Rome" },
+        { "id": "b", "label": "Découverte de l'Amérique" },
+        { "id": "c", "label": "Révolution française" },
+        { "id": "d", "label": "Premier homme sur la Lune" }
+      ],
+      "funFact": "476, 1492, 1789 puis 1969."
+    },
+    {
+      "id": "cg-d4",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel est le plus haut sommet du monde ?",
+      "answer": "L'Everest",
+      "funFact": "Il culmine à 8 849 mètres, à la frontière du Népal et de la Chine."
+    },
+    {
+      "id": "cg-d5",
+      "difficulty": "dur",
+      "type": "estimation",
+      "text": "Combien d'États membres compte l'Union européenne en 2024 ?",
+      "answerValue": 27,
+      "unit": "pays",
+      "funFact": "Le Royaume-Uni l'a quittée en 2020."
+    },
+    {
+      "id": "cg-d6",
+      "difficulty": "dur",
+      "type": "qcm",
+      "text": "Quel est l'os le plus long du corps humain ?",
+      "options": [
+        { "id": "a", "label": "Le fémur" },
+        { "id": "b", "label": "Le tibia" },
+        { "id": "c", "label": "L'humérus" },
+        { "id": "d", "label": "Le radius" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-p1",
+      "difficulty": "pro",
+      "type": "qcm",
+      "text": "Quel élément chimique est le plus abondant dans l'univers ?",
+      "options": [
+        { "id": "a", "label": "L'hydrogène" },
+        { "id": "b", "label": "L'oxygène" },
+        { "id": "c", "label": "L'hélium" },
+        { "id": "d", "label": "Le carbone" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-p2",
+      "difficulty": "pro",
+      "type": "open",
+      "text": "Quelle est la plus grande planète du système solaire ?",
+      "answer": "Jupiter",
+      "acceptedAnswers": ["jupiter"],
+      "funFact": "Elle est si massive qu'elle pourrait contenir toutes les autres planètes."
+    },
+    {
+      "id": "cg-p3",
+      "difficulty": "pro",
+      "type": "ordre",
+      "text": "Classe ces pays du plus peuplé au moins peuplé (chiffres 2024).",
+      "items": [
+        { "id": "in", "label": "Inde" },
+        { "id": "ch", "label": "Chine" },
+        { "id": "us", "label": "États-Unis" },
+        { "id": "id", "label": "Indonésie" }
+      ],
+      "funFact": "L'Inde a dépassé la Chine en 2023."
+    },
+    {
+      "id": "cg-p4",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "En quelle année, selon la légende, la ville de Rome a-t-elle été fondée ? (avant J.-C.)",
+      "answerValue": 753,
+      "unit": "av. J.-C.",
+      "funFact": "Par Romulus, qui aurait tué son frère Remus."
+    },
+    {
+      "id": "cg-p5",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel philosophe grec fut le précepteur d'Alexandre le Grand ?",
+      "answer": "Aristote",
+      "funFact": "Il fut lui-même l'élève de Platon."
+    }
+  ]
+}

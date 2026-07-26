@@ -996,6 +996,249 @@ button.home-card {
   accent-color: var(--green);
 }
 
+/* --- Types de questions ----------------------------------------------- */
+
+.mode-badge {
+  background: var(--card2);
+  color: var(--blue);
+  font-weight: 800;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 0.95rem;
+}
+.reveal-answer {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.reveal-answer.big {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+.reveal-answer strong {
+  color: var(--gold);
+}
+
+/* Buzzer (joueur) */
+.buzz-button {
+  width: min(70vw, 320px);
+  height: min(70vw, 320px);
+  border-radius: 50%;
+  border: none;
+  background: radial-gradient(circle at 35% 30%, #ff6a9a, var(--accent) 60%, #c2185b);
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  cursor: pointer;
+  box-shadow: 0 12px 40px rgba(255, 61, 129, 0.5);
+  transition: transform 0.06s ease;
+}
+.buzz-button:active {
+  transform: scale(0.92);
+}
+
+/* Buzzer (TV) */
+.buzzer-tv {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.buzzer-open {
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--accent);
+  animation: pulse 0.8s infinite alternate;
+}
+.buzzer-current {
+  font-size: 2.6rem;
+  font-weight: 900;
+  color: var(--gold);
+}
+
+/* Buzzer (animateur) */
+.buzzer-verdict {
+  background: var(--card2);
+  border-radius: 12px;
+  padding: 12px;
+  text-align: center;
+}
+.buzzer-verdict-btns {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+.buzzer-verdict-btns .btn {
+  flex: 1;
+}
+
+/* Réponse libre / estimation (TV) */
+.open-tv {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.open-subs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+.open-sub {
+  display: grid;
+  grid-template-columns: 1fr 2fr auto;
+  gap: 12px;
+  align-items: center;
+  background: var(--card);
+  padding: 10px 18px;
+  border-radius: 12px;
+  font-size: 1.3rem;
+  border-left: 5px solid transparent;
+}
+.open-sub.ok {
+  border-left-color: var(--green);
+}
+.open-sub.ko {
+  border-left-color: var(--red);
+}
+.open-sub-text {
+  font-style: italic;
+  color: var(--gold);
+  text-align: center;
+}
+
+/* Correction des réponses écrites (animateur) */
+.grade-panel {
+  background: var(--card2);
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.grade-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--card);
+  padding: 8px 10px;
+  border-radius: 10px;
+}
+.grade-team {
+  font-weight: 700;
+  min-width: 90px;
+}
+.grade-text {
+  flex: 1;
+  font-style: italic;
+  color: var(--muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.grade-btns {
+  display: flex;
+  gap: 4px;
+}
+.grade-yes,
+.grade-no {
+  border: none;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-weight: 800;
+  cursor: pointer;
+  background: var(--bg2);
+  color: var(--muted);
+}
+.grade-yes.on {
+  background: var(--green);
+  color: #000;
+}
+.grade-no.on {
+  background: var(--red);
+  color: #fff;
+}
+
+/* Ordre (joueur) */
+.ordre-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.ordre-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  border-radius: 14px;
+  border: 3px solid transparent;
+  background: var(--card);
+  color: var(--text);
+  font-size: 1.15rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: left;
+}
+.ordre-item.picked {
+  border-color: var(--accent2);
+  background: var(--card2);
+}
+.ordre-badge {
+  background: var(--accent);
+  color: #fff;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+  font-weight: 900;
+  flex-shrink: 0;
+}
+.ordre-correct {
+  padding-left: 24px;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+/* Ordre (TV) */
+.tv-ordre {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+.tv-ordre li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: var(--card);
+  padding: 16px 24px;
+  border-radius: 14px;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.tv-ordre li.correct {
+  border-left: 6px solid var(--green);
+}
+.tv-ordre-num {
+  background: var(--accent2);
+  border-radius: 10px;
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  font-weight: 900;
+  flex-shrink: 0;
+}
+
 /* --- Responsive TV -> petit écran ------------------------------------- */
 
 @media (max-width: 780px) {

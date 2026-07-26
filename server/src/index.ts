@@ -13,7 +13,9 @@ import {
   type GameState,
   type HostAdjustScorePayload,
   type HostAuthPayload,
+  type HostBuzzVerdictPayload,
   type HostConfigurePayload,
+  type HostGradeAnswerPayload,
   type HostRemoveTeamPayload,
   type HostRenameTeamPayload,
   type HostStartGamePayload,
@@ -22,6 +24,7 @@ import {
   type TeamAnswerPayload,
   type TeamJoinAck,
   type TeamJoinPayload,
+  type TeamSubmitPayload,
   type TeamVotePayload,
 } from "@armabar/shared";
 import { GameRoom } from "./game.js";
@@ -144,6 +147,22 @@ io.on("connection", (socket: Socket) => {
     }
   });
 
+  socket.on(C2S.TeamSubmit, (payload: TeamSubmitPayload) => {
+    const room = rooms.get(socket.data.roomCode);
+    if (room && socket.data.teamId) {
+      room.submit(socket.data.teamId, payload.questionId, {
+        text: payload.text,
+        value: payload.value,
+        orderIds: payload.orderIds,
+      });
+    }
+  });
+
+  socket.on(C2S.TeamBuzz, () => {
+    const room = rooms.get(socket.data.roomCode);
+    if (room && socket.data.teamId) room.pressBuzz(socket.data.teamId);
+  });
+
   // --- Actions host ---
   socket.on(C2S.HostConfigure, (payload: HostConfigurePayload) => {
     requireHost(payload)?.configure(payload.config);
@@ -156,6 +175,12 @@ io.on("connection", (socket: Socket) => {
   });
   socket.on(C2S.HostNext, (payload: HostAuthPayload) => {
     requireHost(payload)?.next();
+  });
+  socket.on(C2S.HostBuzzVerdict, (payload: HostBuzzVerdictPayload) => {
+    requireHost(payload)?.buzzVerdict(payload.correct);
+  });
+  socket.on(C2S.HostGradeAnswer, (payload: HostGradeAnswerPayload) => {
+    requireHost(payload)?.gradeAnswer(payload.teamId, payload.correct);
   });
   socket.on(C2S.HostPause, (payload: HostAuthPayload) => {
     requireHost(payload)?.pause();

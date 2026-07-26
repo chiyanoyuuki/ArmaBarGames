@@ -233,14 +233,34 @@ const OPTION_LETTERS = ["A", "B", "C", "D"];
 
 function AnswerPanel({ state, teamId }: { state: GameState; teamId: string }) {
   const q = state.question;
-  const [choice, setChoice] = useState<string | null>(null);
-
-  // Reinitialise le choix a chaque nouvelle question.
-  useEffect(() => {
-    setChoice(null);
-  }, [q?.id]);
-
   if (!q) return null;
+  switch (q.type) {
+    case "buzzer":
+      return <BuzzerPanel state={state} teamId={teamId} />;
+    case "open":
+      return <OpenPanel state={state} teamId={teamId} />;
+    case "estimation":
+      return <EstimationPanel state={state} teamId={teamId} />;
+    case "ordre":
+      return <OrdrePanel state={state} teamId={teamId} />;
+    default:
+      return <QcmPanel state={state} teamId={teamId} />;
+  }
+}
+
+function RevealBanner({ gain, missed }: { gain: number; missed: boolean }) {
+  return (
+    <div className={`reveal-banner ${gain > 0 ? "good" : "bad"}`}>
+      {gain > 0 ? `+${gain} points ! 🎉` : missed ? "Raté 😅" : "Pas de réponse"}
+    </div>
+  );
+}
+
+function QcmPanel({ state, teamId }: { state: GameState; teamId: string }) {
+  const q = state.question!;
+  const [choice, setChoice] = useState<string | null>(null);
+  useEffect(() => setChoice(null), [q.id]);
+
   const revealing = state.phase === "reveal";
   const correctId = state.reveal?.correctOptionId;
   const gain = state.reveal?.gains[teamId] ?? 0;
@@ -254,30 +274,16 @@ function AnswerPanel({ state, teamId }: { state: GameState; teamId: string }) {
 
   return (
     <div className="answer-panel">
-      {revealing && (
-        <div className={`reveal-banner ${gain > 0 ? "good" : "bad"}`}>
-          {gain > 0 ? `+${gain} points ! 🎉` : choice ? "Raté 😅" : "Pas de réponse"}
-        </div>
-      )}
+      {revealing && <RevealBanner gain={gain} missed={choice !== null} />}
       <div className="answer-buttons">
-        {q.options.map((opt, i) => {
+        {(q.options ?? []).map((opt, i) => {
           const isMine = choice === opt.id;
           const isCorrect = correctId === opt.id;
           let cls = "answer-btn";
-          if (revealing) {
-            if (isCorrect) cls += " correct";
-            else if (isMine) cls += " wrong";
-            else cls += " dimmed";
-          } else if (isMine) {
-            cls += " picked";
-          }
+          if (revealing) cls += isCorrect ? " correct" : isMine ? " wrong" : " dimmed";
+          else if (isMine) cls += " picked";
           return (
-            <button
-              key={opt.id}
-              className={cls}
-              disabled={answered || revealing}
-              onClick={() => pick(opt.id)}
-            >
+            <button key={opt.id} className={cls} disabled={answered || revealing} onClick={() => pick(opt.id)}>
               <span className="answer-btn-letter">{OPTION_LETTERS[i]}</span>
               {opt.label}
             </button>
@@ -286,6 +292,199 @@ function AnswerPanel({ state, teamId }: { state: GameState; teamId: string }) {
       </div>
       {!revealing && answered && (
         <p className="locked-note">Réponse verrouillée 🔒 — regarde la TV !</p>
+      )}
+    </div>
+  );
+}
+
+function BuzzerPanel({ state, teamId }: { state: GameState; teamId: string }) {
+  const revealing = state.phase === "reveal";
+  const gain = state.reveal?.gains[teamId] ?? 0;
+  const buzz = state.buzz;
+
+  if (revealing) {
+    return (
+      <div className="answer-panel">
+        <RevealBanner gain={gain} missed={false} />
+        {state.reveal?.correctAnswer && (
+          <p className="reveal-answer">Réponse : <strong>{state.reveal.correctAnswer}</strong></p>
+        )}
+      </div>
+    );
+  }
+
+  const iAmCurrent = buzz?.current === teamId;
+  const lockedOut = buzz?.lockedOut.includes(teamId);
+  const someoneElse = buzz?.current && buzz.current !== teamId;
+  const currentTeam = state.teams.find((t) => t.id === buzz?.current);
+
+  if (iAmCurrent) {
+    return (
+      <div className="answer-panel center grow">
+        <p className="big-emoji">🎤</p>
+        <h2>À toi de répondre !</h2>
+        <p className="muted">Réponds à voix haute, l'animateur valide.</p>
+      </div>
+    );
+  }
+  if (someoneElse) {
+    return (
+      <div className="answer-panel center grow">
+        <p className="big-emoji">🔔</p>
+        <p><strong>{currentTeam?.name}</strong> a buzzé…</p>
+      </div>
+    );
+  }
+  if (lockedOut) {
+    return (
+      <div className="answer-panel center grow">
+        <p className="big-emoji">🚫</p>
+        <p>Éliminé pour cette question.</p>
+      </div>
+    );
+  }
+  return (
+    <div className="answer-panel center grow">
+      <button className="buzz-button" onClick={() => socket.emit(C2S.TeamBuzz, {})}>
+        BUZZ
+      </button>
+      <p className="muted">Sois le premier à buzzer !</p>
+    </div>
+  );
+}
+
+function OpenPanel({ state, teamId }: { state: GameState; teamId: string }) {
+  const q = state.question!;
+  const [text, setText] = useState("");
+  const [sent, setSent] = useState(false);
+  useEffect(() => { setText(""); setSent(false); }, [q.id]);
+
+  const revealing = state.phase === "reveal";
+  const gain = state.reveal?.gains[teamId] ?? 0;
+  const sub = state.reveal?.submissions?.find((s) => s.teamId === teamId);
+  const answered = sent || state.answeredTeamIds.includes(teamId);
+
+  const submit = () => {
+    if (!text.trim() || answered) return;
+    socket.emit(C2S.TeamSubmit, { questionId: q.id, text: text.trim() });
+    setSent(true);
+  };
+
+  if (revealing) {
+    return (
+      <div className="answer-panel">
+        <RevealBanner gain={gain} missed={!!sub} />
+        <p className="reveal-answer">Bonne réponse : <strong>{state.reveal?.correctAnswer}</strong></p>
+        {sub?.text != null && <p className="muted">Ta réponse : « {sub.text || "—"} » {sub.correct ? "✅" : "❌"}</p>}
+      </div>
+    );
+  }
+  return (
+    <div className="answer-panel">
+      <label className="field-label">Ta réponse</label>
+      <input className="text-input" value={text} disabled={answered}
+        onChange={(e) => setText(e.target.value)}
+        onKeyDown={(e) => e.key === "Enter" && submit()} placeholder="Tape ta réponse…" />
+      <button className="btn big" disabled={!text.trim() || answered} onClick={submit}>
+        {answered ? "Réponse envoyée ✅" : "Valider"}
+      </button>
+      {answered && <p className="locked-note">Verrouillé 🔒 — regarde la TV !</p>}
+    </div>
+  );
+}
+
+function EstimationPanel({ state, teamId }: { state: GameState; teamId: string }) {
+  const q = state.question!;
+  const [val, setVal] = useState("");
+  const [sent, setSent] = useState(false);
+  useEffect(() => { setVal(""); setSent(false); }, [q.id]);
+
+  const revealing = state.phase === "reveal";
+  const gain = state.reveal?.gains[teamId] ?? 0;
+  const sub = state.reveal?.submissions?.find((s) => s.teamId === teamId);
+  const answered = sent || state.answeredTeamIds.includes(teamId);
+
+  const submit = () => {
+    if (val === "" || answered) return;
+    socket.emit(C2S.TeamSubmit, { questionId: q.id, value: Number(val) });
+    setSent(true);
+  };
+
+  if (revealing) {
+    return (
+      <div className="answer-panel">
+        <RevealBanner gain={gain} missed={!!sub} />
+        <p className="reveal-answer">Réponse exacte : <strong>{state.reveal?.correctAnswer}</strong></p>
+        {sub && <p className="muted">Ton estimation : {sub.value} {sub.correct ? "🏆 la plus proche !" : ""}</p>}
+      </div>
+    );
+  }
+  return (
+    <div className="answer-panel">
+      <label className="field-label">Ton estimation {q.unit ? `(en ${q.unit})` : ""}</label>
+      <input className="text-input" type="number" inputMode="numeric" value={val} disabled={answered}
+        onChange={(e) => setVal(e.target.value)}
+        onKeyDown={(e) => e.key === "Enter" && submit()} placeholder="Un nombre…" />
+      <button className="btn big" disabled={val === "" || answered} onClick={submit}>
+        {answered ? "Estimation envoyée ✅" : "Valider"}
+      </button>
+      {answered && <p className="locked-note">Le plus proche gagne 🎯</p>}
+    </div>
+  );
+}
+
+function OrdrePanel({ state, teamId }: { state: GameState; teamId: string }) {
+  const q = state.question!;
+  const [order, setOrder] = useState<string[]>([]);
+  const [sent, setSent] = useState(false);
+  useEffect(() => { setOrder([]); setSent(false); }, [q.id]);
+
+  const revealing = state.phase === "reveal";
+  const gain = state.reveal?.gains[teamId] ?? 0;
+  const answered = sent || state.answeredTeamIds.includes(teamId);
+  const items = q.items ?? [];
+
+  const tap = (id: string) => {
+    if (answered) return;
+    setOrder((prev) => (prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]));
+  };
+  const submit = () => {
+    if (order.length !== items.length || answered) return;
+    socket.emit(C2S.TeamSubmit, { questionId: q.id, orderIds: order });
+    setSent(true);
+  };
+
+  if (revealing) {
+    const correct = state.reveal?.correctOrder ?? [];
+    return (
+      <div className="answer-panel">
+        <RevealBanner gain={gain} missed={order.length > 0} />
+        <p className="reveal-answer">Bon ordre :</p>
+        <ol className="ordre-correct">
+          {correct.map((it) => <li key={it.id}>{it.label}</li>)}
+        </ol>
+      </div>
+    );
+  }
+  return (
+    <div className="answer-panel">
+      <p className="vote-instruction">Tape les éléments dans le bon ordre</p>
+      <div className="ordre-list">
+        {items.map((it) => {
+          const pos = order.indexOf(it.id);
+          return (
+            <button key={it.id} className={`ordre-item ${pos >= 0 ? "picked" : ""}`} disabled={answered} onClick={() => tap(it.id)}>
+              {pos >= 0 && <span className="ordre-badge">{pos + 1}</span>}
+              {it.label}
+            </button>
+          );
+        })}
+      </div>
+      <button className="btn big" disabled={order.length !== items.length || answered} onClick={submit}>
+        {answered ? "Ordre envoyé ✅" : "Valider l'ordre"}
+      </button>
+      {!answered && order.length > 0 && (
+        <button className="btn ghost" onClick={() => setOrder([])}>Recommencer</button>
       )}
     </div>
   );

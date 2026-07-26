@@ -118,6 +118,76 @@ export function streakMultiplier(streak: number): number {
   return 1 + Math.min(0.5, Math.max(0, streak) * 0.1);
 }
 
+// --- Matching flou (mode reponse ecrite) ----------------------------------
+
+/** Normalise une reponse : minuscules, sans accents, sans ponctuation ni articles. */
+export function normalizeAnswer(s: string): string {
+  let out = s
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .replace(/[^a-z0-9\s]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  // Retire les articles/mots vides frequents en debut et dans la chaine.
+  out = out
+    .split(" ")
+    .filter((w) => !["le", "la", "les", "l", "un", "une", "des", "de", "du", "d"].includes(w))
+    .join(" ");
+  return out.trim();
+}
+
+function levenshtein(a: string, b: string): number {
+  const m = a.length;
+  const n = b.length;
+  if (m === 0) return n;
+  if (n === 0) return m;
+  const prev = new Array(n + 1);
+  const curr = new Array(n + 1);
+  for (let j = 0; j <= n; j++) prev[j] = j;
+  for (let i = 1; i <= m; i++) {
+    curr[0] = i;
+    for (let j = 1; j <= n; j++) {
+      const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+      curr[j] = Math.min(prev[j] + 1, curr[j - 1] + 1, prev[j - 1] + cost);
+    }
+    for (let j = 0; j <= n; j++) prev[j] = curr[j];
+  }
+  return prev[n];
+}
+
+/** Similarite [0,1] entre deux chaines (1 = identiques). */
+export function similarity(a: string, b: string): number {
+  const na = normalizeAnswer(a);
+  const nb = normalizeAnswer(b);
+  if (!na && !nb) return 1;
+  if (!na || !nb) return 0;
+  if (na === nb) return 1;
+  const dist = levenshtein(na, nb);
+  return 1 - dist / Math.max(na.length, nb.length);
+}
+
+/** Seuil de ressemblance a partir duquel une reponse ecrite est acceptee. */
+export const ANSWER_MATCH_THRESHOLD = 0.82;
+
+/** true si `input` est assez proche d'une des reponses acceptees. */
+export function isAnswerClose(
+  input: string,
+  accepted: string[],
+  threshold: number = ANSWER_MATCH_THRESHOLD
+): boolean {
+  const ni = normalizeAnswer(input);
+  if (!ni) return false;
+  return accepted.some((a) => {
+    const na = normalizeAnswer(a);
+    if (!na) return false;
+    if (ni === na) return true;
+    // Inclusion mot a mot (ex. "sean connery" contient "connery").
+    if (na.split(" ").length === 1 && ni.split(" ").includes(na)) return true;
+    return similarity(ni, na) >= threshold;
+  });
+}
+
 // --- Contenu (themes / univers / questions) -------------------------------
 
 export interface Theme {
@@ -138,14 +208,47 @@ export interface QuestionOption {
   label: string;
 }
 
+/**
+ * Types de questions :
+ * - qcm        : 4 propositions, une bonne reponse (points a la vitesse)
+ * - buzzer     : les equipes buzzent, la 1re repond a l'oral, l'animateur valide
+ * - open       : chaque equipe tape sa reponse, auto-validee (ressemblance) + override
+ * - estimation : reponse chiffree, le plus proche gagne (100% automatique)
+ * - ordre      : remettre 4 elements dans le bon ordre (credit partiel)
+ */
+export type QuestionType = "qcm" | "buzzer" | "open" | "estimation" | "ordre";
+
+export const QUESTION_TYPES: QuestionType[] = [
+  "qcm",
+  "buzzer",
+  "open",
+  "estimation",
+  "ordre",
+];
+
 export interface Question {
   id: string;
   universeId: string;
   difficulty: Difficulty;
+  /** Type de question ; "qcm" par defaut si absent du JSON. */
+  type: QuestionType;
   text: string;
+  // --- qcm ---
   /** Exactement 4 propositions homogenes. */
-  options: QuestionOption[];
-  correctOptionId: string;
+  options?: QuestionOption[];
+  correctOptionId?: string;
+  // --- buzzer / open ---
+  /** Reponse canonique (affichee au reveal). */
+  answer?: string;
+  /** open : variantes acceptees par le matching flou (inclut answer). */
+  acceptedAnswers?: string[];
+  // --- estimation ---
+  answerValue?: number;
+  /** Unite affichee (ex. "ans", "millions", "km"). */
+  unit?: string;
+  // --- ordre ---
+  /** ordre : les 4 elements DANS le bon ordre. */
+  items?: QuestionOption[];
   /** Anecdote optionnelle affichee au reveal. */
   funFact?: string;
 }
@@ -173,22 +276,62 @@ export interface Team {
 /** Version publique d'une question (sans la bonne reponse). */
 export interface PublicQuestion {
   id: string;
+  type: QuestionType;
   difficulty: Difficulty;
   text: string;
-  options: QuestionOption[];
   universeName: string;
   themeName: string;
   index: number; // 1-based
   total: number;
+  // qcm : propositions (sans la bonne reponse)
+  options?: QuestionOption[];
+  // ordre : les elements MELANGES a remettre dans l'ordre
+  items?: QuestionOption[];
+  // estimation : unite affichee
+  unit?: string;
+}
+
+/** Ce qu'une equipe a soumis (open / estimation / ordre), visible au reveal. */
+export interface TeamSubmission {
+  teamId: string;
+  /** open : texte brut ; estimation : nombre formate. */
+  text?: string;
+  /** estimation : valeur numerique. */
+  value?: number;
+  /** ordre : ordre soumis (liste d'ids d'elements). */
+  orderIds?: string[];
+  /** Verdict final (auto, ou force par l'animateur). */
+  correct: boolean;
+  /** true si le verdict vient de l'auto-validation (pour l'UI animateur). */
+  auto: boolean;
+}
+
+/** Etat du buzzer pendant une question de ce type. */
+export interface BuzzState {
+  order: string[]; // equipes dans l'ordre des buzz
+  current?: string; // equipe en train de repondre (en attente du verdict)
+  lockedOut: string[]; // equipes ayant deja repondu faux ce tour
+  open: boolean; // le buzzer accepte-t-il de nouveaux buzz ?
 }
 
 export interface RevealState {
-  correctOptionId: string;
+  /** Type de la question revelee. */
+  type: QuestionType;
   /** Points gagnes ce tour, par equipe. */
   gains: Record<string, number>;
-  /** Nombre de reponses par option (pour l'histogramme sur la TV). */
-  optionCounts: Record<string, number>;
   funFact?: string;
+  // qcm
+  correctOptionId?: string;
+  optionCounts?: Record<string, number>;
+  // buzzer / open / estimation
+  correctAnswer?: string;
+  // estimation
+  answerValue?: number;
+  unit?: string;
+  // ordre
+  correctOrder?: QuestionOption[];
+  // open / estimation / ordre
+  submissions?: TeamSubmission[];
 }
 
 /**
@@ -216,6 +359,7 @@ export interface GameState {
   question?: PublicQuestion;
   questionEndsAt?: number; // epoch ms
   answeredTeamIds: string[]; // equipes ayant deja repondu (sans divulguer quoi)
+  buzz?: BuzzState; // present uniquement pendant une question de type buzzer
   reveal?: RevealState;
 }
 
@@ -230,9 +374,13 @@ export const C2S = {
   TvJoin: "tv:join",
   TeamJoin: "team:join",
   TeamVote: "team:vote",
-  TeamAnswer: "team:answer",
+  TeamAnswer: "team:answer", // qcm
+  TeamSubmit: "team:submit", // open / estimation / ordre
+  TeamBuzz: "team:buzz", // buzzer
 
   HostConfigure: "host:configure",
+  HostBuzzVerdict: "host:buzzVerdict", // valide l'equipe qui buzze
+  HostGradeAnswer: "host:gradeAnswer", // force oui/non sur une reponse ecrite
   HostStartVoting: "host:startVoting",
   HostStartGame: "host:startGame",
   HostNext: "host:next",
@@ -289,6 +437,22 @@ export interface TeamVotePayload {
 export interface TeamAnswerPayload {
   questionId: string;
   optionId: string;
+}
+
+export interface TeamSubmitPayload {
+  questionId: string;
+  text?: string; // open
+  value?: number; // estimation
+  orderIds?: string[]; // ordre
+}
+
+export interface HostBuzzVerdictPayload extends HostAuthPayload {
+  correct: boolean;
+}
+
+export interface HostGradeAnswerPayload extends HostAuthPayload {
+  teamId: string;
+  correct: boolean;
 }
 
 export interface HostAuthPayload {

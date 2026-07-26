@@ -193,15 +193,20 @@ function ThemeVoting({ state }: { state: GameState }) {
 
 const OPTION_LETTERS = ["A", "B", "C", "D"];
 
+const MODE_LABELS: Record<string, string> = {
+  qcm: "QCM",
+  buzzer: "Buzzer 🔔",
+  open: "Réponse libre ✍️",
+  estimation: "Estimation 🎯",
+  ordre: "Dans l'ordre 🔢",
+};
+
 function QuestionBoard({ state }: { state: GameState }) {
   const q = state.question;
   const remaining = useCountdown(state.questionEndsAt, state.paused);
   if (!q) return null;
   const revealing = state.phase === "reveal";
   const reveal = state.reveal;
-  const totalAnswers = reveal
-    ? Object.values(reveal.optionCounts).reduce((a, b) => a + b, 0)
-    : 0;
 
   return (
     <div className="question-board">
@@ -209,6 +214,7 @@ function QuestionBoard({ state }: { state: GameState }) {
         <span className={`diff-badge diff-${q.difficulty}`}>
           {q.difficulty.toUpperCase()} · {DIFFICULTY_POINTS[q.difficulty]} pts
         </span>
+        <span className="mode-badge">{MODE_LABELS[q.type] ?? q.type}</span>
         <span className="question-meta">
           {q.themeName} — {q.universeName}
         </span>
@@ -219,39 +225,139 @@ function QuestionBoard({ state }: { state: GameState }) {
 
       <h2 className="question-text">{q.text}</h2>
 
-      {!revealing && (
-        <TimerRing remaining={remaining} total={state.config.questionTimeMs} />
-      )}
+      {!revealing && <TimerRing remaining={remaining} total={state.config.questionTimeMs} />}
 
-      <div className="options-grid">
-        {q.options.map((opt, i) => {
-          const isCorrect = reveal?.correctOptionId === opt.id;
-          const count = reveal?.optionCounts[opt.id] ?? 0;
-          const pct = totalAnswers ? Math.round((count / totalAnswers) * 100) : 0;
+      {q.type === "qcm" && <QcmBody state={state} />}
+      {q.type === "ordre" && <OrdreBody state={state} />}
+      {q.type === "buzzer" && <BuzzerBody state={state} />}
+      {q.type === "open" && <OpenBody state={state} />}
+      {q.type === "estimation" && <EstimationBody state={state} />}
+
+      {!revealing && q.type !== "buzzer" && <AnswerDots state={state} />}
+      {revealing && reveal?.funFact && <p className="fun-fact">💡 {reveal.funFact}</p>}
+    </div>
+  );
+}
+
+function QcmBody({ state }: { state: GameState }) {
+  const q = state.question!;
+  const reveal = state.reveal;
+  const revealing = state.phase === "reveal";
+  const totalAnswers = reveal?.optionCounts
+    ? Object.values(reveal.optionCounts).reduce((a, b) => a + b, 0)
+    : 0;
+  return (
+    <div className="options-grid">
+      {(q.options ?? []).map((opt, i) => {
+        const isCorrect = reveal?.correctOptionId === opt.id;
+        const count = reveal?.optionCounts?.[opt.id] ?? 0;
+        const pct = totalAnswers ? Math.round((count / totalAnswers) * 100) : 0;
+        return (
+          <div key={opt.id} className={`option ${revealing ? (isCorrect ? "correct" : "dimmed") : ""}`}>
+            <span className="option-letter">{OPTION_LETTERS[i]}</span>
+            <span className="option-label">{opt.label}</span>
+            {revealing && <span className="option-stat">{count} · {pct}%</span>}
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+function OrdreBody({ state }: { state: GameState }) {
+  const q = state.question!;
+  const revealing = state.phase === "reveal";
+  const list = revealing ? state.reveal?.correctOrder ?? [] : q.items ?? [];
+  return (
+    <ol className="tv-ordre">
+      {list.map((it, i) => (
+        <li key={it.id} className={revealing ? "correct" : ""}>
+          <span className="tv-ordre-num">{revealing ? i + 1 : "?"}</span>
+          {it.label}
+        </li>
+      ))}
+    </ol>
+  );
+}
+
+function BuzzerBody({ state }: { state: GameState }) {
+  const revealing = state.phase === "reveal";
+  if (revealing) {
+    const winnerId = Object.entries(state.reveal?.gains ?? {}).find(([, g]) => g > 0)?.[0];
+    const winner = state.teams.find((t) => t.id === winnerId);
+    return (
+      <div className="buzzer-tv">
+        <p className="reveal-answer big">Réponse : <strong>{state.reveal?.correctAnswer}</strong></p>
+        <p className="muted">{winner ? `🏆 ${winner.name} a trouvé !` : "Personne n'a trouvé 😬"}</p>
+      </div>
+    );
+  }
+  const buzz = state.buzz;
+  const current = state.teams.find((t) => t.id === buzz?.current);
+  return (
+    <div className="buzzer-tv">
+      {current ? (
+        <div className="buzzer-current">🔔 <strong>{current.name}</strong> répond !</div>
+      ) : (
+        <div className="buzzer-open">Buzzez ! 🔔</div>
+      )}
+      {buzz && buzz.lockedOut.length > 0 && (
+        <p className="muted">
+          Éliminés : {buzz.lockedOut.map((id) => state.teams.find((t) => t.id === id)?.name).join(", ")}
+        </p>
+      )}
+    </div>
+  );
+}
+
+function OpenBody({ state }: { state: GameState }) {
+  const revealing = state.phase === "reveal";
+  if (!revealing) return null;
+  const reveal = state.reveal;
+  return (
+    <div className="open-tv">
+      <p className="reveal-answer big">Réponse : <strong>{reveal?.correctAnswer}</strong></p>
+      <div className="open-subs">
+        {(reveal?.submissions ?? []).map((s) => {
+          const team = state.teams.find((t) => t.id === s.teamId);
           return (
-            <div
-              key={opt.id}
-              className={`option ${
-                revealing ? (isCorrect ? "correct" : "dimmed") : ""
-              }`}
-            >
-              <span className="option-letter">{OPTION_LETTERS[i]}</span>
-              <span className="option-label">{opt.label}</span>
-              {revealing && (
-                <span className="option-stat">
-                  {count} · {pct}%
-                </span>
-              )}
+            <div key={s.teamId} className={`open-sub ${s.correct ? "ok" : "ko"}`}>
+              <span>{team?.avatar} {team?.name}</span>
+              <span className="open-sub-text">« {s.text || "—"} »</span>
+              <span>{s.correct ? "✅" : "❌"}</span>
             </div>
           );
         })}
       </div>
+    </div>
+  );
+}
 
-      {!revealing ? (
-        <AnswerDots state={state} />
-      ) : (
-        reveal?.funFact && <p className="fun-fact">💡 {reveal.funFact}</p>
-      )}
+function EstimationBody({ state }: { state: GameState }) {
+  const revealing = state.phase === "reveal";
+  if (!revealing) return null;
+  const reveal = state.reveal;
+  const target = reveal?.answerValue ?? 0;
+  const subs = [...(reveal?.submissions ?? [])].sort(
+    (a, b) => Math.abs((a.value ?? Infinity) - target) - Math.abs((b.value ?? Infinity) - target)
+  );
+  return (
+    <div className="open-tv">
+      <p className="reveal-answer big">
+        Réponse exacte : <strong>{reveal?.correctAnswer}</strong>
+      </p>
+      <div className="open-subs">
+        {subs.map((s) => {
+          const team = state.teams.find((t) => t.id === s.teamId);
+          return (
+            <div key={s.teamId} className={`open-sub ${s.correct ? "ok" : ""}`}>
+              <span>{team?.avatar} {team?.name}</span>
+              <span className="open-sub-text">{s.value}</span>
+              <span>{s.correct ? "🏆" : ""}</span>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 }
