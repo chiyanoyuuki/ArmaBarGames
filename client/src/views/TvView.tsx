@@ -73,11 +73,47 @@ function TvBody({ state }: { state: GameState }) {
     case "question":
     case "reveal":
       return <QuestionBoard state={state} />;
+    case "leaderboard":
+      return <LeaderboardScreen state={state} />;
     case "finished":
       return <Podium teams={state.teams} />;
     default:
       return null;
   }
+}
+
+function LeaderboardScreen({ state }: { state: GameState }) {
+  const rows = state.standings ?? [];
+  const maxScore = Math.max(1, ...rows.map((r) => r.score));
+  const teamById = (id: string) => state.teams.find((t) => t.id === id);
+  return (
+    <div className="lb-screen">
+      <h2 className="lb-title">Classement</h2>
+      <div className="lb-rows">
+        {rows.map((r) => {
+          const team = teamById(r.teamId);
+          const move =
+            r.delta == null ? "" : r.delta > 0 ? "up" : r.delta < 0 ? "down" : "same";
+          return (
+            <div key={r.teamId} className={`lb-row rank-${r.rank}`}>
+              <span className="lb-rank">{r.rank}</span>
+              <span className="lb-avatar">{team?.avatar}</span>
+              <span className="lb-name">{team?.name}</span>
+              {r.delta != null && (
+                <span className={`lb-move ${move}`}>
+                  {r.delta > 0 ? `▲ ${r.delta}` : r.delta < 0 ? `▼ ${-r.delta}` : "="}
+                </span>
+              )}
+              <div className="lb-bar-track">
+                <div className="lb-bar-fill" style={{ width: `${(r.score / maxScore) * 100}%` }} />
+              </div>
+              <span className="lb-score">{r.score}</span>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
 }
 
 // --- Scoreboard -----------------------------------------------------------
@@ -400,11 +436,32 @@ function TimerRing({ remaining, total }: { remaining: number; total: number }) {
 
 // --- Podium ---------------------------------------------------------------
 
+function Confetti() {
+  const colors = ["#ff3d81", "#7c4dff", "#ffd23f", "#2ee6a6", "#4dd0ff"];
+  const pieces = Array.from({ length: 80 }, (_, i) => i);
+  return (
+    <div className="confetti" aria-hidden>
+      {pieces.map((i) => (
+        <span
+          key={i}
+          style={{
+            left: `${Math.random() * 100}%`,
+            background: colors[i % colors.length],
+            animationDelay: `${Math.random() * 3}s`,
+            animationDuration: `${2.5 + Math.random() * 2.5}s`,
+          }}
+        />
+      ))}
+    </div>
+  );
+}
+
 function Podium({ teams }: { teams: Team[] }) {
   const sorted = [...teams].sort((a, b) => b.score - a.score);
   const [first, second, third] = sorted;
   return (
     <div className="podium">
+      <Confetti />
       <h2 className="podium-title">🏆 Résultats finaux 🏆</h2>
       <div className="podium-stage">
         {second && <PodiumBlock team={second} place={2} />}

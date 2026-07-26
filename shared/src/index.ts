@@ -55,6 +55,10 @@ export interface GameConfig {
   selectedThemeCount: number;
   votesPerTeam: number;
   streakBonus: boolean;
+  /** Affiche un classement intermediaire toutes les N questions (0 = jamais). */
+  leaderboardEvery: number;
+  /** Duree d'affichage du classement intermediaire (ms). */
+  leaderboardTimeMs: number;
 }
 
 export const DEFAULT_CONFIG: GameConfig = {
@@ -65,6 +69,8 @@ export const DEFAULT_CONFIG: GameConfig = {
   selectedThemeCount: SELECTED_THEME_COUNT,
   votesPerTeam: VOTES_PER_TEAM,
   streakBonus: true,
+  leaderboardEvery: 5,
+  leaderboardTimeMs: 8_000,
 };
 
 /** Bornes autorisees pour l'UI de configuration (validees aussi cote serveur). */
@@ -75,6 +81,8 @@ export const CONFIG_LIMITS = {
   totalRounds: { min: 3, max: 40, step: 1 },
   selectedThemeCount: { min: 1, max: 6, step: 1 },
   votesPerTeam: { min: 1, max: 5, step: 1 },
+  leaderboardEvery: { min: 0, max: 10, step: 1 },
+  leaderboardTimeMs: { min: 4_000, max: 20_000, step: 1_000 },
 } as const;
 
 /** Applique les bornes a une config partielle et renvoie une config complete. */
@@ -93,6 +101,8 @@ export function sanitizeConfig(
   next.totalRounds = clamp("totalRounds", next.totalRounds);
   next.selectedThemeCount = clamp("selectedThemeCount", next.selectedThemeCount);
   next.votesPerTeam = clamp("votesPerTeam", next.votesPerTeam);
+  next.leaderboardEvery = clamp("leaderboardEvery", next.leaderboardEvery);
+  next.leaderboardTimeMs = clamp("leaderboardTimeMs", next.leaderboardTimeMs);
   next.streakBonus = !!next.streakBonus;
   return next;
 }
@@ -361,6 +371,16 @@ export interface GameState {
   answeredTeamIds: string[]; // equipes ayant deja repondu (sans divulguer quoi)
   buzz?: BuzzState; // present uniquement pendant une question de type buzzer
   reveal?: RevealState;
+  standings?: Standing[]; // present uniquement pendant la phase leaderboard
+}
+
+/** Ligne de classement intermediaire, avec mouvement depuis le dernier point. */
+export interface Standing {
+  teamId: string;
+  rank: number; // 1-based
+  score: number;
+  /** Positions gagnees (+) ou perdues (-) depuis le dernier classement ; null si nouveau. */
+  delta: number | null;
 }
 
 // --- Protocole Socket.io --------------------------------------------------

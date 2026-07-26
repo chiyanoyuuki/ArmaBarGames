@@ -166,6 +166,12 @@ function HostConsole({
           </>
         )}
 
+        {state.phase === "leaderboard" && (
+          <button className="btn big" onClick={() => send(C2S.HostNext)}>
+            ⏭️ Continuer
+          </button>
+        )}
+
         {state.phase === "finished" && (
           <button className="btn big" onClick={() => send(C2S.HostStartVoting)}>
             🔁 Nouvelle manche (revote)
@@ -271,6 +277,20 @@ function ConfigPanel({ state, send }: { state: GameState; send: SendFn }) {
           limits={CONFIG_LIMITS.votesPerTeam}
           format={(v) => `${v}`}
           onChange={(v) => setCfg({ votesPerTeam: v })}
+        />
+        <ConfigSlider
+          label="Classement intermédiaire toutes les…"
+          value={cfg.leaderboardEvery}
+          limits={CONFIG_LIMITS.leaderboardEvery}
+          format={(v) => (v === 0 ? "jamais" : `${v} questions`)}
+          onChange={(v) => setCfg({ leaderboardEvery: v })}
+        />
+        <ConfigSlider
+          label="Durée du classement"
+          value={cfg.leaderboardTimeMs}
+          limits={CONFIG_LIMITS.leaderboardTimeMs}
+          format={(v) => `${Math.round(v / 1000)} s`}
+          onChange={(v) => setCfg({ leaderboardTimeMs: v })}
         />
         <label className="config-toggle">
           <span>Bonus de série (+10 %/bonne réponse)</span>

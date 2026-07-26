@@ -16,6 +16,7 @@ import {
   type Question,
   type QuestionOption,
   type RevealState,
+  type Standing,
   type Team,
   type TeamSubmission,
   type Theme,
@@ -63,6 +64,8 @@ export class GameRoom {
   private buzzGains: Record<string, number> = {};
   private shuffledItems?: QuestionOption[]; // ordre : elements melanges (stables)
   private openPoints = new Map<string, number>(); // open : points si valide (override)
+  private standings?: Standing[]; // classement intermediaire courant
+  private lastRanks = new Map<string, number>(); // rang de chaque equipe au dernier classement
 
   // Gestion des timers avec support pause/reprise.
   private timer?: ReturnType<typeof setTimeout>;
@@ -235,6 +238,7 @@ export class GameRoom {
     this.questions = pickQuestions(selected, this.totalRounds);
     this.totalRounds = this.questions.length;
     this.round = 0;
+    this.lastRanks.clear();
     for (const team of this.teams.values()) {
       team.score = 0;
       team.streak = 0;
@@ -245,8 +249,38 @@ export class GameRoom {
   next() {
     // Action "passer" du host selon la phase courante.
     if (this.phase === "question") this.revealAnswer();
-    else if (this.phase === "reveal" || this.phase === "leaderboard")
+    else if (this.phase === "reveal") this.advance();
+    else if (this.phase === "leaderboard") this.nextQuestion();
+  }
+
+  /** Apres un reveal : classement intermediaire ou question suivante. */
+  private advance() {
+    const every = this.config.leaderboardEvery;
+    if (every > 0 && this.round < this.totalRounds && this.round % every === 0) {
+      this.enterLeaderboard();
+    } else {
       this.nextQuestion();
+    }
+  }
+
+  private computeStandings(): Standing[] {
+    const sorted = [...this.teams.values()].sort((a, b) => b.score - a.score);
+    return sorted.map((t, i) => {
+      const rank = i + 1;
+      const prev = this.lastRanks.get(t.id);
+      return { teamId: t.id, rank, score: t.score, delta: prev === undefined ? null : prev - rank };
+    });
+  }
+
+  private enterLeaderboard() {
+    this.clearTimer();
+    this.reveal = undefined;
+    this.standings = this.computeStandings();
+    for (const s of this.standings) this.lastRanks.set(s.teamId, s.rank);
+    this.phase = "leaderboard";
+    this.playSfx("reveal");
+    this.emit();
+    this.schedule(this.config.leaderboardTimeMs, () => this.nextQuestion());
   }
 
   private current(): Question | undefined {
@@ -255,6 +289,7 @@ export class GameRoom {
 
   private nextQuestion() {
     this.reveal = undefined;
+    this.standings = undefined;
     this.answers.clear();
     this.buzz = undefined;
     this.buzzGains = {};
@@ -499,7 +534,7 @@ export class GameRoom {
 
     // Auto-avance pour les types automatiques ; l'animateur pilote open/buzzer.
     if (q.type === "qcm" || q.type === "estimation" || q.type === "ordre") {
-      this.schedule(this.config.revealTimeMs, () => this.nextQuestion());
+      this.schedule(this.config.revealTimeMs, () => this.advance());
     }
   }
 
@@ -586,6 +621,7 @@ export class GameRoom {
       answeredTeamIds: [...this.answers.keys()],
       buzz: this.phase === "question" && this.buzz ? this.buzz : undefined,
       reveal: this.phase === "reveal" ? this.reveal : undefined,
+      standings: this.phase === "leaderboard" ? this.standings : undefined,
     };
   }
 
