@@ -116,12 +116,18 @@ la fin de chaque partie, la TV affiche aussi des **trophées** (⚡ L'Éclair,
 🔔 Roi du buzzer, 🔥 Série record, 🧠 Le Cerveau).
 
 - API : `GET /api/stats`, `GET /api/history`, `GET /api/catalog`.
-- Stockage **durable via SQLite** (`server/src/store.ts`), base fichier
-  unique sous `data/archive/armabar.db` (non versionnée). Chemin
-  configurable avec `ARMABAR_DB`. Tables normalisées (`games`, `game_teams`,
-  `game_rounds`) — donc requêtable directement au besoin.
-- Au premier démarrage, une ancienne archive `history.json` éventuelle est
-  **importée automatiquement** dans la base.
+- Stockage **durable** (`server/src/store.ts`) avec deux backends choisis
+  automatiquement :
+  - **SQLite** (`better-sqlite3`) si le module natif est disponible — base
+    `data/archive/armabar.db`, tables normalisées, requêtable ; chemin via
+    `ARMABAR_DB` ;
+  - sinon **repli automatique sur un fichier JSON** (`data/archive/history.json`,
+    100 % JS, aucune compilation) — idéal si `better-sqlite3` ne compile pas
+    (ex. Windows sans outils de build). Forçable via `ARMABAR_STORE=json`.
+- `better-sqlite3` est une dépendance **optionnelle** : un échec
+  d'installation ne bloque pas `npm install`, le backend JSON prend le relais.
+- Avec SQLite, une ancienne archive `history.json` est **importée
+  automatiquement** au premier démarrage.
 
 > ⚠️ En environnement cloud éphémère, le fichier `.db` vit avec le
 > conteneur. Pour une conservation durable, pointez `ARMABAR_DB` vers un

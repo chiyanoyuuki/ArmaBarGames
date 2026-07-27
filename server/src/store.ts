@@ -1,140 +1,165 @@
-// Archivage durable des parties (SQLite) + calcul des statistiques globales.
-// Base fichier unique, robuste, sans serveur. Le chemin est configurable via
-// ARMABAR_DB ; par defaut data/archive/armabar.db.
-import Database from "better-sqlite3";
-import { existsSync, mkdirSync, readFileSync } from "node:fs";
+// Archivage durable des parties + statistiques globales.
+//
+// Deux backends possibles, choisis automatiquement :
+//  - SQLite (better-sqlite3) si le module natif est disponible ;
+//  - sinon repli sur un fichier JSON (100% JS, aucune compilation).
+// Dans les deux cas l'archive persiste sur disque. Le code appelant
+// (index.ts) ne voit qu'une seule API : saveGame / loadGames / computeStats.
+import { createRequire } from "node:module";
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
-import type { GameRecord, GlobalStats, TeamGameStats, RoundLog } from "@armabar/shared";
+import type { GameRecord, GlobalStats } from "@armabar/shared";
 
+const require = createRequire(import.meta.url);
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ARCHIVE_DIR = join(__dirname, "..", "..", "data", "archive");
-const DB_PATH = process.env.ARMABAR_DB || join(ARCHIVE_DIR, "armabar.db");
+if (!existsSync(ARCHIVE_DIR)) mkdirSync(ARCHIVE_DIR, { recursive: true });
 
-if (!existsSync(dirname(DB_PATH))) mkdirSync(dirname(DB_PATH), { recursive: true });
+interface Backend {
+  kind: string;
+  saveGame(record: GameRecord): void;
+  loadGames(): GameRecord[];
+}
 
-const db = new Database(DB_PATH);
-db.pragma("journal_mode = WAL"); // durabilite + ecritures concurrentes sereines
-db.pragma("foreign_keys = ON");
+// --- Backend JSON (repli universel) ---------------------------------------
 
-db.exec(`
-  CREATE TABLE IF NOT EXISTS games (
-    id TEXT PRIMARY KEY,
-    startedAt INTEGER NOT NULL,
-    endedAt INTEGER NOT NULL,
-    themeIds TEXT NOT NULL,
-    universeIds TEXT NOT NULL,
-    totalQuestions INTEGER NOT NULL,
-    awards TEXT NOT NULL
+function makeJsonBackend(): Backend {
+  const file = process.env.ARMABAR_ARCHIVE
+    ? join(process.env.ARMABAR_ARCHIVE, "history.json")
+    : join(ARCHIVE_DIR, "history.json");
+
+  const read = (): GameRecord[] => {
+    try {
+      if (!existsSync(file)) return [];
+      const data = JSON.parse(readFileSync(file, "utf8"));
+      return Array.isArray(data) ? (data as GameRecord[]) : [];
+    } catch {
+      return [];
+    }
+  };
+
+  return {
+    kind: "json",
+    loadGames: read,
+    saveGame(record) {
+      try {
+        if (!existsSync(dirname(file))) mkdirSync(dirname(file), { recursive: true });
+        const games = read();
+        games.push(record);
+        writeFileSync(file, JSON.stringify(games, null, 2));
+      } catch (e) {
+        console.error("Archivage impossible :", e);
+      }
+    },
+  };
+}
+
+// --- Backend SQLite (si better-sqlite3 est installé) ----------------------
+
+function makeSqliteBackend(): Backend {
+  // Chargement dynamique : si le module natif manque, on lèvera et on
+  // basculera sur le backend JSON.
+  const Database = require("better-sqlite3");
+  const dbPath = process.env.ARMABAR_DB || join(ARCHIVE_DIR, "armabar.db");
+  const db = new Database(dbPath);
+  db.pragma("journal_mode = WAL");
+
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS games (
+      id TEXT PRIMARY KEY, startedAt INTEGER, endedAt INTEGER,
+      themeIds TEXT, universeIds TEXT, totalQuestions INTEGER, awards TEXT
+    );
+    CREATE TABLE IF NOT EXISTS game_teams (
+      gameId TEXT, name TEXT, avatar TEXT, finalScore INTEGER, finalRank INTEGER,
+      correct INTEGER, answered INTEGER, buzzerWins INTEGER, maxStreak INTEGER, avgAnswerMs INTEGER
+    );
+    CREATE TABLE IF NOT EXISTS game_rounds (
+      gameId TEXT, questionId TEXT, text TEXT, type TEXT, difficulty TEXT,
+      universeId TEXT, answerCount INTEGER, correctCount INTEGER
+    );
+    CREATE INDEX IF NOT EXISTS idx_teams_game ON game_teams(gameId);
+    CREATE INDEX IF NOT EXISTS idx_rounds_game ON game_rounds(gameId);
+  `);
+
+  const insertGame = db.prepare(
+    `INSERT OR REPLACE INTO games VALUES (@id,@startedAt,@endedAt,@themeIds,@universeIds,@totalQuestions,@awards)`
   );
-  CREATE TABLE IF NOT EXISTS game_teams (
-    gameId TEXT NOT NULL REFERENCES games(id) ON DELETE CASCADE,
-    name TEXT NOT NULL,
-    avatar TEXT NOT NULL,
-    finalScore INTEGER NOT NULL,
-    finalRank INTEGER NOT NULL,
-    correct INTEGER NOT NULL,
-    answered INTEGER NOT NULL,
-    buzzerWins INTEGER NOT NULL,
-    maxStreak INTEGER NOT NULL,
-    avgAnswerMs INTEGER
+  const insertTeam = db.prepare(
+    `INSERT INTO game_teams VALUES (@gameId,@name,@avatar,@finalScore,@finalRank,@correct,@answered,@buzzerWins,@maxStreak,@avgAnswerMs)`
   );
-  CREATE TABLE IF NOT EXISTS game_rounds (
-    gameId TEXT NOT NULL REFERENCES games(id) ON DELETE CASCADE,
-    questionId TEXT NOT NULL,
-    text TEXT NOT NULL,
-    type TEXT NOT NULL,
-    difficulty TEXT NOT NULL,
-    universeId TEXT NOT NULL,
-    answerCount INTEGER NOT NULL,
-    correctCount INTEGER NOT NULL
+  const insertRound = db.prepare(
+    `INSERT INTO game_rounds VALUES (@gameId,@questionId,@text,@type,@difficulty,@universeId,@answerCount,@correctCount)`
   );
-  CREATE INDEX IF NOT EXISTS idx_teams_game ON game_teams(gameId);
-  CREATE INDEX IF NOT EXISTS idx_rounds_game ON game_rounds(gameId);
-`);
-
-const insertGame = db.prepare(
-  `INSERT OR REPLACE INTO games (id, startedAt, endedAt, themeIds, universeIds, totalQuestions, awards)
-   VALUES (@id, @startedAt, @endedAt, @themeIds, @universeIds, @totalQuestions, @awards)`
-);
-const insertTeam = db.prepare(
-  `INSERT INTO game_teams (gameId, name, avatar, finalScore, finalRank, correct, answered, buzzerWins, maxStreak, avgAnswerMs)
-   VALUES (@gameId, @name, @avatar, @finalScore, @finalRank, @correct, @answered, @buzzerWins, @maxStreak, @avgAnswerMs)`
-);
-const insertRound = db.prepare(
-  `INSERT INTO game_rounds (gameId, questionId, text, type, difficulty, universeId, answerCount, correctCount)
-   VALUES (@gameId, @questionId, @text, @type, @difficulty, @universeId, @answerCount, @correctCount)`
-);
-
-const saveTx = db.transaction((record: GameRecord) => {
-  insertGame.run({
-    id: record.id,
-    startedAt: record.startedAt,
-    endedAt: record.endedAt,
-    themeIds: JSON.stringify(record.themeIds),
-    universeIds: JSON.stringify(record.universeIds),
-    totalQuestions: record.totalQuestions,
-    awards: JSON.stringify(record.awards),
+  const saveTx = db.transaction((r: GameRecord) => {
+    insertGame.run({
+      id: r.id, startedAt: r.startedAt, endedAt: r.endedAt,
+      themeIds: JSON.stringify(r.themeIds), universeIds: JSON.stringify(r.universeIds),
+      totalQuestions: r.totalQuestions, awards: JSON.stringify(r.awards),
+    });
+    for (const t of r.teams) insertTeam.run({ gameId: r.id, ...t });
+    for (const q of r.rounds) insertRound.run({ gameId: r.id, ...q });
   });
-  for (const t of record.teams) {
-    insertTeam.run({ gameId: record.id, ...t });
+
+  const backend: Backend = {
+    kind: "sqlite",
+    saveGame(record) {
+      try { saveTx(record); } catch (e) { console.error("Archivage impossible :", e); }
+    },
+    loadGames() {
+      const games = db.prepare(`SELECT * FROM games ORDER BY endedAt ASC`).all();
+      const teamsStmt = db.prepare(`SELECT * FROM game_teams WHERE gameId = ?`);
+      const roundsStmt = db.prepare(`SELECT * FROM game_rounds WHERE gameId = ?`);
+      return games.map((g: any) => ({
+        id: g.id, startedAt: g.startedAt, endedAt: g.endedAt,
+        themeIds: JSON.parse(g.themeIds), universeIds: JSON.parse(g.universeIds),
+        totalQuestions: g.totalQuestions, awards: JSON.parse(g.awards),
+        teams: teamsStmt.all(g.id).map(({ gameId, ...t }: any) => t),
+        rounds: roundsStmt.all(g.id).map(({ gameId, ...q }: any) => q),
+      }));
+    },
+  };
+
+  // Import unique d'une ancienne archive JSON vers la base, si besoin.
+  const count = (db.prepare(`SELECT COUNT(*) AS n FROM games`).get() as { n: number }).n;
+  if (count === 0) {
+    const legacy = join(ARCHIVE_DIR, "history.json");
+    if (existsSync(legacy)) {
+      try {
+        const data = JSON.parse(readFileSync(legacy, "utf8"));
+        if (Array.isArray(data)) {
+          for (const rec of data) backend.saveGame(rec);
+          console.log(`Archive JSON importée dans SQLite : ${data.length} partie(s).`);
+        }
+      } catch { /* ignore */ }
+    }
   }
-  for (const r of record.rounds) {
-    insertRound.run({ gameId: record.id, ...r });
+
+  return backend;
+}
+
+function selectBackend(): Backend {
+  if (process.env.ARMABAR_STORE === "json") return makeJsonBackend();
+  try {
+    const b = makeSqliteBackend();
+    console.log("Archivage : SQLite");
+    return b;
+  } catch {
+    console.log("Archivage : fichier JSON (better-sqlite3 indisponible, repli automatique)");
+    return makeJsonBackend();
   }
-});
+}
+
+const backend = selectBackend();
 
 export function saveGame(record: GameRecord): void {
-  try {
-    saveTx(record);
-  } catch (e) {
-    console.error("Archivage impossible :", e);
-  }
+  backend.saveGame(record);
 }
-
 export function loadGames(): GameRecord[] {
-  const games = db.prepare(`SELECT * FROM games ORDER BY endedAt ASC`).all() as any[];
-  const teamsStmt = db.prepare(`SELECT * FROM game_teams WHERE gameId = ?`);
-  const roundsStmt = db.prepare(`SELECT * FROM game_rounds WHERE gameId = ?`);
-  return games.map((g) => ({
-    id: g.id,
-    startedAt: g.startedAt,
-    endedAt: g.endedAt,
-    themeIds: JSON.parse(g.themeIds),
-    universeIds: JSON.parse(g.universeIds),
-    totalQuestions: g.totalQuestions,
-    awards: JSON.parse(g.awards),
-    teams: (teamsStmt.all(g.id) as any[]).map(
-      ({ gameId, ...t }): TeamGameStats => t
-    ),
-    rounds: (roundsStmt.all(g.id) as any[]).map(
-      ({ gameId, ...r }): RoundLog => r
-    ),
-  }));
+  return backend.loadGames();
 }
 
-/** Nombre de parties archivees (leger, sans tout charger). */
-export function gameCount(): number {
-  return (db.prepare(`SELECT COUNT(*) AS n FROM games`).get() as { n: number }).n;
-}
-
-// --- Import unique de l'ancienne archive JSON (retro-compatibilite) --------
-(function importLegacyJson() {
-  try {
-    if (gameCount() > 0) return;
-    const legacy = process.env.ARMABAR_ARCHIVE
-      ? join(process.env.ARMABAR_ARCHIVE, "history.json")
-      : join(ARCHIVE_DIR, "history.json");
-    if (!existsSync(legacy)) return;
-    const data = JSON.parse(readFileSync(legacy, "utf8"));
-    if (Array.isArray(data)) {
-      for (const rec of data as GameRecord[]) saveGame(rec);
-      console.log(`Archive JSON importée : ${data.length} partie(s).`);
-    }
-  } catch (e) {
-    console.error("Import de l'ancienne archive impossible :", e);
-  }
-})();
+// --- Statistiques agregees (identique quel que soit le backend) -----------
 
 const norm = (s: string) => s.trim().toLowerCase();
 
