@@ -141,8 +141,24 @@ function HostConsole({
         {state.phase === "theme_voting" && (
           <>
             <p className="muted">{state.totalVoters} équipe(s) ont voté</p>
+            <button
+              className="btn big"
+              disabled={state.selectedThemeIds.length === 0}
+              onClick={() => send(C2S.HostStartUniverseVoting)}
+            >
+              🎯 Vote des univers (dans les thèmes en tête)
+            </button>
+            <button className="btn ghost" onClick={() => send(C2S.HostStartGame)}>
+              ▶️ Lancer directement (tous les univers des thèmes)
+            </button>
+          </>
+        )}
+
+        {state.phase === "universe_voting" && (
+          <>
+            <p className="muted">{state.totalVoters} équipe(s) ont voté</p>
             <button className="btn big" onClick={() => send(C2S.HostStartGame)}>
-              ▶️ Lancer la partie avec les thèmes en tête
+              ▶️ Lancer la partie avec les univers en tête
             </button>
           </>
         )}
@@ -272,6 +288,13 @@ function ConfigPanel({ state, send }: { state: GameState; send: SendFn }) {
           onChange={(v) => setCfg({ selectedThemeCount: v })}
         />
         <ConfigSlider
+          label="Univers retenus (2e vote)"
+          value={cfg.selectedUniverseCount}
+          limits={CONFIG_LIMITS.selectedUniverseCount}
+          format={(v) => `${v}`}
+          onChange={(v) => setCfg({ selectedUniverseCount: v })}
+        />
+        <ConfigSlider
           label="Votes par équipe"
           value={cfg.votesPerTeam}
           limits={CONFIG_LIMITS.votesPerTeam}
@@ -395,7 +418,8 @@ function GradePanel({ state, send }: { state: GameState; send: SendFn }) {
 function phaseLabel(phase: GameState["phase"]): string {
   const labels: Record<GameState["phase"], string> = {
     lobby: "Salon",
-    theme_voting: "Vote",
+    theme_voting: "Vote thèmes",
+    universe_voting: "Vote univers",
     question: "Question",
     reveal: "Réponse",
     leaderboard: "Classement",

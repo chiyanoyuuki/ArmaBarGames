@@ -14,8 +14,10 @@ sien. Premier jeu : un **quiz** temps réel.
   les équipes, lancer le vote, lancer la partie, mettre en pause, corriger les
   scores.
 
-Le déroulé d'une partie : **Salon** → **Vote des thèmes** → **Questions**
-chronométrées → **Reveal** (bonne réponse + points) → **Podium**.
+Le déroulé d'une partie : **Salon** → **Vote des thèmes** (gros thèmes) →
+**Vote des univers** (optionnel, 2ᵉ temps : les univers précis dans les
+thèmes retenus) → **Questions** chronométrées → **Reveal** (bonne réponse +
+points) → *(classement intermédiaire)* → **Podium**.
 
 ## Architecture
 

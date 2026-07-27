@@ -48,17 +48,37 @@ export function themeById(id: string): Theme | undefined {
   return themes.find((t) => t.id === id);
 }
 
+/** Univers ayant au moins une question dans les themes donnes. */
+export function universesForThemes(themeIds: string[]): Universe[] {
+  const withQuestions = new Set(questions.map((q) => q.universeId));
+  return universes.filter(
+    (u) => themeIds.includes(u.themeId) && withQuestions.has(u.id)
+  );
+}
+
 /**
- * Selectionne une liste de questions pour une partie a partir des themes
- * retenus, avec une courbe de difficulte croissante (facile -> pro).
+ * Selectionne une liste de questions a partir des themes retenus.
+ * (Raccourci : delegue a pickQuestionsForUniverses sur tous leurs univers.)
  */
 export function pickQuestions(
   selectedThemeIds: string[],
   count: number
 ): Question[] {
-  const universeIds = new Set(
-    universes.filter((u) => selectedThemeIds.includes(u.themeId)).map((u) => u.id)
-  );
+  const universeIds = universes
+    .filter((u) => selectedThemeIds.includes(u.themeId))
+    .map((u) => u.id);
+  return pickQuestionsForUniverses(universeIds, count);
+}
+
+/**
+ * Selectionne une liste de questions pour une partie a partir d'univers
+ * precis, avec une courbe de difficulte croissante (facile -> pro).
+ */
+export function pickQuestionsForUniverses(
+  selectedUniverseIds: string[],
+  count: number
+): Question[] {
+  const universeIds = new Set(selectedUniverseIds);
   const pool = questions.filter((q) => universeIds.has(q.universeId));
 
   const order: Question["difficulty"][] = ["facile", "moyen", "dur", "pro"];

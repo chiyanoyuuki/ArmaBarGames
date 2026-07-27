@@ -192,6 +192,9 @@ io.on("connection", (socket: Socket) => {
   socket.on(C2S.HostStartVoting, (payload: HostAuthPayload) => {
     requireHost(payload)?.startVoting();
   });
+  socket.on(C2S.HostStartUniverseVoting, (payload: HostAuthPayload) => {
+    requireHost(payload)?.startUniverseVoting();
+  });
   socket.on(C2S.HostStartGame, (payload: HostStartGamePayload) => {
     requireHost(payload)?.startGame(payload.selectedThemeIds);
   });

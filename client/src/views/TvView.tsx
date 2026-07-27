@@ -71,6 +71,8 @@ function TvBody({ state }: { state: GameState }) {
       return <Lobby state={state} />;
     case "theme_voting":
       return <ThemeVoting state={state} />;
+    case "universe_voting":
+      return <UniverseVoting state={state} />;
     case "question":
     case "reveal":
       return <QuestionBoard state={state} />;
@@ -216,6 +218,48 @@ function ThemeVoting({ state }: { state: GameState }) {
                   className="theme-bar-fill"
                   style={{ width: `${(votes / maxVotes) * 100}%` }}
                 />
+              </div>
+              <div className="theme-bar-count">{votes}</div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+// --- Vote des univers -----------------------------------------------------
+
+function UniverseVoting({ state }: { state: GameState }) {
+  const remaining = useCountdown(state.voteEndsAt, state.paused);
+  const maxVotes = Math.max(1, ...Object.values(state.universeVoteTally));
+  const sorted = [...state.universeOptions].sort(
+    (a, b) => (state.universeVoteTally[b.id] ?? 0) - (state.universeVoteTally[a.id] ?? 0)
+  );
+  const voting = !!state.voteEndsAt;
+
+  return (
+    <div className="voting">
+      <div className="voting-head">
+        <h2>{voting ? "Votez vos univers !" : "Univers retenus 🎯"}</h2>
+        {voting ? (
+          <div className="voting-timer">{Math.ceil(remaining / 1000)}s</div>
+        ) : (
+          <div className="voting-sub">{state.totalVoters} vote(s)</div>
+        )}
+      </div>
+      <div className="theme-bars">
+        {sorted.map((u) => {
+          const votes = state.universeVoteTally[u.id] ?? 0;
+          const selected = state.selectedUniverseIds.includes(u.id);
+          return (
+            <div key={u.id} className={`theme-bar ${selected && !voting ? "selected" : ""}`}>
+              <div className="theme-bar-label">
+                <span className="theme-emoji">{u.emoji}</span>
+                {u.name}
+              </div>
+              <div className="theme-bar-track">
+                <div className="theme-bar-fill" style={{ width: `${(votes / maxVotes) * 100}%` }} />
               </div>
               <div className="theme-bar-count">{votes}</div>
             </div>

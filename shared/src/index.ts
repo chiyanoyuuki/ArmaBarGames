@@ -53,6 +53,8 @@ export interface GameConfig {
   voteTimeMs: number;
   totalRounds: number;
   selectedThemeCount: number;
+  /** Nombre d'univers retenus a l'issue du 2e vote. */
+  selectedUniverseCount: number;
   votesPerTeam: number;
   streakBonus: boolean;
   /** Affiche un classement intermediaire toutes les N questions (0 = jamais). */
@@ -67,6 +69,7 @@ export const DEFAULT_CONFIG: GameConfig = {
   voteTimeMs: VOTE_TIME_MS,
   totalRounds: DEFAULT_TOTAL_ROUNDS,
   selectedThemeCount: SELECTED_THEME_COUNT,
+  selectedUniverseCount: 3,
   votesPerTeam: VOTES_PER_TEAM,
   streakBonus: true,
   leaderboardEvery: 5,
@@ -80,6 +83,7 @@ export const CONFIG_LIMITS = {
   voteTimeMs: { min: 10_000, max: 120_000, step: 5_000 },
   totalRounds: { min: 3, max: 40, step: 1 },
   selectedThemeCount: { min: 1, max: 6, step: 1 },
+  selectedUniverseCount: { min: 1, max: 8, step: 1 },
   votesPerTeam: { min: 1, max: 5, step: 1 },
   leaderboardEvery: { min: 0, max: 10, step: 1 },
   leaderboardTimeMs: { min: 4_000, max: 20_000, step: 1_000 },
@@ -100,6 +104,7 @@ export function sanitizeConfig(
   next.voteTimeMs = clamp("voteTimeMs", next.voteTimeMs);
   next.totalRounds = clamp("totalRounds", next.totalRounds);
   next.selectedThemeCount = clamp("selectedThemeCount", next.selectedThemeCount);
+  next.selectedUniverseCount = clamp("selectedUniverseCount", next.selectedUniverseCount);
   next.votesPerTeam = clamp("votesPerTeam", next.votesPerTeam);
   next.leaderboardEvery = clamp("leaderboardEvery", next.leaderboardEvery);
   next.leaderboardTimeMs = clamp("leaderboardTimeMs", next.leaderboardTimeMs);
@@ -267,7 +272,8 @@ export interface Question {
 
 export type GamePhase =
   | "lobby" // equipes rejoignent, QR sur la TV
-  | "theme_voting" // vote des themes en direct
+  | "theme_voting" // vote des gros themes
+  | "universe_voting" // vote des univers precis (dans les themes retenus)
   | "question" // question chronometree
   | "reveal" // bonne reponse + points gagnes
   | "leaderboard" // classement intermediaire
@@ -359,9 +365,14 @@ export interface GameState {
   // Vote des themes
   themes: Theme[]; // themes proposes au vote
   voteTally: Record<string, number>; // themeId -> nombre de votes
-  totalVoters: number; // equipes ayant vote
+  totalVoters: number; // equipes ayant vote (phase de vote courante)
   voteEndsAt?: number; // epoch ms
   selectedThemeIds: string[]; // themes retenus apres le vote
+
+  // Vote des univers (2e temps, dans les themes retenus)
+  universeOptions: Universe[]; // univers proposes au vote
+  universeVoteTally: Record<string, number>; // universeId -> nombre de votes
+  selectedUniverseIds: string[]; // univers retenus apres le vote
 
   // Partie en cours
   round: number; // 1-based
@@ -467,6 +478,7 @@ export const C2S = {
   HostBuzzVerdict: "host:buzzVerdict", // valide l'equipe qui buzze
   HostGradeAnswer: "host:gradeAnswer", // force oui/non sur une reponse ecrite
   HostStartVoting: "host:startVoting",
+  HostStartUniverseVoting: "host:startUniverseVoting",
   HostStartGame: "host:startGame",
   HostNext: "host:next",
   HostPause: "host:pause",

@@ -152,7 +152,8 @@ function PlayBody({
         </div>
       )}
 
-      {state.phase === "theme_voting" && <VotePanel state={state} />}
+      {state.phase === "theme_voting" && <VotePanel key="theme" state={state} />}
+      {state.phase === "universe_voting" && <VotePanel key="universe" state={state} universe />}
 
       {(state.phase === "question" || state.phase === "reveal") && (
         <AnswerPanel state={state} teamId={teamId} />
@@ -169,11 +170,13 @@ function PlayBody({
   );
 }
 
-function VotePanel({ state }: { state: GameState }) {
+function VotePanel({ state, universe }: { state: GameState; universe?: boolean }) {
   const [picked, setPicked] = useState<string[]>([]);
   const [sent, setSent] = useState(false);
   const voting = !!state.voteEndsAt;
   const maxVotes = state.config.votesPerTeam;
+  const items = universe ? state.universeOptions : state.themes;
+  const noun = universe ? "univers" : "thèmes";
 
   const toggle = (id: string) => {
     setPicked((prev) =>
@@ -194,7 +197,7 @@ function VotePanel({ state }: { state: GameState }) {
     return (
       <div className="center grow">
         <p className="big-emoji">✅</p>
-        <p>Vote terminé ! Regarde la TV pour les thèmes retenus.</p>
+        <p>Vote terminé ! Regarde la TV pour les {noun} retenus.</p>
       </div>
     );
   }
@@ -202,10 +205,10 @@ function VotePanel({ state }: { state: GameState }) {
   return (
     <div className="vote-panel">
       <p className="vote-instruction">
-        Choisis jusqu'à {maxVotes} thèmes ({picked.length}/{maxVotes})
+        Choisis jusqu'à {maxVotes} {noun} ({picked.length}/{maxVotes})
       </p>
       <div className="vote-list">
-        {state.themes.map((t) => (
+        {items.map((t) => (
           <button
             key={t.id}
             className={`vote-item ${picked.includes(t.id) ? "picked" : ""}`}

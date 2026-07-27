@@ -24,9 +24,17 @@ import {
   type Team,
   type TeamSubmission,
   type Theme,
+  type Universe,
   type SfxKind,
 } from "@armabar/shared";
-import { pickQuestions, playableThemes, themeById, universeById } from "./data.js";
+import {
+  pickQuestions,
+  pickQuestionsForUniverses,
+  playableThemes,
+  themeById,
+  universeById,
+  universesForThemes,
+} from "./data.js";
 
 export interface Broadcaster {
   emitState(state: GameState): void;
@@ -62,6 +70,11 @@ export class GameRoom {
   private votes = new Map<string, string[]>(); // teamId -> themeIds
   private selectedThemeIds: string[] = [];
   private voteEndsAt?: number;
+
+  // Vote des univers (2e temps)
+  private universeVotes = new Map<string, string[]>(); // teamId -> universeIds
+  private universeOptions: Universe[] = [];
+  private selectedUniverseIds: string[] = [];
 
   private config: GameConfig;
   private questions: Question[] = [];
@@ -184,6 +197,7 @@ export class GameRoom {
   removeTeam(teamId: string) {
     this.teams.delete(teamId);
     this.votes.delete(teamId);
+    this.universeVotes.delete(teamId);
     this.answers.delete(teamId);
     this.emit();
   }
@@ -203,24 +217,40 @@ export class GameRoom {
     this.phase = "theme_voting";
     this.votes.clear();
     this.selectedThemeIds = [];
+    // Reinitialise le 2e temps (utile pour une nouvelle manche).
+    this.universeVotes.clear();
+    this.universeOptions = [];
+    this.selectedUniverseIds = [];
     this.voteEndsAt = Date.now() + this.config.voteTimeMs;
     this.schedule(this.config.voteTimeMs, () => this.finalizeVoting());
     this.emit();
   }
 
-  vote(teamId: string, themeIds: string[]) {
-    if (this.phase !== "theme_voting") return;
+  /** Vote generique : themes en phase 1, univers en phase 2. */
+  vote(teamId: string, ids: string[]) {
     if (!this.teams.has(teamId)) return;
-    const valid = themeIds
-      .filter((id) => this.themes.some((t) => t.id === id))
-      .slice(0, this.config.votesPerTeam);
-    this.votes.set(teamId, valid);
-    // Vote termine automatiquement si toutes les equipes connectees ont vote.
     const connected = [...this.teams.values()].filter((t) => t.connected);
-    if (connected.length > 0 && connected.every((t) => this.votes.has(t.id))) {
-      this.finalizeVoting();
-    } else {
-      this.emit();
+
+    if (this.phase === "theme_voting") {
+      const valid = ids
+        .filter((id) => this.themes.some((t) => t.id === id))
+        .slice(0, this.config.votesPerTeam);
+      this.votes.set(teamId, valid);
+      if (connected.length > 0 && connected.every((t) => this.votes.has(t.id))) {
+        this.finalizeVoting();
+      } else {
+        this.emit();
+      }
+    } else if (this.phase === "universe_voting") {
+      const valid = ids
+        .filter((id) => this.universeOptions.some((u) => u.id === id))
+        .slice(0, this.config.votesPerTeam);
+      this.universeVotes.set(teamId, valid);
+      if (connected.length > 0 && connected.every((t) => this.universeVotes.has(t.id))) {
+        this.finalizeUniverseVoting();
+      } else {
+        this.emit();
+      }
     }
   }
 
@@ -245,6 +275,41 @@ export class GameRoom {
     this.emit();
   }
 
+  // --- Vote des univers (2e temps) ---------------------------------------
+
+  startUniverseVoting() {
+    if (this.teams.size === 0 || this.selectedThemeIds.length === 0) return;
+    this.universeOptions = universesForThemes(this.selectedThemeIds);
+    if (this.universeOptions.length === 0) return;
+    this.phase = "universe_voting";
+    this.universeVotes.clear();
+    this.selectedUniverseIds = [];
+    this.voteEndsAt = Date.now() + this.config.voteTimeMs;
+    this.schedule(this.config.voteTimeMs, () => this.finalizeUniverseVoting());
+    this.emit();
+  }
+
+  private universeTally(): Record<string, number> {
+    const tally: Record<string, number> = {};
+    for (const u of this.universeOptions) tally[u.id] = 0;
+    for (const list of this.universeVotes.values()) {
+      for (const id of list) tally[id] = (tally[id] ?? 0) + 1;
+    }
+    return tally;
+  }
+
+  private finalizeUniverseVoting() {
+    this.clearTimer();
+    this.voteEndsAt = undefined;
+    const tally = this.universeTally();
+    this.selectedUniverseIds = [...this.universeOptions]
+      .map((u) => u.id)
+      .sort((a, b) => (tally[b] ?? 0) - (tally[a] ?? 0))
+      .slice(0, this.config.selectedUniverseCount);
+    this.playSfx("reveal");
+    this.emit();
+  }
+
   // --- Deroulement de la partie ------------------------------------------
 
   startGame(overrideThemeIds?: string[]) {
@@ -255,7 +320,12 @@ export class GameRoom {
           ? this.selectedThemeIds
           : this.themes.slice(0, this.config.selectedThemeCount).map((t) => t.id);
     this.selectedThemeIds = selected;
-    this.questions = pickQuestions(selected, this.totalRounds);
+    // Si des univers precis ont ete votes, on les privilegie ; sinon tous
+    // les univers des themes retenus.
+    this.questions =
+      this.selectedUniverseIds.length > 0
+        ? pickQuestionsForUniverses(this.selectedUniverseIds, this.totalRounds)
+        : pickQuestions(selected, this.totalRounds);
     this.totalRounds = this.questions.length;
     this.round = 0;
     this.lastRanks.clear();
@@ -713,7 +783,7 @@ export class GameRoom {
       if (this.phase === "question") {
         this.questionEndsAt = Date.now() + this.remainingOnPause;
       }
-      if (this.phase === "theme_voting") {
+      if (this.phase === "theme_voting" || this.phase === "universe_voting") {
         this.voteEndsAt = Date.now() + this.remainingOnPause;
       }
       this.schedule(this.remainingOnPause, fn);
@@ -753,9 +823,13 @@ export class GameRoom {
       teams: [...this.teams.values()],
       themes: this.themes,
       voteTally: this.tally(),
-      totalVoters: this.votes.size,
+      totalVoters:
+        this.phase === "universe_voting" ? this.universeVotes.size : this.votes.size,
       voteEndsAt: this.voteEndsAt,
       selectedThemeIds: this.selectedThemeIds,
+      universeOptions: this.universeOptions,
+      universeVoteTally: this.universeTally(),
+      selectedUniverseIds: this.selectedUniverseIds,
       round: this.round,
       totalRounds: this.totalRounds,
       question: this.publicQuestion(),
