@@ -56,6 +56,11 @@ export function playSfx(kind: SfxKind) {
       beep(600, 0, 0.08, "sine", 0.1);
       beep(900, 0.07, 0.1, "sine", 0.1);
       break;
+    case "manche":
+      [523, 659, 784, 1047, 784, 1047].forEach((f, i) =>
+        beep(f, i * 0.11, 0.22, "triangle", 0.13)
+      );
+      break;
   }
 }
 

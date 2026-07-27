@@ -14,6 +14,7 @@ import {
   type GamePhase,
   type GameRecord,
   type GameState,
+  type MancheInfo,
   type RoundLog,
   type TeamGameStats,
   type PublicQuestion,
@@ -80,6 +81,8 @@ export class GameRoom {
   private questions: Question[] = [];
   private round = 0; // 1-based une fois la partie lancee
   private totalRounds: number;
+  private manches: MancheInfo[] = []; // une manche par univers
+  private roundToManche: number[] = []; // index de manche (1-based) par round
   private answers = new Map<string, AnswerRecord>();
   private questionStartAt = 0;
   private questionEndsAt?: number;
@@ -322,10 +325,12 @@ export class GameRoom {
     this.selectedThemeIds = selected;
     // Si des univers precis ont ete votes, on les privilegie ; sinon tous
     // les univers des themes retenus.
-    this.questions =
+    const picked =
       this.selectedUniverseIds.length > 0
         ? pickQuestionsForUniverses(this.selectedUniverseIds, this.totalRounds)
         : pickQuestions(selected, this.totalRounds);
+    // Regroupe les questions par univers -> chaque univers devient une manche.
+    this.questions = this.groupIntoManches(picked);
     this.totalRounds = this.questions.length;
     this.round = 0;
     this.lastRanks.clear();
@@ -351,7 +356,8 @@ export class GameRoom {
 
   next() {
     // Action "passer" du host selon la phase courante.
-    if (this.phase === "question") this.revealAnswer();
+    if (this.phase === "round_intro") this.presentCurrentQuestion();
+    else if (this.phase === "question") this.revealAnswer();
     else if (this.phase === "reveal") this.advance();
     else if (this.phase === "leaderboard") this.nextQuestion();
   }
@@ -390,6 +396,51 @@ export class GameRoom {
     return this.questions[this.round - 1];
   }
 
+  /** Regroupe les questions par univers ; chaque univers devient une manche. */
+  private groupIntoManches(picked: Question[]): Question[] {
+    const order: Question["difficulty"][] = ["facile", "moyen", "dur", "pro"];
+    const universeOrder: string[] = [];
+    const byUniverse = new Map<string, Question[]>();
+    for (const q of picked) {
+      if (!byUniverse.has(q.universeId)) {
+        byUniverse.set(q.universeId, []);
+        universeOrder.push(q.universeId);
+      }
+      byUniverse.get(q.universeId)!.push(q);
+    }
+    const result: Question[] = [];
+    this.manches = [];
+    this.roundToManche = [];
+    universeOrder.forEach((uid, i) => {
+      const qs = byUniverse
+        .get(uid)!
+        .sort((a, b) => order.indexOf(a.difficulty) - order.indexOf(b.difficulty));
+      const universe = universeById(uid);
+      const theme = universe ? themeById(universe.themeId) : undefined;
+      this.manches.push({
+        index: i + 1,
+        total: universeOrder.length,
+        universeName: universe?.name ?? "",
+        themeName: theme?.name ?? "",
+        emoji: universe?.emoji,
+      });
+      for (const q of qs) {
+        result.push(q);
+        this.roundToManche.push(i + 1);
+      }
+    });
+    return result;
+  }
+
+  private mancheForRound(round: number): MancheInfo | undefined {
+    const idx = this.roundToManche[round - 1];
+    return idx ? this.manches[idx - 1] : undefined;
+  }
+
+  private isMancheStart(round: number): boolean {
+    return round === 1 || this.roundToManche[round - 1] !== this.roundToManche[round - 2];
+  }
+
   private nextQuestion() {
     this.reveal = undefined;
     this.standings = undefined;
@@ -403,6 +454,18 @@ export class GameRoom {
       this.finish();
       return;
     }
+    // Annonce de manche a chaque changement d'univers (si activee).
+    if (this.config.roundIntroMs > 0 && this.isMancheStart(this.round)) {
+      this.phase = "round_intro";
+      this.playSfx("manche");
+      this.schedule(this.config.roundIntroMs, () => this.presentCurrentQuestion());
+      this.emit();
+    } else {
+      this.presentCurrentQuestion();
+    }
+  }
+
+  private presentCurrentQuestion() {
     const q = this.current()!;
     this.phase = "question";
     this.questionStartAt = Date.now();
@@ -832,6 +895,10 @@ export class GameRoom {
       selectedUniverseIds: this.selectedUniverseIds,
       round: this.round,
       totalRounds: this.totalRounds,
+      manche:
+        this.phase === "round_intro" || this.phase === "question" || this.phase === "reveal"
+          ? this.mancheForRound(this.round)
+          : undefined,
       question: this.publicQuestion(),
       questionEndsAt: this.phase === "question" ? this.questionEndsAt : undefined,
       answeredTeamIds: [...this.answers.keys()],

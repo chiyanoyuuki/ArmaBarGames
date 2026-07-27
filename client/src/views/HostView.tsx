@@ -182,6 +182,12 @@ function HostConsole({
           </>
         )}
 
+        {state.phase === "round_intro" && (
+          <button className="btn big" onClick={() => send(C2S.HostNext)}>
+            ⏭️ Démarrer la manche
+          </button>
+        )}
+
         {state.phase === "leaderboard" && (
           <button className="btn big" onClick={() => send(C2S.HostNext)}>
             ⏭️ Continuer
@@ -315,6 +321,13 @@ function ConfigPanel({ state, send }: { state: GameState; send: SendFn }) {
           format={(v) => `${Math.round(v / 1000)} s`}
           onChange={(v) => setCfg({ leaderboardTimeMs: v })}
         />
+        <ConfigSlider
+          label="Annonce de manche"
+          value={cfg.roundIntroMs}
+          limits={CONFIG_LIMITS.roundIntroMs}
+          format={(v) => (v === 0 ? "désactivée" : `${(v / 1000).toFixed(1)} s`)}
+          onChange={(v) => setCfg({ roundIntroMs: v })}
+        />
         <label className="config-toggle">
           <span>Bonus de série (+10 %/bonne réponse)</span>
           <input
@@ -420,6 +433,7 @@ function phaseLabel(phase: GameState["phase"]): string {
     lobby: "Salon",
     theme_voting: "Vote thèmes",
     universe_voting: "Vote univers",
+    round_intro: "Manche",
     question: "Question",
     reveal: "Réponse",
     leaderboard: "Classement",

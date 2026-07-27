@@ -73,6 +73,8 @@ function TvBody({ state }: { state: GameState }) {
       return <ThemeVoting state={state} />;
     case "universe_voting":
       return <UniverseVoting state={state} />;
+    case "round_intro":
+      return <RoundIntro state={state} />;
     case "question":
     case "reveal":
       return <QuestionBoard state={state} />;
@@ -270,6 +272,21 @@ function UniverseVoting({ state }: { state: GameState }) {
   );
 }
 
+// --- Annonce de manche ----------------------------------------------------
+
+function RoundIntro({ state }: { state: GameState }) {
+  const m = state.manche;
+  if (!m) return null;
+  return (
+    <div className="round-intro">
+      <div className="round-intro-label">Manche {m.index} / {m.total}</div>
+      <div className="round-intro-emoji">{m.emoji}</div>
+      <h1 className="round-intro-name">{m.universeName}</h1>
+      <div className="round-intro-theme">{m.themeName}</div>
+    </div>
+  );
+}
+
 // --- Question / Reveal ----------------------------------------------------
 
 const OPTION_LETTERS = ["A", "B", "C", "D"];
@@ -296,6 +313,9 @@ function QuestionBoard({ state }: { state: GameState }) {
           {q.difficulty.toUpperCase()} · {DIFFICULTY_POINTS[q.difficulty]} pts
         </span>
         <span className="mode-badge">{MODE_LABELS[q.type] ?? q.type}</span>
+        {state.manche && state.manche.total > 1 && (
+          <span className="manche-chip">Manche {state.manche.index}/{state.manche.total}</span>
+        )}
         <span className="question-meta">
           {q.themeName} — {q.universeName}
         </span>

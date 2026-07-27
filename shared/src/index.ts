@@ -61,6 +61,8 @@ export interface GameConfig {
   leaderboardEvery: number;
   /** Duree d'affichage du classement intermediaire (ms). */
   leaderboardTimeMs: number;
+  /** Duree de l'annonce de manche entre univers (ms ; 0 = desactive). */
+  roundIntroMs: number;
 }
 
 export const DEFAULT_CONFIG: GameConfig = {
@@ -74,6 +76,7 @@ export const DEFAULT_CONFIG: GameConfig = {
   streakBonus: true,
   leaderboardEvery: 5,
   leaderboardTimeMs: 8_000,
+  roundIntroMs: 3_500,
 };
 
 /** Bornes autorisees pour l'UI de configuration (validees aussi cote serveur). */
@@ -87,6 +90,7 @@ export const CONFIG_LIMITS = {
   votesPerTeam: { min: 1, max: 5, step: 1 },
   leaderboardEvery: { min: 0, max: 10, step: 1 },
   leaderboardTimeMs: { min: 4_000, max: 20_000, step: 1_000 },
+  roundIntroMs: { min: 0, max: 8_000, step: 500 },
 } as const;
 
 /** Applique les bornes a une config partielle et renvoie une config complete. */
@@ -108,6 +112,7 @@ export function sanitizeConfig(
   next.votesPerTeam = clamp("votesPerTeam", next.votesPerTeam);
   next.leaderboardEvery = clamp("leaderboardEvery", next.leaderboardEvery);
   next.leaderboardTimeMs = clamp("leaderboardTimeMs", next.leaderboardTimeMs);
+  next.roundIntroMs = clamp("roundIntroMs", next.roundIntroMs);
   next.streakBonus = !!next.streakBonus;
   return next;
 }
@@ -274,6 +279,7 @@ export type GamePhase =
   | "lobby" // equipes rejoignent, QR sur la TV
   | "theme_voting" // vote des gros themes
   | "universe_voting" // vote des univers precis (dans les themes retenus)
+  | "round_intro" // annonce de manche (nouvel univers)
   | "question" // question chronometree
   | "reveal" // bonne reponse + points gagnes
   | "leaderboard" // classement intermediaire
@@ -287,6 +293,15 @@ export interface Team {
   connected: boolean;
   /** Emoji/avatar simple choisi par l'equipe. */
   avatar: string;
+}
+
+/** Une manche = un univers joue d'affilee ; annoncee sur la TV. */
+export interface MancheInfo {
+  index: number; // 1-based
+  total: number;
+  universeName: string;
+  themeName: string;
+  emoji?: string;
 }
 
 /** Version publique d'une question (sans la bonne reponse). */
@@ -377,6 +392,7 @@ export interface GameState {
   // Partie en cours
   round: number; // 1-based
   totalRounds: number;
+  manche?: MancheInfo; // manche courante (round_intro / question / reveal)
   question?: PublicQuestion;
   questionEndsAt?: number; // epoch ms
   answeredTeamIds: string[]; // equipes ayant deja repondu (sans divulguer quoi)
@@ -496,7 +512,7 @@ export const S2C = {
   Error: "error",
 } as const;
 
-export type SfxKind = "correct" | "wrong" | "tick" | "reveal" | "podium" | "join";
+export type SfxKind = "correct" | "wrong" | "tick" | "reveal" | "podium" | "join" | "manche";
 
 // --- Payloads ------------------------------------------------------------
 
