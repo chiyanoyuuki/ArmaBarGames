@@ -116,13 +116,17 @@ la fin de chaque partie, la TV affiche aussi des **trophées** (⚡ L'Éclair,
 🔔 Roi du buzzer, 🔥 Série record, 🧠 Le Cerveau).
 
 - API : `GET /api/stats`, `GET /api/history`, `GET /api/catalog`.
-- Le store est **isolé** dans `server/src/store.ts` (fichier JSON sous
-  `data/archive/`, non versionné). Chemin configurable via `ARMABAR_ARCHIVE`.
+- Stockage **durable via SQLite** (`server/src/store.ts`), base fichier
+  unique sous `data/archive/armabar.db` (non versionnée). Chemin
+  configurable avec `ARMABAR_DB`. Tables normalisées (`games`, `game_teams`,
+  `game_rounds`) — donc requêtable directement au besoin.
+- Au premier démarrage, une ancienne archive `history.json` éventuelle est
+  **importée automatiquement** dans la base.
 
-> ⚠️ En environnement cloud éphémère, ce fichier vit avec le conteneur.
-> Pour une archive durable, pointez `ARMABAR_ARCHIVE` vers un volume
-> persistant, ou remplacez `store.ts` par une vraie base — le reste du code
-> n'a pas à changer.
+> ⚠️ En environnement cloud éphémère, le fichier `.db` vit avec le
+> conteneur. Pour une conservation durable, pointez `ARMABAR_DB` vers un
+> **volume persistant** (ou une base réseau). En local / auto-hébergé, la
+> base persiste normalement d'une soirée à l'autre.
 
 ## État d'avancement
 

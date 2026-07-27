@@ -1,37 +1,140 @@
-// Archivage des parties + calcul des statistiques globales.
-// Store fichier (JSON) volontairement isole : pour passer a une vraie base
-// ou un volume persistant, il suffit de reimplementer loadGames/saveGame.
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+// Archivage durable des parties (SQLite) + calcul des statistiques globales.
+// Base fichier unique, robuste, sans serveur. Le chemin est configurable via
+// ARMABAR_DB ; par defaut data/archive/armabar.db.
+import Database from "better-sqlite3";
+import { existsSync, mkdirSync, readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
-import type { GameRecord, GlobalStats, QuestionType } from "@armabar/shared";
+import type { GameRecord, GlobalStats, TeamGameStats, RoundLog } from "@armabar/shared";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
+const ARCHIVE_DIR = join(__dirname, "..", "..", "data", "archive");
+const DB_PATH = process.env.ARMABAR_DB || join(ARCHIVE_DIR, "armabar.db");
 
-const ARCHIVE_DIR =
-  process.env.ARMABAR_ARCHIVE || join(__dirname, "..", "..", "data", "archive");
-const FILE = join(ARCHIVE_DIR, "history.json");
+if (!existsSync(dirname(DB_PATH))) mkdirSync(dirname(DB_PATH), { recursive: true });
 
-export function loadGames(): GameRecord[] {
-  try {
-    if (!existsSync(FILE)) return [];
-    const data = JSON.parse(readFileSync(FILE, "utf8"));
-    return Array.isArray(data) ? (data as GameRecord[]) : [];
-  } catch {
-    return []; // fichier corrompu : on repart proprement plutot que de crasher
+const db = new Database(DB_PATH);
+db.pragma("journal_mode = WAL"); // durabilite + ecritures concurrentes sereines
+db.pragma("foreign_keys = ON");
+
+db.exec(`
+  CREATE TABLE IF NOT EXISTS games (
+    id TEXT PRIMARY KEY,
+    startedAt INTEGER NOT NULL,
+    endedAt INTEGER NOT NULL,
+    themeIds TEXT NOT NULL,
+    universeIds TEXT NOT NULL,
+    totalQuestions INTEGER NOT NULL,
+    awards TEXT NOT NULL
+  );
+  CREATE TABLE IF NOT EXISTS game_teams (
+    gameId TEXT NOT NULL REFERENCES games(id) ON DELETE CASCADE,
+    name TEXT NOT NULL,
+    avatar TEXT NOT NULL,
+    finalScore INTEGER NOT NULL,
+    finalRank INTEGER NOT NULL,
+    correct INTEGER NOT NULL,
+    answered INTEGER NOT NULL,
+    buzzerWins INTEGER NOT NULL,
+    maxStreak INTEGER NOT NULL,
+    avgAnswerMs INTEGER
+  );
+  CREATE TABLE IF NOT EXISTS game_rounds (
+    gameId TEXT NOT NULL REFERENCES games(id) ON DELETE CASCADE,
+    questionId TEXT NOT NULL,
+    text TEXT NOT NULL,
+    type TEXT NOT NULL,
+    difficulty TEXT NOT NULL,
+    universeId TEXT NOT NULL,
+    answerCount INTEGER NOT NULL,
+    correctCount INTEGER NOT NULL
+  );
+  CREATE INDEX IF NOT EXISTS idx_teams_game ON game_teams(gameId);
+  CREATE INDEX IF NOT EXISTS idx_rounds_game ON game_rounds(gameId);
+`);
+
+const insertGame = db.prepare(
+  `INSERT OR REPLACE INTO games (id, startedAt, endedAt, themeIds, universeIds, totalQuestions, awards)
+   VALUES (@id, @startedAt, @endedAt, @themeIds, @universeIds, @totalQuestions, @awards)`
+);
+const insertTeam = db.prepare(
+  `INSERT INTO game_teams (gameId, name, avatar, finalScore, finalRank, correct, answered, buzzerWins, maxStreak, avgAnswerMs)
+   VALUES (@gameId, @name, @avatar, @finalScore, @finalRank, @correct, @answered, @buzzerWins, @maxStreak, @avgAnswerMs)`
+);
+const insertRound = db.prepare(
+  `INSERT INTO game_rounds (gameId, questionId, text, type, difficulty, universeId, answerCount, correctCount)
+   VALUES (@gameId, @questionId, @text, @type, @difficulty, @universeId, @answerCount, @correctCount)`
+);
+
+const saveTx = db.transaction((record: GameRecord) => {
+  insertGame.run({
+    id: record.id,
+    startedAt: record.startedAt,
+    endedAt: record.endedAt,
+    themeIds: JSON.stringify(record.themeIds),
+    universeIds: JSON.stringify(record.universeIds),
+    totalQuestions: record.totalQuestions,
+    awards: JSON.stringify(record.awards),
+  });
+  for (const t of record.teams) {
+    insertTeam.run({ gameId: record.id, ...t });
   }
-}
+  for (const r of record.rounds) {
+    insertRound.run({ gameId: record.id, ...r });
+  }
+});
 
 export function saveGame(record: GameRecord): void {
   try {
-    if (!existsSync(ARCHIVE_DIR)) mkdirSync(ARCHIVE_DIR, { recursive: true });
-    const games = loadGames();
-    games.push(record);
-    writeFileSync(FILE, JSON.stringify(games, null, 2));
+    saveTx(record);
   } catch (e) {
     console.error("Archivage impossible :", e);
   }
 }
+
+export function loadGames(): GameRecord[] {
+  const games = db.prepare(`SELECT * FROM games ORDER BY endedAt ASC`).all() as any[];
+  const teamsStmt = db.prepare(`SELECT * FROM game_teams WHERE gameId = ?`);
+  const roundsStmt = db.prepare(`SELECT * FROM game_rounds WHERE gameId = ?`);
+  return games.map((g) => ({
+    id: g.id,
+    startedAt: g.startedAt,
+    endedAt: g.endedAt,
+    themeIds: JSON.parse(g.themeIds),
+    universeIds: JSON.parse(g.universeIds),
+    totalQuestions: g.totalQuestions,
+    awards: JSON.parse(g.awards),
+    teams: (teamsStmt.all(g.id) as any[]).map(
+      ({ gameId, ...t }): TeamGameStats => t
+    ),
+    rounds: (roundsStmt.all(g.id) as any[]).map(
+      ({ gameId, ...r }): RoundLog => r
+    ),
+  }));
+}
+
+/** Nombre de parties archivees (leger, sans tout charger). */
+export function gameCount(): number {
+  return (db.prepare(`SELECT COUNT(*) AS n FROM games`).get() as { n: number }).n;
+}
+
+// --- Import unique de l'ancienne archive JSON (retro-compatibilite) --------
+(function importLegacyJson() {
+  try {
+    if (gameCount() > 0) return;
+    const legacy = process.env.ARMABAR_ARCHIVE
+      ? join(process.env.ARMABAR_ARCHIVE, "history.json")
+      : join(ARCHIVE_DIR, "history.json");
+    if (!existsSync(legacy)) return;
+    const data = JSON.parse(readFileSync(legacy, "utf8"));
+    if (Array.isArray(data)) {
+      for (const rec of data as GameRecord[]) saveGame(rec);
+      console.log(`Archive JSON importée : ${data.length} partie(s).`);
+    }
+  } catch (e) {
+    console.error("Import de l'ancienne archive impossible :", e);
+  }
+})();
 
 const norm = (s: string) => s.trim().toLowerCase();
 
@@ -98,7 +201,6 @@ export function computeStats(games: GameRecord[]): GlobalStats {
   const king = Object.values(buzzerByName).sort((a, b) => b.wins - a.wins)[0];
   if (king) stats.buzzerKing = { teamName: king.name, wins: king.wins };
 
-  // Questions posees a au moins 3 equipes-reponses, pour eviter le bruit.
   const rated = Object.values(questionAgg)
     .filter((q) => q.answered >= 3)
     .map((q) => ({ text: q.text, rate: q.correct / q.answered }));
