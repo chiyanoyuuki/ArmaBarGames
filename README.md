@@ -118,16 +118,16 @@ la fin de chaque partie, la TV affiche aussi des **trophées** (⚡ L'Éclair,
 - API : `GET /api/stats`, `GET /api/history`, `GET /api/catalog`.
 - Stockage **durable** (`server/src/store.ts`) avec deux backends choisis
   automatiquement :
-  - **SQLite** (`better-sqlite3`) si le module natif est disponible — base
-    `data/archive/armabar.db`, tables normalisées, requêtable ; chemin via
-    `ARMABAR_DB` ;
-  - sinon **repli automatique sur un fichier JSON** (`data/archive/history.json`,
-    100 % JS, aucune compilation) — idéal si `better-sqlite3` ne compile pas
-    (ex. Windows sans outils de build). Forçable via `ARMABAR_STORE=json`.
-- `better-sqlite3` est une dépendance **optionnelle** : un échec
-  d'installation ne bloque pas `npm install`, le backend JSON prend le relais.
-- Avec SQLite, une ancienne archive `history.json` est **importée
-  automatiquement** au premier démarrage.
+  - **fichier JSON** par défaut (`data/archive/history.json`, 100 % JS,
+    aucune dépendance native) — fonctionne partout, y compris Windows ;
+  - **SQLite** (base `data/archive/armabar.db`, tables normalisées,
+    requêtable) si le module `better-sqlite3` est installé.
+- SQLite est **optionnel** et non installé par défaut (module natif, parfois
+  difficile à compiler selon l'OS/Node). Pour l'activer :
+  `npm install better-sqlite3 -w server` — le store le détecte au démarrage
+  et importe automatiquement l'archive JSON existante dans la base.
+- Chemins configurables : `ARMABAR_DB` (SQLite), `ARMABAR_ARCHIVE` (dossier
+  JSON). `ARMABAR_STORE=json` force le backend JSON.
 
 > ⚠️ En environnement cloud éphémère, le fichier `.db` vit avec le
 > conteneur. Pour une conservation durable, pointez `ARMABAR_DB` vers un
