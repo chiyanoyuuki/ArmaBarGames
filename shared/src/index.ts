@@ -372,6 +372,71 @@ export interface GameState {
   buzz?: BuzzState; // present uniquement pendant une question de type buzzer
   reveal?: RevealState;
   standings?: Standing[]; // present uniquement pendant la phase leaderboard
+  awards?: Award[]; // present uniquement a la fin (trophees rigolos de la partie)
+}
+
+// --- Archive & statistiques ----------------------------------------------
+
+/** Trophee rigolo attribue a une equipe en fin de partie. */
+export interface Award {
+  id: string;
+  emoji: string;
+  title: string;
+  teamName: string;
+  detail: string;
+}
+
+/** Bilan d'une equipe sur une partie. */
+export interface TeamGameStats {
+  name: string;
+  avatar: string;
+  finalScore: number;
+  finalRank: number;
+  correct: number;
+  answered: number;
+  buzzerWins: number;
+  maxStreak: number;
+  avgAnswerMs: number | null; // sur les bonnes reponses chronometrees
+}
+
+/** Trace legere d'une question jouee (pour les stats globales). */
+export interface RoundLog {
+  questionId: string;
+  text: string;
+  type: QuestionType;
+  difficulty: Difficulty;
+  universeId: string;
+  answerCount: number;
+  correctCount: number;
+}
+
+/** Enregistrement complet d'une partie terminee. */
+export interface GameRecord {
+  id: string;
+  startedAt: number;
+  endedAt: number;
+  themeIds: string[];
+  universeIds: string[];
+  totalQuestions: number;
+  teams: TeamGameStats[];
+  awards: Award[];
+  rounds: RoundLog[];
+}
+
+/** Statistiques agregees sur toutes les soirees archivees. */
+export interface GlobalStats {
+  games: number;
+  questionsPlayed: number;
+  distinctTeams: number;
+  totalCorrect: number;
+  highestScore: { value: number; teamName: string } | null;
+  favoriteUniverse: { universeId: string; count: number } | null;
+  longestStreak: { value: number; teamName: string } | null;
+  buzzerKing: { teamName: string; wins: number } | null;
+  hardestQuestion: { text: string; rate: number } | null;
+  easiestQuestion: { text: string; rate: number } | null;
+  typeBreakdown: Record<string, number>;
+  topTeams: { name: string; games: number; wins: number; totalScore: number }[];
 }
 
 /** Ligne de classement intermediaire, avec mouvement depuis le dernier point. */

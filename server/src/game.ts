@@ -8,10 +8,14 @@ import {
   DEFAULT_CONFIG,
   DIFFICULTY_POINTS,
   TEAM_AVATARS,
+  type Award,
   type BuzzState,
   type GameConfig,
   type GamePhase,
+  type GameRecord,
   type GameState,
+  type RoundLog,
+  type TeamGameStats,
   type PublicQuestion,
   type Question,
   type QuestionOption,
@@ -27,6 +31,16 @@ import { pickQuestions, playableThemes, themeById, universeById } from "./data.j
 export interface Broadcaster {
   emitState(state: GameState): void;
   sfx(kind: SfxKind): void;
+  archive?(record: GameRecord): void;
+}
+
+interface TeamStat {
+  correct: number;
+  answered: number;
+  buzzerWins: number;
+  maxStreak: number;
+  timeSum: number;
+  timeCount: number;
 }
 
 interface AnswerRecord {
@@ -66,6 +80,12 @@ export class GameRoom {
   private openPoints = new Map<string, number>(); // open : points si valide (override)
   private standings?: Standing[]; // classement intermediaire courant
   private lastRanks = new Map<string, number>(); // rang de chaque equipe au dernier classement
+
+  // Archivage / statistiques
+  private gameStartAt = 0;
+  private teamStats = new Map<string, TeamStat>();
+  private roundLogs: RoundLog[] = [];
+  private awards?: Award[];
 
   // Gestion des timers avec support pause/reprise.
   private timer?: ReturnType<typeof setTimeout>;
@@ -239,11 +259,24 @@ export class GameRoom {
     this.totalRounds = this.questions.length;
     this.round = 0;
     this.lastRanks.clear();
+    this.gameStartAt = Date.now();
+    this.teamStats.clear();
+    this.roundLogs = [];
+    this.awards = undefined;
     for (const team of this.teams.values()) {
       team.score = 0;
       team.streak = 0;
     }
     this.nextQuestion();
+  }
+
+  private stat(teamId: string): TeamStat {
+    let s = this.teamStats.get(teamId);
+    if (!s) {
+      s = { correct: 0, answered: 0, buzzerWins: 0, maxStreak: 0, timeSum: 0, timeCount: 0 };
+      this.teamStats.set(teamId, s);
+    }
+    return s;
   }
 
   next() {
@@ -527,6 +560,50 @@ export class GameRoom {
       for (const team of this.teams.values()) if (!this.answers.has(team.id)) team.streak = 0;
     }
 
+    // --- Enregistrement des stats de la partie ---
+    let answerCount = 0;
+    let correctCount = 0;
+    if (q.type === "buzzer") {
+      for (const tid of this.buzz?.order ?? []) this.stat(tid).answered++;
+      answerCount = this.buzz?.order.length ?? 0;
+      const winner = Object.entries(gains).find(([, g]) => g > 0)?.[0];
+      if (winner) {
+        const s = this.stat(winner);
+        s.correct++;
+        s.buzzerWins++;
+        s.timeSum += this.buzzAt - this.questionStartAt;
+        s.timeCount++;
+        correctCount = 1;
+      }
+    } else {
+      for (const [tid, rec] of this.answers) {
+        const s = this.stat(tid);
+        s.answered++;
+        if ((gains[tid] ?? 0) > 0) {
+          s.correct++;
+          correctCount++;
+          if (q.type === "qcm" || q.type === "open") {
+            s.timeSum += rec.at - this.questionStartAt;
+            s.timeCount++;
+          }
+        }
+      }
+      answerCount = this.answers.size;
+    }
+    for (const t of this.teams.values()) {
+      const s = this.stat(t.id);
+      if (t.streak > s.maxStreak) s.maxStreak = t.streak;
+    }
+    this.roundLogs.push({
+      questionId: q.id,
+      text: q.text,
+      type: q.type,
+      difficulty: q.difficulty,
+      universeId: q.universeId,
+      answerCount,
+      correctCount,
+    });
+
     this.reveal = reveal;
     const anyoneRight = Object.values(gains).some((g) => g > 0);
     this.playSfx(anyoneRight ? "correct" : "wrong");
@@ -542,8 +619,73 @@ export class GameRoom {
     this.clearTimer();
     this.phase = "finished";
     this.questionEndsAt = undefined;
+    this.buildAndArchive();
     this.playSfx("podium");
     this.emit();
+  }
+
+  private buildAndArchive() {
+    const sorted = [...this.teams.values()].sort((a, b) => b.score - a.score);
+    const teamStats: TeamGameStats[] = sorted.map((t, i) => {
+      const s = this.stat(t.id);
+      return {
+        name: t.name,
+        avatar: t.avatar,
+        finalScore: t.score,
+        finalRank: i + 1,
+        correct: s.correct,
+        answered: s.answered,
+        buzzerWins: s.buzzerWins,
+        maxStreak: s.maxStreak,
+        avgAnswerMs: s.timeCount > 0 ? Math.round(s.timeSum / s.timeCount) : null,
+      };
+    });
+
+    this.awards = this.computeAwards(teamStats);
+
+    // On n'archive que les vraies parties (au moins une equipe, au moins une question).
+    if (teamStats.length > 0 && this.roundLogs.length > 0 && this.broadcaster?.archive) {
+      const record: GameRecord = {
+        id: `${this.code}-${this.gameStartAt}`,
+        startedAt: this.gameStartAt,
+        endedAt: Date.now(),
+        themeIds: this.selectedThemeIds,
+        universeIds: [...new Set(this.roundLogs.map((r) => r.universeId))],
+        totalQuestions: this.roundLogs.length,
+        teams: teamStats,
+        awards: this.awards,
+        rounds: this.roundLogs,
+      };
+      this.broadcaster.archive(record);
+    }
+  }
+
+  private computeAwards(teams: TeamGameStats[]): Award[] {
+    const awards: Award[] = [];
+    const byBest = <T>(arr: T[], score: (t: T) => number) =>
+      arr.reduce((best, cur) => (score(cur) > score(best) ? cur : best), arr[0]);
+
+    const brains = teams.filter((t) => t.correct > 0);
+    if (brains.length) {
+      const t = byBest(brains, (x) => x.correct);
+      awards.push({ id: "brain", emoji: "🧠", title: "Le Cerveau", teamName: t.name, detail: `${t.correct} bonnes réponses` });
+    }
+    const fast = teams.filter((t) => t.avgAnswerMs != null);
+    if (fast.length) {
+      const t = fast.reduce((b, c) => ((c.avgAnswerMs as number) < (b.avgAnswerMs as number) ? c : b));
+      awards.push({ id: "flash", emoji: "⚡", title: "L'Éclair", teamName: t.name, detail: `${((t.avgAnswerMs as number) / 1000).toFixed(1)} s de moyenne` });
+    }
+    const buzz = teams.filter((t) => t.buzzerWins > 0);
+    if (buzz.length) {
+      const t = byBest(buzz, (x) => x.buzzerWins);
+      awards.push({ id: "buzzer", emoji: "🔔", title: "Roi du Buzzer", teamName: t.name, detail: `${t.buzzerWins} buzz gagnés` });
+    }
+    const streaky = teams.filter((t) => t.maxStreak >= 3);
+    if (streaky.length) {
+      const t = byBest(streaky, (x) => x.maxStreak);
+      awards.push({ id: "streak", emoji: "🔥", title: "Série record", teamName: t.name, detail: `${t.maxStreak} d'affilée` });
+    }
+    return awards;
   }
 
   endGame() {
@@ -622,6 +764,7 @@ export class GameRoom {
       buzz: this.phase === "question" && this.buzz ? this.buzz : undefined,
       reveal: this.phase === "reveal" ? this.reveal : undefined,
       standings: this.phase === "leaderboard" ? this.standings : undefined,
+      awards: this.phase === "finished" ? this.awards : undefined,
     };
   }
 

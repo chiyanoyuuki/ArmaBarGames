@@ -105,6 +105,25 @@ avertissements (univers incomplet, propositions non homogènes) ne bloquent pas.
 }
 ```
 
+## Archivage & statistiques
+
+Chaque partie terminée est **archivée** automatiquement (équipes, scores,
+trophées, trace des questions). Une page **`/stats`** agrège au fil des
+soirées des statistiques rigolotes : meilleur score, plus longue série, roi
+du buzzer, univers favori, question la plus ratée / la plus facile,
+répartition par type, classement des habitués et historique des parties. À
+la fin de chaque partie, la TV affiche aussi des **trophées** (⚡ L'Éclair,
+🔔 Roi du buzzer, 🔥 Série record, 🧠 Le Cerveau).
+
+- API : `GET /api/stats`, `GET /api/history`, `GET /api/catalog`.
+- Le store est **isolé** dans `server/src/store.ts` (fichier JSON sous
+  `data/archive/`, non versionné). Chemin configurable via `ARMABAR_ARCHIVE`.
+
+> ⚠️ En environnement cloud éphémère, ce fichier vit avec le conteneur.
+> Pour une archive durable, pointez `ARMABAR_ARCHIVE` vers un volume
+> persistant, ou remplacez `store.ts` par une vraie base — le reste du code
+> n'a pas à changer.
+
 ## État d'avancement
 
 ✅ Scaffold complet et jouable de bout en bout (lobby → vote → quiz → podium),

@@ -4,6 +4,7 @@ import QRCode from "qrcode";
 import {
   C2S,
   DIFFICULTY_POINTS,
+  type Award,
   type GameState,
   type Team,
 } from "@armabar/shared";
@@ -76,7 +77,7 @@ function TvBody({ state }: { state: GameState }) {
     case "leaderboard":
       return <LeaderboardScreen state={state} />;
     case "finished":
-      return <Podium teams={state.teams} />;
+      return <Podium teams={state.teams} awards={state.awards ?? []} />;
     default:
       return null;
   }
@@ -456,13 +457,25 @@ function Confetti() {
   );
 }
 
-function Podium({ teams }: { teams: Team[] }) {
+function Podium({ teams, awards }: { teams: Team[]; awards: Award[] }) {
   const sorted = [...teams].sort((a, b) => b.score - a.score);
   const [first, second, third] = sorted;
   return (
     <div className="podium">
       <Confetti />
       <h2 className="podium-title">🏆 Résultats finaux 🏆</h2>
+      {awards.length > 0 && (
+        <div className="awards-row">
+          {awards.map((a) => (
+            <div key={a.id} className="award-card">
+              <span className="award-emoji">{a.emoji}</span>
+              <span className="award-title">{a.title}</span>
+              <span className="award-team">{a.teamName}</span>
+              <span className="award-detail">{a.detail}</span>
+            </div>
+          ))}
+        </div>
+      )}
       <div className="podium-stage">
         {second && <PodiumBlock team={second} place={2} />}
         {first && <PodiumBlock team={first} place={1} />}

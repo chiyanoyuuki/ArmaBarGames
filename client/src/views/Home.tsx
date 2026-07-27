@@ -62,6 +62,10 @@ export function Home() {
           </div>
         </div>
       </div>
+
+      <button className="home-stats-link" onClick={() => nav("/stats")}>
+        📊 Statistiques des soirées
+      </button>
     </div>
   );
 }

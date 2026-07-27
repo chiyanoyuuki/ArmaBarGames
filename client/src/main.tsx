@@ -5,6 +5,7 @@ import { Home } from "./views/Home";
 import { TvView } from "./views/TvView";
 import { PlayView } from "./views/PlayView";
 import { HostView } from "./views/HostView";
+import { StatsView } from "./views/StatsView";
 import "./styles.css";
 
 const router = createBrowserRouter([
@@ -12,6 +13,7 @@ const router = createBrowserRouter([
   { path: "/tv", element: <TvView /> },
   { path: "/play", element: <PlayView /> },
   { path: "/host", element: <HostView /> },
+  { path: "/stats", element: <StatsView /> },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(

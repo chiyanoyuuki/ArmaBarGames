@@ -10,6 +10,7 @@ import {
   type AckResult,
   type CreateRoomPayload,
   type CreateRoomAck,
+  type GameRecord,
   type GameState,
   type HostAdjustScorePayload,
   type HostAuthPayload,
@@ -28,6 +29,8 @@ import {
   type TeamVotePayload,
 } from "@armabar/shared";
 import { GameRoom } from "./game.js";
+import { themes, universes } from "./data.js";
+import { computeStats, loadGames, saveGame } from "./store.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PORT = Number(process.env.PORT) || 3001;
@@ -44,6 +47,9 @@ function makeBroadcaster(io: Server, code: string) {
     sfx(kind: SfxKind) {
       io.to(code).emit(S2C.Sfx, kind);
     },
+    archive(record: GameRecord) {
+      saveGame(record);
+    },
   };
 }
 
@@ -56,6 +62,22 @@ const io = new Server(httpServer, {
 });
 
 app.get("/healthz", (_req, res) => res.json({ ok: true, rooms: rooms.size }));
+
+// --- API archive / stats ---
+app.get("/api/stats", (_req, res) => {
+  res.json(computeStats(loadGames()));
+});
+app.get("/api/catalog", (_req, res) => {
+  res.json({ themes, universes });
+});
+app.get("/api/history", (_req, res) => {
+  // Parties les plus recentes en premier, sans le detail par question.
+  const games = loadGames()
+    .sort((a, b) => b.endedAt - a.endedAt)
+    .slice(0, 50)
+    .map(({ rounds, ...g }) => g);
+  res.json(games);
+});
 
 // Sert le build du client en production (single URL : TV + play + host).
 const clientDist = join(__dirname, "..", "..", "client", "dist");
