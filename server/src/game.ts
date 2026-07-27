@@ -66,6 +66,8 @@ export class GameRoom {
 
   private phase: GamePhase = "lobby";
   private paused = false;
+  private musicOn = false;
+  private musicVolume = 0.4;
   private teams = new Map<string, Team>();
   private themes: Theme[] = [];
   private votes = new Map<string, string[]>(); // teamId -> themeIds
@@ -122,6 +124,15 @@ export class GameRoom {
   /** Branche le canal de diffusion une fois le code de room connu. */
   attach(broadcaster: Broadcaster) {
     this.broadcaster = broadcaster;
+  }
+
+  /** Pilote la musique d'ambiance (jouee sur la TV). */
+  setMusic(patch: { on?: boolean; volume?: number }) {
+    if (typeof patch.on === "boolean") this.musicOn = patch.on;
+    if (typeof patch.volume === "number") {
+      this.musicVolume = Math.min(1, Math.max(0, patch.volume));
+    }
+    this.emit();
   }
 
   /** Reconfigure la partie (uniquement dans le salon, avant le lancement). */
@@ -908,6 +919,7 @@ export class GameRoom {
       reveal: this.phase === "reveal" ? this.reveal : undefined,
       standings: this.phase === "leaderboard" ? this.standings : undefined,
       awards: this.phase === "finished" ? this.awards : undefined,
+      music: { on: this.musicOn, volume: this.musicVolume },
     };
   }
 

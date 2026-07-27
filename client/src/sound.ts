@@ -69,3 +69,90 @@ export function unlockAudio() {
   const ac = audio();
   if (ac && ac.state === "suspended") ac.resume();
 }
+
+// --- Musique d'ambiance generative (aucun fichier a heberger) -------------
+
+let musicMaster: GainNode | null = null;
+let musicFilter: BiquadFilterNode | null = null;
+let musicTimer: ReturnType<typeof setInterval> | null = null;
+let musicVolume = 0.4;
+let chordIndex = 0;
+
+// Progression douce (La mineur -> Fa -> Do -> Sol), en frequences (Hz).
+const CHORDS: number[][] = [
+  [220.0, 261.63, 329.63], // Am
+  [174.61, 220.0, 261.63], // F
+  [261.63, 329.63, 392.0], // C
+  [196.0, 246.94, 293.66], // G
+];
+
+function musicTone(freq: number, startIn: number, dur: number, type: OscillatorType, peak: number) {
+  const ac = audio();
+  if (!ac || !musicMaster) return;
+  const t = ac.currentTime + startIn;
+  const osc = ac.createOscillator();
+  const g = ac.createGain();
+  osc.type = type;
+  osc.frequency.value = freq;
+  g.gain.setValueAtTime(0.0001, t);
+  g.gain.exponentialRampToValueAtTime(peak, t + dur * 0.3);
+  g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
+  osc.connect(g).connect(musicMaster);
+  osc.start(t);
+  osc.stop(t + dur + 0.05);
+}
+
+function musicTick() {
+  const chord = CHORDS[chordIndex % CHORDS.length];
+  chordIndex++;
+  // Nappe : accord tenu, doux.
+  for (const f of chord) musicTone(f, 0, 3.8, "sine", 0.5);
+  // Arpege leger reparti sur la mesure.
+  const arp = [...chord, chord[0] * 2];
+  arp.forEach((f, i) => musicTone(f, 0.2 + i * 0.7, 0.5, "triangle", 0.28));
+}
+
+export function startMusic() {
+  const ac = audio();
+  if (!ac || musicMaster) return;
+  musicMaster = ac.createGain();
+  musicMaster.gain.value = musicVolume * 0.12; // ambiance volontairement discrete
+  musicFilter = ac.createBiquadFilter();
+  musicFilter.type = "lowpass";
+  musicFilter.frequency.value = 1100;
+  musicMaster.connect(musicFilter).connect(ac.destination);
+  chordIndex = 0;
+  musicTick();
+  musicTimer = setInterval(musicTick, 4000);
+}
+
+export function stopMusic() {
+  if (musicTimer) {
+    clearInterval(musicTimer);
+    musicTimer = null;
+  }
+  const ac = audio();
+  if (musicMaster && ac) {
+    musicMaster.gain.setTargetAtTime(0.0001, ac.currentTime, 0.4);
+    const old = musicMaster;
+    const oldFilter = musicFilter;
+    setTimeout(() => {
+      old.disconnect();
+      oldFilter?.disconnect();
+    }, 1500);
+  }
+  musicMaster = null;
+  musicFilter = null;
+}
+
+export function setMusicVolume(v: number) {
+  musicVolume = Math.min(1, Math.max(0, v));
+  const ac = audio();
+  if (musicMaster && ac) {
+    musicMaster.gain.setTargetAtTime(musicVolume * 0.12, ac.currentTime, 0.2);
+  }
+}
+
+export function isMusicPlaying() {
+  return musicMaster !== null;
+}

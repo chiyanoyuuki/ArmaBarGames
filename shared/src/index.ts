@@ -414,6 +414,9 @@ export interface GameState {
   reveal?: RevealState;
   standings?: Standing[]; // present uniquement pendant la phase leaderboard
   awards?: Award[]; // present uniquement a la fin (trophees rigolos de la partie)
+
+  // Musique d'ambiance (jouee sur la TV, pilotee par l'animateur)
+  music: { on: boolean; volume: number };
 }
 
 // --- Archive & statistiques ----------------------------------------------
@@ -505,6 +508,7 @@ export const C2S = {
   TeamBuzz: "team:buzz", // buzzer
 
   HostConfigure: "host:configure",
+  HostMusic: "host:music", // pilote la musique d'ambiance de la TV
   HostBuzzVerdict: "host:buzzVerdict", // valide l'equipe qui buzze
   HostGradeAnswer: "host:gradeAnswer", // force oui/non sur une reponse ecrite
   HostStartVoting: "host:startVoting",
@@ -536,6 +540,11 @@ export interface CreateRoomPayload {
 
 export interface HostConfigurePayload extends HostAuthPayload {
   config: Partial<GameConfig>;
+}
+
+export interface HostMusicPayload extends HostAuthPayload {
+  on?: boolean;
+  volume?: number;
 }
 export interface CreateRoomAck {
   roomCode: string;

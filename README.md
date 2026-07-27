@@ -12,7 +12,8 @@ sien. Premier jeu : un **quiz** temps réel.
   répond aux questions (points selon la **vitesse** de réponse).
 - 🎛️ **Animateur** (`/host`) — ton téléphone : créer la partie, ajouter/gérer
   les équipes, lancer le vote, lancer la partie, mettre en pause, corriger les
-  scores.
+  scores. Une **barre musique toujours visible** pilote à distance la musique
+  d'ambiance (générative, jouée sur la TV) : marche/arrêt et volume.
 
 Le déroulé d'une partie : **Salon** → **Vote des thèmes** (gros thèmes) →
 **Vote des univers** (optionnel, 2ᵉ temps : les univers précis dans les

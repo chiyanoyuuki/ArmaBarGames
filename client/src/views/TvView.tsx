@@ -10,7 +10,7 @@ import {
 } from "@armabar/shared";
 import { emitAck } from "../socket";
 import { useCountdown, useGameState, useSfx } from "../hooks";
-import { unlockAudio } from "../sound";
+import { unlockAudio, startMusic, stopMusic, setMusicVolume } from "../sound";
 
 export function TvView() {
   const [params] = useSearchParams();
@@ -19,6 +19,22 @@ export function TvView() {
   const [joinError, setJoinError] = useState<string | null>(null);
   const [audioOn, setAudioOn] = useState(false);
   useSfx(audioOn);
+
+  // Musique d'ambiance : pilotee a distance par l'animateur (state.music).
+  const musicOn = !!state?.music?.on;
+  const musicVolume = state?.music?.volume ?? 0.4;
+  useEffect(() => {
+    if (audioOn && musicOn) {
+      startMusic();
+      setMusicVolume(musicVolume);
+    } else {
+      stopMusic();
+    }
+    return () => stopMusic();
+  }, [audioOn, musicOn]);
+  useEffect(() => {
+    if (audioOn && musicOn) setMusicVolume(musicVolume);
+  }, [musicVolume, audioOn, musicOn]);
 
   useEffect(() => {
     if (!room) return;

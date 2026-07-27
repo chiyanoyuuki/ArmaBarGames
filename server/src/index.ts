@@ -17,6 +17,7 @@ import {
   type HostBuzzVerdictPayload,
   type HostConfigurePayload,
   type HostGradeAnswerPayload,
+  type HostMusicPayload,
   type HostRemoveTeamPayload,
   type HostRenameTeamPayload,
   type HostStartGamePayload,
@@ -193,6 +194,9 @@ io.on("connection", (socket: Socket) => {
   // --- Actions host ---
   socket.on(C2S.HostConfigure, (payload: HostConfigurePayload) => {
     requireHost(payload)?.configure(payload.config);
+  });
+  socket.on(C2S.HostMusic, (payload: HostMusicPayload) => {
+    requireHost(payload)?.setMusic({ on: payload.on, volume: payload.volume });
   });
   socket.on(C2S.HostStartVoting, (payload: HostAuthPayload) => {
     requireHost(payload)?.startVoting();

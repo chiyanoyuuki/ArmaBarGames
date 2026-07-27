@@ -243,11 +243,39 @@ function HostConsole({
             </div>
           ))}
       </div>
+
+      <MusicBar state={state} send={send} />
     </div>
   );
 }
 
 type SendFn = (event: string, extra?: Record<string, unknown>) => void;
+
+function MusicBar({ state, send }: { state: GameState; send: SendFn }) {
+  const on = state.music.on;
+  return (
+    <div className="music-bar">
+      <button
+        className={`music-toggle ${on ? "on" : ""}`}
+        onClick={() => send(C2S.HostMusic, { on: !on })}
+        title="Musique d'ambiance (TV)"
+      >
+        {on ? "🎵" : "🔇"}
+      </button>
+      <input
+        className="music-volume"
+        type="range"
+        min={0}
+        max={1}
+        step={0.05}
+        value={state.music.volume}
+        disabled={!on}
+        onChange={(e) => send(C2S.HostMusic, { volume: Number(e.target.value) })}
+      />
+      <span className="music-label">{on ? `${Math.round(state.music.volume * 100)}%` : "Musique coupée"}</span>
+    </div>
+  );
+}
 
 function ConfigPanel({ state, send }: { state: GameState; send: SendFn }) {
   const cfg = state.config;
