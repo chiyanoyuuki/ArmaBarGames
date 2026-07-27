@@ -168,9 +168,10 @@ function Lobby({ state }: { state: GameState }) {
         <h3>{state.teams.length} équipe{state.teams.length > 1 ? "s" : ""}</h3>
         <div className="team-grid">
           {state.teams.map((t) => (
-            <div key={t.id} className={`team-badge ${t.connected ? "" : "off"}`}>
+            <div key={t.id} className={`team-badge ${t.connected ? "" : "off"} ${t.returning ? "returning" : ""}`}>
               <span className="team-badge-avatar">{t.avatar}</span>
               <span>{t.name}</span>
+              {t.returning && <span className="habitue" title="Habitué">⭐</span>}
             </div>
           ))}
           {state.teams.length === 0 && (

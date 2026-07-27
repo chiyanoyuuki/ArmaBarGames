@@ -118,7 +118,12 @@ répartition par type, classement des habitués et historique des parties. À
 la fin de chaque partie, la TV affiche aussi des **trophées** (⚡ L'Éclair,
 🔔 Roi du buzzer, 🔥 Série record, 🧠 Le Cerveau).
 
-- API : `GET /api/stats`, `GET /api/history`, `GET /api/catalog`.
+- **Équipes récurrentes** : une équipe qui revient (même nom) est reconnue —
+  badge ⭐ « habitué » sur la TV, accueil « Bon retour » avec son palmarès sur
+  le téléphone, et fiche cliquable (parties, victoires, record, historique)
+  depuis la page /stats.
+- API : `GET /api/stats`, `GET /api/history`, `GET /api/catalog`,
+  `GET /api/team?name=`.
 - Stockage **durable** (`server/src/store.ts`) avec deux backends choisis
   automatiquement :
   - **fichier JSON** par défaut (`data/archive/history.json`, 100 % JS,

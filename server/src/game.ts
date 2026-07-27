@@ -156,6 +156,7 @@ export class GameRoom {
     teamId?: string;
     name: string;
     avatar?: string;
+    returning?: boolean;
   }): Team {
     if (input.teamId && this.teams.has(input.teamId)) {
       const team = this.teams.get(input.teamId)!;
@@ -174,6 +175,7 @@ export class GameRoom {
       streak: 0,
       connected: true,
       avatar,
+      returning: input.returning,
     };
     this.teams.set(id, team);
     this.playSfx("join");

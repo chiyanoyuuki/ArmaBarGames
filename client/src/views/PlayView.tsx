@@ -5,6 +5,7 @@ import {
   TEAM_AVATARS,
   type GameState,
   type TeamJoinAck,
+  type TeamProfile,
 } from "@armabar/shared";
 import { emitAck, socket } from "../socket";
 import { useGameState } from "../hooks";
@@ -20,6 +21,14 @@ export function PlayView() {
   const state = useGameState();
   const [teamId, setTeamId] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [profile, setProfile] = useState<TeamProfile | null>(null);
+
+  const fetchProfile = (name: string) => {
+    fetch(`/api/team?name=${encodeURIComponent(name)}`)
+      .then((r) => r.json())
+      .then((p) => setProfile(p))
+      .catch(() => {});
+  };
 
   // Reconnexion automatique si on a deja rejoint cette room.
   useEffect(() => {
@@ -33,7 +42,10 @@ export function PlayView() {
         teamName: name,
         teamId: savedId,
       }).then((res) => {
-        if (res.ok && res.data) setTeamId(res.data.teamId);
+        if (res.ok && res.data) {
+          setTeamId(res.data.teamId);
+          fetchProfile(name);
+        }
       });
     doJoin();
     socket.on("connect", doJoin);
@@ -52,6 +64,7 @@ export function PlayView() {
     if (res.ok && res.data) {
       setTeamId(res.data.teamId);
       localStorage.setItem(storageKey(room), JSON.stringify({ teamId: res.data.teamId, name }));
+      fetchProfile(name);
     } else {
       setError(res.error ?? "Impossible de rejoindre");
     }
@@ -73,7 +86,7 @@ export function PlayView() {
     return <div className="screen play center"><p>Connexion…</p></div>;
   }
 
-  return <PlayBody state={state} teamId={teamId} room={room} />;
+  return <PlayBody state={state} teamId={teamId} room={room} profile={profile} />;
 }
 
 function JoinForm({
@@ -127,10 +140,12 @@ function PlayBody({
   state,
   teamId,
   room,
+  profile,
 }: {
   state: GameState;
   teamId: string;
   room: string;
+  profile: TeamProfile | null;
 }) {
   const me = state.teams.find((t) => t.id === teamId);
   const rank =
@@ -147,8 +162,28 @@ function PlayBody({
 
       {state.phase === "lobby" && (
         <div className="center grow">
-          <p className="big-emoji">🍻</p>
-          <p>Tu es dans la partie ! En attente du lancement…</p>
+          {profile && profile.games > 0 ? (
+            <div className="welcome-back">
+              <p className="big-emoji">⭐</p>
+              <h2>Bon retour !</h2>
+              <p className="muted">Ravis de vous revoir, {me?.name}.</p>
+              <div className="wb-stats">
+                <div><b>{profile.games}</b><span>parties</span></div>
+                <div><b>{profile.wins}</b><span>victoires</span></div>
+                <div><b>{profile.bestScore}</b><span>record</span></div>
+              </div>
+              {profile.recent[0] && (
+                <p className="muted">
+                  Dernière fois : {profile.recent[0].rank}ᵉ sur {profile.recent[0].teamsCount}
+                </p>
+              )}
+            </div>
+          ) : (
+            <>
+              <p className="big-emoji">🍻</p>
+              <p>Tu es dans la partie ! En attente du lancement…</p>
+            </>
+          )}
         </div>
       )}
 

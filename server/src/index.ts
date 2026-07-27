@@ -30,7 +30,7 @@ import {
 } from "@armabar/shared";
 import { GameRoom } from "./game.js";
 import { themes, universes } from "./data.js";
-import { computeStats, loadGames, saveGame } from "./store.js";
+import { computeStats, knownTeamNames, loadGames, saveGame, teamProfile } from "./store.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PORT = Number(process.env.PORT) || 3001;
@@ -69,6 +69,10 @@ app.get("/api/stats", (_req, res) => {
 });
 app.get("/api/catalog", (_req, res) => {
   res.json({ themes, universes });
+});
+app.get("/api/team", (req, res) => {
+  const name = String(req.query.name ?? "");
+  res.json(teamProfile(name));
 });
 app.get("/api/history", (_req, res) => {
   // Parties les plus recentes en premier, sans le detail par question.
@@ -146,6 +150,7 @@ io.on("connection", (socket: Socket) => {
       teamId: payload.teamId,
       name: payload.teamName,
       avatar: payload.avatar,
+      returning: knownTeamNames().has(payload.teamName.trim().toLowerCase()),
     });
     socket.join(room.code);
     socket.data.role = "play";

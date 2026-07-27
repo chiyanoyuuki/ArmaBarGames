@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import type { GlobalStats, GameRecord, Theme, Universe } from "@armabar/shared";
+import type { GlobalStats, GameRecord, TeamProfile, Theme, Universe } from "@armabar/shared";
 
 type HistoryGame = Omit<GameRecord, "rounds">;
 type Catalog = { themes: Theme[]; universes: Universe[] };
@@ -18,6 +18,14 @@ export function StatsView() {
   const [history, setHistory] = useState<HistoryGame[] | null>(null);
   const [catalog, setCatalog] = useState<Catalog | null>(null);
   const [error, setError] = useState(false);
+  const [team, setTeam] = useState<TeamProfile | null>(null);
+
+  const openTeam = (name: string) => {
+    fetch(`/api/team?name=${encodeURIComponent(name)}`)
+      .then((r) => r.json())
+      .then((p) => p && setTeam(p))
+      .catch(() => {});
+  };
 
   useEffect(() => {
     Promise.all([
@@ -73,6 +81,33 @@ export function StatsView() {
         <h1 className="stats-title">📊 Statistiques des soirées</h1>
         <Link className="btn small" to="/">Accueil</Link>
       </div>
+
+      {team && (
+        <div className="team-modal" onClick={() => setTeam(null)}>
+          <div className="team-card" onClick={(e) => e.stopPropagation()}>
+            <button className="team-close" onClick={() => setTeam(null)}>✕</button>
+            <h2>⭐ {team.name}</h2>
+            <div className="wb-stats">
+              <div><b>{team.games}</b><span>parties</span></div>
+              <div><b>{team.wins}</b><span>victoires</span></div>
+              <div><b>{team.bestScore}</b><span>record</span></div>
+              <div><b>{team.buzzerWins}</b><span>buzz</span></div>
+            </div>
+            <h3 className="stats-h2">Dernières parties</h3>
+            <div className="history-list">
+              {team.recent.map((r, i) => (
+                <div key={i} className="history-row">
+                  <span className="history-date">
+                    {new Date(r.endedAt).toLocaleDateString("fr-FR")}
+                  </span>
+                  <span className="history-winner">{r.rank}ᵉ / {r.teamsCount}</span>
+                  <span className="history-meta">{r.score} pts</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
 
       <div className="stat-tiles">
         <StatTile n={stats.games} label="soirées" />
@@ -138,9 +173,9 @@ export function StatsView() {
             </thead>
             <tbody>
               {stats.topTeams.map((t, i) => (
-                <tr key={t.name + i}>
+                <tr key={t.name + i} className="clickable" onClick={() => openTeam(t.name)}>
                   <td>{i + 1}</td>
-                  <td>{t.name}</td>
+                  <td>{t.name} ›</td>
                   <td>{t.games}</td>
                   <td>{t.wins}</td>
                   <td>{t.totalScore}</td>

@@ -9,7 +9,7 @@ import { createRequire } from "node:module";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
-import type { GameRecord, GlobalStats } from "@armabar/shared";
+import type { GameRecord, GlobalStats, TeamProfile } from "@armabar/shared";
 
 const require = createRequire(import.meta.url);
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -162,6 +162,51 @@ export function loadGames(): GameRecord[] {
 // --- Statistiques agregees (identique quel que soit le backend) -----------
 
 const norm = (s: string) => s.trim().toLowerCase();
+
+/** Ensemble des noms d'equipes (normalises) ayant deja joue. */
+export function knownTeamNames(): Set<string> {
+  const set = new Set<string>();
+  for (const g of loadGames()) for (const t of g.teams) set.add(norm(t.name));
+  return set;
+}
+
+/** Fiche agregee d'une equipe recurrente (null si inconnue). */
+export function teamProfile(name: string): TeamProfile | null {
+  const key = norm(name);
+  const games = loadGames().filter((g) => g.teams.some((t) => norm(t.name) === key));
+  if (games.length === 0) return null;
+
+  const profile: TeamProfile = {
+    name,
+    games: 0,
+    wins: 0,
+    bestScore: 0,
+    totalCorrect: 0,
+    buzzerWins: 0,
+    lastPlayed: null,
+    recent: [],
+  };
+
+  const sorted = [...games].sort((a, b) => b.endedAt - a.endedAt);
+  for (const g of sorted) {
+    const t = g.teams.find((x) => norm(x.name) === key)!;
+    profile.games += 1;
+    if (t.finalRank === 1) profile.wins += 1;
+    profile.bestScore = Math.max(profile.bestScore, t.finalScore);
+    profile.totalCorrect += t.correct;
+    profile.buzzerWins += t.buzzerWins;
+    if (profile.lastPlayed === null) profile.lastPlayed = g.endedAt;
+    if (profile.recent.length < 10) {
+      profile.recent.push({
+        endedAt: g.endedAt,
+        rank: t.finalRank,
+        score: t.finalScore,
+        teamsCount: g.teams.length,
+      });
+    }
+  }
+  return profile;
+}
 
 export function computeStats(games: GameRecord[]): GlobalStats {
   const stats: GlobalStats = {

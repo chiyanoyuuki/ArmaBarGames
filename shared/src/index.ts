@@ -293,6 +293,20 @@ export interface Team {
   connected: boolean;
   /** Emoji/avatar simple choisi par l'equipe. */
   avatar: string;
+  /** true si ce nom d'equipe a deja joue lors d'une soiree archivee. */
+  returning?: boolean;
+}
+
+/** Fiche d'une equipe recurrente, agregee sur toutes ses soirees archivees. */
+export interface TeamProfile {
+  name: string;
+  games: number;
+  wins: number;
+  bestScore: number;
+  totalCorrect: number;
+  buzzerWins: number;
+  lastPlayed: number | null;
+  recent: { endedAt: number; rank: number; score: number; teamsCount: number }[];
 }
 
 /** Une manche = un univers joue d'affilee ; annoncee sur la TV. */

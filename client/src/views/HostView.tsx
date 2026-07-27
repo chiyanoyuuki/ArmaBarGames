@@ -218,7 +218,7 @@ function HostConsole({
           .map((t) => (
             <div key={t.id} className={`host-team-row ${t.connected ? "" : "off"}`}>
               <span className="host-team-avatar">{t.avatar}</span>
-              <span className="host-team-name">{t.name}</span>
+              <span className="host-team-name">{t.name}{t.returning ? " ⭐" : ""}</span>
               <span className="host-team-score">{t.score}</span>
               <div className="host-team-actions">
                 <button onClick={() => send(C2S.HostAdjustScore, { teamId: t.id, delta: -50 })}>−</button>
