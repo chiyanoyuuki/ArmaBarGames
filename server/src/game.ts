@@ -36,6 +36,7 @@ import {
   universeById,
   universesForThemes,
 } from "./data.js";
+import { listMusic } from "./music.js";
 
 export interface Broadcaster {
   emitState(state: GameState): void;
@@ -68,6 +69,7 @@ export class GameRoom {
   private paused = false;
   private musicOn = false;
   private musicVolume = 0.4;
+  private musicIndex = 0; // piste courante dans la playlist (fichiers deposes)
   private teams = new Map<string, Team>();
   private themes: Theme[] = [];
   private votes = new Map<string, string[]>(); // teamId -> themeIds
@@ -126,12 +128,33 @@ export class GameRoom {
     this.broadcaster = broadcaster;
   }
 
+  /** Piste courante de la playlist (undefined -> repli generatif sur la TV). */
+  private currentTrack(): string | undefined {
+    const list = listMusic();
+    if (list.length === 0) return undefined;
+    const idx = ((this.musicIndex % list.length) + list.length) % list.length;
+    return list[idx].file;
+  }
+
   /** Pilote la musique d'ambiance (jouee sur la TV). */
-  setMusic(patch: { on?: boolean; volume?: number }) {
+  setMusic(patch: { on?: boolean; volume?: number; next?: boolean; track?: string }) {
     if (typeof patch.on === "boolean") this.musicOn = patch.on;
     if (typeof patch.volume === "number") {
       this.musicVolume = Math.min(1, Math.max(0, patch.volume));
     }
+    if (typeof patch.track === "string") {
+      const list = listMusic();
+      const i = list.findIndex((m) => m.file === patch.track);
+      if (i >= 0) this.musicIndex = i;
+    }
+    if (patch.next) this.musicIndex += 1;
+    this.emit();
+  }
+
+  /** La TV signale la fin d'un morceau : on passe au suivant. */
+  advanceTrack() {
+    const list = listMusic();
+    if (list.length > 0) this.musicIndex += 1;
     this.emit();
   }
 
@@ -919,7 +942,7 @@ export class GameRoom {
       reveal: this.phase === "reveal" ? this.reveal : undefined,
       standings: this.phase === "leaderboard" ? this.standings : undefined,
       awards: this.phase === "finished" ? this.awards : undefined,
-      music: { on: this.musicOn, volume: this.musicVolume },
+      music: { on: this.musicOn, volume: this.musicVolume, track: this.currentTrack() },
     };
   }
 

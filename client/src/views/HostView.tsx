@@ -253,6 +253,28 @@ type SendFn = (event: string, extra?: Record<string, unknown>) => void;
 
 function MusicBar({ state, send }: { state: GameState; send: SendFn }) {
   const on = state.music.on;
+  const track = state.music.track;
+  const [tracks, setTracks] = useState<{ file: string; title: string }[]>([]);
+  const [pickerOpen, setPickerOpen] = useState(false);
+
+  const refresh = () => {
+    fetch("/api/music")
+      .then((r) => r.json())
+      .then((list) => setTracks(Array.isArray(list) ? list : []))
+      .catch(() => setTracks([]));
+  };
+  useEffect(refresh, []);
+
+  const current = tracks.find((t) => t.file === track);
+  const hasFiles = tracks.length > 0;
+  const label = !on
+    ? "Musique coupée"
+    : current
+      ? current.title
+      : hasFiles
+        ? "…"
+        : "Nappe d'ambiance";
+
   return (
     <div className="music-bar">
       <button
@@ -261,6 +283,25 @@ function MusicBar({ state, send }: { state: GameState; send: SendFn }) {
         title="Musique d'ambiance (TV)"
       >
         {on ? "🎵" : "🔇"}
+      </button>
+      <button
+        className="music-next"
+        onClick={() => send(C2S.HostMusic, { next: true })}
+        disabled={!on || !hasFiles}
+        title="Morceau suivant"
+      >
+        ⏭
+      </button>
+      <button
+        className={`music-pick ${pickerOpen ? "open" : ""}`}
+        onClick={() => {
+          if (!pickerOpen) refresh();
+          setPickerOpen((v) => !v);
+        }}
+        title="Choisir un morceau"
+      >
+        <span className="music-label">{label}</span>
+        <span className="music-caret">▾</span>
       </button>
       <input
         className="music-volume"
@@ -272,7 +313,39 @@ function MusicBar({ state, send }: { state: GameState; send: SendFn }) {
         disabled={!on}
         onChange={(e) => send(C2S.HostMusic, { volume: Number(e.target.value) })}
       />
-      <span className="music-label">{on ? `${Math.round(state.music.volume * 100)}%` : "Musique coupée"}</span>
+      <span className="music-pct">{on ? `${Math.round(state.music.volume * 100)}%` : "🔇"}</span>
+
+      {pickerOpen && (
+        <div className="music-picker">
+          <div className="music-picker-head">
+            <span>Playlist ({tracks.length})</span>
+            <button className="music-picker-refresh" onClick={refresh} title="Rafraîchir">
+              ↻
+            </button>
+          </div>
+          {tracks.length === 0 ? (
+            <p className="music-picker-empty">
+              Dépose des .mp3 dans <code>data/music/</code>
+            </p>
+          ) : (
+            <ul className="music-picker-list">
+              {tracks.map((t) => (
+                <li
+                  key={t.file}
+                  className={t.file === track ? "active" : ""}
+                  onClick={() => {
+                    send(C2S.HostMusic, { track: t.file, on: true });
+                    setPickerOpen(false);
+                  }}
+                >
+                  {t.file === track ? "▶ " : ""}
+                  {t.title}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      )}
     </div>
   );
 }

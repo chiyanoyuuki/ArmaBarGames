@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import QRCode from "qrcode";
 import {
@@ -8,7 +8,7 @@ import {
   type GameState,
   type Team,
 } from "@armabar/shared";
-import { emitAck } from "../socket";
+import { emitAck, socket } from "../socket";
 import { useCountdown, useGameState, useSfx } from "../hooks";
 import { unlockAudio, startMusic, stopMusic, setMusicVolume } from "../sound";
 
@@ -21,20 +21,60 @@ export function TvView() {
   useSfx(audioOn);
 
   // Musique d'ambiance : pilotee a distance par l'animateur (state.music).
+  // Si des .mp3 sont deposes dans data/music/, la TV joue la playlist ; sinon
+  // elle se rabat sur une nappe generative (aucun fichier requis).
   const musicOn = !!state?.music?.on;
   const musicVolume = state?.music?.volume ?? 0.4;
+  const musicTrack = state?.music?.track;
+  const audioEl = useRef<HTMLAudioElement | null>(null);
+  if (!audioEl.current && typeof Audio !== "undefined") {
+    audioEl.current = new Audio();
+    audioEl.current.preload = "auto";
+  }
+
+  // Fin d'un morceau -> on demande la piste suivante au serveur.
   useEffect(() => {
-    if (audioOn && musicOn) {
+    const el = audioEl.current;
+    if (!el) return;
+    const onEnded = () => socket.emit(C2S.TvTrackEnded, {});
+    el.addEventListener("ended", onEnded);
+    return () => el.removeEventListener("ended", onEnded);
+  }, []);
+
+  useEffect(() => {
+    const el = audioEl.current;
+    const playFile = audioOn && musicOn && !!musicTrack;
+    const playSynth = audioOn && musicOn && !musicTrack;
+
+    if (playFile && el) {
+      stopMusic(); // coupe la nappe generative
+      const src = `/music/${encodeURIComponent(musicTrack!)}`;
+      if (!el.src.endsWith(encodeURIComponent(musicTrack!))) {
+        el.src = src;
+      }
+      el.volume = musicVolume;
+      el.play().catch(() => {});
+    } else if (el) {
+      el.pause();
+    }
+
+    if (playSynth) {
       startMusic();
       setMusicVolume(musicVolume);
     } else {
       stopMusic();
     }
-    return () => stopMusic();
-  }, [audioOn, musicOn]);
+    return () => {
+      stopMusic();
+      audioEl.current?.pause();
+    };
+  }, [audioOn, musicOn, musicTrack]);
+
+  // Volume en direct (fichier + nappe generative).
   useEffect(() => {
-    if (audioOn && musicOn) setMusicVolume(musicVolume);
-  }, [musicVolume, audioOn, musicOn]);
+    if (audioEl.current) audioEl.current.volume = musicVolume;
+    if (audioOn && musicOn && !musicTrack) setMusicVolume(musicVolume);
+  }, [musicVolume, audioOn, musicOn, musicTrack]);
 
   useEffect(() => {
     if (!room) return;

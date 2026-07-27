@@ -9,3 +9,7 @@ client/dist/
 coverage/
 patches/
 data/archive/
+# Morceaux d'ambiance deposes par l'animateur (garde le dossier, ignore l'audio)
+data/music/*
+!data/music/.gitkeep
+!data/music/README.md

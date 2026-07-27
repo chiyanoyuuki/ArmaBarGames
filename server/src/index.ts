@@ -31,6 +31,7 @@ import {
 } from "@armabar/shared";
 import { GameRoom } from "./game.js";
 import { themes, universes } from "./data.js";
+import { MUSIC_DIR, listMusic } from "./music.js";
 import { computeStats, knownTeamNames, loadGames, saveGame, teamProfile } from "./store.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -83,6 +84,12 @@ app.get("/api/history", (_req, res) => {
     .map(({ rounds, ...g }) => g);
   res.json(games);
 });
+// Playlist d'ambiance : liste des morceaux deposes dans data/music/.
+app.get("/api/music", (_req, res) => {
+  res.json(listMusic());
+});
+// Sert les fichiers audio deposes par l'animateur (joues sur la TV).
+app.use("/music", express.static(MUSIC_DIR));
 
 // Sert le build du client en production (single URL : TV + play + host).
 const clientDist = join(__dirname, "..", "..", "client", "dist");
@@ -196,7 +203,16 @@ io.on("connection", (socket: Socket) => {
     requireHost(payload)?.configure(payload.config);
   });
   socket.on(C2S.HostMusic, (payload: HostMusicPayload) => {
-    requireHost(payload)?.setMusic({ on: payload.on, volume: payload.volume });
+    requireHost(payload)?.setMusic({
+      on: payload.on,
+      volume: payload.volume,
+      next: payload.next,
+      track: payload.track,
+    });
+  });
+  socket.on(C2S.TvTrackEnded, () => {
+    const room = rooms.get(socket.data.roomCode);
+    if (room && socket.data.role === "tv") room.advanceTrack();
   });
   socket.on(C2S.HostStartVoting, (payload: HostAuthPayload) => {
     requireHost(payload)?.startVoting();

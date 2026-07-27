@@ -415,8 +415,9 @@ export interface GameState {
   standings?: Standing[]; // present uniquement pendant la phase leaderboard
   awards?: Award[]; // present uniquement a la fin (trophees rigolos de la partie)
 
-  // Musique d'ambiance (jouee sur la TV, pilotee par l'animateur)
-  music: { on: boolean; volume: number };
+  // Musique d'ambiance (jouee sur la TV, pilotee par l'animateur).
+  // track = fichier a jouer (playlist) ; absent -> musique generative.
+  music: { on: boolean; volume: number; track?: string };
 }
 
 // --- Archive & statistiques ----------------------------------------------
@@ -506,6 +507,7 @@ export const C2S = {
   TeamAnswer: "team:answer", // qcm
   TeamSubmit: "team:submit", // open / estimation / ordre
   TeamBuzz: "team:buzz", // buzzer
+  TvTrackEnded: "tv:trackEnded", // la TV signale la fin d'un morceau
 
   HostConfigure: "host:configure",
   HostMusic: "host:music", // pilote la musique d'ambiance de la TV
@@ -545,6 +547,8 @@ export interface HostConfigurePayload extends HostAuthPayload {
 export interface HostMusicPayload extends HostAuthPayload {
   on?: boolean;
   volume?: number;
+  next?: boolean; // passer au morceau suivant
+  track?: string; // choisir un morceau precis
 }
 export interface CreateRoomAck {
   roomCode: string;

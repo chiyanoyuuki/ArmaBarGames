@@ -1641,15 +1641,126 @@ button.home-card {
   flex: 1;
   accent-color: var(--accent);
   height: 28px;
+  min-width: 60px;
 }
 .music-volume:disabled {
   opacity: 0.4;
 }
+.music-next {
+  font-size: 1.1rem;
+  width: 40px;
+  height: 48px;
+  border: none;
+  border-radius: 12px;
+  background: var(--card);
+  color: var(--text);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.music-next:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+.music-pick {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  flex: 1 1 120px;
+  height: 48px;
+  padding: 0 10px;
+  border: none;
+  border-radius: 12px;
+  background: var(--card);
+  color: var(--text);
+  cursor: pointer;
+}
+.music-pick.open {
+  outline: 2px solid var(--accent);
+}
 .music-label {
+  color: var(--text);
+  font-size: 0.82rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1;
+  text-align: left;
+}
+.music-caret {
+  color: var(--muted);
+  flex-shrink: 0;
+}
+.music-pct {
   color: var(--muted);
   font-size: 0.8rem;
-  min-width: 82px;
+  min-width: 40px;
   text-align: right;
+  flex-shrink: 0;
+}
+.music-picker {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 12px;
+  right: 12px;
+  max-height: 45vh;
+  overflow-y: auto;
+  background: var(--card2);
+  border-radius: 14px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.55);
+  padding: 8px;
+}
+.music-picker-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 8px 8px;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+.music-picker-refresh {
+  border: none;
+  background: var(--card);
+  color: var(--text);
+  border-radius: 8px;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+}
+.music-picker-empty {
+  color: var(--muted);
+  font-size: 0.82rem;
+  padding: 8px;
+  text-align: center;
+}
+.music-picker-empty code {
+  background: var(--card);
+  padding: 1px 5px;
+  border-radius: 5px;
+}
+.music-picker-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.music-picker-list li {
+  padding: 10px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.music-picker-list li:hover {
+  background: var(--card);
+}
+.music-picker-list li.active {
+  background: linear-gradient(135deg, var(--accent2), var(--accent));
+  color: #fff;
 }
 
 /* --- Responsive TV -> petit écran ------------------------------------- */

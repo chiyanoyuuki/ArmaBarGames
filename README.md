@@ -13,7 +13,18 @@ sien. Premier jeu : un **quiz** temps réel.
 - 🎛️ **Animateur** (`/host`) — ton téléphone : créer la partie, ajouter/gérer
   les équipes, lancer le vote, lancer la partie, mettre en pause, corriger les
   scores. Une **barre musique toujours visible** pilote à distance la musique
-  d'ambiance (générative, jouée sur la TV) : marche/arrêt et volume.
+  d'ambiance jouée sur la TV : marche/arrêt, **morceau suivant**, sélection du
+  morceau et volume.
+
+## Musique d'ambiance
+
+Dépose tes morceaux (ceux que tu crées par IA, par exemple) dans
+`data/music/` — ils apparaissent automatiquement dans la playlist pilotable
+depuis le téléphone, **sans redémarrage** (formats : `.mp3`, `.ogg`, `.m4a`,
+`.wav`, `.aac`, `.flac`). La TV enchaîne les morceaux en boucle ; en fin de
+piste, la suivante démarre toute seule. **Sans aucun fichier**, la TV se
+rabat sur une **nappe générative** synthétisée (aucun asset requis). Chemin
+configurable via `ARMABAR_MUSIC`. Détails : `data/music/README.md`.
 
 Le déroulé d'une partie : **Salon** → **Vote des thèmes** (gros thèmes) →
 **Vote des univers** (optionnel, 2ᵉ temps : les univers précis dans les
