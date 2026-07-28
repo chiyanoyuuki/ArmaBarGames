@@ -1,0 +1,1154 @@
+{
+  "universeId": "dragon-ball",
+  "questions": [
+    {
+      "id": "db-f1",
+      "difficulty": "facile",
+      "text": "Comment s'appelle le héros principal de la série, un Saiyan élevé sur Terre ?",
+      "options": [
+        { "id": "a", "label": "Son Goku" },
+        { "id": "b", "label": "Vegeta" },
+        { "id": "c", "label": "Piccolo" },
+        { "id": "d", "label": "Krillin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-f2",
+      "difficulty": "facile",
+      "type": "estimation",
+      "text": "Combien de boules de cristal faut-il rassembler pour invoquer le dragon ?",
+      "answerValue": 7,
+      "unit": "boules",
+      "funFact": "Une fois le vœu exaucé, elles se dispersent et redeviennent de pierre."
+    },
+    {
+      "id": "db-f3",
+      "difficulty": "facile",
+      "text": "Comment s'appelle le dragon qui exauce les vœux une fois les boules réunies sur Terre ?",
+      "options": [
+        { "id": "a", "label": "Shenron" },
+        { "id": "b", "label": "Porunga" },
+        { "id": "c", "label": "Piccolo" },
+        { "id": "d", "label": "Beerus" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-f4",
+      "difficulty": "facile",
+      "text": "Quel est le nom du fils aîné de Son Goku ?",
+      "options": [
+        { "id": "a", "label": "Son Gohan" },
+        { "id": "b", "label": "Son Goten" },
+        { "id": "c", "label": "Trunks" },
+        { "id": "d", "label": "Vegeta" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-f5",
+      "difficulty": "facile",
+      "text": "Quelle transformation aux cheveux dorés Goku atteint-il pour la première fois face à Freezer ?",
+      "options": [
+        { "id": "a", "label": "Super Saiyan" },
+        { "id": "b", "label": "Kaioken" },
+        { "id": "c", "label": "Oozaru" },
+        { "id": "d", "label": "Genkidama" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-f6",
+      "difficulty": "facile",
+      "text": "Comment s'appelle le prince des Saiyans, grand rival de Goku ?",
+      "options": [
+        { "id": "a", "label": "Vegeta" },
+        { "id": "b", "label": "Piccolo" },
+        { "id": "c", "label": "Krillin" },
+        { "id": "d", "label": "Yamcha" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-f7",
+      "difficulty": "facile",
+      "text": "De quelle couleur deviennent les cheveux d'un Super Saiyan ?",
+      "options": [
+        { "id": "a", "label": "Blonds" },
+        { "id": "b", "label": "Rouges" },
+        { "id": "c", "label": "Bleus" },
+        { "id": "d", "label": "Verts" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-f8",
+      "difficulty": "facile",
+      "text": "Quel vieux maître ermite des arts martiaux entraîne Goku et Krillin au début ?",
+      "options": [
+        { "id": "a", "label": "Tortue Géniale" },
+        { "id": "b", "label": "Maître Karin" },
+        { "id": "c", "label": "Roi Kaio" },
+        { "id": "d", "label": "Piccolo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-f9",
+      "difficulty": "facile",
+      "text": "Comment s'appelle l'attaque signature de Goku, une vague d'énergie lancée des deux mains ?",
+      "options": [
+        { "id": "a", "label": "Le Kaméhaméha" },
+        { "id": "b", "label": "Le Kienzan" },
+        { "id": "c", "label": "Le Makankosappo" },
+        { "id": "d", "label": "Le Genkidama" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-f10",
+      "difficulty": "facile",
+      "text": "Quel petit compagnon chauve est le meilleur ami humain de Goku ?",
+      "options": [
+        { "id": "a", "label": "Krillin" },
+        { "id": "b", "label": "Yamcha" },
+        { "id": "c", "label": "Piccolo" },
+        { "id": "d", "label": "Boo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-m1",
+      "difficulty": "moyen",
+      "text": "Quel guerrier vert, ancien ennemi, devient un allié et entraîne le jeune Gohan ?",
+      "options": [
+        { "id": "a", "label": "Piccolo" },
+        { "id": "b", "label": "Vegeta" },
+        { "id": "c", "label": "Freezer" },
+        { "id": "d", "label": "Cell" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-m2",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle l'épouse de Goku, fille du Roi Gyumao ?",
+      "options": [
+        { "id": "a", "label": "Chichi" },
+        { "id": "b", "label": "Bulma" },
+        { "id": "c", "label": "Videl" },
+        { "id": "d", "label": "Launch" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-m3",
+      "difficulty": "moyen",
+      "text": "Quelle amie inventrice cherche les boules de cristal avec Goku au tout début de l'aventure ?",
+      "options": [
+        { "id": "a", "label": "Bulma" },
+        { "id": "b", "label": "Chichi" },
+        { "id": "c", "label": "Videl" },
+        { "id": "d", "label": "Launch" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-m4",
+      "difficulty": "moyen",
+      "text": "Quel est le second fils de Goku, né pendant l'entraînement contre Cell ?",
+      "options": [
+        { "id": "a", "label": "Son Goten" },
+        { "id": "b", "label": "Son Gohan" },
+        { "id": "c", "label": "Trunks" },
+        { "id": "d", "label": "Vegeta" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-m5",
+      "difficulty": "moyen",
+      "text": "Quel tyran de l'espace détruit la planète natale des Saiyans et en extermine le peuple ?",
+      "options": [
+        { "id": "a", "label": "Freezer" },
+        { "id": "b", "label": "Cell" },
+        { "id": "c", "label": "Boo" },
+        { "id": "d", "label": "Broly" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-m6",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle le bio-androïde vert qui cherche à absorber C-17 et C-18 ?",
+      "options": [
+        { "id": "a", "label": "Cell" },
+        { "id": "b", "label": "Boo" },
+        { "id": "c", "label": "Freezer" },
+        { "id": "d", "label": "Piccolo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-m7",
+      "difficulty": "moyen",
+      "text": "Quelle créature rose difforme est le dernier grand ennemi de Dragon Ball Z ?",
+      "options": [
+        { "id": "a", "label": "Boo" },
+        { "id": "b", "label": "Cell" },
+        { "id": "c", "label": "Freezer" },
+        { "id": "d", "label": "Broly" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-m8",
+      "difficulty": "moyen",
+      "text": "Quel fils de Vegeta et Bulma vient du futur pour prévenir les héros d'un danger ?",
+      "options": [
+        { "id": "a", "label": "Trunks" },
+        { "id": "b", "label": "Goten" },
+        { "id": "c", "label": "Gohan" },
+        { "id": "d", "label": "Tarble" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-m9",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Comment s'appelle le petit véhicule jaune volant sur lequel Goku se déplace ?",
+      "answer": "Le Nuage Magique",
+      "funFact": "En version originale, il s'appelle Kinto'Un ; seul un cœur pur peut le chevaucher."
+    },
+    {
+      "id": "db-m10",
+      "difficulty": "moyen",
+      "type": "open",
+      "text": "Comment appelle-t-on le grand tournoi d'arts martiaux que les héros disputent régulièrement ?",
+      "answer": "Tenkaichi Budokai",
+      "acceptedAnswers": ["tenkaichi budokai", "tenkaichi", "budokai", "tournoi des arts martiaux"]
+    },
+    {
+      "id": "db-m11",
+      "difficulty": "moyen",
+      "text": "Quelle transformation change un Saiyan en singe géant à la pleine lune ?",
+      "options": [
+        { "id": "a", "label": "Le Oozaru" },
+        { "id": "b", "label": "Le Kaioken" },
+        { "id": "c", "label": "Le Genkidama" },
+        { "id": "d", "label": "Le Kienzan" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-m12",
+      "difficulty": "moyen",
+      "text": "Quelle attaque violette Vegeta lance-t-il comme technique de prédilection ?",
+      "options": [
+        { "id": "a", "label": "Le Galick Gun" },
+        { "id": "b", "label": "Le Kaméhaméha" },
+        { "id": "c", "label": "Le Kienzan" },
+        { "id": "d", "label": "Le Makankosappo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-m13",
+      "difficulty": "moyen",
+      "text": "Chez quel maître de l'au-delà Goku s'entraîne-t-il avant d'affronter les Saiyans ?",
+      "options": [
+        { "id": "a", "label": "Roi Kaio" },
+        { "id": "b", "label": "Maître Karin" },
+        { "id": "c", "label": "Piccolo" },
+        { "id": "d", "label": "Dendé" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-m14",
+      "difficulty": "moyen",
+      "text": "Quel haricot magique redonne toute son énergie et guérit les blessures quand on le mange ?",
+      "options": [
+        { "id": "a", "label": "Le Senzu" },
+        { "id": "b", "label": "Le scouter" },
+        { "id": "c", "label": "Le radar" },
+        { "id": "d", "label": "Le nuage" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-m15",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle l'appareil que les Saiyans portent à l'œil pour mesurer la puissance ?",
+      "options": [
+        { "id": "a", "label": "Le scouter" },
+        { "id": "b", "label": "Le senzu" },
+        { "id": "c", "label": "Le radar" },
+        { "id": "d", "label": "Le nuage" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-m16",
+      "difficulty": "moyen",
+      "text": "Quel Saiyan géant et brutal accompagne Vegeta à leur arrivée sur Terre ?",
+      "options": [
+        { "id": "a", "label": "Nappa" },
+        { "id": "b", "label": "Raditz" },
+        { "id": "c", "label": "Broly" },
+        { "id": "d", "label": "Turles" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-m17",
+      "difficulty": "moyen",
+      "text": "Quel frère de Goku vient l'enlever au tout début de Dragon Ball Z ?",
+      "options": [
+        { "id": "a", "label": "Raditz" },
+        { "id": "b", "label": "Nappa" },
+        { "id": "c", "label": "Vegeta" },
+        { "id": "d", "label": "Turles" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-m18",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle la fille de Mr Satan qui devient l'épouse de Gohan ?",
+      "options": [
+        { "id": "a", "label": "Videl" },
+        { "id": "b", "label": "Bulma" },
+        { "id": "c", "label": "Chichi" },
+        { "id": "d", "label": "Marron" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-m19",
+      "difficulty": "moyen",
+      "text": "Quel champion vantard s'attribue la victoire contre Cell devant les caméras ?",
+      "options": [
+        { "id": "a", "label": "Mr Satan" },
+        { "id": "b", "label": "Piccolo" },
+        { "id": "c", "label": "Yamcha" },
+        { "id": "d", "label": "Krillin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-m20",
+      "difficulty": "moyen",
+      "type": "estimation",
+      "text": "Combien de minutes Freezer annonce-t-il avant l'explosion de la planète Namek ?",
+      "answerValue": 5,
+      "unit": "minutes",
+      "funFact": "Ces « 5 minutes » se sont éternisées sur bien plus d'épisodes !"
+    },
+    {
+      "id": "db-d1",
+      "difficulty": "dur",
+      "text": "Comment s'appelle la planète natale des Saiyans, pulvérisée par Freezer ?",
+      "options": [
+        { "id": "a", "label": "Vegeta" },
+        { "id": "b", "label": "Namek" },
+        { "id": "c", "label": "Terre" },
+        { "id": "d", "label": "Sadala" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-d2",
+      "difficulty": "dur",
+      "text": "Sur quelle planète les héros cherchent-ils de nouvelles boules pour ressusciter leurs amis face à Freezer ?",
+      "options": [
+        { "id": "a", "label": "Namek" },
+        { "id": "b", "label": "Vegeta" },
+        { "id": "c", "label": "Terre" },
+        { "id": "d", "label": "Sadala" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-d3",
+      "difficulty": "dur",
+      "text": "Quel Saiyan légendaire au pouvoir destructeur, obsédé par Goku, apparaît dans les films ?",
+      "options": [
+        { "id": "a", "label": "Broly" },
+        { "id": "b", "label": "Turles" },
+        { "id": "c", "label": "Nappa" },
+        { "id": "d", "label": "Raditz" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-d4",
+      "difficulty": "dur",
+      "text": "Quel Namek fusionne avec Piccolo sur sa planète pour décupler sa puissance ?",
+      "options": [
+        { "id": "a", "label": "Nail" },
+        { "id": "b", "label": "Dendé" },
+        { "id": "c", "label": "Kami" },
+        { "id": "d", "label": "Slug" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-d5",
+      "difficulty": "dur",
+      "text": "Quel jeune Namek devient le nouveau gardien de la Terre après le départ de Kami ?",
+      "options": [
+        { "id": "a", "label": "Dendé" },
+        { "id": "b", "label": "Nail" },
+        { "id": "c", "label": "Piccolo" },
+        { "id": "d", "label": "Slug" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-d6",
+      "difficulty": "dur",
+      "text": "Quelle fusion de Goku et Vegeta est obtenue grâce aux boucles d'oreilles Potaras ?",
+      "options": [
+        { "id": "a", "label": "Vegetto" },
+        { "id": "b", "label": "Gogeta" },
+        { "id": "c", "label": "Gotenks" },
+        { "id": "d", "label": "Gohan" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-d7",
+      "difficulty": "dur",
+      "text": "Quelle fusion de Goku et Vegeta est obtenue par la danse de la fusion ?",
+      "options": [
+        { "id": "a", "label": "Gogeta" },
+        { "id": "b", "label": "Vegetto" },
+        { "id": "c", "label": "Gotenks" },
+        { "id": "d", "label": "Broly" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-d8",
+      "difficulty": "dur",
+      "text": "Quelle est la fusion de Goten et Trunks par la danse de la fusion ?",
+      "options": [
+        { "id": "a", "label": "Gotenks" },
+        { "id": "b", "label": "Gogeta" },
+        { "id": "c", "label": "Vegetto" },
+        { "id": "d", "label": "Gohan" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-d9",
+      "difficulty": "dur",
+      "text": "Quel androïde blond finit par épouser Krillin ?",
+      "options": [
+        { "id": "a", "label": "C-18" },
+        { "id": "b", "label": "C-17" },
+        { "id": "c", "label": "C-16" },
+        { "id": "d", "label": "C-19" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-d10",
+      "difficulty": "dur",
+      "text": "Quel androïde aux cheveux longs est le frère jumeau de C-18 ?",
+      "options": [
+        { "id": "a", "label": "C-17" },
+        { "id": "b", "label": "C-18" },
+        { "id": "c", "label": "C-16" },
+        { "id": "d", "label": "C-19" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-d11",
+      "difficulty": "dur",
+      "text": "Quel savant fou de l'Armée du Ruban Rouge crée les androïdes pour se venger de Goku ?",
+      "options": [
+        { "id": "a", "label": "Docteur Gero" },
+        { "id": "b", "label": "Docteur Brief" },
+        { "id": "c", "label": "Docteur Slump" },
+        { "id": "d", "label": "Docteur Willow" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-d12",
+      "difficulty": "dur",
+      "text": "Quelle technique de Piccolo, un rayon perforant chargé à deux doigts, tue Raditz ?",
+      "options": [
+        { "id": "a", "label": "Le Makankosappo" },
+        { "id": "b", "label": "Le Kaméhaméha" },
+        { "id": "c", "label": "Le Kienzan" },
+        { "id": "d", "label": "Le Genkidama" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-d13",
+      "difficulty": "dur",
+      "text": "Quelle attaque de Krillin prend la forme d'un disque d'énergie tranchant ?",
+      "options": [
+        { "id": "a", "label": "Le Kienzan" },
+        { "id": "b", "label": "Le Kaméhaméha" },
+        { "id": "c", "label": "Le Makankosappo" },
+        { "id": "d", "label": "Le Genkidama" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-d14",
+      "difficulty": "dur",
+      "text": "Quelle attaque ultime rassemble l'énergie de tous les êtres vivants en une immense boule ?",
+      "options": [
+        { "id": "a", "label": "Le Genkidama" },
+        { "id": "b", "label": "Le Kaméhaméha" },
+        { "id": "c", "label": "Le Kienzan" },
+        { "id": "d", "label": "Le Galick Gun" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-d15",
+      "difficulty": "dur",
+      "text": "Quel maître félin, gardien d'une haute tour, fournit à Goku l'eau sacrée et les haricots magiques ?",
+      "options": [
+        { "id": "a", "label": "Karin" },
+        { "id": "b", "label": "Kaio" },
+        { "id": "c", "label": "Dendé" },
+        { "id": "d", "label": "Kami" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-d16",
+      "difficulty": "dur",
+      "text": "Comment s'appelle le père biologique de Goku, un Saiyan de bas rang ?",
+      "options": [
+        { "id": "a", "label": "Bardock" },
+        { "id": "b", "label": "Vegeta" },
+        { "id": "c", "label": "Nappa" },
+        { "id": "d", "label": "Raditz" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-d17",
+      "difficulty": "dur",
+      "text": "Comment appelle-t-on le souverain des Saiyans, père du prince guerrier ?",
+      "options": [
+        { "id": "a", "label": "Roi Vegeta" },
+        { "id": "b", "label": "Roi Kaio" },
+        { "id": "c", "label": "Roi Gyumao" },
+        { "id": "d", "label": "Roi Enma" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-d18",
+      "difficulty": "dur",
+      "text": "Quelle équipe d'élite mercenaire sert Freezer sur Namek, menée par un capitaine échangeur de corps ?",
+      "options": [
+        { "id": "a", "label": "Le Commando Ginyu" },
+        { "id": "b", "label": "Le Commando Rouge" },
+        { "id": "c", "label": "Le Commando Gelé" },
+        { "id": "d", "label": "Le Commando Saiyan" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-d19",
+      "difficulty": "dur",
+      "text": "Quelle capacité étrange le capitaine du Commando permet-il à Ginyu d'utiliser contre ses ennemis ?",
+      "options": [
+        { "id": "a", "label": "Échanger les corps" },
+        { "id": "b", "label": "Voler les énergies" },
+        { "id": "c", "label": "Absorber les âmes" },
+        { "id": "d", "label": "Copier les attaques" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-d20",
+      "difficulty": "dur",
+      "text": "Quelle transformation Gohan enfant atteint-il pour surpasser son père et vaincre Cell ?",
+      "options": [
+        { "id": "a", "label": "Super Saiyan 2" },
+        { "id": "b", "label": "Super Saiyan" },
+        { "id": "c", "label": "Super Saiyan 3" },
+        { "id": "d", "label": "Super Saiyan 4" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-d21",
+      "difficulty": "dur",
+      "text": "Quelle forme aux très longs cheveux Goku dévoile-t-il pour la première fois durant l'arc Boo ?",
+      "options": [
+        { "id": "a", "label": "Super Saiyan 3" },
+        { "id": "b", "label": "Super Saiyan 2" },
+        { "id": "c", "label": "Super Saiyan 4" },
+        { "id": "d", "label": "Super Saiyan Blue" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-d22",
+      "difficulty": "dur",
+      "text": "Comment s'appelle le cochon anthropomorphe métamorphe, compagnon farceur du début de la série ?",
+      "options": [
+        { "id": "a", "label": "Oolong" },
+        { "id": "b", "label": "Pilaf" },
+        { "id": "c", "label": "Yajirobe" },
+        { "id": "d", "label": "Chaozu" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-d23",
+      "difficulty": "dur",
+      "text": "Comment s'appelle le petit être blanc au visage poudré, fidèle ami de Ten Shin Han ?",
+      "options": [
+        { "id": "a", "label": "Chaozu" },
+        { "id": "b", "label": "Oolong" },
+        { "id": "c", "label": "Yajirobe" },
+        { "id": "d", "label": "Pilaf" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-d24",
+      "difficulty": "dur",
+      "text": "Quel samouraï bedonnant et épéiste, plutôt lâche, vit auprès de maître Karin ?",
+      "options": [
+        { "id": "a", "label": "Yajirobe" },
+        { "id": "b", "label": "Chaozu" },
+        { "id": "c", "label": "Oolong" },
+        { "id": "d", "label": "Pilaf" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-d25",
+      "difficulty": "dur",
+      "text": "Quel petit empereur maléfique veut réunir les boules pour dominer le monde au début de la série ?",
+      "options": [
+        { "id": "a", "label": "Pilaf" },
+        { "id": "b", "label": "Oolong" },
+        { "id": "c", "label": "Yajirobe" },
+        { "id": "d", "label": "Freezer" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-d26",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel guerrier à trois yeux, ancien élève de l'école de la Grue, maîtrise le Dodonpa ?",
+      "answer": "Ten Shin Han",
+      "funFact": "Il sacrifie souvent ses forces vitales pour ses attaques, comme le Kikoho."
+    },
+    {
+      "id": "db-d27",
+      "difficulty": "dur",
+      "text": "Quel bandit du désert, peureux avec les femmes et maniant le sabre, devient un allié des héros ?",
+      "options": [
+        { "id": "a", "label": "Yamcha" },
+        { "id": "b", "label": "Krillin" },
+        { "id": "c", "label": "Oolong" },
+        { "id": "d", "label": "Pilaf" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-d28",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on le lieu où l'on s'entraîne une année entière en une seule journée extérieure ?",
+      "answer": "La Salle de l'Esprit et du Temps",
+      "funFact": "On ne peut y rester que 48 heures cumulées dans toute une vie."
+    },
+    {
+      "id": "db-d29",
+      "difficulty": "dur",
+      "type": "ordre",
+      "text": "Classe ces ennemis majeurs de Dragon Ball Z dans l'ordre où Goku les affronte.",
+      "items": [
+        { "id": "v", "label": "Vegeta" },
+        { "id": "f", "label": "Freezer" },
+        { "id": "c", "label": "Cell" },
+        { "id": "b", "label": "Boo" }
+      ],
+      "funFact": "Chaque arc élève encore le niveau de puissance des combattants."
+    },
+    {
+      "id": "db-d30",
+      "difficulty": "dur",
+      "text": "Quel nom de Saiyan Vegeta emploie-t-il constamment pour désigner Goku ?",
+      "options": [
+        { "id": "a", "label": "Kakarot" },
+        { "id": "b", "label": "Bardock" },
+        { "id": "c", "label": "Raditz" },
+        { "id": "d", "label": "Turles" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-p1",
+      "difficulty": "pro",
+      "text": "Quel mangaka est l'auteur de Dragon Ball ?",
+      "options": [
+        { "id": "a", "label": "Akira Toriyama" },
+        { "id": "b", "label": "Eiichiro Oda" },
+        { "id": "c", "label": "Masashi Kishimoto" },
+        { "id": "d", "label": "Tite Kubo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-p2",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "En quelle année le manga Dragon Ball a-t-il débuté sa publication au Japon ?",
+      "answerValue": 1984,
+      "unit": ""
+    },
+    {
+      "id": "db-p3",
+      "difficulty": "pro",
+      "text": "Dans quel magazine japonais le manga était-il prépublié chaque semaine ?",
+      "options": [
+        { "id": "a", "label": "Weekly Shonen Jump" },
+        { "id": "b", "label": "Weekly Shonen Magazine" },
+        { "id": "c", "label": "Monthly Shonen Gangan" },
+        { "id": "d", "label": "Weekly Young Jump" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-p4",
+      "difficulty": "pro",
+      "text": "Quel maître, rival de Tortue Géniale, dirige l'école de la Grue ?",
+      "options": [
+        { "id": "a", "label": "Tsuru Sennin" },
+        { "id": "b", "label": "Kame Sennin" },
+        { "id": "c", "label": "Roi Kaio" },
+        { "id": "d", "label": "Maître Karin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-p5",
+      "difficulty": "pro",
+      "text": "Quelle est la forme originelle, enfantine et la plus dangereuse, de la créature rose Majin ?",
+      "options": [
+        { "id": "a", "label": "Kid Boo" },
+        { "id": "b", "label": "Gros Boo" },
+        { "id": "c", "label": "Super Boo" },
+        { "id": "d", "label": "Majin Vegeta" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-p6",
+      "difficulty": "pro",
+      "text": "Quel sorcier démoniaque à la peau rouge sert de bras droit à Babidi ?",
+      "options": [
+        { "id": "a", "label": "Dabra" },
+        { "id": "b", "label": "Bibidi" },
+        { "id": "c", "label": "Spopovitch" },
+        { "id": "d", "label": "Yakon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-p7",
+      "difficulty": "pro",
+      "text": "Quel magicien maléfique prend le contrôle de Vegeta pour en faire un guerrier possédé ?",
+      "options": [
+        { "id": "a", "label": "Babidi" },
+        { "id": "b", "label": "Bibidi" },
+        { "id": "c", "label": "Dabra" },
+        { "id": "d", "label": "Boo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-p8",
+      "difficulty": "pro",
+      "text": "Qui est le créateur originel de la créature rose, des millions d'années plus tôt, et père de Babidi ?",
+      "options": [
+        { "id": "a", "label": "Bibidi" },
+        { "id": "b", "label": "Dabra" },
+        { "id": "c", "label": "Spopovitch" },
+        { "id": "d", "label": "Yakon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-p9",
+      "difficulty": "pro",
+      "text": "Quelle première forme, bouffie et plutôt naïve, la créature Majin prend-elle en apparaissant ?",
+      "options": [
+        { "id": "a", "label": "Gros Boo" },
+        { "id": "b", "label": "Kid Boo" },
+        { "id": "c", "label": "Super Boo" },
+        { "id": "d", "label": "Majin Vegeta" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-p10",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien d'années s'écoulent entre la fin de l'arc Cell et le début de l'arc Boo ?",
+      "answerValue": 7,
+      "unit": "ans"
+    },
+    {
+      "id": "db-p11",
+      "difficulty": "pro",
+      "text": "Comment s'appelle la fille de Gohan et Videl ?",
+      "options": [
+        { "id": "a", "label": "Pan" },
+        { "id": "b", "label": "Bra" },
+        { "id": "c", "label": "Marron" },
+        { "id": "d", "label": "Chichi" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-p12",
+      "difficulty": "pro",
+      "text": "Comment s'appelle la fille de Vegeta et Bulma, cadette de Trunks ?",
+      "options": [
+        { "id": "a", "label": "Bra" },
+        { "id": "b", "label": "Pan" },
+        { "id": "c", "label": "Marron" },
+        { "id": "d", "label": "Videl" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-p13",
+      "difficulty": "pro",
+      "text": "Comment s'appelle la fille de Krillin et C-18 ?",
+      "options": [
+        { "id": "a", "label": "Marron" },
+        { "id": "b", "label": "Pan" },
+        { "id": "c", "label": "Bra" },
+        { "id": "d", "label": "Videl" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-p14",
+      "difficulty": "pro",
+      "text": "Dans Dragon Ball GT, quelle transformation au corps rouge et aux longs cheveux Goku atteint-il ?",
+      "options": [
+        { "id": "a", "label": "Super Saiyan 4" },
+        { "id": "b", "label": "Super Saiyan 3" },
+        { "id": "c", "label": "Super Saiyan 2" },
+        { "id": "d", "label": "Super Saiyan Blue" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-p15",
+      "difficulty": "pro",
+      "text": "Quelle transformation divine aux cheveux bleus Goku maîtrise-t-il après son entraînement avec Whis ?",
+      "options": [
+        { "id": "a", "label": "Super Saiyan Blue" },
+        { "id": "b", "label": "Super Saiyan 4" },
+        { "id": "c", "label": "Super Saiyan God" },
+        { "id": "d", "label": "Ultra Instinct" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-p16",
+      "difficulty": "pro",
+      "text": "Quelle forme argentée aux réflexes divins Goku atteint-il face à Jiren dans Dragon Ball Super ?",
+      "options": [
+        { "id": "a", "label": "Ultra Instinct" },
+        { "id": "b", "label": "Super Saiyan Blue" },
+        { "id": "c", "label": "Super Saiyan God" },
+        { "id": "d", "label": "Super Saiyan 4" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-p17",
+      "difficulty": "pro",
+      "text": "Quel dieu de la destruction félin apparaît au début de Dragon Ball Super ?",
+      "options": [
+        { "id": "a", "label": "Beerus" },
+        { "id": "b", "label": "Whis" },
+        { "id": "c", "label": "Champa" },
+        { "id": "d", "label": "Vados" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-p18",
+      "difficulty": "pro",
+      "text": "Comment s'appelle l'ange serviteur et professeur du dieu Beerus ?",
+      "options": [
+        { "id": "a", "label": "Whis" },
+        { "id": "b", "label": "Beerus" },
+        { "id": "c", "label": "Champa" },
+        { "id": "d", "label": "Vados" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-p19",
+      "difficulty": "pro",
+      "text": "Quel dieu de la destruction de l'univers 6 est le frère jumeau de Beerus ?",
+      "options": [
+        { "id": "a", "label": "Champa" },
+        { "id": "b", "label": "Whis" },
+        { "id": "c", "label": "Vados" },
+        { "id": "d", "label": "Beerus" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-p20",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment s'appelle la grande compétition inter-univers de Dragon Ball Super où être éjecté vaut élimination ?",
+      "answer": "Le Tournoi du Pouvoir",
+      "funFact": "Les univers perdants y sont purement et simplement effacés."
+    },
+    {
+      "id": "db-p21",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelle attaque circulaire et tranchante Freezer utilise-t-il pour découper ses adversaires ?",
+      "answer": "Le Disque de la Mort",
+      "funFact": "Freezer se blesse lui-même avec dans son combat contre Goku."
+    },
+    {
+      "id": "db-p22",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Quel niveau de puissance le scouter de Vegeta affiche-t-il, déclenchant sa réplique culte « C'est plus de... » ?",
+      "answerValue": 9000,
+      "unit": "",
+      "funFact": "« It's over 9000 ! » est l'un des mèmes les plus célèbres du web."
+    },
+    {
+      "id": "db-p23",
+      "difficulty": "pro",
+      "text": "Comment s'appelle le grand-père adoptif qui a recueilli Goku bébé sur Terre ?",
+      "options": [
+        { "id": "a", "label": "Son Gohan" },
+        { "id": "b", "label": "Tortue Géniale" },
+        { "id": "c", "label": "Roi Kaio" },
+        { "id": "d", "label": "Maître Karin" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Goku a donné ce prénom à son propre fils aîné en son honneur."
+    },
+    {
+      "id": "db-p24",
+      "difficulty": "pro",
+      "text": "Quelle race verte extraterrestre est capable de créer les boules de cristal exauçant les vœux ?",
+      "options": [
+        { "id": "a", "label": "Les Nameks" },
+        { "id": "b", "label": "Les Saiyans" },
+        { "id": "c", "label": "Les Majins" },
+        { "id": "d", "label": "Les Tsufuls" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-p25",
+      "difficulty": "pro",
+      "text": "Quel peuple, jadis exterminé par les Saiyans sur leur planète, est leur ennemi ancestral ?",
+      "options": [
+        { "id": "a", "label": "Les Tsufuls" },
+        { "id": "b", "label": "Les Nameks" },
+        { "id": "c", "label": "Les Majins" },
+        { "id": "d", "label": "Les Anges" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-p26",
+      "difficulty": "pro",
+      "text": "Comment s'appelle le dragon de Namek, bien plus grand et puissant que Shenron ?",
+      "options": [
+        { "id": "a", "label": "Porunga" },
+        { "id": "b", "label": "Shenron" },
+        { "id": "c", "label": "Beerus" },
+        { "id": "d", "label": "Whis" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-p27",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien de vœux le dragon de Namek peut-il exaucer à l'origine ?",
+      "answerValue": 3,
+      "unit": "vœux"
+    },
+    {
+      "id": "db-p28",
+      "difficulty": "pro",
+      "text": "Quelle Saiyane de l'univers 6, capable d'atteindre le Super Saiyan, combat lors du Tournoi du Pouvoir ?",
+      "options": [
+        { "id": "a", "label": "Caulifla" },
+        { "id": "b", "label": "Kale" },
+        { "id": "c", "label": "Cabba" },
+        { "id": "d", "label": "Vados" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-p29",
+      "difficulty": "pro",
+      "text": "Quel assassin de l'univers 6, capable d'immobiliser le temps, affronte Goku ?",
+      "options": [
+        { "id": "a", "label": "Hit" },
+        { "id": "b", "label": "Jiren" },
+        { "id": "c", "label": "Toppo" },
+        { "id": "d", "label": "Frost" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-p30",
+      "difficulty": "pro",
+      "text": "Quel guerrier surpuissant de l'univers 11 est l'adversaire ultime du Tournoi du Pouvoir ?",
+      "options": [
+        { "id": "a", "label": "Jiren" },
+        { "id": "b", "label": "Hit" },
+        { "id": "c", "label": "Toppo" },
+        { "id": "d", "label": "Frost" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-p31",
+      "difficulty": "pro",
+      "text": "Quel empereur de l'univers 6, sosie de Freezer, triche durant les tournois ?",
+      "options": [
+        { "id": "a", "label": "Frost" },
+        { "id": "b", "label": "Hit" },
+        { "id": "c", "label": "Jiren" },
+        { "id": "d", "label": "Cabba" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-p32",
+      "difficulty": "pro",
+      "text": "Comment s'appelle le frère de Freezer, venu venger sa mort dans les films ?",
+      "options": [
+        { "id": "a", "label": "Cooler" },
+        { "id": "b", "label": "Freezer" },
+        { "id": "c", "label": "King Cold" },
+        { "id": "d", "label": "Turles" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-p33",
+      "difficulty": "pro",
+      "text": "Comment s'appelle le père de Freezer, présent à ses côtés lors de leur arrivée sur Terre ?",
+      "options": [
+        { "id": "a", "label": "King Cold" },
+        { "id": "b", "label": "Cooler" },
+        { "id": "c", "label": "Freezer" },
+        { "id": "d", "label": "Cell" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-p34",
+      "difficulty": "pro",
+      "text": "Quel Saiyan sosie de Goku, ennemi d'un film, plante l'Arbre Sacré pour drainer l'énergie d'une planète ?",
+      "options": [
+        { "id": "a", "label": "Turles" },
+        { "id": "b", "label": "Broly" },
+        { "id": "c", "label": "Bardock" },
+        { "id": "d", "label": "Nappa" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-p35",
+      "difficulty": "pro",
+      "text": "Quel objet en forme de boucle d'oreille permet une fusion permanente entre deux êtres ?",
+      "options": [
+        { "id": "a", "label": "Les Potaras" },
+        { "id": "b", "label": "Les Senzu" },
+        { "id": "c", "label": "Les Scouters" },
+        { "id": "d", "label": "Les Radars" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-p36",
+      "difficulty": "pro",
+      "text": "Quel gardien rouge et cornu juge les âmes à l'entrée de l'au-delà ?",
+      "options": [
+        { "id": "a", "label": "Le Roi Enma" },
+        { "id": "b", "label": "Le Roi Kaio" },
+        { "id": "c", "label": "Le Roi Vegeta" },
+        { "id": "d", "label": "Le Roi Gyumao" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-p37",
+      "difficulty": "pro",
+      "text": "Comment appelle-t-on le père de Chichi, un colosse coiffé d'un casque à cornes ?",
+      "options": [
+        { "id": "a", "label": "Le Roi Gyumao" },
+        { "id": "b", "label": "Le Roi Enma" },
+        { "id": "c", "label": "Le Roi Kaio" },
+        { "id": "d", "label": "Le Roi Vegeta" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-p38",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "En quelle année la série animée Dragon Ball Z a-t-elle commencé sa diffusion au Japon ?",
+      "answerValue": 1989,
+      "unit": ""
+    },
+    {
+      "id": "db-p39",
+      "difficulty": "pro",
+      "text": "Auprès de quel maître de l'au-delà Goku s'entraîne-t-il juste avant l'arc des Saiyans ?",
+      "options": [
+        { "id": "a", "label": "Kaio du Nord" },
+        { "id": "b", "label": "Kaio du Sud" },
+        { "id": "c", "label": "Grand Kaio" },
+        { "id": "d", "label": "Kaio Shin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "db-p40",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel ancien dieu, scellé dans l'épée Z, débloque tout le potentiel caché de Gohan ?",
+      "answer": "Le Vieux Kaioshin",
+      "funFact": "Il était enfermé depuis quinze générations dans l'épée."
+    }
+  ]
+}

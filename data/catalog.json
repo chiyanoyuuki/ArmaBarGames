@@ -13,12 +13,15 @@
   "universes": [
     { "id": "naruto", "name": "Naruto", "themeId": "manga", "emoji": "🍥" },
     { "id": "one-piece", "name": "One Piece", "themeId": "manga", "emoji": "🏴‍☠️" },
+    { "id": "dragon-ball", "name": "Dragon Ball", "themeId": "manga", "emoji": "🐉" },
     { "id": "harry-potter", "name": "Harry Potter", "themeId": "cinema", "emoji": "⚡" },
     { "id": "disney", "name": "Disney (Classiques)", "themeId": "cinema", "emoji": "🏰" },
     { "id": "marvel-mcu", "name": "Marvel (MCU)", "themeId": "cinema", "emoji": "🦸" },
+    { "id": "star-wars", "name": "Star Wars", "themeId": "cinema", "emoji": "⭐" },
     { "id": "coupe-du-monde", "name": "Coupe du monde de foot", "themeId": "sport", "emoji": "🏆" },
     { "id": "the-witcher", "name": "The Witcher", "themeId": "jeux-video", "emoji": "🐺" },
     { "id": "zelda", "name": "The Legend of Zelda", "themeId": "jeux-video", "emoji": "🗡️" },
+    { "id": "pokemon", "name": "Pokémon", "themeId": "jeux-video", "emoji": "⚡" },
     { "id": "ed-sheeran", "name": "Ed Sheeran", "themeId": "musique", "emoji": "🎸" },
     { "id": "rock-classique", "name": "Rock classique", "themeId": "musique", "emoji": "🤘" },
     { "id": "culture-generale", "name": "Culture générale", "themeId": "culture", "emoji": "🧠" }

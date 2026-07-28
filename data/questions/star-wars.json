@@ -1,0 +1,1161 @@
+{
+  "universeId": "star-wars",
+  "questions": [
+    {
+      "id": "sw-f1",
+      "difficulty": "facile",
+      "text": "Quelle arme lumineuse les Jedi manient-ils au combat ?",
+      "options": [
+        { "id": "a", "label": "Le sabre laser" },
+        { "id": "b", "label": "Le fusil blaster" },
+        { "id": "c", "label": "La lance vibro" },
+        { "id": "d", "label": "L'arbalète wookiee" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-f2",
+      "difficulty": "facile",
+      "text": "Quel personnage vêtu de noir respire bruyamment, grand méchant de la trilogie originale ?",
+      "options": [
+        { "id": "a", "label": "Dark Vador" },
+        { "id": "b", "label": "Han Solo" },
+        { "id": "c", "label": "Chewbacca" },
+        { "id": "d", "label": "Obi-Wan" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-f3",
+      "difficulty": "facile",
+      "text": "Comment s'appelle le petit maître Jedi vert aux grandes oreilles ?",
+      "options": [
+        { "id": "a", "label": "Yoda" },
+        { "id": "b", "label": "Jabba" },
+        { "id": "c", "label": "Dooku" },
+        { "id": "d", "label": "Palpatine" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-f4",
+      "difficulty": "facile",
+      "text": "Quel est le nom du copilote wookiee de Han Solo ?",
+      "options": [
+        { "id": "a", "label": "Chewbacca" },
+        { "id": "b", "label": "Lando" },
+        { "id": "c", "label": "Boba Fett" },
+        { "id": "d", "label": "Dark Maul" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-f5",
+      "difficulty": "facile",
+      "text": "Quel petit droïde astromécano bleu et blanc siffle pour communiquer ?",
+      "options": [
+        { "id": "a", "label": "R2-D2" },
+        { "id": "b", "label": "C-3PO" },
+        { "id": "c", "label": "BB-8" },
+        { "id": "d", "label": "D-O" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-f6",
+      "difficulty": "facile",
+      "text": "Quel pouvoir mystique les Jedi utilisent-ils pour déplacer les objets par la pensée ?",
+      "options": [
+        { "id": "a", "label": "La Force" },
+        { "id": "b", "label": "La magie" },
+        { "id": "c", "label": "Le chakra" },
+        { "id": "d", "label": "La foudre" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-f7",
+      "difficulty": "facile",
+      "type": "buzzer",
+      "text": "Complète la réplique culte que Dark Vador adresse à Luke : « Je suis ton... »",
+      "answer": "père",
+      "funFact": "L'une des révélations les plus célèbres de l'histoire du cinéma."
+    },
+    {
+      "id": "sw-f8",
+      "difficulty": "facile",
+      "text": "De quelle couleur est le sabre laser de Dark Vador ?",
+      "options": [
+        { "id": "a", "label": "Rouge" },
+        { "id": "b", "label": "Bleu" },
+        { "id": "c", "label": "Vert" },
+        { "id": "d", "label": "Violet" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-f9",
+      "difficulty": "facile",
+      "text": "Comment s'appelle la princesse aux macarons capturée au début de l'épisode IV ?",
+      "options": [
+        { "id": "a", "label": "Leia" },
+        { "id": "b", "label": "Padmé" },
+        { "id": "c", "label": "Rey" },
+        { "id": "d", "label": "Jyn" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-f10",
+      "difficulty": "facile",
+      "type": "estimation",
+      "text": "En quelle année le tout premier film Star Wars est-il sorti au cinéma ?",
+      "answerValue": 1977,
+      "unit": "",
+      "funFact": "« Un nouvel espoir », réalisé par George Lucas."
+    },
+    {
+      "id": "sw-m1",
+      "difficulty": "moyen",
+      "text": "Quel jeune fermier de Tatooine devient un héros Jedi dans la trilogie originale ?",
+      "options": [
+        { "id": "a", "label": "Luke Skywalker" },
+        { "id": "b", "label": "Han Solo" },
+        { "id": "c", "label": "Boba Fett" },
+        { "id": "d", "label": "Lando Calrissian" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-m2",
+      "difficulty": "moyen",
+      "text": "Quel contrebandier pilote le Faucon Millenium ?",
+      "options": [
+        { "id": "a", "label": "Han Solo" },
+        { "id": "b", "label": "Luke Skywalker" },
+        { "id": "c", "label": "Lando Calrissian" },
+        { "id": "d", "label": "Boba Fett" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-m3",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle le vaisseau contrebandier le plus rapide de la galaxie ?",
+      "options": [
+        { "id": "a", "label": "Le Faucon Millenium" },
+        { "id": "b", "label": "Le Destroyer Impérial" },
+        { "id": "c", "label": "Le Croiseur Rebelle" },
+        { "id": "d", "label": "Le Chasseur Delta" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-m4",
+      "difficulty": "moyen",
+      "text": "Quel maître Jedi forme Luke sur la planète marécageuse de Dagobah ?",
+      "options": [
+        { "id": "a", "label": "Yoda" },
+        { "id": "b", "label": "Obi-Wan" },
+        { "id": "c", "label": "Mace Windu" },
+        { "id": "d", "label": "Qui-Gon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-m5",
+      "difficulty": "moyen",
+      "text": "Sur quelle planète désertique Luke grandit-il ?",
+      "options": [
+        { "id": "a", "label": "Tatooine" },
+        { "id": "b", "label": "Hoth" },
+        { "id": "c", "label": "Endor" },
+        { "id": "d", "label": "Naboo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-m6",
+      "difficulty": "moyen",
+      "text": "Comment appelle-t-on l'ordre de chevaliers gardiens de la paix dans la galaxie ?",
+      "options": [
+        { "id": "a", "label": "Les Jedi" },
+        { "id": "b", "label": "Les Sith" },
+        { "id": "c", "label": "Les Mandaloriens" },
+        { "id": "d", "label": "Les Ewoks" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-m7",
+      "difficulty": "moyen",
+      "text": "Comment appelle-t-on les guerriers du côté obscur, ennemis jurés des Jedi ?",
+      "options": [
+        { "id": "a", "label": "Les Sith" },
+        { "id": "b", "label": "Les Jedi" },
+        { "id": "c", "label": "Les Hutts" },
+        { "id": "d", "label": "Les Jawas" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-m8",
+      "difficulty": "moyen",
+      "type": "open",
+      "text": "Comment s'appelle la station spatiale impériale capable de détruire une planète d'un seul tir ?",
+      "answer": "L'Étoile de la Mort",
+      "acceptedAnswers": ["etoile de la mort", "l'etoile de la mort", "l etoile de la mort", "death star"],
+      "funFact": "Sa faiblesse : un petit conduit menant au réacteur central."
+    },
+    {
+      "id": "sw-m9",
+      "difficulty": "moyen",
+      "text": "Quel chasseur de primes en armure mandalorienne livre Han Solo à Jabba ?",
+      "options": [
+        { "id": "a", "label": "Boba Fett" },
+        { "id": "b", "label": "Jango Fett" },
+        { "id": "c", "label": "Din Djarin" },
+        { "id": "d", "label": "Dark Maul" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-m10",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle l'empereur maléfique, maître Sith de Dark Vador ?",
+      "options": [
+        { "id": "a", "label": "Palpatine" },
+        { "id": "b", "label": "Dooku" },
+        { "id": "c", "label": "Snoke" },
+        { "id": "d", "label": "Tarkin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-m11",
+      "difficulty": "moyen",
+      "text": "De quelle couleur est le sabre laser de Yoda ?",
+      "options": [
+        { "id": "a", "label": "Vert" },
+        { "id": "b", "label": "Rouge" },
+        { "id": "c", "label": "Bleu" },
+        { "id": "d", "label": "Violet" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-m12",
+      "difficulty": "moyen",
+      "text": "Dans la série Le Mandalorien, comment surnomme-t-on l'enfant de l'espèce de Yoda ?",
+      "options": [
+        { "id": "a", "label": "Grogu" },
+        { "id": "b", "label": "Ahsoka" },
+        { "id": "c", "label": "Boba" },
+        { "id": "d", "label": "Cara" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le public l'a d'abord surnommé « Baby Yoda »."
+    },
+    {
+      "id": "sw-m13",
+      "difficulty": "moyen",
+      "text": "Quel jeune pilote détruit la première Étoile de la Mort dans l'épisode IV ?",
+      "options": [
+        { "id": "a", "label": "Luke Skywalker" },
+        { "id": "b", "label": "Han Solo" },
+        { "id": "c", "label": "Wedge Antilles" },
+        { "id": "d", "label": "Poe Dameron" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-m14",
+      "difficulty": "moyen",
+      "type": "ordre",
+      "text": "Classe ces films de la trilogie originale dans leur ordre de sortie.",
+      "items": [
+        { "id": "a", "label": "Un nouvel espoir" },
+        { "id": "b", "label": "L'Empire contre-attaque" },
+        { "id": "c", "label": "Le Retour du Jedi" }
+      ],
+      "funFact": "1977, 1980 puis 1983."
+    },
+    {
+      "id": "sw-m15",
+      "difficulty": "moyen",
+      "text": "Quelle espèce grande et velue habite la planète-forêt de Kashyyyk ?",
+      "options": [
+        { "id": "a", "label": "Les Wookiees" },
+        { "id": "b", "label": "Les Ewoks" },
+        { "id": "c", "label": "Les Jawas" },
+        { "id": "d", "label": "Les Hutts" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-m16",
+      "difficulty": "moyen",
+      "text": "Sur quelle lune boisée les petits Ewoks aident-ils les rebelles ?",
+      "options": [
+        { "id": "a", "label": "Endor" },
+        { "id": "b", "label": "Hoth" },
+        { "id": "c", "label": "Naboo" },
+        { "id": "d", "label": "Kamino" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-m17",
+      "difficulty": "moyen",
+      "text": "Sur quelle planète gelée se déroule la grande bataille au début de l'épisode V ?",
+      "options": [
+        { "id": "a", "label": "Hoth" },
+        { "id": "b", "label": "Endor" },
+        { "id": "c", "label": "Tatooine" },
+        { "id": "d", "label": "Bespin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-m18",
+      "difficulty": "moyen",
+      "text": "Sur quelle planète se trouve la Cité des Nuages dirigée par Lando ?",
+      "options": [
+        { "id": "a", "label": "Bespin" },
+        { "id": "b", "label": "Endor" },
+        { "id": "c", "label": "Hoth" },
+        { "id": "d", "label": "Naboo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-m19",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel gangster gluant retient Han Solo prisonnier dans son palais sur Tatooine ?",
+      "answer": "Jabba le Hutt",
+      "funFact": "Han y est exposé congelé dans la carbonite."
+    },
+    {
+      "id": "sw-m20",
+      "difficulty": "moyen",
+      "text": "Quel est le prénom de Dark Vador avant qu'il ne bascule du côté obscur ?",
+      "options": [
+        { "id": "a", "label": "Anakin" },
+        { "id": "b", "label": "Obi-Wan" },
+        { "id": "c", "label": "Luke" },
+        { "id": "d", "label": "Ben" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-d1",
+      "difficulty": "dur",
+      "text": "Quel acteur incarne physiquement Dark Vador sous le masque dans la trilogie originale ?",
+      "options": [
+        { "id": "a", "label": "David Prowse" },
+        { "id": "b", "label": "James Earl Jones" },
+        { "id": "c", "label": "Hayden Christensen" },
+        { "id": "d", "label": "Sebastian Shaw" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-d2",
+      "difficulty": "dur",
+      "text": "Quel acteur prête sa voix profonde à Dark Vador en version originale ?",
+      "options": [
+        { "id": "a", "label": "James Earl Jones" },
+        { "id": "b", "label": "David Prowse" },
+        { "id": "c", "label": "Sebastian Shaw" },
+        { "id": "d", "label": "Frank Oz" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-d3",
+      "difficulty": "dur",
+      "text": "Qui a réalisé le tout premier film de la saga, sorti en 1977 ?",
+      "options": [
+        { "id": "a", "label": "George Lucas" },
+        { "id": "b", "label": "Steven Spielberg" },
+        { "id": "c", "label": "Richard Marquand" },
+        { "id": "d", "label": "Irvin Kershner" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-d4",
+      "difficulty": "dur",
+      "text": "Comment s'appelle le chasseur stellaire des rebelles reconnaissable à ses ailes en X ?",
+      "options": [
+        { "id": "a", "label": "Le X-Wing" },
+        { "id": "b", "label": "Le TIE Fighter" },
+        { "id": "c", "label": "Le Y-Wing" },
+        { "id": "d", "label": "Le A-Wing" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-d5",
+      "difficulty": "dur",
+      "text": "Comment s'appelle le chasseur impérial standard aux ailes hexagonales ?",
+      "options": [
+        { "id": "a", "label": "Le TIE Fighter" },
+        { "id": "b", "label": "Le X-Wing" },
+        { "id": "c", "label": "Le Y-Wing" },
+        { "id": "d", "label": "Le B-Wing" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-d6",
+      "difficulty": "dur",
+      "text": "Quel Jedi forme le jeune Anakin comme Padawan dans la prélogie ?",
+      "options": [
+        { "id": "a", "label": "Obi-Wan" },
+        { "id": "b", "label": "Qui-Gon" },
+        { "id": "c", "label": "Mace Windu" },
+        { "id": "d", "label": "Comte Dooku" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-d7",
+      "difficulty": "dur",
+      "text": "Quel Sith au visage tatoué et au double sabre affronte les Jedi dans l'épisode I ?",
+      "options": [
+        { "id": "a", "label": "Dark Maul" },
+        { "id": "b", "label": "Comte Dooku" },
+        { "id": "c", "label": "Dark Vador" },
+        { "id": "d", "label": "Kylo Ren" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-d8",
+      "difficulty": "dur",
+      "text": "Quelle planète-capitale de la République est entièrement recouverte d'une ville immense ?",
+      "options": [
+        { "id": "a", "label": "Coruscant" },
+        { "id": "b", "label": "Naboo" },
+        { "id": "c", "label": "Kamino" },
+        { "id": "d", "label": "Geonosis" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-d9",
+      "difficulty": "dur",
+      "text": "Sur quelle planète pluvieuse sont fabriqués les clones de l'armée républicaine ?",
+      "options": [
+        { "id": "a", "label": "Kamino" },
+        { "id": "b", "label": "Geonosis" },
+        { "id": "c", "label": "Coruscant" },
+        { "id": "d", "label": "Mustafar" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-d10",
+      "difficulty": "dur",
+      "text": "Sur quelle planète de lave Anakin est-il vaincu par Obi-Wan dans l'épisode III ?",
+      "options": [
+        { "id": "a", "label": "Mustafar" },
+        { "id": "b", "label": "Kamino" },
+        { "id": "c", "label": "Naboo" },
+        { "id": "d", "label": "Endor" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-d11",
+      "difficulty": "dur",
+      "text": "Quel chasseur de primes a servi de modèle génétique à toute l'armée de clones ?",
+      "options": [
+        { "id": "a", "label": "Jango Fett" },
+        { "id": "b", "label": "Boba Fett" },
+        { "id": "c", "label": "Din Djarin" },
+        { "id": "d", "label": "Cad Bane" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-d12",
+      "difficulty": "dur",
+      "text": "Quel Jedi au sabre violet siège au Conseil et affronte l'Empereur ?",
+      "options": [
+        { "id": "a", "label": "Mace Windu" },
+        { "id": "b", "label": "Kit Fisto" },
+        { "id": "c", "label": "Plo Koon" },
+        { "id": "d", "label": "Aayla Secura" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-d13",
+      "difficulty": "dur",
+      "text": "Quel commandant droïde qui tousse et manie plusieurs sabres dirige l'armée séparatiste ?",
+      "options": [
+        { "id": "a", "label": "Grievous" },
+        { "id": "b", "label": "Dooku" },
+        { "id": "c", "label": "Maul" },
+        { "id": "d", "label": "Ventress" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-d14",
+      "difficulty": "dur",
+      "text": "Comment s'appelle la Padawan d'Anakin dans la série The Clone Wars ?",
+      "options": [
+        { "id": "a", "label": "Ahsoka Tano" },
+        { "id": "b", "label": "Padmé Amidala" },
+        { "id": "c", "label": "Mon Mothma" },
+        { "id": "d", "label": "Bo-Katan" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-d15",
+      "difficulty": "dur",
+      "text": "Quelle sénatrice de Naboo épouse secrètement Anakin ?",
+      "options": [
+        { "id": "a", "label": "Padmé Amidala" },
+        { "id": "b", "label": "Leia Organa" },
+        { "id": "c", "label": "Mon Mothma" },
+        { "id": "d", "label": "Ahsoka Tano" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-d16",
+      "difficulty": "dur",
+      "text": "Quel titre Sith l'Empereur Palpatine porte-t-il en secret ?",
+      "options": [
+        { "id": "a", "label": "Dark Sidious" },
+        { "id": "b", "label": "Dark Vador" },
+        { "id": "c", "label": "Dark Maul" },
+        { "id": "d", "label": "Dark Tyranus" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-d17",
+      "difficulty": "dur",
+      "text": "Quel titre Sith le Comte Dooku porte-t-il ?",
+      "options": [
+        { "id": "a", "label": "Dark Tyranus" },
+        { "id": "b", "label": "Dark Sidious" },
+        { "id": "c", "label": "Dark Maul" },
+        { "id": "d", "label": "Dark Vador" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-d18",
+      "difficulty": "dur",
+      "text": "Comment appelle-t-on les soldats blancs de l'Empire, réputés très mauvais tireurs ?",
+      "options": [
+        { "id": "a", "label": "Les Stormtroopers" },
+        { "id": "b", "label": "Les Ewoks" },
+        { "id": "c", "label": "Les Jawas" },
+        { "id": "d", "label": "Les Wookiees" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-d19",
+      "difficulty": "dur",
+      "text": "Quel petit peuple encapuchonné récupère et revend les droïdes sur Tatooine ?",
+      "options": [
+        { "id": "a", "label": "Les Jawas" },
+        { "id": "b", "label": "Les Ewoks" },
+        { "id": "c", "label": "Les Hutts" },
+        { "id": "d", "label": "Les Tuskens" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-d20",
+      "difficulty": "dur",
+      "text": "Comment appelle-t-on les pillards du désert de Tatooine, aussi dits « hommes des sables » ?",
+      "options": [
+        { "id": "a", "label": "Les Tuskens" },
+        { "id": "b", "label": "Les Jawas" },
+        { "id": "c", "label": "Les Ewoks" },
+        { "id": "d", "label": "Les Wookiees" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-d21",
+      "difficulty": "dur",
+      "text": "Dans la postlogie, quelle ancienne pilleuse d'épaves de Jakku devient une héroïne Jedi ?",
+      "options": [
+        { "id": "a", "label": "Rey" },
+        { "id": "b", "label": "Jyn Erso" },
+        { "id": "c", "label": "Rose Tico" },
+        { "id": "d", "label": "Ahsoka Tano" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-d22",
+      "difficulty": "dur",
+      "text": "Quel pilote vedette de la Résistance, ami de Finn, mène l'escadron dans la postlogie ?",
+      "options": [
+        { "id": "a", "label": "Poe Dameron" },
+        { "id": "b", "label": "Wedge Antilles" },
+        { "id": "c", "label": "Han Solo" },
+        { "id": "d", "label": "Luke Skywalker" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-d23",
+      "difficulty": "dur",
+      "text": "Quel ancien soldat de l'Empire déserte et rejoint la Résistance dans l'épisode VII ?",
+      "options": [
+        { "id": "a", "label": "Finn" },
+        { "id": "b", "label": "Poe" },
+        { "id": "c", "label": "Kylo" },
+        { "id": "d", "label": "Hux" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-d24",
+      "difficulty": "dur",
+      "text": "Quel nom porte le fils de Han et Leia passé au côté obscur ?",
+      "options": [
+        { "id": "a", "label": "Kylo Ren" },
+        { "id": "b", "label": "Dark Vador" },
+        { "id": "c", "label": "Poe Dameron" },
+        { "id": "d", "label": "Wedge Antilles" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-d25",
+      "difficulty": "dur",
+      "text": "Quel est le véritable nom de naissance de Kylo Ren ?",
+      "options": [
+        { "id": "a", "label": "Ben Solo" },
+        { "id": "b", "label": "Han Solo" },
+        { "id": "c", "label": "Luke Skywalker" },
+        { "id": "d", "label": "Anakin Skywalker" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-d26",
+      "difficulty": "dur",
+      "text": "Quel film spin-off de 2016 raconte le vol des plans de l'Étoile de la Mort ?",
+      "options": [
+        { "id": "a", "label": "Rogue One" },
+        { "id": "b", "label": "Solo" },
+        { "id": "c", "label": "Andor" },
+        { "id": "d", "label": "The Mandalorian" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-d27",
+      "difficulty": "dur",
+      "type": "estimation",
+      "text": "Combien de films composent la saga principale des Skywalker, des épisodes I à IX ?",
+      "answerValue": 9,
+      "unit": "films"
+    },
+    {
+      "id": "sw-d28",
+      "difficulty": "dur",
+      "text": "Quel réalisateur a mis en scène Le Réveil de la Force, sorti en 2015 ?",
+      "options": [
+        { "id": "a", "label": "J.J. Abrams" },
+        { "id": "b", "label": "George Lucas" },
+        { "id": "c", "label": "Rian Johnson" },
+        { "id": "d", "label": "Gareth Edwards" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-d29",
+      "difficulty": "dur",
+      "text": "Quelle matière cristalline alimente le cœur des sabres laser ?",
+      "options": [
+        { "id": "a", "label": "Le cristal kyber" },
+        { "id": "b", "label": "Le noyau plasma" },
+        { "id": "c", "label": "La cellule énergie" },
+        { "id": "d", "label": "Le gaz tibanna" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-d30",
+      "difficulty": "dur",
+      "text": "Sur quelle planète-désert se déroule la fameuse course de podracers de l'épisode I ?",
+      "options": [
+        { "id": "a", "label": "Tatooine" },
+        { "id": "b", "label": "Geonosis" },
+        { "id": "c", "label": "Jakku" },
+        { "id": "d", "label": "Naboo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p1",
+      "difficulty": "pro",
+      "text": "Quel acteur incarne Han Solo dans la trilogie originale ?",
+      "options": [
+        { "id": "a", "label": "Harrison Ford" },
+        { "id": "b", "label": "Mark Hamill" },
+        { "id": "c", "label": "David Prowse" },
+        { "id": "d", "label": "Peter Mayhew" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p2",
+      "difficulty": "pro",
+      "text": "Quel acteur joue Luke Skywalker ?",
+      "options": [
+        { "id": "a", "label": "Mark Hamill" },
+        { "id": "b", "label": "Harrison Ford" },
+        { "id": "c", "label": "David Prowse" },
+        { "id": "d", "label": "Sebastian Shaw" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p3",
+      "difficulty": "pro",
+      "text": "Quelle actrice incarne la princesse Leia dans la trilogie originale ?",
+      "options": [
+        { "id": "a", "label": "Carrie Fisher" },
+        { "id": "b", "label": "Natalie Portman" },
+        { "id": "c", "label": "Daisy Ridley" },
+        { "id": "d", "label": "Felicity Jones" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p4",
+      "difficulty": "pro",
+      "text": "Quel acteur interprète Obi-Wan Kenobi dans la trilogie originale ?",
+      "options": [
+        { "id": "a", "label": "Alec Guinness" },
+        { "id": "b", "label": "Ewan McGregor" },
+        { "id": "c", "label": "Liam Neeson" },
+        { "id": "d", "label": "Peter Cushing" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p5",
+      "difficulty": "pro",
+      "text": "Quel acteur interprète le jeune Obi-Wan Kenobi dans la prélogie ?",
+      "options": [
+        { "id": "a", "label": "Ewan McGregor" },
+        { "id": "b", "label": "Alec Guinness" },
+        { "id": "c", "label": "Hayden Christensen" },
+        { "id": "d", "label": "Liam Neeson" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p6",
+      "difficulty": "pro",
+      "text": "Quel acteur incarne Anakin Skywalker adulte dans les épisodes II et III ?",
+      "options": [
+        { "id": "a", "label": "Hayden Christensen" },
+        { "id": "b", "label": "Jake Lloyd" },
+        { "id": "c", "label": "Ewan McGregor" },
+        { "id": "d", "label": "Sebastian Shaw" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p7",
+      "difficulty": "pro",
+      "text": "Quel acteur incarne Qui-Gon Jinn dans l'épisode I ?",
+      "options": [
+        { "id": "a", "label": "Liam Neeson" },
+        { "id": "b", "label": "Ewan McGregor" },
+        { "id": "c", "label": "Christopher Lee" },
+        { "id": "d", "label": "Ian McDiarmid" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p8",
+      "difficulty": "pro",
+      "text": "Quel acteur incarne l'Empereur Palpatine à travers la saga ?",
+      "options": [
+        { "id": "a", "label": "Ian McDiarmid" },
+        { "id": "b", "label": "Christopher Lee" },
+        { "id": "c", "label": "Peter Cushing" },
+        { "id": "d", "label": "Alec Guinness" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p9",
+      "difficulty": "pro",
+      "text": "Quel acteur britannique incarne le Comte Dooku ?",
+      "options": [
+        { "id": "a", "label": "Christopher Lee" },
+        { "id": "b", "label": "Ian McDiarmid" },
+        { "id": "c", "label": "Peter Cushing" },
+        { "id": "d", "label": "Liam Neeson" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p10",
+      "difficulty": "pro",
+      "text": "Quel compositeur a écrit la musique légendaire de la saga ?",
+      "options": [
+        { "id": "a", "label": "John Williams" },
+        { "id": "b", "label": "Hans Zimmer" },
+        { "id": "c", "label": "Danny Elfman" },
+        { "id": "d", "label": "Ennio Morricone" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p11",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment s'appelle le célèbre thème militaire qui accompagne les entrées de Dark Vador ?",
+      "answer": "La Marche impériale",
+      "funFact": "Composée par John Williams pour l'épisode V."
+    },
+    {
+      "id": "sw-p12",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "En quelle année est sorti L'Empire contre-attaque ?",
+      "answerValue": 1980,
+      "unit": ""
+    },
+    {
+      "id": "sw-p13",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "En quelle année est sortie La Menace fantôme, épisode I de la prélogie ?",
+      "answerValue": 1999,
+      "unit": ""
+    },
+    {
+      "id": "sw-p14",
+      "difficulty": "pro",
+      "text": "Quel studio a racheté Lucasfilm en 2012, relançant la saga au cinéma ?",
+      "options": [
+        { "id": "a", "label": "Disney" },
+        { "id": "b", "label": "Warner" },
+        { "id": "c", "label": "Universal" },
+        { "id": "d", "label": "Paramount" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p15",
+      "difficulty": "pro",
+      "text": "Quelle planète, monde d'origine de Leia, est détruite par l'Étoile de la Mort dans l'épisode IV ?",
+      "options": [
+        { "id": "a", "label": "Alderaan" },
+        { "id": "b", "label": "Naboo" },
+        { "id": "c", "label": "Scarif" },
+        { "id": "d", "label": "Jakku" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p16",
+      "difficulty": "pro",
+      "text": "Sur quelle planète tropicale se déroule la bataille finale de Rogue One ?",
+      "options": [
+        { "id": "a", "label": "Scarif" },
+        { "id": "b", "label": "Jedha" },
+        { "id": "c", "label": "Yavin" },
+        { "id": "d", "label": "Endor" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p17",
+      "difficulty": "pro",
+      "text": "Quelle lune-jungle abrite la base rebelle d'où décollent les X-Wings dans l'épisode IV ?",
+      "options": [
+        { "id": "a", "label": "Yavin 4" },
+        { "id": "b", "label": "Hoth" },
+        { "id": "c", "label": "Endor" },
+        { "id": "d", "label": "Dantooine" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p18",
+      "difficulty": "pro",
+      "text": "Quel vieil ami de Han Solo l'accueille puis le trahit dans la Cité des Nuages ?",
+      "options": [
+        { "id": "a", "label": "Lando Calrissian" },
+        { "id": "b", "label": "Wedge Antilles" },
+        { "id": "c", "label": "Boba Fett" },
+        { "id": "d", "label": "Poe Dameron" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p19",
+      "difficulty": "pro",
+      "text": "Quel Jedi survit à la Grande Purge et s'exile sur Tatooine sous le nom de Ben ?",
+      "options": [
+        { "id": "a", "label": "Obi-Wan Kenobi" },
+        { "id": "b", "label": "Qui-Gon Jinn" },
+        { "id": "c", "label": "Mace Windu" },
+        { "id": "d", "label": "Kit Fisto" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p20",
+      "difficulty": "pro",
+      "text": "Quel commandement exécuté par les clones déclenche l'extermination des Jedi dans l'épisode III ?",
+      "options": [
+        { "id": "a", "label": "L'Ordre 66" },
+        { "id": "b", "label": "Le Protocole 7" },
+        { "id": "c", "label": "Le Décret 13" },
+        { "id": "d", "label": "Le Code 501" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p21",
+      "difficulty": "pro",
+      "text": "De quelle couleur sont les marquages des clones de la 501e légion d'Anakin ?",
+      "options": [
+        { "id": "a", "label": "Bleu" },
+        { "id": "b", "label": "Rouge" },
+        { "id": "c", "label": "Vert" },
+        { "id": "d", "label": "Jaune" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p22",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel officier Mon Calamari s'écrie « C'est un piège ! » dans l'épisode VI ?",
+      "answer": "Amiral Ackbar",
+      "funFact": "Sa réplique est devenue un mème planétaire."
+    },
+    {
+      "id": "sw-p23",
+      "difficulty": "pro",
+      "text": "De quel métal légendaire est forgée l'armure traditionnelle des Mandaloriens ?",
+      "options": [
+        { "id": "a", "label": "Le beskar" },
+        { "id": "b", "label": "L'adamantium" },
+        { "id": "c", "label": "Le vibranium" },
+        { "id": "d", "label": "La cortosis" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p24",
+      "difficulty": "pro",
+      "text": "Quel chasseur de primes est le héros de la série Le Mandalorien ?",
+      "options": [
+        { "id": "a", "label": "Din Djarin" },
+        { "id": "b", "label": "Boba Fett" },
+        { "id": "c", "label": "Cad Bane" },
+        { "id": "d", "label": "Jango Fett" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p25",
+      "difficulty": "pro",
+      "text": "Quelle planète abrite la Cité des Nuages exploitant le gaz tibanna ?",
+      "options": [
+        { "id": "a", "label": "Bespin" },
+        { "id": "b", "label": "Kamino" },
+        { "id": "c", "label": "Naboo" },
+        { "id": "d", "label": "Endor" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p26",
+      "difficulty": "pro",
+      "text": "Comment appelle-t-on le ver géant tapi dans l'astéroïde de l'épisode V ?",
+      "options": [
+        { "id": "a", "label": "Un exogorth" },
+        { "id": "b", "label": "Un sarlacc" },
+        { "id": "c", "label": "Un rancor" },
+        { "id": "d", "label": "Un wampa" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p27",
+      "difficulty": "pro",
+      "text": "Quelle créature affamée vit dans la fosse sous le palais de Jabba ?",
+      "options": [
+        { "id": "a", "label": "Le rancor" },
+        { "id": "b", "label": "Le sarlacc" },
+        { "id": "c", "label": "Le wampa" },
+        { "id": "d", "label": "Le dewback" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p28",
+      "difficulty": "pro",
+      "text": "Dans quelle créature du désert, qui digère sa proie très lentement, Boba Fett tombe-t-il ?",
+      "options": [
+        { "id": "a", "label": "Le sarlacc" },
+        { "id": "b", "label": "Le rancor" },
+        { "id": "c", "label": "Le wampa" },
+        { "id": "d", "label": "Le dewback" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p29",
+      "difficulty": "pro",
+      "text": "Quelle bête blanche attaque Luke sur la planète gelée au début de l'épisode V ?",
+      "options": [
+        { "id": "a", "label": "Le wampa" },
+        { "id": "b", "label": "Le tauntaun" },
+        { "id": "c", "label": "Le rancor" },
+        { "id": "d", "label": "Le bantha" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p30",
+      "difficulty": "pro",
+      "text": "Sur quelle monture à fourrure, semblable à un lézard, les rebelles patrouillent-ils dans la neige ?",
+      "options": [
+        { "id": "a", "label": "Le tauntaun" },
+        { "id": "b", "label": "Le bantha" },
+        { "id": "c", "label": "Le dewback" },
+        { "id": "d", "label": "Le wampa" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p31",
+      "difficulty": "pro",
+      "text": "Comment appelle-t-on les grands marcheurs impériaux à quatre pattes de la bataille dans la neige ?",
+      "options": [
+        { "id": "a", "label": "Les AT-AT" },
+        { "id": "b", "label": "Les AT-ST" },
+        { "id": "c", "label": "Les X-Wing" },
+        { "id": "d", "label": "Les Y-Wing" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p32",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel sous-titre porte l'épisode IX, ultime volet de la saga ?",
+      "answer": "L'Ascension de Skywalker",
+      "funFact": "Sorti en 2019, réalisé par J.J. Abrams."
+    },
+    {
+      "id": "sw-p33",
+      "difficulty": "pro",
+      "text": "Quel réalisateur signe Les Derniers Jedi, épisode VIII de la saga ?",
+      "options": [
+        { "id": "a", "label": "Rian Johnson" },
+        { "id": "b", "label": "J.J. Abrams" },
+        { "id": "c", "label": "George Lucas" },
+        { "id": "d", "label": "Gareth Edwards" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p34",
+      "difficulty": "pro",
+      "text": "Comment s'appelle le chef suprême du Premier Ordre, tué par Kylo Ren ?",
+      "options": [
+        { "id": "a", "label": "Snoke" },
+        { "id": "b", "label": "Palpatine" },
+        { "id": "c", "label": "Hux" },
+        { "id": "d", "label": "Tarkin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p35",
+      "difficulty": "pro",
+      "text": "Quel officier roux et fanatique commande les armées du Premier Ordre ?",
+      "options": [
+        { "id": "a", "label": "Le général Hux" },
+        { "id": "b", "label": "Le général Veers" },
+        { "id": "c", "label": "Le moff Tarkin" },
+        { "id": "d", "label": "L'amiral Piett" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p36",
+      "difficulty": "pro",
+      "text": "Qui décapite le Comte Dooku sur ordre de Palpatine dans l'épisode III ?",
+      "options": [
+        { "id": "a", "label": "Anakin" },
+        { "id": "b", "label": "Obi-Wan" },
+        { "id": "c", "label": "Windu" },
+        { "id": "d", "label": "Yoda" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p37",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Selon la légende, pendant combien d'années le Sarlacc digère-t-il ses victimes ?",
+      "answerValue": 1000,
+      "unit": "ans",
+      "funFact": "« Une mort lente sur mille ans », dit C-3PO."
+    },
+    {
+      "id": "sw-p38",
+      "difficulty": "pro",
+      "text": "Quel pilote rebelle, ami d'enfance de Luke, participe à l'assaut final de l'épisode IV ?",
+      "options": [
+        { "id": "a", "label": "Biggs Darklighter" },
+        { "id": "b", "label": "Poe Dameron" },
+        { "id": "c", "label": "Wedge Antilles" },
+        { "id": "d", "label": "Han Solo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p39",
+      "difficulty": "pro",
+      "text": "Sur quelle planète aride se déroule la grande bataille des arènes de l'épisode II ?",
+      "options": [
+        { "id": "a", "label": "Geonosis" },
+        { "id": "b", "label": "Kamino" },
+        { "id": "c", "label": "Naboo" },
+        { "id": "d", "label": "Mustafar" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sw-p40",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel sous-titre porte l'épisode III, où Anakin bascule définitivement ?",
+      "answer": "La Revanche des Sith",
+      "funFact": "Sorti en 2005, il clôt la prélogie."
+    }
+  ]
+}

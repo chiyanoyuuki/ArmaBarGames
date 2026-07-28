@@ -1,0 +1,1191 @@
+{
+  "universeId": "pokemon",
+  "questions": [
+    {
+      "id": "pkm-f1",
+      "difficulty": "facile",
+      "text": "Quel Pokémon électrique jaune accompagne Sacha dans le dessin animé ?",
+      "options": [
+        { "id": "a", "label": "Pikachu" },
+        { "id": "b", "label": "Raichu" },
+        { "id": "c", "label": "Pichu" },
+        { "id": "d", "label": "Évoli" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ce Pikachu refuse d'évoluer et de rester dans sa Poké Ball."
+    },
+    {
+      "id": "pkm-f2",
+      "difficulty": "facile",
+      "text": "Quel est le Pokémon de départ de type Feu de la première génération ?",
+      "options": [
+        { "id": "a", "label": "Salamèche" },
+        { "id": "b", "label": "Carapuce" },
+        { "id": "c", "label": "Bulbizarre" },
+        { "id": "d", "label": "Rondoudou" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "La flamme au bout de sa queue reflète son énergie vitale."
+    },
+    {
+      "id": "pkm-f3",
+      "difficulty": "facile",
+      "text": "Quel est le Pokémon de départ de type Eau de la première génération ?",
+      "options": [
+        { "id": "a", "label": "Carapuce" },
+        { "id": "b", "label": "Salamèche" },
+        { "id": "c", "label": "Bulbizarre" },
+        { "id": "d", "label": "Aspicot" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-f4",
+      "difficulty": "facile",
+      "text": "Quel est le Pokémon de départ de type Plante de la première génération ?",
+      "options": [
+        { "id": "a", "label": "Bulbizarre" },
+        { "id": "b", "label": "Carapuce" },
+        { "id": "c", "label": "Salamèche" },
+        { "id": "d", "label": "Roucool" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-f5",
+      "difficulty": "facile",
+      "text": "Quel est le type principal de Pikachu ?",
+      "options": [
+        { "id": "a", "label": "Électrik" },
+        { "id": "b", "label": "Feu" },
+        { "id": "c", "label": "Eau" },
+        { "id": "d", "label": "Plante" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-f6",
+      "difficulty": "facile",
+      "text": "Quel petit oiseau brun très commun croise-t-on dès les premières routes ?",
+      "options": [
+        { "id": "a", "label": "Roucool" },
+        { "id": "b", "label": "Dracaufeu" },
+        { "id": "c", "label": "Mewtwo" },
+        { "id": "d", "label": "Léviator" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-f7",
+      "difficulty": "facile",
+      "type": "buzzer",
+      "text": "Quel objet rond sert à capturer les Pokémon sauvages ?",
+      "answer": "La Poké Ball",
+      "funFact": "La Master Ball, elle, capture à coup sûr n'importe quel Pokémon."
+    },
+    {
+      "id": "pkm-f8",
+      "difficulty": "facile",
+      "text": "En quel Pokémon évolue Salamèche en premier ?",
+      "options": [
+        { "id": "a", "label": "Reptincel" },
+        { "id": "b", "label": "Dracaufeu" },
+        { "id": "c", "label": "Carabaffe" },
+        { "id": "d", "label": "Herbizarre" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-f9",
+      "difficulty": "facile",
+      "text": "Quel oiseau légendaire de la première génération est fait de flammes ?",
+      "options": [
+        { "id": "a", "label": "Sulfura" },
+        { "id": "b", "label": "Artikodin" },
+        { "id": "c", "label": "Électhor" },
+        { "id": "d", "label": "Mewtwo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-f10",
+      "difficulty": "facile",
+      "type": "estimation",
+      "text": "Combien de Pokémon comptait la toute première génération, dans Rouge et Bleu ?",
+      "answerValue": 151,
+      "unit": "Pokémon",
+      "funFact": "Du numéro 1 (Bulbizarre) au numéro 151 (Mew)."
+    },
+    {
+      "id": "pkm-m1",
+      "difficulty": "moyen",
+      "text": "Dans quelle région se déroulent les jeux Pokémon Rouge et Bleu ?",
+      "options": [
+        { "id": "a", "label": "Kanto" },
+        { "id": "b", "label": "Johto" },
+        { "id": "c", "label": "Hoenn" },
+        { "id": "d", "label": "Sinnoh" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-m2",
+      "difficulty": "moyen",
+      "text": "Quel Pokémon porte le numéro 150 du Pokédex national ?",
+      "options": [
+        { "id": "a", "label": "Mewtwo" },
+        { "id": "b", "label": "Mew" },
+        { "id": "c", "label": "Dracaufeu" },
+        { "id": "d", "label": "Léviator" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Créé en laboratoire à partir de l'ADN de Mew."
+    },
+    {
+      "id": "pkm-m3",
+      "difficulty": "moyen",
+      "text": "Quel Pokémon mythique porte le numéro 151, tout dernier de la première génération ?",
+      "options": [
+        { "id": "a", "label": "Mew" },
+        { "id": "b", "label": "Mewtwo" },
+        { "id": "c", "label": "Célébi" },
+        { "id": "d", "label": "Arceus" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-m4",
+      "difficulty": "moyen",
+      "text": "En quel Pokémon évolue Évoli grâce à une Pierre Foudre ?",
+      "options": [
+        { "id": "a", "label": "Voltali" },
+        { "id": "b", "label": "Aquali" },
+        { "id": "c", "label": "Pyroli" },
+        { "id": "d", "label": "Mentali" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-m5",
+      "difficulty": "moyen",
+      "text": "En quel Pokémon évolue Évoli grâce à une Pierre Feu ?",
+      "options": [
+        { "id": "a", "label": "Pyroli" },
+        { "id": "b", "label": "Voltali" },
+        { "id": "c", "label": "Aquali" },
+        { "id": "d", "label": "Noctali" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-m6",
+      "difficulty": "moyen",
+      "text": "En quel Pokémon évolue Évoli grâce à une Pierre Eau ?",
+      "options": [
+        { "id": "a", "label": "Aquali" },
+        { "id": "b", "label": "Pyroli" },
+        { "id": "c", "label": "Voltali" },
+        { "id": "d", "label": "Phyllali" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-m7",
+      "difficulty": "moyen",
+      "text": "Quelle organisation criminelle, dirigée par Giovanni, sévit dans la première génération ?",
+      "options": [
+        { "id": "a", "label": "Team Rocket" },
+        { "id": "b", "label": "Team Aqua" },
+        { "id": "c", "label": "Team Magma" },
+        { "id": "d", "label": "Team Plasma" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-m8",
+      "difficulty": "moyen",
+      "text": "Quel type est super efficace contre les Pokémon de type Feu ?",
+      "options": [
+        { "id": "a", "label": "Eau" },
+        { "id": "b", "label": "Plante" },
+        { "id": "c", "label": "Insecte" },
+        { "id": "d", "label": "Acier" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-m9",
+      "difficulty": "moyen",
+      "text": "Quel dragon orange est la dernière évolution de Minidraco ?",
+      "options": [
+        { "id": "a", "label": "Dracolosse" },
+        { "id": "b", "label": "Draco" },
+        { "id": "c", "label": "Ptéra" },
+        { "id": "d", "label": "Léviator" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-m10",
+      "difficulty": "moyen",
+      "text": "Quel serpent d'eau redoutable obtient-on en faisant évoluer Magicarpe ?",
+      "options": [
+        { "id": "a", "label": "Léviator" },
+        { "id": "b", "label": "Dracolosse" },
+        { "id": "c", "label": "Hypocéan" },
+        { "id": "d", "label": "Aquali" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-m11",
+      "difficulty": "moyen",
+      "type": "open",
+      "text": "Comment s'appelle le professeur qui offre son premier Pokémon au héros dans la région de Kanto ?",
+      "answer": "Chen",
+      "acceptedAnswers": ["chen", "professeur chen", "oak"],
+      "funFact": "Dans la version anglaise, il s'appelle Professeur Oak."
+    },
+    {
+      "id": "pkm-m12",
+      "difficulty": "moyen",
+      "text": "Combien de badges faut-il réunir avant d'affronter la Ligue Pokémon de Kanto ?",
+      "options": [
+        { "id": "a", "label": "Huit" },
+        { "id": "b", "label": "Six" },
+        { "id": "c", "label": "Sept" },
+        { "id": "d", "label": "Dix" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-m13",
+      "difficulty": "moyen",
+      "text": "Quel Pokémon rose et rond endort ses adversaires en chantant ?",
+      "options": [
+        { "id": "a", "label": "Rondoudou" },
+        { "id": "b", "label": "Mélofée" },
+        { "id": "c", "label": "Leveinard" },
+        { "id": "d", "label": "Métamorph" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-m14",
+      "difficulty": "moyen",
+      "text": "Quel Pokémon peut copier l'apparence de n'importe quel adversaire ?",
+      "options": [
+        { "id": "a", "label": "Métamorph" },
+        { "id": "b", "label": "Mew" },
+        { "id": "c", "label": "Kadabra" },
+        { "id": "d", "label": "Insolourdo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-m15",
+      "difficulty": "moyen",
+      "text": "Quel Pokémon à bulbe porte le numéro 1 du Pokédex national ?",
+      "options": [
+        { "id": "a", "label": "Bulbizarre" },
+        { "id": "b", "label": "Herbizarre" },
+        { "id": "c", "label": "Florizarre" },
+        { "id": "d", "label": "Mystherbe" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-m16",
+      "difficulty": "moyen",
+      "text": "Quelle est la dernière évolution de Carapuce ?",
+      "options": [
+        { "id": "a", "label": "Tortank" },
+        { "id": "b", "label": "Carabaffe" },
+        { "id": "c", "label": "Flagadoss" },
+        { "id": "d", "label": "Léviator" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-m17",
+      "difficulty": "moyen",
+      "text": "Quelle est la dernière évolution de Salamèche ?",
+      "options": [
+        { "id": "a", "label": "Dracaufeu" },
+        { "id": "b", "label": "Reptincel" },
+        { "id": "c", "label": "Dracolosse" },
+        { "id": "d", "label": "Ptéra" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-m18",
+      "difficulty": "moyen",
+      "text": "Quelle est la dernière évolution de Bulbizarre ?",
+      "options": [
+        { "id": "a", "label": "Florizarre" },
+        { "id": "b", "label": "Herbizarre" },
+        { "id": "c", "label": "Rafflesia" },
+        { "id": "d", "label": "Empiflor" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-m19",
+      "difficulty": "moyen",
+      "type": "estimation",
+      "text": "Combien de types élémentaires différents existaient dans la première génération ?",
+      "answerValue": 15,
+      "unit": "types",
+      "funFact": "Les types Acier et Ténèbres n'arriveront qu'en deuxième génération."
+    },
+    {
+      "id": "pkm-m20",
+      "difficulty": "moyen",
+      "text": "Quel oiseau légendaire de glace complète le trio de Kanto avec Sulfura et Électhor ?",
+      "options": [
+        { "id": "a", "label": "Artikodin" },
+        { "id": "b", "label": "Lugia" },
+        { "id": "c", "label": "Ho-Oh" },
+        { "id": "d", "label": "Dracolosse" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-d1",
+      "difficulty": "dur",
+      "text": "Quel est le nom anglais de Salamèche ?",
+      "options": [
+        { "id": "a", "label": "Charmander" },
+        { "id": "b", "label": "Charmeleon" },
+        { "id": "c", "label": "Charizard" },
+        { "id": "d", "label": "Cyndaquil" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-d2",
+      "difficulty": "dur",
+      "text": "Quel est le nom anglais de Dracaufeu ?",
+      "options": [
+        { "id": "a", "label": "Charizard" },
+        { "id": "b", "label": "Charmander" },
+        { "id": "c", "label": "Charmeleon" },
+        { "id": "d", "label": "Blastoise" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-d3",
+      "difficulty": "dur",
+      "text": "Par quel moyen Machopeur évolue-t-il en Mackogneur ?",
+      "options": [
+        { "id": "a", "label": "Un échange" },
+        { "id": "b", "label": "Un combat" },
+        { "id": "c", "label": "Une potion" },
+        { "id": "d", "label": "Un bonbon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-d4",
+      "difficulty": "dur",
+      "text": "Combien de Pokémon un dresseur peut-il emmener au maximum dans son équipe active ?",
+      "options": [
+        { "id": "a", "label": "Six" },
+        { "id": "b", "label": "Quatre" },
+        { "id": "c", "label": "Cinq" },
+        { "id": "d", "label": "Huit" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-d5",
+      "difficulty": "dur",
+      "text": "Quel Pokémon spectre hante la Tour Pokémon de Lavanville ?",
+      "options": [
+        { "id": "a", "label": "Fantominus" },
+        { "id": "b", "label": "Osselait" },
+        { "id": "c", "label": "Mélofée" },
+        { "id": "d", "label": "Nosferapti" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-d6",
+      "difficulty": "dur",
+      "text": "Grâce à quel objet Évoli devient-il Pyroli ?",
+      "options": [
+        { "id": "a", "label": "Pierre Feu" },
+        { "id": "b", "label": "Pierre Eau" },
+        { "id": "c", "label": "Pierre Foudre" },
+        { "id": "d", "label": "Pierre Plante" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-d7",
+      "difficulty": "dur",
+      "text": "De quel type est le légendaire Mewtwo ?",
+      "options": [
+        { "id": "a", "label": "Psy" },
+        { "id": "b", "label": "Spectre" },
+        { "id": "c", "label": "Ténèbres" },
+        { "id": "d", "label": "Combat" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-d8",
+      "difficulty": "dur",
+      "type": "open",
+      "text": "Dans quelle ville se trouve la première arène de Kanto, tenue par le champion Pierre ?",
+      "answer": "Argenta",
+      "acceptedAnswers": ["argenta"],
+      "funFact": "Pierre y utilise des Pokémon de type Roche."
+    },
+    {
+      "id": "pkm-d9",
+      "difficulty": "dur",
+      "text": "Quel champion d'arène de Kanto est spécialiste des Pokémon de type Eau ?",
+      "options": [
+        { "id": "a", "label": "Ondine" },
+        { "id": "b", "label": "Pierre" },
+        { "id": "c", "label": "Erika" },
+        { "id": "d", "label": "Koga" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-d10",
+      "difficulty": "dur",
+      "text": "Quel type est totalement insensible aux attaques de type Normal ?",
+      "options": [
+        { "id": "a", "label": "Spectre" },
+        { "id": "b", "label": "Psy" },
+        { "id": "c", "label": "Acier" },
+        { "id": "d", "label": "Vol" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-d11",
+      "difficulty": "dur",
+      "text": "Quel Pokémon fossile ailé ressemble à un ptérodactyle ?",
+      "options": [
+        { "id": "a", "label": "Ptéra" },
+        { "id": "b", "label": "Kabuto" },
+        { "id": "c", "label": "Amonita" },
+        { "id": "d", "label": "Ossatueur" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-d12",
+      "difficulty": "dur",
+      "text": "Quels sont les deux types du Pokémon Onix ?",
+      "options": [
+        { "id": "a", "label": "Roche et Sol" },
+        { "id": "b", "label": "Eau et Roche" },
+        { "id": "c", "label": "Sol et Acier" },
+        { "id": "d", "label": "Roche et Vol" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-d13",
+      "difficulty": "dur",
+      "text": "Quel Pokémon rocheux à quatre pattes est la dernière évolution de Racaillou ?",
+      "options": [
+        { "id": "a", "label": "Grolem" },
+        { "id": "b", "label": "Gravalanch" },
+        { "id": "c", "label": "Onix" },
+        { "id": "d", "label": "Rhinoféros" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-d14",
+      "difficulty": "dur",
+      "text": "Quel Pokémon endormi bloque souvent le passage en dormant en travers de la route ?",
+      "options": [
+        { "id": "a", "label": "Ronflex" },
+        { "id": "b", "label": "Flagadoss" },
+        { "id": "c", "label": "Otaria" },
+        { "id": "d", "label": "Léviator" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-d15",
+      "difficulty": "dur",
+      "text": "Quel Pokémon violet et venimeux est la dernière évolution de la lignée mâle de Nidoran ?",
+      "options": [
+        { "id": "a", "label": "Nidoking" },
+        { "id": "b", "label": "Nidoqueen" },
+        { "id": "c", "label": "Nidorino" },
+        { "id": "d", "label": "Rhinoféros" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-d16",
+      "difficulty": "dur",
+      "text": "Quel Pokémon-plante carnivore est la dernière évolution de Chétiflor ?",
+      "options": [
+        { "id": "a", "label": "Empiflor" },
+        { "id": "b", "label": "Boustiflor" },
+        { "id": "c", "label": "Rafflesia" },
+        { "id": "d", "label": "Saquedeneu" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-d17",
+      "difficulty": "dur",
+      "text": "Comment se nomme le Pokémon-chat de la Team Rocket, connu pour parler la langue humaine ?",
+      "options": [
+        { "id": "a", "label": "Miaouss" },
+        { "id": "b", "label": "Persian" },
+        { "id": "c", "label": "Évoli" },
+        { "id": "d", "label": "Caninos" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il a appris à parler pour impressionner une Miaouss dont il était amoureux."
+    },
+    {
+      "id": "pkm-d18",
+      "difficulty": "dur",
+      "text": "Quel Pokémon spectre violet est la dernière évolution de Fantominus ?",
+      "options": [
+        { "id": "a", "label": "Ectoplasma" },
+        { "id": "b", "label": "Spectrum" },
+        { "id": "c", "label": "Feuforêve" },
+        { "id": "d", "label": "Osselait" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-d19",
+      "difficulty": "dur",
+      "text": "Quel Pokémon psychique à cuillères est la dernière évolution d'Abra ?",
+      "options": [
+        { "id": "a", "label": "Alakazam" },
+        { "id": "b", "label": "Kadabra" },
+        { "id": "c", "label": "Mentali" },
+        { "id": "d", "label": "Xatu" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-d20",
+      "difficulty": "dur",
+      "text": "Quel Pokémon oiseau à trois têtes évolue depuis Doduo ?",
+      "options": [
+        { "id": "a", "label": "Dodrio" },
+        { "id": "b", "label": "Roucarnage" },
+        { "id": "c", "label": "Aéromite" },
+        { "id": "d", "label": "Rapasdepic" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-d21",
+      "difficulty": "dur",
+      "text": "Quelle mante verte aux lames acérées fonce sur ses proies ?",
+      "options": [
+        { "id": "a", "label": "Insécateur" },
+        { "id": "b", "label": "Scarabrute" },
+        { "id": "c", "label": "Apitrini" },
+        { "id": "d", "label": "Coxyclaque" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-d22",
+      "difficulty": "dur",
+      "text": "Quel Pokémon poisson-clown est associé à l'Anémone dans certains jeux ?",
+      "options": [
+        { "id": "a", "label": "Poissoroy" },
+        { "id": "b", "label": "Rémoraid" },
+        { "id": "c", "label": "Poissirène" },
+        { "id": "d", "label": "Hypotrempe" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-d23",
+      "difficulty": "dur",
+      "text": "Quel studio japonais développe la série principale des jeux Pokémon ?",
+      "options": [
+        { "id": "a", "label": "Game Freak" },
+        { "id": "b", "label": "Square Enix" },
+        { "id": "c", "label": "Bandai Namco" },
+        { "id": "d", "label": "HAL Laboratory" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-d24",
+      "difficulty": "dur",
+      "text": "Quel type a un avantage sur les Pokémon Sol, Roche et Feu à la fois ?",
+      "options": [
+        { "id": "a", "label": "Eau" },
+        { "id": "b", "label": "Plante" },
+        { "id": "c", "label": "Électrik" },
+        { "id": "d", "label": "Glace" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-d25",
+      "difficulty": "dur",
+      "text": "En quel Pokémon à coquille bleue évolue Kokiyas ?",
+      "options": [
+        { "id": "a", "label": "Crustabri" },
+        { "id": "b", "label": "Kabutops" },
+        { "id": "c", "label": "Flagadoss" },
+        { "id": "d", "label": "Tortank" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-d26",
+      "difficulty": "dur",
+      "text": "Quel Pokémon électrique à quatre pattes est la seule évolution de Voltorbe ?",
+      "options": [
+        { "id": "a", "label": "Électrode" },
+        { "id": "b", "label": "Élektek" },
+        { "id": "c", "label": "Pikachu" },
+        { "id": "d", "label": "Magnéton" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-d27",
+      "difficulty": "dur",
+      "text": "Quel Pokémon en forme d'œuf est réputé donner beaucoup de points d'expérience ?",
+      "options": [
+        { "id": "a", "label": "Leveinard" },
+        { "id": "b", "label": "Ptitard" },
+        { "id": "c", "label": "Métamorph" },
+        { "id": "d", "label": "Ronflex" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-d28",
+      "difficulty": "dur",
+      "text": "Dans le dessin animé, de quel lieu de Kanto Sacha est-il originaire ?",
+      "options": [
+        { "id": "a", "label": "Bourg Palette" },
+        { "id": "b", "label": "Mont Sélénite" },
+        { "id": "c", "label": "Îles Écume" },
+        { "id": "d", "label": "Plateau Indigo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-d29",
+      "difficulty": "dur",
+      "type": "ordre",
+      "text": "Classe ces Pokémon selon la lignée d'évolution de Bulbizarre, du premier au dernier stade.",
+      "items": [
+        { "id": "b", "label": "Bulbizarre" },
+        { "id": "h", "label": "Herbizarre" },
+        { "id": "f", "label": "Florizarre" }
+      ],
+      "funFact": "Chaque stade développe davantage le bulbe devenu fleur."
+    },
+    {
+      "id": "pkm-d30",
+      "difficulty": "dur",
+      "text": "Quel Pokémon renard à neuf queues est l'évolution de Goupix ?",
+      "options": [
+        { "id": "a", "label": "Feunard" },
+        { "id": "b", "label": "Caninos" },
+        { "id": "c", "label": "Arcanin" },
+        { "id": "d", "label": "Pyroli" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p1",
+      "difficulty": "pro",
+      "text": "Quel est le nom anglais de Carapuce ?",
+      "options": [
+        { "id": "a", "label": "Squirtle" },
+        { "id": "b", "label": "Wartortle" },
+        { "id": "c", "label": "Blastoise" },
+        { "id": "d", "label": "Bulbasaur" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p2",
+      "difficulty": "pro",
+      "text": "Quel est le nom anglais de Tortank ?",
+      "options": [
+        { "id": "a", "label": "Blastoise" },
+        { "id": "b", "label": "Wartortle" },
+        { "id": "c", "label": "Squirtle" },
+        { "id": "d", "label": "Venusaur" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p3",
+      "difficulty": "pro",
+      "text": "Quel est le nom anglais de Florizarre ?",
+      "options": [
+        { "id": "a", "label": "Venusaur" },
+        { "id": "b", "label": "Ivysaur" },
+        { "id": "c", "label": "Bulbasaur" },
+        { "id": "d", "label": "Venomoth" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p4",
+      "difficulty": "pro",
+      "text": "Quel est le nom anglais de Roucool ?",
+      "options": [
+        { "id": "a", "label": "Pidgey" },
+        { "id": "b", "label": "Pidgeotto" },
+        { "id": "c", "label": "Pidgeot" },
+        { "id": "d", "label": "Spearow" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p5",
+      "difficulty": "pro",
+      "text": "Quel Pokémon porte le numéro 130 du Pokédex national ?",
+      "options": [
+        { "id": "a", "label": "Léviator" },
+        { "id": "b", "label": "Magicarpe" },
+        { "id": "c", "label": "Dracolosse" },
+        { "id": "d", "label": "Ptéra" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p6",
+      "difficulty": "pro",
+      "text": "Qui est le créateur original de la licence Pokémon et fondateur de Game Freak ?",
+      "options": [
+        { "id": "a", "label": "Satoshi Tajiri" },
+        { "id": "b", "label": "Shigeru Miyamoto" },
+        { "id": "c", "label": "Ken Sugimori" },
+        { "id": "d", "label": "Junichi Masuda" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Enfant, il collectionnait les insectes, ce qui a inspiré la capture de Pokémon."
+    },
+    {
+      "id": "pkm-p7",
+      "difficulty": "pro",
+      "text": "Quel illustrateur a dessiné les designs originaux des 151 premiers Pokémon ?",
+      "options": [
+        { "id": "a", "label": "Ken Sugimori" },
+        { "id": "b", "label": "Satoshi Tajiri" },
+        { "id": "c", "label": "Junichi Masuda" },
+        { "id": "d", "label": "Hironobu Sakaguchi" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p8",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "En quelle année les tout premiers jeux Pokémon Rouge et Vert sont-ils sortis au Japon ?",
+      "answerValue": 1996,
+      "unit": "",
+      "funFact": "En février 1996, sur Game Boy."
+    },
+    {
+      "id": "pkm-p9",
+      "difficulty": "pro",
+      "text": "Quels deux nouveaux types élémentaires sont apparus avec la deuxième génération ?",
+      "options": [
+        { "id": "a", "label": "Acier et Ténèbres" },
+        { "id": "b", "label": "Fée et Acier" },
+        { "id": "c", "label": "Dragon et Fée" },
+        { "id": "d", "label": "Ténèbres et Fée" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p10",
+      "difficulty": "pro",
+      "text": "Quel type élémentaire est apparu seulement à la sixième génération ?",
+      "options": [
+        { "id": "a", "label": "Fée" },
+        { "id": "b", "label": "Acier" },
+        { "id": "c", "label": "Ténèbres" },
+        { "id": "d", "label": "Dragon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p11",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien de Pokémon la deuxième génération, celle de Johto, a-t-elle ajoutés ?",
+      "answerValue": 100,
+      "unit": "Pokémon",
+      "funFact": "Du numéro 152 (Germignon) au numéro 251 (Célébi)."
+    },
+    {
+      "id": "pkm-p12",
+      "difficulty": "pro",
+      "text": "Dans quelle région se déroulent les jeux Pokémon Rubis et Saphir ?",
+      "options": [
+        { "id": "a", "label": "Hoenn" },
+        { "id": "b", "label": "Sinnoh" },
+        { "id": "c", "label": "Unys" },
+        { "id": "d", "label": "Kalos" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p13",
+      "difficulty": "pro",
+      "text": "Dans quelle région se déroulent les jeux Pokémon Noir et Blanc ?",
+      "options": [
+        { "id": "a", "label": "Unys" },
+        { "id": "b", "label": "Hoenn" },
+        { "id": "c", "label": "Sinnoh" },
+        { "id": "d", "label": "Galar" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p14",
+      "difficulty": "pro",
+      "text": "Quel Pokémon légendaire est présent sur la boîte de Pokémon Rubis ?",
+      "options": [
+        { "id": "a", "label": "Groudon" },
+        { "id": "b", "label": "Kyogre" },
+        { "id": "c", "label": "Rayquaza" },
+        { "id": "d", "label": "Dialga" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p15",
+      "difficulty": "pro",
+      "text": "Quel Pokémon légendaire figure sur la boîte de Pokémon Diamant ?",
+      "options": [
+        { "id": "a", "label": "Dialga" },
+        { "id": "b", "label": "Palkia" },
+        { "id": "c", "label": "Giratina" },
+        { "id": "d", "label": "Arceus" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p16",
+      "difficulty": "pro",
+      "text": "Quel Pokémon est considéré comme le \"dieu\" créateur dans la mythologie de Sinnoh ?",
+      "options": [
+        { "id": "a", "label": "Arceus" },
+        { "id": "b", "label": "Dialga" },
+        { "id": "c", "label": "Palkia" },
+        { "id": "d", "label": "Mewtwo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p17",
+      "difficulty": "pro",
+      "text": "Quelle capacité surpuissante était réputée dominer les combats en première génération grâce à Léviator et consorts ?",
+      "options": [
+        { "id": "a", "label": "Hydrocanon" },
+        { "id": "b", "label": "Charge" },
+        { "id": "c", "label": "Écras'Face" },
+        { "id": "d", "label": "Météores" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p18",
+      "difficulty": "pro",
+      "text": "Quel Pokémon insecte/poison est l'évolution finale de Chenipan ?",
+      "options": [
+        { "id": "a", "label": "Papilusion" },
+        { "id": "b", "label": "Dardargnan" },
+        { "id": "c", "label": "Coconfort" },
+        { "id": "d", "label": "Aéromite" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p19",
+      "difficulty": "pro",
+      "text": "Quel Pokémon insecte/poison est l'évolution finale d'Aspicot ?",
+      "options": [
+        { "id": "a", "label": "Dardargnan" },
+        { "id": "b", "label": "Papilusion" },
+        { "id": "c", "label": "Coconfort" },
+        { "id": "d", "label": "Scarabrute" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p20",
+      "difficulty": "pro",
+      "text": "Quel est le tout premier maître de la Ligue Pokémon (champion) affronté dans Rouge et Bleu ?",
+      "options": [
+        { "id": "a", "label": "Régis" },
+        { "id": "b", "label": "Peter" },
+        { "id": "c", "label": "Giovanni" },
+        { "id": "d", "label": "Aldo" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Régis est le rival du héros, petit-fils du Professeur Chen."
+    },
+    {
+      "id": "pkm-p21",
+      "difficulty": "pro",
+      "text": "Quel membre du Conseil 4 de Kanto est spécialiste des Pokémon de type Dragon ?",
+      "options": [
+        { "id": "a", "label": "Peter" },
+        { "id": "b", "label": "Olga" },
+        { "id": "c", "label": "Aldo" },
+        { "id": "d", "label": "Agatha" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p22",
+      "difficulty": "pro",
+      "text": "Quel Pokémon de Kanto porte le numéro 143 du Pokédex national ?",
+      "options": [
+        { "id": "a", "label": "Ronflex" },
+        { "id": "b", "label": "Léviator" },
+        { "id": "c", "label": "Dracolosse" },
+        { "id": "d", "label": "Leveinard" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p23",
+      "difficulty": "pro",
+      "text": "Quel Pokémon solitaire porte un crâne sur la tête et manie un os ?",
+      "options": [
+        { "id": "a", "label": "Osselait" },
+        { "id": "b", "label": "Ossatueur" },
+        { "id": "c", "label": "Kranidos" },
+        { "id": "d", "label": "Galopa" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Il porterait le crâne de sa mère disparue."
+    },
+    {
+      "id": "pkm-p24",
+      "difficulty": "pro",
+      "text": "Quel Pokémon de type Sol/Roche à corne est la dernière évolution de Rhinocorne ?",
+      "options": [
+        { "id": "a", "label": "Rhinoféros" },
+        { "id": "b", "label": "Rhinastoc" },
+        { "id": "c", "label": "Nidoking" },
+        { "id": "d", "label": "Simularbre" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p25",
+      "difficulty": "pro",
+      "text": "Quel Pokémon aimant de type Électrik/Acier est formé de trois Magnéti assemblés ?",
+      "options": [
+        { "id": "a", "label": "Magnéton" },
+        { "id": "b", "label": "Électrode" },
+        { "id": "c", "label": "Magnézone" },
+        { "id": "d", "label": "Élektek" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p26",
+      "difficulty": "pro",
+      "text": "Quel Pokémon combat au corps à corps est la dernière évolution de Machoc ?",
+      "options": [
+        { "id": "a", "label": "Mackogneur" },
+        { "id": "b", "label": "Machopeur" },
+        { "id": "c", "label": "Colossinge" },
+        { "id": "d", "label": "Tygnon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p27",
+      "difficulty": "pro",
+      "text": "Quel Pokémon psychique félin rose obtient-on parfois grâce à un événement spécial dans la Gen 1 ?",
+      "options": [
+        { "id": "a", "label": "Mew" },
+        { "id": "b", "label": "Mewtwo" },
+        { "id": "c", "label": "Persian" },
+        { "id": "d", "label": "Feunard" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p28",
+      "difficulty": "pro",
+      "text": "Quel Pokémon rocheux se fait souvent passer pour un arbre grâce à son type Roche ?",
+      "options": [
+        { "id": "a", "label": "Simularbre" },
+        { "id": "b", "label": "Tarpaud" },
+        { "id": "c", "label": "Grolem" },
+        { "id": "d", "label": "Onix" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p29",
+      "difficulty": "pro",
+      "text": "Quel Pokémon de type Glace/Vol légendaire figure dans le premier film Pokémon aux côtés de Mewtwo ?",
+      "options": [
+        { "id": "a", "label": "Artikodin" },
+        { "id": "b", "label": "Lugia" },
+        { "id": "c", "label": "Sulfura" },
+        { "id": "d", "label": "Rayquaza" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p30",
+      "difficulty": "pro",
+      "text": "Quelle est l'évolution de Caninos, célèbre Pokémon-chien de type Feu ?",
+      "options": [
+        { "id": "a", "label": "Arcanin" },
+        { "id": "b", "label": "Feunard" },
+        { "id": "c", "label": "Galopa" },
+        { "id": "d", "label": "Ponyta" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p31",
+      "difficulty": "pro",
+      "text": "Quel Pokémon jumeau à quatre bras et deux visages est de type Psy ?",
+      "options": [
+        { "id": "a", "label": "Kadabra" },
+        { "id": "b", "label": "M. Mime" },
+        { "id": "c", "label": "Insolourdo" },
+        { "id": "d", "label": "Mewtwo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p32",
+      "difficulty": "pro",
+      "text": "Quelle attaque de type Normal est capable de mettre KO en un coup mais rate souvent ?",
+      "options": [
+        { "id": "a", "label": "Guillotine" },
+        { "id": "b", "label": "Charge" },
+        { "id": "c", "label": "Vive-Attaque" },
+        { "id": "d", "label": "Plaquage" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p33",
+      "difficulty": "pro",
+      "text": "Quel Pokémon-canard bleu de type Eau se tient souvent la tête à cause de maux de crâne ?",
+      "options": [
+        { "id": "a", "label": "Psykokwak" },
+        { "id": "b", "label": "Akwakwak" },
+        { "id": "c", "label": "Canarticho" },
+        { "id": "d", "label": "Otaria" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Ses migraines déclenchent ses pouvoirs psychiques."
+    },
+    {
+      "id": "pkm-p34",
+      "difficulty": "pro",
+      "text": "Quel Pokémon de type Combat évolue à partir de Ferosinge ?",
+      "options": [
+        { "id": "a", "label": "Colossinge" },
+        { "id": "b", "label": "Mackogneur" },
+        { "id": "c", "label": "Kicklee" },
+        { "id": "d", "label": "Tygnon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p35",
+      "difficulty": "pro",
+      "text": "Quel Pokémon de type Poison à crâne mou est réputé exhaler des gaz nauséabonds ?",
+      "options": [
+        { "id": "a", "label": "Smogo" },
+        { "id": "b", "label": "Grotadmorv" },
+        { "id": "c", "label": "Tadmorv" },
+        { "id": "d", "label": "Arbok" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p36",
+      "difficulty": "pro",
+      "text": "Quel Pokémon serpent est l'évolution d'Abo ?",
+      "options": [
+        { "id": "a", "label": "Arbok" },
+        { "id": "b", "label": "Séviper" },
+        { "id": "c", "label": "Serpang" },
+        { "id": "d", "label": "Nidoking" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p37",
+      "difficulty": "pro",
+      "text": "Quel Pokémon de départ de la deuxième génération est de type Plante ?",
+      "options": [
+        { "id": "a", "label": "Germignon" },
+        { "id": "b", "label": "Héricendre" },
+        { "id": "c", "label": "Kaiminus" },
+        { "id": "d", "label": "Arcko" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p38",
+      "difficulty": "pro",
+      "text": "Quel légendaire oiseau multicolore est présent sur la boîte de Pokémon Or ?",
+      "options": [
+        { "id": "a", "label": "Ho-Oh" },
+        { "id": "b", "label": "Lugia" },
+        { "id": "c", "label": "Sulfura" },
+        { "id": "d", "label": "Rayquaza" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p39",
+      "difficulty": "pro",
+      "text": "Quel Pokémon de type Psy évolue depuis Tarsal puis Kirlia (2ᵉ moitié de la lignée) ?",
+      "options": [
+        { "id": "a", "label": "Gardevoir" },
+        { "id": "b", "label": "Mentali" },
+        { "id": "c", "label": "Alakazam" },
+        { "id": "d", "label": "Xatu" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "pkm-p40",
+      "difficulty": "pro",
+      "text": "Quelle console portable a accueilli la toute première génération de Pokémon ?",
+      "options": [
+        { "id": "a", "label": "Game Boy" },
+        { "id": "b", "label": "Nintendo DS" },
+        { "id": "c", "label": "Game Boy Advance" },
+        { "id": "d", "label": "Nintendo Switch" }
+      ],
+      "correctOptionId": "a"
+    }
+  ]
+}

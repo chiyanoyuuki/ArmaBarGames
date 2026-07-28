@@ -208,6 +208,973 @@
       "text": "Quel philosophe grec fut le précepteur d'Alexandre le Grand ?",
       "answer": "Aristote",
       "funFact": "Il fut lui-même l'élève de Platon."
+    },
+    {
+      "id": "cg-f5",
+      "difficulty": "facile",
+      "type": "qcm",
+      "text": "Combien de continents compte la Terre ?",
+      "options": [
+        { "id": "a", "label": "Sept" },
+        { "id": "b", "label": "Cinq" },
+        { "id": "c", "label": "Six" },
+        { "id": "d", "label": "Huit" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-f6",
+      "difficulty": "facile",
+      "type": "qcm",
+      "text": "Quelle planète est surnommée la planète rouge ?",
+      "options": [
+        { "id": "a", "label": "Mars" },
+        { "id": "b", "label": "Vénus" },
+        { "id": "c", "label": "Jupiter" },
+        { "id": "d", "label": "Saturne" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-f7",
+      "difficulty": "facile",
+      "type": "buzzer",
+      "text": "Autour de quel astre la Terre tourne-t-elle ?",
+      "answer": "Le Soleil"
+    },
+    {
+      "id": "cg-f8",
+      "difficulty": "facile",
+      "type": "qcm",
+      "text": "Combien de jours compte une année non bissextile ?",
+      "options": [
+        { "id": "a", "label": "365" },
+        { "id": "b", "label": "360" },
+        { "id": "c", "label": "366" },
+        { "id": "d", "label": "364" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-f9",
+      "difficulty": "facile",
+      "type": "open",
+      "text": "Quel est le plus grand animal du monde, un mammifère marin ?",
+      "answer": "La baleine bleue",
+      "acceptedAnswers": ["baleine bleue", "la baleine bleue", "baleine", "rorqual bleu"],
+      "funFact": "Elle peut mesurer plus de 30 mètres de long."
+    },
+    {
+      "id": "cg-f10",
+      "difficulty": "facile",
+      "type": "qcm",
+      "text": "De quelle couleur est le sang humain riche en oxygène ?",
+      "options": [
+        { "id": "a", "label": "Rouge" },
+        { "id": "b", "label": "Bleu" },
+        { "id": "c", "label": "Vert" },
+        { "id": "d", "label": "Jaune" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-m6",
+      "difficulty": "moyen",
+      "type": "qcm",
+      "text": "Quel pays a la forme d'une botte ?",
+      "options": [
+        { "id": "a", "label": "L'Italie" },
+        { "id": "b", "label": "L'Espagne" },
+        { "id": "c", "label": "La Grèce" },
+        { "id": "d", "label": "Le Portugal" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-m7",
+      "difficulty": "moyen",
+      "type": "qcm",
+      "text": "Quelle langue compte le plus de locuteurs natifs dans le monde ?",
+      "options": [
+        { "id": "a", "label": "Le mandarin" },
+        { "id": "b", "label": "L'anglais" },
+        { "id": "c", "label": "L'espagnol" },
+        { "id": "d", "label": "L'hindi" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-m8",
+      "difficulty": "moyen",
+      "type": "qcm",
+      "text": "Qui a peint le plafond de la chapelle Sixtine ?",
+      "options": [
+        { "id": "a", "label": "Michel-Ange" },
+        { "id": "b", "label": "Raphaël" },
+        { "id": "c", "label": "Botticelli" },
+        { "id": "d", "label": "Donatello" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-m9",
+      "difficulty": "moyen",
+      "type": "estimation",
+      "text": "Combien de touches compte un piano classique complet ?",
+      "answerValue": 88,
+      "unit": "touches"
+    },
+    {
+      "id": "cg-m10",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel gaz les plantes absorbent-elles de l'air pour réaliser la photosynthèse ?",
+      "answer": "Le dioxyde de carbone",
+      "funFact": "Elles rejettent en échange de l'oxygène."
+    },
+    {
+      "id": "cg-m11",
+      "difficulty": "moyen",
+      "type": "qcm",
+      "text": "Quel est le plus long fleuve du monde ?",
+      "options": [
+        { "id": "a", "label": "Le Nil" },
+        { "id": "b", "label": "L'Amazone" },
+        { "id": "c", "label": "Le Mississippi" },
+        { "id": "d", "label": "Le Yangtsé" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-m12",
+      "difficulty": "moyen",
+      "type": "qcm",
+      "text": "Combien de côtés possède un hexagone ?",
+      "options": [
+        { "id": "a", "label": "Six" },
+        { "id": "b", "label": "Cinq" },
+        { "id": "c", "label": "Sept" },
+        { "id": "d", "label": "Huit" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-m13",
+      "difficulty": "moyen",
+      "type": "qcm",
+      "text": "Quel organe pompe le sang dans le corps humain ?",
+      "options": [
+        { "id": "a", "label": "Le cœur" },
+        { "id": "b", "label": "Le foie" },
+        { "id": "c", "label": "Le rein" },
+        { "id": "d", "label": "Le poumon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-m14",
+      "difficulty": "moyen",
+      "type": "qcm",
+      "text": "En quelle année a débuté la Révolution française ?",
+      "options": [
+        { "id": "a", "label": "1789" },
+        { "id": "b", "label": "1515" },
+        { "id": "c", "label": "1804" },
+        { "id": "d", "label": "1848" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-m15",
+      "difficulty": "moyen",
+      "type": "ordre",
+      "text": "Classe ces unités de longueur de la plus petite à la plus grande.",
+      "items": [
+        { "id": "mm", "label": "Millimètre" },
+        { "id": "cm", "label": "Centimètre" },
+        { "id": "m", "label": "Mètre" },
+        { "id": "km", "label": "Kilomètre" }
+      ]
+    },
+    {
+      "id": "cg-m16",
+      "difficulty": "moyen",
+      "type": "qcm",
+      "text": "Quelle mer sépare l'Europe de l'Afrique du Nord ?",
+      "options": [
+        { "id": "a", "label": "La Méditerranée" },
+        { "id": "b", "label": "La mer Rouge" },
+        { "id": "c", "label": "La mer Noire" },
+        { "id": "d", "label": "La mer Baltique" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-m17",
+      "difficulty": "moyen",
+      "type": "qcm",
+      "text": "Qui a écrit la pièce Roméo et Juliette ?",
+      "options": [
+        { "id": "a", "label": "William Shakespeare" },
+        { "id": "b", "label": "Victor Hugo" },
+        { "id": "c", "label": "Molière" },
+        { "id": "d", "label": "Voltaire" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-m18",
+      "difficulty": "moyen",
+      "type": "qcm",
+      "text": "Quel est le symbole chimique de la molécule d'eau ?",
+      "options": [
+        { "id": "a", "label": "H2O" },
+        { "id": "b", "label": "CO2" },
+        { "id": "c", "label": "O2" },
+        { "id": "d", "label": "NaCl" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-m19",
+      "difficulty": "moyen",
+      "type": "qcm",
+      "text": "Quelle est la capitale de l'Espagne ?",
+      "options": [
+        { "id": "a", "label": "Madrid" },
+        { "id": "b", "label": "Barcelone" },
+        { "id": "c", "label": "Séville" },
+        { "id": "d", "label": "Valence" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-m20",
+      "difficulty": "moyen",
+      "type": "estimation",
+      "text": "À combien de degrés Celsius l'eau bout-elle au niveau de la mer ?",
+      "answerValue": 100,
+      "unit": "°C"
+    },
+    {
+      "id": "cg-d7",
+      "difficulty": "dur",
+      "type": "qcm",
+      "text": "Quel peintre néerlandais s'est tranché une partie de l'oreille ?",
+      "options": [
+        { "id": "a", "label": "Van Gogh" },
+        { "id": "b", "label": "Rembrandt" },
+        { "id": "c", "label": "Vermeer" },
+        { "id": "d", "label": "Monet" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-d8",
+      "difficulty": "dur",
+      "type": "qcm",
+      "text": "Quelle est la plus petite planète du système solaire ?",
+      "options": [
+        { "id": "a", "label": "Mercure" },
+        { "id": "b", "label": "Mars" },
+        { "id": "c", "label": "Vénus" },
+        { "id": "d", "label": "Pluton" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-d9",
+      "difficulty": "dur",
+      "type": "qcm",
+      "text": "Quel naturaliste a proposé la théorie de l'évolution par sélection naturelle ?",
+      "options": [
+        { "id": "a", "label": "Charles Darwin" },
+        { "id": "b", "label": "Isaac Newton" },
+        { "id": "c", "label": "Louis Pasteur" },
+        { "id": "d", "label": "Gregor Mendel" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-d10",
+      "difficulty": "dur",
+      "type": "qcm",
+      "text": "Quelle est la monnaie officielle du Royaume-Uni ?",
+      "options": [
+        { "id": "a", "label": "La livre sterling" },
+        { "id": "b", "label": "L'euro" },
+        { "id": "c", "label": "Le dollar" },
+        { "id": "d", "label": "Le franc" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-d11",
+      "difficulty": "dur",
+      "type": "qcm",
+      "text": "Quel pays a offert la statue de la Liberté aux États-Unis ?",
+      "options": [
+        { "id": "a", "label": "La France" },
+        { "id": "b", "label": "Le Royaume-Uni" },
+        { "id": "c", "label": "L'Espagne" },
+        { "id": "d", "label": "L'Italie" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-d12",
+      "difficulty": "dur",
+      "type": "estimation",
+      "text": "En quelle année un homme a-t-il marché sur la Lune pour la première fois ?",
+      "answerValue": 1969,
+      "unit": ""
+    },
+    {
+      "id": "cg-d13",
+      "difficulty": "dur",
+      "type": "qcm",
+      "text": "Quel élément chimique porte le symbole O ?",
+      "options": [
+        { "id": "a", "label": "L'oxygène" },
+        { "id": "b", "label": "L'or" },
+        { "id": "c", "label": "L'osmium" },
+        { "id": "d", "label": "L'argent" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-d14",
+      "difficulty": "dur",
+      "type": "qcm",
+      "text": "Quelle chaîne de montagnes marque la frontière entre l'Europe et l'Asie ?",
+      "options": [
+        { "id": "a", "label": "L'Oural" },
+        { "id": "b", "label": "Les Alpes" },
+        { "id": "c", "label": "L'Himalaya" },
+        { "id": "d", "label": "Les Andes" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-d15",
+      "difficulty": "dur",
+      "type": "qcm",
+      "text": "Quel compositeur allemand a écrit la Cinquième Symphonie aux quatre notes célèbres ?",
+      "options": [
+        { "id": "a", "label": "Beethoven" },
+        { "id": "b", "label": "Mozart" },
+        { "id": "c", "label": "Bach" },
+        { "id": "d", "label": "Chopin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-d16",
+      "difficulty": "dur",
+      "type": "qcm",
+      "text": "Quel océan borde la côte ouest des États-Unis ?",
+      "options": [
+        { "id": "a", "label": "Le Pacifique" },
+        { "id": "b", "label": "L'Atlantique" },
+        { "id": "c", "label": "L'océan Indien" },
+        { "id": "d", "label": "L'Arctique" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-d17",
+      "difficulty": "dur",
+      "type": "qcm",
+      "text": "Combien de joueurs compte une équipe de football sur le terrain ?",
+      "options": [
+        { "id": "a", "label": "Onze" },
+        { "id": "b", "label": "Neuf" },
+        { "id": "c", "label": "Dix" },
+        { "id": "d", "label": "Douze" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-d18",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel métal est liquide à température ambiante, autrefois appelé vif-argent ?",
+      "answer": "Le mercure"
+    },
+    {
+      "id": "cg-d19",
+      "difficulty": "dur",
+      "type": "qcm",
+      "text": "Quel est le plus haut sommet du continent africain ?",
+      "options": [
+        { "id": "a", "label": "Le Kilimandjaro" },
+        { "id": "b", "label": "Le mont Kenya" },
+        { "id": "c", "label": "Le Toubkal" },
+        { "id": "d", "label": "Le mont Cameroun" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-d20",
+      "difficulty": "dur",
+      "type": "qcm",
+      "text": "Quel écrivain français a écrit le roman Les Misérables ?",
+      "options": [
+        { "id": "a", "label": "Victor Hugo" },
+        { "id": "b", "label": "Émile Zola" },
+        { "id": "c", "label": "Gustave Flaubert" },
+        { "id": "d", "label": "Alexandre Dumas" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-d21",
+      "difficulty": "dur",
+      "type": "qcm",
+      "text": "Quelle est la capitale de l'Australie ?",
+      "options": [
+        { "id": "a", "label": "Canberra" },
+        { "id": "b", "label": "Sydney" },
+        { "id": "c", "label": "Melbourne" },
+        { "id": "d", "label": "Brisbane" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-d22",
+      "difficulty": "dur",
+      "type": "qcm",
+      "text": "Quel est le plus grand désert chaud du monde ?",
+      "options": [
+        { "id": "a", "label": "Le Sahara" },
+        { "id": "b", "label": "Le Gobi" },
+        { "id": "c", "label": "Le Kalahari" },
+        { "id": "d", "label": "L'Atacama" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-d23",
+      "difficulty": "dur",
+      "type": "estimation",
+      "text": "Combien d'États membres comptait l'ONU en 2024 ?",
+      "answerValue": 193,
+      "unit": "pays"
+    },
+    {
+      "id": "cg-d24",
+      "difficulty": "dur",
+      "type": "qcm",
+      "text": "Quel savant anglais a énoncé la loi de la gravitation universelle ?",
+      "options": [
+        { "id": "a", "label": "Isaac Newton" },
+        { "id": "b", "label": "Albert Einstein" },
+        { "id": "c", "label": "Galilée" },
+        { "id": "d", "label": "Nikola Tesla" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-d25",
+      "difficulty": "dur",
+      "type": "qcm",
+      "text": "Quelle planète possède le système d'anneaux le plus spectaculaire ?",
+      "options": [
+        { "id": "a", "label": "Saturne" },
+        { "id": "b", "label": "Jupiter" },
+        { "id": "c", "label": "Uranus" },
+        { "id": "d", "label": "Neptune" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-d26",
+      "difficulty": "dur",
+      "type": "qcm",
+      "text": "Quel est le pays le plus vaste du monde par sa superficie ?",
+      "options": [
+        { "id": "a", "label": "La Russie" },
+        { "id": "b", "label": "Le Canada" },
+        { "id": "c", "label": "La Chine" },
+        { "id": "d", "label": "Le Brésil" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-d27",
+      "difficulty": "dur",
+      "type": "qcm",
+      "text": "Quelle est l'unité de base du vivant, observable au microscope ?",
+      "options": [
+        { "id": "a", "label": "La cellule" },
+        { "id": "b", "label": "L'atome" },
+        { "id": "c", "label": "La molécule" },
+        { "id": "d", "label": "Le neurone" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-d28",
+      "difficulty": "dur",
+      "type": "qcm",
+      "text": "Qui a peint le tableau Guernica ?",
+      "options": [
+        { "id": "a", "label": "Pablo Picasso" },
+        { "id": "b", "label": "Salvador Dalí" },
+        { "id": "c", "label": "Claude Monet" },
+        { "id": "d", "label": "Henri Matisse" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-d29",
+      "difficulty": "dur",
+      "type": "qcm",
+      "text": "Quelle est la capitale du Canada ?",
+      "options": [
+        { "id": "a", "label": "Ottawa" },
+        { "id": "b", "label": "Toronto" },
+        { "id": "c", "label": "Montréal" },
+        { "id": "d", "label": "Vancouver" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-d30",
+      "difficulty": "dur",
+      "type": "qcm",
+      "text": "Quel gaz représente environ 78 % de l'atmosphère terrestre ?",
+      "options": [
+        { "id": "a", "label": "L'azote" },
+        { "id": "b", "label": "L'oxygène" },
+        { "id": "c", "label": "L'argon" },
+        { "id": "d", "label": "L'hydrogène" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-p6",
+      "difficulty": "pro",
+      "type": "qcm",
+      "text": "Quel est l'élément chimique le plus léger du tableau périodique ?",
+      "options": [
+        { "id": "a", "label": "L'hydrogène" },
+        { "id": "b", "label": "L'hélium" },
+        { "id": "c", "label": "Le lithium" },
+        { "id": "d", "label": "Le carbone" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-p7",
+      "difficulty": "pro",
+      "type": "qcm",
+      "text": "En quelle année a débuté la Première Guerre mondiale ?",
+      "options": [
+        { "id": "a", "label": "1914" },
+        { "id": "b", "label": "1918" },
+        { "id": "c", "label": "1939" },
+        { "id": "d", "label": "1870" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-p8",
+      "difficulty": "pro",
+      "type": "qcm",
+      "text": "Qui a écrit le roman-fleuve À la recherche du temps perdu ?",
+      "options": [
+        { "id": "a", "label": "Marcel Proust" },
+        { "id": "b", "label": "Albert Camus" },
+        { "id": "c", "label": "Gustave Flaubert" },
+        { "id": "d", "label": "Émile Zola" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-p9",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien de minutes met la lumière du Soleil pour atteindre la Terre ?",
+      "answerValue": 8,
+      "unit": "minutes"
+    },
+    {
+      "id": "cg-p10",
+      "difficulty": "pro",
+      "type": "qcm",
+      "text": "Quelle est la capitale de la Turquie ?",
+      "options": [
+        { "id": "a", "label": "Ankara" },
+        { "id": "b", "label": "Istanbul" },
+        { "id": "c", "label": "Izmir" },
+        { "id": "d", "label": "Bursa" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-p11",
+      "difficulty": "pro",
+      "type": "qcm",
+      "text": "Quel philosophe grec est l'auteur du dialogue La République ?",
+      "options": [
+        { "id": "a", "label": "Platon" },
+        { "id": "b", "label": "Aristote" },
+        { "id": "c", "label": "Socrate" },
+        { "id": "d", "label": "Épicure" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-p12",
+      "difficulty": "pro",
+      "type": "qcm",
+      "text": "Quel est le plus petit État indépendant du monde ?",
+      "options": [
+        { "id": "a", "label": "Le Vatican" },
+        { "id": "b", "label": "Monaco" },
+        { "id": "c", "label": "Nauru" },
+        { "id": "d", "label": "Saint-Marin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-p13",
+      "difficulty": "pro",
+      "type": "qcm",
+      "text": "Quel métal porte le symbole chimique Fe ?",
+      "options": [
+        { "id": "a", "label": "Le fer" },
+        { "id": "b", "label": "Le plomb" },
+        { "id": "c", "label": "Le cuivre" },
+        { "id": "d", "label": "L'étain" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-p14",
+      "difficulty": "pro",
+      "type": "qcm",
+      "text": "Qui a peint le tableau La Nuit étoilée ?",
+      "options": [
+        { "id": "a", "label": "Van Gogh" },
+        { "id": "b", "label": "Claude Monet" },
+        { "id": "c", "label": "Paul Cézanne" },
+        { "id": "d", "label": "Edgar Degas" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-p15",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "En quelle année le mur de Berlin est-il tombé ?",
+      "answerValue": 1989,
+      "unit": ""
+    },
+    {
+      "id": "cg-p16",
+      "difficulty": "pro",
+      "type": "qcm",
+      "text": "Quelle est la vitesse de la lumière dans le vide, en kilomètres par seconde (environ) ?",
+      "options": [
+        { "id": "a", "label": "300 000" },
+        { "id": "b", "label": "150 000" },
+        { "id": "c", "label": "30 000" },
+        { "id": "d", "label": "1 080 000" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-p17",
+      "difficulty": "pro",
+      "type": "qcm",
+      "text": "Dans quel pays le papier a-t-il été inventé ?",
+      "options": [
+        { "id": "a", "label": "La Chine" },
+        { "id": "b", "label": "L'Égypte" },
+        { "id": "c", "label": "La Grèce" },
+        { "id": "d", "label": "L'Inde" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-p18",
+      "difficulty": "pro",
+      "type": "qcm",
+      "text": "Quel est le plus petit os du corps humain, situé dans l'oreille ?",
+      "options": [
+        { "id": "a", "label": "L'étrier" },
+        { "id": "b", "label": "Le fémur" },
+        { "id": "c", "label": "Le radius" },
+        { "id": "d", "label": "Le tibia" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-p19",
+      "difficulty": "pro",
+      "type": "qcm",
+      "text": "Quel peintre a réalisé La Jeune Fille à la perle ?",
+      "options": [
+        { "id": "a", "label": "Vermeer" },
+        { "id": "b", "label": "Rembrandt" },
+        { "id": "c", "label": "Rubens" },
+        { "id": "d", "label": "Van Gogh" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-p20",
+      "difficulty": "pro",
+      "type": "qcm",
+      "text": "Quelle civilisation d'Amérique du Sud a bâti la cité de Machu Picchu ?",
+      "options": [
+        { "id": "a", "label": "Les Incas" },
+        { "id": "b", "label": "Les Aztèques" },
+        { "id": "c", "label": "Les Mayas" },
+        { "id": "d", "label": "Les Olmèques" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-p21",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien de dents compte un adulte humain, dents de sagesse incluses ?",
+      "answerValue": 32,
+      "unit": "dents"
+    },
+    {
+      "id": "cg-p22",
+      "difficulty": "pro",
+      "type": "qcm",
+      "text": "Quel fleuve traverse la ville de Londres ?",
+      "options": [
+        { "id": "a", "label": "La Tamise" },
+        { "id": "b", "label": "La Seine" },
+        { "id": "c", "label": "Le Danube" },
+        { "id": "d", "label": "Le Rhin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-p23",
+      "difficulty": "pro",
+      "type": "qcm",
+      "text": "Quel physicien a formulé la célèbre équation E=mc² ?",
+      "options": [
+        { "id": "a", "label": "Albert Einstein" },
+        { "id": "b", "label": "Isaac Newton" },
+        { "id": "c", "label": "Niels Bohr" },
+        { "id": "d", "label": "Max Planck" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-p24",
+      "difficulty": "pro",
+      "type": "qcm",
+      "text": "En quelle année Christophe Colomb a-t-il atteint le continent américain ?",
+      "options": [
+        { "id": "a", "label": "1492" },
+        { "id": "b", "label": "1453" },
+        { "id": "c", "label": "1519" },
+        { "id": "d", "label": "1607" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-p25",
+      "difficulty": "pro",
+      "type": "qcm",
+      "text": "Quelle est la capitale de la Norvège ?",
+      "options": [
+        { "id": "a", "label": "Oslo" },
+        { "id": "b", "label": "Stockholm" },
+        { "id": "c", "label": "Helsinki" },
+        { "id": "d", "label": "Copenhague" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-p26",
+      "difficulty": "pro",
+      "type": "qcm",
+      "text": "Quel compositeur autrichien prodige est mort à 35 ans en 1791 ?",
+      "options": [
+        { "id": "a", "label": "Mozart" },
+        { "id": "b", "label": "Beethoven" },
+        { "id": "c", "label": "Schubert" },
+        { "id": "d", "label": "Haydn" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-p27",
+      "difficulty": "pro",
+      "type": "qcm",
+      "text": "Quel est le plus grand organe du corps humain ?",
+      "options": [
+        { "id": "a", "label": "La peau" },
+        { "id": "b", "label": "Le foie" },
+        { "id": "c", "label": "Le cœur" },
+        { "id": "d", "label": "Le cerveau" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-p28",
+      "difficulty": "pro",
+      "type": "qcm",
+      "text": "Quelle étendue d'eau est si salée qu'on y flotte sans effort ?",
+      "options": [
+        { "id": "a", "label": "La mer Morte" },
+        { "id": "b", "label": "La mer Rouge" },
+        { "id": "c", "label": "La mer Noire" },
+        { "id": "d", "label": "La mer Caspienne" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-p29",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "En combien de jours la Terre effectue-t-elle une révolution complète autour du Soleil ?",
+      "answerValue": 365,
+      "unit": "jours"
+    },
+    {
+      "id": "cg-p30",
+      "difficulty": "pro",
+      "type": "qcm",
+      "text": "Quel peintre espagnol surréaliste est célèbre pour ses montres molles ?",
+      "options": [
+        { "id": "a", "label": "Salvador Dalí" },
+        { "id": "b", "label": "Pablo Picasso" },
+        { "id": "c", "label": "Joan Miró" },
+        { "id": "d", "label": "Francisco Goya" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-p31",
+      "difficulty": "pro",
+      "type": "qcm",
+      "text": "Quel roi de France est surnommé le Roi-Soleil ?",
+      "options": [
+        { "id": "a", "label": "Louis XIV" },
+        { "id": "b", "label": "Louis XVI" },
+        { "id": "c", "label": "François Ier" },
+        { "id": "d", "label": "Henri IV" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-p32",
+      "difficulty": "pro",
+      "type": "qcm",
+      "text": "Quelle planète est la plus proche du Soleil ?",
+      "options": [
+        { "id": "a", "label": "Mercure" },
+        { "id": "b", "label": "Vénus" },
+        { "id": "c", "label": "Mars" },
+        { "id": "d", "label": "La Terre" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-p33",
+      "difficulty": "pro",
+      "type": "qcm",
+      "text": "Quel écrivain a créé le détective Sherlock Holmes ?",
+      "options": [
+        { "id": "a", "label": "Arthur Conan Doyle" },
+        { "id": "b", "label": "Agatha Christie" },
+        { "id": "c", "label": "Edgar Allan Poe" },
+        { "id": "d", "label": "Georges Simenon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-p34",
+      "difficulty": "pro",
+      "type": "qcm",
+      "text": "Quelle est la langue officielle du Brésil ?",
+      "options": [
+        { "id": "a", "label": "Le portugais" },
+        { "id": "b", "label": "L'espagnol" },
+        { "id": "c", "label": "Le français" },
+        { "id": "d", "label": "L'anglais" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-p35",
+      "difficulty": "pro",
+      "type": "qcm",
+      "text": "Quel élément chimique porte le symbole Na ?",
+      "options": [
+        { "id": "a", "label": "Le sodium" },
+        { "id": "b", "label": "Le nickel" },
+        { "id": "c", "label": "L'azote" },
+        { "id": "d", "label": "Le néon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-p36",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "En quelle année le paquebot Titanic a-t-il fait naufrage ?",
+      "answerValue": 1912,
+      "unit": ""
+    },
+    {
+      "id": "cg-p37",
+      "difficulty": "pro",
+      "type": "qcm",
+      "text": "Quel philosophe a écrit « Je pense, donc je suis » ?",
+      "options": [
+        { "id": "a", "label": "René Descartes" },
+        { "id": "b", "label": "Blaise Pascal" },
+        { "id": "c", "label": "Emmanuel Kant" },
+        { "id": "d", "label": "Baruch Spinoza" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-p38",
+      "difficulty": "pro",
+      "type": "qcm",
+      "text": "Quel est le plus haut sommet d'Amérique du Sud ?",
+      "options": [
+        { "id": "a", "label": "L'Aconcagua" },
+        { "id": "b", "label": "Le Kilimandjaro" },
+        { "id": "c", "label": "L'Everest" },
+        { "id": "d", "label": "Le mont Blanc" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cg-p39",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel instrument de mesure célèbre évalue la magnitude d'un tremblement de terre ?",
+      "answer": "L'échelle de Richter"
+    },
+    {
+      "id": "cg-p40",
+      "difficulty": "pro",
+      "type": "qcm",
+      "text": "De quel pays Nairobi est-elle la capitale ?",
+      "options": [
+        { "id": "a", "label": "Le Kenya" },
+        { "id": "b", "label": "La Tanzanie" },
+        { "id": "c", "label": "L'Ouganda" },
+        { "id": "d", "label": "L'Éthiopie" }
+      ],
+      "correctOptionId": "a"
     }
   ]
 }
