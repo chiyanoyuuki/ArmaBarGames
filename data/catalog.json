@@ -22,6 +22,7 @@
     { "id": "kaamelott", "name": "Kaamelott", "themeId": "cinema", "emoji": "👑" },
     { "id": "game-of-thrones", "name": "Game of Thrones", "themeId": "cinema", "emoji": "🐉" },
     { "id": "friends", "name": "Friends", "themeId": "cinema", "emoji": "☕" },
+    { "id": "cinema-blockbusters", "name": "Cinéma (blockbusters)", "themeId": "cinema", "emoji": "🎬" },
     { "id": "coupe-du-monde", "name": "Coupe du monde de foot", "themeId": "sport", "emoji": "🏆" },
     { "id": "the-witcher", "name": "The Witcher", "themeId": "jeux-video", "emoji": "🐺" },
     { "id": "zelda", "name": "The Legend of Zelda", "themeId": "jeux-video", "emoji": "🗡️" },

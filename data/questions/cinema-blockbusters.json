@@ -1,0 +1,1118 @@
+{
+  "universeId": "cinema-blockbusters",
+  "questions": [
+    {
+      "id": "cine-f1",
+      "difficulty": "facile",
+      "text": "Quel film de James Cameron, sorti en 1997, raconte le naufrage d'un paquebot ?",
+      "options": [
+        { "id": "a", "label": "Titanic" },
+        { "id": "b", "label": "Avatar" },
+        { "id": "c", "label": "Aliens" },
+        { "id": "d", "label": "Terminator" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-f2",
+      "difficulty": "facile",
+      "text": "Quel réalisateur a créé la saga Star Wars ?",
+      "options": [
+        { "id": "a", "label": "George Lucas" },
+        { "id": "b", "label": "Steven Spielberg" },
+        { "id": "c", "label": "James Cameron" },
+        { "id": "d", "label": "Peter Jackson" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-f3",
+      "difficulty": "facile",
+      "text": "Quel super-héros de DC est surnommé « le Chevalier Noir » ?",
+      "options": [
+        { "id": "a", "label": "Batman" },
+        { "id": "b", "label": "Superman" },
+        { "id": "c", "label": "Spider-Man" },
+        { "id": "d", "label": "Iron Man" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-f4",
+      "difficulty": "facile",
+      "text": "Dans quelle saga un jeune sorcier à lunettes étudie à l'école de Poudlard ?",
+      "options": [
+        { "id": "a", "label": "Harry Potter" },
+        { "id": "b", "label": "Le Hobbit" },
+        { "id": "c", "label": "Narnia" },
+        { "id": "d", "label": "Twilight" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-f5",
+      "difficulty": "facile",
+      "type": "buzzer",
+      "text": "Quel classique d'animation Disney raconte l'histoire du lionceau Simba ?",
+      "answer": "Le Roi Lion"
+    },
+    {
+      "id": "cine-f6",
+      "difficulty": "facile",
+      "text": "Quelle saga met en scène des dinosaures ramenés à la vie dans un parc à thème ?",
+      "options": [
+        { "id": "a", "label": "Jurassic Park" },
+        { "id": "b", "label": "King Kong" },
+        { "id": "c", "label": "Godzilla" },
+        { "id": "d", "label": "Pacific Rim" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-f7",
+      "difficulty": "facile",
+      "text": "Quel numéro d'agent secret James Bond porte-t-il ?",
+      "options": [
+        { "id": "a", "label": "007" },
+        { "id": "b", "label": "001" },
+        { "id": "c", "label": "006" },
+        { "id": "d", "label": "008" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-f8",
+      "difficulty": "facile",
+      "type": "estimation",
+      "text": "Combien de films composent la trilogie originale Star Wars ?",
+      "answerValue": 3,
+      "unit": "films"
+    },
+    {
+      "id": "cine-f9",
+      "difficulty": "facile",
+      "text": "Quel film d'animation Pixar met en scène des jouets qui prennent vie ?",
+      "options": [
+        { "id": "a", "label": "Toy Story" },
+        { "id": "b", "label": "Shrek" },
+        { "id": "c", "label": "Madagascar" },
+        { "id": "d", "label": "Cars" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-f10",
+      "difficulty": "facile",
+      "text": "Quel personnage vert et bougon vit dans un marais dans un film DreamWorks ?",
+      "options": [
+        { "id": "a", "label": "Shrek" },
+        { "id": "b", "label": "Hulk" },
+        { "id": "c", "label": "Yoda" },
+        { "id": "d", "label": "Gollum" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-m1",
+      "difficulty": "moyen",
+      "text": "Quel réalisateur est célèbre pour Les Dents de la mer, E.T. et Jurassic Park ?",
+      "options": [
+        { "id": "a", "label": "Steven Spielberg" },
+        { "id": "b", "label": "George Lucas" },
+        { "id": "c", "label": "James Cameron" },
+        { "id": "d", "label": "Ridley Scott" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-m2",
+      "difficulty": "moyen",
+      "text": "Quel film de 2009 de James Cameron se déroule sur la planète Pandora ?",
+      "options": [
+        { "id": "a", "label": "Avatar" },
+        { "id": "b", "label": "Titanic" },
+        { "id": "c", "label": "Aliens" },
+        { "id": "d", "label": "Interstellar" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-m3",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Comment s'appelle la trilogie Batman de Christopher Nolan avec Christian Bale ?",
+      "answer": "The Dark Knight"
+    },
+    {
+      "id": "cine-m4",
+      "difficulty": "moyen",
+      "text": "Quel acteur incarne Jack Sparrow dans Pirates des Caraïbes ?",
+      "options": [
+        { "id": "a", "label": "Johnny Depp" },
+        { "id": "b", "label": "Orlando Bloom" },
+        { "id": "c", "label": "Brad Pitt" },
+        { "id": "d", "label": "Tom Cruise" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-m5",
+      "difficulty": "moyen",
+      "text": "Quelle saga d'espionnage suit l'agent Ethan Hunt, joué par Tom Cruise ?",
+      "options": [
+        { "id": "a", "label": "Mission Impossible" },
+        { "id": "b", "label": "James Bond" },
+        { "id": "c", "label": "Jason Bourne" },
+        { "id": "d", "label": "John Wick" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-m6",
+      "difficulty": "moyen",
+      "text": "Quel film de Ridley Scott de 2000 suit un général romain déchu, avec Russell Crowe ?",
+      "options": [
+        { "id": "a", "label": "Gladiator" },
+        { "id": "b", "label": "Troie" },
+        { "id": "c", "label": "300" },
+        { "id": "d", "label": "Spartacus" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-m7",
+      "difficulty": "moyen",
+      "text": "Quelle saga de science-fiction met en scène l'agent Neo dans un monde simulé ?",
+      "options": [
+        { "id": "a", "label": "Matrix" },
+        { "id": "b", "label": "Inception" },
+        { "id": "c", "label": "Tron" },
+        { "id": "d", "label": "Avatar" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-m8",
+      "difficulty": "moyen",
+      "text": "Quel film de Nolan de 2010 explore les rêves imbriqués, avec Leonardo DiCaprio ?",
+      "options": [
+        { "id": "a", "label": "Inception" },
+        { "id": "b", "label": "Interstellar" },
+        { "id": "c", "label": "Matrix" },
+        { "id": "d", "label": "Tenet" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-m9",
+      "difficulty": "moyen",
+      "text": "Quel réalisateur néo-zélandais a adapté Le Seigneur des Anneaux au cinéma ?",
+      "options": [
+        { "id": "a", "label": "Peter Jackson" },
+        { "id": "b", "label": "James Cameron" },
+        { "id": "c", "label": "Ridley Scott" },
+        { "id": "d", "label": "George Lucas" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-m10",
+      "difficulty": "moyen",
+      "text": "Quelle actrice incarne Hermione dans les films Harry Potter ?",
+      "options": [
+        { "id": "a", "label": "Emma Watson" },
+        { "id": "b", "label": "Emma Stone" },
+        { "id": "c", "label": "Keira Knightley" },
+        { "id": "d", "label": "Natalie Portman" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-m11",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel film Disney de 2013 met en scène les sœurs Elsa et Anna ?",
+      "answer": "La Reine des Neiges"
+    },
+    {
+      "id": "cine-m12",
+      "difficulty": "moyen",
+      "text": "Quelle franchise met en scène des courses de voitures et Dominic Toretto ?",
+      "options": [
+        { "id": "a", "label": "Fast and Furious" },
+        { "id": "b", "label": "Need for Speed" },
+        { "id": "c", "label": "Le Transporteur" },
+        { "id": "d", "label": "Baby Driver" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-m13",
+      "difficulty": "moyen",
+      "text": "Quel acteur autrichien joue le célèbre Terminator ?",
+      "options": [
+        { "id": "a", "label": "Arnold Schwarzenegger" },
+        { "id": "b", "label": "Sylvester Stallone" },
+        { "id": "c", "label": "Bruce Willis" },
+        { "id": "d", "label": "Dolph Lundgren" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-m14",
+      "difficulty": "moyen",
+      "text": "Quel acteur incarne le personnage-titre de Forrest Gump ?",
+      "options": [
+        { "id": "a", "label": "Tom Hanks" },
+        { "id": "b", "label": "Kevin Costner" },
+        { "id": "c", "label": "Robin Williams" },
+        { "id": "d", "label": "Bruce Willis" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-m15",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quelle saga de hobbits et d'un anneau maléfique se déroule en Terre du Milieu ?",
+      "answer": "Le Seigneur des Anneaux"
+    },
+    {
+      "id": "cine-m16",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel film de Spielberg met en scène un requin géant terrorisant une station balnéaire ?",
+      "answer": "Les Dents de la mer"
+    },
+    {
+      "id": "cine-m17",
+      "difficulty": "moyen",
+      "text": "Quelle actrice incarne Katniss Everdeen dans Hunger Games ?",
+      "options": [
+        { "id": "a", "label": "Jennifer Lawrence" },
+        { "id": "b", "label": "Emma Watson" },
+        { "id": "c", "label": "Shailene Woodley" },
+        { "id": "d", "label": "Kristen Stewart" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-m18",
+      "difficulty": "moyen",
+      "text": "Quel studio d'animation a créé Toy Story, Némo et Là-haut ?",
+      "options": [
+        { "id": "a", "label": "Pixar" },
+        { "id": "b", "label": "Disney" },
+        { "id": "c", "label": "DreamWorks" },
+        { "id": "d", "label": "Illumination" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-m19",
+      "difficulty": "moyen",
+      "text": "Quel film de 1972 de Coppola suit une famille mafieuse italo-américaine ?",
+      "options": [
+        { "id": "a", "label": "Le Parrain" },
+        { "id": "b", "label": "Les Affranchis" },
+        { "id": "c", "label": "Scarface" },
+        { "id": "d", "label": "Casino" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-m20",
+      "difficulty": "moyen",
+      "type": "estimation",
+      "text": "En quelle année le premier film Avatar est-il sorti ?",
+      "answerValue": 2009,
+      "unit": ""
+    },
+    {
+      "id": "cine-d1",
+      "difficulty": "dur",
+      "text": "Quel film sud-coréen a remporté l'Oscar du meilleur film en 2020 ?",
+      "options": [
+        { "id": "a", "label": "Parasite" },
+        { "id": "b", "label": "1917" },
+        { "id": "c", "label": "Joker" },
+        { "id": "d", "label": "Green Book" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-d2",
+      "difficulty": "dur",
+      "text": "Quel réalisateur a signé Pulp Fiction et Kill Bill ?",
+      "options": [
+        { "id": "a", "label": "Quentin Tarantino" },
+        { "id": "b", "label": "Martin Scorsese" },
+        { "id": "c", "label": "Christopher Nolan" },
+        { "id": "d", "label": "Ridley Scott" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-d3",
+      "difficulty": "dur",
+      "text": "Quel acteur a incarné le Joker dans le film de 2019 qui lui a valu un Oscar ?",
+      "options": [
+        { "id": "a", "label": "Joaquin Phoenix" },
+        { "id": "b", "label": "Heath Ledger" },
+        { "id": "c", "label": "Jared Leto" },
+        { "id": "d", "label": "Jack Nicholson" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-d4",
+      "difficulty": "dur",
+      "text": "Quel acteur australien a incarné le Joker dans The Dark Knight, oscarisé à titre posthume ?",
+      "options": [
+        { "id": "a", "label": "Heath Ledger" },
+        { "id": "b", "label": "Joaquin Phoenix" },
+        { "id": "c", "label": "Jared Leto" },
+        { "id": "d", "label": "Christian Bale" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-d5",
+      "difficulty": "dur",
+      "text": "Qui a réalisé la trilogie Retour vers le futur ?",
+      "options": [
+        { "id": "a", "label": "Robert Zemeckis" },
+        { "id": "b", "label": "Steven Spielberg" },
+        { "id": "c", "label": "George Lucas" },
+        { "id": "d", "label": "James Cameron" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-d6",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel film met en scène Jim Carrey découvrant que sa vie entière est une émission de télé-réalité ?",
+      "answer": "The Truman Show"
+    },
+    {
+      "id": "cine-d7",
+      "difficulty": "dur",
+      "text": "Quel acteur incarne Neo dans la saga Matrix ?",
+      "options": [
+        { "id": "a", "label": "Keanu Reeves" },
+        { "id": "b", "label": "Brad Pitt" },
+        { "id": "c", "label": "Tom Cruise" },
+        { "id": "d", "label": "Will Smith" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-d8",
+      "difficulty": "dur",
+      "text": "Quelle actrice incarne Trinity dans Matrix ?",
+      "options": [
+        { "id": "a", "label": "Carrie-Anne Moss" },
+        { "id": "b", "label": "Uma Thurman" },
+        { "id": "c", "label": "Charlize Theron" },
+        { "id": "d", "label": "Milla Jovovich" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-d9",
+      "difficulty": "dur",
+      "text": "Quel réalisateur a signé Interstellar, Inception et Dunkerque ?",
+      "options": [
+        { "id": "a", "label": "Christopher Nolan" },
+        { "id": "b", "label": "Quentin Tarantino" },
+        { "id": "c", "label": "Denis Villeneuve" },
+        { "id": "d", "label": "James Cameron" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-d10",
+      "difficulty": "dur",
+      "text": "Quel réalisateur canadien a signé Dune (2021) et Blade Runner 2049 ?",
+      "options": [
+        { "id": "a", "label": "Denis Villeneuve" },
+        { "id": "b", "label": "Christopher Nolan" },
+        { "id": "c", "label": "Ridley Scott" },
+        { "id": "d", "label": "Peter Jackson" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-d11",
+      "difficulty": "dur",
+      "text": "Quel film de 1994, avec Tim Robbins, se déroule dans la prison de Shawshank ?",
+      "options": [
+        { "id": "a", "label": "Les Évadés" },
+        { "id": "b", "label": "Le Prestige" },
+        { "id": "c", "label": "Heat" },
+        { "id": "d", "label": "Seven" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-d12",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel film Pixar suit un poisson-clown parcourant l'océan pour retrouver son fils ?",
+      "answer": "Le Monde de Némo"
+    },
+    {
+      "id": "cine-d13",
+      "difficulty": "dur",
+      "text": "Quel acteur incarne Wolverine dans les films X-Men ?",
+      "options": [
+        { "id": "a", "label": "Hugh Jackman" },
+        { "id": "b", "label": "Ryan Reynolds" },
+        { "id": "c", "label": "Chris Hemsworth" },
+        { "id": "d", "label": "Patrick Stewart" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-d14",
+      "difficulty": "dur",
+      "text": "Quel acteur incarne le mercenaire bavard Deadpool ?",
+      "options": [
+        { "id": "a", "label": "Ryan Reynolds" },
+        { "id": "b", "label": "Hugh Jackman" },
+        { "id": "c", "label": "Chris Evans" },
+        { "id": "d", "label": "Chris Pratt" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-d15",
+      "difficulty": "dur",
+      "text": "Quel réalisateur a signé Titanic, Avatar et Terminator ?",
+      "options": [
+        { "id": "a", "label": "James Cameron" },
+        { "id": "b", "label": "Steven Spielberg" },
+        { "id": "c", "label": "Ridley Scott" },
+        { "id": "d", "label": "George Lucas" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-d16",
+      "difficulty": "dur",
+      "text": "Quel acteur incarne l'aventurier Indiana Jones ?",
+      "options": [
+        { "id": "a", "label": "Harrison Ford" },
+        { "id": "b", "label": "Sean Connery" },
+        { "id": "c", "label": "Tom Selleck" },
+        { "id": "d", "label": "Mel Gibson" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-d17",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel épisode de Star Wars révèle que Dark Vador est le père de Luke ?",
+      "answer": "L'Empire contre-attaque"
+    },
+    {
+      "id": "cine-d18",
+      "difficulty": "dur",
+      "text": "Quel film de 2008 lance l'univers cinématographique Marvel (MCU) ?",
+      "options": [
+        { "id": "a", "label": "Iron Man" },
+        { "id": "b", "label": "Thor" },
+        { "id": "c", "label": "Hulk" },
+        { "id": "d", "label": "Avengers" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-d19",
+      "difficulty": "dur",
+      "text": "Quel film Marvel de 2019 a battu des records au box-office mondial ?",
+      "options": [
+        { "id": "a", "label": "Endgame" },
+        { "id": "b", "label": "Avatar" },
+        { "id": "c", "label": "Titanic" },
+        { "id": "d", "label": "Ragnarok" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-d20",
+      "difficulty": "dur",
+      "text": "Quel acteur incarne Tony Stark, alias Iron Man ?",
+      "options": [
+        { "id": "a", "label": "Robert Downey Jr" },
+        { "id": "b", "label": "Chris Evans" },
+        { "id": "c", "label": "Chris Hemsworth" },
+        { "id": "d", "label": "Mark Ruffalo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-d21",
+      "difficulty": "dur",
+      "text": "Quel acteur incarne Captain America ?",
+      "options": [
+        { "id": "a", "label": "Chris Evans" },
+        { "id": "b", "label": "Chris Hemsworth" },
+        { "id": "c", "label": "Chris Pratt" },
+        { "id": "d", "label": "Mark Ruffalo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-d22",
+      "difficulty": "dur",
+      "text": "Quel acteur incarne le dieu du tonnerre Thor ?",
+      "options": [
+        { "id": "a", "label": "Chris Hemsworth" },
+        { "id": "b", "label": "Chris Evans" },
+        { "id": "c", "label": "Chris Pratt" },
+        { "id": "d", "label": "Tom Hiddleston" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-d23",
+      "difficulty": "dur",
+      "text": "Quelle actrice incarne Black Widow dans le MCU ?",
+      "options": [
+        { "id": "a", "label": "Scarlett Johansson" },
+        { "id": "b", "label": "Brie Larson" },
+        { "id": "c", "label": "Elizabeth Olsen" },
+        { "id": "d", "label": "Zoe Saldana" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-d24",
+      "difficulty": "dur",
+      "text": "Quel festival de cinéma décerne la prestigieuse Palme d'or ?",
+      "options": [
+        { "id": "a", "label": "Cannes" },
+        { "id": "b", "label": "Venise" },
+        { "id": "c", "label": "Berlin" },
+        { "id": "d", "label": "Toronto" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-d25",
+      "difficulty": "dur",
+      "text": "Quelle récompense américaine, statuette dorée, est la plus prestigieuse du cinéma ?",
+      "options": [
+        { "id": "a", "label": "L'Oscar" },
+        { "id": "b", "label": "Le César" },
+        { "id": "c", "label": "Le BAFTA" },
+        { "id": "d", "label": "Le Goya" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-d26",
+      "difficulty": "dur",
+      "text": "Quelle récompense française du cinéma est l'équivalent des Oscars ?",
+      "options": [
+        { "id": "a", "label": "Le César" },
+        { "id": "b", "label": "L'Oscar" },
+        { "id": "c", "label": "Le BAFTA" },
+        { "id": "d", "label": "Le Goya" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-d27",
+      "difficulty": "dur",
+      "text": "Quel film muet de 2011 a remporté l'Oscar du meilleur film, réalisé par Michel Hazanavicius ?",
+      "options": [
+        { "id": "a", "label": "The Artist" },
+        { "id": "b", "label": "Green Book" },
+        { "id": "c", "label": "Pulp Fiction" },
+        { "id": "d", "label": "Forrest Gump" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-d28",
+      "difficulty": "dur",
+      "text": "Quel film français de 2011 avec Omar Sy raconte l'amitié entre un riche tétraplégique et son aide ?",
+      "options": [
+        { "id": "a", "label": "Intouchables" },
+        { "id": "b", "label": "Amélie" },
+        { "id": "c", "label": "Taxi" },
+        { "id": "d", "label": "Astérix" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-d29",
+      "difficulty": "dur",
+      "type": "ordre",
+      "text": "Classe ces films par ordre chronologique de sortie.",
+      "items": [
+        { "id": "1", "label": "Star Wars (1977)" },
+        { "id": "2", "label": "Retour vers le futur (1985)" },
+        { "id": "3", "label": "Matrix (1999)" },
+        { "id": "4", "label": "Avatar (2009)" }
+      ]
+    },
+    {
+      "id": "cine-d30",
+      "difficulty": "dur",
+      "text": "Quel acteur a enfin remporté l'Oscar du meilleur acteur pour The Revenant ?",
+      "options": [
+        { "id": "a", "label": "Leonardo DiCaprio" },
+        { "id": "b", "label": "Brad Pitt" },
+        { "id": "c", "label": "Tom Hardy" },
+        { "id": "d", "label": "Matthew McConaughey" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p1",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel film du Seigneur des Anneaux a remporté 11 Oscars, un record absolu ?",
+      "answer": "Le Retour du Roi"
+    },
+    {
+      "id": "cine-p2",
+      "difficulty": "pro",
+      "text": "Qui a réalisé Parasite, film sud-coréen oscarisé ?",
+      "options": [
+        { "id": "a", "label": "Bong Joon-ho" },
+        { "id": "b", "label": "Park Chan-wook" },
+        { "id": "c", "label": "Akira Kurosawa" },
+        { "id": "d", "label": "Wong Kar-wai" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p3",
+      "difficulty": "pro",
+      "text": "Quel réalisateur italien a signé Le Bon, la Brute et le Truand ?",
+      "options": [
+        { "id": "a", "label": "Sergio Leone" },
+        { "id": "b", "label": "Federico Fellini" },
+        { "id": "c", "label": "Roberto Benigni" },
+        { "id": "d", "label": "Paolo Sorrentino" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p4",
+      "difficulty": "pro",
+      "text": "Quel compositeur a signé les musiques de Star Wars, Indiana Jones et Jurassic Park ?",
+      "options": [
+        { "id": "a", "label": "John Williams" },
+        { "id": "b", "label": "Hans Zimmer" },
+        { "id": "c", "label": "Ennio Morricone" },
+        { "id": "d", "label": "Howard Shore" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p5",
+      "difficulty": "pro",
+      "text": "Quel compositeur allemand a signé les musiques d'Inception, Interstellar et Le Roi Lion ?",
+      "options": [
+        { "id": "a", "label": "Hans Zimmer" },
+        { "id": "b", "label": "John Williams" },
+        { "id": "c", "label": "Ennio Morricone" },
+        { "id": "d", "label": "Howard Shore" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p6",
+      "difficulty": "pro",
+      "text": "Quel compositeur italien a signé les musiques des westerns de Sergio Leone ?",
+      "options": [
+        { "id": "a", "label": "Ennio Morricone" },
+        { "id": "b", "label": "Hans Zimmer" },
+        { "id": "c", "label": "John Williams" },
+        { "id": "d", "label": "Nino Rota" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p7",
+      "difficulty": "pro",
+      "text": "Quel film de 1941 d'Orson Welles est souvent cité comme le meilleur de l'histoire ?",
+      "options": [
+        { "id": "a", "label": "Citizen Kane" },
+        { "id": "b", "label": "Casablanca" },
+        { "id": "c", "label": "Vertigo" },
+        { "id": "d", "label": "Psychose" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p8",
+      "difficulty": "pro",
+      "text": "Quel film de 1942, avec Humphrey Bogart, se déroule au Maroc pendant la guerre ?",
+      "options": [
+        { "id": "a", "label": "Casablanca" },
+        { "id": "b", "label": "Vertigo" },
+        { "id": "c", "label": "Psychose" },
+        { "id": "d", "label": "Rebecca" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p9",
+      "difficulty": "pro",
+      "text": "Quel réalisateur britannique, maître du suspense, a signé Psychose et Les Oiseaux ?",
+      "options": [
+        { "id": "a", "label": "Alfred Hitchcock" },
+        { "id": "b", "label": "Stanley Kubrick" },
+        { "id": "c", "label": "Orson Welles" },
+        { "id": "d", "label": "David Lynch" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p10",
+      "difficulty": "pro",
+      "text": "Quel réalisateur a signé 2001, l'Odyssée de l'espace et Orange mécanique ?",
+      "options": [
+        { "id": "a", "label": "Stanley Kubrick" },
+        { "id": "b", "label": "Alfred Hitchcock" },
+        { "id": "c", "label": "Steven Spielberg" },
+        { "id": "d", "label": "Ridley Scott" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p11",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Dans quel film de Kubrick l'ordinateur HAL 9000 se rebelle contre l'équipage ?",
+      "answer": "2001, l'Odyssée de l'espace"
+    },
+    {
+      "id": "cine-p12",
+      "difficulty": "pro",
+      "text": "Quel acteur a remporté deux Oscars consécutifs, pour Philadelphia puis Forrest Gump ?",
+      "options": [
+        { "id": "a", "label": "Tom Hanks" },
+        { "id": "b", "label": "Robert De Niro" },
+        { "id": "c", "label": "Al Pacino" },
+        { "id": "d", "label": "Jack Nicholson" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p13",
+      "difficulty": "pro",
+      "text": "Quel acteur incarne Michael Corleone dans Le Parrain ?",
+      "options": [
+        { "id": "a", "label": "Al Pacino" },
+        { "id": "b", "label": "Robert De Niro" },
+        { "id": "c", "label": "Marlon Brando" },
+        { "id": "d", "label": "Robert Duvall" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p14",
+      "difficulty": "pro",
+      "text": "Quel acteur incarne le vieux parrain Vito Corleone dans le premier film ?",
+      "options": [
+        { "id": "a", "label": "Marlon Brando" },
+        { "id": "b", "label": "Al Pacino" },
+        { "id": "c", "label": "Robert De Niro" },
+        { "id": "d", "label": "James Caan" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p15",
+      "difficulty": "pro",
+      "text": "Quel réalisateur a signé Taxi Driver, Les Affranchis et Casino ?",
+      "options": [
+        { "id": "a", "label": "Martin Scorsese" },
+        { "id": "b", "label": "Spike Lee" },
+        { "id": "c", "label": "Oliver Stone" },
+        { "id": "d", "label": "Sam Mendes" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p16",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel film de Miyazaki, oscarisé, suit une fillette prisonnière d'un monde d'esprits et de bains ?",
+      "answer": "Le Voyage de Chihiro"
+    },
+    {
+      "id": "cine-p17",
+      "difficulty": "pro",
+      "text": "Quel studio d'animation japonais Hayao Miyazaki a-t-il cofondé ?",
+      "options": [
+        { "id": "a", "label": "Ghibli" },
+        { "id": "b", "label": "Toei" },
+        { "id": "c", "label": "Madhouse" },
+        { "id": "d", "label": "Pierrot" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p18",
+      "difficulty": "pro",
+      "text": "Quel acteur incarne Jack Dawson dans Titanic ?",
+      "options": [
+        { "id": "a", "label": "Leonardo DiCaprio" },
+        { "id": "b", "label": "Brad Pitt" },
+        { "id": "c", "label": "Johnny Depp" },
+        { "id": "d", "label": "Matt Damon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p19",
+      "difficulty": "pro",
+      "text": "Quelle actrice incarne Rose dans Titanic ?",
+      "options": [
+        { "id": "a", "label": "Kate Winslet" },
+        { "id": "b", "label": "Nicole Kidman" },
+        { "id": "c", "label": "Cate Blanchett" },
+        { "id": "d", "label": "Julia Roberts" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p20",
+      "difficulty": "pro",
+      "text": "Quel film de 1994 de Tarantino entrecroise des histoires de gangsters à Los Angeles ?",
+      "options": [
+        { "id": "a", "label": "Pulp Fiction" },
+        { "id": "b", "label": "Reservoir Dogs" },
+        { "id": "c", "label": "Kill Bill" },
+        { "id": "d", "label": "Jackie Brown" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p21",
+      "difficulty": "pro",
+      "text": "Quel acteur incarne Vincent Vega dans Pulp Fiction ?",
+      "options": [
+        { "id": "a", "label": "John Travolta" },
+        { "id": "b", "label": "Bruce Willis" },
+        { "id": "c", "label": "Tim Roth" },
+        { "id": "d", "label": "Harvey Keitel" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p22",
+      "difficulty": "pro",
+      "text": "Quel film de 1999 de Fincher met en scène des combats clandestins, avec Brad Pitt ?",
+      "options": [
+        { "id": "a", "label": "Fight Club" },
+        { "id": "b", "label": "Seven" },
+        { "id": "c", "label": "Zodiac" },
+        { "id": "d", "label": "Gladiator" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p23",
+      "difficulty": "pro",
+      "text": "Quel réalisateur a signé Seven, Fight Club et Gone Girl ?",
+      "options": [
+        { "id": "a", "label": "David Fincher" },
+        { "id": "b", "label": "Sam Mendes" },
+        { "id": "c", "label": "Spike Jonze" },
+        { "id": "d", "label": "Darren Aronofsky" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p24",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel western culte de Sergio Leone met en scène un harmoniciste vengeur face à Frank ?",
+      "answer": "Il était une fois dans l'Ouest"
+    },
+    {
+      "id": "cine-p25",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel film de Spielberg s'ouvre sur un débarquement sanglant en Normandie ?",
+      "answer": "Il faut sauver le soldat Ryan"
+    },
+    {
+      "id": "cine-p26",
+      "difficulty": "pro",
+      "text": "Quel acteur a remporté l'Oscar pour son rôle de Gandhi en 1982 ?",
+      "options": [
+        { "id": "a", "label": "Ben Kingsley" },
+        { "id": "b", "label": "Anthony Hopkins" },
+        { "id": "c", "label": "Daniel Day-Lewis" },
+        { "id": "d", "label": "Gary Oldman" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p27",
+      "difficulty": "pro",
+      "text": "Quel acteur, triple lauréat de l'Oscar, a incarné le président Lincoln et le prospecteur de There Will Be Blood ?",
+      "options": [
+        { "id": "a", "label": "Daniel Day-Lewis" },
+        { "id": "b", "label": "Ben Kingsley" },
+        { "id": "c", "label": "Anthony Hopkins" },
+        { "id": "d", "label": "Jack Nicholson" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p28",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel film met en scène le cannibale Hannibal Lecter face à l'agent Clarice Starling ?",
+      "answer": "Le Silence des agneaux"
+    },
+    {
+      "id": "cine-p29",
+      "difficulty": "pro",
+      "text": "Quel acteur incarne le cannibale Hannibal Lecter dans ce film ?",
+      "options": [
+        { "id": "a", "label": "Anthony Hopkins" },
+        { "id": "b", "label": "Ben Kingsley" },
+        { "id": "c", "label": "Gary Oldman" },
+        { "id": "d", "label": "Ralph Fiennes" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p30",
+      "difficulty": "pro",
+      "text": "Quel réalisateur mexicain a signé Le Labyrinthe de Pan et La Forme de l'eau ?",
+      "options": [
+        { "id": "a", "label": "Guillermo del Toro" },
+        { "id": "b", "label": "Alfonso Cuarón" },
+        { "id": "c", "label": "Alejandro Iñárritu" },
+        { "id": "d", "label": "Pedro Almodóvar" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p31",
+      "difficulty": "pro",
+      "text": "Quel réalisateur mexicain a remporté l'Oscar pour Gravity puis Roma ?",
+      "options": [
+        { "id": "a", "label": "Alfonso Cuarón" },
+        { "id": "b", "label": "Guillermo del Toro" },
+        { "id": "c", "label": "Alejandro Iñárritu" },
+        { "id": "d", "label": "Pedro Almodóvar" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p32",
+      "difficulty": "pro",
+      "text": "Quelle comédie musicale de 2016, avec Ryan Gosling et Emma Stone, a raflé de nombreux Oscars ?",
+      "options": [
+        { "id": "a", "label": "La La Land" },
+        { "id": "b", "label": "Moulin Rouge" },
+        { "id": "c", "label": "West Side Story" },
+        { "id": "d", "label": "Les Misérables" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p33",
+      "difficulty": "pro",
+      "text": "Quel réalisateur a signé Whiplash et La La Land ?",
+      "options": [
+        { "id": "a", "label": "Damien Chazelle" },
+        { "id": "b", "label": "Christopher Nolan" },
+        { "id": "c", "label": "David Fincher" },
+        { "id": "d", "label": "Wes Anderson" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p34",
+      "difficulty": "pro",
+      "text": "Quel réalisateur au style très symétrique a signé The Grand Budapest Hotel ?",
+      "options": [
+        { "id": "a", "label": "Wes Anderson" },
+        { "id": "b", "label": "Tim Burton" },
+        { "id": "c", "label": "David Lynch" },
+        { "id": "d", "label": "Sofia Coppola" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p35",
+      "difficulty": "pro",
+      "text": "Quel réalisateur gothique a signé Edward aux mains d'argent et Beetlejuice ?",
+      "options": [
+        { "id": "a", "label": "Tim Burton" },
+        { "id": "b", "label": "Wes Anderson" },
+        { "id": "c", "label": "David Lynch" },
+        { "id": "d", "label": "Guillermo del Toro" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p36",
+      "difficulty": "pro",
+      "text": "Quel acteur, fétiche de Tim Burton, joue Edward aux mains d'argent et Sweeney Todd ?",
+      "options": [
+        { "id": "a", "label": "Johnny Depp" },
+        { "id": "b", "label": "Christian Bale" },
+        { "id": "c", "label": "Ewan McGregor" },
+        { "id": "d", "label": "Gary Oldman" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p37",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel film envoie Marty McFly dans le passé à bord d'une DeLorean ?",
+      "answer": "Retour vers le futur"
+    },
+    {
+      "id": "cine-p38",
+      "difficulty": "pro",
+      "text": "Quel acteur joue Marty McFly dans Retour vers le futur ?",
+      "options": [
+        { "id": "a", "label": "Michael J. Fox" },
+        { "id": "b", "label": "Christopher Lloyd" },
+        { "id": "c", "label": "Tom Cruise" },
+        { "id": "d", "label": "Matthew Broderick" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p39",
+      "difficulty": "pro",
+      "text": "Quel film de 1982 de Spielberg raconte l'amitié entre un enfant et un extraterrestre ?",
+      "options": [
+        { "id": "a", "label": "E.T." },
+        { "id": "b", "label": "Gremlins" },
+        { "id": "c", "label": "Poltergeist" },
+        { "id": "d", "label": "Cocoon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "cine-p40",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "En quelle année le premier film Le Parrain est-il sorti ?",
+      "answerValue": 1972,
+      "unit": ""
+    }
+  ]
+}
