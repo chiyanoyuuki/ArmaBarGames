@@ -78,6 +78,1050 @@
       ],
       "correctOptionId": "a",
       "funFact": "Geralt appelle toutes ses montures « Ablette » (Roach en anglais)."
+    },
+    {
+      "id": "witcher-f3",
+      "difficulty": "facile",
+      "text": "Comment se nomme le héros sorceleur de la saga ?",
+      "options": [
+        { "id": "a", "label": "Geralt" },
+        { "id": "b", "label": "Vesemir" },
+        { "id": "c", "label": "Jaskier" },
+        { "id": "d", "label": "Lambert" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-f4",
+      "difficulty": "facile",
+      "text": "Quel barde vantard et bavard accompagne souvent le héros dans ses aventures ?",
+      "options": [
+        { "id": "a", "label": "Jaskier" },
+        { "id": "b", "label": "Vesemir" },
+        { "id": "c", "label": "Zoltan" },
+        { "id": "d", "label": "Emhyr" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-f5",
+      "difficulty": "facile",
+      "text": "Comment appelle-t-on les chasseurs de monstres mutants comme le héros ?",
+      "options": [
+        { "id": "a", "label": "Les sorceleurs" },
+        { "id": "b", "label": "Les mages" },
+        { "id": "c", "label": "Les chevaliers" },
+        { "id": "d", "label": "Les druides" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-f6",
+      "difficulty": "facile",
+      "text": "Comment s'appelle le vaste territoire médiéval-fantastique où se déroule la saga ?",
+      "options": [
+        { "id": "a", "label": "Le Continent" },
+        { "id": "b", "label": "Westeros" },
+        { "id": "c", "label": "Tamriel" },
+        { "id": "d", "label": "Azeroth" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-f7",
+      "difficulty": "facile",
+      "type": "buzzer",
+      "text": "Quelle jeune princesse aux cheveux cendrés le héros doit-il protéger, liée à lui par le Destin ?",
+      "answer": "Ciri"
+    },
+    {
+      "id": "witcher-f8",
+      "difficulty": "facile",
+      "text": "Quel métal compose l'épée du sorceleur réservée aux monstres ?",
+      "options": [
+        { "id": "a", "label": "L'argent" },
+        { "id": "b", "label": "L'acier" },
+        { "id": "c", "label": "L'or" },
+        { "id": "d", "label": "Le bronze" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "L'autre épée, en acier, est réservée aux adversaires humains."
+    },
+    {
+      "id": "witcher-f9",
+      "difficulty": "facile",
+      "text": "Que boivent les sorceleurs pour décupler leurs capacités avant un combat difficile ?",
+      "options": [
+        { "id": "a", "label": "Des potions" },
+        { "id": "b", "label": "Des onguents" },
+        { "id": "c", "label": "Des poisons" },
+        { "id": "d", "label": "Des remèdes" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-f10",
+      "difficulty": "facile",
+      "type": "estimation",
+      "text": "En quelle année le jeu The Witcher 3: Wild Hunt est-il sorti ?",
+      "answerValue": 2015,
+      "unit": ""
+    },
+    {
+      "id": "witcher-m3",
+      "difficulty": "moyen",
+      "text": "De quelle ville le héros tire-t-il son surnom, « Geralt de… » ?",
+      "options": [
+        { "id": "a", "label": "Rivia" },
+        { "id": "b", "label": "Cintra" },
+        { "id": "c", "label": "Nilfgaard" },
+        { "id": "d", "label": "Temeria" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-m4",
+      "difficulty": "moyen",
+      "text": "Quel signe magique projette une gerbe de flammes ?",
+      "options": [
+        { "id": "a", "label": "Igni" },
+        { "id": "b", "label": "Quen" },
+        { "id": "c", "label": "Aard" },
+        { "id": "d", "label": "Axii" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-m5",
+      "difficulty": "moyen",
+      "text": "Quel signe magique projette une onde de choc télékinétique ?",
+      "options": [
+        { "id": "a", "label": "Aard" },
+        { "id": "b", "label": "Igni" },
+        { "id": "c", "label": "Quen" },
+        { "id": "d", "label": "Axii" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-m6",
+      "difficulty": "moyen",
+      "text": "Quel signe magique permet de charmer ou d'influencer l'esprit d'autrui ?",
+      "options": [
+        { "id": "a", "label": "Axii" },
+        { "id": "b", "label": "Igni" },
+        { "id": "c", "label": "Aard" },
+        { "id": "d", "label": "Quen" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-m7",
+      "difficulty": "moyen",
+      "text": "À quelle confrérie de sorceleurs Geralt appartient-il ?",
+      "options": [
+        { "id": "a", "label": "L'école du Loup" },
+        { "id": "b", "label": "L'école du Chat" },
+        { "id": "c", "label": "L'école de l'Ours" },
+        { "id": "d", "label": "L'école du Griffon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-m8",
+      "difficulty": "moyen",
+      "text": "Quel vieux sorceleur, mentor de Geralt, veille sur Kaer Morhen ?",
+      "options": [
+        { "id": "a", "label": "Vesemir" },
+        { "id": "b", "label": "Lambert" },
+        { "id": "c", "label": "Eskel" },
+        { "id": "d", "label": "Jaskier" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-m9",
+      "difficulty": "moyen",
+      "text": "Quelle magicienne rousse, conseillère royale, fut aussi une amante de Geralt ?",
+      "options": [
+        { "id": "a", "label": "Triss Merigold" },
+        { "id": "b", "label": "Yennefer Vengerberg" },
+        { "id": "c", "label": "Philippa Eilhart" },
+        { "id": "d", "label": "Fringilla Vigo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-m10",
+      "difficulty": "moyen",
+      "text": "Quelle jeune fille, l'Enfant Surprise de Geralt, possède le pouvoir de l'Aîné Sang ?",
+      "options": [
+        { "id": "a", "label": "Ciri" },
+        { "id": "b", "label": "Triss" },
+        { "id": "c", "label": "Yennefer" },
+        { "id": "d", "label": "Philippa" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-m11",
+      "difficulty": "moyen",
+      "text": "Quelle reine de Cintra, grand-mère de Ciri, est surnommée la Lionne ?",
+      "options": [
+        { "id": "a", "label": "Calanthe" },
+        { "id": "b", "label": "Yennefer" },
+        { "id": "c", "label": "Triss" },
+        { "id": "d", "label": "Philippa" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-m12",
+      "difficulty": "moyen",
+      "text": "Quel empire du Sud envahit les royaumes du Nord au fil de la saga ?",
+      "options": [
+        { "id": "a", "label": "Nilfgaard" },
+        { "id": "b", "label": "Temeria" },
+        { "id": "c", "label": "Redania" },
+        { "id": "d", "label": "Skellige" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-m13",
+      "difficulty": "moyen",
+      "text": "Comment appelle-t-on l'archipel des guerriers vikings de la saga ?",
+      "options": [
+        { "id": "a", "label": "Skellige" },
+        { "id": "b", "label": "Novigrad" },
+        { "id": "c", "label": "Velen" },
+        { "id": "d", "label": "Toussaint" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-m14",
+      "difficulty": "moyen",
+      "text": "Quelle grande cité portuaire, libre et marchande, est un carrefour majeur de The Witcher 3 ?",
+      "options": [
+        { "id": "a", "label": "Novigrad" },
+        { "id": "b", "label": "Vizima" },
+        { "id": "c", "label": "Oxenfurt" },
+        { "id": "d", "label": "Vengerberg" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-m15",
+      "difficulty": "moyen",
+      "text": "Quels monstres aquatiques surgissent souvent près des marais dans le jeu ?",
+      "options": [
+        { "id": "a", "label": "Les noyeurs" },
+        { "id": "b", "label": "Les goules" },
+        { "id": "c", "label": "Les nekkers" },
+        { "id": "d", "label": "Les harpies" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-m16",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on la cavalcade spectrale d'elfes qui traque Ciri à travers les mondes ?",
+      "answer": "La Chasse Sauvage"
+    },
+    {
+      "id": "witcher-m17",
+      "difficulty": "moyen",
+      "text": "Quel nain bagarreur, vieil ami de Geralt, l'accompagne souvent ?",
+      "options": [
+        { "id": "a", "label": "Zoltan" },
+        { "id": "b", "label": "Vesemir" },
+        { "id": "c", "label": "Lambert" },
+        { "id": "d", "label": "Regis" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-m18",
+      "difficulty": "moyen",
+      "text": "Quel jeu de cartes très populaire peut-on disputer dans The Witcher 3 ?",
+      "options": [
+        { "id": "a", "label": "Le Gwent" },
+        { "id": "b", "label": "Le Tarot" },
+        { "id": "c", "label": "Les Échecs" },
+        { "id": "d", "label": "Les Dés" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-m19",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel studio polonais développe les jeux The Witcher ?",
+      "answer": "CD Projekt Red"
+    },
+    {
+      "id": "witcher-m20",
+      "difficulty": "moyen",
+      "type": "estimation",
+      "text": "Combien de signes magiques différents un sorceleur peut-il lancer au total ?",
+      "answerValue": 5,
+      "unit": "signes",
+      "funFact": "Igni, Aard, Quen, Axii et Yrden."
+    },
+    {
+      "id": "witcher-d2",
+      "difficulty": "dur",
+      "text": "Quel écrivain polonais est l'auteur des romans The Witcher ?",
+      "options": [
+        { "id": "a", "label": "Andrzej Sapkowski" },
+        { "id": "b", "label": "Adam Mickiewicz" },
+        { "id": "c", "label": "Stanislas Lem" },
+        { "id": "d", "label": "Henryk Sienkiewicz" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-d3",
+      "difficulty": "dur",
+      "text": "Quel signe magique dépose un piège explosif sur le sol ?",
+      "options": [
+        { "id": "a", "label": "Yrden" },
+        { "id": "b", "label": "Quen" },
+        { "id": "c", "label": "Igni" },
+        { "id": "d", "label": "Axii" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-d4",
+      "difficulty": "dur",
+      "text": "Quel empereur de Nilfgaard est le père biologique de Ciri ?",
+      "options": [
+        { "id": "a", "label": "Emhyr var Emreis" },
+        { "id": "b", "label": "Foltest de Temeria" },
+        { "id": "c", "label": "Radovid de Redania" },
+        { "id": "d", "label": "Henselt de Kaedwen" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-d5",
+      "difficulty": "dur",
+      "text": "Quel roi de Temeria, parfois allié de Geralt, est assassiné au début de The Witcher 2 ?",
+      "options": [
+        { "id": "a", "label": "Foltest" },
+        { "id": "b", "label": "Radovid" },
+        { "id": "c", "label": "Emhyr" },
+        { "id": "d", "label": "Henselt" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-d6",
+      "difficulty": "dur",
+      "text": "Quel roi fanatique de Redania persécute mages et non-humains ?",
+      "options": [
+        { "id": "a", "label": "Radovid" },
+        { "id": "b", "label": "Foltest" },
+        { "id": "c", "label": "Emhyr" },
+        { "id": "d", "label": "Henselt" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-d7",
+      "difficulty": "dur",
+      "text": "Quel sorceleur sarcastique de l'école du Loup est un compagnon de Geralt ?",
+      "options": [
+        { "id": "a", "label": "Lambert" },
+        { "id": "b", "label": "Vesemir" },
+        { "id": "c", "label": "Eskel" },
+        { "id": "d", "label": "Regis" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-d8",
+      "difficulty": "dur",
+      "text": "Quel autre sorceleur balafré de Kaer Morhen est un ami proche de Geralt ?",
+      "options": [
+        { "id": "a", "label": "Eskel" },
+        { "id": "b", "label": "Lambert" },
+        { "id": "c", "label": "Vesemir" },
+        { "id": "d", "label": "Regis" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-d9",
+      "difficulty": "dur",
+      "text": "Quel vampire supérieur, chirurgien et ami de Geralt, apparaît dans les romans ?",
+      "options": [
+        { "id": "a", "label": "Regis" },
+        { "id": "b", "label": "Detlaff" },
+        { "id": "c", "label": "Vesemir" },
+        { "id": "d", "label": "Zoltan" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-d10",
+      "difficulty": "dur",
+      "text": "Dans quelle région marécageuse ravagée par la guerre débute The Witcher 3 ?",
+      "options": [
+        { "id": "a", "label": "Velen" },
+        { "id": "b", "label": "Skellige" },
+        { "id": "c", "label": "Novigrad" },
+        { "id": "d", "label": "Toussaint" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-d11",
+      "difficulty": "dur",
+      "text": "Comment appelle-t-on les trois sorcières monstrueuses qui règnent sur les marais de Velen ?",
+      "options": [
+        { "id": "a", "label": "Les Dames du Bois" },
+        { "id": "b", "label": "Les Trois Grâces" },
+        { "id": "c", "label": "Les Filles du Marais" },
+        { "id": "d", "label": "Les Gardiennes des Marais" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-d12",
+      "difficulty": "dur",
+      "text": "Quel marchand mystérieux, incarnation du mal, propose un pacte à Geralt dans Hearts of Stone ?",
+      "options": [
+        { "id": "a", "label": "Gaunter O'Dimm" },
+        { "id": "b", "label": "Olgierd von Everec" },
+        { "id": "c", "label": "Vlodimir von Everec" },
+        { "id": "d", "label": "Emhyr var Emreis" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-d13",
+      "difficulty": "dur",
+      "text": "Quel noble maudit au cœur de pierre est au centre de l'extension Hearts of Stone ?",
+      "options": [
+        { "id": "a", "label": "Olgierd von Everec" },
+        { "id": "b", "label": "Gaunter O'Dimm" },
+        { "id": "c", "label": "Emhyr var Emreis" },
+        { "id": "d", "label": "Vernon Roche" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-d14",
+      "difficulty": "dur",
+      "text": "Dans quel duché ensoleillé et viticole se déroule l'extension Blood and Wine ?",
+      "options": [
+        { "id": "a", "label": "Toussaint" },
+        { "id": "b", "label": "Velen" },
+        { "id": "c", "label": "Skellige" },
+        { "id": "d", "label": "Novigrad" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-d15",
+      "difficulty": "dur",
+      "text": "Quel vampire supérieur sème la terreur à Toussaint dans Blood and Wine ?",
+      "options": [
+        { "id": "a", "label": "Detlaff" },
+        { "id": "b", "label": "Regis" },
+        { "id": "c", "label": "Olgierd" },
+        { "id": "d", "label": "Gaunter" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-d16",
+      "difficulty": "dur",
+      "text": "Quelle magicienne redanienne de la Loge, aux ambitions politiques, borgne la fin de The Witcher 3 ?",
+      "options": [
+        { "id": "a", "label": "Philippa Eilhart" },
+        { "id": "b", "label": "Triss Merigold" },
+        { "id": "c", "label": "Yennefer Vengerberg" },
+        { "id": "d", "label": "Fringilla Vigo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-d17",
+      "difficulty": "dur",
+      "text": "Quel chef des services secrets de Temeria, ennemi de Nilfgaard, aide parfois Geralt ?",
+      "options": [
+        { "id": "a", "label": "Vernon Roche" },
+        { "id": "b", "label": "Sigismund Dijkstra" },
+        { "id": "c", "label": "Emhyr Emreis" },
+        { "id": "d", "label": "Radovid Redania" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-d18",
+      "difficulty": "dur",
+      "text": "Quel ancien espion chauve, devenu patron du crime à Novigrad, manœuvre dans l'ombre ?",
+      "options": [
+        { "id": "a", "label": "Dijkstra" },
+        { "id": "b", "label": "Roche" },
+        { "id": "c", "label": "Radovid" },
+        { "id": "d", "label": "Emhyr" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-d19",
+      "difficulty": "dur",
+      "text": "Comment appelle-t-on le pouvoir génétique rare de Ciri, qui lui permet de voyager entre les mondes ?",
+      "options": [
+        { "id": "a", "label": "L'Aîné Sang" },
+        { "id": "b", "label": "La Chasse Sauvage" },
+        { "id": "c", "label": "Le Chaos" },
+        { "id": "d", "label": "La Conjonction" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-d20",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel cataclysme cosmique a fait surgir humains et monstres sur le Continent ?",
+      "answer": "La Conjonction des Sphères"
+    },
+    {
+      "id": "witcher-d21",
+      "difficulty": "dur",
+      "text": "Quel roi elfe de la Chasse Sauvage traque Ciri pour son sang ?",
+      "options": [
+        { "id": "a", "label": "Eredin" },
+        { "id": "b", "label": "Imlerith" },
+        { "id": "c", "label": "Caranthir" },
+        { "id": "d", "label": "Avallac'h" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-d22",
+      "difficulty": "dur",
+      "text": "Quel général au heaume à cornes de la Chasse Sauvage Geralt affronte-t-il sur un champ de bataille ?",
+      "options": [
+        { "id": "a", "label": "Imlerith" },
+        { "id": "b", "label": "Eredin" },
+        { "id": "c", "label": "Caranthir" },
+        { "id": "d", "label": "Avallac'h" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-d23",
+      "difficulty": "dur",
+      "text": "Quel sage elfe énigmatique, surnommé « le Renard », guide et manipule Ciri ?",
+      "options": [
+        { "id": "a", "label": "Avallac'h" },
+        { "id": "b", "label": "Eredin" },
+        { "id": "c", "label": "Imlerith" },
+        { "id": "d", "label": "Caranthir" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-d24",
+      "difficulty": "dur",
+      "text": "Quelle guerrière rousse de Skellige, fille de jarl, prétend au trône de l'archipel ?",
+      "options": [
+        { "id": "a", "label": "Cerys" },
+        { "id": "b", "label": "Hjalmar" },
+        { "id": "c", "label": "Ermion" },
+        { "id": "d", "label": "Madman" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-d25",
+      "difficulty": "dur",
+      "text": "Quel vieux jarl de Skellige, lié à la famille de Ciri, est un ami de longue date de Geralt ?",
+      "options": [
+        { "id": "a", "label": "Crach" },
+        { "id": "b", "label": "Ermion" },
+        { "id": "c", "label": "Hjalmar" },
+        { "id": "d", "label": "Donar" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-d26",
+      "difficulty": "dur",
+      "text": "Quelle potion noire dilate les pupilles et améliore la vision nocturne du sorceleur ?",
+      "options": [
+        { "id": "a", "label": "Le Chat" },
+        { "id": "b", "label": "L'Hirondelle" },
+        { "id": "c", "label": "Le Tonnerre" },
+        { "id": "d", "label": "Le Griffon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-d27",
+      "difficulty": "dur",
+      "text": "Quelle célèbre potion de soin régénère la vitalité du sorceleur en combat ?",
+      "options": [
+        { "id": "a", "label": "L'Hirondelle" },
+        { "id": "b", "label": "Le Chat" },
+        { "id": "c", "label": "Le Tonnerre" },
+        { "id": "d", "label": "Le Griffon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-d28",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on le rituel mortel de mutation qui transforme les enfants en sorceleurs ?",
+      "answer": "L'Épreuve des Herbes"
+    },
+    {
+      "id": "witcher-d29",
+      "difficulty": "dur",
+      "text": "Quel monstre volant à la queue empoisonnée, sorte de dragon dégénéré, est une cible de contrat fréquente ?",
+      "options": [
+        { "id": "a", "label": "La vouivre" },
+        { "id": "b", "label": "Le griffon" },
+        { "id": "c", "label": "Le basilic" },
+        { "id": "d", "label": "La harpie" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-d30",
+      "difficulty": "dur",
+      "type": "ordre",
+      "text": "Classe ces jeux vidéo The Witcher dans leur ordre de sortie.",
+      "items": [
+        { "id": "1", "label": "The Witcher" },
+        { "id": "2", "label": "The Witcher 2" },
+        { "id": "3", "label": "The Witcher 3" }
+      ],
+      "funFact": "2007, 2011 puis 2015."
+    },
+    {
+      "id": "witcher-p2",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "En quelle année le tout premier jeu The Witcher est-il sorti ?",
+      "answerValue": 2007,
+      "unit": ""
+    },
+    {
+      "id": "witcher-p3",
+      "difficulty": "pro",
+      "text": "Comment s'intitule le recueil de nouvelles qui ouvre la saga littéraire ?",
+      "options": [
+        { "id": "a", "label": "Le Dernier Vœu" },
+        { "id": "b", "label": "Le Sang des Elfes" },
+        { "id": "c", "label": "La Tour Hirondelle" },
+        { "id": "d", "label": "La Dame Lac" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-p4",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel est le nom complet de la magicienne aux cheveux noirs aimée de Geralt ?",
+      "answer": "Yennefer de Vengerberg"
+    },
+    {
+      "id": "witcher-p5",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel est le prénom complet de la princesse surnommée Ciri ?",
+      "answer": "Cirilla"
+    },
+    {
+      "id": "witcher-p6",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on l'organisation secrète de sorcières qui manipule la politique du Continent ?",
+      "answer": "La Loge des Magiciennes"
+    },
+    {
+      "id": "witcher-p7",
+      "difficulty": "pro",
+      "text": "Quel royaume du Nord est gouverné par le roi Foltest ?",
+      "options": [
+        { "id": "a", "label": "Temeria" },
+        { "id": "b", "label": "Redania" },
+        { "id": "c", "label": "Kaedwen" },
+        { "id": "d", "label": "Aedirn" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-p8",
+      "difficulty": "pro",
+      "text": "Quel royaume du Nord est dirigé par le roi Radovid ?",
+      "options": [
+        { "id": "a", "label": "Redania" },
+        { "id": "b", "label": "Temeria" },
+        { "id": "c", "label": "Kaedwen" },
+        { "id": "d", "label": "Aedirn" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-p9",
+      "difficulty": "pro",
+      "text": "Quel royaume du Nord est gouverné par le roi Henselt ?",
+      "options": [
+        { "id": "a", "label": "Kaedwen" },
+        { "id": "b", "label": "Temeria" },
+        { "id": "c", "label": "Redania" },
+        { "id": "d", "label": "Aedirn" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-p10",
+      "difficulty": "pro",
+      "text": "Quelle déesse les habitants de Skellige vénèrent-ils principalement ?",
+      "options": [
+        { "id": "a", "label": "Freya" },
+        { "id": "b", "label": "Melitele" },
+        { "id": "c", "label": "Lebioda" },
+        { "id": "d", "label": "Kreve" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-p11",
+      "difficulty": "pro",
+      "text": "Quelle déesse-mère est vénérée dans le Nord, patronne des guérisseuses ?",
+      "options": [
+        { "id": "a", "label": "Melitele" },
+        { "id": "b", "label": "Freya" },
+        { "id": "c", "label": "Lebioda" },
+        { "id": "d", "label": "Kreve" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-p12",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on la persécution des mages menée par l'Église du Feu Éternel à Novigrad ?",
+      "answer": "La chasse aux sorcières"
+    },
+    {
+      "id": "witcher-p13",
+      "difficulty": "pro",
+      "text": "Quel prophète, jadis brûlé, est vénéré par le culte du Feu Éternel ?",
+      "options": [
+        { "id": "a", "label": "Lebioda" },
+        { "id": "b", "label": "Melitele" },
+        { "id": "c", "label": "Freya" },
+        { "id": "d", "label": "Kreve" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-p14",
+      "difficulty": "pro",
+      "text": "Sur quelle île se dresse Aretuza, l'académie de magie pour jeunes filles ?",
+      "options": [
+        { "id": "a", "label": "Thanedd" },
+        { "id": "b", "label": "Skellige" },
+        { "id": "c", "label": "Undvik" },
+        { "id": "d", "label": "Hindarsfjall" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-p15",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "En quelle année la série Netflix The Witcher, avec Henry Cavill, est-elle sortie ?",
+      "answerValue": 2019,
+      "unit": ""
+    },
+    {
+      "id": "witcher-p16",
+      "difficulty": "pro",
+      "text": "Quel acteur incarne Geralt dans la première série Netflix ?",
+      "options": [
+        { "id": "a", "label": "Henry Cavill" },
+        { "id": "b", "label": "Liam Hemsworth" },
+        { "id": "c", "label": "Chris Hemsworth" },
+        { "id": "d", "label": "Mads Mikkelsen" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-p17",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelle chanson culte Jaskier interprète-t-il dans la série Netflix pour vanter les exploits de Geralt ?",
+      "answer": "Toss a Coin to Your Witcher"
+    },
+    {
+      "id": "witcher-p18",
+      "difficulty": "pro",
+      "text": "Quel monstre humanoïde velu, malédiction transformant un homme les nuits de pleine lune, chasse-t-on ?",
+      "options": [
+        { "id": "a", "label": "Le loup-garou" },
+        { "id": "b", "label": "Le vampire" },
+        { "id": "c", "label": "La goule" },
+        { "id": "d", "label": "Le noyeur" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-p19",
+      "difficulty": "pro",
+      "text": "Quelle princesse maudite, transformée en monstre nocturne, Geralt tente-t-il de sauver dans la première nouvelle ?",
+      "options": [
+        { "id": "a", "label": "La strige" },
+        { "id": "b", "label": "La sirène" },
+        { "id": "c", "label": "La goule" },
+        { "id": "d", "label": "La harpie" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-p20",
+      "difficulty": "pro",
+      "text": "Comment s'appelle la fille maudite du roi Foltest, changée en monstre ?",
+      "options": [
+        { "id": "a", "label": "Adda" },
+        { "id": "b", "label": "Ciri" },
+        { "id": "c", "label": "Yennefer" },
+        { "id": "d", "label": "Triss" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-p21",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel affrontement décisif oppose les mages du Nord à Nilfgaard sur une colline célèbre ?",
+      "answer": "La bataille de Sodden"
+    },
+    {
+      "id": "witcher-p22",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien de sorceleurs de l'école du Loup se retrouvent à Kaer Morhen dans The Witcher 3 ?",
+      "answerValue": 4,
+      "unit": "sorceleurs",
+      "funFact": "Geralt, Vesemir, Lambert et Eskel."
+    },
+    {
+      "id": "witcher-p23",
+      "difficulty": "pro",
+      "text": "Quel monstre insectoïde géant vit sous terre et surgit pour attaquer par surprise ?",
+      "options": [
+        { "id": "a", "label": "Le kikimore" },
+        { "id": "b", "label": "Le nekker" },
+        { "id": "c", "label": "La harpie" },
+        { "id": "d", "label": "Le noyeur" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-p24",
+      "difficulty": "pro",
+      "text": "Quelles petites créatures humanoïdes souterraines attaquent en meute dans The Witcher 3 ?",
+      "options": [
+        { "id": "a", "label": "Les nekkers" },
+        { "id": "b", "label": "Les noyeurs" },
+        { "id": "c", "label": "Les goules" },
+        { "id": "d", "label": "Les harpies" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-p25",
+      "difficulty": "pro",
+      "text": "Quel elfe, chef d'un commando, lutte pour les droits des non-humains ?",
+      "options": [
+        { "id": "a", "label": "Iorveth" },
+        { "id": "b", "label": "Avallac'h" },
+        { "id": "c", "label": "Eredin" },
+        { "id": "d", "label": "Filavandrel" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-p26",
+      "difficulty": "pro",
+      "text": "Comment appelle-t-on les commandos de guérilla elfes et nains luttant contre les humains ?",
+      "options": [
+        { "id": "a", "label": "Les Scoia'tael" },
+        { "id": "b", "label": "La Chasse Sauvage" },
+        { "id": "c", "label": "Les Sorceleurs" },
+        { "id": "d", "label": "Les Rats" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-p27",
+      "difficulty": "pro",
+      "text": "Comment s'intitule le troisième roman de la saga, marquant un tournant de la guerre ?",
+      "options": [
+        { "id": "a", "label": "Le Temps du Mépris" },
+        { "id": "b", "label": "Le Sang des Elfes" },
+        { "id": "c", "label": "Le Baptême du Feu" },
+        { "id": "d", "label": "La Dame du Lac" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-p28",
+      "difficulty": "pro",
+      "text": "Quel chevalier nilfgaardien au heaume ailé poursuit puis protège Ciri dans les romans ?",
+      "options": [
+        { "id": "a", "label": "Cahir" },
+        { "id": "b", "label": "Emhyr" },
+        { "id": "c", "label": "Vilgefortz" },
+        { "id": "d", "label": "Bonhart" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-p29",
+      "difficulty": "pro",
+      "text": "Quel puissant magicien renégat, principal antagoniste des romans, capture Ciri ?",
+      "options": [
+        { "id": "a", "label": "Vilgefortz" },
+        { "id": "b", "label": "Cahir" },
+        { "id": "c", "label": "Bonhart" },
+        { "id": "d", "label": "Emhyr" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-p30",
+      "difficulty": "pro",
+      "text": "Quel chasseur de primes impitoyable traque Ciri et tue des sorceleurs dans les romans ?",
+      "options": [
+        { "id": "a", "label": "Bonhart" },
+        { "id": "b", "label": "Cahir" },
+        { "id": "c", "label": "Vilgefortz" },
+        { "id": "d", "label": "Emhyr" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-p31",
+      "difficulty": "pro",
+      "text": "Comment s'appelle la bande de jeunes hors-la-loi que Ciri rejoint un temps dans les romans ?",
+      "options": [
+        { "id": "a", "label": "Les Rats" },
+        { "id": "b", "label": "Les Scoia'tael" },
+        { "id": "c", "label": "Les Corbeaux" },
+        { "id": "d", "label": "Les Bandits" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-p32",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "En forme de tête de quel animal se présente le médaillon de Geralt, qui vibre près des monstres ?",
+      "answer": "Un loup"
+    },
+    {
+      "id": "witcher-p33",
+      "difficulty": "pro",
+      "text": "Quel métal rare tombé du ciel sert à forger les meilleures lames d'acier ?",
+      "options": [
+        { "id": "a", "label": "La météorite" },
+        { "id": "b", "label": "Le dimeritium" },
+        { "id": "c", "label": "L'orichalque" },
+        { "id": "d", "label": "Le mithril" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-p34",
+      "difficulty": "pro",
+      "text": "Quel minerai bloque et neutralise la magie dans l'univers de The Witcher ?",
+      "options": [
+        { "id": "a", "label": "Le dimeritium" },
+        { "id": "b", "label": "La météorite" },
+        { "id": "c", "label": "L'orichalque" },
+        { "id": "d", "label": "Le mithril" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-p35",
+      "difficulty": "pro",
+      "text": "Quelle capitale de Temeria sert de décor à une partie du premier jeu ?",
+      "options": [
+        { "id": "a", "label": "Vizima" },
+        { "id": "b", "label": "Novigrad" },
+        { "id": "c", "label": "Oxenfurt" },
+        { "id": "d", "label": "Vengerberg" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-p36",
+      "difficulty": "pro",
+      "text": "Quelle ville universitaire, réputée pour son académie, se trouve près de Novigrad ?",
+      "options": [
+        { "id": "a", "label": "Oxenfurt" },
+        { "id": "b", "label": "Vizima" },
+        { "id": "c", "label": "Vengerberg" },
+        { "id": "d", "label": "Beauclair" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-p37",
+      "difficulty": "pro",
+      "text": "Quelle est la capitale du duché de Toussaint dans Blood and Wine ?",
+      "options": [
+        { "id": "a", "label": "Beauclair" },
+        { "id": "b", "label": "Vizima" },
+        { "id": "c", "label": "Oxenfurt" },
+        { "id": "d", "label": "Novigrad" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-p38",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien d'extensions narratives majeures The Witcher 3 a-t-il reçues ?",
+      "answerValue": 2,
+      "unit": "extensions",
+      "funFact": "Hearts of Stone et Blood and Wine."
+    },
+    {
+      "id": "witcher-p39",
+      "difficulty": "pro",
+      "text": "Quel spectre d'une femme trahie, en robe blanche, hante les ponts et rivières au grand jour ?",
+      "options": [
+        { "id": "a", "label": "La dame de midi" },
+        { "id": "b", "label": "La dame de minuit" },
+        { "id": "c", "label": "La demoiselle blanche" },
+        { "id": "d", "label": "La pleureuse errante" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "witcher-p40",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien de romans principaux composent la saga du Sorceleur écrite par Sapkowski ?",
+      "answerValue": 5,
+      "unit": "romans"
     }
   ]
 }
