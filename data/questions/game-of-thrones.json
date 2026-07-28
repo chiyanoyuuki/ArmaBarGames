@@ -1,0 +1,1140 @@
+{
+  "universeId": "game-of-thrones",
+  "questions": [
+    {
+      "id": "got-f1",
+      "difficulty": "facile",
+      "type": "buzzer",
+      "text": "Sur quel siège emblématique, fait d'épées, règne le roi des Sept Couronnes ?",
+      "answer": "Le Trône de Fer"
+    },
+    {
+      "id": "got-f2",
+      "difficulty": "facile",
+      "text": "Quelle famille au loup géant pour emblème dirige Winterfell, dans le Nord ?",
+      "options": [
+        { "id": "a", "label": "Les Stark" },
+        { "id": "b", "label": "Les Lannister" },
+        { "id": "c", "label": "Les Targaryen" },
+        { "id": "d", "label": "Les Baratheon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-f3",
+      "difficulty": "facile",
+      "text": "Quelle riche famille au lion d'or paie « toujours ses dettes » ?",
+      "options": [
+        { "id": "a", "label": "Les Lannister" },
+        { "id": "b", "label": "Les Stark" },
+        { "id": "c", "label": "Les Tyrell" },
+        { "id": "d", "label": "Les Martell" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-f4",
+      "difficulty": "facile",
+      "text": "Quelle jeune femme blonde est surnommée « la Mère des Dragons » ?",
+      "options": [
+        { "id": "a", "label": "Daenerys" },
+        { "id": "b", "label": "Cersei" },
+        { "id": "c", "label": "Sansa" },
+        { "id": "d", "label": "Arya" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-f5",
+      "difficulty": "facile",
+      "text": "Comment s'appelle le nain malin et sarcastique de la maison Lannister ?",
+      "options": [
+        { "id": "a", "label": "Tyrion" },
+        { "id": "b", "label": "Jaime" },
+        { "id": "c", "label": "Joffrey" },
+        { "id": "d", "label": "Tommen" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-f6",
+      "difficulty": "facile",
+      "text": "Quel fils bâtard de Ned Stark rejoint la Garde de Nuit au Mur ?",
+      "options": [
+        { "id": "a", "label": "Jon Snow" },
+        { "id": "b", "label": "Robb Stark" },
+        { "id": "c", "label": "Bran Stark" },
+        { "id": "d", "label": "Theon Greyjoy" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-f7",
+      "difficulty": "facile",
+      "text": "Quels animaux légendaires Daenerys fait-elle éclore de trois œufs pétrifiés ?",
+      "options": [
+        { "id": "a", "label": "Des dragons" },
+        { "id": "b", "label": "Des loups" },
+        { "id": "c", "label": "Des lions" },
+        { "id": "d", "label": "Des corbeaux" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-f8",
+      "difficulty": "facile",
+      "type": "buzzer",
+      "text": "Quelle immense barrière de glace protège les Sept Couronnes des dangers venus du Nord ?",
+      "answer": "Le Mur"
+    },
+    {
+      "id": "got-f9",
+      "difficulty": "facile",
+      "type": "estimation",
+      "text": "Combien de royaumes composent Westeros, le continent principal ?",
+      "answerValue": 7,
+      "unit": "royaumes"
+    },
+    {
+      "id": "got-f10",
+      "difficulty": "facile",
+      "text": "Quel animal-totem les enfants Stark adoptent-ils chacun comme compagnon ?",
+      "options": [
+        { "id": "a", "label": "Le loup géant" },
+        { "id": "b", "label": "Le dragon rouge" },
+        { "id": "c", "label": "Le lion doré" },
+        { "id": "d", "label": "Le cerf noir" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-m1",
+      "difficulty": "moyen",
+      "text": "Quel seigneur de Winterfell devient la Main du Roi au début de la série ?",
+      "options": [
+        { "id": "a", "label": "Ned Stark" },
+        { "id": "b", "label": "Robb Stark" },
+        { "id": "c", "label": "Jon Snow" },
+        { "id": "d", "label": "Robert Baratheon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-m2",
+      "difficulty": "moyen",
+      "text": "Quel roi obèse, ami de Ned, occupe le Trône de Fer au début de la série ?",
+      "options": [
+        { "id": "a", "label": "Robert Baratheon" },
+        { "id": "b", "label": "Joffrey Baratheon" },
+        { "id": "c", "label": "Stannis Baratheon" },
+        { "id": "d", "label": "Renly Baratheon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-m3",
+      "difficulty": "moyen",
+      "text": "Quel jeune roi blond et cruel monte sur le trône après Robert ?",
+      "options": [
+        { "id": "a", "label": "Joffrey" },
+        { "id": "b", "label": "Tommen" },
+        { "id": "c", "label": "Stannis" },
+        { "id": "d", "label": "Renly" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-m4",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle la reine blonde, sœur de Jaime et Tyrion ?",
+      "options": [
+        { "id": "a", "label": "Cersei" },
+        { "id": "b", "label": "Daenerys" },
+        { "id": "c", "label": "Sansa" },
+        { "id": "d", "label": "Margaery" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-m5",
+      "difficulty": "moyen",
+      "text": "Quel chevalier surnommé le « Régicide » a tué le Roi Fou ?",
+      "options": [
+        { "id": "a", "label": "Jaime Lannister" },
+        { "id": "b", "label": "Tyrion Lannister" },
+        { "id": "c", "label": "Sandor Clegane" },
+        { "id": "d", "label": "Gregor Clegane" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-m6",
+      "difficulty": "moyen",
+      "text": "Quelle fille aînée de Ned rêve d'épouser un prince puis subit la cour de Port-Réal ?",
+      "options": [
+        { "id": "a", "label": "Sansa" },
+        { "id": "b", "label": "Arya" },
+        { "id": "c", "label": "Cersei" },
+        { "id": "d", "label": "Daenerys" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-m7",
+      "difficulty": "moyen",
+      "text": "Quelle jeune Stark, garçon manqué, apprend à manier l'épée avec passion ?",
+      "options": [
+        { "id": "a", "label": "Arya" },
+        { "id": "b", "label": "Sansa" },
+        { "id": "c", "label": "Brienne" },
+        { "id": "d", "label": "Ygritte" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-m8",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle la capitale des Sept Couronnes, siège du Trône de Fer ?",
+      "options": [
+        { "id": "a", "label": "Port-Réal" },
+        { "id": "b", "label": "Winterfell" },
+        { "id": "c", "label": "Castral Roc" },
+        { "id": "d", "label": "Peyredragon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-m9",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle le château ancestral des Stark dans le Nord ?",
+      "options": [
+        { "id": "a", "label": "Winterfell" },
+        { "id": "b", "label": "Port-Réal" },
+        { "id": "c", "label": "Castral Roc" },
+        { "id": "d", "label": "Vivesaigues" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-m10",
+      "difficulty": "moyen",
+      "text": "Quel puissant chef de guerre dothraki épouse Daenerys ?",
+      "options": [
+        { "id": "a", "label": "Khal Drogo" },
+        { "id": "b", "label": "Jorah Mormont" },
+        { "id": "c", "label": "Daario Naharis" },
+        { "id": "d", "label": "Grey Worm" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-m11",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel ordre de frères jurés, vêtus de noir, défend le Mur du Nord ?",
+      "answer": "La Garde de Nuit"
+    },
+    {
+      "id": "got-m12",
+      "difficulty": "moyen",
+      "text": "Quelles créatures mortes aux yeux bleus menacent le royaume depuis le Grand Nord ?",
+      "options": [
+        { "id": "a", "label": "Les Marcheurs Blancs" },
+        { "id": "b", "label": "Les Sauvageons libres" },
+        { "id": "c", "label": "Les guerriers dothrakis" },
+        { "id": "d", "label": "Les soldats immaculés" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-m13",
+      "difficulty": "moyen",
+      "text": "Comment appelle-t-on les peuples libres qui vivent au-delà du Mur ?",
+      "options": [
+        { "id": "a", "label": "Les Sauvageons" },
+        { "id": "b", "label": "Les Marcheurs" },
+        { "id": "c", "label": "Les Immaculés" },
+        { "id": "d", "label": "Les Dothrakis" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-m14",
+      "difficulty": "moyen",
+      "text": "Quel frère jumeau de Cersei est aussi son amant secret ?",
+      "options": [
+        { "id": "a", "label": "Jaime" },
+        { "id": "b", "label": "Tyrion" },
+        { "id": "c", "label": "Joffrey" },
+        { "id": "d", "label": "Tommen" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-m15",
+      "difficulty": "moyen",
+      "text": "Quel guerrier au visage brûlé, surnommé « le Limier », protège un temps les filles Stark ?",
+      "options": [
+        { "id": "a", "label": "Sandor Clegane" },
+        { "id": "b", "label": "Gregor Clegane" },
+        { "id": "c", "label": "Jaime Lannister" },
+        { "id": "d", "label": "Bronn Blackwater" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-m16",
+      "difficulty": "moyen",
+      "text": "Quel fils aîné de Ned est proclamé « Roi du Nord » ?",
+      "options": [
+        { "id": "a", "label": "Robb Stark" },
+        { "id": "b", "label": "Jon Snow" },
+        { "id": "c", "label": "Bran Stark" },
+        { "id": "d", "label": "Rickon Stark" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-m17",
+      "difficulty": "moyen",
+      "text": "Quel jeune Stark, paralysé après une chute, développe des pouvoirs de vision ?",
+      "options": [
+        { "id": "a", "label": "Bran" },
+        { "id": "b", "label": "Rickon" },
+        { "id": "c", "label": "Robb" },
+        { "id": "d", "label": "Jon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-m18",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle l'épouse de Ned, mère des enfants Stark ?",
+      "options": [
+        { "id": "a", "label": "Catelyn" },
+        { "id": "b", "label": "Cersei" },
+        { "id": "c", "label": "Lysa" },
+        { "id": "d", "label": "Sansa" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-m19",
+      "difficulty": "moyen",
+      "text": "Quel conseiller eunuque, maître des espions, est surnommé « l'Araignée » ?",
+      "options": [
+        { "id": "a", "label": "Varys" },
+        { "id": "b", "label": "Baelish" },
+        { "id": "c", "label": "Pycelle" },
+        { "id": "d", "label": "Qyburn" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-m20",
+      "difficulty": "moyen",
+      "type": "estimation",
+      "text": "Combien de dragons Daenerys fait-elle naître au total ?",
+      "answerValue": 3,
+      "unit": "dragons"
+    },
+    {
+      "id": "got-d1",
+      "difficulty": "dur",
+      "text": "Quel écrivain est l'auteur de la saga littéraire adaptée en Game of Thrones ?",
+      "options": [
+        { "id": "a", "label": "Martin" },
+        { "id": "b", "label": "Tolkien" },
+        { "id": "c", "label": "Rowling" },
+        { "id": "d", "label": "King" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-d2",
+      "difficulty": "dur",
+      "text": "Quel est le nom du troisième dragon de Daenerys, avec Drogon et Rhaegal ?",
+      "options": [
+        { "id": "a", "label": "Viserion" },
+        { "id": "b", "label": "Balerion" },
+        { "id": "c", "label": "Vhagar" },
+        { "id": "d", "label": "Meraxes" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-d3",
+      "difficulty": "dur",
+      "text": "Quel dragon, le plus grand, Daenerys chevauche-t-elle personnellement ?",
+      "options": [
+        { "id": "a", "label": "Drogon" },
+        { "id": "b", "label": "Rhaegal" },
+        { "id": "c", "label": "Viserion" },
+        { "id": "d", "label": "Balerion" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-d4",
+      "difficulty": "dur",
+      "text": "Comment s'appelle la fine épée d'Arya Stark, offerte par Jon ?",
+      "options": [
+        { "id": "a", "label": "Aiguille" },
+        { "id": "b", "label": "Grand-Griffe" },
+        { "id": "c", "label": "Glace" },
+        { "id": "d", "label": "Gardienne" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-d5",
+      "difficulty": "dur",
+      "text": "Comment s'appelle l'épée en acier valyrien de Jon Snow ?",
+      "options": [
+        { "id": "a", "label": "Grand-Griffe" },
+        { "id": "b", "label": "Aiguille" },
+        { "id": "c", "label": "Glace" },
+        { "id": "d", "label": "Serment-lige" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-d6",
+      "difficulty": "dur",
+      "text": "De quel métal légendaire, capable de tuer les Marcheurs Blancs, sont faites les meilleures épées ?",
+      "options": [
+        { "id": "a", "label": "L'acier valyrien" },
+        { "id": "b", "label": "Le fer forgé" },
+        { "id": "c", "label": "L'or massif" },
+        { "id": "d", "label": "Le bronze ancien" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-d7",
+      "difficulty": "dur",
+      "text": "Quelle roche volcanique noire, dite « verredragon », tue aussi les Marcheurs Blancs ?",
+      "options": [
+        { "id": "a", "label": "L'obsidienne" },
+        { "id": "b", "label": "Le granit" },
+        { "id": "c", "label": "Le marbre" },
+        { "id": "d", "label": "Le basalte" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-d8",
+      "difficulty": "dur",
+      "text": "Quel est le vrai nom du conseiller manipulateur surnommé « Littlefinger » ?",
+      "options": [
+        { "id": "a", "label": "Petyr Baelish" },
+        { "id": "b", "label": "Lord Varys" },
+        { "id": "c", "label": "Mestre Pycelle" },
+        { "id": "d", "label": "Maître Qyburn" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-d9",
+      "difficulty": "dur",
+      "text": "Quel patriarche impitoyable, père de Cersei, Jaime et Tyrion, dirige la maison au lion d'or ?",
+      "options": [
+        { "id": "a", "label": "Tywin Lannister" },
+        { "id": "b", "label": "Kevan Lannister" },
+        { "id": "c", "label": "Jaime Lannister" },
+        { "id": "d", "label": "Tyrion Lannister" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-d10",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on le banquet où Robb Stark et sa mère sont trahis et massacrés ?",
+      "answer": "Les Noces Pourpres"
+    },
+    {
+      "id": "got-d11",
+      "difficulty": "dur",
+      "text": "Quelle famille des Îles de Fer, de pillards, a pour emblème un kraken ?",
+      "options": [
+        { "id": "a", "label": "Les Greyjoy" },
+        { "id": "b", "label": "Les Tully" },
+        { "id": "c", "label": "Les Tyrell" },
+        { "id": "d", "label": "Les Martell" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-d12",
+      "difficulty": "dur",
+      "text": "Quel pupille de Ned, fils de fer, trahit les Stark et s'empare de Winterfell ?",
+      "options": [
+        { "id": "a", "label": "Theon Greyjoy" },
+        { "id": "b", "label": "Ramsay Bolton" },
+        { "id": "c", "label": "Robb Stark" },
+        { "id": "d", "label": "Jon Snow" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-d13",
+      "difficulty": "dur",
+      "text": "Quel bâtard sadique de la maison Bolton torture Theon et épouse Sansa ?",
+      "options": [
+        { "id": "a", "label": "Ramsay" },
+        { "id": "b", "label": "Roose" },
+        { "id": "c", "label": "Theon" },
+        { "id": "d", "label": "Joffrey" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-d14",
+      "difficulty": "dur",
+      "text": "Quelle maison, jadis vassale des Stark, les trahit et s'empare du Nord ?",
+      "options": [
+        { "id": "a", "label": "Les Bolton" },
+        { "id": "b", "label": "Les Greyjoy" },
+        { "id": "c", "label": "Les Frey" },
+        { "id": "d", "label": "Les Karstark" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-d15",
+      "difficulty": "dur",
+      "text": "Quelle immense guerrière blonde jure fidélité à Catelyn puis protège les filles Stark ?",
+      "options": [
+        { "id": "a", "label": "Brienne" },
+        { "id": "b", "label": "Ygritte" },
+        { "id": "c", "label": "Yara" },
+        { "id": "d", "label": "Melisandre" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-d16",
+      "difficulty": "dur",
+      "text": "Quelle sauvageonne rousse devient l'amour de Jon Snow au-delà du Mur ?",
+      "options": [
+        { "id": "a", "label": "Ygritte" },
+        { "id": "b", "label": "Brienne" },
+        { "id": "c", "label": "Melisandre" },
+        { "id": "d", "label": "Cersei" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-d17",
+      "difficulty": "dur",
+      "text": "Quelle prêtresse rouge conseille Stannis au nom du Maître de la Lumière ?",
+      "options": [
+        { "id": "a", "label": "Melisandre" },
+        { "id": "b", "label": "Ygritte" },
+        { "id": "c", "label": "Brienne" },
+        { "id": "d", "label": "Daenerys" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-d18",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel dieu du feu, le Maître de la Lumière, la prêtresse rouge sert-elle ?",
+      "answer": "R'hllor"
+    },
+    {
+      "id": "got-d19",
+      "difficulty": "dur",
+      "text": "Quel frère austère de Robert revendique le trône avec l'aide de la prêtresse rouge ?",
+      "options": [
+        { "id": "a", "label": "Stannis" },
+        { "id": "b", "label": "Renly" },
+        { "id": "c", "label": "Joffrey" },
+        { "id": "d", "label": "Tommen" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-d20",
+      "difficulty": "dur",
+      "text": "Quel jeune frère charmeur de Robert se proclame roi, soutenu par les Tyrell ?",
+      "options": [
+        { "id": "a", "label": "Renly" },
+        { "id": "b", "label": "Stannis" },
+        { "id": "c", "label": "Joffrey" },
+        { "id": "d", "label": "Tommen" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-d21",
+      "difficulty": "dur",
+      "text": "Quelle riche famille du Bief, aux roses d'or, soutient un temps Renly ?",
+      "options": [
+        { "id": "a", "label": "Les Tyrell" },
+        { "id": "b", "label": "Les Martell" },
+        { "id": "c", "label": "Les Greyjoy" },
+        { "id": "d", "label": "Les Bolton" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-d22",
+      "difficulty": "dur",
+      "text": "Quelle jeune noble ambitieuse des Tyrell épouse successivement plusieurs rois ?",
+      "options": [
+        { "id": "a", "label": "Margaery" },
+        { "id": "b", "label": "Cersei" },
+        { "id": "c", "label": "Sansa" },
+        { "id": "d", "label": "Brienne" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-d23",
+      "difficulty": "dur",
+      "text": "Comment s'appelle la grand-mère acerbe de Margaery, dite « la Reine des Épines » ?",
+      "options": [
+        { "id": "a", "label": "Olenna Tyrell" },
+        { "id": "b", "label": "Cersei Lannister" },
+        { "id": "c", "label": "Catelyn Stark" },
+        { "id": "d", "label": "Lysa Arryn" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-d24",
+      "difficulty": "dur",
+      "text": "Quelle maison de Dorne a pour devise « Insoumis, Invaincus, Intacts » ?",
+      "options": [
+        { "id": "a", "label": "Les Martell" },
+        { "id": "b", "label": "Les Tyrell" },
+        { "id": "c", "label": "Les Tully" },
+        { "id": "d", "label": "Les Arryn" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-d25",
+      "difficulty": "dur",
+      "text": "Quel prince de Dorne affronte la Montagne en duel pour venger sa sœur ?",
+      "options": [
+        { "id": "a", "label": "Oberyn Martell" },
+        { "id": "b", "label": "Doran Martell" },
+        { "id": "c", "label": "Gregor Clegane" },
+        { "id": "d", "label": "Jaime Lannister" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-d26",
+      "difficulty": "dur",
+      "text": "Quel colosse surnommé « la Montagne » est le champion redouté des Lannister ?",
+      "options": [
+        { "id": "a", "label": "Gregor Clegane" },
+        { "id": "b", "label": "Sandor Clegane" },
+        { "id": "c", "label": "Khal Drogo" },
+        { "id": "d", "label": "Brienne" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-d27",
+      "difficulty": "dur",
+      "text": "Quel mercenaire cynique et habile devient l'ami et le bras droit de Tyrion ?",
+      "options": [
+        { "id": "a", "label": "Bronn" },
+        { "id": "b", "label": "Podrick" },
+        { "id": "c", "label": "Jorah" },
+        { "id": "d", "label": "Daario" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-d28",
+      "difficulty": "dur",
+      "text": "Quel chevalier exilé, amoureux de Daenerys, la conseille et la protège ?",
+      "options": [
+        { "id": "a", "label": "Jorah Mormont" },
+        { "id": "b", "label": "Daario Naharis" },
+        { "id": "c", "label": "Barristan Selmy" },
+        { "id": "d", "label": "Grey Worm" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-d29",
+      "difficulty": "dur",
+      "text": "Comment appelle-t-on l'armée d'esclaves-soldats d'élite que Daenerys libère et commande ?",
+      "options": [
+        { "id": "a", "label": "Les Immaculés" },
+        { "id": "b", "label": "Les Dothrakis" },
+        { "id": "c", "label": "Les Second Fils" },
+        { "id": "d", "label": "Les Corbeaux" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-d30",
+      "difficulty": "dur",
+      "type": "ordre",
+      "text": "Classe ces lieux de Westeros du plus au sud au plus au nord.",
+      "items": [
+        { "id": "1", "label": "Dorne" },
+        { "id": "2", "label": "Port-Réal" },
+        { "id": "3", "label": "Winterfell" },
+        { "id": "4", "label": "Le Mur" }
+      ]
+    },
+    {
+      "id": "got-p1",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "En quelle année la série Game of Thrones a-t-elle été diffusée pour la première fois ?",
+      "answerValue": 2011,
+      "unit": ""
+    },
+    {
+      "id": "got-p2",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien de saisons compte la série Game of Thrones ?",
+      "answerValue": 8,
+      "unit": "saisons"
+    },
+    {
+      "id": "got-p3",
+      "difficulty": "pro",
+      "text": "Quel acteur incarne Tyrion Lannister ?",
+      "options": [
+        { "id": "a", "label": "Peter Dinklage" },
+        { "id": "b", "label": "Kit Harington" },
+        { "id": "c", "label": "Richard Madden" },
+        { "id": "d", "label": "Sean Bean" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-p4",
+      "difficulty": "pro",
+      "text": "Quel acteur incarne Jon Snow ?",
+      "options": [
+        { "id": "a", "label": "Kit Harington" },
+        { "id": "b", "label": "Peter Dinklage" },
+        { "id": "c", "label": "Richard Madden" },
+        { "id": "d", "label": "Sean Bean" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-p5",
+      "difficulty": "pro",
+      "text": "Quelle actrice incarne Daenerys Targaryen ?",
+      "options": [
+        { "id": "a", "label": "Emilia Clarke" },
+        { "id": "b", "label": "Lena Headey" },
+        { "id": "c", "label": "Sophie Turner" },
+        { "id": "d", "label": "Maisie Williams" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-p6",
+      "difficulty": "pro",
+      "text": "Quelle actrice incarne Cersei Lannister ?",
+      "options": [
+        { "id": "a", "label": "Lena Headey" },
+        { "id": "b", "label": "Emilia Clarke" },
+        { "id": "c", "label": "Sophie Turner" },
+        { "id": "d", "label": "Maisie Williams" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-p7",
+      "difficulty": "pro",
+      "text": "Quel acteur incarne Ned Stark, tué dès la première saison ?",
+      "options": [
+        { "id": "a", "label": "Sean Bean" },
+        { "id": "b", "label": "Kit Harington" },
+        { "id": "c", "label": "Peter Dinklage" },
+        { "id": "d", "label": "Charles Dance" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-p8",
+      "difficulty": "pro",
+      "text": "Quelle actrice incarne Arya Stark ?",
+      "options": [
+        { "id": "a", "label": "Maisie Williams" },
+        { "id": "b", "label": "Sophie Turner" },
+        { "id": "c", "label": "Emilia Clarke" },
+        { "id": "d", "label": "Lena Headey" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-p9",
+      "difficulty": "pro",
+      "text": "Quelle actrice incarne Sansa Stark ?",
+      "options": [
+        { "id": "a", "label": "Sophie Turner" },
+        { "id": "b", "label": "Maisie Williams" },
+        { "id": "c", "label": "Emilia Clarke" },
+        { "id": "d", "label": "Lena Headey" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-p10",
+      "difficulty": "pro",
+      "text": "De quelle maison Daenerys est-elle l'héritière, jadis renversée du trône ?",
+      "options": [
+        { "id": "a", "label": "Les Targaryen" },
+        { "id": "b", "label": "Les Baratheon" },
+        { "id": "c", "label": "Les Stark" },
+        { "id": "d", "label": "Les Lannister" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-p11",
+      "difficulty": "pro",
+      "text": "Quel dragon noir géant d'autrefois, chevauché par Aegon, a conquis Westeros ?",
+      "options": [
+        { "id": "a", "label": "Balerion" },
+        { "id": "b", "label": "Drogon" },
+        { "id": "c", "label": "Viserion" },
+        { "id": "d", "label": "Rhaegal" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-p12",
+      "difficulty": "pro",
+      "text": "Quel roi Targaryen, dit « le Roi Fou », fut tué par Jaime Lannister ?",
+      "options": [
+        { "id": "a", "label": "Aerys" },
+        { "id": "b", "label": "Rhaegar" },
+        { "id": "c", "label": "Viserys" },
+        { "id": "d", "label": "Aegon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-p13",
+      "difficulty": "pro",
+      "text": "Quel frère cruel de Daenerys, qui la vend, périt sous une couronne d'or fondu ?",
+      "options": [
+        { "id": "a", "label": "Viserys" },
+        { "id": "b", "label": "Rhaegar" },
+        { "id": "c", "label": "Aerys" },
+        { "id": "d", "label": "Aegon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-p14",
+      "difficulty": "pro",
+      "text": "Quel ancêtre Targaryen, monté sur Balerion, a jadis unifié les Sept Couronnes ?",
+      "options": [
+        { "id": "a", "label": "Aegon le Conquérant" },
+        { "id": "b", "label": "Aerys le Fou" },
+        { "id": "c", "label": "Maegor le Cruel" },
+        { "id": "d", "label": "Baelor le Bienheureux" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-p15",
+      "difficulty": "pro",
+      "text": "Dans quelle cité de la baie des Serfs Daenerys s'installe-t-elle et règne un temps ?",
+      "options": [
+        { "id": "a", "label": "Meereen" },
+        { "id": "b", "label": "Qarth" },
+        { "id": "c", "label": "Braavos" },
+        { "id": "d", "label": "Pentos" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-p16",
+      "difficulty": "pro",
+      "text": "Dans quelle cité Daenerys libère-t-elle les Immaculés en trompant les maîtres ?",
+      "options": [
+        { "id": "a", "label": "Astapor" },
+        { "id": "b", "label": "Meereen" },
+        { "id": "c", "label": "Yunkaï" },
+        { "id": "d", "label": "Qarth" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-p17",
+      "difficulty": "pro",
+      "text": "Quelle cité libre abrite la Banque de Fer et la guilde des assassins ?",
+      "options": [
+        { "id": "a", "label": "Braavos" },
+        { "id": "b", "label": "Pentos" },
+        { "id": "c", "label": "Qarth" },
+        { "id": "d", "label": "Volantis" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-p18",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelle guilde d'assassins Arya rejoint-elle à Braavos, maîtres du déguisement mortel ?",
+      "answer": "Les Sans-Visage"
+    },
+    {
+      "id": "got-p19",
+      "difficulty": "pro",
+      "type": "open",
+      "text": "Complète la formule des assassins de Braavos : « Valar Morghulis », soit « Tous les hommes doivent... »",
+      "answer": "mourir",
+      "acceptedAnswers": ["mourir", "doivent mourir", "tous les hommes doivent mourir"]
+    },
+    {
+      "id": "got-p20",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel être mystérieux transmet à Bran ses visions du passé et de l'avenir ?",
+      "answer": "La Corneille à trois yeux"
+    },
+    {
+      "id": "got-p21",
+      "difficulty": "pro",
+      "text": "Quel maître d'armes de Braavos initie Arya au maniement de l'épée « à la mode de l'eau » ?",
+      "options": [
+        { "id": "a", "label": "Syrio Forel" },
+        { "id": "b", "label": "Jaqen H'ghar" },
+        { "id": "c", "label": "Jorah Mormont" },
+        { "id": "d", "label": "Bronn Blackwater" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-p22",
+      "difficulty": "pro",
+      "text": "Quel assassin change-visage donne à Arya une pièce et la formule « Valar Morghulis » ?",
+      "options": [
+        { "id": "a", "label": "Jaqen H'ghar" },
+        { "id": "b", "label": "Syrio Forel" },
+        { "id": "c", "label": "Jorah Mormont" },
+        { "id": "d", "label": "Lord Varys" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-p23",
+      "difficulty": "pro",
+      "text": "Quel géant doux ne sait dire qu'un seul mot et porte Bran sur son dos ?",
+      "options": [
+        { "id": "a", "label": "Hodor" },
+        { "id": "b", "label": "Samwell" },
+        { "id": "c", "label": "Grenn" },
+        { "id": "d", "label": "Podrick" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-p24",
+      "difficulty": "pro",
+      "text": "Quel ami érudit et peureux de Jon, à la Garde de Nuit, tue un Marcheur Blanc ?",
+      "options": [
+        { "id": "a", "label": "Samwell Tarly" },
+        { "id": "b", "label": "Grenn" },
+        { "id": "c", "label": "Pypar" },
+        { "id": "d", "label": "Edd" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-p25",
+      "difficulty": "pro",
+      "text": "Quel Lord Commandant de la Garde de Nuit, mentor de Jon, meurt lors d'une mutinerie ?",
+      "options": [
+        { "id": "a", "label": "Jeor Mormont" },
+        { "id": "b", "label": "Jorah Mormont" },
+        { "id": "c", "label": "Alliser Thorne" },
+        { "id": "d", "label": "Benjen Stark" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-p26",
+      "difficulty": "pro",
+      "text": "Quel oncle de Jon, ranger, disparaît au-delà du Mur dès le début de la série ?",
+      "options": [
+        { "id": "a", "label": "Benjen Stark" },
+        { "id": "b", "label": "Jeor Mormont" },
+        { "id": "c", "label": "Jorah Mormont" },
+        { "id": "d", "label": "Robb Stark" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-p27",
+      "difficulty": "pro",
+      "text": "Quel « roi d'au-delà du Mur » unit les tribus sauvageonnes ?",
+      "options": [
+        { "id": "a", "label": "Mance Rayder" },
+        { "id": "b", "label": "Tormund" },
+        { "id": "c", "label": "Styr" },
+        { "id": "d", "label": "Rattleshirt" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-p28",
+      "difficulty": "pro",
+      "text": "Quel sauvageon roux à la grande barbe devient un fidèle ami de Jon Snow ?",
+      "options": [
+        { "id": "a", "label": "Tormund" },
+        { "id": "b", "label": "Mance" },
+        { "id": "c", "label": "Styr" },
+        { "id": "d", "label": "Orell" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-p29",
+      "difficulty": "pro",
+      "text": "Quelle maison des Terres de la Couronne a pour emblème un cerf couronné ?",
+      "options": [
+        { "id": "a", "label": "Les Baratheon" },
+        { "id": "b", "label": "Les Stark" },
+        { "id": "c", "label": "Les Tyrell" },
+        { "id": "d", "label": "Les Arryn" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-p30",
+      "difficulty": "pro",
+      "text": "Quelle maison du Val, au faucon, a pour devise « Aussi haut que l'Honneur » ?",
+      "options": [
+        { "id": "a", "label": "Les Arryn" },
+        { "id": "b", "label": "Les Tully" },
+        { "id": "c", "label": "Les Frey" },
+        { "id": "d", "label": "Les Bolton" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-p31",
+      "difficulty": "pro",
+      "text": "Quelle maison des Conflans, à la truite, a pour devise « Famille, Devoir, Honneur » ?",
+      "options": [
+        { "id": "a", "label": "Les Tully" },
+        { "id": "b", "label": "Les Arryn" },
+        { "id": "c", "label": "Les Frey" },
+        { "id": "d", "label": "Les Bolton" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-p32",
+      "difficulty": "pro",
+      "text": "Quel vieux seigneur des Jumeaux orchestre le massacre des Noces Pourpres ?",
+      "options": [
+        { "id": "a", "label": "Walder Frey" },
+        { "id": "b", "label": "Roose Bolton" },
+        { "id": "c", "label": "Tywin Lannister" },
+        { "id": "d", "label": "Balon Greyjoy" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-p33",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelle célèbre devise, avertissement glaçant, appartient à la maison Stark ?",
+      "answer": "L'Hiver vient"
+    },
+    {
+      "id": "got-p34",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel immense édifice religieux de Port-Réal Cersei fait-elle exploser au feu grégeois ?",
+      "answer": "Le Grand Septuaire de Baelor"
+    },
+    {
+      "id": "got-p35",
+      "difficulty": "pro",
+      "text": "Quel personnage devient roi des Six Couronnes à la toute fin de la série ?",
+      "options": [
+        { "id": "a", "label": "Bran" },
+        { "id": "b", "label": "Jon" },
+        { "id": "c", "label": "Tyrion" },
+        { "id": "d", "label": "Sansa" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-p36",
+      "difficulty": "pro",
+      "text": "Quel royaume redevient indépendant à la fin, avec Sansa pour reine ?",
+      "options": [
+        { "id": "a", "label": "Le Nord" },
+        { "id": "b", "label": "Dorne" },
+        { "id": "c", "label": "Le Bief" },
+        { "id": "d", "label": "Les Conflans" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-p37",
+      "difficulty": "pro",
+      "text": "Vers quel lieu glacé du Nord Jon est-il renvoyé à la toute fin de la série ?",
+      "options": [
+        { "id": "a", "label": "Au Mur" },
+        { "id": "b", "label": "À Winterfell" },
+        { "id": "c", "label": "À Peyredragon" },
+        { "id": "d", "label": "À Blancport" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-p38",
+      "difficulty": "pro",
+      "text": "Quel duo de showrunners a adapté la série pour la chaîne HBO ?",
+      "options": [
+        { "id": "a", "label": "Benioff et Weiss" },
+        { "id": "b", "label": "Duffer et Duffer" },
+        { "id": "c", "label": "Nolan et Joy" },
+        { "id": "d", "label": "Weiss et Abrams" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-p39",
+      "difficulty": "pro",
+      "text": "Sur quelle chaîne américaine Game of Thrones a-t-il été diffusé ?",
+      "options": [
+        { "id": "a", "label": "HBO" },
+        { "id": "b", "label": "Netflix" },
+        { "id": "c", "label": "AMC" },
+        { "id": "d", "label": "Showtime" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "got-p40",
+      "difficulty": "pro",
+      "text": "Quelle préquelle centrée sur la maison Targaryen est sortie en 2022 ?",
+      "options": [
+        { "id": "a", "label": "House of the Dragon" },
+        { "id": "b", "label": "The Rings of Power" },
+        { "id": "c", "label": "The Wheel of Time" },
+        { "id": "d", "label": "The Last Kingdom" }
+      ],
+      "correctOptionId": "a"
+    }
+  ]
+}
