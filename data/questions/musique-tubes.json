@@ -1,0 +1,1175 @@
+{
+  "universeId": "musique-tubes",
+  "questions": [
+    {
+      "id": "muz-f1",
+      "difficulty": "facile",
+      "type": "buzzer",
+      "text": "Qui était le charismatique chanteur du groupe Queen ?",
+      "answer": "Freddie Mercury"
+    },
+    {
+      "id": "muz-f2",
+      "difficulty": "facile",
+      "text": "Quel groupe de Liverpool composé de John, Paul, George et Ringo est le plus célèbre de l'histoire ?",
+      "options": [
+        { "id": "a", "label": "Les Beatles" },
+        { "id": "b", "label": "Les Stones" },
+        { "id": "c", "label": "Queen" },
+        { "id": "d", "label": "ABBA" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-f3",
+      "difficulty": "facile",
+      "text": "Quel est le surnom du chanteur américain Elvis Presley ?",
+      "options": [
+        { "id": "a", "label": "Le King" },
+        { "id": "b", "label": "Le Boss" },
+        { "id": "c", "label": "La Voix" },
+        { "id": "d", "label": "Le Loup" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-f4",
+      "difficulty": "facile",
+      "text": "Quel instrument à six cordes est emblématique du rock ?",
+      "options": [
+        { "id": "a", "label": "La guitare" },
+        { "id": "b", "label": "Le piano" },
+        { "id": "c", "label": "La batterie" },
+        { "id": "d", "label": "Le violon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-f5",
+      "difficulty": "facile",
+      "text": "Quelle chanteuse américaine est surnommée « Queen B », star de la pop ?",
+      "options": [
+        { "id": "a", "label": "Beyoncé" },
+        { "id": "b", "label": "Rihanna" },
+        { "id": "c", "label": "Madonna" },
+        { "id": "d", "label": "Adele" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-f6",
+      "difficulty": "facile",
+      "text": "Quel chanteur français, « l'idole des jeunes », est une légende du rock français ?",
+      "options": [
+        { "id": "a", "label": "Johnny Hallyday" },
+        { "id": "b", "label": "Michel Sardou" },
+        { "id": "c", "label": "Claude François" },
+        { "id": "d", "label": "Serge Gainsbourg" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-f7",
+      "difficulty": "facile",
+      "text": "Quel groupe suédois des années 70 est célèbre pour « Dancing Queen » et « Mamma Mia » ?",
+      "options": [
+        { "id": "a", "label": "ABBA" },
+        { "id": "b", "label": "Queen" },
+        { "id": "c", "label": "Kiss" },
+        { "id": "d", "label": "Wham" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-f8",
+      "difficulty": "facile",
+      "type": "estimation",
+      "text": "Combien de cordes possède une guitare classique standard ?",
+      "answerValue": 6,
+      "unit": "cordes"
+    },
+    {
+      "id": "muz-f9",
+      "difficulty": "facile",
+      "text": "Quel style de musique jamaïcain Bob Marley a-t-il popularisé ?",
+      "options": [
+        { "id": "a", "label": "Le reggae" },
+        { "id": "b", "label": "Le rock" },
+        { "id": "c", "label": "Le jazz" },
+        { "id": "d", "label": "La salsa" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-f10",
+      "difficulty": "facile",
+      "text": "Quel roi de la pop est l'auteur de l'album « Thriller » ?",
+      "options": [
+        { "id": "a", "label": "Michael Jackson" },
+        { "id": "b", "label": "Freddie Mercury" },
+        { "id": "c", "label": "Elvis Presley" },
+        { "id": "d", "label": "Stevie Wonder" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-m1",
+      "difficulty": "moyen",
+      "text": "Quel groupe britannique a composé « Bohemian Rhapsody » ?",
+      "options": [
+        { "id": "a", "label": "Queen" },
+        { "id": "b", "label": "Oasis" },
+        { "id": "c", "label": "Blur" },
+        { "id": "d", "label": "Kiss" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-m2",
+      "difficulty": "moyen",
+      "text": "Quel chanteur américain de rock est surnommé « The Boss » ?",
+      "options": [
+        { "id": "a", "label": "Bruce Springsteen" },
+        { "id": "b", "label": "Bob Dylan" },
+        { "id": "c", "label": "Neil Young" },
+        { "id": "d", "label": "Tom Petty" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-m3",
+      "difficulty": "moyen",
+      "text": "Quelle chanteuse française, « la môme », est célèbre pour « La Vie en rose » ?",
+      "options": [
+        { "id": "a", "label": "Édith Piaf" },
+        { "id": "b", "label": "Dalida" },
+        { "id": "c", "label": "Barbara" },
+        { "id": "d", "label": "Sheila" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-m4",
+      "difficulty": "moyen",
+      "text": "Quel groupe de rock britannique a pour membres Mick Jagger et Keith Richards ?",
+      "options": [
+        { "id": "a", "label": "Les Rolling Stones" },
+        { "id": "b", "label": "Les Beatles" },
+        { "id": "c", "label": "Pink Floyd" },
+        { "id": "d", "label": "The Who" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-m5",
+      "difficulty": "moyen",
+      "text": "Quel auteur-compositeur français a écrit « Il jouait du piano debout » pour France Gall ?",
+      "options": [
+        { "id": "a", "label": "Michel Berger" },
+        { "id": "b", "label": "Michel Sardou" },
+        { "id": "c", "label": "Charles Aznavour" },
+        { "id": "d", "label": "Serge Gainsbourg" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-m6",
+      "difficulty": "moyen",
+      "text": "Quel groupe de rap français des années 90 vient de Marseille, avec Akhenaton ?",
+      "options": [
+        { "id": "a", "label": "IAM" },
+        { "id": "b", "label": "NTM" },
+        { "id": "c", "label": "Sniper" },
+        { "id": "d", "label": "113" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-m7",
+      "difficulty": "moyen",
+      "text": "Quel groupe de rap parisien a pour membres Kool Shen et JoeyStarr ?",
+      "options": [
+        { "id": "a", "label": "NTM" },
+        { "id": "b", "label": "IAM" },
+        { "id": "c", "label": "Sniper" },
+        { "id": "d", "label": "113" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-m8",
+      "difficulty": "moyen",
+      "text": "Quel style musical est né à La Nouvelle-Orléans, avec l'improvisation et le swing ?",
+      "options": [
+        { "id": "a", "label": "Le jazz" },
+        { "id": "b", "label": "Le blues" },
+        { "id": "c", "label": "Le rock" },
+        { "id": "d", "label": "La country" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-m9",
+      "difficulty": "moyen",
+      "text": "Quelle diva américaine a chanté « I Will Always Love You » dans Bodyguard ?",
+      "options": [
+        { "id": "a", "label": "Whitney Houston" },
+        { "id": "b", "label": "Mariah Carey" },
+        { "id": "c", "label": "Celine Dion" },
+        { "id": "d", "label": "Aretha Franklin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-m10",
+      "difficulty": "moyen",
+      "text": "Quelle chanteuse canadienne a interprété « My Heart Will Go On », chanson-titre de Titanic ?",
+      "options": [
+        { "id": "a", "label": "Céline Dion" },
+        { "id": "b", "label": "Whitney Houston" },
+        { "id": "c", "label": "Mariah Carey" },
+        { "id": "d", "label": "Shania Twain" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-m11",
+      "difficulty": "moyen",
+      "text": "Quel groupe britannique a réalisé l'album « The Dark Side of the Moon » ?",
+      "options": [
+        { "id": "a", "label": "Pink Floyd" },
+        { "id": "b", "label": "Led Zeppelin" },
+        { "id": "c", "label": "The Beatles" },
+        { "id": "d", "label": "Deep Purple" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-m12",
+      "difficulty": "moyen",
+      "text": "Quel chanteur britannique pianiste a chanté « Rocket Man » et « Your Song » ?",
+      "options": [
+        { "id": "a", "label": "Elton John" },
+        { "id": "b", "label": "David Bowie" },
+        { "id": "c", "label": "Freddie Mercury" },
+        { "id": "d", "label": "Rod Stewart" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-m13",
+      "difficulty": "moyen",
+      "text": "Quel artiste américain, auteur de « Purple Rain », est mort en 2016 ?",
+      "options": [
+        { "id": "a", "label": "Prince" },
+        { "id": "b", "label": "Michael Jackson" },
+        { "id": "c", "label": "David Bowie" },
+        { "id": "d", "label": "George Michael" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-m14",
+      "difficulty": "moyen",
+      "text": "Quel groupe de rock irlandais a pour chanteur Bono ?",
+      "options": [
+        { "id": "a", "label": "U2" },
+        { "id": "b", "label": "Coldplay" },
+        { "id": "c", "label": "Oasis" },
+        { "id": "d", "label": "Muse" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-m15",
+      "difficulty": "moyen",
+      "text": "Quel groupe a pour chanteur Chris Martin et a composé « Yellow » ?",
+      "options": [
+        { "id": "a", "label": "Coldplay" },
+        { "id": "b", "label": "Oasis" },
+        { "id": "c", "label": "Radiohead" },
+        { "id": "d", "label": "Muse" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-m16",
+      "difficulty": "moyen",
+      "text": "Quel chanteur français a interprété « Comme d'habitude », reprise en anglais sous « My Way » ?",
+      "options": [
+        { "id": "a", "label": "Claude François" },
+        { "id": "b", "label": "Michel Sardou" },
+        { "id": "c", "label": "Joe Dassin" },
+        { "id": "d", "label": "Johnny Hallyday" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-m17",
+      "difficulty": "moyen",
+      "text": "Quel chanteur franco-américain est célèbre pour « Les Champs-Élysées » ?",
+      "options": [
+        { "id": "a", "label": "Joe Dassin" },
+        { "id": "b", "label": "Claude François" },
+        { "id": "c", "label": "Michel Sardou" },
+        { "id": "d", "label": "Sacha Distel" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-m18",
+      "difficulty": "moyen",
+      "text": "Quel groupe de hard rock australien a composé « Highway to Hell » et « Thunderstruck » ?",
+      "options": [
+        { "id": "a", "label": "AC/DC" },
+        { "id": "b", "label": "Metallica" },
+        { "id": "c", "label": "Nirvana" },
+        { "id": "d", "label": "Kiss" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-m19",
+      "difficulty": "moyen",
+      "text": "Quel chanteur de Nirvana, figure du grunge, est mort en 1994 ?",
+      "options": [
+        { "id": "a", "label": "Kurt Cobain" },
+        { "id": "b", "label": "Chris Cornell" },
+        { "id": "c", "label": "Eddie Vedder" },
+        { "id": "d", "label": "Dave Grohl" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-m20",
+      "difficulty": "moyen",
+      "type": "estimation",
+      "text": "En quelle année les Beatles se sont-ils officiellement séparés ?",
+      "answerValue": 1970,
+      "unit": ""
+    },
+    {
+      "id": "muz-d1",
+      "difficulty": "dur",
+      "text": "Quel compositeur allemand, devenu sourd, a écrit la Neuvième Symphonie et « l'Ode à la joie » ?",
+      "options": [
+        { "id": "a", "label": "Beethoven" },
+        { "id": "b", "label": "Mozart" },
+        { "id": "c", "label": "Bach" },
+        { "id": "d", "label": "Chopin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-d2",
+      "difficulty": "dur",
+      "text": "Quel prodige autrichien a composé « La Flûte enchantée » et est mort à 35 ans ?",
+      "options": [
+        { "id": "a", "label": "Mozart" },
+        { "id": "b", "label": "Beethoven" },
+        { "id": "c", "label": "Haydn" },
+        { "id": "d", "label": "Schubert" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-d3",
+      "difficulty": "dur",
+      "text": "Quel compositeur baroque allemand a écrit les « Concertos brandebourgeois » ?",
+      "options": [
+        { "id": "a", "label": "Bach" },
+        { "id": "b", "label": "Mozart" },
+        { "id": "c", "label": "Haendel" },
+        { "id": "d", "label": "Vivaldi" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-d4",
+      "difficulty": "dur",
+      "text": "Quel compositeur italien a écrit « Les Quatre Saisons » ?",
+      "options": [
+        { "id": "a", "label": "Vivaldi" },
+        { "id": "b", "label": "Verdi" },
+        { "id": "c", "label": "Puccini" },
+        { "id": "d", "label": "Rossini" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-d5",
+      "difficulty": "dur",
+      "text": "Quel auteur-compositeur français a écrit pour Céline Dion et Johnny (« J'irai où tu iras ») ?",
+      "options": [
+        { "id": "a", "label": "Jean-Jacques Goldman" },
+        { "id": "b", "label": "Michel Berger" },
+        { "id": "c", "label": "Michel Sardou" },
+        { "id": "d", "label": "Charles Aznavour" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-d6",
+      "difficulty": "dur",
+      "text": "Quel chanteur français d'origine arménienne a chanté « La Bohème » et « Emmenez-moi » ?",
+      "options": [
+        { "id": "a", "label": "Charles Aznavour" },
+        { "id": "b", "label": "Michel Sardou" },
+        { "id": "c", "label": "Serge Gainsbourg" },
+        { "id": "d", "label": "Jacques Brel" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-d7",
+      "difficulty": "dur",
+      "text": "Quel chanteur belge est l'auteur de « Ne me quitte pas » et « Amsterdam » ?",
+      "options": [
+        { "id": "a", "label": "Jacques Brel" },
+        { "id": "b", "label": "Charles Aznavour" },
+        { "id": "c", "label": "Serge Gainsbourg" },
+        { "id": "d", "label": "Georges Brassens" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-d8",
+      "difficulty": "dur",
+      "text": "Quel chanteur français provocateur a écrit « Je t'aime… moi non plus » ?",
+      "options": [
+        { "id": "a", "label": "Serge Gainsbourg" },
+        { "id": "b", "label": "Jacques Brel" },
+        { "id": "c", "label": "Georges Brassens" },
+        { "id": "d", "label": "Charles Aznavour" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-d9",
+      "difficulty": "dur",
+      "text": "Quel chanteur français à moustache et pipe a écrit « Les Copains d'abord » ?",
+      "options": [
+        { "id": "a", "label": "Georges Brassens" },
+        { "id": "b", "label": "Jacques Brel" },
+        { "id": "c", "label": "Léo Ferré" },
+        { "id": "d", "label": "Serge Gainsbourg" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-d10",
+      "difficulty": "dur",
+      "text": "Quel bassiste-chanteur des Beatles a écrit « Yesterday » et « Let It Be » ?",
+      "options": [
+        { "id": "a", "label": "Paul McCartney" },
+        { "id": "b", "label": "John Lennon" },
+        { "id": "c", "label": "George Harrison" },
+        { "id": "d", "label": "Ringo Starr" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-d11",
+      "difficulty": "dur",
+      "text": "Quel membre des Beatles a été assassiné à New York en 1980 ?",
+      "options": [
+        { "id": "a", "label": "John Lennon" },
+        { "id": "b", "label": "Paul McCartney" },
+        { "id": "c", "label": "George Harrison" },
+        { "id": "d", "label": "Ringo Starr" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-d12",
+      "difficulty": "dur",
+      "text": "Quel guitariste virtuose américain, mort en 1970, a marqué le festival de Woodstock ?",
+      "options": [
+        { "id": "a", "label": "Jimi Hendrix" },
+        { "id": "b", "label": "Eric Clapton" },
+        { "id": "c", "label": "Jimmy Page" },
+        { "id": "d", "label": "Keith Richards" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-d13",
+      "difficulty": "dur",
+      "text": "Quel groupe britannique a pour guitariste Jimmy Page et chanteur Robert Plant ?",
+      "options": [
+        { "id": "a", "label": "Led Zeppelin" },
+        { "id": "b", "label": "Deep Purple" },
+        { "id": "c", "label": "Black Sabbath" },
+        { "id": "d", "label": "Pink Floyd" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-d14",
+      "difficulty": "dur",
+      "text": "Quel groupe de metal américain a composé « Enter Sandman » et « Nothing Else Matters » ?",
+      "options": [
+        { "id": "a", "label": "Metallica" },
+        { "id": "b", "label": "Iron Maiden" },
+        { "id": "c", "label": "Megadeth" },
+        { "id": "d", "label": "Slayer" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-d15",
+      "difficulty": "dur",
+      "type": "open",
+      "text": "Quel chanteur britannique caméléon a incarné le personnage de « Ziggy Stardust » ?",
+      "answer": "David Bowie",
+      "acceptedAnswers": ["david bowie", "bowie"]
+    },
+    {
+      "id": "muz-d16",
+      "difficulty": "dur",
+      "text": "Quel groupe américain, mené par Kurt Cobain, a lancé le grunge avec « Nevermind » ?",
+      "options": [
+        { "id": "a", "label": "Nirvana" },
+        { "id": "b", "label": "Soundgarden" },
+        { "id": "c", "label": "Radiohead" },
+        { "id": "d", "label": "Metallica" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-d17",
+      "difficulty": "dur",
+      "text": "Quel rappeur de la côte Est, tué en 1997, est surnommé « Notorious B.I.G. » ?",
+      "options": [
+        { "id": "a", "label": "Biggie" },
+        { "id": "b", "label": "Tupac" },
+        { "id": "c", "label": "Jay-Z" },
+        { "id": "d", "label": "Nas" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-d18",
+      "difficulty": "dur",
+      "text": "Quel rappeur de la côte Ouest, tué en 1996, est une légende du hip-hop ?",
+      "options": [
+        { "id": "a", "label": "Tupac" },
+        { "id": "b", "label": "Biggie" },
+        { "id": "c", "label": "Eminem" },
+        { "id": "d", "label": "Dr Dre" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-d19",
+      "difficulty": "dur",
+      "text": "Quel rappeur blanc de Détroit, protégé de Dr Dre, a chanté « Lose Yourself » ?",
+      "options": [
+        { "id": "a", "label": "Eminem" },
+        { "id": "b", "label": "Tupac" },
+        { "id": "c", "label": "50 Cent" },
+        { "id": "d", "label": "Snoop Dogg" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-d20",
+      "difficulty": "dur",
+      "text": "Quel duo français casqué, pionnier de la French touch, a marqué l'électro mondiale ?",
+      "options": [
+        { "id": "a", "label": "Daft Punk" },
+        { "id": "b", "label": "David Guetta" },
+        { "id": "c", "label": "Bob Sinclar" },
+        { "id": "d", "label": "Martin Solveig" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-d21",
+      "difficulty": "dur",
+      "text": "Quel DJ français a connu un succès mondial avec « When Love Takes Over » et « Titanium » ?",
+      "options": [
+        { "id": "a", "label": "David Guetta" },
+        { "id": "b", "label": "Daft Punk" },
+        { "id": "c", "label": "Bob Sinclar" },
+        { "id": "d", "label": "Martin Solveig" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-d22",
+      "difficulty": "dur",
+      "text": "Quelle chanteuse britannique a triomphé avec l'album « 21 » et « Someone Like You » ?",
+      "options": [
+        { "id": "a", "label": "Adele" },
+        { "id": "b", "label": "Amy Winehouse" },
+        { "id": "c", "label": "Dua Lipa" },
+        { "id": "d", "label": "Duffy" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-d23",
+      "difficulty": "dur",
+      "text": "Quel chanteur britannique roux, à la guitare, a composé « Shape of You » et « Perfect » ?",
+      "options": [
+        { "id": "a", "label": "Ed Sheeran" },
+        { "id": "b", "label": "Sam Smith" },
+        { "id": "c", "label": "James Blunt" },
+        { "id": "d", "label": "Lewis Capaldi" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-d24",
+      "difficulty": "dur",
+      "text": "Quelle chanteuse soul britannique à la choucroute est morte en 2011, à 27 ans ?",
+      "options": [
+        { "id": "a", "label": "Amy Winehouse" },
+        { "id": "b", "label": "Adele" },
+        { "id": "c", "label": "Dua Lipa" },
+        { "id": "d", "label": "Duffy" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-d25",
+      "difficulty": "dur",
+      "text": "Quel groupe de rock alternatif britannique a composé « Creep » et « No Surprises » ?",
+      "options": [
+        { "id": "a", "label": "Radiohead" },
+        { "id": "b", "label": "Coldplay" },
+        { "id": "c", "label": "Muse" },
+        { "id": "d", "label": "Oasis" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-d26",
+      "difficulty": "dur",
+      "text": "Quel groupe britannique des frères Gallagher a marqué la britpop avec « Wonderwall » ?",
+      "options": [
+        { "id": "a", "label": "Oasis" },
+        { "id": "b", "label": "Blur" },
+        { "id": "c", "label": "Radiohead" },
+        { "id": "d", "label": "Coldplay" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-d27",
+      "difficulty": "dur",
+      "text": "Quelle chanteuse américaine, star de la country puis de la pop, a sorti l'album « 1989 » ?",
+      "options": [
+        { "id": "a", "label": "Taylor Swift" },
+        { "id": "b", "label": "Katy Perry" },
+        { "id": "c", "label": "Lady Gaga" },
+        { "id": "d", "label": "Ariana Grande" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-d28",
+      "difficulty": "dur",
+      "text": "Quel groupe de K-pop sud-coréen a connu un succès planétaire avec « Dynamite » ?",
+      "options": [
+        { "id": "a", "label": "BTS" },
+        { "id": "b", "label": "Blackpink" },
+        { "id": "c", "label": "EXO" },
+        { "id": "d", "label": "Twice" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-d29",
+      "difficulty": "dur",
+      "type": "ordre",
+      "text": "Classe ces genres musicaux du plus ancien au plus récent.",
+      "items": [
+        { "id": "1", "label": "Le rock 'n' roll" },
+        { "id": "2", "label": "Le disco" },
+        { "id": "3", "label": "Le rap" },
+        { "id": "4", "label": "L'EDM" }
+      ]
+    },
+    {
+      "id": "muz-d30",
+      "difficulty": "dur",
+      "text": "Quel instrument à touches noires et blanches compte 88 touches ?",
+      "options": [
+        { "id": "a", "label": "Le piano" },
+        { "id": "b", "label": "L'orgue" },
+        { "id": "c", "label": "L'accordéon" },
+        { "id": "d", "label": "Le clavecin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p1",
+      "difficulty": "pro",
+      "text": "Quel groupe a vendu le plus de disques dans l'histoire de la musique ?",
+      "options": [
+        { "id": "a", "label": "Les Beatles" },
+        { "id": "b", "label": "Elvis Presley" },
+        { "id": "c", "label": "Michael Jackson" },
+        { "id": "d", "label": "Pink Floyd" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p2",
+      "difficulty": "pro",
+      "text": "Quel album de Michael Jackson est le plus vendu de l'histoire ?",
+      "options": [
+        { "id": "a", "label": "Thriller" },
+        { "id": "b", "label": "Bad" },
+        { "id": "c", "label": "Invincible" },
+        { "id": "d", "label": "Dangerous" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p3",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "En quelle année Michael Jackson est-il décédé ?",
+      "answerValue": 2009,
+      "unit": ""
+    },
+    {
+      "id": "muz-p4",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel festival mythique de 1969 a réuni des centaines de milliers de hippies dans l'État de New York ?",
+      "answer": "Woodstock"
+    },
+    {
+      "id": "muz-p5",
+      "difficulty": "pro",
+      "text": "Quel concert caritatif de 1985, organisé par Bob Geldof, eut lieu à Londres et Philadelphie ?",
+      "options": [
+        { "id": "a", "label": "Live Aid" },
+        { "id": "b", "label": "Woodstock" },
+        { "id": "c", "label": "Coachella" },
+        { "id": "d", "label": "Hellfest" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p6",
+      "difficulty": "pro",
+      "text": "Quel chanteur des Doors, poète maudit, est mort à Paris en 1971 ?",
+      "options": [
+        { "id": "a", "label": "Jim Morrison" },
+        { "id": "b", "label": "Jimi Hendrix" },
+        { "id": "c", "label": "Kurt Cobain" },
+        { "id": "d", "label": "Ian Curtis" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p7",
+      "difficulty": "pro",
+      "text": "Quelle chanteuse blues-rock des années 60, morte à 27 ans, était surnommée « Pearl » ?",
+      "options": [
+        { "id": "a", "label": "Janis Joplin" },
+        { "id": "b", "label": "Aretha Franklin" },
+        { "id": "c", "label": "Tina Turner" },
+        { "id": "d", "label": "Nina Simone" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p8",
+      "difficulty": "pro",
+      "text": "Quel chanteur folk américain, prix Nobel de littérature 2016, a écrit « Blowin' in the Wind » ?",
+      "options": [
+        { "id": "a", "label": "Bob Dylan" },
+        { "id": "b", "label": "Neil Young" },
+        { "id": "c", "label": "Leonard Cohen" },
+        { "id": "d", "label": "Paul Simon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p9",
+      "difficulty": "pro",
+      "text": "Quel poète-chanteur canadien est l'auteur de « Hallelujah » ?",
+      "options": [
+        { "id": "a", "label": "Leonard Cohen" },
+        { "id": "b", "label": "Bob Dylan" },
+        { "id": "c", "label": "Neil Young" },
+        { "id": "d", "label": "Paul Simon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p10",
+      "difficulty": "pro",
+      "text": "Quel compositeur romantique polonais est célèbre pour ses nocturnes et valses au piano ?",
+      "options": [
+        { "id": "a", "label": "Chopin" },
+        { "id": "b", "label": "Liszt" },
+        { "id": "c", "label": "Schumann" },
+        { "id": "d", "label": "Brahms" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p11",
+      "difficulty": "pro",
+      "text": "Quel compositeur russe a écrit les ballets « Le Lac des cygnes » et « Casse-Noisette » ?",
+      "options": [
+        { "id": "a", "label": "Tchaïkovski" },
+        { "id": "b", "label": "Rachmaninov" },
+        { "id": "c", "label": "Stravinsky" },
+        { "id": "d", "label": "Prokofiev" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p12",
+      "difficulty": "pro",
+      "text": "Quel compositeur allemand a écrit « La Chevauchée des Walkyries » ?",
+      "options": [
+        { "id": "a", "label": "Wagner" },
+        { "id": "b", "label": "Verdi" },
+        { "id": "c", "label": "Puccini" },
+        { "id": "d", "label": "Brahms" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p13",
+      "difficulty": "pro",
+      "text": "Quel compositeur italien a écrit les opéras « La Traviata » et « Aïda » ?",
+      "options": [
+        { "id": "a", "label": "Verdi" },
+        { "id": "b", "label": "Puccini" },
+        { "id": "c", "label": "Rossini" },
+        { "id": "d", "label": "Wagner" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p14",
+      "difficulty": "pro",
+      "text": "Quel trompettiste américain est une légende du jazz, surnommé « Satchmo » ?",
+      "options": [
+        { "id": "a", "label": "Louis Armstrong" },
+        { "id": "b", "label": "Miles Davis" },
+        { "id": "c", "label": "Duke Ellington" },
+        { "id": "d", "label": "Charlie Parker" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p15",
+      "difficulty": "pro",
+      "text": "Quel trompettiste de jazz a marqué le cool jazz avec l'album « Kind of Blue » ?",
+      "options": [
+        { "id": "a", "label": "Miles Davis" },
+        { "id": "b", "label": "Louis Armstrong" },
+        { "id": "c", "label": "John Coltrane" },
+        { "id": "d", "label": "Dizzy Gillespie" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p16",
+      "difficulty": "pro",
+      "text": "Quelle chanteuse de jazz américaine est surnommée « Lady Day » ?",
+      "options": [
+        { "id": "a", "label": "Billie Holiday" },
+        { "id": "b", "label": "Ella Fitzgerald" },
+        { "id": "c", "label": "Nina Simone" },
+        { "id": "d", "label": "Sarah Vaughan" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p17",
+      "difficulty": "pro",
+      "text": "Quelle « First Lady of Song », reine du scat, est une légende du jazz vocal ?",
+      "options": [
+        { "id": "a", "label": "Ella Fitzgerald" },
+        { "id": "b", "label": "Billie Holiday" },
+        { "id": "c", "label": "Nina Simone" },
+        { "id": "d", "label": "Aretha Franklin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p18",
+      "difficulty": "pro",
+      "text": "Quel chanteur américain du « Rat Pack » est surnommé « The Voice » ?",
+      "options": [
+        { "id": "a", "label": "Frank Sinatra" },
+        { "id": "b", "label": "Dean Martin" },
+        { "id": "c", "label": "Sammy Davis" },
+        { "id": "d", "label": "Nat Cole" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p19",
+      "difficulty": "pro",
+      "text": "Quel groupe britannique a réalisé l'opéra-rock « The Wall » ?",
+      "options": [
+        { "id": "a", "label": "Pink Floyd" },
+        { "id": "b", "label": "The Who" },
+        { "id": "c", "label": "Genesis" },
+        { "id": "d", "label": "Yes" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p20",
+      "difficulty": "pro",
+      "text": "Quel guitariste britannique est surnommé « Slowhand » et fut membre de Cream ?",
+      "options": [
+        { "id": "a", "label": "Eric Clapton" },
+        { "id": "b", "label": "Jimmy Page" },
+        { "id": "c", "label": "Jeff Beck" },
+        { "id": "d", "label": "David Gilmour" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p21",
+      "difficulty": "pro",
+      "text": "Quel chanteur français, « le fou chantant », est célèbre pour « Y'a d'la joie » ?",
+      "options": [
+        { "id": "a", "label": "Charles Trenet" },
+        { "id": "b", "label": "Maurice Chevalier" },
+        { "id": "c", "label": "Yves Montand" },
+        { "id": "d", "label": "Tino Rossi" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p22",
+      "difficulty": "pro",
+      "text": "Quel chanteur et acteur français, compagnon d'Édith Piaf, a chanté « Les Feuilles mortes » ?",
+      "options": [
+        { "id": "a", "label": "Yves Montand" },
+        { "id": "b", "label": "Charles Trenet" },
+        { "id": "c", "label": "Tino Rossi" },
+        { "id": "d", "label": "Georges Guétary" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p23",
+      "difficulty": "pro",
+      "text": "Quelle chanteuse française d'origine italienne, star des années 70-80, a chanté « Gigi l'Amoroso » ?",
+      "options": [
+        { "id": "a", "label": "Dalida" },
+        { "id": "b", "label": "Sheila" },
+        { "id": "c", "label": "Mireille Mathieu" },
+        { "id": "d", "label": "France Gall" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p24",
+      "difficulty": "pro",
+      "text": "Quelle chanteuse a remporté l'Eurovision 1965 pour le Luxembourg avec une chanson de Gainsbourg ?",
+      "options": [
+        { "id": "a", "label": "France Gall" },
+        { "id": "b", "label": "Sheila" },
+        { "id": "c", "label": "Dalida" },
+        { "id": "d", "label": "Sylvie Vartan" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p25",
+      "difficulty": "pro",
+      "text": "Quel chanteur français à la voix rocailleuse a chanté « Mistral gagnant » ?",
+      "options": [
+        { "id": "a", "label": "Renaud" },
+        { "id": "b", "label": "Bernard Lavilliers" },
+        { "id": "c", "label": "Alain Bashung" },
+        { "id": "d", "label": "Francis Cabrel" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p26",
+      "difficulty": "pro",
+      "text": "Quel chanteur français a écrit « La Corrida » et « Je l'aime à mourir » ?",
+      "options": [
+        { "id": "a", "label": "Francis Cabrel" },
+        { "id": "b", "label": "Renaud" },
+        { "id": "c", "label": "Alain Souchon" },
+        { "id": "d", "label": "Alain Bashung" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p27",
+      "difficulty": "pro",
+      "text": "Quel groupe de rock français des années 90, mené par Bertrand Cantat, a marqué la scène alternative ?",
+      "options": [
+        { "id": "a", "label": "Noir Désir" },
+        { "id": "b", "label": "Téléphone" },
+        { "id": "c", "label": "Indochine" },
+        { "id": "d", "label": "Louise Attaque" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p28",
+      "difficulty": "pro",
+      "text": "Quel groupe de rock français des années 80 a pour chanteur Jean-Louis Aubert ?",
+      "options": [
+        { "id": "a", "label": "Téléphone" },
+        { "id": "b", "label": "Indochine" },
+        { "id": "c", "label": "Noir Désir" },
+        { "id": "d", "label": "Trust" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p29",
+      "difficulty": "pro",
+      "text": "Quel groupe new wave français a chanté « L'Aventurier » et « J'ai demandé à la lune » ?",
+      "options": [
+        { "id": "a", "label": "Indochine" },
+        { "id": "b", "label": "Téléphone" },
+        { "id": "c", "label": "Noir Désir" },
+        { "id": "d", "label": "Mano Negra" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p30",
+      "difficulty": "pro",
+      "text": "Quelle chanteuse française a connu un immense succès avec « Dernière danse » (2013) ?",
+      "options": [
+        { "id": "a", "label": "Indila" },
+        { "id": "b", "label": "Zaz" },
+        { "id": "c", "label": "Louane" },
+        { "id": "d", "label": "Angèle" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p31",
+      "difficulty": "pro",
+      "text": "Quelle chanteuse française à la voix jazzy est célèbre pour « Je veux » ?",
+      "options": [
+        { "id": "a", "label": "Zaz" },
+        { "id": "b", "label": "Indila" },
+        { "id": "c", "label": "Louane" },
+        { "id": "d", "label": "Pomme" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p32",
+      "difficulty": "pro",
+      "text": "Quelle chanteuse belge de pop francophone a sorti l'album « Nonante-Cinq » ?",
+      "options": [
+        { "id": "a", "label": "Angèle" },
+        { "id": "b", "label": "Zaz" },
+        { "id": "c", "label": "Louane" },
+        { "id": "d", "label": "Pomme" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p33",
+      "difficulty": "pro",
+      "text": "Quel rappeur marseillais aux nombreux albums est l'un des plus streamés de France ?",
+      "options": [
+        { "id": "a", "label": "Jul" },
+        { "id": "b", "label": "Booba" },
+        { "id": "c", "label": "Nekfeu" },
+        { "id": "d", "label": "Orelsan" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p34",
+      "difficulty": "pro",
+      "text": "Quel rappeur français, ex-membre de Lunatic, est surnommé « le Duc de Boulogne » ?",
+      "options": [
+        { "id": "a", "label": "Booba" },
+        { "id": "b", "label": "Rohff" },
+        { "id": "c", "label": "Kaaris" },
+        { "id": "d", "label": "La Fouine" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p35",
+      "difficulty": "pro",
+      "text": "Quel rappeur français, ancien membre du groupe 1995, a sorti l'album solo « Feu » ?",
+      "options": [
+        { "id": "a", "label": "Nekfeu" },
+        { "id": "b", "label": "Orelsan" },
+        { "id": "c", "label": "Booba" },
+        { "id": "d", "label": "Jul" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p36",
+      "difficulty": "pro",
+      "text": "Quel rappeur normand, aussi réalisateur, a sorti « La fête est finie » et « Civilisation » ?",
+      "options": [
+        { "id": "a", "label": "Orelsan" },
+        { "id": "b", "label": "Nekfeu" },
+        { "id": "c", "label": "Booba" },
+        { "id": "d", "label": "Jul" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p37",
+      "difficulty": "pro",
+      "text": "Quel tube de Daft Punk, avec Pharrell Williams, a triomphé en 2013 ?",
+      "options": [
+        { "id": "a", "label": "Get Lucky" },
+        { "id": "b", "label": "Da Funk" },
+        { "id": "c", "label": "Robot Rock" },
+        { "id": "d", "label": "Instant Crush" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p38",
+      "difficulty": "pro",
+      "text": "Quel DJ suédois, disparu en 2018, a composé « Wake Me Up » ?",
+      "options": [
+        { "id": "a", "label": "Avicii" },
+        { "id": "b", "label": "Kygo" },
+        { "id": "c", "label": "Martin Garrix" },
+        { "id": "d", "label": "Alesso" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p39",
+      "difficulty": "pro",
+      "text": "Quelle chanteuse américaine excentrique a chanté « Bad Romance » et « Poker Face » ?",
+      "options": [
+        { "id": "a", "label": "Lady Gaga" },
+        { "id": "b", "label": "Katy Perry" },
+        { "id": "c", "label": "Rihanna" },
+        { "id": "d", "label": "Beyoncé" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "muz-p40",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "En quelle année a eu lieu le tout premier concours de l'Eurovision ?",
+      "answerValue": 1956,
+      "unit": ""
+    }
+  ]
+}
