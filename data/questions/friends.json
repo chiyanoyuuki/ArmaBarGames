@@ -1,0 +1,1069 @@
+{
+  "universeId": "friends",
+  "questions": [
+    {
+      "id": "friends-f1",
+      "difficulty": "facile",
+      "type": "estimation",
+      "text": "Combien d'amis principaux la série met-elle en scène ?",
+      "answerValue": 6,
+      "unit": "amis"
+    },
+    {
+      "id": "friends-f2",
+      "difficulty": "facile",
+      "type": "buzzer",
+      "text": "Comment s'appelle le café où les six amis passent le plus clair de leur temps ?",
+      "answer": "Central Perk"
+    },
+    {
+      "id": "friends-f3",
+      "difficulty": "facile",
+      "text": "Quelle jeune femme, serveuse puis dans la mode, est le grand amour de Ross ?",
+      "options": [
+        { "id": "a", "label": "Rachel" },
+        { "id": "b", "label": "Monica" },
+        { "id": "c", "label": "Phoebe" },
+        { "id": "d", "label": "Janice" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-f4",
+      "difficulty": "facile",
+      "text": "Quelle amie maniaque de la propreté et cheffe cuisinière est la sœur de Ross ?",
+      "options": [
+        { "id": "a", "label": "Monica" },
+        { "id": "b", "label": "Rachel" },
+        { "id": "c", "label": "Phoebe" },
+        { "id": "d", "label": "Emily" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-f5",
+      "difficulty": "facile",
+      "text": "Quel ami sarcastique et drôle finit par épouser Monica ?",
+      "options": [
+        { "id": "a", "label": "Chandler" },
+        { "id": "b", "label": "Ross" },
+        { "id": "c", "label": "Joey" },
+        { "id": "d", "label": "Gunther" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-f6",
+      "difficulty": "facile",
+      "text": "Quel ami acteur et dragueur lance sa célèbre réplique « How you doin'? » ?",
+      "options": [
+        { "id": "a", "label": "Joey" },
+        { "id": "b", "label": "Chandler" },
+        { "id": "c", "label": "Ross" },
+        { "id": "d", "label": "Gunther" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-f7",
+      "difficulty": "facile",
+      "text": "Quelle amie excentrique, masseuse et chanteuse, interprète « Smelly Cat » ?",
+      "options": [
+        { "id": "a", "label": "Phoebe" },
+        { "id": "b", "label": "Monica" },
+        { "id": "c", "label": "Rachel" },
+        { "id": "d", "label": "Janice" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-f8",
+      "difficulty": "facile",
+      "text": "Quel métier scientifique Ross exerce-t-il, passionné de dinosaures ?",
+      "options": [
+        { "id": "a", "label": "Paléontologue" },
+        { "id": "b", "label": "Cuisinier" },
+        { "id": "c", "label": "Acteur" },
+        { "id": "d", "label": "Masseur" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-f9",
+      "difficulty": "facile",
+      "text": "Dans quelle ville américaine se déroule la série ?",
+      "options": [
+        { "id": "a", "label": "New York" },
+        { "id": "b", "label": "Los Angeles" },
+        { "id": "c", "label": "San Francisco" },
+        { "id": "d", "label": "La Nouvelle-Orléans" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-f10",
+      "difficulty": "facile",
+      "type": "estimation",
+      "text": "Combien de saisons compte la série Friends ?",
+      "answerValue": 10,
+      "unit": "saisons"
+    },
+    {
+      "id": "friends-m1",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel titre des Rembrandts, avec ses claquements de mains, sert de générique à la série ?",
+      "answer": "I'll Be There for You"
+    },
+    {
+      "id": "friends-m2",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle le serveur blond du café, secrètement amoureux de Rachel ?",
+      "options": [
+        { "id": "a", "label": "Gunther" },
+        { "id": "b", "label": "Joey" },
+        { "id": "c", "label": "Chandler" },
+        { "id": "d", "label": "Barry" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-m3",
+      "difficulty": "moyen",
+      "text": "Quel animal exotique Ross adopte-t-il comme animal de compagnie ?",
+      "options": [
+        { "id": "a", "label": "Un singe" },
+        { "id": "b", "label": "Un chien" },
+        { "id": "c", "label": "Un chat" },
+        { "id": "d", "label": "Un canard" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-m4",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle le singe de Ross ?",
+      "options": [
+        { "id": "a", "label": "Marcel" },
+        { "id": "b", "label": "Gunther" },
+        { "id": "c", "label": "Chandler" },
+        { "id": "d", "label": "Barry" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-m5",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quels deux animaux de basse-cour Joey et Chandler gardent-ils dans leur appartement ?",
+      "answer": "Un canard et un poussin"
+    },
+    {
+      "id": "friends-m6",
+      "difficulty": "moyen",
+      "text": "Quelle ex agaçante de Chandler a un rire strident et un « Oh… my… God » reconnaissable ?",
+      "options": [
+        { "id": "a", "label": "Janice" },
+        { "id": "b", "label": "Emily" },
+        { "id": "c", "label": "Carol" },
+        { "id": "d", "label": "Ursula" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-m7",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle la sœur jumelle de Phoebe ?",
+      "options": [
+        { "id": "a", "label": "Ursula" },
+        { "id": "b", "label": "Janice" },
+        { "id": "c", "label": "Emily" },
+        { "id": "d", "label": "Carol" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-m8",
+      "difficulty": "moyen",
+      "text": "Quelle Britannique Ross épouse-t-il, alors que tout tourne mal à la cérémonie ?",
+      "options": [
+        { "id": "a", "label": "Emily" },
+        { "id": "b", "label": "Rachel" },
+        { "id": "c", "label": "Janice" },
+        { "id": "d", "label": "Carol" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-m9",
+      "difficulty": "moyen",
+      "text": "Quel prénom Ross prononce-t-il par erreur à l'autel en épousant Emily ?",
+      "options": [
+        { "id": "a", "label": "Rachel" },
+        { "id": "b", "label": "Monica" },
+        { "id": "c", "label": "Phoebe" },
+        { "id": "d", "label": "Carol" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-m10",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle l'ex-femme de Ross, qui l'a quitté pour une femme ?",
+      "options": [
+        { "id": "a", "label": "Carol" },
+        { "id": "b", "label": "Emily" },
+        { "id": "c", "label": "Rachel" },
+        { "id": "d", "label": "Susan" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-m11",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle la compagne de Carol, l'ex-femme de Ross ?",
+      "options": [
+        { "id": "a", "label": "Susan" },
+        { "id": "b", "label": "Emily" },
+        { "id": "c", "label": "Janice" },
+        { "id": "d", "label": "Rachel" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-m12",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle le fils de Ross et de son ex-femme Carol ?",
+      "options": [
+        { "id": "a", "label": "Ben" },
+        { "id": "b", "label": "Emma" },
+        { "id": "c", "label": "Joey" },
+        { "id": "d", "label": "Marcel" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-m13",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle la fille de Ross et Rachel, née dans la saison 8 ?",
+      "options": [
+        { "id": "a", "label": "Emma" },
+        { "id": "b", "label": "Ben" },
+        { "id": "c", "label": "Erica" },
+        { "id": "d", "label": "Phoebe" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-m14",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel dessert anglais Rachel rate-t-elle en y ajoutant de la viande hachée par erreur ?",
+      "answer": "Le trifle"
+    },
+    {
+      "id": "friends-m15",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quelle réplique de drague Joey lance-t-il aux filles ?",
+      "answer": "How you doin'?"
+    },
+    {
+      "id": "friends-m16",
+      "difficulty": "moyen",
+      "text": "Dans quel domaine Rachel fait-elle carrière après avoir été serveuse ?",
+      "options": [
+        { "id": "a", "label": "La mode" },
+        { "id": "b", "label": "La cuisine" },
+        { "id": "c", "label": "Le cinéma" },
+        { "id": "d", "label": "La science" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-m17",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Dans quel soap opera Joey décroche-t-il le rôle du Dr Drake Ramoray ?",
+      "answer": "Days of Our Lives"
+    },
+    {
+      "id": "friends-m18",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quelle phrase Ross répète-t-il sans cesse pour se justifier d'avoir trompé Rachel ?",
+      "answer": "We were on a break"
+    },
+    {
+      "id": "friends-m19",
+      "difficulty": "moyen",
+      "text": "Quel homme Rachel plante-t-elle devant l'autel dans le tout premier épisode ?",
+      "options": [
+        { "id": "a", "label": "Barry" },
+        { "id": "b", "label": "Ross" },
+        { "id": "c", "label": "Joey" },
+        { "id": "d", "label": "Gunther" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-m20",
+      "difficulty": "moyen",
+      "type": "estimation",
+      "text": "En quelle année le premier épisode de Friends a-t-il été diffusé ?",
+      "answerValue": 1994,
+      "unit": ""
+    },
+    {
+      "id": "friends-d1",
+      "difficulty": "dur",
+      "text": "Quel acteur incarne Ross Geller ?",
+      "options": [
+        { "id": "a", "label": "David Schwimmer" },
+        { "id": "b", "label": "Matt LeBlanc" },
+        { "id": "c", "label": "Matthew Perry" },
+        { "id": "d", "label": "Paul Rudd" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-d2",
+      "difficulty": "dur",
+      "text": "Quelle actrice incarne Rachel Green ?",
+      "options": [
+        { "id": "a", "label": "Jennifer Aniston" },
+        { "id": "b", "label": "Courteney Cox" },
+        { "id": "c", "label": "Lisa Kudrow" },
+        { "id": "d", "label": "Maggie Wheeler" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-d3",
+      "difficulty": "dur",
+      "text": "Quelle actrice incarne Monica Geller ?",
+      "options": [
+        { "id": "a", "label": "Courteney Cox" },
+        { "id": "b", "label": "Jennifer Aniston" },
+        { "id": "c", "label": "Lisa Kudrow" },
+        { "id": "d", "label": "Maggie Wheeler" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-d4",
+      "difficulty": "dur",
+      "text": "Quel acteur incarne Chandler Bing ?",
+      "options": [
+        { "id": "a", "label": "Matthew Perry" },
+        { "id": "b", "label": "Matt LeBlanc" },
+        { "id": "c", "label": "David Schwimmer" },
+        { "id": "d", "label": "Paul Rudd" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-d5",
+      "difficulty": "dur",
+      "text": "Quel acteur incarne Joey Tribbiani ?",
+      "options": [
+        { "id": "a", "label": "Matt LeBlanc" },
+        { "id": "b", "label": "Matthew Perry" },
+        { "id": "c", "label": "David Schwimmer" },
+        { "id": "d", "label": "Paul Rudd" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-d6",
+      "difficulty": "dur",
+      "text": "Quelle actrice incarne Phoebe Buffay ?",
+      "options": [
+        { "id": "a", "label": "Lisa Kudrow" },
+        { "id": "b", "label": "Jennifer Aniston" },
+        { "id": "c", "label": "Courteney Cox" },
+        { "id": "d", "label": "Maggie Wheeler" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-d7",
+      "difficulty": "dur",
+      "text": "Quel est le nom de famille de Ross et Monica ?",
+      "options": [
+        { "id": "a", "label": "Geller" },
+        { "id": "b", "label": "Green" },
+        { "id": "c", "label": "Bing" },
+        { "id": "d", "label": "Tribbiani" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-d8",
+      "difficulty": "dur",
+      "text": "Quel est le nom de famille de Rachel ?",
+      "options": [
+        { "id": "a", "label": "Green" },
+        { "id": "b", "label": "Geller" },
+        { "id": "c", "label": "Bing" },
+        { "id": "d", "label": "Buffay" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-d9",
+      "difficulty": "dur",
+      "text": "Quel est le nom de famille de Chandler ?",
+      "options": [
+        { "id": "a", "label": "Bing" },
+        { "id": "b", "label": "Geller" },
+        { "id": "c", "label": "Green" },
+        { "id": "d", "label": "Tribbiani" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-d10",
+      "difficulty": "dur",
+      "text": "Quel est le nom de famille de Joey ?",
+      "options": [
+        { "id": "a", "label": "Tribbiani" },
+        { "id": "b", "label": "Geller" },
+        { "id": "c", "label": "Bing" },
+        { "id": "d", "label": "Buffay" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-d11",
+      "difficulty": "dur",
+      "text": "Quel est le nom de famille de Phoebe ?",
+      "options": [
+        { "id": "a", "label": "Buffay" },
+        { "id": "b", "label": "Geller" },
+        { "id": "c", "label": "Green" },
+        { "id": "d", "label": "Bing" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-d12",
+      "difficulty": "dur",
+      "text": "Quel gentil scientifique, joué par Paul Rudd, épouse Phoebe ?",
+      "options": [
+        { "id": "a", "label": "Mike" },
+        { "id": "b", "label": "David" },
+        { "id": "c", "label": "Gary" },
+        { "id": "d", "label": "Roger" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-d13",
+      "difficulty": "dur",
+      "text": "Quel savant excentrique, ancien amour de Phoebe parti pour la recherche polaire, revient dans la série ?",
+      "options": [
+        { "id": "a", "label": "David" },
+        { "id": "b", "label": "Mike" },
+        { "id": "c", "label": "Gary" },
+        { "id": "d", "label": "Roger" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-d14",
+      "difficulty": "dur",
+      "type": "estimation",
+      "text": "Quel est le numéro de l'appartement de Monica ?",
+      "answerValue": 20,
+      "unit": ""
+    },
+    {
+      "id": "friends-d15",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Comment surnomme-t-on le voisin d'en face que le groupe observe, toujours dévêtu ?",
+      "answer": "Ugly Naked Guy"
+    },
+    {
+      "id": "friends-d16",
+      "difficulty": "dur",
+      "text": "Quel homme plus âgé, ami des parents de Monica (joué par Tom Selleck), la fréquente un temps ?",
+      "options": [
+        { "id": "a", "label": "Richard" },
+        { "id": "b", "label": "Mike" },
+        { "id": "c", "label": "Tag" },
+        { "id": "d", "label": "Pete" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-d17",
+      "difficulty": "dur",
+      "text": "Quel acteur moustachu, star de Magnum, incarne Richard, le compagnon plus âgé de Monica ?",
+      "options": [
+        { "id": "a", "label": "Tom Selleck" },
+        { "id": "b", "label": "Paul Rudd" },
+        { "id": "c", "label": "Bruce Willis" },
+        { "id": "d", "label": "Brad Pitt" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-d18",
+      "difficulty": "dur",
+      "text": "Quel acteur, alors marié à Jennifer Aniston, apparaît en invité détestant Ross ?",
+      "options": [
+        { "id": "a", "label": "Brad Pitt" },
+        { "id": "b", "label": "Tom Selleck" },
+        { "id": "c", "label": "Bruce Willis" },
+        { "id": "d", "label": "George Clooney" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-d19",
+      "difficulty": "dur",
+      "text": "Où Monica et Chandler emménagent-ils à la fin de la série, en quittant leur appartement ?",
+      "options": [
+        { "id": "a", "label": "En banlieue" },
+        { "id": "b", "label": "À Los Angeles" },
+        { "id": "c", "label": "À Paris" },
+        { "id": "d", "label": "À Londres" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-d20",
+      "difficulty": "dur",
+      "type": "estimation",
+      "text": "Combien d'enfants (des jumeaux) Monica et Chandler adoptent-ils à la fin ?",
+      "answerValue": 2,
+      "unit": "enfants"
+    },
+    {
+      "id": "friends-d21",
+      "difficulty": "dur",
+      "text": "Comment s'appelle la mère porteuse qui donne des jumeaux à Monica et Chandler ?",
+      "options": [
+        { "id": "a", "label": "Erica" },
+        { "id": "b", "label": "Emma" },
+        { "id": "c", "label": "Emily" },
+        { "id": "d", "label": "Janice" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-d22",
+      "difficulty": "dur",
+      "type": "estimation",
+      "text": "Combien de bébés Phoebe porte-t-elle comme mère porteuse pour son demi-frère ?",
+      "answerValue": 3,
+      "unit": "bébés"
+    },
+    {
+      "id": "friends-d23",
+      "difficulty": "dur",
+      "text": "Comment s'appelle le demi-frère de Phoebe qui lui demande de porter ses enfants ?",
+      "options": [
+        { "id": "a", "label": "Frank" },
+        { "id": "b", "label": "Mike" },
+        { "id": "c", "label": "David" },
+        { "id": "d", "label": "Gary" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-d24",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quelle chanson culte, à propos d'un chat qui sent mauvais, Phoebe interprète-t-elle au café ?",
+      "answer": "Smelly Cat"
+    },
+    {
+      "id": "friends-d25",
+      "difficulty": "dur",
+      "text": "Dans quel domaine ennuyeux Chandler travaille-t-il au début, un métier que ses amis ne comprennent pas ?",
+      "options": [
+        { "id": "a", "label": "Les statistiques" },
+        { "id": "b", "label": "La médecine" },
+        { "id": "c", "label": "Le cinéma" },
+        { "id": "d", "label": "La cuisine" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-d26",
+      "difficulty": "dur",
+      "text": "Vers quel métier Chandler se reconvertit-il après avoir quitté les statistiques ?",
+      "options": [
+        { "id": "a", "label": "La publicité" },
+        { "id": "b", "label": "La médecine" },
+        { "id": "c", "label": "La cuisine" },
+        { "id": "d", "label": "La science" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-d27",
+      "difficulty": "dur",
+      "text": "Comment s'appelle le père de Ross et Monica ?",
+      "options": [
+        { "id": "a", "label": "Jack" },
+        { "id": "b", "label": "Frank" },
+        { "id": "c", "label": "Richard" },
+        { "id": "d", "label": "Gunther" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-d28",
+      "difficulty": "dur",
+      "text": "Comment s'appelle la mère de Ross et Monica ?",
+      "options": [
+        { "id": "a", "label": "Judy" },
+        { "id": "b", "label": "Carol" },
+        { "id": "c", "label": "Emily" },
+        { "id": "d", "label": "Sandra" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-d29",
+      "difficulty": "dur",
+      "type": "ordre",
+      "text": "Classe ces événements dans l'ordre chronologique de la série.",
+      "items": [
+        { "id": "1", "label": "Rachel s'enfuit de son mariage" },
+        { "id": "2", "label": "Ross et Rachel s'embrassent" },
+        { "id": "3", "label": "Monica et Chandler se marient" },
+        { "id": "4", "label": "Naissance d'Emma" }
+      ]
+    },
+    {
+      "id": "friends-d30",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quelle coupe de cheveux, du nom d'un personnage, est devenue une mode dans les années 90 ?",
+      "answer": "The Rachel"
+    },
+    {
+      "id": "friends-p1",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "En quelle année le tout dernier épisode de Friends a-t-il été diffusé ?",
+      "answerValue": 2004,
+      "unit": ""
+    },
+    {
+      "id": "friends-p2",
+      "difficulty": "pro",
+      "text": "Sur quelle chaîne américaine Friends a-t-il été diffusé ?",
+      "options": [
+        { "id": "a", "label": "NBC" },
+        { "id": "b", "label": "CBS" },
+        { "id": "c", "label": "ABC" },
+        { "id": "d", "label": "HBO" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-p3",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien d'épisodes compte la série Friends au total (environ) ?",
+      "answerValue": 236,
+      "unit": "épisodes"
+    },
+    {
+      "id": "friends-p4",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel acteur incarne Gunther, le serveur amoureux de Rachel ?",
+      "answer": "James Michael Tyler"
+    },
+    {
+      "id": "friends-p5",
+      "difficulty": "pro",
+      "text": "Quelle actrice incarne Janice, l'ex à la voix stridente de Chandler ?",
+      "options": [
+        { "id": "a", "label": "Maggie Wheeler" },
+        { "id": "b", "label": "Lisa Kudrow" },
+        { "id": "c", "label": "Courteney Cox" },
+        { "id": "d", "label": "Jennifer Aniston" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-p6",
+      "difficulty": "pro",
+      "text": "Quel acteur, futur héros Marvel, incarne Mike, le mari de Phoebe ?",
+      "options": [
+        { "id": "a", "label": "Paul Rudd" },
+        { "id": "b", "label": "Tom Selleck" },
+        { "id": "c", "label": "Brad Pitt" },
+        { "id": "d", "label": "Hank Azaria" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-p7",
+      "difficulty": "pro",
+      "text": "Quel acteur incarne David, le scientifique dont Phoebe est amoureuse ?",
+      "options": [
+        { "id": "a", "label": "Hank Azaria" },
+        { "id": "b", "label": "Paul Rudd" },
+        { "id": "c", "label": "Tom Selleck" },
+        { "id": "d", "label": "Bruce Willis" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-p8",
+      "difficulty": "pro",
+      "text": "Comment s'appelle le petit ami italien de Rachel que Ross déteste ?",
+      "options": [
+        { "id": "a", "label": "Paolo" },
+        { "id": "b", "label": "Tag" },
+        { "id": "c", "label": "Barry" },
+        { "id": "d", "label": "Mark" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-p9",
+      "difficulty": "pro",
+      "text": "Quel collègue de Rachel devient son petit ami, rendant Ross jaloux ?",
+      "options": [
+        { "id": "a", "label": "Mark" },
+        { "id": "b", "label": "Paolo" },
+        { "id": "c", "label": "Tag" },
+        { "id": "d", "label": "Barry" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-p10",
+      "difficulty": "pro",
+      "text": "Quel jeune assistant de Rachel devient son petit ami dans la saison 7 ?",
+      "options": [
+        { "id": "a", "label": "Tag" },
+        { "id": "b", "label": "Mark" },
+        { "id": "c", "label": "Paolo" },
+        { "id": "d", "label": "Barry" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-p11",
+      "difficulty": "pro",
+      "text": "Quel dentiste Rachel devait-elle épouser avant de s'enfuir dans le premier épisode ?",
+      "options": [
+        { "id": "a", "label": "Barry" },
+        { "id": "b", "label": "Paolo" },
+        { "id": "c", "label": "Mark" },
+        { "id": "d", "label": "Tag" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-p12",
+      "difficulty": "pro",
+      "text": "Dans quelle ville le groupe se rend-il pour le mariage de Ross avec Emily ?",
+      "options": [
+        { "id": "a", "label": "Londres" },
+        { "id": "b", "label": "Paris" },
+        { "id": "c", "label": "New York" },
+        { "id": "d", "label": "Las Vegas" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-p13",
+      "difficulty": "pro",
+      "text": "Dans quelle ville Ross et Rachel se marient-ils par accident, ivres ?",
+      "options": [
+        { "id": "a", "label": "Las Vegas" },
+        { "id": "b", "label": "Londres" },
+        { "id": "c", "label": "Paris" },
+        { "id": "d", "label": "New York" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-p14",
+      "difficulty": "pro",
+      "text": "Avec qui Ross se marie-t-il par erreur lors d'une soirée arrosée à Las Vegas ?",
+      "options": [
+        { "id": "a", "label": "Rachel" },
+        { "id": "b", "label": "Monica" },
+        { "id": "c", "label": "Phoebe" },
+        { "id": "d", "label": "Emily" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-p15",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien de fois Ross a-t-il divorcé au cours de la série ?",
+      "answerValue": 3,
+      "unit": "divorces"
+    },
+    {
+      "id": "friends-p16",
+      "difficulty": "pro",
+      "text": "Comment s'appelle la petite amie étudiante de Ross que le groupe juge trop jeune ?",
+      "options": [
+        { "id": "a", "label": "Elizabeth" },
+        { "id": "b", "label": "Julie" },
+        { "id": "c", "label": "Mona" },
+        { "id": "d", "label": "Emily" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-p17",
+      "difficulty": "pro",
+      "text": "Quelle petite amie de Ross, rencontrée en Chine, déclenche la jalousie de Rachel ?",
+      "options": [
+        { "id": "a", "label": "Julie" },
+        { "id": "b", "label": "Elizabeth" },
+        { "id": "c", "label": "Mona" },
+        { "id": "d", "label": "Emily" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-p18",
+      "difficulty": "pro",
+      "text": "Quelle actrice célèbre incarne le parent de Chandler, artiste de cabaret à Las Vegas ?",
+      "options": [
+        { "id": "a", "label": "Kathleen Turner" },
+        { "id": "b", "label": "Susan Sarandon" },
+        { "id": "c", "label": "Reese Witherspoon" },
+        { "id": "d", "label": "Winona Ryder" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-p19",
+      "difficulty": "pro",
+      "text": "Quelle future actrice oscarisée incarne Jill, la sœur gâtée de Rachel ?",
+      "options": [
+        { "id": "a", "label": "Reese Witherspoon" },
+        { "id": "b", "label": "Kathleen Turner" },
+        { "id": "c", "label": "Susan Sarandon" },
+        { "id": "d", "label": "Winona Ryder" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-p20",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien de sœurs Joey a-t-il ?",
+      "answerValue": 7,
+      "unit": "sœurs"
+    },
+    {
+      "id": "friends-p21",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment surnomme-t-on la version en surpoids de la sœur de Ross, montrée dans les flashbacks ?",
+      "answer": "Fat Monica"
+    },
+    {
+      "id": "friends-p22",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelle exclamation stridente Janice lance-t-elle en retrouvant Chandler ?",
+      "answer": "Oh my God"
+    },
+    {
+      "id": "friends-p23",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel encas dérobé au réfrigérateur du bureau, garni des restes de la veille, rend Ross fou de rage ?",
+      "answer": "Le sandwich de Thanksgiving"
+    },
+    {
+      "id": "friends-p24",
+      "difficulty": "pro",
+      "text": "Quelle fête le groupe célèbre-t-il presque chaque saison avec un épisode spécial très drôle ?",
+      "options": [
+        { "id": "a", "label": "Thanksgiving" },
+        { "id": "b", "label": "Halloween" },
+        { "id": "c", "label": "Noël" },
+        { "id": "d", "label": "Pâques" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-p25",
+      "difficulty": "pro",
+      "type": "open",
+      "text": "Complète la réplique culte de Joey, qui refuse de partager : « Joey doesn't share... »",
+      "answer": "food",
+      "acceptedAnswers": ["food", "la nourriture", "sa nourriture"]
+    },
+    {
+      "id": "friends-p26",
+      "difficulty": "pro",
+      "text": "Quel métier Phoebe exerce-t-elle, en plus de chanter au café ?",
+      "options": [
+        { "id": "a", "label": "Masseuse" },
+        { "id": "b", "label": "Serveuse" },
+        { "id": "c", "label": "Actrice" },
+        { "id": "d", "label": "Paléontologue" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-p27",
+      "difficulty": "pro",
+      "text": "Quelle actrice joue à la fois Phoebe et sa jumelle Ursula ?",
+      "options": [
+        { "id": "a", "label": "Lisa Kudrow" },
+        { "id": "b", "label": "Courteney Cox" },
+        { "id": "c", "label": "Jennifer Aniston" },
+        { "id": "d", "label": "Maggie Wheeler" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-p28",
+      "difficulty": "pro",
+      "text": "En face de quel duo féminin l'appartement de Joey et Chandler se trouve-t-il ?",
+      "options": [
+        { "id": "a", "label": "Monica et Rachel" },
+        { "id": "b", "label": "Phoebe et Ursula" },
+        { "id": "c", "label": "Carol et Susan" },
+        { "id": "d", "label": "Emily et Janice" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-p29",
+      "difficulty": "pro",
+      "text": "Que perdent Monica et Rachel en pariant lors d'un quiz contre les garçons ?",
+      "options": [
+        { "id": "a", "label": "Leur appartement" },
+        { "id": "b", "label": "Leur voiture" },
+        { "id": "c", "label": "Leurs vêtements" },
+        { "id": "d", "label": "Leur télévision" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-p30",
+      "difficulty": "pro",
+      "text": "Quel personnage se rebaptise « Princess Consuela Banana-Hammock » après son mariage ?",
+      "options": [
+        { "id": "a", "label": "Phoebe" },
+        { "id": "b", "label": "Rachel" },
+        { "id": "c", "label": "Monica" },
+        { "id": "d", "label": "Ursula" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-p31",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel nom absurde Mike choisit-il en réaction au nouveau nom loufoque de Phoebe ?",
+      "answer": "Crap Bag"
+    },
+    {
+      "id": "friends-p32",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien d'appartements principaux se font face dans l'immeuble des amis ?",
+      "answerValue": 2,
+      "unit": "appartements"
+    },
+    {
+      "id": "friends-p33",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Quel numéro porte l'appartement de Joey et Chandler, face à celui de Monica ?",
+      "answerValue": 19,
+      "unit": ""
+    },
+    {
+      "id": "friends-p34",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Que cache Monica derrière une porte fermée à clé, contredisant sa manie du rangement ?",
+      "answer": "Un placard en désordre"
+    },
+    {
+      "id": "friends-p35",
+      "difficulty": "pro",
+      "text": "Quelle actrice britannique incarne Emily, l'épouse anglaise de Ross ?",
+      "options": [
+        { "id": "a", "label": "Helen Baxendale" },
+        { "id": "b", "label": "Reese Witherspoon" },
+        { "id": "c", "label": "Kathleen Turner" },
+        { "id": "d", "label": "Winona Ryder" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-p36",
+      "difficulty": "pro",
+      "text": "Quelle actrice, récompensée d'un Emmy, incarne Amy, une autre sœur de Rachel ?",
+      "options": [
+        { "id": "a", "label": "Christina Applegate" },
+        { "id": "b", "label": "Reese Witherspoon" },
+        { "id": "c", "label": "Winona Ryder" },
+        { "id": "d", "label": "Kathleen Turner" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-p37",
+      "difficulty": "pro",
+      "text": "Quelle actrice joue une ancienne camarade de fac que Rachel embrasse un soir ?",
+      "options": [
+        { "id": "a", "label": "Winona Ryder" },
+        { "id": "b", "label": "Reese Witherspoon" },
+        { "id": "c", "label": "Christina Applegate" },
+        { "id": "d", "label": "Kathleen Turner" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-p38",
+      "difficulty": "pro",
+      "text": "Quel plat Joey adore-t-il par-dessus tout, avec les sandwichs ?",
+      "options": [
+        { "id": "a", "label": "La pizza" },
+        { "id": "b", "label": "Les sushis" },
+        { "id": "c", "label": "La salade" },
+        { "id": "d", "label": "La soupe" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-p39",
+      "difficulty": "pro",
+      "text": "Comment se termine la série pour Rachel, qui devait s'envoler pour Paris ?",
+      "options": [
+        { "id": "a", "label": "Elle reste avec Ross" },
+        { "id": "b", "label": "Elle part quand même" },
+        { "id": "c", "label": "Elle épouse Joey" },
+        { "id": "d", "label": "Elle suit Emily" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "friends-p40",
+      "difficulty": "pro",
+      "type": "open",
+      "text": "Quel mot complète la réplique finale de Rachel révélant qu'elle reste : « I got off the... » ?",
+      "answer": "plane",
+      "acceptedAnswers": ["plane", "avion", "l'avion"]
+    }
+  ]
+}
