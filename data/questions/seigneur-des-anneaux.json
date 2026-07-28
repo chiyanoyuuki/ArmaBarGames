@@ -1,0 +1,1129 @@
+{
+  "universeId": "seigneur-des-anneaux",
+  "questions": [
+    {
+      "id": "lotr-f1",
+      "difficulty": "facile",
+      "text": "À quel peuple de petite taille aux pieds poilus appartient le porteur de l'Anneau ?",
+      "options": [
+        { "id": "a", "label": "Un Hobbit" },
+        { "id": "b", "label": "Un Elfe" },
+        { "id": "c", "label": "Un Nain" },
+        { "id": "d", "label": "Un Orque" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-f2",
+      "difficulty": "facile",
+      "text": "Comment s'appelle le hobbit héros chargé de porter l'Anneau ?",
+      "options": [
+        { "id": "a", "label": "Frodon" },
+        { "id": "b", "label": "Sam" },
+        { "id": "c", "label": "Bilbo" },
+        { "id": "d", "label": "Pippin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-f3",
+      "difficulty": "facile",
+      "text": "Quel magicien gris à grand chapeau guide la Communauté ?",
+      "options": [
+        { "id": "a", "label": "Gandalf" },
+        { "id": "b", "label": "Saroumane" },
+        { "id": "c", "label": "Radagast" },
+        { "id": "d", "label": "Sauron" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-f4",
+      "difficulty": "facile",
+      "text": "Quel objet unique et maléfique la Communauté doit-elle détruire ?",
+      "options": [
+        { "id": "a", "label": "L'Anneau" },
+        { "id": "b", "label": "L'Épée" },
+        { "id": "c", "label": "La Couronne" },
+        { "id": "d", "label": "Le Sceptre" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-f5",
+      "difficulty": "facile",
+      "type": "open",
+      "text": "Dans quel volcan de feu l'Anneau doit-il être jeté pour être détruit ?",
+      "answer": "La Montagne du Destin",
+      "acceptedAnswers": ["montagne du destin", "la montagne du destin", "orodruin", "mount doom"]
+    },
+    {
+      "id": "lotr-f6",
+      "difficulty": "facile",
+      "text": "Comment s'appelle le fidèle jardinier et compagnon de Frodon ?",
+      "options": [
+        { "id": "a", "label": "Sam" },
+        { "id": "b", "label": "Merry" },
+        { "id": "c", "label": "Pippin" },
+        { "id": "d", "label": "Bilbo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-f7",
+      "difficulty": "facile",
+      "text": "Quelle créature rampante, corrompue, appelle l'Anneau « mon précieux » ?",
+      "options": [
+        { "id": "a", "label": "Gollum" },
+        { "id": "b", "label": "Sauron" },
+        { "id": "c", "label": "Saroumane" },
+        { "id": "d", "label": "Bilbo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-f8",
+      "difficulty": "facile",
+      "text": "De quelle couleur est le magicien Gandalf au début de l'histoire ?",
+      "options": [
+        { "id": "a", "label": "Gris" },
+        { "id": "b", "label": "Blanc" },
+        { "id": "c", "label": "Brun" },
+        { "id": "d", "label": "Noir" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-f9",
+      "difficulty": "facile",
+      "text": "Comment s'appelle la contrée verdoyante où vivent les Hobbits ?",
+      "options": [
+        { "id": "a", "label": "La Comté" },
+        { "id": "b", "label": "Le Mordor" },
+        { "id": "c", "label": "Le Rohan" },
+        { "id": "d", "label": "Le Gondor" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-f10",
+      "difficulty": "facile",
+      "type": "estimation",
+      "text": "Combien de films compte la trilogie du Seigneur des Anneaux de Peter Jackson ?",
+      "answerValue": 3,
+      "unit": "films"
+    },
+    {
+      "id": "lotr-m1",
+      "difficulty": "moyen",
+      "text": "Quel rôdeur, héritier du trône du Gondor, veille sur les Hobbits ?",
+      "options": [
+        { "id": "a", "label": "Aragorn" },
+        { "id": "b", "label": "Boromir" },
+        { "id": "c", "label": "Legolas" },
+        { "id": "d", "label": "Gimli" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-m2",
+      "difficulty": "moyen",
+      "text": "Quel elfe archer fait partie de la Communauté de l'Anneau ?",
+      "options": [
+        { "id": "a", "label": "Legolas" },
+        { "id": "b", "label": "Aragorn" },
+        { "id": "c", "label": "Gimli" },
+        { "id": "d", "label": "Boromir" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-m3",
+      "difficulty": "moyen",
+      "text": "Quel nain à la hache accompagne la Communauté ?",
+      "options": [
+        { "id": "a", "label": "Gimli" },
+        { "id": "b", "label": "Legolas" },
+        { "id": "c", "label": "Aragorn" },
+        { "id": "d", "label": "Boromir" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-m4",
+      "difficulty": "moyen",
+      "text": "Quel seigneur ténébreux a forgé l'Anneau Unique ?",
+      "options": [
+        { "id": "a", "label": "Sauron" },
+        { "id": "b", "label": "Saroumane" },
+        { "id": "c", "label": "Gollum" },
+        { "id": "d", "label": "Gandalf" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-m5",
+      "difficulty": "moyen",
+      "text": "Quel magicien blanc trahit la Communauté pour servir le Mal ?",
+      "options": [
+        { "id": "a", "label": "Saroumane" },
+        { "id": "b", "label": "Gandalf" },
+        { "id": "c", "label": "Radagast" },
+        { "id": "d", "label": "Sauron" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-m6",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle le pays sombre du seigneur du Mal, à l'est ?",
+      "options": [
+        { "id": "a", "label": "Le Mordor" },
+        { "id": "b", "label": "Le Rohan" },
+        { "id": "c", "label": "Le Gondor" },
+        { "id": "d", "label": "La Comté" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-m7",
+      "difficulty": "moyen",
+      "type": "estimation",
+      "text": "Combien de membres compte la Communauté de l'Anneau au départ ?",
+      "answerValue": 9,
+      "unit": "membres"
+    },
+    {
+      "id": "lotr-m8",
+      "difficulty": "moyen",
+      "text": "Quel royaume des cavaliers est dirigé par le roi Théoden ?",
+      "options": [
+        { "id": "a", "label": "Le Rohan" },
+        { "id": "b", "label": "Le Gondor" },
+        { "id": "c", "label": "Le Mordor" },
+        { "id": "d", "label": "La Comté" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-m9",
+      "difficulty": "moyen",
+      "text": "Quel royaume abrite la cité blanche de Minas Tirith ?",
+      "options": [
+        { "id": "a", "label": "Le Gondor" },
+        { "id": "b", "label": "Le Rohan" },
+        { "id": "c", "label": "Le Mordor" },
+        { "id": "d", "label": "La Comté" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-m10",
+      "difficulty": "moyen",
+      "text": "Comment appelle-t-on les créatures monstrueuses qui composent l'armée du Mal ?",
+      "options": [
+        { "id": "a", "label": "Les Orques" },
+        { "id": "b", "label": "Les Elfes" },
+        { "id": "c", "label": "Les Nains" },
+        { "id": "d", "label": "Les Hobbits" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-m11",
+      "difficulty": "moyen",
+      "text": "Quel hobbit, oncle de Frodon, a trouvé l'Anneau lors d'un précédent voyage ?",
+      "options": [
+        { "id": "a", "label": "Bilbo" },
+        { "id": "b", "label": "Sam" },
+        { "id": "c", "label": "Merry" },
+        { "id": "d", "label": "Pippin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-m12",
+      "difficulty": "moyen",
+      "text": "Quelle forêt elfique est gouvernée par Galadriel ?",
+      "options": [
+        { "id": "a", "label": "La Lothlórien" },
+        { "id": "b", "label": "Fangorn" },
+        { "id": "c", "label": "Fondcombe" },
+        { "id": "d", "label": "La Moria" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-m13",
+      "difficulty": "moyen",
+      "text": "Quel homme de la Communauté cède à la tentation puis meurt en défendant les Hobbits ?",
+      "options": [
+        { "id": "a", "label": "Boromir" },
+        { "id": "b", "label": "Aragorn" },
+        { "id": "c", "label": "Faramir" },
+        { "id": "d", "label": "Théoden" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-m14",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle l'épée d'Aragorn, reforgée à partir des fragments de Narsil ?",
+      "options": [
+        { "id": "a", "label": "Andúril" },
+        { "id": "b", "label": "Glamdring" },
+        { "id": "c", "label": "Dard" },
+        { "id": "d", "label": "Orcrist" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-m15",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle la petite épée de Frodon qui brille en bleu près des Orques ?",
+      "options": [
+        { "id": "a", "label": "Dard" },
+        { "id": "b", "label": "Andúril" },
+        { "id": "c", "label": "Glamdring" },
+        { "id": "d", "label": "Orcrist" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-m16",
+      "difficulty": "moyen",
+      "text": "Quelle araignée géante attaque Frodon dans son antre obscur ?",
+      "options": [
+        { "id": "a", "label": "Arachne" },
+        { "id": "b", "label": "Gollum" },
+        { "id": "c", "label": "Sauron" },
+        { "id": "d", "label": "Grima" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-m17",
+      "difficulty": "moyen",
+      "text": "Comment appelle-t-on les neuf cavaliers noirs qui traquent l'Anneau ?",
+      "options": [
+        { "id": "a", "label": "Les Nazgûl" },
+        { "id": "b", "label": "Les Orques" },
+        { "id": "c", "label": "Les Ents" },
+        { "id": "d", "label": "Les Uruk-hai" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-m18",
+      "difficulty": "moyen",
+      "text": "Quel démon de feu et d'ombre affronte Gandalf dans la Moria ?",
+      "options": [
+        { "id": "a", "label": "Le Balrog" },
+        { "id": "b", "label": "Le Nazgûl" },
+        { "id": "c", "label": "Le Troll" },
+        { "id": "d", "label": "Le Warg" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-m19",
+      "difficulty": "moyen",
+      "text": "Quel seigneur elfe dirige le refuge de Fondcombe ?",
+      "options": [
+        { "id": "a", "label": "Elrond" },
+        { "id": "b", "label": "Galadriel" },
+        { "id": "c", "label": "Legolas" },
+        { "id": "d", "label": "Thranduil" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-m20",
+      "difficulty": "moyen",
+      "text": "Quelle dame elfe, porteuse d'un anneau, règne sur la Lothlórien ?",
+      "options": [
+        { "id": "a", "label": "Galadriel" },
+        { "id": "b", "label": "Arwen" },
+        { "id": "c", "label": "Éowyn" },
+        { "id": "d", "label": "Elrond" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-d1",
+      "difficulty": "dur",
+      "text": "Quel écrivain britannique est l'auteur du Seigneur des Anneaux ?",
+      "options": [
+        { "id": "a", "label": "Tolkien" },
+        { "id": "b", "label": "Lewis" },
+        { "id": "c", "label": "Martin" },
+        { "id": "d", "label": "Pratchett" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-d2",
+      "difficulty": "dur",
+      "text": "Qui a réalisé la trilogie de films Le Seigneur des Anneaux ?",
+      "options": [
+        { "id": "a", "label": "Peter Jackson" },
+        { "id": "b", "label": "Steven Spielberg" },
+        { "id": "c", "label": "George Lucas" },
+        { "id": "d", "label": "Ridley Scott" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-d3",
+      "difficulty": "dur",
+      "text": "Quelle princesse elfe, fille d'Elrond, aime Aragorn ?",
+      "options": [
+        { "id": "a", "label": "Arwen" },
+        { "id": "b", "label": "Galadriel" },
+        { "id": "c", "label": "Éowyn" },
+        { "id": "d", "label": "Tauriel" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-d4",
+      "difficulty": "dur",
+      "text": "Quelle nièce du roi Théoden porte le coup fatal au chef des Nazgûl ?",
+      "options": [
+        { "id": "a", "label": "Éowyn" },
+        { "id": "b", "label": "Arwen" },
+        { "id": "c", "label": "Galadriel" },
+        { "id": "d", "label": "Tauriel" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-d5",
+      "difficulty": "dur",
+      "text": "Quel titre porte le chef des neuf cavaliers noirs, vaincu par Éowyn ?",
+      "options": [
+        { "id": "a", "label": "Le Roi-Sorcier" },
+        { "id": "b", "label": "Le Roi Théoden" },
+        { "id": "c", "label": "Le Roi Elessar" },
+        { "id": "d", "label": "Le Roi Thranduil" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-d6",
+      "difficulty": "dur",
+      "text": "Quel intendant du Gondor, père de Boromir, sombre dans la folie ?",
+      "options": [
+        { "id": "a", "label": "Denethor" },
+        { "id": "b", "label": "Faramir" },
+        { "id": "c", "label": "Théoden" },
+        { "id": "d", "label": "Elrond" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-d7",
+      "difficulty": "dur",
+      "text": "Quel frère de Boromir épargne Frodon et l'Anneau ?",
+      "options": [
+        { "id": "a", "label": "Faramir" },
+        { "id": "b", "label": "Denethor" },
+        { "id": "c", "label": "Aragorn" },
+        { "id": "d", "label": "Théoden" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-d8",
+      "difficulty": "dur",
+      "text": "Comment appelle-t-on les géants-arbres qui attaquent Isengard ?",
+      "options": [
+        { "id": "a", "label": "Les Ents" },
+        { "id": "b", "label": "Les Orques" },
+        { "id": "c", "label": "Les Nains" },
+        { "id": "d", "label": "Les Trolls" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-d9",
+      "difficulty": "dur",
+      "text": "Quel Ent le plus ancien prend soin de Merry et Pippin dans sa forêt ?",
+      "options": [
+        { "id": "a", "label": "Sylvebarbe" },
+        { "id": "b", "label": "Saroumane" },
+        { "id": "c", "label": "Radagast" },
+        { "id": "d", "label": "Gandalf" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-d10",
+      "difficulty": "dur",
+      "text": "Dans quelle mine souterraine des Nains la Communauté est-elle attaquée ?",
+      "options": [
+        { "id": "a", "label": "La Moria" },
+        { "id": "b", "label": "Isengard" },
+        { "id": "c", "label": "Fondcombe" },
+        { "id": "d", "label": "Le Gondor" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-d11",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quelle forteresse du Rohan résiste à l'immense assaut des Uruk-hai ?",
+      "answer": "Le Gouffre de Helm"
+    },
+    {
+      "id": "lotr-d12",
+      "difficulty": "dur",
+      "text": "Comment appelle-t-on les guerriers orques d'élite créés par Saroumane ?",
+      "options": [
+        { "id": "a", "label": "Les Uruk-hai" },
+        { "id": "b", "label": "Les Nazgûl" },
+        { "id": "c", "label": "Les Gobelins" },
+        { "id": "d", "label": "Les Trolls" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-d13",
+      "difficulty": "dur",
+      "text": "Quelle tour est la forteresse de Saroumane ?",
+      "options": [
+        { "id": "a", "label": "Isengard" },
+        { "id": "b", "label": "Barad-dûr" },
+        { "id": "c", "label": "Minas Tirith" },
+        { "id": "d", "label": "Minas Morgul" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-d14",
+      "difficulty": "dur",
+      "text": "Comment s'appelle la tour sombre de Sauron au cœur du Mordor ?",
+      "options": [
+        { "id": "a", "label": "Barad-dûr" },
+        { "id": "b", "label": "Isengard" },
+        { "id": "c", "label": "Minas Tirith" },
+        { "id": "d", "label": "Orthanc" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-d15",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Comment s'appelle le grand affrontement livré dans les champs devant Minas Tirith ?",
+      "answer": "La bataille du Pelennor"
+    },
+    {
+      "id": "lotr-d16",
+      "difficulty": "dur",
+      "text": "Comment s'appelle le cheval de Gandalf, le plus rapide de la Terre du Milieu ?",
+      "options": [
+        { "id": "a", "label": "Gripoil" },
+        { "id": "b", "label": "Bill" },
+        { "id": "c", "label": "Fléau" },
+        { "id": "d", "label": "Nahar" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-d17",
+      "difficulty": "dur",
+      "text": "Quel hobbit devient écuyer du Rohan et aide à abattre le chef des Nazgûl ?",
+      "options": [
+        { "id": "a", "label": "Merry" },
+        { "id": "b", "label": "Pippin" },
+        { "id": "c", "label": "Sam" },
+        { "id": "d", "label": "Frodon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-d18",
+      "difficulty": "dur",
+      "text": "Quel hobbit devient garde de la citadelle du Gondor ?",
+      "options": [
+        { "id": "a", "label": "Pippin" },
+        { "id": "b", "label": "Merry" },
+        { "id": "c", "label": "Sam" },
+        { "id": "d", "label": "Frodon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-d19",
+      "difficulty": "dur",
+      "text": "Comment appelle-t-on le peuple immortel aux oreilles pointues de la Terre du Milieu ?",
+      "options": [
+        { "id": "a", "label": "Les Elfes" },
+        { "id": "b", "label": "Les Nains" },
+        { "id": "c", "label": "Les Hobbits" },
+        { "id": "d", "label": "Les Ents" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-d20",
+      "difficulty": "dur",
+      "text": "Quel roi nain a jadis régné sur la Moria, dont on découvre le tombeau ?",
+      "options": [
+        { "id": "a", "label": "Balin" },
+        { "id": "b", "label": "Gimli" },
+        { "id": "c", "label": "Thorin" },
+        { "id": "d", "label": "Dáin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-d21",
+      "difficulty": "dur",
+      "type": "estimation",
+      "text": "Combien d'Anneaux de Pouvoir furent donnés aux rois des Hommes ?",
+      "answerValue": 9,
+      "unit": "anneaux"
+    },
+    {
+      "id": "lotr-d22",
+      "difficulty": "dur",
+      "type": "estimation",
+      "text": "Combien d'Anneaux de Pouvoir furent donnés aux seigneurs des Nains ?",
+      "answerValue": 7,
+      "unit": "anneaux"
+    },
+    {
+      "id": "lotr-d23",
+      "difficulty": "dur",
+      "type": "estimation",
+      "text": "Combien d'Anneaux de Pouvoir furent donnés aux rois des Elfes ?",
+      "answerValue": 3,
+      "unit": "anneaux"
+    },
+    {
+      "id": "lotr-d24",
+      "difficulty": "dur",
+      "text": "Comment s'appelle le col secret par lequel Gollum guide Frodon vers le Mordor ?",
+      "options": [
+        { "id": "a", "label": "Cirith Ungol" },
+        { "id": "b", "label": "La Moria" },
+        { "id": "c", "label": "Le Morannon" },
+        { "id": "d", "label": "Fondcombe" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-d25",
+      "difficulty": "dur",
+      "text": "Comment s'appelle la Porte Noire, entrée principale du Mordor ?",
+      "options": [
+        { "id": "a", "label": "Le Morannon" },
+        { "id": "b", "label": "Cirith Ungol" },
+        { "id": "c", "label": "Isengard" },
+        { "id": "d", "label": "La Moria" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-d26",
+      "difficulty": "dur",
+      "text": "Sous quel nom de roi Aragorn est-il couronné à la fin ?",
+      "options": [
+        { "id": "a", "label": "Elessar" },
+        { "id": "b", "label": "Isildur" },
+        { "id": "c", "label": "Denethor" },
+        { "id": "d", "label": "Théoden" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-d27",
+      "difficulty": "dur",
+      "text": "Quel ancêtre d'Aragorn a tranché l'Anneau du doigt de Sauron sans le détruire ?",
+      "options": [
+        { "id": "a", "label": "Isildur" },
+        { "id": "b", "label": "Elendil" },
+        { "id": "c", "label": "Elessar" },
+        { "id": "d", "label": "Elrond" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-d28",
+      "difficulty": "dur",
+      "text": "Comment s'appelle la lame elfique portée par Gandalf ?",
+      "options": [
+        { "id": "a", "label": "Glamdring" },
+        { "id": "b", "label": "Andúril" },
+        { "id": "c", "label": "Dard" },
+        { "id": "d", "label": "Orcrist" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-d29",
+      "difficulty": "dur",
+      "type": "ordre",
+      "text": "Classe les films de la trilogie dans leur ordre de sortie.",
+      "items": [
+        { "id": "1", "label": "La Communauté de l'Anneau" },
+        { "id": "2", "label": "Les Deux Tours" },
+        { "id": "3", "label": "Le Retour du Roi" }
+      ]
+    },
+    {
+      "id": "lotr-d30",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel objet lumineux, don d'une dame elfe, éclaire Frodon dans l'antre d'Arachne ?",
+      "answer": "La Fiole de Galadriel"
+    },
+    {
+      "id": "lotr-p1",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "En quelle année le film La Communauté de l'Anneau est-il sorti au cinéma ?",
+      "answerValue": 2001,
+      "unit": ""
+    },
+    {
+      "id": "lotr-p2",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien d'Oscars le film Le Retour du Roi a-t-il remportés ?",
+      "answerValue": 11,
+      "unit": "Oscars",
+      "funFact": "Un record égalé, sur onze nominations, dont Meilleur film."
+    },
+    {
+      "id": "lotr-p3",
+      "difficulty": "pro",
+      "text": "Quel acteur incarne Frodon dans les films ?",
+      "options": [
+        { "id": "a", "label": "Elijah Wood" },
+        { "id": "b", "label": "Sean Astin" },
+        { "id": "c", "label": "Orlando Bloom" },
+        { "id": "d", "label": "Viggo Mortensen" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-p4",
+      "difficulty": "pro",
+      "text": "Quel acteur incarne Aragorn dans les films ?",
+      "options": [
+        { "id": "a", "label": "Viggo Mortensen" },
+        { "id": "b", "label": "Orlando Bloom" },
+        { "id": "c", "label": "Sean Bean" },
+        { "id": "d", "label": "Elijah Wood" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-p5",
+      "difficulty": "pro",
+      "text": "Quel acteur incarne Legolas dans les films ?",
+      "options": [
+        { "id": "a", "label": "Orlando Bloom" },
+        { "id": "b", "label": "Viggo Mortensen" },
+        { "id": "c", "label": "Elijah Wood" },
+        { "id": "d", "label": "Sean Astin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-p6",
+      "difficulty": "pro",
+      "text": "Quel acteur incarne Gandalf dans les films ?",
+      "options": [
+        { "id": "a", "label": "Ian McKellen" },
+        { "id": "b", "label": "Christopher Lee" },
+        { "id": "c", "label": "Hugo Weaving" },
+        { "id": "d", "label": "Sean Bean" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-p7",
+      "difficulty": "pro",
+      "text": "Quel acteur britannique incarne Saroumane ?",
+      "options": [
+        { "id": "a", "label": "Christopher Lee" },
+        { "id": "b", "label": "Ian McKellen" },
+        { "id": "c", "label": "Hugo Weaving" },
+        { "id": "d", "label": "Sean Bean" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-p8",
+      "difficulty": "pro",
+      "text": "Quel acteur incarne Samsagace, dit Sam ?",
+      "options": [
+        { "id": "a", "label": "Sean Astin" },
+        { "id": "b", "label": "Elijah Wood" },
+        { "id": "c", "label": "Billy Boyd" },
+        { "id": "d", "label": "Dominic Monaghan" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-p9",
+      "difficulty": "pro",
+      "text": "Quel roman de Tolkien, précédant la trilogie, raconte la quête de Bilbo ?",
+      "options": [
+        { "id": "a", "label": "Le Hobbit" },
+        { "id": "b", "label": "Le Silmarillion" },
+        { "id": "c", "label": "Les Enfants Húrin" },
+        { "id": "d", "label": "Contes Perdus" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-p10",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Environ combien d'années Bilbo a-t-il conservé l'Anneau avant de le laisser à Frodon ?",
+      "answerValue": 60,
+      "unit": "ans"
+    },
+    {
+      "id": "lotr-p11",
+      "difficulty": "pro",
+      "text": "Quel était le vrai nom de Gollum avant sa corruption par l'Anneau ?",
+      "options": [
+        { "id": "a", "label": "Sméagol" },
+        { "id": "b", "label": "Déagol" },
+        { "id": "c", "label": "Bilbo" },
+        { "id": "d", "label": "Isildur" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-p12",
+      "difficulty": "pro",
+      "text": "Quel ami de Sméagol trouva d'abord l'Anneau dans la rivière avant d'être tué ?",
+      "options": [
+        { "id": "a", "label": "Déagol" },
+        { "id": "b", "label": "Sméagol" },
+        { "id": "c", "label": "Bilbo" },
+        { "id": "d", "label": "Frodon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-p13",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Dans quelle langue maléfique du Mordor est gravée l'inscription de l'Anneau ?",
+      "answer": "Le Noir Parler"
+    },
+    {
+      "id": "lotr-p14",
+      "difficulty": "pro",
+      "text": "Quel forgeron elfe a créé les Anneaux de Pouvoir, trompé par Sauron ?",
+      "options": [
+        { "id": "a", "label": "Celebrimbor" },
+        { "id": "b", "label": "Fëanor" },
+        { "id": "c", "label": "Elrond" },
+        { "id": "d", "label": "Gil-galad" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-p15",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment s'appelle le monde imaginaire où se déroulent ces aventures ?",
+      "answer": "La Terre du Milieu"
+    },
+    {
+      "id": "lotr-p16",
+      "difficulty": "pro",
+      "text": "Quel roi elfe sylvestre, père de Legolas, règne sur les bois du nord ?",
+      "options": [
+        { "id": "a", "label": "Thranduil" },
+        { "id": "b", "label": "Elrond" },
+        { "id": "c", "label": "Celeborn" },
+        { "id": "d", "label": "Gil-galad" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-p17",
+      "difficulty": "pro",
+      "text": "Comment s'appelle l'époux de Galadriel, seigneur de la Lothlórien ?",
+      "options": [
+        { "id": "a", "label": "Celeborn" },
+        { "id": "b", "label": "Elrond" },
+        { "id": "c", "label": "Thranduil" },
+        { "id": "d", "label": "Gil-galad" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-p18",
+      "difficulty": "pro",
+      "text": "Quel poney accompagne fidèlement les Hobbits depuis le village de Bree ?",
+      "options": [
+        { "id": "a", "label": "Bill" },
+        { "id": "b", "label": "Gripoil" },
+        { "id": "c", "label": "Fléau" },
+        { "id": "d", "label": "Nahar" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-p19",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Dans quelle auberge de Bree les Hobbits rencontrent-ils Aragorn pour la première fois ?",
+      "answer": "Le Poney Fringant"
+    },
+    {
+      "id": "lotr-p20",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel est le titre du deuxième volet de la trilogie ?",
+      "answer": "Les Deux Tours"
+    },
+    {
+      "id": "lotr-p21",
+      "difficulty": "pro",
+      "text": "Quel haut roi elfe a combattu Sauron lors de la Dernière Alliance ?",
+      "options": [
+        { "id": "a", "label": "Gil-galad" },
+        { "id": "b", "label": "Elrond" },
+        { "id": "c", "label": "Celeborn" },
+        { "id": "d", "label": "Thranduil" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-p22",
+      "difficulty": "pro",
+      "text": "Quel roi des Hommes, père d'Isildur, a combattu Sauron aux côtés de Gil-galad ?",
+      "options": [
+        { "id": "a", "label": "Elendil" },
+        { "id": "b", "label": "Isildur" },
+        { "id": "c", "label": "Elessar" },
+        { "id": "d", "label": "Elrond" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-p23",
+      "difficulty": "pro",
+      "text": "Comment appelle-t-on les Hommes du Sud, alliés de Sauron ?",
+      "options": [
+        { "id": "a", "label": "Les Suderons" },
+        { "id": "b", "label": "Les Rohirrim" },
+        { "id": "c", "label": "Les Dúnedain" },
+        { "id": "d", "label": "Les Galadhrim" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-p24",
+      "difficulty": "pro",
+      "text": "Comment appelle-t-on les cavaliers guerriers du Rohan ?",
+      "options": [
+        { "id": "a", "label": "Les Rohirrim" },
+        { "id": "b", "label": "Les Dúnedain" },
+        { "id": "c", "label": "Les Suderons" },
+        { "id": "d", "label": "Les Galadhrim" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-p25",
+      "difficulty": "pro",
+      "text": "Comment appelle-t-on les gigantesques éléphants de guerre montés par les Suderons ?",
+      "options": [
+        { "id": "a", "label": "Les Mûmakil" },
+        { "id": "b", "label": "Les Wargs" },
+        { "id": "c", "label": "Les Nazgûl" },
+        { "id": "d", "label": "Les Ents" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-p26",
+      "difficulty": "pro",
+      "text": "Quelles montures ressemblant à des loups les Orques chevauchent-ils ?",
+      "options": [
+        { "id": "a", "label": "Les Wargs" },
+        { "id": "b", "label": "Les Mûmakil" },
+        { "id": "c", "label": "Les Ents" },
+        { "id": "d", "label": "Les Trolls" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-p27",
+      "difficulty": "pro",
+      "text": "Quel objet de vision Pippin regarde-t-il imprudemment, se révélant à Sauron ?",
+      "options": [
+        { "id": "a", "label": "Un palantír" },
+        { "id": "b", "label": "Un anneau" },
+        { "id": "c", "label": "Une épée" },
+        { "id": "d", "label": "Une fiole" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-p28",
+      "difficulty": "pro",
+      "text": "Quel compositeur a signé les musiques de la trilogie de films ?",
+      "options": [
+        { "id": "a", "label": "Howard Shore" },
+        { "id": "b", "label": "Hans Zimmer" },
+        { "id": "c", "label": "John Williams" },
+        { "id": "d", "label": "James Horner" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-p29",
+      "difficulty": "pro",
+      "text": "Dans quel pays la trilogie de films a-t-elle été tournée ?",
+      "options": [
+        { "id": "a", "label": "La Nouvelle-Zélande" },
+        { "id": "b", "label": "L'Australie" },
+        { "id": "c", "label": "L'Irlande" },
+        { "id": "d", "label": "L'Écosse" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-p30",
+      "difficulty": "pro",
+      "text": "Quel végétal est l'emblème de la cité de Minas Tirith et du Gondor ?",
+      "options": [
+        { "id": "a", "label": "L'Arbre Blanc" },
+        { "id": "b", "label": "Le Grand Chêne" },
+        { "id": "c", "label": "Le Vieux Saule" },
+        { "id": "d", "label": "Le Mellyrn Doré" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-p31",
+      "difficulty": "pro",
+      "text": "Comment s'appelle la cité blanche à sept niveaux, capitale du Gondor ?",
+      "options": [
+        { "id": "a", "label": "Minas Tirith" },
+        { "id": "b", "label": "Minas Morgul" },
+        { "id": "c", "label": "Isengard" },
+        { "id": "d", "label": "Fondcombe" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-p32",
+      "difficulty": "pro",
+      "text": "Quelle cité, jadis appelée Ithil, est devenue la sinistre forteresse des Nazgûl ?",
+      "options": [
+        { "id": "a", "label": "Minas Morgul" },
+        { "id": "b", "label": "Minas Tirith" },
+        { "id": "c", "label": "Isengard" },
+        { "id": "d", "label": "Barad-dûr" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-p33",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelle créature tentaculaire surgit du lac pour attaquer la Communauté devant la Moria ?",
+      "answer": "Le Guetteur de l'Eau"
+    },
+    {
+      "id": "lotr-p34",
+      "difficulty": "pro",
+      "text": "Quel roi du Rohan est manipulé par Saroumane via son conseiller Grima ?",
+      "options": [
+        { "id": "a", "label": "Théoden" },
+        { "id": "b", "label": "Denethor" },
+        { "id": "c", "label": "Éomer" },
+        { "id": "d", "label": "Elessar" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-p35",
+      "difficulty": "pro",
+      "text": "Quel neveu de Théoden mène les Rohirrim, banni puis rappelé ?",
+      "options": [
+        { "id": "a", "label": "Éomer" },
+        { "id": "b", "label": "Théoden" },
+        { "id": "c", "label": "Faramir" },
+        { "id": "d", "label": "Grima" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-p36",
+      "difficulty": "pro",
+      "text": "Quel conseiller sournois empoisonne l'esprit du roi Théoden ?",
+      "options": [
+        { "id": "a", "label": "Grima" },
+        { "id": "b", "label": "Éomer" },
+        { "id": "c", "label": "Denethor" },
+        { "id": "d", "label": "Faramir" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-p37",
+      "difficulty": "pro",
+      "text": "Quelle boisson mystérieuse fait grandir Merry et Pippin dans la forêt de Fangorn ?",
+      "options": [
+        { "id": "a", "label": "L'Ent-breuvage" },
+        { "id": "b", "label": "L'hydromel" },
+        { "id": "c", "label": "La bièraubeurre" },
+        { "id": "d", "label": "L'eau claire" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-p38",
+      "difficulty": "pro",
+      "text": "Comment s'appelle le pain de voyage elfique qui nourrit longtemps d'une bouchée ?",
+      "options": [
+        { "id": "a", "label": "Le lembas" },
+        { "id": "b", "label": "Le miruvor" },
+        { "id": "c", "label": "L'hydromel" },
+        { "id": "d", "label": "La cram" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-p39",
+      "difficulty": "pro",
+      "text": "Quel hobbit poursuit le grand livre rouge des aventures commencé par Bilbo ?",
+      "options": [
+        { "id": "a", "label": "Frodon" },
+        { "id": "b", "label": "Sam" },
+        { "id": "c", "label": "Merry" },
+        { "id": "d", "label": "Pippin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lotr-p40",
+      "difficulty": "pro",
+      "text": "Vers quel port les Elfes et Frodon embarquent-ils à la fin, quittant la Terre du Milieu ?",
+      "options": [
+        { "id": "a", "label": "Les Havres Gris" },
+        { "id": "b", "label": "Les Terres Immortelles" },
+        { "id": "c", "label": "Les Monts Brumeux" },
+        { "id": "d", "label": "Les Champs Pelennor" }
+      ],
+      "correctOptionId": "a"
+    }
+  ]
+}
