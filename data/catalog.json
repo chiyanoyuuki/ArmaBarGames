@@ -28,6 +28,7 @@
     { "id": "pokemon", "name": "Pokémon", "themeId": "jeux-video", "emoji": "⚡" },
     { "id": "ed-sheeran", "name": "Ed Sheeran", "themeId": "musique", "emoji": "🎸" },
     { "id": "rock-classique", "name": "Rock classique", "themeId": "musique", "emoji": "🤘" },
+    { "id": "geographie-monde", "name": "Géographie du monde", "themeId": "geographie", "emoji": "🌍" },
     { "id": "culture-generale", "name": "Culture générale", "themeId": "culture", "emoji": "🧠" }
   ]
 }

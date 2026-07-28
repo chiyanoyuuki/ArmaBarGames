@@ -1,0 +1,1184 @@
+{
+  "universeId": "geographie-monde",
+  "questions": [
+    {
+      "id": "geo-f1",
+      "difficulty": "facile",
+      "text": "Quelle est la capitale de la France ?",
+      "options": [
+        { "id": "a", "label": "Paris" },
+        { "id": "b", "label": "Lyon" },
+        { "id": "c", "label": "Marseille" },
+        { "id": "d", "label": "Nice" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-f2",
+      "difficulty": "facile",
+      "text": "Quelle est la capitale de l'Italie ?",
+      "options": [
+        { "id": "a", "label": "Rome" },
+        { "id": "b", "label": "Milan" },
+        { "id": "c", "label": "Naples" },
+        { "id": "d", "label": "Turin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-f3",
+      "difficulty": "facile",
+      "text": "Quel est le plus grand océan du monde ?",
+      "options": [
+        { "id": "a", "label": "Le Pacifique" },
+        { "id": "b", "label": "L'Atlantique" },
+        { "id": "c", "label": "L'océan Indien" },
+        { "id": "d", "label": "L'Arctique" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-f4",
+      "difficulty": "facile",
+      "text": "Sur quel continent se trouve l'Égypte ?",
+      "options": [
+        { "id": "a", "label": "L'Afrique" },
+        { "id": "b", "label": "L'Asie" },
+        { "id": "c", "label": "L'Europe" },
+        { "id": "d", "label": "L'Océanie" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-f5",
+      "difficulty": "facile",
+      "text": "Quelle est la capitale de l'Espagne ?",
+      "options": [
+        { "id": "a", "label": "Madrid" },
+        { "id": "b", "label": "Barcelone" },
+        { "id": "c", "label": "Séville" },
+        { "id": "d", "label": "Valence" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-f6",
+      "difficulty": "facile",
+      "text": "Quel fleuve d'Afrique est le plus long du continent ?",
+      "options": [
+        { "id": "a", "label": "Le Nil" },
+        { "id": "b", "label": "Le Congo" },
+        { "id": "c", "label": "Le Niger" },
+        { "id": "d", "label": "Le Zambèze" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-f7",
+      "difficulty": "facile",
+      "text": "Quelle est la capitale de l'Allemagne ?",
+      "options": [
+        { "id": "a", "label": "Berlin" },
+        { "id": "b", "label": "Munich" },
+        { "id": "c", "label": "Hambourg" },
+        { "id": "d", "label": "Francfort" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-f8",
+      "difficulty": "facile",
+      "type": "estimation",
+      "text": "Combien de continents compte la Terre ?",
+      "answerValue": 7,
+      "unit": "continents"
+    },
+    {
+      "id": "geo-f9",
+      "difficulty": "facile",
+      "text": "Quelle chaîne de montagnes sépare la France de l'Italie ?",
+      "options": [
+        { "id": "a", "label": "Les Alpes" },
+        { "id": "b", "label": "Les Pyrénées" },
+        { "id": "c", "label": "Les Andes" },
+        { "id": "d", "label": "L'Himalaya" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-f10",
+      "difficulty": "facile",
+      "text": "Quel est le plus vaste désert chaud du monde ?",
+      "options": [
+        { "id": "a", "label": "Le Sahara" },
+        { "id": "b", "label": "Le Gobi" },
+        { "id": "c", "label": "Le Kalahari" },
+        { "id": "d", "label": "L'Atacama" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-m1",
+      "difficulty": "moyen",
+      "text": "Quelle est la capitale du Portugal ?",
+      "options": [
+        { "id": "a", "label": "Lisbonne" },
+        { "id": "b", "label": "Porto" },
+        { "id": "c", "label": "Madrid" },
+        { "id": "d", "label": "Séville" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-m2",
+      "difficulty": "moyen",
+      "text": "Quelle est la capitale du Royaume-Uni ?",
+      "options": [
+        { "id": "a", "label": "Londres" },
+        { "id": "b", "label": "Manchester" },
+        { "id": "c", "label": "Édimbourg" },
+        { "id": "d", "label": "Dublin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-m3",
+      "difficulty": "moyen",
+      "text": "Quelle est la capitale de la Russie ?",
+      "options": [
+        { "id": "a", "label": "Moscou" },
+        { "id": "b", "label": "Saint-Pétersbourg" },
+        { "id": "c", "label": "Kiev" },
+        { "id": "d", "label": "Minsk" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-m4",
+      "difficulty": "moyen",
+      "text": "Quelle est la capitale du Japon ?",
+      "options": [
+        { "id": "a", "label": "Tokyo" },
+        { "id": "b", "label": "Kyoto" },
+        { "id": "c", "label": "Osaka" },
+        { "id": "d", "label": "Séoul" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-m5",
+      "difficulty": "moyen",
+      "text": "Quelle est la capitale du Canada ?",
+      "options": [
+        { "id": "a", "label": "Ottawa" },
+        { "id": "b", "label": "Toronto" },
+        { "id": "c", "label": "Montréal" },
+        { "id": "d", "label": "Vancouver" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-m6",
+      "difficulty": "moyen",
+      "text": "Quelle est la capitale de l'Australie ?",
+      "options": [
+        { "id": "a", "label": "Canberra" },
+        { "id": "b", "label": "Sydney" },
+        { "id": "c", "label": "Melbourne" },
+        { "id": "d", "label": "Perth" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-m7",
+      "difficulty": "moyen",
+      "text": "Quel pays possède la plus grande superficie du monde ?",
+      "options": [
+        { "id": "a", "label": "La Russie" },
+        { "id": "b", "label": "Le Canada" },
+        { "id": "c", "label": "La Chine" },
+        { "id": "d", "label": "Le Brésil" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-m8",
+      "difficulty": "moyen",
+      "text": "Quel est le plus haut sommet du monde ?",
+      "options": [
+        { "id": "a", "label": "L'Everest" },
+        { "id": "b", "label": "Le K2" },
+        { "id": "c", "label": "Le Mont Blanc" },
+        { "id": "d", "label": "Le Kilimandjaro" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-m9",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel fleuve traverse la ville de Paris ?",
+      "answer": "La Seine"
+    },
+    {
+      "id": "geo-m10",
+      "difficulty": "moyen",
+      "text": "Dans quel pays coule majoritairement le fleuve Amazone ?",
+      "options": [
+        { "id": "a", "label": "Le Brésil" },
+        { "id": "b", "label": "Le Pérou" },
+        { "id": "c", "label": "La Colombie" },
+        { "id": "d", "label": "L'Argentine" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-m11",
+      "difficulty": "moyen",
+      "text": "Quelle mer borde la Côte d'Azur ?",
+      "options": [
+        { "id": "a", "label": "La Méditerranée" },
+        { "id": "b", "label": "L'Atlantique" },
+        { "id": "c", "label": "La Manche" },
+        { "id": "d", "label": "L'Adriatique" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-m12",
+      "difficulty": "moyen",
+      "text": "Quel détroit sépare l'Espagne du Maroc ?",
+      "options": [
+        { "id": "a", "label": "Gibraltar" },
+        { "id": "b", "label": "Bosphore" },
+        { "id": "c", "label": "Malacca" },
+        { "id": "d", "label": "Ormuz" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-m13",
+      "difficulty": "moyen",
+      "text": "Quelle est la capitale de la Grèce ?",
+      "options": [
+        { "id": "a", "label": "Athènes" },
+        { "id": "b", "label": "Thessalonique" },
+        { "id": "c", "label": "Sparte" },
+        { "id": "d", "label": "Istanbul" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-m14",
+      "difficulty": "moyen",
+      "text": "Quelle est la capitale des Pays-Bas ?",
+      "options": [
+        { "id": "a", "label": "Amsterdam" },
+        { "id": "b", "label": "Rotterdam" },
+        { "id": "c", "label": "La Haye" },
+        { "id": "d", "label": "Bruxelles" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-m15",
+      "difficulty": "moyen",
+      "text": "Quelle est la capitale de la Belgique ?",
+      "options": [
+        { "id": "a", "label": "Bruxelles" },
+        { "id": "b", "label": "Anvers" },
+        { "id": "c", "label": "Liège" },
+        { "id": "d", "label": "Gand" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-m16",
+      "difficulty": "moyen",
+      "text": "Quel pays a la forme caractéristique d'une botte ?",
+      "options": [
+        { "id": "a", "label": "L'Italie" },
+        { "id": "b", "label": "L'Espagne" },
+        { "id": "c", "label": "La Grèce" },
+        { "id": "d", "label": "Le Portugal" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-m17",
+      "difficulty": "moyen",
+      "text": "Quel est le plus petit État indépendant du monde ?",
+      "options": [
+        { "id": "a", "label": "Le Vatican" },
+        { "id": "b", "label": "Monaco" },
+        { "id": "c", "label": "Nauru" },
+        { "id": "d", "label": "Saint-Marin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-m18",
+      "difficulty": "moyen",
+      "text": "Dans quel pays se dresse la tour penchée de Pise ?",
+      "options": [
+        { "id": "a", "label": "L'Italie" },
+        { "id": "b", "label": "L'Espagne" },
+        { "id": "c", "label": "La France" },
+        { "id": "d", "label": "La Grèce" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-m19",
+      "difficulty": "moyen",
+      "type": "estimation",
+      "text": "Combien d'États composent les États-Unis d'Amérique ?",
+      "answerValue": 50,
+      "unit": "États"
+    },
+    {
+      "id": "geo-m20",
+      "difficulty": "moyen",
+      "text": "Quel pays est le plus peuplé du monde en 2024 ?",
+      "options": [
+        { "id": "a", "label": "L'Inde" },
+        { "id": "b", "label": "La Chine" },
+        { "id": "c", "label": "Les États-Unis" },
+        { "id": "d", "label": "L'Indonésie" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-d1",
+      "difficulty": "dur",
+      "text": "Quelle est la capitale de la Suède ?",
+      "options": [
+        { "id": "a", "label": "Stockholm" },
+        { "id": "b", "label": "Oslo" },
+        { "id": "c", "label": "Copenhague" },
+        { "id": "d", "label": "Helsinki" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-d2",
+      "difficulty": "dur",
+      "text": "Quelle est la capitale de la Norvège ?",
+      "options": [
+        { "id": "a", "label": "Oslo" },
+        { "id": "b", "label": "Stockholm" },
+        { "id": "c", "label": "Helsinki" },
+        { "id": "d", "label": "Copenhague" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-d3",
+      "difficulty": "dur",
+      "text": "Quelle est la capitale de la Finlande ?",
+      "options": [
+        { "id": "a", "label": "Helsinki" },
+        { "id": "b", "label": "Oslo" },
+        { "id": "c", "label": "Stockholm" },
+        { "id": "d", "label": "Tallinn" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-d4",
+      "difficulty": "dur",
+      "text": "Quelle est la capitale de la Pologne ?",
+      "options": [
+        { "id": "a", "label": "Varsovie" },
+        { "id": "b", "label": "Cracovie" },
+        { "id": "c", "label": "Prague" },
+        { "id": "d", "label": "Gdańsk" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-d5",
+      "difficulty": "dur",
+      "text": "Quelle est la capitale de l'Autriche ?",
+      "options": [
+        { "id": "a", "label": "Vienne" },
+        { "id": "b", "label": "Salzbourg" },
+        { "id": "c", "label": "Graz" },
+        { "id": "d", "label": "Zurich" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-d6",
+      "difficulty": "dur",
+      "text": "Quelle est la capitale de la Suisse ?",
+      "options": [
+        { "id": "a", "label": "Berne" },
+        { "id": "b", "label": "Zurich" },
+        { "id": "c", "label": "Genève" },
+        { "id": "d", "label": "Bâle" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-d7",
+      "difficulty": "dur",
+      "text": "Quelle est la capitale de la Turquie ?",
+      "options": [
+        { "id": "a", "label": "Ankara" },
+        { "id": "b", "label": "Istanbul" },
+        { "id": "c", "label": "Izmir" },
+        { "id": "d", "label": "Bursa" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-d8",
+      "difficulty": "dur",
+      "text": "Quelle est la capitale de l'Égypte ?",
+      "options": [
+        { "id": "a", "label": "Le Caire" },
+        { "id": "b", "label": "Alexandrie" },
+        { "id": "c", "label": "Louxor" },
+        { "id": "d", "label": "Gizeh" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-d9",
+      "difficulty": "dur",
+      "text": "Quelle est la capitale du Maroc ?",
+      "options": [
+        { "id": "a", "label": "Rabat" },
+        { "id": "b", "label": "Casablanca" },
+        { "id": "c", "label": "Marrakech" },
+        { "id": "d", "label": "Fès" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-d10",
+      "difficulty": "dur",
+      "text": "Quelle est la capitale du Brésil ?",
+      "options": [
+        { "id": "a", "label": "Brasília" },
+        { "id": "b", "label": "Manaus" },
+        { "id": "c", "label": "Recife" },
+        { "id": "d", "label": "Salvador" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-d11",
+      "difficulty": "dur",
+      "text": "Quelle est la capitale de l'Argentine ?",
+      "options": [
+        { "id": "a", "label": "Buenos Aires" },
+        { "id": "b", "label": "Córdoba" },
+        { "id": "c", "label": "Rosario" },
+        { "id": "d", "label": "Santiago" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-d12",
+      "difficulty": "dur",
+      "text": "Quelle est la capitale du Mexique ?",
+      "options": [
+        { "id": "a", "label": "Mexico" },
+        { "id": "b", "label": "Guadalajara" },
+        { "id": "c", "label": "Cancún" },
+        { "id": "d", "label": "Monterrey" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-d13",
+      "difficulty": "dur",
+      "text": "Quel pays possède le plus grand nombre de fuseaux horaires, grâce à ses territoires d'outre-mer ?",
+      "options": [
+        { "id": "a", "label": "La France" },
+        { "id": "b", "label": "La Russie" },
+        { "id": "c", "label": "Les États-Unis" },
+        { "id": "d", "label": "La Chine" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-d14",
+      "difficulty": "dur",
+      "text": "Quel est le plus haut sommet du continent africain ?",
+      "options": [
+        { "id": "a", "label": "Le Kilimandjaro" },
+        { "id": "b", "label": "Le mont Kenya" },
+        { "id": "c", "label": "Le Toubkal" },
+        { "id": "d", "label": "Le mont Cameroun" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-d15",
+      "difficulty": "dur",
+      "text": "Quel pays d'Amérique du Sud possède deux capitales, La Paz et Sucre ?",
+      "options": [
+        { "id": "a", "label": "La Bolivie" },
+        { "id": "b", "label": "Le Pérou" },
+        { "id": "c", "label": "L'Équateur" },
+        { "id": "d", "label": "Le Chili" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-d16",
+      "difficulty": "dur",
+      "text": "Quel est le plus grand pays d'Afrique par sa superficie ?",
+      "options": [
+        { "id": "a", "label": "L'Algérie" },
+        { "id": "b", "label": "Le Soudan" },
+        { "id": "c", "label": "La RD Congo" },
+        { "id": "d", "label": "La Libye" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-d17",
+      "difficulty": "dur",
+      "text": "Quel fleuve traverse Vienne, Budapest et Belgrade ?",
+      "options": [
+        { "id": "a", "label": "Le Danube" },
+        { "id": "b", "label": "Le Rhin" },
+        { "id": "c", "label": "La Volga" },
+        { "id": "d", "label": "L'Elbe" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-d18",
+      "difficulty": "dur",
+      "text": "Quel pays est surnommé « le pays du Soleil-Levant » ?",
+      "options": [
+        { "id": "a", "label": "Le Japon" },
+        { "id": "b", "label": "La Chine" },
+        { "id": "c", "label": "La Corée" },
+        { "id": "d", "label": "La Thaïlande" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-d19",
+      "difficulty": "dur",
+      "text": "Quelle est la capitale de l'Inde ?",
+      "options": [
+        { "id": "a", "label": "New Delhi" },
+        { "id": "b", "label": "Mumbai" },
+        { "id": "c", "label": "Calcutta" },
+        { "id": "d", "label": "Bangalore" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-d20",
+      "difficulty": "dur",
+      "text": "Quelle est la capitale de la Chine ?",
+      "options": [
+        { "id": "a", "label": "Pékin" },
+        { "id": "b", "label": "Shanghai" },
+        { "id": "c", "label": "Hong Kong" },
+        { "id": "d", "label": "Canton" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-d21",
+      "difficulty": "dur",
+      "text": "Quelle voie navigable artificielle relie la Méditerranée à la mer Rouge ?",
+      "options": [
+        { "id": "a", "label": "Le canal de Suez" },
+        { "id": "b", "label": "Le canal de Panama" },
+        { "id": "c", "label": "Le canal de Kiel" },
+        { "id": "d", "label": "Le canal de Corinthe" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-d22",
+      "difficulty": "dur",
+      "text": "Quelle voie navigable artificielle relie l'Atlantique au Pacifique en Amérique centrale ?",
+      "options": [
+        { "id": "a", "label": "Le canal de Panama" },
+        { "id": "b", "label": "Le canal de Suez" },
+        { "id": "c", "label": "Le canal de Kiel" },
+        { "id": "d", "label": "Le canal de Corinthe" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-d23",
+      "difficulty": "dur",
+      "text": "Quelle est la plus grande étendue d'eau intérieure du monde par sa surface ?",
+      "options": [
+        { "id": "a", "label": "La mer Caspienne" },
+        { "id": "b", "label": "Le lac Supérieur" },
+        { "id": "c", "label": "Le lac Victoria" },
+        { "id": "d", "label": "Le lac Baïkal" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-d24",
+      "difficulty": "dur",
+      "text": "Quel est le lac le plus profond du monde ?",
+      "options": [
+        { "id": "a", "label": "Le lac Baïkal" },
+        { "id": "b", "label": "La mer Caspienne" },
+        { "id": "c", "label": "Le lac Supérieur" },
+        { "id": "d", "label": "Le lac Tanganyika" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-d25",
+      "difficulty": "dur",
+      "text": "Dans quel pays se trouve le site du Machu Picchu ?",
+      "options": [
+        { "id": "a", "label": "Le Pérou" },
+        { "id": "b", "label": "Le Chili" },
+        { "id": "c", "label": "La Bolivie" },
+        { "id": "d", "label": "L'Équateur" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-d26",
+      "difficulty": "dur",
+      "text": "Dans quel pays se trouve la ville de Marrakech ?",
+      "options": [
+        { "id": "a", "label": "Le Maroc" },
+        { "id": "b", "label": "L'Algérie" },
+        { "id": "c", "label": "La Tunisie" },
+        { "id": "d", "label": "L'Égypte" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-d27",
+      "difficulty": "dur",
+      "text": "Quel pays est à la fois une île et un continent ?",
+      "options": [
+        { "id": "a", "label": "L'Australie" },
+        { "id": "b", "label": "Le Groenland" },
+        { "id": "c", "label": "Madagascar" },
+        { "id": "d", "label": "L'Islande" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-d28",
+      "difficulty": "dur",
+      "text": "Quelle ville est le siège du gouvernement d'Afrique du Sud ?",
+      "options": [
+        { "id": "a", "label": "Pretoria" },
+        { "id": "b", "label": "Le Cap" },
+        { "id": "c", "label": "Johannesburg" },
+        { "id": "d", "label": "Durban" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-d29",
+      "difficulty": "dur",
+      "type": "ordre",
+      "text": "Classe ces villes d'ouest en est.",
+      "items": [
+        { "id": "1", "label": "New York" },
+        { "id": "2", "label": "Londres" },
+        { "id": "3", "label": "Le Caire" },
+        { "id": "4", "label": "Tokyo" }
+      ]
+    },
+    {
+      "id": "geo-d30",
+      "difficulty": "dur",
+      "text": "Quel pays possède le plus long littoral du monde ?",
+      "options": [
+        { "id": "a", "label": "Le Canada" },
+        { "id": "b", "label": "La Russie" },
+        { "id": "c", "label": "L'Australie" },
+        { "id": "d", "label": "Les États-Unis" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p1",
+      "difficulty": "pro",
+      "text": "Quelle est la capitale de l'Islande ?",
+      "options": [
+        { "id": "a", "label": "Reykjavik" },
+        { "id": "b", "label": "Oslo" },
+        { "id": "c", "label": "Helsinki" },
+        { "id": "d", "label": "Dublin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p2",
+      "difficulty": "pro",
+      "text": "Quelle est la capitale de l'Irlande ?",
+      "options": [
+        { "id": "a", "label": "Dublin" },
+        { "id": "b", "label": "Belfast" },
+        { "id": "c", "label": "Cork" },
+        { "id": "d", "label": "Galway" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p3",
+      "difficulty": "pro",
+      "text": "Quelle est la capitale du Danemark ?",
+      "options": [
+        { "id": "a", "label": "Copenhague" },
+        { "id": "b", "label": "Oslo" },
+        { "id": "c", "label": "Stockholm" },
+        { "id": "d", "label": "Helsinki" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p4",
+      "difficulty": "pro",
+      "text": "Quelle est la capitale de la Roumanie ?",
+      "options": [
+        { "id": "a", "label": "Bucarest" },
+        { "id": "b", "label": "Sofia" },
+        { "id": "c", "label": "Budapest" },
+        { "id": "d", "label": "Belgrade" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p5",
+      "difficulty": "pro",
+      "text": "Quelle est la capitale de la Bulgarie ?",
+      "options": [
+        { "id": "a", "label": "Sofia" },
+        { "id": "b", "label": "Bucarest" },
+        { "id": "c", "label": "Belgrade" },
+        { "id": "d", "label": "Skopje" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p6",
+      "difficulty": "pro",
+      "text": "Quelle est la capitale de la Serbie ?",
+      "options": [
+        { "id": "a", "label": "Belgrade" },
+        { "id": "b", "label": "Sofia" },
+        { "id": "c", "label": "Zagreb" },
+        { "id": "d", "label": "Sarajevo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p7",
+      "difficulty": "pro",
+      "text": "Quelle est la capitale de la Croatie ?",
+      "options": [
+        { "id": "a", "label": "Zagreb" },
+        { "id": "b", "label": "Belgrade" },
+        { "id": "c", "label": "Ljubljana" },
+        { "id": "d", "label": "Sarajevo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p8",
+      "difficulty": "pro",
+      "text": "Quelle est la capitale de la Hongrie ?",
+      "options": [
+        { "id": "a", "label": "Budapest" },
+        { "id": "b", "label": "Vienne" },
+        { "id": "c", "label": "Prague" },
+        { "id": "d", "label": "Bratislava" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p9",
+      "difficulty": "pro",
+      "text": "Quelle est la capitale de la Tchéquie ?",
+      "options": [
+        { "id": "a", "label": "Prague" },
+        { "id": "b", "label": "Budapest" },
+        { "id": "c", "label": "Vienne" },
+        { "id": "d", "label": "Bratislava" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p10",
+      "difficulty": "pro",
+      "text": "Quelle est la capitale de l'Ukraine ?",
+      "options": [
+        { "id": "a", "label": "Kiev" },
+        { "id": "b", "label": "Moscou" },
+        { "id": "c", "label": "Minsk" },
+        { "id": "d", "label": "Varsovie" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p11",
+      "difficulty": "pro",
+      "text": "Quelle est la capitale du Kenya ?",
+      "options": [
+        { "id": "a", "label": "Nairobi" },
+        { "id": "b", "label": "Kampala" },
+        { "id": "c", "label": "Mombasa" },
+        { "id": "d", "label": "Kigali" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p12",
+      "difficulty": "pro",
+      "text": "Quelle est la capitale du Nigeria ?",
+      "options": [
+        { "id": "a", "label": "Abuja" },
+        { "id": "b", "label": "Lagos" },
+        { "id": "c", "label": "Accra" },
+        { "id": "d", "label": "Abidjan" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p13",
+      "difficulty": "pro",
+      "text": "Quelle est la capitale du Sénégal ?",
+      "options": [
+        { "id": "a", "label": "Dakar" },
+        { "id": "b", "label": "Bamako" },
+        { "id": "c", "label": "Abidjan" },
+        { "id": "d", "label": "Conakry" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p14",
+      "difficulty": "pro",
+      "text": "Quelle est la capitale du Chili ?",
+      "options": [
+        { "id": "a", "label": "Santiago" },
+        { "id": "b", "label": "Buenos Aires" },
+        { "id": "c", "label": "Lima" },
+        { "id": "d", "label": "Bogotá" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p15",
+      "difficulty": "pro",
+      "text": "Quelle est la capitale du Pérou ?",
+      "options": [
+        { "id": "a", "label": "Lima" },
+        { "id": "b", "label": "Quito" },
+        { "id": "c", "label": "La Paz" },
+        { "id": "d", "label": "Bogotá" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p16",
+      "difficulty": "pro",
+      "text": "Quelle est la capitale de la Colombie ?",
+      "options": [
+        { "id": "a", "label": "Bogotá" },
+        { "id": "b", "label": "Lima" },
+        { "id": "c", "label": "Quito" },
+        { "id": "d", "label": "Caracas" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p17",
+      "difficulty": "pro",
+      "text": "Quelle est la capitale du Venezuela ?",
+      "options": [
+        { "id": "a", "label": "Caracas" },
+        { "id": "b", "label": "Bogotá" },
+        { "id": "c", "label": "Lima" },
+        { "id": "d", "label": "Quito" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p18",
+      "difficulty": "pro",
+      "text": "Quelle est la capitale de la Corée du Sud ?",
+      "options": [
+        { "id": "a", "label": "Séoul" },
+        { "id": "b", "label": "Pyongyang" },
+        { "id": "c", "label": "Tokyo" },
+        { "id": "d", "label": "Pékin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p19",
+      "difficulty": "pro",
+      "text": "Quelle est la capitale de la Thaïlande ?",
+      "options": [
+        { "id": "a", "label": "Bangkok" },
+        { "id": "b", "label": "Hanoï" },
+        { "id": "c", "label": "Jakarta" },
+        { "id": "d", "label": "Manille" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p20",
+      "difficulty": "pro",
+      "text": "Quelle est la capitale du Vietnam ?",
+      "options": [
+        { "id": "a", "label": "Hanoï" },
+        { "id": "b", "label": "Bangkok" },
+        { "id": "c", "label": "Manille" },
+        { "id": "d", "label": "Jakarta" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p21",
+      "difficulty": "pro",
+      "text": "Quelle est la capitale de l'Indonésie ?",
+      "options": [
+        { "id": "a", "label": "Jakarta" },
+        { "id": "b", "label": "Bangkok" },
+        { "id": "c", "label": "Manille" },
+        { "id": "d", "label": "Kuala Lumpur" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p22",
+      "difficulty": "pro",
+      "text": "Quelle est la capitale de la Nouvelle-Zélande ?",
+      "options": [
+        { "id": "a", "label": "Wellington" },
+        { "id": "b", "label": "Auckland" },
+        { "id": "c", "label": "Christchurch" },
+        { "id": "d", "label": "Canberra" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p23",
+      "difficulty": "pro",
+      "type": "open",
+      "text": "Quel fleuve est considéré comme le plus long du monde, en Afrique du Nord-Est ?",
+      "answer": "Le Nil",
+      "acceptedAnswers": ["nil", "le nil"]
+    },
+    {
+      "id": "geo-p24",
+      "difficulty": "pro",
+      "text": "Quel est le plus vaste désert du monde, si l'on inclut les déserts froids ?",
+      "options": [
+        { "id": "a", "label": "L'Antarctique" },
+        { "id": "b", "label": "Le Sahara" },
+        { "id": "c", "label": "Le Gobi" },
+        { "id": "d", "label": "L'Arctique" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p25",
+      "difficulty": "pro",
+      "text": "Quel est le plus petit pays d'Amérique du Sud par sa superficie ?",
+      "options": [
+        { "id": "a", "label": "Le Suriname" },
+        { "id": "b", "label": "L'Uruguay" },
+        { "id": "c", "label": "L'Équateur" },
+        { "id": "d", "label": "Le Guyana" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p26",
+      "difficulty": "pro",
+      "text": "Quelle mer est la plus salée du monde, au point qu'on y flotte ?",
+      "options": [
+        { "id": "a", "label": "La mer Morte" },
+        { "id": "b", "label": "La mer Rouge" },
+        { "id": "c", "label": "La mer Noire" },
+        { "id": "d", "label": "La mer Caspienne" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p27",
+      "difficulty": "pro",
+      "text": "Quel pays est entièrement enclavé à l'intérieur de l'Afrique du Sud ?",
+      "options": [
+        { "id": "a", "label": "Le Lesotho" },
+        { "id": "b", "label": "L'Eswatini" },
+        { "id": "c", "label": "Le Botswana" },
+        { "id": "d", "label": "Le Zimbabwe" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p28",
+      "difficulty": "pro",
+      "text": "Quel micro-État est enclavé dans l'Italie, en plus du Vatican ?",
+      "options": [
+        { "id": "a", "label": "Saint-Marin" },
+        { "id": "b", "label": "Monaco" },
+        { "id": "c", "label": "Andorre" },
+        { "id": "d", "label": "Le Liechtenstein" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p29",
+      "difficulty": "pro",
+      "text": "Entre quels deux pays la principauté d'Andorre est-elle située ?",
+      "options": [
+        { "id": "a", "label": "La France et l'Espagne" },
+        { "id": "b", "label": "L'Espagne et le Portugal" },
+        { "id": "c", "label": "La France et l'Italie" },
+        { "id": "d", "label": "L'Italie et la Suisse" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p30",
+      "difficulty": "pro",
+      "text": "Quel fleuve marque une bonne partie de la frontière entre les États-Unis et le Mexique ?",
+      "options": [
+        { "id": "a", "label": "Le Rio Grande" },
+        { "id": "b", "label": "Le Colorado" },
+        { "id": "c", "label": "Le Mississippi" },
+        { "id": "d", "label": "Le Saint-Laurent" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p31",
+      "difficulty": "pro",
+      "text": "Quelle est la capitale des Philippines ?",
+      "options": [
+        { "id": "a", "label": "Manille" },
+        { "id": "b", "label": "Jakarta" },
+        { "id": "c", "label": "Bangkok" },
+        { "id": "d", "label": "Hanoï" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p32",
+      "difficulty": "pro",
+      "text": "Quelle est la capitale de l'Arabie saoudite ?",
+      "options": [
+        { "id": "a", "label": "Riyad" },
+        { "id": "b", "label": "La Mecque" },
+        { "id": "c", "label": "Djeddah" },
+        { "id": "d", "label": "Dubaï" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p33",
+      "difficulty": "pro",
+      "text": "Quelle est la capitale de l'Iran ?",
+      "options": [
+        { "id": "a", "label": "Téhéran" },
+        { "id": "b", "label": "Bagdad" },
+        { "id": "c", "label": "Kaboul" },
+        { "id": "d", "label": "Islamabad" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p34",
+      "difficulty": "pro",
+      "text": "Quelle est la capitale du Pakistan ?",
+      "options": [
+        { "id": "a", "label": "Islamabad" },
+        { "id": "b", "label": "Karachi" },
+        { "id": "c", "label": "Lahore" },
+        { "id": "d", "label": "Téhéran" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p35",
+      "difficulty": "pro",
+      "text": "Quel archipel d'Asie du Sud-Est compte plus de 17 000 îles ?",
+      "options": [
+        { "id": "a", "label": "L'Indonésie" },
+        { "id": "b", "label": "Les Philippines" },
+        { "id": "c", "label": "Le Japon" },
+        { "id": "d", "label": "La Malaisie" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p36",
+      "difficulty": "pro",
+      "text": "Quelle ligne imaginaire, à 0° de latitude, partage la Terre en deux hémisphères ?",
+      "options": [
+        { "id": "a", "label": "L'équateur" },
+        { "id": "b", "label": "Le méridien" },
+        { "id": "c", "label": "Le tropique" },
+        { "id": "d", "label": "Le parallèle" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p37",
+      "difficulty": "pro",
+      "text": "Par quel lieu de Londres passe le méridien de référence (0° de longitude) ?",
+      "options": [
+        { "id": "a", "label": "Greenwich" },
+        { "id": "b", "label": "Westminster" },
+        { "id": "c", "label": "Camden" },
+        { "id": "d", "label": "Chelsea" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p38",
+      "difficulty": "pro",
+      "text": "Dans quel pays se trouve le désert d'Atacama, l'un des plus arides du monde ?",
+      "options": [
+        { "id": "a", "label": "Le Chili" },
+        { "id": "b", "label": "Le Pérou" },
+        { "id": "c", "label": "La Bolivie" },
+        { "id": "d", "label": "L'Argentine" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p39",
+      "difficulty": "pro",
+      "text": "Quel pays africain était autrefois appelé Abyssinie ?",
+      "options": [
+        { "id": "a", "label": "L'Éthiopie" },
+        { "id": "b", "label": "Le Kenya" },
+        { "id": "c", "label": "Le Soudan" },
+        { "id": "d", "label": "La Somalie" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "geo-p40",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien de pays compte environ le continent africain ?",
+      "answerValue": 54,
+      "unit": "pays"
+    }
+  ]
+}
