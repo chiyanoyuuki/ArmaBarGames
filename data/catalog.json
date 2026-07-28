@@ -19,6 +19,7 @@
     { "id": "marvel-mcu", "name": "Marvel (MCU)", "themeId": "cinema", "emoji": "🦸" },
     { "id": "star-wars", "name": "Star Wars", "themeId": "cinema", "emoji": "⭐" },
     { "id": "seigneur-des-anneaux", "name": "Le Seigneur des Anneaux", "themeId": "cinema", "emoji": "💍" },
+    { "id": "kaamelott", "name": "Kaamelott", "themeId": "cinema", "emoji": "👑" },
     { "id": "coupe-du-monde", "name": "Coupe du monde de foot", "themeId": "sport", "emoji": "🏆" },
     { "id": "the-witcher", "name": "The Witcher", "themeId": "jeux-video", "emoji": "🐺" },
     { "id": "zelda", "name": "The Legend of Zelda", "themeId": "jeux-video", "emoji": "🗡️" },

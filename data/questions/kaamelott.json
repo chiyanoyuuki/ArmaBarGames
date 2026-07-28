@@ -1,0 +1,1136 @@
+{
+  "universeId": "kaamelott",
+  "questions": [
+    {
+      "id": "kaam-f1",
+      "difficulty": "facile",
+      "text": "Qui est le roi de Bretagne, héros de la série ?",
+      "options": [
+        { "id": "a", "label": "Arthur" },
+        { "id": "b", "label": "Lancelot" },
+        { "id": "c", "label": "Perceval" },
+        { "id": "d", "label": "Léodagan" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-f2",
+      "difficulty": "facile",
+      "text": "Quel objet sacré Arthur et ses chevaliers cherchent-ils sans relâche ?",
+      "options": [
+        { "id": "a", "label": "Le Graal" },
+        { "id": "b", "label": "Le Trône" },
+        { "id": "c", "label": "Le Calice" },
+        { "id": "d", "label": "Le Sceptre" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-f3",
+      "difficulty": "facile",
+      "text": "Comment s'appelle l'épouse du roi Arthur, la reine ?",
+      "options": [
+        { "id": "a", "label": "Guenièvre" },
+        { "id": "b", "label": "Séli" },
+        { "id": "c", "label": "Mevanwi" },
+        { "id": "d", "label": "Demetra" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-f4",
+      "difficulty": "facile",
+      "text": "Quel chevalier un peu simplet est le meilleur ami de Karadoc ?",
+      "options": [
+        { "id": "a", "label": "Perceval" },
+        { "id": "b", "label": "Bohort" },
+        { "id": "c", "label": "Lancelot" },
+        { "id": "d", "label": "Léodagan" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-f5",
+      "difficulty": "facile",
+      "text": "Quel chevalier goinfre ne pense qu'à manger ?",
+      "options": [
+        { "id": "a", "label": "Karadoc" },
+        { "id": "b", "label": "Perceval" },
+        { "id": "c", "label": "Bohort" },
+        { "id": "d", "label": "Léodagan" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-f6",
+      "difficulty": "facile",
+      "text": "Comment s'appelle l'épée légendaire du roi Arthur ?",
+      "options": [
+        { "id": "a", "label": "Excalibur" },
+        { "id": "b", "label": "Durandal" },
+        { "id": "c", "label": "Andúril" },
+        { "id": "d", "label": "Joyeuse" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-f7",
+      "difficulty": "facile",
+      "text": "Quel enchanteur maladroit sert de conseiller magique au roi Arthur ?",
+      "options": [
+        { "id": "a", "label": "Merlin" },
+        { "id": "b", "label": "Élias" },
+        { "id": "c", "label": "Perceval" },
+        { "id": "d", "label": "Bohort" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-f8",
+      "difficulty": "facile",
+      "type": "buzzer",
+      "text": "Comment s'appelle le château du roi Arthur, qui donne son nom à la série ?",
+      "answer": "Kaamelott"
+    },
+    {
+      "id": "kaam-f9",
+      "difficulty": "facile",
+      "text": "Autour de quel meuble mythique Arthur réunit-il ses chevaliers ?",
+      "options": [
+        { "id": "a", "label": "La Table Ronde" },
+        { "id": "b", "label": "La Table Carrée" },
+        { "id": "c", "label": "La Grande Table" },
+        { "id": "d", "label": "La Table d'Or" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-f10",
+      "difficulty": "facile",
+      "text": "Qui a créé la série Kaamelott et interprète le roi Arthur ?",
+      "options": [
+        { "id": "a", "label": "Alexandre Astier" },
+        { "id": "b", "label": "Lionnel Astier" },
+        { "id": "c", "label": "Franck Pitiot" },
+        { "id": "d", "label": "Thomas Cousseau" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-m1",
+      "difficulty": "moyen",
+      "text": "Quel personnage cynique et guerrier est le beau-père d'Arthur, roi de Carmélide ?",
+      "options": [
+        { "id": "a", "label": "Léodagan" },
+        { "id": "b", "label": "Bohort" },
+        { "id": "c", "label": "Loth" },
+        { "id": "d", "label": "Karadoc" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-m2",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle la belle-mère d'Arthur, mère de Guenièvre ?",
+      "options": [
+        { "id": "a", "label": "Séli" },
+        { "id": "b", "label": "Mevanwi" },
+        { "id": "c", "label": "Demetra" },
+        { "id": "d", "label": "Angharad" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-m3",
+      "difficulty": "moyen",
+      "text": "Quel chevalier raffiné et peureux s'affole à la moindre menace ?",
+      "options": [
+        { "id": "a", "label": "Bohort" },
+        { "id": "b", "label": "Léodagan" },
+        { "id": "c", "label": "Karadoc" },
+        { "id": "d", "label": "Lancelot" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-m4",
+      "difficulty": "moyen",
+      "text": "Quel chevalier, le plus doué de tous, finit par trahir Arthur ?",
+      "options": [
+        { "id": "a", "label": "Lancelot" },
+        { "id": "b", "label": "Bohort" },
+        { "id": "c", "label": "Perceval" },
+        { "id": "d", "label": "Karadoc" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-m5",
+      "difficulty": "moyen",
+      "text": "De quel pays Perceval est-il originaire, ce qui lui vaut son surnom « le Gallois » ?",
+      "options": [
+        { "id": "a", "label": "Galles" },
+        { "id": "b", "label": "Carmélide" },
+        { "id": "c", "label": "Orcanie" },
+        { "id": "d", "label": "Bretagne" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-m6",
+      "difficulty": "moyen",
+      "text": "Quelle créature féerique n'apparaît qu'à Arthur (et à Perceval) pour le guider ?",
+      "options": [
+        { "id": "a", "label": "La Dame du Lac" },
+        { "id": "b", "label": "La Fée Morgane" },
+        { "id": "c", "label": "La Reine Séli" },
+        { "id": "d", "label": "La Dame Blanche" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-m7",
+      "difficulty": "moyen",
+      "text": "Quel moine tient les comptes et rédige les archives de Kaamelott ?",
+      "options": [
+        { "id": "a", "label": "Père Blaise" },
+        { "id": "b", "label": "Frère Merlin" },
+        { "id": "c", "label": "Maître Élias" },
+        { "id": "d", "label": "Sire Bohort" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-m8",
+      "difficulty": "moyen",
+      "text": "Quel trafiquant malhonnête vend armes et esclaves à la cour ?",
+      "options": [
+        { "id": "a", "label": "Venec" },
+        { "id": "b", "label": "Karadoc" },
+        { "id": "c", "label": "Grüdü" },
+        { "id": "d", "label": "Caius" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-m9",
+      "difficulty": "moyen",
+      "text": "Quel jeu inventé par Perceval et Karadoc consiste à compter n'importe comment ?",
+      "options": [
+        { "id": "a", "label": "Le Sloubi" },
+        { "id": "b", "label": "Le Pilou" },
+        { "id": "c", "label": "Le Gras-double" },
+        { "id": "d", "label": "Le Bouzon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-m10",
+      "difficulty": "moyen",
+      "text": "Quel beau-frère d'Arthur est le roi d'Orcanie ?",
+      "options": [
+        { "id": "a", "label": "Loth" },
+        { "id": "b", "label": "Léodagan" },
+        { "id": "c", "label": "Lancelot" },
+        { "id": "d", "label": "Bohort" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-m11",
+      "difficulty": "moyen",
+      "text": "Quel colosse taciturne sert de garde du corps dévoué à Arthur ?",
+      "options": [
+        { "id": "a", "label": "Grüdü" },
+        { "id": "b", "label": "Karadoc" },
+        { "id": "c", "label": "Venec" },
+        { "id": "d", "label": "Perceval" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-m12",
+      "difficulty": "moyen",
+      "text": "Quel jeune chevalier insupportable est le fils de Léodagan et Séli ?",
+      "options": [
+        { "id": "a", "label": "Yvain" },
+        { "id": "b", "label": "Gauvain" },
+        { "id": "c", "label": "Loth" },
+        { "id": "d", "label": "Bohort" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-m13",
+      "difficulty": "moyen",
+      "text": "Quel jeune chevalier idéaliste et enthousiaste est un neveu d'Arthur ?",
+      "options": [
+        { "id": "a", "label": "Gauvain" },
+        { "id": "b", "label": "Yvain" },
+        { "id": "c", "label": "Perceval" },
+        { "id": "d", "label": "Bohort" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-m14",
+      "difficulty": "moyen",
+      "text": "Quelle femme de Karadoc devient la maîtresse d'Arthur ?",
+      "options": [
+        { "id": "a", "label": "Mevanwi" },
+        { "id": "b", "label": "Guenièvre" },
+        { "id": "c", "label": "Séli" },
+        { "id": "d", "label": "Demetra" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-m15",
+      "difficulty": "moyen",
+      "text": "Sur quelle chaîne de télévision Kaamelott a-t-il été diffusé à l'origine ?",
+      "options": [
+        { "id": "a", "label": "M6" },
+        { "id": "b", "label": "TF1" },
+        { "id": "c", "label": "France 2" },
+        { "id": "d", "label": "Canal+" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-m16",
+      "difficulty": "moyen",
+      "text": "Quel centurion romain, ami d'Arthur, apparaît régulièrement à la cour ?",
+      "options": [
+        { "id": "a", "label": "Caius" },
+        { "id": "b", "label": "Loth" },
+        { "id": "c", "label": "Venec" },
+        { "id": "d", "label": "Grüdü" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-m17",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel dessert aux petits fruits bleus Perceval et Karadoc réclament-ils si souvent ?",
+      "answer": "La tarte aux myrtilles"
+    },
+    {
+      "id": "kaam-m18",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Comment s'appellent les deux paysans voisins qui se disputent sans cesse leurs terres ?",
+      "answer": "Guethenoc et Roparzh"
+    },
+    {
+      "id": "kaam-m19",
+      "difficulty": "moyen",
+      "type": "estimation",
+      "text": "En quelle année est sorti le film Kaamelott : Premier Volet au cinéma ?",
+      "answerValue": 2021,
+      "unit": ""
+    },
+    {
+      "id": "kaam-m20",
+      "difficulty": "moyen",
+      "type": "estimation",
+      "text": "Combien de Livres (saisons) composaient la série télévisée Kaamelott ?",
+      "answerValue": 6,
+      "unit": "Livres"
+    },
+    {
+      "id": "kaam-d1",
+      "difficulty": "dur",
+      "text": "De quel royaume Léodagan est-il le roi ?",
+      "options": [
+        { "id": "a", "label": "La Carmélide" },
+        { "id": "b", "label": "L'Orcanie" },
+        { "id": "c", "label": "La Logres" },
+        { "id": "d", "label": "La Gaule" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-d2",
+      "difficulty": "dur",
+      "text": "De quelle ville Karadoc est-il originaire, dont il vante sans cesse les mérites ?",
+      "options": [
+        { "id": "a", "label": "Vannes" },
+        { "id": "b", "label": "Rome" },
+        { "id": "c", "label": "Kaamelott" },
+        { "id": "d", "label": "Carmélide" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-d3",
+      "difficulty": "dur",
+      "text": "Où Arthur a-t-il été élevé et éduqué durant sa jeunesse ?",
+      "options": [
+        { "id": "a", "label": "À Rome" },
+        { "id": "b", "label": "En Bretagne" },
+        { "id": "c", "label": "En Carmélide" },
+        { "id": "d", "label": "En Orcanie" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-d4",
+      "difficulty": "dur",
+      "text": "Comment s'appelle la jeune maîtresse qu'Arthur installe discrètement ?",
+      "options": [
+        { "id": "a", "label": "Demetra" },
+        { "id": "b", "label": "Mevanwi" },
+        { "id": "c", "label": "Guenièvre" },
+        { "id": "d", "label": "Angharad" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-d5",
+      "difficulty": "dur",
+      "text": "Comment s'appelle la servante discrète et fidèle, secrètement amoureuse d'Arthur ?",
+      "options": [
+        { "id": "a", "label": "Angharad" },
+        { "id": "b", "label": "Demetra" },
+        { "id": "c", "label": "Mevanwi" },
+        { "id": "d", "label": "Séli" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-d6",
+      "difficulty": "dur",
+      "text": "Quel peuple, mené par un roi hilarant à la langue incompréhensible, menace la Bretagne ?",
+      "options": [
+        { "id": "a", "label": "Les Burgondes" },
+        { "id": "b", "label": "Les Saxons" },
+        { "id": "c", "label": "Les Romains" },
+        { "id": "d", "label": "Les Pictes" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-d7",
+      "difficulty": "dur",
+      "text": "Quel peuple envahisseur du nord Arthur doit-il régulièrement repousser ?",
+      "options": [
+        { "id": "a", "label": "Les Saxons" },
+        { "id": "b", "label": "Les Burgondes" },
+        { "id": "c", "label": "Les Romains" },
+        { "id": "d", "label": "Les Pictes" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-d8",
+      "difficulty": "dur",
+      "text": "Comment s'appelle le vieux père sénile et brutal de Léodagan ?",
+      "options": [
+        { "id": "a", "label": "Goustan" },
+        { "id": "b", "label": "Loth" },
+        { "id": "c", "label": "Caius" },
+        { "id": "d", "label": "Venec" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-d9",
+      "difficulty": "dur",
+      "text": "Comment s'appelle le royaume d'Arthur dans la légende, dont Kaamelott est la capitale ?",
+      "options": [
+        { "id": "a", "label": "Logres" },
+        { "id": "b", "label": "Carmélide" },
+        { "id": "c", "label": "Orcanie" },
+        { "id": "d", "label": "Cambrie" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-d10",
+      "difficulty": "dur",
+      "text": "Comment s'appelle la mère d'Arthur ?",
+      "options": [
+        { "id": "a", "label": "Ygerne" },
+        { "id": "b", "label": "Séli" },
+        { "id": "c", "label": "Guenièvre" },
+        { "id": "d", "label": "Demetra" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-d11",
+      "difficulty": "dur",
+      "text": "Comment s'appelle le fils illégitime d'Arthur, destiné à devenir son ennemi ?",
+      "options": [
+        { "id": "a", "label": "Mordred" },
+        { "id": "b", "label": "Gauvain" },
+        { "id": "c", "label": "Yvain" },
+        { "id": "d", "label": "Loth" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-d12",
+      "difficulty": "dur",
+      "text": "Quel mage puissant et hautain, bien plus doué que Merlin, aide parfois Arthur ?",
+      "options": [
+        { "id": "a", "label": "Élias" },
+        { "id": "b", "label": "Merlin" },
+        { "id": "c", "label": "Blaise" },
+        { "id": "d", "label": "Venec" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-d13",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel inquisiteur fanatique débarque à Kaamelott pour traquer les hérétiques ?",
+      "answer": "Le Répurgateur"
+    },
+    {
+      "id": "kaam-d14",
+      "difficulty": "dur",
+      "text": "Quelle langue Arthur maîtrise-t-il et cite souvent, héritage de son éducation ?",
+      "options": [
+        { "id": "a", "label": "Le latin" },
+        { "id": "b", "label": "Le grec" },
+        { "id": "c", "label": "Le breton" },
+        { "id": "d", "label": "Le gaulois" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-d15",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel nom de code Perceval déforme en permanence au lieu de « Perceval le Gallois » ?",
+      "answer": "Provençal le Gaulois"
+    },
+    {
+      "id": "kaam-d16",
+      "difficulty": "dur",
+      "text": "Quel personnage tient l'établissement où les chevaliers vont boire et se plaindre ?",
+      "options": [
+        { "id": "a", "label": "Le Tavernier" },
+        { "id": "b", "label": "Le Répurgateur" },
+        { "id": "c", "label": "Le Marchand" },
+        { "id": "d", "label": "Le Forgeron" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-d17",
+      "difficulty": "dur",
+      "text": "Quel titre officiel porte Arthur, souverain de son royaume ?",
+      "options": [
+        { "id": "a", "label": "Roi de Bretagne" },
+        { "id": "b", "label": "Roi de Carmélide" },
+        { "id": "c", "label": "Roi d'Orcanie" },
+        { "id": "d", "label": "Roi de Gaule" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-d18",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel grand objectif, jamais atteint, structure toute la série et obsède le roi Arthur ?",
+      "answer": "La quête du Graal"
+    },
+    {
+      "id": "kaam-d19",
+      "difficulty": "dur",
+      "type": "estimation",
+      "text": "Environ combien de minutes dure un épisode des premiers Livres de Kaamelott ?",
+      "answerValue": 3,
+      "unit": "minutes"
+    },
+    {
+      "id": "kaam-d20",
+      "difficulty": "dur",
+      "text": "Quelle boisson les chevaliers vont-ils consommer à la taverne ?",
+      "options": [
+        { "id": "a", "label": "La cervoise" },
+        { "id": "b", "label": "Le vin" },
+        { "id": "c", "label": "L'hydromel" },
+        { "id": "d", "label": "Le cidre" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-d21",
+      "difficulty": "dur",
+      "text": "Quel lien de parenté Lionnel Astier (Léodagan) a-t-il avec Alexandre Astier ?",
+      "options": [
+        { "id": "a", "label": "Son père" },
+        { "id": "b", "label": "Son frère" },
+        { "id": "c", "label": "Son oncle" },
+        { "id": "d", "label": "Son fils" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-d22",
+      "difficulty": "dur",
+      "text": "De qui Léodagan est-il le père ?",
+      "options": [
+        { "id": "a", "label": "Guenièvre" },
+        { "id": "b", "label": "Demetra" },
+        { "id": "c", "label": "Mevanwi" },
+        { "id": "d", "label": "Angharad" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-d23",
+      "difficulty": "dur",
+      "text": "Quel jeune chevalier est le fils du roi Loth d'Orcanie ?",
+      "options": [
+        { "id": "a", "label": "Gauvain" },
+        { "id": "b", "label": "Yvain" },
+        { "id": "c", "label": "Mordred" },
+        { "id": "d", "label": "Perceval" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-d24",
+      "difficulty": "dur",
+      "text": "Quelle est l'origine du centurion Caius, allié d'Arthur ?",
+      "options": [
+        { "id": "a", "label": "Romaine" },
+        { "id": "b", "label": "Bretonne" },
+        { "id": "c", "label": "Gauloise" },
+        { "id": "d", "label": "Burgonde" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-d25",
+      "difficulty": "dur",
+      "text": "Quel sous-titre porte le film ciné qui succède directement au tout premier de la trilogie Kaamelott ?",
+      "options": [
+        { "id": "a", "label": "Deuxième Volet" },
+        { "id": "b", "label": "Premier Volet" },
+        { "id": "c", "label": "Troisième Volet" },
+        { "id": "d", "label": "Dernier Volet" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-d26",
+      "difficulty": "dur",
+      "type": "estimation",
+      "text": "Combien de films doit compter la trilogie Kaamelott au cinéma ?",
+      "answerValue": 3,
+      "unit": "films"
+    },
+    {
+      "id": "kaam-d27",
+      "difficulty": "dur",
+      "text": "Quel chevalier est réputé le plus lâche, s'évanouissant à la moindre alerte ?",
+      "options": [
+        { "id": "a", "label": "Bohort" },
+        { "id": "b", "label": "Léodagan" },
+        { "id": "c", "label": "Lancelot" },
+        { "id": "d", "label": "Gauvain" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-d28",
+      "difficulty": "dur",
+      "text": "Quel personnage voit la Dame du Lac, en plus du roi Arthur ?",
+      "options": [
+        { "id": "a", "label": "Perceval" },
+        { "id": "b", "label": "Léodagan" },
+        { "id": "c", "label": "Bohort" },
+        { "id": "d", "label": "Merlin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-d29",
+      "difficulty": "dur",
+      "type": "ordre",
+      "text": "Classe ces Livres de la série Kaamelott dans l'ordre.",
+      "items": [
+        { "id": "1", "label": "Livre I" },
+        { "id": "2", "label": "Livre II" },
+        { "id": "3", "label": "Livre III" },
+        { "id": "4", "label": "Livre IV" }
+      ]
+    },
+    {
+      "id": "kaam-d30",
+      "difficulty": "dur",
+      "text": "Quel acteur incarne le roi Loth d'Orcanie ?",
+      "options": [
+        { "id": "a", "label": "François Rollin" },
+        { "id": "b", "label": "Lionnel Astier" },
+        { "id": "c", "label": "Jacques Chambon" },
+        { "id": "d", "label": "Franck Pitiot" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p1",
+      "difficulty": "pro",
+      "text": "Quelle actrice incarne la reine Guenièvre ?",
+      "options": [
+        { "id": "a", "label": "Anne Girouard" },
+        { "id": "b", "label": "Joëlle Sevilla" },
+        { "id": "c", "label": "Audrey Fleurot" },
+        { "id": "d", "label": "Caroline Ferrus" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p2",
+      "difficulty": "pro",
+      "text": "Quel acteur incarne Léodagan, roi de Carmélide ?",
+      "options": [
+        { "id": "a", "label": "Lionnel Astier" },
+        { "id": "b", "label": "François Rollin" },
+        { "id": "c", "label": "Jacques Chambon" },
+        { "id": "d", "label": "Franck Pitiot" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p3",
+      "difficulty": "pro",
+      "text": "Quel acteur incarne le naïf Perceval ?",
+      "options": [
+        { "id": "a", "label": "Franck Pitiot" },
+        { "id": "b", "label": "Nicolas Gabion" },
+        { "id": "c", "label": "Thomas Cousseau" },
+        { "id": "d", "label": "Simon Astier" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p4",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel acteur incarne le chevalier goinfre Karadoc ?",
+      "answer": "Jean-Christophe Hembert"
+    },
+    {
+      "id": "kaam-p5",
+      "difficulty": "pro",
+      "text": "Quel acteur incarne Lancelot du Lac ?",
+      "options": [
+        { "id": "a", "label": "Thomas Cousseau" },
+        { "id": "b", "label": "Franck Pitiot" },
+        { "id": "c", "label": "Nicolas Gabion" },
+        { "id": "d", "label": "Simon Astier" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p6",
+      "difficulty": "pro",
+      "text": "Quel acteur incarne le peureux Bohort ?",
+      "options": [
+        { "id": "a", "label": "Nicolas Gabion" },
+        { "id": "b", "label": "Thomas Cousseau" },
+        { "id": "c", "label": "Franck Pitiot" },
+        { "id": "d", "label": "Simon Astier" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p7",
+      "difficulty": "pro",
+      "text": "Quelle actrice incarne la mystérieuse Dame du Lac ?",
+      "options": [
+        { "id": "a", "label": "Audrey Fleurot" },
+        { "id": "b", "label": "Anne Girouard" },
+        { "id": "c", "label": "Joëlle Sevilla" },
+        { "id": "d", "label": "Caroline Ferrus" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p8",
+      "difficulty": "pro",
+      "text": "Quel acteur incarne l'enchanteur Merlin ?",
+      "options": [
+        { "id": "a", "label": "Jacques Chambon" },
+        { "id": "b", "label": "François Rollin" },
+        { "id": "c", "label": "Lionnel Astier" },
+        { "id": "d", "label": "Franck Pitiot" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p9",
+      "difficulty": "pro",
+      "text": "Quel frère cadet du créateur de la série incarne le chevalier Yvain ?",
+      "options": [
+        { "id": "a", "label": "Simon Astier" },
+        { "id": "b", "label": "Lionnel Astier" },
+        { "id": "c", "label": "Thomas Cousseau" },
+        { "id": "d", "label": "Franck Pitiot" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p10",
+      "difficulty": "pro",
+      "text": "Quelle actrice, mère d'Alexandre Astier dans la vie, incarne la reine Séli ?",
+      "options": [
+        { "id": "a", "label": "Joëlle Sevilla" },
+        { "id": "b", "label": "Anne Girouard" },
+        { "id": "c", "label": "Audrey Fleurot" },
+        { "id": "d", "label": "Caroline Ferrus" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p11",
+      "difficulty": "pro",
+      "text": "Quel est le prénom du créateur de Kaamelott, monsieur Astier ?",
+      "options": [
+        { "id": "a", "label": "Alexandre" },
+        { "id": "b", "label": "Lionnel" },
+        { "id": "c", "label": "Simon" },
+        { "id": "d", "label": "François" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p12",
+      "difficulty": "pro",
+      "text": "Qui compose lui-même la musique originale de la série ?",
+      "options": [
+        { "id": "a", "label": "Alexandre Astier" },
+        { "id": "b", "label": "Lionnel Astier" },
+        { "id": "c", "label": "Thomas Cousseau" },
+        { "id": "d", "label": "Franck Pitiot" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p13",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "En quelle année Kaamelott a-t-il été diffusé pour la première fois sur M6 ?",
+      "answerValue": 2005,
+      "unit": ""
+    },
+    {
+      "id": "kaam-p14",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "En quelle année la série télévisée s'est-elle achevée avec le Livre VI ?",
+      "answerValue": 2009,
+      "unit": ""
+    },
+    {
+      "id": "kaam-p15",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel sous-titre porte le film Kaamelott sorti au cinéma en 2021 ?",
+      "answer": "Premier Volet"
+    },
+    {
+      "id": "kaam-p16",
+      "difficulty": "pro",
+      "text": "Dans quelle ville Arthur se cache-t-il en exil au début du film Premier Volet ?",
+      "options": [
+        { "id": "a", "label": "Rome" },
+        { "id": "b", "label": "Vannes" },
+        { "id": "c", "label": "Londres" },
+        { "id": "d", "label": "Carmélide" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p17",
+      "difficulty": "pro",
+      "text": "Quel humoriste incarne le Répurgateur, l'inquisiteur fanatique ?",
+      "options": [
+        { "id": "a", "label": "Antoine de Caunes" },
+        { "id": "b", "label": "Élie Semoun" },
+        { "id": "c", "label": "Franck Pitiot" },
+        { "id": "d", "label": "François Rollin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p18",
+      "difficulty": "pro",
+      "text": "Quel acteur incarne le roi burgonde qui baragouine une langue absurde ?",
+      "options": [
+        { "id": "a", "label": "Guillaume Briat" },
+        { "id": "b", "label": "François Rollin" },
+        { "id": "c", "label": "Antoine de Caunes" },
+        { "id": "d", "label": "Jacques Chambon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p19",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelle réplique célèbre Perceval lâche-t-il quand il n'a rien compris ?",
+      "answer": "C'est pas faux"
+    },
+    {
+      "id": "kaam-p20",
+      "difficulty": "pro",
+      "text": "Quel aliment Karadoc vante-t-il sans cesse dans ses tirades gourmandes ?",
+      "options": [
+        { "id": "a", "label": "Le pain" },
+        { "id": "b", "label": "La soupe" },
+        { "id": "c", "label": "Le poisson" },
+        { "id": "d", "label": "La salade" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p21",
+      "difficulty": "pro",
+      "text": "Quel peuple a élevé et instruit Arthur, forgeant son goût de l'ordre et du droit ?",
+      "options": [
+        { "id": "a", "label": "Les Romains" },
+        { "id": "b", "label": "Les Gaulois" },
+        { "id": "c", "label": "Les Bretons" },
+        { "id": "d", "label": "Les Saxons" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p22",
+      "difficulty": "pro",
+      "text": "Selon la légende reprise par la série, de qui Mordred est-il le fils ?",
+      "options": [
+        { "id": "a", "label": "Arthur" },
+        { "id": "b", "label": "Loth" },
+        { "id": "c", "label": "Léodagan" },
+        { "id": "d", "label": "Lancelot" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p23",
+      "difficulty": "pro",
+      "text": "Quelle profession Venec exerce-t-il en marge de la loi ?",
+      "options": [
+        { "id": "a", "label": "Trafiquant" },
+        { "id": "b", "label": "Forgeron" },
+        { "id": "c", "label": "Tavernier" },
+        { "id": "d", "label": "Charpentier" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p24",
+      "difficulty": "pro",
+      "text": "De quel royaume le beau-frère d'Arthur, Loth, est-il le souverain ?",
+      "options": [
+        { "id": "a", "label": "L'Orcanie" },
+        { "id": "b", "label": "La Carmélide" },
+        { "id": "c", "label": "La Logres" },
+        { "id": "d", "label": "La Cambrie" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p25",
+      "difficulty": "pro",
+      "text": "Quelle femme guerrière et redoutable, reine de Carmélide, terrorise sa propre fille ?",
+      "options": [
+        { "id": "a", "label": "Séli" },
+        { "id": "b", "label": "Demetra" },
+        { "id": "c", "label": "Mevanwi" },
+        { "id": "d", "label": "Angharad" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p26",
+      "difficulty": "pro",
+      "text": "Quel chevalier, ancien meilleur de tous, revient rongé par la haine pour renverser Arthur ?",
+      "options": [
+        { "id": "a", "label": "Lancelot" },
+        { "id": "b", "label": "Bohort" },
+        { "id": "c", "label": "Karadoc" },
+        { "id": "d", "label": "Gauvain" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p27",
+      "difficulty": "pro",
+      "text": "Quel personnage, colosse fidèle, refuse de quitter Arthur et dort devant sa chambre ?",
+      "options": [
+        { "id": "a", "label": "Grüdü" },
+        { "id": "b", "label": "Venec" },
+        { "id": "c", "label": "Caius" },
+        { "id": "d", "label": "Karadoc" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p28",
+      "difficulty": "pro",
+      "text": "Quel personnage, obsédé par la nourriture, forme un duo comique inséparable avec Perceval ?",
+      "options": [
+        { "id": "a", "label": "Karadoc" },
+        { "id": "b", "label": "Bohort" },
+        { "id": "c", "label": "Léodagan" },
+        { "id": "d", "label": "Grüdü" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p29",
+      "difficulty": "pro",
+      "text": "Quel personnage écrit patiemment les archives et s'emporte dès qu'on touche à ses parchemins ?",
+      "options": [
+        { "id": "a", "label": "Le Père Blaise" },
+        { "id": "b", "label": "Le mage Merlin" },
+        { "id": "c", "label": "Le sire Élias" },
+        { "id": "d", "label": "Le marchand Venec" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p30",
+      "difficulty": "pro",
+      "text": "Quel jeune chevalier, à peine arrivé, veut aussitôt partir accomplir des quêtes héroïques ?",
+      "options": [
+        { "id": "a", "label": "Gauvain" },
+        { "id": "b", "label": "Yvain" },
+        { "id": "c", "label": "Mordred" },
+        { "id": "d", "label": "Perceval" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p31",
+      "difficulty": "pro",
+      "text": "Quel personnage adolescent et insolent forme un duo insupportable avec Gauvain ?",
+      "options": [
+        { "id": "a", "label": "Yvain" },
+        { "id": "b", "label": "Mordred" },
+        { "id": "c", "label": "Bohort" },
+        { "id": "d", "label": "Loth" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p32",
+      "difficulty": "pro",
+      "text": "Quel objet magique, en dehors du Graal, symbolise la légitimité d'Arthur comme roi ?",
+      "options": [
+        { "id": "a", "label": "Excalibur" },
+        { "id": "b", "label": "La couronne" },
+        { "id": "c", "label": "Le sceptre" },
+        { "id": "d", "label": "Le bouclier" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p33",
+      "difficulty": "pro",
+      "text": "Quelle créature féerique confie à Arthur la mission de trouver le Graal ?",
+      "options": [
+        { "id": "a", "label": "La Dame du Lac" },
+        { "id": "b", "label": "La Fée Morgane" },
+        { "id": "c", "label": "La Reine Séli" },
+        { "id": "d", "label": "La Dame Blanche" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p34",
+      "difficulty": "pro",
+      "text": "Quel personnage est le beau-père d'Arthur ET le père de la reine Guenièvre ?",
+      "options": [
+        { "id": "a", "label": "Léodagan" },
+        { "id": "b", "label": "Loth" },
+        { "id": "c", "label": "Goustan" },
+        { "id": "d", "label": "Caius" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p35",
+      "difficulty": "pro",
+      "text": "Quelle discipline militaire Léodagan privilégie-t-il pour régler les problèmes du royaume ?",
+      "options": [
+        { "id": "a", "label": "La guerre" },
+        { "id": "b", "label": "La magie" },
+        { "id": "c", "label": "La prière" },
+        { "id": "d", "label": "La diplomatie" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p36",
+      "difficulty": "pro",
+      "text": "Quel personnage, roi voisin marié à la sœur d'Arthur, est le père de Gauvain ?",
+      "options": [
+        { "id": "a", "label": "Loth" },
+        { "id": "b", "label": "Léodagan" },
+        { "id": "c", "label": "Goustan" },
+        { "id": "d", "label": "Caius" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p37",
+      "difficulty": "pro",
+      "text": "Quelle femme, ancienne épouse de Karadoc, devient brièvement reine aux côtés d'Arthur ?",
+      "options": [
+        { "id": "a", "label": "Mevanwi" },
+        { "id": "b", "label": "Séli" },
+        { "id": "c", "label": "Demetra" },
+        { "id": "d", "label": "Angharad" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p38",
+      "difficulty": "pro",
+      "text": "Quel breuvage Perceval et Karadoc commandent-ils invariablement à la taverne ?",
+      "options": [
+        { "id": "a", "label": "La cervoise" },
+        { "id": "b", "label": "Le vin" },
+        { "id": "c", "label": "L'hydromel" },
+        { "id": "d", "label": "Le cidre" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p39",
+      "difficulty": "pro",
+      "text": "Quel personnage romain, nostalgique de l'Empire, rappelle à Arthur son éducation à Rome ?",
+      "options": [
+        { "id": "a", "label": "Caius" },
+        { "id": "b", "label": "Venec" },
+        { "id": "c", "label": "Loth" },
+        { "id": "d", "label": "Goustan" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "kaam-p40",
+      "difficulty": "pro",
+      "text": "Quel réalisateur, également interprète du roi Arthur, met en scène le film Premier Volet ?",
+      "options": [
+        { "id": "a", "label": "Alexandre Astier" },
+        { "id": "b", "label": "Lionnel Astier" },
+        { "id": "c", "label": "Simon Astier" },
+        { "id": "d", "label": "Antoine de Caunes" }
+      ],
+      "correctOptionId": "a"
+    }
+  ]
+}
