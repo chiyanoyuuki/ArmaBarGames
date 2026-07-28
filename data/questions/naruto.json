@@ -130,6 +130,1033 @@
       ],
       "correctOptionId": "a",
       "funFact": "Sa collection compte 298 marionnettes, dont celle du Troisième Kazekage."
+    },
+    {
+      "id": "naruto-f4",
+      "difficulty": "facile",
+      "text": "Comment s'appelle le héros principal de la série ?",
+      "options": [
+        { "id": "a", "label": "Naruto Uzumaki" },
+        { "id": "b", "label": "Sasuke Uchiwa" },
+        { "id": "c", "label": "Kakashi Hatake" },
+        { "id": "d", "label": "Itachi Uchiwa" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-f5",
+      "difficulty": "facile",
+      "text": "Quel ninja copieur au masque et à l'œil caché dirige l'équipe 7 ?",
+      "options": [
+        { "id": "a", "label": "Kakashi" },
+        { "id": "b", "label": "Jiraya" },
+        { "id": "c", "label": "Iruka" },
+        { "id": "d", "label": "Asuma" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-f6",
+      "difficulty": "facile",
+      "text": "Quelle kunoichi aux cheveux roses complète l'équipe 7 avec Naruto et Sasuke ?",
+      "options": [
+        { "id": "a", "label": "Sakura" },
+        { "id": "b", "label": "Hinata" },
+        { "id": "c", "label": "Ino" },
+        { "id": "d", "label": "Tenten" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-f7",
+      "difficulty": "facile",
+      "text": "Quel titre porte le dirigeant suprême du village de Konoha ?",
+      "options": [
+        { "id": "a", "label": "Hokage" },
+        { "id": "b", "label": "Kazekage" },
+        { "id": "c", "label": "Mizukage" },
+        { "id": "d", "label": "Raikage" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-f8",
+      "difficulty": "facile",
+      "text": "De quelle couleur est la tenue emblématique du héros ?",
+      "options": [
+        { "id": "a", "label": "Orange" },
+        { "id": "b", "label": "Bleue" },
+        { "id": "c", "label": "Rouge" },
+        { "id": "d", "label": "Verte" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-f9",
+      "difficulty": "facile",
+      "type": "estimation",
+      "text": "Combien de queues possède le démon-renard scellé dans le héros ?",
+      "answerValue": 9,
+      "unit": "queues"
+    },
+    {
+      "id": "naruto-f10",
+      "difficulty": "facile",
+      "text": "Quel professeur balafré de l'Académie emmène souvent le héros manger des ramen ?",
+      "options": [
+        { "id": "a", "label": "Iruka" },
+        { "id": "b", "label": "Kakashi" },
+        { "id": "c", "label": "Jiraya" },
+        { "id": "d", "label": "Asuma" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-m4",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle le rival ténébreux du héros, dernier survivant de son clan ?",
+      "options": [
+        { "id": "a", "label": "Sasuke" },
+        { "id": "b", "label": "Sai" },
+        { "id": "c", "label": "Neji" },
+        { "id": "d", "label": "Gaara" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-m5",
+      "difficulty": "moyen",
+      "text": "Quel pouvoir oculaire rouge caractérise le clan Uchiwa ?",
+      "options": [
+        { "id": "a", "label": "Le Sharingan" },
+        { "id": "b", "label": "Le Byakugan" },
+        { "id": "c", "label": "Le Rinnegan" },
+        { "id": "d", "label": "Le Mokuton" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-m6",
+      "difficulty": "moyen",
+      "text": "Quel pouvoir oculaire aux yeux blancs caractérise le clan Hyûga ?",
+      "options": [
+        { "id": "a", "label": "Le Byakugan" },
+        { "id": "b", "label": "Le Sharingan" },
+        { "id": "c", "label": "Le Rinnegan" },
+        { "id": "d", "label": "Le Mokuton" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-m7",
+      "difficulty": "moyen",
+      "text": "Quelle technique électrique Sasuke apprend-il auprès de Kakashi ?",
+      "options": [
+        { "id": "a", "label": "Le Chidori" },
+        { "id": "b", "label": "Le Rasengan" },
+        { "id": "c", "label": "L'Amaterasu" },
+        { "id": "d", "label": "Le Kirin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-m8",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle l'organisation aux manteaux noirs ornés de nuages rouges ?",
+      "options": [
+        { "id": "a", "label": "L'Akatsuki" },
+        { "id": "b", "label": "La Racine" },
+        { "id": "c", "label": "L'Anbu" },
+        { "id": "d", "label": "Le Son" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-m9",
+      "difficulty": "moyen",
+      "text": "Quelle kunoichi timide du clan Hyûga est secrètement amoureuse du héros ?",
+      "options": [
+        { "id": "a", "label": "Hinata" },
+        { "id": "b", "label": "Sakura" },
+        { "id": "c", "label": "Ino" },
+        { "id": "d", "label": "Tenten" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-m10",
+      "difficulty": "moyen",
+      "text": "Quel ninja paresseux et surdoué du clan Nara manie les ombres ?",
+      "options": [
+        { "id": "a", "label": "Shikamaru" },
+        { "id": "b", "label": "Chôji" },
+        { "id": "c", "label": "Kiba" },
+        { "id": "d", "label": "Shino" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-m11",
+      "difficulty": "moyen",
+      "text": "Quel Sannin serpent en quête d'immortalité convoite le corps de Sasuke ?",
+      "options": [
+        { "id": "a", "label": "Orochimaru" },
+        { "id": "b", "label": "Kabuto" },
+        { "id": "c", "label": "Danzô" },
+        { "id": "d", "label": "Kimimaro" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-m12",
+      "difficulty": "moyen",
+      "text": "Quel sage aux crapauds, l'un des trois Sannin, entraîne le héros ?",
+      "options": [
+        { "id": "a", "label": "Jiraya" },
+        { "id": "b", "label": "Orochimaru" },
+        { "id": "c", "label": "Tsunade" },
+        { "id": "d", "label": "Kakashi" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-m13",
+      "difficulty": "moyen",
+      "text": "Quelle Sannin blonde à la force colossale devient la Cinquième Hokage ?",
+      "options": [
+        { "id": "a", "label": "Tsunade" },
+        { "id": "b", "label": "Jiraya" },
+        { "id": "c", "label": "Orochimaru" },
+        { "id": "d", "label": "Sakura" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-m14",
+      "difficulty": "moyen",
+      "text": "Quel ninja des sables, hôte d'un démon à une queue, devient plus tard Kazekage ?",
+      "options": [
+        { "id": "a", "label": "Gaara" },
+        { "id": "b", "label": "Kankurô" },
+        { "id": "c", "label": "Temari" },
+        { "id": "d", "label": "Sasuke" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-m15",
+      "difficulty": "moyen",
+      "text": "Quel grand frère de Sasuke a massacré tout leur clan en une nuit ?",
+      "options": [
+        { "id": "a", "label": "Itachi" },
+        { "id": "b", "label": "Madara" },
+        { "id": "c", "label": "Obito" },
+        { "id": "d", "label": "Shisui" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-m16",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quelle grande épreuve les apprentis ninjas passent-ils en équipes pour accéder au grade supérieur ?",
+      "answer": "L'examen Chûnin"
+    },
+    {
+      "id": "naruto-m17",
+      "difficulty": "moyen",
+      "text": "Quelle technique signature permet au héros de créer de multiples copies solides de lui-même ?",
+      "options": [
+        { "id": "a", "label": "Le Multiclonage" },
+        { "id": "b", "label": "Le Rasengan" },
+        { "id": "c", "label": "Le Chidori" },
+        { "id": "d", "label": "Le Byakugan" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-m18",
+      "difficulty": "moyen",
+      "text": "Comment appelle-t-on l'énergie intérieure que les ninjas modèlent pour lancer leurs techniques ?",
+      "options": [
+        { "id": "a", "label": "Le chakra" },
+        { "id": "b", "label": "Le ki" },
+        { "id": "c", "label": "Le nen" },
+        { "id": "d", "label": "Le reiatsu" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-m19",
+      "difficulty": "moyen",
+      "text": "Quel gros mangeur du clan Akimichi fait équipe avec Shikamaru et Ino ?",
+      "options": [
+        { "id": "a", "label": "Chôji" },
+        { "id": "b", "label": "Kiba" },
+        { "id": "c", "label": "Shino" },
+        { "id": "d", "label": "Neji" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-m20",
+      "difficulty": "moyen",
+      "text": "De quelle couleur devient le manteau de chakra du démon-renard qui entoure le héros ?",
+      "options": [
+        { "id": "a", "label": "Rouge" },
+        { "id": "b", "label": "Bleu" },
+        { "id": "c", "label": "Vert" },
+        { "id": "d", "label": "Violet" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-d3",
+      "difficulty": "dur",
+      "text": "Quel est le nom du démon-renard à neuf queues scellé dans le héros ?",
+      "options": [
+        { "id": "a", "label": "Kurama" },
+        { "id": "b", "label": "Gyûki" },
+        { "id": "c", "label": "Shukaku" },
+        { "id": "d", "label": "Matatabi" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-d4",
+      "difficulty": "dur",
+      "text": "Quel Hokage a scellé le démon-renard dans le héros au prix de sa propre vie ?",
+      "options": [
+        { "id": "a", "label": "Minato Namikaze" },
+        { "id": "b", "label": "Hiruzen Sarutobi" },
+        { "id": "c", "label": "Hashirama Senju" },
+        { "id": "d", "label": "Tobirama Senju" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-d5",
+      "difficulty": "dur",
+      "text": "Comment s'appelle le Troisième Hokage, vieux sage surnommé « le Professeur » ?",
+      "options": [
+        { "id": "a", "label": "Hiruzen Sarutobi" },
+        { "id": "b", "label": "Minato Namikaze" },
+        { "id": "c", "label": "Hashirama Senju" },
+        { "id": "d", "label": "Tobirama Senju" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-d6",
+      "difficulty": "dur",
+      "text": "Quel membre de l'Akatsuki modèle de l'argile explosive comme une œuvre d'art ?",
+      "options": [
+        { "id": "a", "label": "Deidara" },
+        { "id": "b", "label": "Sasori" },
+        { "id": "c", "label": "Hidan" },
+        { "id": "d", "label": "Kakuzu" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-d7",
+      "difficulty": "dur",
+      "text": "Quel marionnettiste de l'Akatsuki, venu de Suna, s'est transformé lui-même en pantin ?",
+      "options": [
+        { "id": "a", "label": "Sasori" },
+        { "id": "b", "label": "Deidara" },
+        { "id": "c", "label": "Hidan" },
+        { "id": "d", "label": "Kakuzu" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-d8",
+      "difficulty": "dur",
+      "text": "Quel membre immortel de l'Akatsuki voue un culte au dieu Jashin ?",
+      "options": [
+        { "id": "a", "label": "Hidan" },
+        { "id": "b", "label": "Kakuzu" },
+        { "id": "c", "label": "Sasori" },
+        { "id": "d", "label": "Deidara" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-d9",
+      "difficulty": "dur",
+      "text": "Quel membre de l'Akatsuki aux multiples cœurs est obsédé par l'argent ?",
+      "options": [
+        { "id": "a", "label": "Kakuzu" },
+        { "id": "b", "label": "Hidan" },
+        { "id": "c", "label": "Sasori" },
+        { "id": "d", "label": "Kisame" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-d10",
+      "difficulty": "dur",
+      "text": "Quel homme-requin de l'Akatsuki manie l'épée absorbeuse de chakra Samehada ?",
+      "options": [
+        { "id": "a", "label": "Kisame" },
+        { "id": "b", "label": "Itachi" },
+        { "id": "c", "label": "Zetsu" },
+        { "id": "d", "label": "Pain" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-d11",
+      "difficulty": "dur",
+      "text": "Quel chef de l'Akatsuki, invalide, contrôle à distance les six corps de Pain ?",
+      "options": [
+        { "id": "a", "label": "Nagato" },
+        { "id": "b", "label": "Yahiko" },
+        { "id": "c", "label": "Obito" },
+        { "id": "d", "label": "Madara" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-d12",
+      "difficulty": "dur",
+      "text": "Quel pouvoir oculaire légendaire aux anneaux violets possède Nagato ?",
+      "options": [
+        { "id": "a", "label": "Le Rinnegan" },
+        { "id": "b", "label": "Le Sharingan" },
+        { "id": "c", "label": "Le Byakugan" },
+        { "id": "d", "label": "Le Mokuton" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-d13",
+      "difficulty": "dur",
+      "text": "Quelle partenaire de Pain, à la fleur dans les cheveux, manie des origamis de papier ?",
+      "options": [
+        { "id": "a", "label": "Konan" },
+        { "id": "b", "label": "Kushina" },
+        { "id": "c", "label": "Mei" },
+        { "id": "d", "label": "Karin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-d14",
+      "difficulty": "dur",
+      "text": "Comment s'appelle la mère du héros, ninja d'Uzushio à la longue chevelure rouge ?",
+      "options": [
+        { "id": "a", "label": "Kushina Uzumaki" },
+        { "id": "b", "label": "Tsunade Senju" },
+        { "id": "c", "label": "Mikoto Uchiwa" },
+        { "id": "d", "label": "Mei Terumi" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-d15",
+      "difficulty": "dur",
+      "text": "Quelle technique de Sasuke déchaîne des flammes noires inextinguibles issues du Mangekyô Sharingan ?",
+      "options": [
+        { "id": "a", "label": "L'Amaterasu" },
+        { "id": "b", "label": "Le Susanoo" },
+        { "id": "c", "label": "Le Tsukuyomi" },
+        { "id": "d", "label": "Le Chidori" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-d16",
+      "difficulty": "dur",
+      "text": "Quel guerrier spectral géant le Mangekyô Sharingan peut-il invoquer autour de son porteur ?",
+      "options": [
+        { "id": "a", "label": "Le Susanoo" },
+        { "id": "b", "label": "L'Amaterasu" },
+        { "id": "c", "label": "Le Tsukuyomi" },
+        { "id": "d", "label": "Le Rasengan" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-d17",
+      "difficulty": "dur",
+      "text": "Quel jônin barbu du clan Sarutobi, mentor de l'équipe 10, tombe face à Hidan ?",
+      "options": [
+        { "id": "a", "label": "Asuma" },
+        { "id": "b", "label": "Kakashi" },
+        { "id": "c", "label": "Guy" },
+        { "id": "d", "label": "Iruka" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-d18",
+      "difficulty": "dur",
+      "text": "Quel maître du taijutsu en combinaison verte est surnommé « la Bête de jade de Konoha » ?",
+      "options": [
+        { "id": "a", "label": "Might Guy" },
+        { "id": "b", "label": "Rock Lee" },
+        { "id": "c", "label": "Kakashi Hatake" },
+        { "id": "d", "label": "Asuma Sarutobi" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-d19",
+      "difficulty": "dur",
+      "text": "Quel élève de Guy, en survêtement vert, ne combat qu'au taijutsu ?",
+      "options": [
+        { "id": "a", "label": "Rock Lee" },
+        { "id": "b", "label": "Neji Hyûga" },
+        { "id": "c", "label": "Might Guy" },
+        { "id": "d", "label": "Kiba Inuzuka" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-d20",
+      "difficulty": "dur",
+      "text": "Quel prodige du clan Hyûga, membre de l'équipe de Guy, affronte le héros à l'examen Chûnin ?",
+      "options": [
+        { "id": "a", "label": "Neji" },
+        { "id": "b", "label": "Rock Lee" },
+        { "id": "c", "label": "Kiba" },
+        { "id": "d", "label": "Shino" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-d21",
+      "difficulty": "dur",
+      "text": "Quel ninja du clan Inuzuka combat aux côtés de son chien Akamaru ?",
+      "options": [
+        { "id": "a", "label": "Kiba" },
+        { "id": "b", "label": "Shino" },
+        { "id": "c", "label": "Chôji" },
+        { "id": "d", "label": "Neji" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-d22",
+      "difficulty": "dur",
+      "text": "Quel membre de l'équipe 8, du clan Aburame, contrôle des essaims d'insectes ?",
+      "options": [
+        { "id": "a", "label": "Shino" },
+        { "id": "b", "label": "Kiba" },
+        { "id": "c", "label": "Neji" },
+        { "id": "d", "label": "Chôji" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-d23",
+      "difficulty": "dur",
+      "text": "Quel hôte du démon à huit queues, rappeur, est le frère adoptif du Raikage ?",
+      "options": [
+        { "id": "a", "label": "Killer Bee" },
+        { "id": "b", "label": "Yugito Nii" },
+        { "id": "c", "label": "Roshi" },
+        { "id": "d", "label": "Han" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-d24",
+      "difficulty": "dur",
+      "text": "Quel démon des sables à une queue est scellé dans Gaara ?",
+      "options": [
+        { "id": "a", "label": "Shukaku" },
+        { "id": "b", "label": "Kurama" },
+        { "id": "c", "label": "Gyûki" },
+        { "id": "d", "label": "Matatabi" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-d25",
+      "difficulty": "dur",
+      "text": "Quel ninja déserteur, épéiste au grand sabre décapiteur, affronte l'équipe 7 au Pays des Vagues ?",
+      "options": [
+        { "id": "a", "label": "Zabuza" },
+        { "id": "b", "label": "Haku" },
+        { "id": "c", "label": "Kisame" },
+        { "id": "d", "label": "Raiga" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-d26",
+      "difficulty": "dur",
+      "text": "Quel jeune ninja masqué aux miroirs de glace accompagne Zabuza ?",
+      "options": [
+        { "id": "a", "label": "Haku" },
+        { "id": "b", "label": "Zabuza" },
+        { "id": "c", "label": "Kimimaro" },
+        { "id": "d", "label": "Suigetsu" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-d27",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel sceau maléfique Orochimaru appose-t-il dans le cou de Sasuke lors de l'examen Chûnin ?",
+      "answer": "La Marque Maudite"
+    },
+    {
+      "id": "naruto-d28",
+      "difficulty": "dur",
+      "text": "Quel légendaire fondateur de Konoha, capable de contrôler le bois, est le Premier Hokage ?",
+      "options": [
+        { "id": "a", "label": "Hashirama Senju" },
+        { "id": "b", "label": "Tobirama Senju" },
+        { "id": "c", "label": "Minato Namikaze" },
+        { "id": "d", "label": "Hiruzen Sarutobi" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-d29",
+      "difficulty": "dur",
+      "text": "Quel Second Hokage, frère de Hashirama, maîtrise de puissantes techniques d'eau ?",
+      "options": [
+        { "id": "a", "label": "Tobirama Senju" },
+        { "id": "b", "label": "Hashirama Senju" },
+        { "id": "c", "label": "Minato Namikaze" },
+        { "id": "d", "label": "Hiruzen Sarutobi" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-d30",
+      "difficulty": "dur",
+      "type": "ordre",
+      "text": "Classe ces Hokage de Konoha dans leur ordre chronologique.",
+      "items": [
+        { "id": "1", "label": "Hashirama Senju" },
+        { "id": "2", "label": "Tobirama Senju" },
+        { "id": "3", "label": "Hiruzen Sarutobi" },
+        { "id": "4", "label": "Minato Namikaze" }
+      ],
+      "funFact": "Viennent ensuite Tsunade puis Kakashi."
+    },
+    {
+      "id": "naruto-p3",
+      "difficulty": "pro",
+      "text": "Quel mangaka est le créateur de Naruto ?",
+      "options": [
+        { "id": "a", "label": "Masashi Kishimoto" },
+        { "id": "b", "label": "Eiichiro Oda" },
+        { "id": "c", "label": "Akira Toriyama" },
+        { "id": "d", "label": "Tite Kubo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-p4",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "En quelle année le manga Naruto a-t-il débuté sa publication au Japon ?",
+      "answerValue": 1999,
+      "unit": ""
+    },
+    {
+      "id": "naruto-p5",
+      "difficulty": "pro",
+      "text": "Quel légendaire chef de guerre a affronté Hashirama à la Vallée de la Fin ?",
+      "options": [
+        { "id": "a", "label": "Madara Uchiwa" },
+        { "id": "b", "label": "Izuna Uchiwa" },
+        { "id": "c", "label": "Obito Uchiwa" },
+        { "id": "d", "label": "Itachi Uchiwa" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-p6",
+      "difficulty": "pro",
+      "text": "Quel ninja de Konoha, cru mort à Kannabi, agit longtemps masqué sous le nom de « Tobi » ?",
+      "options": [
+        { "id": "a", "label": "Obito Uchiwa" },
+        { "id": "b", "label": "Madara Uchiwa" },
+        { "id": "c", "label": "Itachi Uchiwa" },
+        { "id": "d", "label": "Shisui Uchiwa" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-p7",
+      "difficulty": "pro",
+      "text": "Quelle déesse-ancêtre, à l'origine du chakra, est l'ennemie finale de la série ?",
+      "options": [
+        { "id": "a", "label": "Kaguya Ôtsutsuki" },
+        { "id": "b", "label": "Hagoromo Ôtsutsuki" },
+        { "id": "c", "label": "Hamura Ôtsutsuki" },
+        { "id": "d", "label": "Mito Uzumaki" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-p8",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel titre porte Hagoromo Ôtsutsuki, ancêtre fondateur du ninjutsu ?",
+      "answer": "Le Sage des Six Chemins"
+    },
+    {
+      "id": "naruto-p9",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien d'épéistes composent les fameux « Sept Épéistes de la Brume » ?",
+      "answerValue": 7,
+      "unit": "épéistes"
+    },
+    {
+      "id": "naruto-p10",
+      "difficulty": "pro",
+      "text": "Quel village caché est dirigé par le Kazekage ?",
+      "options": [
+        { "id": "a", "label": "Suna" },
+        { "id": "b", "label": "Kiri" },
+        { "id": "c", "label": "Kumo" },
+        { "id": "d", "label": "Iwa" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-p11",
+      "difficulty": "pro",
+      "text": "Quel est le nom du démon à huit queues scellé dans Killer Bee ?",
+      "options": [
+        { "id": "a", "label": "Gyûki" },
+        { "id": "b", "label": "Kurama" },
+        { "id": "c", "label": "Shukaku" },
+        { "id": "d", "label": "Matatabi" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-p12",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien de démons à queues (bijû) existent au total dans la série ?",
+      "answerValue": 9,
+      "unit": "bijû"
+    },
+    {
+      "id": "naruto-p13",
+      "difficulty": "pro",
+      "text": "Quel assistant à lunettes d'Orochimaru manipule le héros et ressuscite les morts au combat ?",
+      "options": [
+        { "id": "a", "label": "Kabuto" },
+        { "id": "b", "label": "Danzô" },
+        { "id": "c", "label": "Kimimaro" },
+        { "id": "d", "label": "Jûgo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-p14",
+      "difficulty": "pro",
+      "text": "Comment s'appelle la technique interdite de réincarnation qui ramène les morts au combat ?",
+      "options": [
+        { "id": "a", "label": "L'Edo Tensei" },
+        { "id": "b", "label": "Le Rasengan" },
+        { "id": "c", "label": "Le Kamui" },
+        { "id": "d", "label": "Le Chidori" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-p15",
+      "difficulty": "pro",
+      "text": "Quel chef de la Racine, au bras greffé de Sharingan, complote dans l'ombre de Konoha ?",
+      "options": [
+        { "id": "a", "label": "Danzô" },
+        { "id": "b", "label": "Kabuto" },
+        { "id": "c", "label": "Orochimaru" },
+        { "id": "d", "label": "Shisui" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-p16",
+      "difficulty": "pro",
+      "text": "Comment s'appelle le style de poing souple du clan Hyûga qui bloque les points de chakra ?",
+      "options": [
+        { "id": "a", "label": "Le Jûken" },
+        { "id": "b", "label": "Le Gôken" },
+        { "id": "c", "label": "Le Rasengan" },
+        { "id": "d", "label": "Le Chidori" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-p17",
+      "difficulty": "pro",
+      "text": "Quel titre porte le dirigeant du Village Caché du Nuage (Kumo) ?",
+      "options": [
+        { "id": "a", "label": "Raikage" },
+        { "id": "b", "label": "Kazekage" },
+        { "id": "c", "label": "Mizukage" },
+        { "id": "d", "label": "Tsuchikage" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-p18",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "En l'honneur de qui le grand pont du Pays des Vagues est-il rebaptisé après la première mission de l'équipe 7 ?",
+      "answer": "Naruto"
+    },
+    {
+      "id": "naruto-p19",
+      "difficulty": "pro",
+      "text": "Quel crapaud géant, chef du mont Myôboku, le héros invoque-t-il au combat ?",
+      "options": [
+        { "id": "a", "label": "Gamabunta" },
+        { "id": "b", "label": "Gamakichi" },
+        { "id": "c", "label": "Manda" },
+        { "id": "d", "label": "Katsuyu" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-p20",
+      "difficulty": "pro",
+      "text": "Quel serpent géant Orochimaru invoque-t-il lors de ses combats ?",
+      "options": [
+        { "id": "a", "label": "Manda" },
+        { "id": "b", "label": "Gamabunta" },
+        { "id": "c", "label": "Katsuyu" },
+        { "id": "d", "label": "Aoda" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-p21",
+      "difficulty": "pro",
+      "text": "Quelle limace géante Tsunade invoque-t-elle pour soigner et combattre ?",
+      "options": [
+        { "id": "a", "label": "Katsuyu" },
+        { "id": "b", "label": "Gamabunta" },
+        { "id": "c", "label": "Manda" },
+        { "id": "d", "label": "Aoda" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-p22",
+      "difficulty": "pro",
+      "text": "Comment s'appelle l'état de puissance fondé sur l'énergie naturelle que le héros apprend au mont Myôboku ?",
+      "options": [
+        { "id": "a", "label": "Le Mode Ermite" },
+        { "id": "b", "label": "Le Mode Kyûbi" },
+        { "id": "c", "label": "Le Rasengan" },
+        { "id": "d", "label": "Le Chidori" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-p23",
+      "difficulty": "pro",
+      "text": "Quelle kunoichi de Kumo, hôte du démon à deux queues, est capturée par l'Akatsuki ?",
+      "options": [
+        { "id": "a", "label": "Yugito Nii" },
+        { "id": "b", "label": "Mei Terumi" },
+        { "id": "c", "label": "Konan" },
+        { "id": "d", "label": "Karui" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-p24",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien de grands villages cachés principaux se partagent le monde ninja ?",
+      "answerValue": 5,
+      "unit": "villages"
+    },
+    {
+      "id": "naruto-p25",
+      "difficulty": "pro",
+      "text": "Quel personnage devient le Septième Hokage à la toute fin de la série ?",
+      "options": [
+        { "id": "a", "label": "Naruto" },
+        { "id": "b", "label": "Sasuke" },
+        { "id": "c", "label": "Kakashi" },
+        { "id": "d", "label": "Konohamaru" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-p26",
+      "difficulty": "pro",
+      "text": "Comment s'appelle le fils du héros, personnage principal de la série suivante ?",
+      "options": [
+        { "id": "a", "label": "Boruto" },
+        { "id": "b", "label": "Himawari" },
+        { "id": "c", "label": "Sarada" },
+        { "id": "d", "label": "Konohamaru" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-p27",
+      "difficulty": "pro",
+      "text": "Comment s'appelle la fille de Sasuke et Sakura ?",
+      "options": [
+        { "id": "a", "label": "Sarada" },
+        { "id": "b", "label": "Himawari" },
+        { "id": "c", "label": "Boruto" },
+        { "id": "d", "label": "Chôchô" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-p28",
+      "difficulty": "pro",
+      "text": "Quel petit-fils du Troisième Hokage considère le héros comme un grand frère ?",
+      "options": [
+        { "id": "a", "label": "Konohamaru" },
+        { "id": "b", "label": "Boruto" },
+        { "id": "c", "label": "Udon" },
+        { "id": "d", "label": "Moegi" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-p29",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel surnom le Quatrième Hokage doit-il à sa technique de téléportation fulgurante ?",
+      "answer": "L'Éclair Jaune de Konoha"
+    },
+    {
+      "id": "naruto-p30",
+      "difficulty": "pro",
+      "text": "Quel village caché est dirigé par le Tsuchikage ?",
+      "options": [
+        { "id": "a", "label": "Iwa" },
+        { "id": "b", "label": "Suna" },
+        { "id": "c", "label": "Kiri" },
+        { "id": "d", "label": "Kumo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-p31",
+      "difficulty": "pro",
+      "text": "Quel village caché est dirigé par le Mizukage ?",
+      "options": [
+        { "id": "a", "label": "Kiri" },
+        { "id": "b", "label": "Iwa" },
+        { "id": "c", "label": "Suna" },
+        { "id": "d", "label": "Kumo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-p32",
+      "difficulty": "pro",
+      "text": "Quelle Mizukage rousse dirige le Village de la Brume pendant la grande guerre ?",
+      "options": [
+        { "id": "a", "label": "Mei Terumi" },
+        { "id": "b", "label": "Tsunade Senju" },
+        { "id": "c", "label": "Kushina Uzumaki" },
+        { "id": "d", "label": "Konan Amegakure" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-p33",
+      "difficulty": "pro",
+      "text": "Comment s'appelle le grand sabre décapiteur de Zabuza, l'un des sept de la Brume ?",
+      "options": [
+        { "id": "a", "label": "Le Kubikiribôchô" },
+        { "id": "b", "label": "Le Samehada" },
+        { "id": "c", "label": "Le Nuibari" },
+        { "id": "d", "label": "Le Kabutowari" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-p34",
+      "difficulty": "pro",
+      "text": "Quel héritier du clan Kaguya, aux os malléables, sert fidèlement Orochimaru ?",
+      "options": [
+        { "id": "a", "label": "Kimimaro" },
+        { "id": "b", "label": "Kabuto" },
+        { "id": "c", "label": "Jûgo" },
+        { "id": "d", "label": "Suigetsu" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-p35",
+      "difficulty": "pro",
+      "text": "Quel membre de l'équipe Taka de Sasuke peut liquéfier son corps en eau ?",
+      "options": [
+        { "id": "a", "label": "Suigetsu" },
+        { "id": "b", "label": "Jûgo" },
+        { "id": "c", "label": "Karin" },
+        { "id": "d", "label": "Kimimaro" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-p36",
+      "difficulty": "pro",
+      "text": "Quelle kunoichi de l'équipe Taka, au chakra sensoriel, voue une passion à Sasuke ?",
+      "options": [
+        { "id": "a", "label": "Karin" },
+        { "id": "b", "label": "Suigetsu" },
+        { "id": "c", "label": "Jûgo" },
+        { "id": "d", "label": "Sakura" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-p37",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel nom porte le grand conflit final opposant l'Alliance des cinq villages à l'Akatsuki ?",
+      "answer": "La Quatrième Grande Guerre Ninja"
+    },
+    {
+      "id": "naruto-p38",
+      "difficulty": "pro",
+      "text": "Quelle plante légendaire, réceptacle de tout le chakra, l'Akatsuki cherche-t-il à faire renaître ?",
+      "options": [
+        { "id": "a", "label": "L'Arbre Divin" },
+        { "id": "b", "label": "Le Gédô Mazô" },
+        { "id": "c", "label": "Le Susanoo" },
+        { "id": "d", "label": "Le Rinnegan" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-p39",
+      "difficulty": "pro",
+      "text": "Comment s'appelle la statue démoniaque servant à extraire les bijû de leurs hôtes ?",
+      "options": [
+        { "id": "a", "label": "Le Gédô Mazô" },
+        { "id": "b", "label": "L'Arbre Divin" },
+        { "id": "c", "label": "Le Susanoo" },
+        { "id": "d", "label": "Le Rinnegan" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "naruto-p40",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "De combien de corps (chemins) se compose le « Pain » utilisé par Nagato contre Konoha ?",
+      "answerValue": 6,
+      "unit": "corps"
     }
   ]
 }

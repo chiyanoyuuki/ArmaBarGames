@@ -1,0 +1,1098 @@
+{
+  "universeId": "one-piece",
+  "questions": [
+    {
+      "id": "op-f1",
+      "difficulty": "facile",
+      "text": "Comment s'appelle le héros au chapeau de paille qui rêve de devenir le roi des pirates ?",
+      "options": [
+        { "id": "a", "label": "Luffy" },
+        { "id": "b", "label": "Zoro" },
+        { "id": "c", "label": "Sanji" },
+        { "id": "d", "label": "Usopp" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-f2",
+      "difficulty": "facile",
+      "text": "Quelle propriété le fruit du démon confère-t-il au corps de Luffy ?",
+      "options": [
+        { "id": "a", "label": "L'élasticité" },
+        { "id": "b", "label": "L'invisibilité" },
+        { "id": "c", "label": "L'invincibilité" },
+        { "id": "d", "label": "La lévitation" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-f3",
+      "difficulty": "facile",
+      "text": "Quel épéiste à trois sabres rêve de devenir le meilleur bretteur du monde ?",
+      "options": [
+        { "id": "a", "label": "Zoro" },
+        { "id": "b", "label": "Sanji" },
+        { "id": "c", "label": "Usopp" },
+        { "id": "d", "label": "Franky" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-f4",
+      "difficulty": "facile",
+      "text": "Quel cuisinier blond de l'équipage ne se bat qu'avec ses jambes ?",
+      "options": [
+        { "id": "a", "label": "Sanji" },
+        { "id": "b", "label": "Zoro" },
+        { "id": "c", "label": "Luffy" },
+        { "id": "d", "label": "Brook" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-f5",
+      "difficulty": "facile",
+      "text": "Comment s'appelle la navigatrice rousse de l'équipage au Chapeau de Paille ?",
+      "options": [
+        { "id": "a", "label": "Nami" },
+        { "id": "b", "label": "Robin" },
+        { "id": "c", "label": "Vivi" },
+        { "id": "d", "label": "Bonney" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-f6",
+      "difficulty": "facile",
+      "type": "buzzer",
+      "text": "Quel titre suprême Luffy rêve-t-il d'obtenir plus que tout ?",
+      "answer": "Le Roi des Pirates"
+    },
+    {
+      "id": "op-f7",
+      "difficulty": "facile",
+      "type": "open",
+      "text": "Comment s'appelle le trésor légendaire caché que tous les pirates recherchent ?",
+      "answer": "Le One Piece",
+      "acceptedAnswers": ["one piece", "le one piece"],
+      "funFact": "Il donne son nom à toute l'œuvre d'Eiichiro Oda."
+    },
+    {
+      "id": "op-f8",
+      "difficulty": "facile",
+      "text": "Quel long-nez menteur et tireur d'élite fait partie de l'équipage ?",
+      "options": [
+        { "id": "a", "label": "Usopp" },
+        { "id": "b", "label": "Sanji" },
+        { "id": "c", "label": "Zoro" },
+        { "id": "d", "label": "Chopper" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-f9",
+      "difficulty": "facile",
+      "text": "Quel petit renne médecin de l'équipage a mangé le fruit de l'humain ?",
+      "options": [
+        { "id": "a", "label": "Chopper" },
+        { "id": "b", "label": "Brook" },
+        { "id": "c", "label": "Franky" },
+        { "id": "d", "label": "Usopp" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-f10",
+      "difficulty": "facile",
+      "type": "estimation",
+      "text": "Combien de sabres Zoro manie-t-il en même temps dans son style de combat ?",
+      "answerValue": 3,
+      "unit": "sabres",
+      "funFact": "Il en tient un dans chaque main et un troisième dans la bouche."
+    },
+    {
+      "id": "op-m1",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel est le nom de la bande de pirates dirigée par Luffy ?",
+      "answer": "L'équipage du Chapeau de Paille"
+    },
+    {
+      "id": "op-m2",
+      "difficulty": "moyen",
+      "text": "Quelle archéologue brune rejoint l'équipage, ancienne membre de Baroque Works ?",
+      "options": [
+        { "id": "a", "label": "Robin" },
+        { "id": "b", "label": "Nami" },
+        { "id": "c", "label": "Vivi" },
+        { "id": "d", "label": "Bonney" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-m3",
+      "difficulty": "moyen",
+      "text": "Quel cyborg charpentier construit le navire Thousand Sunny ?",
+      "options": [
+        { "id": "a", "label": "Franky" },
+        { "id": "b", "label": "Usopp" },
+        { "id": "c", "label": "Brook" },
+        { "id": "d", "label": "Chopper" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-m4",
+      "difficulty": "moyen",
+      "text": "Quel squelette musicien rejoint l'équipage grâce au fruit des revenants ?",
+      "options": [
+        { "id": "a", "label": "Brook" },
+        { "id": "b", "label": "Franky" },
+        { "id": "c", "label": "Chopper" },
+        { "id": "d", "label": "Sanji" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-m5",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Comment s'appelle le premier navire de l'équipage, à la figure de proue en forme de mouton ?",
+      "answer": "Le Vogue Merry"
+    },
+    {
+      "id": "op-m6",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Comment s'appelle le second navire de l'équipage, à la figure de proue en forme de lion ?",
+      "answer": "Le Thousand Sunny"
+    },
+    {
+      "id": "op-m7",
+      "difficulty": "moyen",
+      "text": "Quel pirate au pouvoir du feu est le frère juré de Luffy ?",
+      "options": [
+        { "id": "a", "label": "Ace" },
+        { "id": "b", "label": "Sabo" },
+        { "id": "c", "label": "Shanks" },
+        { "id": "d", "label": "Law" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-m8",
+      "difficulty": "moyen",
+      "text": "Quel pirate roux a confié son chapeau de paille à Luffy quand il était enfant ?",
+      "options": [
+        { "id": "a", "label": "Shanks" },
+        { "id": "b", "label": "Ace" },
+        { "id": "c", "label": "Buggy" },
+        { "id": "d", "label": "Mihawk" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-m9",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on les mystérieux aliments qui octroient des pouvoirs mais empêchent leur mangeur de nager ?",
+      "answer": "Les Fruits du Démon"
+    },
+    {
+      "id": "op-m10",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Comment surnomme-t-on les pirates les plus puissants régnant sur le Nouveau Monde ?",
+      "answer": "Les Quatre Empereurs"
+    },
+    {
+      "id": "op-m11",
+      "difficulty": "moyen",
+      "text": "Quelle organisation militaire mondiale traque et emprisonne les pirates ?",
+      "options": [
+        { "id": "a", "label": "La Marine" },
+        { "id": "b", "label": "Les Révolutionnaires" },
+        { "id": "c", "label": "Les Corsaires" },
+        { "id": "d", "label": "La CP9" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-m12",
+      "difficulty": "moyen",
+      "text": "Quel bretteur légendaire aux yeux de faucon est le plus grand épéiste du monde, rival de Zoro ?",
+      "options": [
+        { "id": "a", "label": "Mihawk" },
+        { "id": "b", "label": "Shanks" },
+        { "id": "c", "label": "Crocodile" },
+        { "id": "d", "label": "Doflamingo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-m13",
+      "difficulty": "moyen",
+      "text": "Comment appelle-t-on la somme offerte par la Marine pour la capture d'un pirate ?",
+      "options": [
+        { "id": "a", "label": "La prime" },
+        { "id": "b", "label": "Le tribut" },
+        { "id": "c", "label": "La rançon" },
+        { "id": "d", "label": "Le butin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-m14",
+      "difficulty": "moyen",
+      "text": "Quel roi des pirates a lancé la grande ère de la piraterie avant son exécution ?",
+      "options": [
+        { "id": "a", "label": "Gold Roger" },
+        { "id": "b", "label": "Barbe Blanche" },
+        { "id": "c", "label": "Barbe Noire" },
+        { "id": "d", "label": "Shanks" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-m15",
+      "difficulty": "moyen",
+      "text": "Quel océan dangereux, route de tous les périls, les pirates doivent-ils parcourir ?",
+      "options": [
+        { "id": "a", "label": "Grand Line" },
+        { "id": "b", "label": "East Blue" },
+        { "id": "c", "label": "Red Line" },
+        { "id": "d", "label": "Calm Belt" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-m16",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle la princesse d'Alabasta qui voyage un temps avec l'équipage ?",
+      "options": [
+        { "id": "a", "label": "Vivi" },
+        { "id": "b", "label": "Nami" },
+        { "id": "c", "label": "Robin" },
+        { "id": "d", "label": "Rebecca" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-m17",
+      "difficulty": "moyen",
+      "text": "Quel Corsaire, homme des sables, veut renverser le royaume d'Alabasta ?",
+      "options": [
+        { "id": "a", "label": "Crocodile" },
+        { "id": "b", "label": "Mihawk" },
+        { "id": "c", "label": "Doflamingo" },
+        { "id": "d", "label": "Kuma" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-m18",
+      "difficulty": "moyen",
+      "text": "Dans quelle prison sous-marine de haute sécurité Luffy s'introduit-il pour sauver son frère ?",
+      "options": [
+        { "id": "a", "label": "Impel Down" },
+        { "id": "b", "label": "Marine Ford" },
+        { "id": "c", "label": "Enies Lobby" },
+        { "id": "d", "label": "Water Seven" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-m19",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle le quartier général de la flotte navale où se déroule la grande guerre au sommet ?",
+      "options": [
+        { "id": "a", "label": "Marine Ford" },
+        { "id": "b", "label": "Impel Down" },
+        { "id": "c", "label": "Enies Lobby" },
+        { "id": "d", "label": "Water Seven" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-m20",
+      "difficulty": "moyen",
+      "type": "estimation",
+      "text": "En quelle année le manga One Piece a-t-il commencé sa publication au Japon ?",
+      "answerValue": 1997,
+      "unit": ""
+    },
+    {
+      "id": "op-d1",
+      "difficulty": "dur",
+      "text": "Quel mangaka est le créateur de One Piece ?",
+      "options": [
+        { "id": "a", "label": "Eiichiro Oda" },
+        { "id": "b", "label": "Akira Toriyama" },
+        { "id": "c", "label": "Masashi Kishimoto" },
+        { "id": "d", "label": "Tite Kubo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-d2",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel est le nom du fruit du démon mangé par Luffy, au corps élastique ?",
+      "answer": "Le Gomu Gomu no Mi"
+    },
+    {
+      "id": "op-d3",
+      "difficulty": "dur",
+      "text": "Quel homme-poisson à dents de scie asservissait le village natal de Nami ?",
+      "options": [
+        { "id": "a", "label": "Arlong" },
+        { "id": "b", "label": "Hody" },
+        { "id": "c", "label": "Jinbe" },
+        { "id": "d", "label": "Kuroobi" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-d4",
+      "difficulty": "dur",
+      "text": "Quel homme-poisson, ancien Corsaire, finit par rejoindre l'équipage comme timonier ?",
+      "options": [
+        { "id": "a", "label": "Jinbe" },
+        { "id": "b", "label": "Arlong" },
+        { "id": "c", "label": "Hody" },
+        { "id": "d", "label": "Franky" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-d5",
+      "difficulty": "dur",
+      "text": "Quel amiral de la Marine au pouvoir du magma tue Ace lors de la guerre au sommet ?",
+      "options": [
+        { "id": "a", "label": "Akainu" },
+        { "id": "b", "label": "Aokiji" },
+        { "id": "c", "label": "Kizaru" },
+        { "id": "d", "label": "Fujitora" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-d6",
+      "difficulty": "dur",
+      "text": "Quel est le vrai nom de l'amiral Aokiji, au pouvoir de la glace ?",
+      "options": [
+        { "id": "a", "label": "Kuzan" },
+        { "id": "b", "label": "Sakazuki" },
+        { "id": "c", "label": "Borsalino" },
+        { "id": "d", "label": "Issho" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-d7",
+      "difficulty": "dur",
+      "text": "Comment appelle-t-on l'énergie spirituelle, sorte de sixième sens, que maîtrisent les combattants d'élite ?",
+      "options": [
+        { "id": "a", "label": "Le Haki" },
+        { "id": "b", "label": "Le Fluide" },
+        { "id": "c", "label": "Le Ki" },
+        { "id": "d", "label": "Le Reiatsu" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-d8",
+      "difficulty": "dur",
+      "text": "Quel Corsaire flamant rose tyrannise l'île de Dressrosa depuis son trône ?",
+      "options": [
+        { "id": "a", "label": "Doflamingo" },
+        { "id": "b", "label": "Crocodile" },
+        { "id": "c", "label": "Mihawk" },
+        { "id": "d", "label": "Kuma" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-d9",
+      "difficulty": "dur",
+      "text": "Quel Empereur au corps colossal est surnommé « l'homme le plus fort du monde » et protège Ace ?",
+      "options": [
+        { "id": "a", "label": "Barbe Blanche" },
+        { "id": "b", "label": "Barbe Noire" },
+        { "id": "c", "label": "Kaido" },
+        { "id": "d", "label": "Shanks" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-d10",
+      "difficulty": "dur",
+      "text": "Quel pirate traître, Marshall D. Teach, tue son capitaine et lui vole son pouvoir ?",
+      "options": [
+        { "id": "a", "label": "Barbe Noire" },
+        { "id": "b", "label": "Barbe Blanche" },
+        { "id": "c", "label": "Shanks" },
+        { "id": "d", "label": "Kaido" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-d11",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Comment s'appelle le royaume sous-marin peuplé de sirènes et de tritons, à 10 000 mètres de profondeur ?",
+      "answer": "L'île des Hommes-Poissons"
+    },
+    {
+      "id": "op-d12",
+      "difficulty": "dur",
+      "text": "Quel capitaine surnommé le « chirurgien de la mort » devient un allié de Luffy ?",
+      "options": [
+        { "id": "a", "label": "Law" },
+        { "id": "b", "label": "Kidd" },
+        { "id": "c", "label": "Hawkins" },
+        { "id": "d", "label": "Bonney" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-d13",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Comment s'appelle le style de combat de Sanji, fondé uniquement sur les coups de pied ?",
+      "answer": "La Jambe Noire"
+    },
+    {
+      "id": "op-d14",
+      "difficulty": "dur",
+      "type": "estimation",
+      "text": "À combien de berrys s'élève la toute première prime de Luffy, après l'arc East Blue ?",
+      "answerValue": 30000000,
+      "unit": "berrys",
+      "funFact": "30 millions, une somme déjà énorme pour un débutant."
+    },
+    {
+      "id": "op-d15",
+      "difficulty": "dur",
+      "text": "Comment s'appelle l'agence secrète du Gouvernement Mondial dont les agents maîtrisent le Rokushiki ?",
+      "options": [
+        { "id": "a", "label": "Le CP9" },
+        { "id": "b", "label": "Baroque Works" },
+        { "id": "c", "label": "La Marine" },
+        { "id": "d", "label": "Le Germa" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-d16",
+      "difficulty": "dur",
+      "text": "Quel agent du CP9 à l'allure de léopard affronte Luffy à Enies Lobby ?",
+      "options": [
+        { "id": "a", "label": "Lucci" },
+        { "id": "b", "label": "Kaku" },
+        { "id": "c", "label": "Jabra" },
+        { "id": "d", "label": "Blueno" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-d17",
+      "difficulty": "dur",
+      "text": "Quelle vitesse Luffy atteint-il en accélérant la circulation de son sang, technique révélée à Enies Lobby ?",
+      "options": [
+        { "id": "a", "label": "Le Gear Second" },
+        { "id": "b", "label": "Le Gear Third" },
+        { "id": "c", "label": "Le Gear Fourth" },
+        { "id": "d", "label": "Le Haki Royal" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-d18",
+      "difficulty": "dur",
+      "text": "Comment s'appelle l'île rasée par le Gouvernement pour avoir étudié le Siècle Oublié, patrie de Robin ?",
+      "options": [
+        { "id": "a", "label": "Ohara" },
+        { "id": "b", "label": "Alabasta" },
+        { "id": "c", "label": "Dressrosa" },
+        { "id": "d", "label": "Wano" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-d19",
+      "difficulty": "dur",
+      "text": "Comment appelle-t-on les blocs de pierre indestructibles gravés d'une écriture ancienne que Robin sait lire ?",
+      "options": [
+        { "id": "a", "label": "Les Poneglyphes" },
+        { "id": "b", "label": "Les Escargophones" },
+        { "id": "c", "label": "Les Boussoles" },
+        { "id": "d", "label": "Les Grimoires" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-d20",
+      "difficulty": "dur",
+      "type": "open",
+      "text": "Comment s'appelle l'escargot vivant qui sert de téléphone dans le monde de One Piece ?",
+      "answer": "Le Den Den Mushi",
+      "acceptedAnswers": ["den den mushi", "le den den mushi", "escargophone"]
+    },
+    {
+      "id": "op-d21",
+      "difficulty": "dur",
+      "text": "Quel Empereur hybride, capable de se changer en dragon, règne sur le pays de Wano ?",
+      "options": [
+        { "id": "a", "label": "Kaido" },
+        { "id": "b", "label": "Big Mom" },
+        { "id": "c", "label": "Shanks" },
+        { "id": "d", "label": "Barbe Noire" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-d22",
+      "difficulty": "dur",
+      "text": "Quelle impératrice pirate, l'une des Corsaires, tombe amoureuse de Luffy ?",
+      "options": [
+        { "id": "a", "label": "Boa Hancock" },
+        { "id": "b", "label": "Nico Robin" },
+        { "id": "c", "label": "Big Mom" },
+        { "id": "d", "label": "Bonney" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-d23",
+      "difficulty": "dur",
+      "text": "Comment s'appelle l'île interdite aux hommes, peuplée des guerrières Kuja ?",
+      "options": [
+        { "id": "a", "label": "Amazon Lily" },
+        { "id": "b", "label": "Water Seven" },
+        { "id": "c", "label": "Sabaody" },
+        { "id": "d", "label": "Dressrosa" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-d24",
+      "difficulty": "dur",
+      "text": "Comment s'appelle le grand-père de Luffy, héros légendaire de la Marine ?",
+      "options": [
+        { "id": "a", "label": "Garp" },
+        { "id": "b", "label": "Sengoku" },
+        { "id": "c", "label": "Kong" },
+        { "id": "d", "label": "Dragon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-d25",
+      "difficulty": "dur",
+      "text": "Comment s'appelle le père de Luffy, chef de l'Armée Révolutionnaire ?",
+      "options": [
+        { "id": "a", "label": "Dragon" },
+        { "id": "b", "label": "Garp" },
+        { "id": "c", "label": "Sabo" },
+        { "id": "d", "label": "Roger" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-d26",
+      "difficulty": "dur",
+      "text": "Comment s'appelle l'archipel couvert d'arbres à bulles où les équipages font escale avant la mer sous-marine ?",
+      "options": [
+        { "id": "a", "label": "Sabaody" },
+        { "id": "b", "label": "Jaya" },
+        { "id": "c", "label": "Water Seven" },
+        { "id": "d", "label": "Thriller Bark" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-d27",
+      "difficulty": "dur",
+      "text": "Quel capitaine au bras mécanique et à la grande prime dirige un équipage rival, ennemi de Kaido ?",
+      "options": [
+        { "id": "a", "label": "Kidd" },
+        { "id": "b", "label": "Law" },
+        { "id": "c", "label": "Hawkins" },
+        { "id": "d", "label": "Killer" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-d28",
+      "difficulty": "dur",
+      "type": "ordre",
+      "text": "Classe ces compagnons dans l'ordre où ils rejoignent l'équipage de Luffy.",
+      "items": [
+        { "id": "z", "label": "Zoro" },
+        { "id": "n", "label": "Nami" },
+        { "id": "u", "label": "Usopp" },
+        { "id": "s", "label": "Sanji" }
+      ],
+      "funFact": "Zoro est le tout premier à embarquer, dès l'East Blue."
+    },
+    {
+      "id": "op-d29",
+      "difficulty": "dur",
+      "text": "Quel royaume désertique, gouverné par le roi Cobra, Crocodile cherche-t-il à renverser ?",
+      "options": [
+        { "id": "a", "label": "Alabasta" },
+        { "id": "b", "label": "Dressrosa" },
+        { "id": "c", "label": "Wano" },
+        { "id": "d", "label": "Drum" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-d30",
+      "difficulty": "dur",
+      "text": "Sur quelle île hantée en forme de manoir flottant Brook rejoint-il l'équipage ?",
+      "options": [
+        { "id": "a", "label": "Thriller Bark" },
+        { "id": "b", "label": "Water Seven" },
+        { "id": "c", "label": "Enies Lobby" },
+        { "id": "d", "label": "Sabaody" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-p1",
+      "difficulty": "pro",
+      "text": "Dans quel magazine hebdomadaire One Piece est-il prépublié au Japon ?",
+      "options": [
+        { "id": "a", "label": "Weekly Shonen Jump" },
+        { "id": "b", "label": "Weekly Shonen Magazine" },
+        { "id": "c", "label": "Monthly Shonen Gangan" },
+        { "id": "d", "label": "Weekly Young Jump" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-p2",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Selon une révélation tardive, quel guerrier-dieu légendaire le fruit de Luffy incarne-t-il ?",
+      "answer": "Nika",
+      "funFact": "Son vrai fruit serait le Hito Hito no Mi, modèle Nika."
+    },
+    {
+      "id": "op-p3",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel est le nom complet du capitaine au chapeau de paille ?",
+      "answer": "Monkey D. Luffy"
+    },
+    {
+      "id": "op-p4",
+      "difficulty": "pro",
+      "text": "Quel commandant de la première flotte de Barbe Blanche possède le pouvoir du phénix ?",
+      "options": [
+        { "id": "a", "label": "Marco" },
+        { "id": "b", "label": "Ace" },
+        { "id": "c", "label": "Jozu" },
+        { "id": "d", "label": "Vista" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-p5",
+      "difficulty": "pro",
+      "text": "Comment s'appelle le sabre blanc de Zoro, hérité de son amie d'enfance Kuina ?",
+      "options": [
+        { "id": "a", "label": "Le Wado Ichimonji" },
+        { "id": "b", "label": "Le Sandai Kitetsu" },
+        { "id": "c", "label": "Le Shusui" },
+        { "id": "d", "label": "L'Enma" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-p6",
+      "difficulty": "pro",
+      "text": "Comment s'appelle le sabre maudit que Zoro obtient à Loguetown ?",
+      "options": [
+        { "id": "a", "label": "Le Sandai Kitetsu" },
+        { "id": "b", "label": "Le Wado Ichimonji" },
+        { "id": "c", "label": "Le Shusui" },
+        { "id": "d", "label": "L'Enma" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-p7",
+      "difficulty": "pro",
+      "text": "Quel second de Gold Roger, surnommé le « Seigneur des Ténèbres », entraîne Luffy à Sabaody ?",
+      "options": [
+        { "id": "a", "label": "Rayleigh" },
+        { "id": "b", "label": "Shanks" },
+        { "id": "c", "label": "Garp" },
+        { "id": "d", "label": "Sengoku" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-p8",
+      "difficulty": "pro",
+      "text": "Comment s'appelle le royaume céleste atteint par un puissant courant marin ascendant ?",
+      "options": [
+        { "id": "a", "label": "Skypiea" },
+        { "id": "b", "label": "Zou" },
+        { "id": "c", "label": "Wano" },
+        { "id": "d", "label": "Jaya" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-p9",
+      "difficulty": "pro",
+      "text": "Quel « dieu » tyrannique règne sur le royaume céleste avec le pouvoir de la foudre ?",
+      "options": [
+        { "id": "a", "label": "Ener" },
+        { "id": "b", "label": "Wiper" },
+        { "id": "c", "label": "Gan Fall" },
+        { "id": "d", "label": "Shura" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-p10",
+      "difficulty": "pro",
+      "text": "Comment s'appelle l'éléphant géant millénaire qui porte le pays de Zou sur son dos ?",
+      "options": [
+        { "id": "a", "label": "Zunisha" },
+        { "id": "b", "label": "Momonosuke" },
+        { "id": "c", "label": "Zeus" },
+        { "id": "d", "label": "Onigashima" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-p11",
+      "difficulty": "pro",
+      "text": "Comment surnomme-t-on Charlotte Linlin, l'Empereur qui règne sur Totto Land ?",
+      "options": [
+        { "id": "a", "label": "Big Mom" },
+        { "id": "b", "label": "Boa Hancock" },
+        { "id": "c", "label": "Nico Robin" },
+        { "id": "d", "label": "Nami" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-p12",
+      "difficulty": "pro",
+      "text": "Comment s'appelle le pays isolé inspiré du Japon féodal, théâtre du grand affrontement contre Kaido ?",
+      "options": [
+        { "id": "a", "label": "Wano" },
+        { "id": "b", "label": "Zou" },
+        { "id": "c", "label": "Skypiea" },
+        { "id": "d", "label": "Dressrosa" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-p13",
+      "difficulty": "pro",
+      "text": "Quel jeune héritier, capable de se changer en dragon, est le fils de Kozuki Oden ?",
+      "options": [
+        { "id": "a", "label": "Momonosuke" },
+        { "id": "b", "label": "Kin'emon" },
+        { "id": "c", "label": "Kanjuro" },
+        { "id": "d", "label": "Raizo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-p14",
+      "difficulty": "pro",
+      "text": "Quel légendaire samouraï de Wano a navigué avec Gold Roger puis Barbe Blanche ?",
+      "options": [
+        { "id": "a", "label": "Kozuki Oden" },
+        { "id": "b", "label": "Kin'emon" },
+        { "id": "c", "label": "Momonosuke" },
+        { "id": "d", "label": "Yamato" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-p15",
+      "difficulty": "pro",
+      "text": "Comment s'appelle l'enfant de Kaido qui se revendique comme le fils d'Oden et se joint aux héros ?",
+      "options": [
+        { "id": "a", "label": "Yamato" },
+        { "id": "b", "label": "Momonosuke" },
+        { "id": "c", "label": "Kin'emon" },
+        { "id": "d", "label": "Ulti" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-p16",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel élément Ace peut-il produire et devenir grâce à son fruit du démon logia ?",
+      "answer": "Le feu"
+    },
+    {
+      "id": "op-p17",
+      "difficulty": "pro",
+      "text": "Qui remporte le fruit du démon du feu lors du tournoi de Dressrosa ?",
+      "options": [
+        { "id": "a", "label": "Sabo" },
+        { "id": "b", "label": "Luffy" },
+        { "id": "c", "label": "Law" },
+        { "id": "d", "label": "Zoro" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-p18",
+      "difficulty": "pro",
+      "text": "Comment s'appelle le grand sabre suprême d'Oden dont Zoro hérite à Wano ?",
+      "options": [
+        { "id": "a", "label": "Enma" },
+        { "id": "b", "label": "Shusui" },
+        { "id": "c", "label": "Wado Ichimonji" },
+        { "id": "d", "label": "Sandai Kitetsu" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-p19",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien de membres compte l'équipage au Chapeau de Paille une fois Jinbe intégré ?",
+      "answerValue": 10,
+      "unit": "membres"
+    },
+    {
+      "id": "op-p20",
+      "difficulty": "pro",
+      "text": "Comment s'appelle le style de sabre à trois lames que pratique Zoro ?",
+      "options": [
+        { "id": "a", "label": "Le Santoryu" },
+        { "id": "b", "label": "Le Nitoryu" },
+        { "id": "c", "label": "L'Ittoryu" },
+        { "id": "d", "label": "Le Rokushiki" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-p21",
+      "difficulty": "pro",
+      "text": "Quelle technique du Rokushiki permet aux agents du CP9 de bondir et courir dans les airs ?",
+      "options": [
+        { "id": "a", "label": "Le Geppo" },
+        { "id": "b", "label": "Le Soru" },
+        { "id": "c", "label": "Le Tekkai" },
+        { "id": "d", "label": "Le Shigan" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-p22",
+      "difficulty": "pro",
+      "text": "Quel amiral aveugle au pouvoir de gravité rejoint la Marine après Punk Hazard ?",
+      "options": [
+        { "id": "a", "label": "Fujitora" },
+        { "id": "b", "label": "Akainu" },
+        { "id": "c", "label": "Kizaru" },
+        { "id": "d", "label": "Aokiji" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-p23",
+      "difficulty": "pro",
+      "text": "Quel savant fou gazeux mène des expériences interdites sur l'île de Punk Hazard ?",
+      "options": [
+        { "id": "a", "label": "Caesar Clown" },
+        { "id": "b", "label": "Vegapunk" },
+        { "id": "c", "label": "Judge" },
+        { "id": "d", "label": "Queen" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-p24",
+      "difficulty": "pro",
+      "text": "Quel génie scientifique du Gouvernement Mondial a conçu les Pacifista ?",
+      "options": [
+        { "id": "a", "label": "Vegapunk" },
+        { "id": "b", "label": "Caesar Clown" },
+        { "id": "c", "label": "Judge" },
+        { "id": "d", "label": "Queen" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-p25",
+      "difficulty": "pro",
+      "text": "De quel royaume de tueurs génétiquement modifiés Sanji est-il un prince en fuite ?",
+      "options": [
+        { "id": "a", "label": "Le Germa 66" },
+        { "id": "b", "label": "L'Alabasta" },
+        { "id": "c", "label": "Le Wano" },
+        { "id": "d", "label": "Le Dressrosa" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-p26",
+      "difficulty": "pro",
+      "text": "Comment s'appelle le père tyrannique de Sanji, chef du Germa 66 ?",
+      "options": [
+        { "id": "a", "label": "Judge" },
+        { "id": "b", "label": "Zeff" },
+        { "id": "c", "label": "Vegapunk" },
+        { "id": "d", "label": "Caesar" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-p27",
+      "difficulty": "pro",
+      "text": "Quel cuisinier borgne à la jambe de bois a formé Sanji et tient le restaurant Baratie ?",
+      "options": [
+        { "id": "a", "label": "Zeff" },
+        { "id": "b", "label": "Judge" },
+        { "id": "c", "label": "Patty" },
+        { "id": "d", "label": "Carne" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-p28",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien d'années dure l'ellipse (le saut dans le temps) après la guerre au sommet ?",
+      "answerValue": 2,
+      "unit": "ans"
+    },
+    {
+      "id": "op-p29",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on le drapeau à tête de mort qu'arbore chaque équipage pirate ?",
+      "answer": "Le Jolly Roger"
+    },
+    {
+      "id": "op-p30",
+      "difficulty": "pro",
+      "text": "Quel instrument-boussole spécial est indispensable pour naviguer sur Grand Line ?",
+      "options": [
+        { "id": "a", "label": "Le Log Pose" },
+        { "id": "b", "label": "Le compas" },
+        { "id": "c", "label": "Le sextant" },
+        { "id": "d", "label": "L'astrolabe" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-p31",
+      "difficulty": "pro",
+      "text": "Comment se nomme l'équipage rival dirigé par Eustass Kid ?",
+      "options": [
+        { "id": "a", "label": "Les Kid Pirates" },
+        { "id": "b", "label": "Les Heart Pirates" },
+        { "id": "c", "label": "Les Beasts Pirates" },
+        { "id": "d", "label": "Les Roger Pirates" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-p32",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel Corsaire à l'apparence d'ours, ancien révolutionnaire, est transformé en cyborg par le Gouvernement ?",
+      "answer": "Bartholomew Kuma"
+    },
+    {
+      "id": "op-p33",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel animal de feu légendaire Marco peut-il devenir grâce à son fruit du démon ?",
+      "answer": "Le phénix"
+    },
+    {
+      "id": "op-p34",
+      "difficulty": "pro",
+      "text": "Comment s'appelle la première moitié de Grand Line, avant la Red Line ?",
+      "options": [
+        { "id": "a", "label": "Paradise" },
+        { "id": "b", "label": "Nouveau Monde" },
+        { "id": "c", "label": "East Blue" },
+        { "id": "d", "label": "Calm Belt" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-p35",
+      "difficulty": "pro",
+      "text": "Comment appelle-t-on la seconde moitié de Grand Line, au-delà de la Red Line ?",
+      "options": [
+        { "id": "a", "label": "Le Nouveau Monde" },
+        { "id": "b", "label": "Le Paradis" },
+        { "id": "c", "label": "L'East Blue" },
+        { "id": "d", "label": "La Calm Belt" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-p36",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel type de fruit du démon Chopper a-t-il mangé pour acquérir une intelligence et une forme humaines ?",
+      "answer": "Le Hito Hito no Mi"
+    },
+    {
+      "id": "op-p37",
+      "difficulty": "pro",
+      "text": "Quel est le véritable nom de l'Empereur surnommé Barbe Blanche ?",
+      "options": [
+        { "id": "a", "label": "Edward Newgate" },
+        { "id": "b", "label": "Marshall Teach" },
+        { "id": "c", "label": "Silvers Rayleigh" },
+        { "id": "d", "label": "Charlotte Linlin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-p38",
+      "difficulty": "pro",
+      "text": "Comment s'appelle la forteresse-île de Kaido où se déroule la bataille finale de Wano ?",
+      "options": [
+        { "id": "a", "label": "Onigashima" },
+        { "id": "b", "label": "Zunisha" },
+        { "id": "c", "label": "Enies Lobby" },
+        { "id": "d", "label": "Marine Ford" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-p39",
+      "difficulty": "pro",
+      "text": "Quel troisième frère juré de Luffy et Ace devient chef d'état-major de l'Armée Révolutionnaire ?",
+      "options": [
+        { "id": "a", "label": "Sabo" },
+        { "id": "b", "label": "Law" },
+        { "id": "c", "label": "Marco" },
+        { "id": "d", "label": "Koby" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "op-p40",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien de Poneglyphes rouges (Road Poneglyphs) faut-il réunir pour localiser l'île du trésor final ?",
+      "answerValue": 4,
+      "unit": "poneglyphes"
+    }
+  ]
+}
