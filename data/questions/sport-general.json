@@ -1,0 +1,1140 @@
+{
+  "universeId": "sport-general",
+  "questions": [
+    {
+      "id": "sport-f1",
+      "difficulty": "facile",
+      "type": "estimation",
+      "text": "Combien de joueurs composent une équipe de football sur le terrain ?",
+      "answerValue": 11,
+      "unit": "joueurs"
+    },
+    {
+      "id": "sport-f2",
+      "difficulty": "facile",
+      "text": "Dans quel sport marque-t-on des « paniers » ?",
+      "options": [
+        { "id": "a", "label": "Le basket-ball" },
+        { "id": "b", "label": "Le football" },
+        { "id": "c", "label": "Le tennis" },
+        { "id": "d", "label": "Le rugby" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-f3",
+      "difficulty": "facile",
+      "text": "Quel sport se joue avec une raquette et une balle jaune, à Roland-Garros ?",
+      "options": [
+        { "id": "a", "label": "Le tennis" },
+        { "id": "b", "label": "Le badminton" },
+        { "id": "c", "label": "Le squash" },
+        { "id": "d", "label": "Le padel" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-f4",
+      "difficulty": "facile",
+      "text": "Dans quel sport marque-t-on un « essai » ?",
+      "options": [
+        { "id": "a", "label": "Le rugby" },
+        { "id": "b", "label": "Le football" },
+        { "id": "c", "label": "Le basket" },
+        { "id": "d", "label": "Le hand" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-f5",
+      "difficulty": "facile",
+      "type": "buzzer",
+      "text": "Quelle course cycliste de trois semaines a lieu dans l'Hexagone chaque mois de juillet ?",
+      "answer": "Le Tour de France"
+    },
+    {
+      "id": "sport-f6",
+      "difficulty": "facile",
+      "type": "estimation",
+      "text": "Tous les combien d'années ont lieu les Jeux olympiques d'été ?",
+      "answerValue": 4,
+      "unit": "ans"
+    },
+    {
+      "id": "sport-f7",
+      "difficulty": "facile",
+      "text": "Dans quelle discipline d'athlétisme Usain Bolt est-il une légende ?",
+      "options": [
+        { "id": "a", "label": "Le sprint" },
+        { "id": "b", "label": "Le lancer" },
+        { "id": "c", "label": "Le saut" },
+        { "id": "d", "label": "Le marathon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-f8",
+      "difficulty": "facile",
+      "text": "Quel sport pratique-t-on dans une piscine, en enchaînant des longueurs ?",
+      "options": [
+        { "id": "a", "label": "La natation" },
+        { "id": "b", "label": "L'aviron" },
+        { "id": "c", "label": "La voile" },
+        { "id": "d", "label": "Le plongeon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-f9",
+      "difficulty": "facile",
+      "type": "estimation",
+      "text": "Combien de points vaut un panier tiré derrière la ligne à trois points au basket ?",
+      "answerValue": 3,
+      "unit": "points"
+    },
+    {
+      "id": "sport-f10",
+      "difficulty": "facile",
+      "text": "Dans quel sport utilise-t-on un ballon ovale ?",
+      "options": [
+        { "id": "a", "label": "Le rugby" },
+        { "id": "b", "label": "Le football" },
+        { "id": "c", "label": "Le volley" },
+        { "id": "d", "label": "Le tennis" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-m1",
+      "difficulty": "moyen",
+      "text": "Quel pays a remporté la Coupe du monde de football 2018 ?",
+      "options": [
+        { "id": "a", "label": "La France" },
+        { "id": "b", "label": "La Croatie" },
+        { "id": "c", "label": "Le Brésil" },
+        { "id": "d", "label": "L'Allemagne" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-m2",
+      "difficulty": "moyen",
+      "text": "Quel joueur argentin, surnommé « la Pulga », a remporté la Coupe du monde 2022 ?",
+      "options": [
+        { "id": "a", "label": "Lionel Messi" },
+        { "id": "b", "label": "Cristiano Ronaldo" },
+        { "id": "c", "label": "Kylian Mbappé" },
+        { "id": "d", "label": "Neymar Jr" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-m3",
+      "difficulty": "moyen",
+      "text": "Quel footballeur portugais a joué au Real Madrid puis à la Juventus, cinq fois Ballon d'or ?",
+      "options": [
+        { "id": "a", "label": "Cristiano Ronaldo" },
+        { "id": "b", "label": "Lionel Messi" },
+        { "id": "c", "label": "Kylian Mbappé" },
+        { "id": "d", "label": "Neymar Jr" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-m4",
+      "difficulty": "moyen",
+      "text": "Quel attaquant français, champion du monde 2018, a rejoint le Real Madrid en 2025 ?",
+      "options": [
+        { "id": "a", "label": "Kylian Mbappé" },
+        { "id": "b", "label": "Antoine Griezmann" },
+        { "id": "c", "label": "Karim Benzema" },
+        { "id": "d", "label": "Paul Pogba" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-m5",
+      "difficulty": "moyen",
+      "text": "Quel tournoi du Grand Chelem de tennis se joue sur gazon à Londres ?",
+      "options": [
+        { "id": "a", "label": "Wimbledon" },
+        { "id": "b", "label": "Roland-Garros" },
+        { "id": "c", "label": "US Open" },
+        { "id": "d", "label": "Masters" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-m6",
+      "difficulty": "moyen",
+      "text": "Sur quelle surface se joue le tournoi de tennis de Roland-Garros ?",
+      "options": [
+        { "id": "a", "label": "La terre battue" },
+        { "id": "b", "label": "Le gazon vert" },
+        { "id": "c", "label": "Le ciment dur" },
+        { "id": "d", "label": "La glace lisse" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-m7",
+      "difficulty": "moyen",
+      "text": "Quel joueur suisse a remporté 20 titres du Grand Chelem en tennis ?",
+      "options": [
+        { "id": "a", "label": "Roger Federer" },
+        { "id": "b", "label": "Rafael Nadal" },
+        { "id": "c", "label": "Novak Djokovic" },
+        { "id": "d", "label": "Andy Murray" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-m8",
+      "difficulty": "moyen",
+      "text": "Quel joueur espagnol est surnommé « le roi de la terre battue » ?",
+      "options": [
+        { "id": "a", "label": "Rafael Nadal" },
+        { "id": "b", "label": "Roger Federer" },
+        { "id": "c", "label": "Novak Djokovic" },
+        { "id": "d", "label": "Andy Murray" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-m9",
+      "difficulty": "moyen",
+      "text": "Quelle star américaine du basket, des Chicago Bulls, portait le numéro 23 ?",
+      "options": [
+        { "id": "a", "label": "Michael Jordan" },
+        { "id": "b", "label": "LeBron James" },
+        { "id": "c", "label": "Kobe Bryant" },
+        { "id": "d", "label": "Magic Johnson" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-m10",
+      "difficulty": "moyen",
+      "text": "Dans quel sport les Chicago Bulls, Lakers et Celtics s'affrontent-ils en NBA ?",
+      "options": [
+        { "id": "a", "label": "Le basket-ball" },
+        { "id": "b", "label": "Le baseball" },
+        { "id": "c", "label": "Le hockey" },
+        { "id": "d", "label": "Le rugby" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-m11",
+      "difficulty": "moyen",
+      "text": "Quel pilote allemand a dominé la Formule 1 avec Ferrari au début des années 2000 ?",
+      "options": [
+        { "id": "a", "label": "Michael Schumacher" },
+        { "id": "b", "label": "Sebastian Vettel" },
+        { "id": "c", "label": "Nico Rosberg" },
+        { "id": "d", "label": "Ralf Schumacher" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-m12",
+      "difficulty": "moyen",
+      "text": "Quel pilote britannique a égalé le record de 7 titres de F1 chez Mercedes ?",
+      "options": [
+        { "id": "a", "label": "Lewis Hamilton" },
+        { "id": "b", "label": "Michael Schumacher" },
+        { "id": "c", "label": "Ayrton Senna" },
+        { "id": "d", "label": "Max Verstappen" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-m13",
+      "difficulty": "moyen",
+      "text": "Quel art martial japonais se pratique sur un tatami avec des ceintures de couleur ?",
+      "options": [
+        { "id": "a", "label": "Le judo" },
+        { "id": "b", "label": "La boxe" },
+        { "id": "c", "label": "L'escrime" },
+        { "id": "d", "label": "La lutte" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-m14",
+      "difficulty": "moyen",
+      "type": "estimation",
+      "text": "Combien de trous compte un parcours de golf standard complet ?",
+      "answerValue": 18,
+      "unit": "trous"
+    },
+    {
+      "id": "sport-m15",
+      "difficulty": "moyen",
+      "text": "Dans quel club Lionel Messi a-t-il joué pendant plus de quinze ans en Espagne ?",
+      "options": [
+        { "id": "a", "label": "Le Barça" },
+        { "id": "b", "label": "Le Real" },
+        { "id": "c", "label": "L'Atlético" },
+        { "id": "d", "label": "Le Séville" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-m16",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quelle compétition annuelle sacre le meilleur club de football d'Europe ?",
+      "answer": "La Ligue des Champions"
+    },
+    {
+      "id": "sport-m17",
+      "difficulty": "moyen",
+      "text": "Dans quel sport pratique-t-on le service, le smash et le lift ?",
+      "options": [
+        { "id": "a", "label": "Le tennis" },
+        { "id": "b", "label": "Le rugby" },
+        { "id": "c", "label": "Le football" },
+        { "id": "d", "label": "Le judo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-m18",
+      "difficulty": "moyen",
+      "text": "Quel sport d'hiver consiste à descendre une piste enneigée sur deux planches ?",
+      "options": [
+        { "id": "a", "label": "Le ski" },
+        { "id": "b", "label": "Le patinage" },
+        { "id": "c", "label": "Le hockey" },
+        { "id": "d", "label": "Le curling" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-m19",
+      "difficulty": "moyen",
+      "text": "Quel nageur américain a remporté 23 médailles d'or olympiques au cours de sa carrière ?",
+      "options": [
+        { "id": "a", "label": "Michael Phelps" },
+        { "id": "b", "label": "Mark Spitz" },
+        { "id": "c", "label": "Ian Thorpe" },
+        { "id": "d", "label": "Caeleb Dressel" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-m20",
+      "difficulty": "moyen",
+      "type": "estimation",
+      "text": "En quelle année la France a-t-elle remporté sa première Coupe du monde de football ?",
+      "answerValue": 1998,
+      "unit": ""
+    },
+    {
+      "id": "sport-d1",
+      "difficulty": "dur",
+      "text": "Quel pays a remporté le plus de Coupes du monde de football, avec cinq titres ?",
+      "options": [
+        { "id": "a", "label": "Le Brésil" },
+        { "id": "b", "label": "L'Allemagne" },
+        { "id": "c", "label": "L'Italie" },
+        { "id": "d", "label": "L'Argentine" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-d2",
+      "difficulty": "dur",
+      "text": "Quel joueur brésilien, triple champion du monde, est surnommé le roi du football ?",
+      "options": [
+        { "id": "a", "label": "Pelé" },
+        { "id": "b", "label": "Ronaldo" },
+        { "id": "c", "label": "Ronaldinho" },
+        { "id": "d", "label": "Zico" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-d3",
+      "difficulty": "dur",
+      "text": "Quel joueur argentin a marqué le but de « la main de Dieu » en 1986 ?",
+      "options": [
+        { "id": "a", "label": "Diego Maradona" },
+        { "id": "b", "label": "Lionel Messi" },
+        { "id": "c", "label": "Gabriel Batistuta" },
+        { "id": "d", "label": "Mario Kempes" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-d4",
+      "difficulty": "dur",
+      "text": "Quel joueur français a marqué deux buts de la tête en finale de la Coupe du monde 1998 ?",
+      "options": [
+        { "id": "a", "label": "Zinédine Zidane" },
+        { "id": "b", "label": "Thierry Henry" },
+        { "id": "c", "label": "Emmanuel Petit" },
+        { "id": "d", "label": "Youri Djorkaeff" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-d5",
+      "difficulty": "dur",
+      "text": "Quel capitaine a soulevé la Coupe du monde 1998, aujourd'hui sélectionneur des Bleus ?",
+      "options": [
+        { "id": "a", "label": "Didier Deschamps" },
+        { "id": "b", "label": "Zinédine Zidane" },
+        { "id": "c", "label": "Marcel Desailly" },
+        { "id": "d", "label": "Laurent Blanc" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-d6",
+      "difficulty": "dur",
+      "text": "Quel sprinteur jamaïcain détient le record du monde du 100 mètres ?",
+      "options": [
+        { "id": "a", "label": "Usain Bolt" },
+        { "id": "b", "label": "Carl Lewis" },
+        { "id": "c", "label": "Justin Gatlin" },
+        { "id": "d", "label": "Yohan Blake" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-d7",
+      "difficulty": "dur",
+      "text": "Quelle épreuve d'athlétisme mesure exactement 42,195 kilomètres ?",
+      "options": [
+        { "id": "a", "label": "Le marathon" },
+        { "id": "b", "label": "Le sprint" },
+        { "id": "c", "label": "Le triathlon" },
+        { "id": "d", "label": "Le décathlon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-d8",
+      "difficulty": "dur",
+      "type": "estimation",
+      "text": "Combien de joueurs composent une équipe de rugby à XV sur le terrain ?",
+      "answerValue": 15,
+      "unit": "joueurs"
+    },
+    {
+      "id": "sport-d9",
+      "difficulty": "dur",
+      "text": "Quelle équipe nationale de rugby est surnommée « les All Blacks » ?",
+      "options": [
+        { "id": "a", "label": "La Nouvelle-Zélande" },
+        { "id": "b", "label": "L'Australie" },
+        { "id": "c", "label": "L'Angleterre" },
+        { "id": "d", "label": "L'Argentine" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-d10",
+      "difficulty": "dur",
+      "text": "Quel tournoi du Grand Chelem se joue à New York, dernier de la saison ?",
+      "options": [
+        { "id": "a", "label": "US Open" },
+        { "id": "b", "label": "Wimbledon" },
+        { "id": "c", "label": "Roland-Garros" },
+        { "id": "d", "label": "Melbourne" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-d11",
+      "difficulty": "dur",
+      "text": "Quel joueur serbe a battu le record de titres du Grand Chelem masculin ?",
+      "options": [
+        { "id": "a", "label": "Novak Djokovic" },
+        { "id": "b", "label": "Roger Federer" },
+        { "id": "c", "label": "Rafael Nadal" },
+        { "id": "d", "label": "Andy Murray" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-d12",
+      "difficulty": "dur",
+      "text": "Quelle joueuse américaine a dominé le tennis féminin avec 23 titres du Grand Chelem ?",
+      "options": [
+        { "id": "a", "label": "Serena Williams" },
+        { "id": "b", "label": "Venus Williams" },
+        { "id": "c", "label": "Steffi Graf" },
+        { "id": "d", "label": "Martina Navratilova" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-d13",
+      "difficulty": "dur",
+      "text": "Quel basketteur surnommé « King », dossard 23 ou 6, a joué à Cleveland, Miami et aux Lakers ?",
+      "options": [
+        { "id": "a", "label": "LeBron James" },
+        { "id": "b", "label": "Michael Jordan" },
+        { "id": "c", "label": "Kobe Bryant" },
+        { "id": "d", "label": "Stephen Curry" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-d14",
+      "difficulty": "dur",
+      "text": "Quel basketteur des Lakers, mort en 2020, portait les numéros 8 et 24 ?",
+      "options": [
+        { "id": "a", "label": "Kobe Bryant" },
+        { "id": "b", "label": "LeBron James" },
+        { "id": "c", "label": "Michael Jordan" },
+        { "id": "d", "label": "Shaquille O'Neal" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-d15",
+      "difficulty": "dur",
+      "text": "Quel pilote brésilien de F1, triple champion, est mort à Imola en 1994 ?",
+      "options": [
+        { "id": "a", "label": "Ayrton Senna" },
+        { "id": "b", "label": "Michael Schumacher" },
+        { "id": "c", "label": "Alain Prost" },
+        { "id": "d", "label": "Nelson Piquet" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-d16",
+      "difficulty": "dur",
+      "text": "Quel pilote néerlandais domine la Formule 1 depuis 2021 chez Red Bull ?",
+      "options": [
+        { "id": "a", "label": "Max Verstappen" },
+        { "id": "b", "label": "Lewis Hamilton" },
+        { "id": "c", "label": "Charles Leclerc" },
+        { "id": "d", "label": "Sergio Pérez" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-d17",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quelle course automobile d'endurance, dans la Sarthe, dure une journée entière sans interruption ?",
+      "answer": "Les 24 Heures du Mans"
+    },
+    {
+      "id": "sport-d18",
+      "difficulty": "dur",
+      "type": "open",
+      "text": "Quel boxeur américain, « The Greatest », a remporté trois fois le titre mondial des poids lourds ?",
+      "answer": "Mohamed Ali",
+      "acceptedAnswers": ["mohamed ali", "muhammad ali", "ali", "cassius clay"]
+    },
+    {
+      "id": "sport-d19",
+      "difficulty": "dur",
+      "text": "Quel boxeur américain surnommé « Iron » fut le plus jeune champion du monde des poids lourds ?",
+      "options": [
+        { "id": "a", "label": "Mike Tyson" },
+        { "id": "b", "label": "Mohamed Ali" },
+        { "id": "c", "label": "Floyd Mayweather" },
+        { "id": "d", "label": "Evander Holyfield" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-d20",
+      "difficulty": "dur",
+      "type": "estimation",
+      "text": "Combien de médailles d'or Michael Phelps a-t-il remportées aux Jeux olympiques ?",
+      "answerValue": 23,
+      "unit": "médailles"
+    },
+    {
+      "id": "sport-d21",
+      "difficulty": "dur",
+      "text": "De quelle couleur est le maillot du leader du classement général du Tour de France ?",
+      "options": [
+        { "id": "a", "label": "Jaune" },
+        { "id": "b", "label": "Vert" },
+        { "id": "c", "label": "Blanc" },
+        { "id": "d", "label": "Rouge" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-d22",
+      "difficulty": "dur",
+      "text": "Quel cycliste américain a été déchu de ses sept victoires sur le Tour pour dopage ?",
+      "options": [
+        { "id": "a", "label": "Lance Armstrong" },
+        { "id": "b", "label": "Greg LeMond" },
+        { "id": "c", "label": "Eddy Merckx" },
+        { "id": "d", "label": "Bernard Hinault" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-d23",
+      "difficulty": "dur",
+      "text": "Quel cycliste belge, « le Cannibale », a remporté cinq Tours de France ?",
+      "options": [
+        { "id": "a", "label": "Eddy Merckx" },
+        { "id": "b", "label": "Bernard Hinault" },
+        { "id": "c", "label": "Miguel Indurain" },
+        { "id": "d", "label": "Chris Froome" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-d24",
+      "difficulty": "dur",
+      "text": "Quel sport combine natation, cyclisme et course à pied à la suite ?",
+      "options": [
+        { "id": "a", "label": "Le triathlon" },
+        { "id": "b", "label": "Le décathlon" },
+        { "id": "c", "label": "Le pentathlon" },
+        { "id": "d", "label": "Le biathlon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-d25",
+      "difficulty": "dur",
+      "text": "Quel sport d'hiver combine ski de fond et tir à la carabine ?",
+      "options": [
+        { "id": "a", "label": "Le biathlon" },
+        { "id": "b", "label": "Le curling" },
+        { "id": "c", "label": "Le bobsleigh" },
+        { "id": "d", "label": "Le patinage" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-d26",
+      "difficulty": "dur",
+      "text": "Quelle ville a accueilli les Jeux olympiques d'été de 2024 ?",
+      "options": [
+        { "id": "a", "label": "Paris" },
+        { "id": "b", "label": "Tokyo" },
+        { "id": "c", "label": "Londres" },
+        { "id": "d", "label": "Rio" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-d27",
+      "difficulty": "dur",
+      "text": "Quelle ville américaine accueillera les Jeux olympiques d'été de 2028 ?",
+      "options": [
+        { "id": "a", "label": "Los Angeles" },
+        { "id": "b", "label": "Paris" },
+        { "id": "c", "label": "Brisbane" },
+        { "id": "d", "label": "Tokyo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-d28",
+      "difficulty": "dur",
+      "type": "estimation",
+      "text": "Combien d'anneaux figurent sur le drapeau olympique ?",
+      "answerValue": 5,
+      "unit": "anneaux"
+    },
+    {
+      "id": "sport-d29",
+      "difficulty": "dur",
+      "type": "ordre",
+      "text": "Classe ces sports par nombre de joueurs par équipe sur le terrain, du moins au plus nombreux.",
+      "items": [
+        { "id": "1", "label": "Basket (5)" },
+        { "id": "2", "label": "Volley (6)" },
+        { "id": "3", "label": "Football (11)" },
+        { "id": "4", "label": "Rugby à XV (15)" }
+      ]
+    },
+    {
+      "id": "sport-d30",
+      "difficulty": "dur",
+      "text": "Quel club anglais est surnommé « les Red Devils » ?",
+      "options": [
+        { "id": "a", "label": "Manchester United" },
+        { "id": "b", "label": "Liverpool" },
+        { "id": "c", "label": "Arsenal" },
+        { "id": "d", "label": "Chelsea" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p1",
+      "difficulty": "pro",
+      "text": "Quel pays a remporté la toute première Coupe du monde de football en 1930 ?",
+      "options": [
+        { "id": "a", "label": "L'Uruguay" },
+        { "id": "b", "label": "Le Brésil" },
+        { "id": "c", "label": "L'Italie" },
+        { "id": "d", "label": "L'Argentine" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p2",
+      "difficulty": "pro",
+      "text": "Dans quel pays s'est déroulée la Coupe du monde de football 2022 ?",
+      "options": [
+        { "id": "a", "label": "Le Qatar" },
+        { "id": "b", "label": "La Russie" },
+        { "id": "c", "label": "Le Brésil" },
+        { "id": "d", "label": "Le Japon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p3",
+      "difficulty": "pro",
+      "text": "Quel attaquant français a remporté le Ballon d'or 2022 ?",
+      "options": [
+        { "id": "a", "label": "Karim Benzema" },
+        { "id": "b", "label": "Kylian Mbappé" },
+        { "id": "c", "label": "Antoine Griezmann" },
+        { "id": "d", "label": "Olivier Giroud" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p4",
+      "difficulty": "pro",
+      "text": "Quel entraîneur français a mené les Bleus à deux finales de Coupe du monde d'affilée ?",
+      "options": [
+        { "id": "a", "label": "Didier Deschamps" },
+        { "id": "b", "label": "Zinédine Zidane" },
+        { "id": "c", "label": "Aimé Jacquet" },
+        { "id": "d", "label": "Raymond Domenech" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p5",
+      "difficulty": "pro",
+      "text": "Quel sélectionneur a mené la France au titre mondial en 1998 ?",
+      "options": [
+        { "id": "a", "label": "Aimé Jacquet" },
+        { "id": "b", "label": "Didier Deschamps" },
+        { "id": "c", "label": "Roger Lemerre" },
+        { "id": "d", "label": "Raymond Domenech" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p6",
+      "difficulty": "pro",
+      "text": "Quel club a remporté le plus de Ligues des Champions ?",
+      "options": [
+        { "id": "a", "label": "Le Real Madrid" },
+        { "id": "b", "label": "Le Milan AC" },
+        { "id": "c", "label": "Le Bayern Munich" },
+        { "id": "d", "label": "Le FC Barcelone" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p7",
+      "difficulty": "pro",
+      "text": "Quel joueur détient le record de buts en équipe de France masculine ?",
+      "options": [
+        { "id": "a", "label": "Olivier Giroud" },
+        { "id": "b", "label": "Thierry Henry" },
+        { "id": "c", "label": "Michel Platini" },
+        { "id": "d", "label": "Kylian Mbappé" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p8",
+      "difficulty": "pro",
+      "text": "Quel joueur français a été triple Ballon d'or dans les années 1980 ?",
+      "options": [
+        { "id": "a", "label": "Michel Platini" },
+        { "id": "b", "label": "Zinédine Zidane" },
+        { "id": "c", "label": "Raymond Kopa" },
+        { "id": "d", "label": "Just Fontaine" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p9",
+      "difficulty": "pro",
+      "text": "Quel Français détient le record de buts en une seule Coupe du monde (13 en 1958) ?",
+      "options": [
+        { "id": "a", "label": "Just Fontaine" },
+        { "id": "b", "label": "Michel Platini" },
+        { "id": "c", "label": "Thierry Henry" },
+        { "id": "d", "label": "Raymond Kopa" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p10",
+      "difficulty": "pro",
+      "text": "Quel gardien italien légendaire a remporté la Coupe du monde 2006 ?",
+      "options": [
+        { "id": "a", "label": "Gianluigi Buffon" },
+        { "id": "b", "label": "Iker Casillas" },
+        { "id": "c", "label": "Manuel Neuer" },
+        { "id": "d", "label": "Oliver Kahn" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p11",
+      "difficulty": "pro",
+      "text": "Quel joueur a remporté le plus de Ballons d'or de l'histoire ?",
+      "options": [
+        { "id": "a", "label": "Lionel Messi" },
+        { "id": "b", "label": "Cristiano Ronaldo" },
+        { "id": "c", "label": "Michel Platini" },
+        { "id": "d", "label": "Johan Cruyff" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p12",
+      "difficulty": "pro",
+      "text": "Quel Néerlandais, théoricien du « football total », a marqué les années 70 avec l'Ajax ?",
+      "options": [
+        { "id": "a", "label": "Johan Cruyff" },
+        { "id": "b", "label": "Ruud Gullit" },
+        { "id": "c", "label": "Frank Rijkaard" },
+        { "id": "d", "label": "Arjen Robben" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p13",
+      "difficulty": "pro",
+      "text": "Quelle joueuse allemande de tennis a remporté 22 titres du Grand Chelem ?",
+      "options": [
+        { "id": "a", "label": "Steffi Graf" },
+        { "id": "b", "label": "Serena Williams" },
+        { "id": "c", "label": "Martina Navratilova" },
+        { "id": "d", "label": "Chris Evert" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p14",
+      "difficulty": "pro",
+      "text": "Quel tennisman suédois flegmatique a remporté six fois Roland-Garros dans les années 70-80 ?",
+      "options": [
+        { "id": "a", "label": "Björn Borg" },
+        { "id": "b", "label": "John McEnroe" },
+        { "id": "c", "label": "Jimmy Connors" },
+        { "id": "d", "label": "Ivan Lendl" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p15",
+      "difficulty": "pro",
+      "text": "Quel meneur des Warriors est le meilleur tireur à trois points de l'histoire de la NBA ?",
+      "options": [
+        { "id": "a", "label": "Stephen Curry" },
+        { "id": "b", "label": "LeBron James" },
+        { "id": "c", "label": "Kevin Durant" },
+        { "id": "d", "label": "Kobe Bryant" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p16",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien de minutes dure un quart-temps en NBA ?",
+      "answerValue": 12,
+      "unit": "minutes"
+    },
+    {
+      "id": "sport-p17",
+      "difficulty": "pro",
+      "text": "Quel pays a remporté la Coupe du monde de rugby en 2023 ?",
+      "options": [
+        { "id": "a", "label": "L'Afrique du Sud" },
+        { "id": "b", "label": "La Nouvelle-Zélande" },
+        { "id": "c", "label": "La Grande-Bretagne" },
+        { "id": "d", "label": "Les Îles Fidji" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p18",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelle compétition annuelle de rugby oppose la France, l'Angleterre, l'Irlande, l'Écosse, le pays de Galles et l'Italie ?",
+      "answer": "Le Tournoi des Six Nations"
+    },
+    {
+      "id": "sport-p19",
+      "difficulty": "pro",
+      "text": "Quel ailier néo-zélandais légendaire a marqué le rugby des années 90-2000 ?",
+      "options": [
+        { "id": "a", "label": "Jonah Lomu" },
+        { "id": "b", "label": "Dan Carter" },
+        { "id": "c", "label": "Richie McCaw" },
+        { "id": "d", "label": "Sonny Williams" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p20",
+      "difficulty": "pro",
+      "text": "Quel pilote français a été quadruple champion du monde de Formule 1 ?",
+      "options": [
+        { "id": "a", "label": "Alain Prost" },
+        { "id": "b", "label": "Ayrton Senna" },
+        { "id": "c", "label": "Nigel Mansell" },
+        { "id": "d", "label": "Jean Alesi" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p21",
+      "difficulty": "pro",
+      "text": "Quelle écurie italienne mythique de Formule 1 est basée à Maranello ?",
+      "options": [
+        { "id": "a", "label": "Ferrari" },
+        { "id": "b", "label": "Mercedes" },
+        { "id": "c", "label": "Red Bull" },
+        { "id": "d", "label": "McLaren" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p22",
+      "difficulty": "pro",
+      "text": "Quel boxeur américain invaincu a terminé sa carrière avec 50 victoires en 50 combats ?",
+      "options": [
+        { "id": "a", "label": "Floyd Mayweather" },
+        { "id": "b", "label": "Mike Tyson" },
+        { "id": "c", "label": "Mohamed Ali" },
+        { "id": "d", "label": "Manny Pacquiao" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p23",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel surnom porte le combat de boxe de 1974 entre Ali et Foreman à Kinshasa ?",
+      "answer": "The Rumble in the Jungle"
+    },
+    {
+      "id": "sport-p24",
+      "difficulty": "pro",
+      "text": "Quel nageur américain avait remporté sept médailles d'or aux JO de 1972 ?",
+      "options": [
+        { "id": "a", "label": "Mark Spitz" },
+        { "id": "b", "label": "Michael Phelps" },
+        { "id": "c", "label": "Ian Thorpe" },
+        { "id": "d", "label": "Caeleb Dressel" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p25",
+      "difficulty": "pro",
+      "text": "Quel athlète américain a remporté quatre médailles d'or aux JO de Berlin en 1936 ?",
+      "options": [
+        { "id": "a", "label": "Jesse Owens" },
+        { "id": "b", "label": "Carl Lewis" },
+        { "id": "c", "label": "Michael Johnson" },
+        { "id": "d", "label": "Usain Bolt" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p26",
+      "difficulty": "pro",
+      "text": "Quel athlète américain a égalé les quatre titres de Jesse Owens aux JO de 1984 ?",
+      "options": [
+        { "id": "a", "label": "Carl Lewis" },
+        { "id": "b", "label": "Jesse Owens" },
+        { "id": "c", "label": "Michael Johnson" },
+        { "id": "d", "label": "Usain Bolt" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p27",
+      "difficulty": "pro",
+      "text": "Quel cycliste britannique a remporté quatre Tours de France dans les années 2010 ?",
+      "options": [
+        { "id": "a", "label": "Chris Froome" },
+        { "id": "b", "label": "Bradley Wiggins" },
+        { "id": "c", "label": "Geraint Thomas" },
+        { "id": "d", "label": "Mark Cavendish" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p28",
+      "difficulty": "pro",
+      "text": "Quelle récompense vestimentaire distingue le meilleur grimpeur du Tour de France ?",
+      "options": [
+        { "id": "a", "label": "Le maillot à pois" },
+        { "id": "b", "label": "Le maillot jaune" },
+        { "id": "c", "label": "Le maillot vert" },
+        { "id": "d", "label": "Le maillot blanc" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p29",
+      "difficulty": "pro",
+      "text": "Quelle récompense vestimentaire distingue le meilleur sprinteur, roi des points, au Tour de France ?",
+      "options": [
+        { "id": "a", "label": "Le maillot vert" },
+        { "id": "b", "label": "Le maillot jaune" },
+        { "id": "c", "label": "Le maillot à pois" },
+        { "id": "d", "label": "Le maillot blanc" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p30",
+      "difficulty": "pro",
+      "text": "Quelle compétition de golf oppose l'Europe aux États-Unis tous les deux ans ?",
+      "options": [
+        { "id": "a", "label": "La Ryder Cup" },
+        { "id": "b", "label": "Le Masters" },
+        { "id": "c", "label": "Le PGA Tour" },
+        { "id": "d", "label": "L'US Open" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p31",
+      "difficulty": "pro",
+      "text": "Quel golfeur américain a écrasé le golf mondial dans les années 2000 ?",
+      "options": [
+        { "id": "a", "label": "Tiger Woods" },
+        { "id": "b", "label": "Rory McIlroy" },
+        { "id": "c", "label": "Phil Mickelson" },
+        { "id": "d", "label": "Jack Nicklaus" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p32",
+      "difficulty": "pro",
+      "text": "Comment s'appelle la grande finale du championnat de football américain ?",
+      "options": [
+        { "id": "a", "label": "Le Super Bowl" },
+        { "id": "b", "label": "Les World Series" },
+        { "id": "c", "label": "La Coupe Stanley" },
+        { "id": "d", "label": "Les Finales NBA" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p33",
+      "difficulty": "pro",
+      "text": "Quelle finale décerne le titre en baseball nord-américain ?",
+      "options": [
+        { "id": "a", "label": "Les World Series" },
+        { "id": "b", "label": "Le Super Bowl" },
+        { "id": "c", "label": "La Coupe Stanley" },
+        { "id": "d", "label": "Les Finales NBA" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p34",
+      "difficulty": "pro",
+      "text": "Quel trophée récompense le champion de hockey sur glace en NHL ?",
+      "options": [
+        { "id": "a", "label": "La Coupe Stanley" },
+        { "id": "b", "label": "Le Super Bowl" },
+        { "id": "c", "label": "Les World Series" },
+        { "id": "d", "label": "Les Finales NBA" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p35",
+      "difficulty": "pro",
+      "text": "Quelle nation a dominé le handball mondial des années 2000-2010, surnommée « les Experts » ?",
+      "options": [
+        { "id": "a", "label": "La France" },
+        { "id": "b", "label": "Le Danemark" },
+        { "id": "c", "label": "L'Allemagne" },
+        { "id": "d", "label": "L'Espagne" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p36",
+      "difficulty": "pro",
+      "text": "Quel sport de raquette rapide se joue avec un volant, et non une balle ?",
+      "options": [
+        { "id": "a", "label": "Le badminton" },
+        { "id": "b", "label": "Le tennis" },
+        { "id": "c", "label": "Le squash" },
+        { "id": "d", "label": "Le padel" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p37",
+      "difficulty": "pro",
+      "text": "Quel sport de raquette, mêlant tennis et squash, connaît un boom récent en France ?",
+      "options": [
+        { "id": "a", "label": "Le padel" },
+        { "id": "b", "label": "Le badminton" },
+        { "id": "c", "label": "Le squash" },
+        { "id": "d", "label": "Le tennis" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p38",
+      "difficulty": "pro",
+      "text": "Quelle épreuve d'athlétisme masculin comporte dix disciplines sur deux jours ?",
+      "options": [
+        { "id": "a", "label": "Le décathlon" },
+        { "id": "b", "label": "L'heptathlon" },
+        { "id": "c", "label": "Le pentathlon" },
+        { "id": "d", "label": "Le triathlon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p39",
+      "difficulty": "pro",
+      "text": "Quel athlète français détient le record du monde du décathlon ?",
+      "options": [
+        { "id": "a", "label": "Kevin Mayer" },
+        { "id": "b", "label": "Renaud Lavillenie" },
+        { "id": "c", "label": "Christophe Lemaitre" },
+        { "id": "d", "label": "Teddy Riner" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "sport-p40",
+      "difficulty": "pro",
+      "text": "Quel judoka français, multiple champion olympique et du monde des lourds, est une icône ?",
+      "options": [
+        { "id": "a", "label": "Teddy Riner" },
+        { "id": "b", "label": "David Douillet" },
+        { "id": "c", "label": "Kevin Mayer" },
+        { "id": "d", "label": "Renaud Lavillenie" }
+      ],
+      "correctOptionId": "a"
+    }
+  ]
+}
