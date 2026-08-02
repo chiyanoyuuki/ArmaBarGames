@@ -28,6 +28,7 @@
     { "id": "the-witcher", "name": "The Witcher", "themeId": "jeux-video", "emoji": "🐺" },
     { "id": "zelda", "name": "The Legend of Zelda", "themeId": "jeux-video", "emoji": "🗡️" },
     { "id": "pokemon", "name": "Pokémon", "themeId": "jeux-video", "emoji": "⚡" },
+    { "id": "world-of-warcraft", "name": "World of Warcraft", "themeId": "jeux-video", "emoji": "⚔️" },
     { "id": "ed-sheeran", "name": "Ed Sheeran", "themeId": "musique", "emoji": "🎸" },
     { "id": "rock-classique", "name": "Rock classique", "themeId": "musique", "emoji": "🤘" },
     { "id": "musique-tubes", "name": "Musique (tubes & variété)", "themeId": "musique", "emoji": "🎤" },

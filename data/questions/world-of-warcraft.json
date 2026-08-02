@@ -1,0 +1,1114 @@
+{
+  "universeId": "world-of-warcraft",
+  "questions": [
+    {
+      "id": "wow-f1",
+      "difficulty": "facile",
+      "text": "Quel studio a développé World of Warcraft ?",
+      "options": [
+        { "id": "a", "label": "Blizzard" },
+        { "id": "b", "label": "Bethesda" },
+        { "id": "c", "label": "Ubisoft" },
+        { "id": "d", "label": "Rockstar" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-f2",
+      "difficulty": "facile",
+      "text": "De quel genre de jeu vidéo World of Warcraft fait-il partie ?",
+      "options": [
+        { "id": "a", "label": "Un MMORPG" },
+        { "id": "b", "label": "Un FPS" },
+        { "id": "c", "label": "Une course" },
+        { "id": "d", "label": "Un puzzle" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-f3",
+      "difficulty": "facile",
+      "text": "Sur quel monde se déroule l'essentiel de l'histoire du jeu ?",
+      "options": [
+        { "id": "a", "label": "Azeroth" },
+        { "id": "b", "label": "Tamriel" },
+        { "id": "c", "label": "Hyrule" },
+        { "id": "d", "label": "Faerûn" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-f4",
+      "difficulty": "facile",
+      "type": "buzzer",
+      "text": "Quelles sont les deux grandes factions rivales de World of Warcraft ?",
+      "answer": "L'Alliance et la Horde"
+    },
+    {
+      "id": "wow-f5",
+      "difficulty": "facile",
+      "text": "Quelle race à la peau verte et guerrière est emblématique de la Horde ?",
+      "options": [
+        { "id": "a", "label": "Les orcs" },
+        { "id": "b", "label": "Les elfes" },
+        { "id": "c", "label": "Les nains" },
+        { "id": "d", "label": "Les humains" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-f6",
+      "difficulty": "facile",
+      "text": "Quelle race barbue et de petite taille combat pour l'Alliance ?",
+      "options": [
+        { "id": "a", "label": "Les nains" },
+        { "id": "b", "label": "Les orcs" },
+        { "id": "c", "label": "Les taurens" },
+        { "id": "d", "label": "Les trolls" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-f7",
+      "difficulty": "facile",
+      "text": "Quelle ressource dorée sert de monnaie principale dans le jeu ?",
+      "options": [
+        { "id": "a", "label": "L'or" },
+        { "id": "b", "label": "Le mithril" },
+        { "id": "c", "label": "Les gemmes" },
+        { "id": "d", "label": "Le bois" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-f8",
+      "difficulty": "facile",
+      "type": "estimation",
+      "text": "En quelle année World of Warcraft est-il sorti ?",
+      "answerValue": 2004,
+      "unit": ""
+    },
+    {
+      "id": "wow-f9",
+      "difficulty": "facile",
+      "text": "Quelle classe lance des sorts de feu, de givre et d'arcanes ?",
+      "options": [
+        { "id": "a", "label": "Le mage" },
+        { "id": "b", "label": "Le guerrier" },
+        { "id": "c", "label": "Le voleur" },
+        { "id": "d", "label": "Le chasseur" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-f10",
+      "difficulty": "facile",
+      "text": "Quelle classe combat au corps à corps avec une grosse arme et beaucoup de résistance ?",
+      "options": [
+        { "id": "a", "label": "Le guerrier" },
+        { "id": "b", "label": "Le mage" },
+        { "id": "c", "label": "Le prêtre" },
+        { "id": "d", "label": "Le démoniste" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-m1",
+      "difficulty": "moyen",
+      "text": "Quelle capitale humaine de l'Alliance est dirigée par la lignée Wrynn ?",
+      "options": [
+        { "id": "a", "label": "Hurlevent" },
+        { "id": "b", "label": "Forgefer" },
+        { "id": "c", "label": "Orgrimmar" },
+        { "id": "d", "label": "Fossoyeuse" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-m2",
+      "difficulty": "moyen",
+      "text": "Quelle capitale des orcs, fondée par Thrall, est le cœur de la Horde ?",
+      "options": [
+        { "id": "a", "label": "Orgrimmar" },
+        { "id": "b", "label": "Hurlevent" },
+        { "id": "c", "label": "Forgefer" },
+        { "id": "d", "label": "Darnassus" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-m3",
+      "difficulty": "moyen",
+      "text": "Quel chaman orc, ancien esclave, a mené la Horde et fondé Orgrimmar ?",
+      "options": [
+        { "id": "a", "label": "Thrall" },
+        { "id": "b", "label": "Garrosh" },
+        { "id": "c", "label": "Grommash" },
+        { "id": "d", "label": "Gul'dan" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-m4",
+      "difficulty": "moyen",
+      "text": "Quel prince humain déchu devient le Roi-Liche, maître des morts-vivants du Fléau ?",
+      "options": [
+        { "id": "a", "label": "Arthas" },
+        { "id": "b", "label": "Anduin" },
+        { "id": "c", "label": "Varian" },
+        { "id": "d", "label": "Kael'thas" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-m5",
+      "difficulty": "moyen",
+      "text": "Quelle reine des Réprouvés, ancienne elfe devenue banshee, est une figure majeure ?",
+      "options": [
+        { "id": "a", "label": "Sylvanas" },
+        { "id": "b", "label": "Jaina" },
+        { "id": "c", "label": "Tyrande" },
+        { "id": "d", "label": "Alexstrasza" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-m6",
+      "difficulty": "moyen",
+      "text": "Quel elfe démoniaque borgne et tatoué, « le Chasseur de démons », est un personnage culte ?",
+      "options": [
+        { "id": "a", "label": "Illidan" },
+        { "id": "b", "label": "Arthas" },
+        { "id": "c", "label": "Kael'thas" },
+        { "id": "d", "label": "Malfurion" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-m7",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Complète la réplique culte d'Illidan : « Vous n'êtes pas… »",
+      "answer": "préparés"
+    },
+    {
+      "id": "wow-m8",
+      "difficulty": "moyen",
+      "text": "Quelle race massive à tête de bovin, spirituelle, fait partie de la Horde ?",
+      "options": [
+        { "id": "a", "label": "Les taurens" },
+        { "id": "b", "label": "Les nains" },
+        { "id": "c", "label": "Les gnomes" },
+        { "id": "d", "label": "Les humains" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-m9",
+      "difficulty": "moyen",
+      "text": "Quelle petite race d'ingénieurs farfelus fait partie de l'Alliance ?",
+      "options": [
+        { "id": "a", "label": "Les gnomes" },
+        { "id": "b", "label": "Les orcs" },
+        { "id": "c", "label": "Les taurens" },
+        { "id": "d", "label": "Les trolls" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-m10",
+      "difficulty": "moyen",
+      "text": "Quelle classe soigne principalement ses alliés grâce à la Lumière ?",
+      "options": [
+        { "id": "a", "label": "Le prêtre" },
+        { "id": "b", "label": "Le voleur" },
+        { "id": "c", "label": "Le guerrier" },
+        { "id": "d", "label": "Le mage" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-m11",
+      "difficulty": "moyen",
+      "text": "Quelle classe furtive attaque par surprise avec dagues et poisons ?",
+      "options": [
+        { "id": "a", "label": "Le voleur" },
+        { "id": "b", "label": "Le mage" },
+        { "id": "c", "label": "Le prêtre" },
+        { "id": "d", "label": "Le paladin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-m12",
+      "difficulty": "moyen",
+      "text": "Quelle classe invoque des démons pour combattre à ses côtés ?",
+      "options": [
+        { "id": "a", "label": "Le démoniste" },
+        { "id": "b", "label": "Le paladin" },
+        { "id": "c", "label": "Le chasseur" },
+        { "id": "d", "label": "Le guerrier" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-m13",
+      "difficulty": "moyen",
+      "text": "Quelle classe combat à distance avec un arc ou un fusil et un familier animal ?",
+      "options": [
+        { "id": "a", "label": "Le chasseur" },
+        { "id": "b", "label": "Le mage" },
+        { "id": "c", "label": "Le prêtre" },
+        { "id": "d", "label": "Le voleur" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-m14",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quelle première extension de 2007 a ouvert l'Outreterre, avec Illidan comme ennemi majeur ?",
+      "answer": "The Burning Crusade"
+    },
+    {
+      "id": "wow-m15",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quelle extension de 2008 a envoyé les joueurs au Norfendre affronter le Roi-Liche ?",
+      "answer": "Wrath of the Lich King"
+    },
+    {
+      "id": "wow-m16",
+      "difficulty": "moyen",
+      "text": "Comment appelle-t-on un groupe de nombreux joueurs affrontant les boss les plus puissants ?",
+      "options": [
+        { "id": "a", "label": "Un raid" },
+        { "id": "b", "label": "Un donjon" },
+        { "id": "c", "label": "Une guilde" },
+        { "id": "d", "label": "Un duel" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-m17",
+      "difficulty": "moyen",
+      "text": "Comment appelle-t-on une association de joueurs qui jouent ensemble régulièrement ?",
+      "options": [
+        { "id": "a", "label": "Une guilde" },
+        { "id": "b", "label": "Un raid" },
+        { "id": "c", "label": "Un donjon" },
+        { "id": "d", "label": "Une arène" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-m18",
+      "difficulty": "moyen",
+      "text": "Quelle grande dragonne rouge, Aspect de la vie, protège Azeroth ?",
+      "options": [
+        { "id": "a", "label": "Alexstrasza" },
+        { "id": "b", "label": "Sylvanas" },
+        { "id": "c", "label": "Jaina" },
+        { "id": "d", "label": "Tyrande" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-m19",
+      "difficulty": "moyen",
+      "text": "Quelle puissante mage humaine de Theramore est une héroïne de l'Alliance ?",
+      "options": [
+        { "id": "a", "label": "Jaina" },
+        { "id": "b", "label": "Sylvanas" },
+        { "id": "c", "label": "Tyrande" },
+        { "id": "d", "label": "Alexstrasza" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-m20",
+      "difficulty": "moyen",
+      "type": "estimation",
+      "text": "Combien de factions jouables principales s'affrontent dans World of Warcraft ?",
+      "answerValue": 2,
+      "unit": "factions"
+    },
+    {
+      "id": "wow-d1",
+      "difficulty": "dur",
+      "text": "Quelle série de jeux de stratégie temps réel a posé les bases de l'univers avant le célèbre MMO ?",
+      "options": [
+        { "id": "a", "label": "Warcraft" },
+        { "id": "b", "label": "StarCraft" },
+        { "id": "c", "label": "Diablo" },
+        { "id": "d", "label": "Overwatch" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-d2",
+      "difficulty": "dur",
+      "text": "Quel roi de Hurlevent, père d'Anduin, est tué par la Légion ardente ?",
+      "options": [
+        { "id": "a", "label": "Varian Wrynn" },
+        { "id": "b", "label": "Bolvar Fordragon" },
+        { "id": "c", "label": "Genn Grisetête" },
+        { "id": "d", "label": "Tirion Fordring" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-d3",
+      "difficulty": "dur",
+      "text": "Quel jeune roi de Hurlevent, prêtre pacifiste, dirige l'Alliance après son père ?",
+      "options": [
+        { "id": "a", "label": "Anduin" },
+        { "id": "b", "label": "Varian" },
+        { "id": "c", "label": "Arthas" },
+        { "id": "d", "label": "Kael'thas" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-d4",
+      "difficulty": "dur",
+      "text": "Quel chef de guerre brutal de la Horde, fils de Grommash, devient un tyran ?",
+      "options": [
+        { "id": "a", "label": "Garrosh" },
+        { "id": "b", "label": "Thrall" },
+        { "id": "c", "label": "Vol'jin" },
+        { "id": "d", "label": "Baine" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-d5",
+      "difficulty": "dur",
+      "text": "Quel chef troll de la Tribu des Sombrelances devient chef de la Horde après Garrosh ?",
+      "options": [
+        { "id": "a", "label": "Vol'jin" },
+        { "id": "b", "label": "Thrall" },
+        { "id": "c", "label": "Garrosh" },
+        { "id": "d", "label": "Baine" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-d6",
+      "difficulty": "dur",
+      "text": "Quelle épée maudite et runique Arthas brandit-il en devenant le Roi-Liche ?",
+      "options": [
+        { "id": "a", "label": "Frostmourne" },
+        { "id": "b", "label": "Gorehowl" },
+        { "id": "c", "label": "Ashbringer" },
+        { "id": "d", "label": "Doomhammer" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-d7",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Comment s'appelle la forteresse glacée du Roi-Liche, ultime raid de Wrath of the Lich King ?",
+      "answer": "La Citadelle de la Couronne de glace"
+    },
+    {
+      "id": "wow-d8",
+      "difficulty": "dur",
+      "text": "Quel seigneur de guerre orc a bu le sang du démon Mannoroth, corrompant sa horde ?",
+      "options": [
+        { "id": "a", "label": "Grommash" },
+        { "id": "b", "label": "Thrall" },
+        { "id": "c", "label": "Garrosh" },
+        { "id": "d", "label": "Durotan" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-d9",
+      "difficulty": "dur",
+      "text": "Quel orc noble, père de Thrall et chef du clan Loup-de-givre, a refusé la corruption ?",
+      "options": [
+        { "id": "a", "label": "Durotan" },
+        { "id": "b", "label": "Grommash" },
+        { "id": "c", "label": "Gul'dan" },
+        { "id": "d", "label": "Garrosh" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-d10",
+      "difficulty": "dur",
+      "text": "Quel sorcier orc, fondateur du Conseil des Ombres, a corrompu la Horde avec la magie démoniaque ?",
+      "options": [
+        { "id": "a", "label": "Gul'dan" },
+        { "id": "b", "label": "Ner'zhul" },
+        { "id": "c", "label": "Grommash" },
+        { "id": "d", "label": "Durotan" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-d11",
+      "difficulty": "dur",
+      "text": "Quel chaman orc, ancien maître de Gul'dan, est devenu le tout premier Roi-Liche ?",
+      "options": [
+        { "id": "a", "label": "Ner'zhul" },
+        { "id": "b", "label": "Gul'dan" },
+        { "id": "c", "label": "Arthas" },
+        { "id": "d", "label": "Thrall" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-d12",
+      "difficulty": "dur",
+      "text": "Comment s'appelle le monde d'origine des orcs, détruit et devenu l'Outreterre ?",
+      "options": [
+        { "id": "a", "label": "Draenor" },
+        { "id": "b", "label": "Azeroth" },
+        { "id": "c", "label": "Argus" },
+        { "id": "d", "label": "Kalimdor" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-d13",
+      "difficulty": "dur",
+      "text": "Comment s'appelle le vaste continent occidental d'Azeroth, terre des orcs et des taurens ?",
+      "options": [
+        { "id": "a", "label": "Kalimdor" },
+        { "id": "b", "label": "Norfendre" },
+        { "id": "c", "label": "Pandarie" },
+        { "id": "d", "label": "Draenor" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-d14",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on le continent oriental d'Azeroth où se trouvent Hurlevent et Fossoyeuse ?",
+      "answer": "Les Royaumes de l'Est"
+    },
+    {
+      "id": "wow-d15",
+      "difficulty": "dur",
+      "text": "Quel druide elfe de la nuit, époux de Tyrande, protège les forêts ?",
+      "options": [
+        { "id": "a", "label": "Malfurion" },
+        { "id": "b", "label": "Illidan" },
+        { "id": "c", "label": "Arthas" },
+        { "id": "d", "label": "Kael'thas" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-d16",
+      "difficulty": "dur",
+      "text": "Quelle grande prêtresse elfe de la nuit dirige son peuple aux côtés de Malfurion ?",
+      "options": [
+        { "id": "a", "label": "Tyrande" },
+        { "id": "b", "label": "Sylvanas" },
+        { "id": "c", "label": "Jaina" },
+        { "id": "d", "label": "Alexstrasza" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-d17",
+      "difficulty": "dur",
+      "text": "Quel prince des elfes de sang, avide de pouvoir, s'allie à la Légion dans Burning Crusade ?",
+      "options": [
+        { "id": "a", "label": "Kael'thas" },
+        { "id": "b", "label": "Illidan" },
+        { "id": "c", "label": "Arthas" },
+        { "id": "d", "label": "Anduin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-d18",
+      "difficulty": "dur",
+      "text": "Quel Titan corrompu, seigneur de la Légion ardente, veut anéantir toute vie ?",
+      "options": [
+        { "id": "a", "label": "Sargeras" },
+        { "id": "b", "label": "Kil'jaeden" },
+        { "id": "c", "label": "Archimonde" },
+        { "id": "d", "label": "Mannoroth" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-d19",
+      "difficulty": "dur",
+      "text": "Quel dragon noir corrompu, Aspect de la Terre devenu fou, ravage Azeroth dans Cataclysm ?",
+      "options": [
+        { "id": "a", "label": "Deathwing" },
+        { "id": "b", "label": "Alexstrasza" },
+        { "id": "c", "label": "Malygos" },
+        { "id": "d", "label": "Nozdormu" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-d20",
+      "difficulty": "dur",
+      "text": "Quelle extension de 2010 a bouleversé Azeroth avec le retour de Deathwing ?",
+      "options": [
+        { "id": "a", "label": "Cataclysm" },
+        { "id": "b", "label": "Legion" },
+        { "id": "c", "label": "Pandaria" },
+        { "id": "d", "label": "Shadowlands" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-d21",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quelle extension de 2012 a ouvert la Pandarie et ajouté les pandarens ?",
+      "answer": "Mists of Pandaria"
+    },
+    {
+      "id": "wow-d22",
+      "difficulty": "dur",
+      "text": "Quelle race de gros êtres-pandas, amateurs de bière, est devenue jouable en 2012 ?",
+      "options": [
+        { "id": "a", "label": "Les pandarens" },
+        { "id": "b", "label": "Les taurens" },
+        { "id": "c", "label": "Les gnomes" },
+        { "id": "d", "label": "Les worgens" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-d23",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quelle classe héroïque, ancienne recrue du Roi-Liche, est apparue dans Wrath of the Lich King ?",
+      "answer": "Le chevalier de la mort"
+    },
+    {
+      "id": "wow-d24",
+      "difficulty": "dur",
+      "text": "Quelle classe hybride combine soins, sorts de nature et transformation en animal ?",
+      "options": [
+        { "id": "a", "label": "Le druide" },
+        { "id": "b", "label": "Le prêtre" },
+        { "id": "c", "label": "Le paladin" },
+        { "id": "d", "label": "Le chaman" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-d25",
+      "difficulty": "dur",
+      "text": "Quelle classe en armure lourde manie la Lumière, à la fois soigneur et combattant ?",
+      "options": [
+        { "id": "a", "label": "Le paladin" },
+        { "id": "b", "label": "Le prêtre" },
+        { "id": "c", "label": "Le druide" },
+        { "id": "d", "label": "Le chaman" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-d26",
+      "difficulty": "dur",
+      "text": "Comment appelle-t-on l'énergie démoniaque verte, corruptrice, employée par la Légion ?",
+      "options": [
+        { "id": "a", "label": "Le fel" },
+        { "id": "b", "label": "L'arcane" },
+        { "id": "c", "label": "Le Vide" },
+        { "id": "d", "label": "La Lumière" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-d27",
+      "difficulty": "dur",
+      "text": "Comment appelle-t-on les puissants êtres cosmiques qui ont façonné le monde d'Azeroth ?",
+      "options": [
+        { "id": "a", "label": "Les Titans" },
+        { "id": "b", "label": "Les Naaru" },
+        { "id": "c", "label": "Les Élus" },
+        { "id": "d", "label": "Les Gardiens" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-d28",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on les entités tentaculaires et corruptrices emprisonnées sous Azeroth, comme N'Zoth ?",
+      "answer": "Les Dieux très anciens"
+    },
+    {
+      "id": "wow-d29",
+      "difficulty": "dur",
+      "type": "ordre",
+      "text": "Classe ces extensions de World of Warcraft par ordre de sortie.",
+      "items": [
+        { "id": "1", "label": "The Burning Crusade" },
+        { "id": "2", "label": "Wrath of the Lich King" },
+        { "id": "3", "label": "Cataclysm" },
+        { "id": "4", "label": "Mists of Pandaria" }
+      ]
+    },
+    {
+      "id": "wow-d30",
+      "difficulty": "dur",
+      "text": "Quel métier de fabrication permet de forger armes et armures à partir de minerais ?",
+      "options": [
+        { "id": "a", "label": "Le forgeage" },
+        { "id": "b", "label": "L'alchimie" },
+        { "id": "c", "label": "L'enchantement" },
+        { "id": "d", "label": "La couture" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p1",
+      "difficulty": "pro",
+      "text": "Quel directeur créatif est longtemps resté la voix du récit de Warcraft chez Blizzard ?",
+      "options": [
+        { "id": "a", "label": "Chris Metzen" },
+        { "id": "b", "label": "Jeff Kaplan" },
+        { "id": "c", "label": "Rob Pardo" },
+        { "id": "d", "label": "Todd Howard" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p2",
+      "difficulty": "pro",
+      "text": "Qui a cofondé Blizzard et en fut longtemps le PDG, à l'époque du lancement de WoW ?",
+      "options": [
+        { "id": "a", "label": "Mike Morhaime" },
+        { "id": "b", "label": "Chris Metzen" },
+        { "id": "c", "label": "Gabe Newell" },
+        { "id": "d", "label": "Todd Howard" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p3",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien de millions d'abonnés World of Warcraft a-t-il atteint à son apogée ?",
+      "answerValue": 12,
+      "unit": "millions"
+    },
+    {
+      "id": "wow-p4",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel premier raid volcanique de quarante joueurs abrite le seigneur du feu Ragnaros ?",
+      "answer": "Le Cœur du Magma"
+    },
+    {
+      "id": "wow-p5",
+      "difficulty": "pro",
+      "text": "Quel élémentaire de feu, seigneur du feu, est le boss du Cœur du Magma ?",
+      "options": [
+        { "id": "a", "label": "Ragnaros" },
+        { "id": "b", "label": "Deathwing" },
+        { "id": "c", "label": "Nefarian" },
+        { "id": "d", "label": "Kel'Thuzad" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p6",
+      "difficulty": "pro",
+      "text": "Quel dragon noir, fils de Deathwing, dirige le repaire de l'Aile noire ?",
+      "options": [
+        { "id": "a", "label": "Nefarian" },
+        { "id": "b", "label": "Onyxia" },
+        { "id": "c", "label": "Ragnaros" },
+        { "id": "d", "label": "Malygos" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p7",
+      "difficulty": "pro",
+      "text": "Quelle dragonne noire, sœur de Nefarian, infiltre la noblesse de Hurlevent ?",
+      "options": [
+        { "id": "a", "label": "Onyxia" },
+        { "id": "b", "label": "Alexstrasza" },
+        { "id": "c", "label": "Ysera" },
+        { "id": "d", "label": "Malygos" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p8",
+      "difficulty": "pro",
+      "text": "Quel liche, bras droit du Roi-Liche, est le boss final du raid Naxxramas ?",
+      "options": [
+        { "id": "a", "label": "Kel'Thuzad" },
+        { "id": "b", "label": "Arthas" },
+        { "id": "c", "label": "Ner'zhul" },
+        { "id": "d", "label": "Anub'arak" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p9",
+      "difficulty": "pro",
+      "text": "Quel Dieu très ancien est affronté au fond du Temple d'Ahn'Qiraj ?",
+      "options": [
+        { "id": "a", "label": "C'Thun" },
+        { "id": "b", "label": "N'Zoth" },
+        { "id": "c", "label": "Yogg-Saron" },
+        { "id": "d", "label": "Y'Shaarj" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p10",
+      "difficulty": "pro",
+      "text": "Quel Dieu très ancien est le boss final du raid Ulduar ?",
+      "options": [
+        { "id": "a", "label": "Yogg-Saron" },
+        { "id": "b", "label": "C'Thun" },
+        { "id": "c", "label": "N'Zoth" },
+        { "id": "d", "label": "Y'Shaarj" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p11",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelle extension de 2014 renvoie les joueurs dans un passé alternatif du monde d'origine des orcs ?",
+      "answer": "Warlords of Draenor"
+    },
+    {
+      "id": "wow-p12",
+      "difficulty": "pro",
+      "text": "Quelle extension de 2016 a vu le retour des envahisseurs ardents et l'arrivée des chasseurs de démons ?",
+      "options": [
+        { "id": "a", "label": "Legion" },
+        { "id": "b", "label": "Cataclysm" },
+        { "id": "c", "label": "Pandaria" },
+        { "id": "d", "label": "Shadowlands" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p13",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelle classe héroïque, aux yeux bandés et cornes, est apparue dans l'extension Legion ?",
+      "answer": "Le chasseur de démons"
+    },
+    {
+      "id": "wow-p14",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelle extension de 2018 relance la guerre totale entre l'Alliance et la Horde ?",
+      "answer": "Battle for Azeroth"
+    },
+    {
+      "id": "wow-p15",
+      "difficulty": "pro",
+      "text": "Quelle extension de 2020 emmène les joueurs dans les royaumes des morts ?",
+      "options": [
+        { "id": "a", "label": "Shadowlands" },
+        { "id": "b", "label": "Legion" },
+        { "id": "c", "label": "Dragonflight" },
+        { "id": "d", "label": "Cataclysm" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p16",
+      "difficulty": "pro",
+      "text": "Quelle extension de 2022 est centrée sur les dragons et les Îles aux Dragons ?",
+      "options": [
+        { "id": "a", "label": "Dragonflight" },
+        { "id": "b", "label": "Shadowlands" },
+        { "id": "c", "label": "Legion" },
+        { "id": "d", "label": "Cataclysm" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p17",
+      "difficulty": "pro",
+      "text": "Quel antagoniste, maître des Ombreterres, tire les ficelles dans l'extension Shadowlands ?",
+      "options": [
+        { "id": "a", "label": "Le Geôlier" },
+        { "id": "b", "label": "Sargeras" },
+        { "id": "c", "label": "Deathwing" },
+        { "id": "d", "label": "Kil'jaeden" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p18",
+      "difficulty": "pro",
+      "text": "Quel arbre-monde des elfes de la nuit est incendié lors de Battle for Azeroth ?",
+      "options": [
+        { "id": "a", "label": "Teldrassil" },
+        { "id": "b", "label": "Orgrimmar" },
+        { "id": "c", "label": "Hurlevent" },
+        { "id": "d", "label": "Fossoyeuse" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p19",
+      "difficulty": "pro",
+      "text": "Quelle reine banshee met le feu à l'arbre-monde Teldrassil, choquant les joueurs ?",
+      "options": [
+        { "id": "a", "label": "Sylvanas" },
+        { "id": "b", "label": "Jaina" },
+        { "id": "c", "label": "Tyrande" },
+        { "id": "d", "label": "Alexstrasza" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p20",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel objet permet de se téléporter à son point de repos, et a donné son nom à un jeu de cartes Blizzard ?",
+      "answer": "La pierre de foyer"
+    },
+    {
+      "id": "wow-p21",
+      "difficulty": "pro",
+      "text": "Quel jeu de cartes de Blizzard est directement tiré de l'univers de Warcraft ?",
+      "options": [
+        { "id": "a", "label": "Hearthstone" },
+        { "id": "b", "label": "Magic" },
+        { "id": "c", "label": "Gwent" },
+        { "id": "d", "label": "Pokémon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p22",
+      "difficulty": "pro",
+      "text": "Quelle race de morts-vivants libres, menée par Sylvanas, a rejoint la Horde ?",
+      "options": [
+        { "id": "a", "label": "Les Réprouvés" },
+        { "id": "b", "label": "Les worgens" },
+        { "id": "c", "label": "Les gobelins" },
+        { "id": "d", "label": "Les draeneï" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p23",
+      "difficulty": "pro",
+      "text": "Quelle race de loups-garous maudits a rejoint l'Alliance dans Cataclysm ?",
+      "options": [
+        { "id": "a", "label": "Les worgens" },
+        { "id": "b", "label": "Les gobelins" },
+        { "id": "c", "label": "Les Réprouvés" },
+        { "id": "d", "label": "Les draeneï" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p24",
+      "difficulty": "pro",
+      "text": "Quelle race cupide et explosive a rejoint la Horde dans Cataclysm ?",
+      "options": [
+        { "id": "a", "label": "Les gobelins" },
+        { "id": "b", "label": "Les worgens" },
+        { "id": "c", "label": "Les draeneï" },
+        { "id": "d", "label": "Les gnomes" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p25",
+      "difficulty": "pro",
+      "text": "Quelle race extraterrestre bleue, fuyant la Légion, a rejoint l'Alliance dans Burning Crusade ?",
+      "options": [
+        { "id": "a", "label": "Les draeneï" },
+        { "id": "b", "label": "Les gobelins" },
+        { "id": "c", "label": "Les worgens" },
+        { "id": "d", "label": "Les taurens" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p26",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelle race magiphage à la peau claire et aux yeux verts a rejoint la Horde dans Burning Crusade ?",
+      "answer": "Les elfes de sang"
+    },
+    {
+      "id": "wow-p27",
+      "difficulty": "pro",
+      "text": "Quel démon manipulateur, l'un des chefs de la Légion, est surnommé « le Trompeur » ?",
+      "options": [
+        { "id": "a", "label": "Kil'jaeden" },
+        { "id": "b", "label": "Archimonde" },
+        { "id": "c", "label": "Sargeras" },
+        { "id": "d", "label": "Mannoroth" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p28",
+      "difficulty": "pro",
+      "text": "Quel gigantesque démon a mené l'assaut sur l'Arbre-Monde lors de la troisième guerre ?",
+      "options": [
+        { "id": "a", "label": "Archimonde" },
+        { "id": "b", "label": "Kil'jaeden" },
+        { "id": "c", "label": "Mannoroth" },
+        { "id": "d", "label": "Sargeras" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p29",
+      "difficulty": "pro",
+      "text": "Quel démon a scellé un pacte de sang avec Grommash, corrompant la Horde ?",
+      "options": [
+        { "id": "a", "label": "Mannoroth" },
+        { "id": "b", "label": "Archimonde" },
+        { "id": "c", "label": "Kil'jaeden" },
+        { "id": "d", "label": "Sargeras" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p30",
+      "difficulty": "pro",
+      "text": "Comment s'appelle l'Aspect du temps, dragon de bronze veillant sur l'histoire ?",
+      "options": [
+        { "id": "a", "label": "Nozdormu" },
+        { "id": "b", "label": "Alexstrasza" },
+        { "id": "c", "label": "Malygos" },
+        { "id": "d", "label": "Ysera" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p31",
+      "difficulty": "pro",
+      "text": "Comment s'appelle l'Aspect des rêves, dragonne verte souvent endormie ?",
+      "options": [
+        { "id": "a", "label": "Ysera" },
+        { "id": "b", "label": "Alexstrasza" },
+        { "id": "c", "label": "Nozdormu" },
+        { "id": "d", "label": "Malygos" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p32",
+      "difficulty": "pro",
+      "text": "Comment s'appelle l'Aspect de la magie, dragon bleu gardien de l'arcane ?",
+      "options": [
+        { "id": "a", "label": "Malygos" },
+        { "id": "b", "label": "Nozdormu" },
+        { "id": "c", "label": "Ysera" },
+        { "id": "d", "label": "Alexstrasza" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p33",
+      "difficulty": "pro",
+      "text": "Quelle épée sacrée légendaire, forgée contre les morts-vivants, s'oppose à Frostmourne ?",
+      "options": [
+        { "id": "a", "label": "Ashbringer" },
+        { "id": "b", "label": "Gorehowl" },
+        { "id": "c", "label": "Doomhammer" },
+        { "id": "d", "label": "Shalamayne" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p34",
+      "difficulty": "pro",
+      "text": "Quel marteau légendaire, transmis dans la lignée de Thrall, est une arme iconique de chaman ?",
+      "options": [
+        { "id": "a", "label": "Doomhammer" },
+        { "id": "b", "label": "Ashbringer" },
+        { "id": "c", "label": "Frostmourne" },
+        { "id": "d", "label": "Gorehowl" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p35",
+      "difficulty": "pro",
+      "text": "Quelle hache légendaire fut l'arme de Grommash puis de Garrosh Hurlenfer ?",
+      "options": [
+        { "id": "a", "label": "Gorehowl" },
+        { "id": "b", "label": "Doomhammer" },
+        { "id": "c", "label": "Ashbringer" },
+        { "id": "d", "label": "Frostmourne" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p36",
+      "difficulty": "pro",
+      "text": "Quelle capitale naine, sous la montagne, abrite le Conseil des Trois Marteaux ?",
+      "options": [
+        { "id": "a", "label": "Forgefer" },
+        { "id": "b", "label": "Hurlevent" },
+        { "id": "c", "label": "Orgrimmar" },
+        { "id": "d", "label": "Darnassus" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p37",
+      "difficulty": "pro",
+      "text": "Quelle cité perchée dans un arbre-monde fut la capitale des elfes de la nuit ?",
+      "options": [
+        { "id": "a", "label": "Darnassus" },
+        { "id": "b", "label": "Forgefer" },
+        { "id": "c", "label": "Orgrimmar" },
+        { "id": "d", "label": "Exodar" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p38",
+      "difficulty": "pro",
+      "text": "Comment s'appelle le vaisseau-cité des draeneï, échoué sur Azeroth ?",
+      "options": [
+        { "id": "a", "label": "L'Exodar" },
+        { "id": "b", "label": "L'Oculus" },
+        { "id": "c", "label": "Le Norfendre" },
+        { "id": "d", "label": "Le Néant" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p39",
+      "difficulty": "pro",
+      "text": "Quel personnage devient le nouveau Roi-Liche, portant le heaume après la chute d'Arthas ?",
+      "options": [
+        { "id": "a", "label": "Bolvar Fordragon" },
+        { "id": "b", "label": "Anduin Wrynn" },
+        { "id": "c", "label": "Tirion Fordring" },
+        { "id": "d", "label": "Varian Wrynn" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "wow-p40",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien d'extensions majeures World of Warcraft comptait-il fin 2022, Dragonflight incluse ?",
+      "answerValue": 9,
+      "unit": "extensions"
+    }
+  ]
+}
