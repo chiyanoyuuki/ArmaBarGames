@@ -1,0 +1,1034 @@
+{
+  "universeId": "dofus",
+  "questions": [
+    {
+      "id": "dofus-f1",
+      "difficulty": "facile",
+      "type": "buzzer",
+      "text": "Quelle monnaie utilise-t-on partout dans le jeu pour acheter et vendre ?",
+      "answer": "Les kamas"
+    },
+    {
+      "id": "dofus-f2",
+      "difficulty": "facile",
+      "text": "De quel pays est originaire le studio qui a créé le jeu ?",
+      "options": [
+        { "id": "a", "label": "La France" },
+        { "id": "b", "label": "Le Japon" },
+        { "id": "c", "label": "Les États-Unis" },
+        { "id": "d", "label": "La Corée du Sud" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-f3",
+      "difficulty": "facile",
+      "text": "À quel genre de jeu vidéo appartient le titre, jouable en ligne avec des milliers de joueurs ?",
+      "options": [
+        { "id": "a", "label": "Un MMORPG" },
+        { "id": "b", "label": "Un jeu de course" },
+        { "id": "c", "label": "Un jeu de tir" },
+        { "id": "d", "label": "Un jeu de rythme" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-f4",
+      "difficulty": "facile",
+      "text": "Comment se déroulent les combats dans le jeu ?",
+      "options": [
+        { "id": "a", "label": "Au tour par tour" },
+        { "id": "b", "label": "En temps réel intégral" },
+        { "id": "c", "label": "Uniquement en QTE" },
+        { "id": "d", "label": "Par cartes à jouer" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-f5",
+      "difficulty": "facile",
+      "text": "Que sont, dans la légende, les précieux Dofus que les héros recherchent ?",
+      "options": [
+        { "id": "a", "label": "Des œufs de dragon" },
+        { "id": "b", "label": "Des épées magiques" },
+        { "id": "c", "label": "Des couronnes royales" },
+        { "id": "d", "label": "Des grimoires anciens" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-f6",
+      "difficulty": "facile",
+      "type": "estimation",
+      "text": "Combien de dieux fondateurs, donnant chacun leur nom à une classe d'origine, compte l'univers ?",
+      "answerValue": 12,
+      "unit": "dieux"
+    },
+    {
+      "id": "dofus-f7",
+      "difficulty": "facile",
+      "text": "Quelle classe de personnage est spécialisée dans le tir à l'arc à distance ?",
+      "options": [
+        { "id": "a", "label": "Le Crâ" },
+        { "id": "b", "label": "L'Iop" },
+        { "id": "c", "label": "L'Eniripsa" },
+        { "id": "d", "label": "Le Xélor" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-f8",
+      "difficulty": "facile",
+      "text": "Quelle suite du jeu, avec sa série animée, prolonge le même univers quelques siècles plus tard ?",
+      "options": [
+        { "id": "a", "label": "Wakfu" },
+        { "id": "b", "label": "Krosmaga" },
+        { "id": "c", "label": "Waven" },
+        { "id": "d", "label": "Abraca" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-f9",
+      "difficulty": "facile",
+      "text": "Comment appelle-t-on l'immense continent où vivent les personnages du jeu ?",
+      "options": [
+        { "id": "a", "label": "Le Monde des Douze" },
+        { "id": "b", "label": "La Terre du Milieu" },
+        { "id": "c", "label": "Hyrule" },
+        { "id": "d", "label": "Azeroth" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-f10",
+      "difficulty": "facile",
+      "text": "Quel petit monstre jaune tout rond, ressemblant à un mouton, est l'ennemi de base du débutant ?",
+      "options": [
+        { "id": "a", "label": "Le Bouftou" },
+        { "id": "b", "label": "Le Chafer" },
+        { "id": "c", "label": "Le Pichon" },
+        { "id": "d", "label": "Le Kwak" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-m1",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Comment se nomme le studio français, basé à Roubaix, qui développe et édite le jeu ?",
+      "answer": "Ankama"
+    },
+    {
+      "id": "dofus-m2",
+      "difficulty": "moyen",
+      "text": "Quelle cité, symbole du Bien, s'oppose historiquement à sa rivale maléfique ?",
+      "options": [
+        { "id": "a", "label": "Bonta" },
+        { "id": "b", "label": "Brâkmar" },
+        { "id": "c", "label": "Astrub" },
+        { "id": "d", "label": "Sufokia" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-m3",
+      "difficulty": "moyen",
+      "text": "Quelle cité, symbole du Mal, est la grande rivale de la ville des anges ?",
+      "options": [
+        { "id": "a", "label": "Brâkmar" },
+        { "id": "b", "label": "Bonta" },
+        { "id": "c", "label": "Amakna" },
+        { "id": "d", "label": "Pandala" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-m4",
+      "difficulty": "moyen",
+      "text": "Quelle ville neutre sert traditionnellement de point de départ aux nouveaux aventuriers ?",
+      "options": [
+        { "id": "a", "label": "Astrub" },
+        { "id": "b", "label": "Bonta" },
+        { "id": "c", "label": "Brâkmar" },
+        { "id": "d", "label": "Frigost" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-m5",
+      "difficulty": "moyen",
+      "text": "Quelle classe maîtrise le temps, ralentit ses ennemis et manie de grandes aiguilles d'horloge ?",
+      "options": [
+        { "id": "a", "label": "Le Xélor" },
+        { "id": "b", "label": "Le Sram" },
+        { "id": "c", "label": "Le Féca" },
+        { "id": "d", "label": "Le Sacrieur" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-m6",
+      "difficulty": "moyen",
+      "text": "Quelle classe de soigneurs redonne des points de vie à ses alliés grâce à des mots magiques ?",
+      "options": [
+        { "id": "a", "label": "L'Eniripsa" },
+        { "id": "b", "label": "L'Osamodas" },
+        { "id": "c", "label": "Le Roublard" },
+        { "id": "d", "label": "L'Enutrof" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-m7",
+      "difficulty": "moyen",
+      "text": "Quelle classe cupide, armée d'une pelle, cherche sans cesse à ramasser plus de trésors ?",
+      "options": [
+        { "id": "a", "label": "L'Enutrof" },
+        { "id": "b", "label": "Le Pandawa" },
+        { "id": "c", "label": "Le Zobal" },
+        { "id": "d", "label": "Le Crâ" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-m8",
+      "difficulty": "moyen",
+      "text": "Quelle classe combat au corps à corps, foncièrement courageuse mais tête brûlée ?",
+      "options": [
+        { "id": "a", "label": "L'Iop" },
+        { "id": "b", "label": "L'Eniripsa" },
+        { "id": "c", "label": "Le Xélor" },
+        { "id": "d", "label": "Le Sadida" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-m9",
+      "difficulty": "moyen",
+      "text": "Quelle classe assassine se rend invisible et pose des pièges mortels sur le terrain ?",
+      "options": [
+        { "id": "a", "label": "Le Sram" },
+        { "id": "b", "label": "Le Féca" },
+        { "id": "c", "label": "Le Pandawa" },
+        { "id": "d", "label": "L'Osamodas" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-m10",
+      "difficulty": "moyen",
+      "text": "Quelle classe protectrice dresse des glyphes et des boucliers pour défendre son groupe ?",
+      "options": [
+        { "id": "a", "label": "Le Féca" },
+        { "id": "b", "label": "L'Iop" },
+        { "id": "c", "label": "Le Sram" },
+        { "id": "d", "label": "L'Ecaflip" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-m11",
+      "difficulty": "moyen",
+      "text": "Quelle classe invoque et dresse des créatures, dont un dragon, pour combattre à ses côtés ?",
+      "options": [
+        { "id": "a", "label": "L'Osamodas" },
+        { "id": "b", "label": "Le Sacrieur" },
+        { "id": "c", "label": "Le Xélor" },
+        { "id": "d", "label": "Le Crâ" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-m12",
+      "difficulty": "moyen",
+      "text": "Quelle classe se blesse volontairement, devenant plus puissante à mesure qu'elle encaisse les coups ?",
+      "options": [
+        { "id": "a", "label": "Le Sacrieur" },
+        { "id": "b", "label": "Le Féca" },
+        { "id": "c", "label": "L'Eniripsa" },
+        { "id": "d", "label": "Le Pandawa" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-m13",
+      "difficulty": "moyen",
+      "text": "Quelle classe commande des plantes et des poupées de bois pour piéger l'adversaire ?",
+      "options": [
+        { "id": "a", "label": "Le Sadida" },
+        { "id": "b", "label": "Le Sram" },
+        { "id": "c", "label": "L'Iop" },
+        { "id": "d", "label": "Le Steamer" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-m14",
+      "difficulty": "moyen",
+      "text": "Quelle classe, joueuse et féline, s'en remet au hasard et aux paris pour vaincre ?",
+      "options": [
+        { "id": "a", "label": "L'Ecaflip" },
+        { "id": "b", "label": "Le Zobal" },
+        { "id": "c", "label": "L'Enutrof" },
+        { "id": "d", "label": "Le Féca" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-m15",
+      "difficulty": "moyen",
+      "text": "Quelle classe, éternellement éméchée, combat en titubant avec son bambou et fait boire ses ennemis ?",
+      "options": [
+        { "id": "a", "label": "Le Pandawa" },
+        { "id": "b", "label": "L'Iop" },
+        { "id": "c", "label": "Le Sacrieur" },
+        { "id": "d", "label": "Le Sram" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-m16",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on les jauges, limitées chaque tour, qui servent à lancer les sorts en combat ?",
+      "answer": "Les points d'action"
+    },
+    {
+      "id": "dofus-m17",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on les jauges, limitées chaque tour, qui permettent de se déplacer sur la grille ?",
+      "answer": "Les points de mouvement"
+    },
+    {
+      "id": "dofus-m18",
+      "difficulty": "moyen",
+      "text": "Sur quel type de terrain se déroulent les affrontements du jeu ?",
+      "options": [
+        { "id": "a", "label": "Une grille de cases" },
+        { "id": "b", "label": "Un ring circulaire" },
+        { "id": "c", "label": "Un plateau à billes" },
+        { "id": "d", "label": "Un damier vertical" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-m19",
+      "difficulty": "moyen",
+      "text": "Quel petit oiseau, monstre iconique et adorable du jeu, a donné son nom à une nourriture japonaise ?",
+      "options": [
+        { "id": "a", "label": "Le Tofu" },
+        { "id": "b", "label": "Le Piou" },
+        { "id": "c", "label": "Le Bwork" },
+        { "id": "d", "label": "Le Kwak" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-m20",
+      "difficulty": "moyen",
+      "text": "Quelle monture emblématique, croisement de dinde et de dragon, sert à voyager plus vite ?",
+      "options": [
+        { "id": "a", "label": "La Dragodinde" },
+        { "id": "b", "label": "Le Muldo" },
+        { "id": "c", "label": "La Mule" },
+        { "id": "d", "label": "Le Volkorne" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-d1",
+      "difficulty": "dur",
+      "type": "estimation",
+      "text": "En quelle année le jeu est-il sorti pour la première fois ?",
+      "answerValue": 2004,
+      "unit": ""
+    },
+    {
+      "id": "dofus-d2",
+      "difficulty": "dur",
+      "text": "Quelle île glacée, réputée pour sa difficulté, a été ajoutée comme grande extension du jeu ?",
+      "options": [
+        { "id": "a", "label": "Frigost" },
+        { "id": "b", "label": "Pandala" },
+        { "id": "c", "label": "Moon" },
+        { "id": "d", "label": "Otomaï" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-d3",
+      "difficulty": "dur",
+      "text": "Quelle île tropicale, du nom d'un célèbre savant fou, abrite un laboratoire et une jungle luxuriante ?",
+      "options": [
+        { "id": "a", "label": "L'île d'Otomaï" },
+        { "id": "b", "label": "Frigost" },
+        { "id": "c", "label": "Pandala" },
+        { "id": "d", "label": "Sufokia" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-d4",
+      "difficulty": "dur",
+      "text": "Quelle cité sous-marine, peuplée de pêcheurs et de marins, se cache au fond de l'océan ?",
+      "options": [
+        { "id": "a", "label": "Sufokia" },
+        { "id": "b", "label": "Bonta" },
+        { "id": "c", "label": "Pandala" },
+        { "id": "d", "label": "Astrub" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-d5",
+      "difficulty": "dur",
+      "text": "Quelle île asiatique, patrie des Pandawas, mêle temples et esprit combatif ?",
+      "options": [
+        { "id": "a", "label": "Pandala" },
+        { "id": "b", "label": "Frigost" },
+        { "id": "c", "label": "Otomaï" },
+        { "id": "d", "label": "Moon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-d6",
+      "difficulty": "dur",
+      "text": "Quelle classe pirate, maniant bombes et poudre à canon, a été ajoutée après les douze d'origine ?",
+      "options": [
+        { "id": "a", "label": "Le Roublard" },
+        { "id": "b", "label": "Le Zobal" },
+        { "id": "c", "label": "Le Steamer" },
+        { "id": "d", "label": "L'Ouginak" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-d7",
+      "difficulty": "dur",
+      "text": "Quelle classe change de rôle en portant différents masques (courage, ruse, classe) au combat ?",
+      "options": [
+        { "id": "a", "label": "Le Zobal" },
+        { "id": "b", "label": "Le Roublard" },
+        { "id": "c", "label": "Le Sacrieur" },
+        { "id": "d", "label": "L'Eliotrope" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-d8",
+      "difficulty": "dur",
+      "text": "Quelle classe marine et mécanique invoque des tourelles pour appuyer ses tirs ?",
+      "options": [
+        { "id": "a", "label": "Le Steamer" },
+        { "id": "b", "label": "Le Roublard" },
+        { "id": "c", "label": "L'Osamodas" },
+        { "id": "d", "label": "Le Féca" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-d9",
+      "difficulty": "dur",
+      "text": "Quelle classe ouvre des portails pour se téléporter et frapper d'un bout à l'autre du terrain ?",
+      "options": [
+        { "id": "a", "label": "L'Eliotrope" },
+        { "id": "b", "label": "Le Xélor" },
+        { "id": "c", "label": "Le Huppermage" },
+        { "id": "d", "label": "Le Zobal" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-d10",
+      "difficulty": "dur",
+      "text": "Quelle classe combine les quatre éléments pour créer de puissantes runes magiques ?",
+      "options": [
+        { "id": "a", "label": "Le Huppermage" },
+        { "id": "b", "label": "L'Eliotrope" },
+        { "id": "c", "label": "Le Steamer" },
+        { "id": "d", "label": "L'Ouginak" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-d11",
+      "difficulty": "dur",
+      "text": "Quelle classe, mi-homme mi-chien, traque sa proie et devient enragée à la chasse ?",
+      "options": [
+        { "id": "a", "label": "L'Ouginak" },
+        { "id": "b", "label": "L'Ecaflip" },
+        { "id": "c", "label": "Le Sram" },
+        { "id": "d", "label": "Le Sadida" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-d12",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel vieil Ecaflip aventurier, tenant une boutique, est le héros d'un dessin animé dérivé et le tuteur de Joris ?",
+      "answer": "Kérubim"
+    },
+    {
+      "id": "dofus-d13",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Comment se nomme le petit garçon au bonnet, fils adoptif du vieux marchand félin, héros du film de 2016 ?",
+      "answer": "Joris"
+    },
+    {
+      "id": "dofus-d14",
+      "difficulty": "dur",
+      "text": "Quelle sorcière donne son nom au long-métrage d'animation « Dofus - Livre 1 » sorti au cinéma ?",
+      "options": [
+        { "id": "a", "label": "Julith" },
+        { "id": "b", "label": "Bakara" },
+        { "id": "c", "label": "Kardorim" },
+        { "id": "d", "label": "Ush" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-d15",
+      "difficulty": "dur",
+      "type": "estimation",
+      "text": "Combien de Dofus dits « primordiaux », pondus par les dragons originels, existe-t-il dans la légende ?",
+      "answerValue": 6,
+      "unit": "Dofus"
+    },
+    {
+      "id": "dofus-d16",
+      "difficulty": "dur",
+      "text": "Quel œuf légendaire, de couleur verte, est l'un des plus convoités du jeu ?",
+      "options": [
+        { "id": "a", "label": "Le Dofus Émeraude" },
+        { "id": "b", "label": "Le Dofus Pourpre" },
+        { "id": "c", "label": "Le Dofus Turquoise" },
+        { "id": "d", "label": "Le Dofus Vulbis" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-d17",
+      "difficulty": "dur",
+      "text": "Quel œuf sacré, de couleur rouge sang, est réputé augmenter la vitalité de son porteur ?",
+      "options": [
+        { "id": "a", "label": "Le Dofus Pourpre" },
+        { "id": "b", "label": "Le Dofus Émeraude" },
+        { "id": "c", "label": "Le Dofus Ocre" },
+        { "id": "d", "label": "Le Dofus Abyssal" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-d18",
+      "difficulty": "dur",
+      "text": "Quel œuf mythique, à la teinte jaune-brun, est resté célèbre car son obtention exigeait mille prouesses ?",
+      "options": [
+        { "id": "a", "label": "Le Dofus Ocre" },
+        { "id": "b", "label": "Le Dofus Émeraude" },
+        { "id": "c", "label": "Le Dofus Pourpre" },
+        { "id": "d", "label": "Le Dofus Cawotte" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-d19",
+      "difficulty": "dur",
+      "text": "Comment appelle-t-on l'immense univers partagé regroupant Dofus, Wakfu et les autres créations du studio ?",
+      "options": [
+        { "id": "a", "label": "Le Krosmoz" },
+        { "id": "b", "label": "Le Multivers" },
+        { "id": "c", "label": "L'Inglorium" },
+        { "id": "d", "label": "L'Externe" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-d20",
+      "difficulty": "dur",
+      "text": "Quelle profession de récolte consiste à couper du bois dans les forêts du jeu ?",
+      "options": [
+        { "id": "a", "label": "Bûcheron" },
+        { "id": "b", "label": "Mineur" },
+        { "id": "c", "label": "Paysan" },
+        { "id": "d", "label": "Pêcheur" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-d21",
+      "difficulty": "dur",
+      "text": "Quel métier permet de forger épées et dagues à partir de minerais fondus ?",
+      "options": [
+        { "id": "a", "label": "Forgeron" },
+        { "id": "b", "label": "Cordonnier" },
+        { "id": "c", "label": "Bijoutier" },
+        { "id": "d", "label": "Sculpteur" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-d22",
+      "difficulty": "dur",
+      "text": "Quel gros monstre bovin couronné, chef de sa horde, garde le plus fameux donjon des débuts ?",
+      "options": [
+        { "id": "a", "label": "Le Bouftou Royal" },
+        { "id": "b", "label": "Le Dragon Cochon" },
+        { "id": "c", "label": "Le Chêne Mou" },
+        { "id": "d", "label": "Le Corbac" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-d23",
+      "difficulty": "dur",
+      "text": "Quel arbre géant et mou est le boss d'un donjon classique des débuts du jeu ?",
+      "options": [
+        { "id": "a", "label": "Le Chêne Mou" },
+        { "id": "b", "label": "Le Bouftou Royal" },
+        { "id": "c", "label": "Le Rat Blanc" },
+        { "id": "d", "label": "Le Kaniglou" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-d24",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on les petits animaux d'accompagnement, comme le Chacha, qui donnent des bonus à leur maître ?",
+      "answer": "Les familiers"
+    },
+    {
+      "id": "dofus-d25",
+      "difficulty": "dur",
+      "text": "Quel adorable familier félin, très prisé, faut-il nourrir régulièrement pour qu'il garde ses bonus ?",
+      "options": [
+        { "id": "a", "label": "Le Chacha" },
+        { "id": "b", "label": "Le Tofu" },
+        { "id": "c", "label": "Le Wabbit" },
+        { "id": "d", "label": "Le Bwak" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-d26",
+      "difficulty": "dur",
+      "text": "Comment nomme-t-on le regroupement de joueurs qui s'allient durablement sous une même bannière ?",
+      "options": [
+        { "id": "a", "label": "Une guilde" },
+        { "id": "b", "label": "Un clan" },
+        { "id": "c", "label": "Une escouade" },
+        { "id": "d", "label": "Une brigade" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-d27",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel jeu de cartes numérique du studio met en scène les dieux et les héros du même univers ?",
+      "answer": "Krosmaga"
+    },
+    {
+      "id": "dofus-d28",
+      "difficulty": "dur",
+      "text": "Quel jeu de figurines et de plateau, dérivé de la licence, oppose des champions miniatures ?",
+      "options": [
+        { "id": "a", "label": "Krosmaster" },
+        { "id": "b", "label": "Krosmaga" },
+        { "id": "c", "label": "Waven" },
+        { "id": "d", "label": "Abraca" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-d29",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel dragon noir et ancien, gardien millénaire, veille dans la forêt au tout début de la saga animée dérivée ?",
+      "answer": "Grougaloragran"
+    },
+    {
+      "id": "dofus-d30",
+      "difficulty": "dur",
+      "text": "Comment s'appelle le système de rassemblement qui téléporte les joueurs vers un lieu unique par des statues ?",
+      "options": [
+        { "id": "a", "label": "Le Zaap" },
+        { "id": "b", "label": "Le portail" },
+        { "id": "c", "label": "La borne" },
+        { "id": "d", "label": "Le vortex" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-p1",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on le réseau de statues bleues qui permet de se téléporter rapidement entre les grandes zones ?",
+      "answer": "Les Zaaps"
+    },
+    {
+      "id": "dofus-p2",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel jeune Eliotrope au chapeau pointu est le héros principal de la série animée qui prolonge l'univers ?",
+      "answer": "Yugo"
+    },
+    {
+      "id": "dofus-p3",
+      "difficulty": "pro",
+      "text": "Quel Iop bagarreur et amoureux d'Evangelyne accompagne le jeune héros dans la série animée dérivée ?",
+      "options": [
+        { "id": "a", "label": "Tristepin" },
+        { "id": "b", "label": "Ruel" },
+        { "id": "c", "label": "Adamaï" },
+        { "id": "d", "label": "Qilby" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-p4",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment se nomme la princesse Sadida au caractère bien trempé, compagne d'aventure du jeune héros ?",
+      "answer": "Amalia"
+    },
+    {
+      "id": "dofus-p5",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelle archère Crâ, sérieuse et déterminée, forme un couple avec le Iop de la troupe ?",
+      "answer": "Evangelyne"
+    },
+    {
+      "id": "dofus-p6",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel horloger maléfique, obsédé par le retour de son peuple, est le grand méchant de la première saison animée ?",
+      "answer": "Nox"
+    },
+    {
+      "id": "dofus-p7",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment se nomme le petit oiseau jaune, fidèle compagnon du jeune héros à chapeau dans la série ?",
+      "answer": "Az"
+    },
+    {
+      "id": "dofus-p8",
+      "difficulty": "pro",
+      "text": "Quel vieil Enutrof avare et râleur, chasseur de trésors, voyage avec les héros de la série animée ?",
+      "options": [
+        { "id": "a", "label": "Ruel" },
+        { "id": "b", "label": "Kérubim" },
+        { "id": "c", "label": "Otomaï" },
+        { "id": "d", "label": "Goultard" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-p9",
+      "difficulty": "pro",
+      "text": "Quel dragon blanc, frère jumeau né du même œuf que le jeune héros, l'accompagne dans ses aventures ?",
+      "options": [
+        { "id": "a", "label": "Adamaï" },
+        { "id": "b", "label": "Grougaloragran" },
+        { "id": "c", "label": "Chibi" },
+        { "id": "d", "label": "Baltazar" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-p10",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel Iop légendaire, réputé quasi invincible et considéré comme un dieu vivant, porte une hache ?",
+      "answer": "Goultard"
+    },
+    {
+      "id": "dofus-p11",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelle énergie vitale, qui donne son nom à la suite du jeu, symbolise la vie et la création dans cet univers ?",
+      "answer": "Le Wakfu"
+    },
+    {
+      "id": "dofus-p12",
+      "difficulty": "pro",
+      "text": "Quelle énergie opposée, symbole de destruction et de mort, complète la dualité fondatrice de l'univers ?",
+      "options": [
+        { "id": "a", "label": "La Stasis" },
+        { "id": "b", "label": "La Faille" },
+        { "id": "c", "label": "L'Ombre" },
+        { "id": "d", "label": "Le Néant" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-p13",
+      "difficulty": "pro",
+      "text": "Comment s'appelle la région verdoyante centrale, célèbre pour son château et son village de départ historique ?",
+      "options": [
+        { "id": "a", "label": "Amakna" },
+        { "id": "b", "label": "Sufokia" },
+        { "id": "c", "label": "Pandala" },
+        { "id": "d", "label": "Cania" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-p14",
+      "difficulty": "pro",
+      "text": "Quelles vastes étendues et montagnes, au climat rude, s'étendent au nord du monde vers l'île gelée ?",
+      "options": [
+        { "id": "a", "label": "Les plaines de Cania" },
+        { "id": "b", "label": "La forêt d'Amakna" },
+        { "id": "c", "label": "Les landes de Sidimote" },
+        { "id": "d", "label": "Le désert des Craquelés" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-p15",
+      "difficulty": "pro",
+      "text": "Quelle contrée brûlante, peuplée de morts-vivants et de scarafeuilles, borde le sud du continent ?",
+      "options": [
+        { "id": "a", "label": "Le désert des Craquelés" },
+        { "id": "b", "label": "Les plaines de Cania" },
+        { "id": "c", "label": "La baie de Sufokia" },
+        { "id": "d", "label": "Le plateau de Pandala" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-p16",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on les objets à collectionner qui, une fois complétés en album, offrent des récompenses ?",
+      "answer": "Les succès"
+    },
+    {
+      "id": "dofus-p17",
+      "difficulty": "pro",
+      "text": "Quelle ressource précieuse, extraite par le Mineur, sert à forger les équipements les plus solides ?",
+      "options": [
+        { "id": "a", "label": "Le minerai" },
+        { "id": "b", "label": "Le cuir" },
+        { "id": "c", "label": "L'étoffe" },
+        { "id": "d", "label": "Le bois" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-p18",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment nomme-t-on la version 100 % gratuite et modernisée du jeu, relancée dans les années 2010 ?",
+      "answer": "Dofus Touch"
+    },
+    {
+      "id": "dofus-p19",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on la version aux règles figées « à l'ancienne », rééditée pour les nostalgiques ?",
+      "answer": "Dofus Rétro"
+    },
+    {
+      "id": "dofus-p20",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel nouveau jeu tactique du studio, plus récent, partage le même univers et se veut plus accessible ?",
+      "answer": "Waven"
+    },
+    {
+      "id": "dofus-p21",
+      "difficulty": "pro",
+      "text": "Comment appelle-t-on l'action d'améliorer un équipement en y ajoutant des caractéristiques via des runes ?",
+      "options": [
+        { "id": "a", "label": "La forgemagie" },
+        { "id": "b", "label": "L'enchantement" },
+        { "id": "c", "label": "Le sertissage" },
+        { "id": "d", "label": "La trempe" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-p22",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel artisan spécialisé manipule les runes pour améliorer ou casser les statistiques des objets ?",
+      "answer": "Le forgemage"
+    },
+    {
+      "id": "dofus-p23",
+      "difficulty": "pro",
+      "text": "Comment appelle-t-on les grands combats collectifs contre un monstre géant nécessitant un groupe entier ?",
+      "options": [
+        { "id": "a", "label": "Un donjon" },
+        { "id": "b", "label": "Un raid express" },
+        { "id": "c", "label": "Une arène" },
+        { "id": "d", "label": "Un tournoi" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-p24",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel gigantesque monstre porcin ailé, boss redouté d'un donjon culte, garde un trésor très convoité ?",
+      "answer": "Le Dragon Cochon"
+    },
+    {
+      "id": "dofus-p25",
+      "difficulty": "pro",
+      "text": "Quel puissant boss démoniaque, seigneur des flammes, règne sur les profondeurs infernales du jeu ?",
+      "options": [
+        { "id": "a", "label": "Le Comte Harebourg" },
+        { "id": "b", "label": "Kardorim" },
+        { "id": "c", "label": "Solar" },
+        { "id": "d", "label": "Ougah" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "dofus-p26",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel comte givré, maître de l'horlogerie et du gel, règne sur l'île glacée en tant que boss ultime ?",
+      "answer": "Harebourg"
+    },
+    {
+      "id": "dofus-p27",
+      "difficulty": "pro",
+      "text": "Comment qualifie-t-on le type de royaume où la mort d'un personnage est définitive et irréversible ?",
+      "options": [
+        { "id": "a", "label": "Un serveur mono-compte" },
+        { "id": "b", "label": "Un serveur héroïque" },
+        { "id": "c", "label": "Un serveur épique" },
+        { "id": "d", "label": "Un serveur bêta" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "dofus-p28",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Par quelle abréviation de deux lettres les joueurs désignent-ils couramment les points d'action ?",
+      "answer": "PA"
+    },
+    {
+      "id": "dofus-p29",
+      "difficulty": "pro",
+      "text": "Quelle divinité créatrice, figure maternelle originelle, est à l'origine du peuple aux portails ?",
+      "options": [
+        { "id": "a", "label": "Eliatrope, la déesse-mère" },
+        { "id": "b", "label": "Sadida" },
+        { "id": "c", "label": "Xélor" },
+        { "id": "d", "label": "Ecaflip" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-p30",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel roi tyrannique des Eliatropes, frère de la déesse-mère, devient le grand antagoniste de la deuxième saison animée ?",
+      "answer": "Qilby"
+    },
+    {
+      "id": "dofus-p31",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien de classes jouables le jeu proposait-il environ après l'ajout de la plus récente, la Forgelance ?",
+      "answerValue": 19,
+      "unit": "classes"
+    },
+    {
+      "id": "dofus-p32",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelle classe la plus récente, maniant une longue lance de forge, a rejoint le roster au début des années 2020 ?",
+      "answer": "La Forgelance"
+    },
+    {
+      "id": "dofus-p33",
+      "difficulty": "pro",
+      "text": "Quel petit personnage farceur et bricoleur, esprit du jeu, glisse des blagues et des références dans l'univers ?",
+      "options": [
+        { "id": "a", "label": "Le Dieu Sadida" },
+        { "id": "b", "label": "Ankama, le dieu créateur" },
+        { "id": "c", "label": "Le Dieu Iop" },
+        { "id": "d", "label": "Le Dieu Enutrof" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "dofus-p34",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on le lieu de commerce où les joueurs déposent leurs objets à prix libre pour les revendre ?",
+      "answer": "L'hôtel de vente"
+    },
+    {
+      "id": "dofus-p35",
+      "difficulty": "pro",
+      "text": "Quels petits humanoïdes verts et bagarreurs, souvent regroupés en villages, parlent un langage grossier ?",
+      "options": [
+        { "id": "a", "label": "Les Bworks" },
+        { "id": "b", "label": "Les Tofus" },
+        { "id": "c", "label": "Les Pious" },
+        { "id": "d", "label": "Les Wabbits" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-p36",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on le sac magique servant de coffre et de logement portatif à chaque aventurier ?",
+      "answer": "Le Havre-Sac"
+    },
+    {
+      "id": "dofus-p37",
+      "difficulty": "pro",
+      "text": "Quel bien immobilier individuel, achetable dans les villes, permet à un joueur de ranger et décorer son logement ?",
+      "options": [
+        { "id": "a", "label": "La maison" },
+        { "id": "b", "label": "La taverne" },
+        { "id": "c", "label": "L'atelier" },
+        { "id": "d", "label": "Le donjon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-p38",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on l'élevage où les joueurs font se reproduire leurs montures à bec pour créer de nouvelles couleurs ?",
+      "answer": "L'enclos"
+    },
+    {
+      "id": "dofus-p39",
+      "difficulty": "pro",
+      "text": "Comment nomme-t-on les affrontements entre joueurs pour marquer des points et grimper dans un classement dédié ?",
+      "options": [
+        { "id": "a", "label": "Le Kolizéum" },
+        { "id": "b", "label": "L'arène du sang" },
+        { "id": "c", "label": "La joute" },
+        { "id": "d", "label": "Le duel royal" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dofus-p40",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on les effets, positifs ou négatifs, qui s'accumulent sur un personnage durant un combat ?",
+      "answer": "Les états"
+    }
+  ]
+}
