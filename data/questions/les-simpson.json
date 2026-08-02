@@ -1,0 +1,986 @@
+{
+  "universeId": "les-simpson",
+  "questions": [
+    {
+      "id": "simpson-f1",
+      "difficulty": "facile",
+      "type": "buzzer",
+      "text": "Quelle exclamation ronchon Homer lance-t-il dès que les choses tournent mal ?",
+      "answer": "D'oh"
+    },
+    {
+      "id": "simpson-f2",
+      "difficulty": "facile",
+      "text": "Dans quelle ville fictive vit la célèbre famille jaune ?",
+      "options": [
+        { "id": "a", "label": "Springfield" },
+        { "id": "b", "label": "Shelbyville" },
+        { "id": "c", "label": "Capital City" },
+        { "id": "d", "label": "Ogdenville" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-f3",
+      "difficulty": "facile",
+      "text": "Quel garçon garnement, aîné des enfants, fait des blagues sur son skateboard ?",
+      "options": [
+        { "id": "a", "label": "Bart" },
+        { "id": "b", "label": "Milhouse" },
+        { "id": "c", "label": "Nelson" },
+        { "id": "d", "label": "Ralph" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-f4",
+      "difficulty": "facile",
+      "text": "Quelle fille surdouée de la famille joue du saxophone ?",
+      "options": [
+        { "id": "a", "label": "Lisa" },
+        { "id": "b", "label": "Maggie" },
+        { "id": "c", "label": "Patty" },
+        { "id": "d", "label": "Selma" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-f5",
+      "difficulty": "facile",
+      "text": "Comment s'appelle la mère de famille, coiffée d'une immense chevelure bleue ?",
+      "options": [
+        { "id": "a", "label": "Marge" },
+        { "id": "b", "label": "Maude" },
+        { "id": "c", "label": "Edna" },
+        { "id": "d", "label": "Manjula" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-f6",
+      "difficulty": "facile",
+      "text": "Quel bébé de la famille suce en permanence sa tétine ?",
+      "options": [
+        { "id": "a", "label": "Maggie" },
+        { "id": "b", "label": "Lisa" },
+        { "id": "c", "label": "Bart" },
+        { "id": "d", "label": "Rod" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-f7",
+      "difficulty": "facile",
+      "type": "buzzer",
+      "text": "Quel est le prénom du père de famille, employé à la centrale nucléaire ?",
+      "answer": "Homer"
+    },
+    {
+      "id": "simpson-f8",
+      "difficulty": "facile",
+      "text": "De quelle couleur est la peau des personnages de la série ?",
+      "options": [
+        { "id": "a", "label": "Jaune" },
+        { "id": "b", "label": "Verte" },
+        { "id": "c", "label": "Rose" },
+        { "id": "d", "label": "Bleue" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-f9",
+      "difficulty": "facile",
+      "text": "Quelle boisson favorite Homer commande-t-il sans cesse à la taverne de Moe ?",
+      "options": [
+        { "id": "a", "label": "La bière Duff" },
+        { "id": "b", "label": "Un soda light" },
+        { "id": "c", "label": "Un café serré" },
+        { "id": "d", "label": "Un jus d'orange" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-f10",
+      "difficulty": "facile",
+      "type": "estimation",
+      "text": "Combien d'enfants le couple Homer et Marge a-t-il en tout ?",
+      "answerValue": 3,
+      "unit": "enfants"
+    },
+    {
+      "id": "simpson-m1",
+      "difficulty": "moyen",
+      "text": "Quel vieux milliardaire avare dirige la centrale nucléaire de la ville ?",
+      "options": [
+        { "id": "a", "label": "Monsieur Burns" },
+        { "id": "b", "label": "Ned Flanders" },
+        { "id": "c", "label": "Kirk Van Houten" },
+        { "id": "d", "label": "Kent Brockman" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-m2",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Comment se nomme l'assistant dévoué du patron de la centrale, secrètement amoureux de lui ?",
+      "answer": "Smithers"
+    },
+    {
+      "id": "simpson-m3",
+      "difficulty": "moyen",
+      "text": "Quel voisin très pieux et jovial habite juste à côté de la maison familiale ?",
+      "options": [
+        { "id": "a", "label": "Ned Flanders" },
+        { "id": "b", "label": "Moe Szyslak" },
+        { "id": "c", "label": "Barney Gumble" },
+        { "id": "d", "label": "Apu" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-m4",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel clown déprimé anime l'émission pour enfants préférée de Bart ?",
+      "answer": "Krusty"
+    },
+    {
+      "id": "simpson-m5",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Comment s'appelle le barman grincheux qui tient le bar où Homer traîne ?",
+      "answer": "Moe"
+    },
+    {
+      "id": "simpson-m6",
+      "difficulty": "moyen",
+      "text": "Quel ivrogne notoire est le meilleur ami de Homer et éructe souvent ?",
+      "options": [
+        { "id": "a", "label": "Barney" },
+        { "id": "b", "label": "Lenny" },
+        { "id": "c", "label": "Carl" },
+        { "id": "d", "label": "Otto" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-m7",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel directeur rigide et complexé dirige l'école élémentaire de la ville ?",
+      "answer": "Skinner"
+    },
+    {
+      "id": "simpson-m8",
+      "difficulty": "moyen",
+      "text": "Quel gros dur de l'école harcèle Bart en riant d'un « Ha-ha ! » moqueur ?",
+      "options": [
+        { "id": "a", "label": "Nelson" },
+        { "id": "b", "label": "Milhouse" },
+        { "id": "c", "label": "Ralph" },
+        { "id": "d", "label": "Todd" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-m9",
+      "difficulty": "moyen",
+      "text": "Quel meilleur ami de Bart porte de grosses lunettes et un amour secret pour Lisa ?",
+      "options": [
+        { "id": "a", "label": "Milhouse" },
+        { "id": "b", "label": "Nelson" },
+        { "id": "c", "label": "Martin" },
+        { "id": "d", "label": "Ralph" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-m10",
+      "difficulty": "moyen",
+      "text": "Quel commerçant indien tient l'épicerie ouverte en permanence, le Kwik-E-Mart ?",
+      "options": [
+        { "id": "a", "label": "Apu" },
+        { "id": "b", "label": "Willie" },
+        { "id": "c", "label": "Moe" },
+        { "id": "d", "label": "Gil" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-m11",
+      "difficulty": "moyen",
+      "text": "Quel jardinier écossais furieux entretient l'école, avec un fort accent ?",
+      "options": [
+        { "id": "a", "label": "Willie" },
+        { "id": "b", "label": "Otto" },
+        { "id": "c", "label": "Barney" },
+        { "id": "d", "label": "Cletus" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-m12",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel chef de la police, gros et moustachu, dirige les forces de l'ordre de la ville ?",
+      "answer": "Wiggum"
+    },
+    {
+      "id": "simpson-m13",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle le fils simplet du chef de la police, camarade de classe de Lisa ?",
+      "options": [
+        { "id": "a", "label": "Ralph" },
+        { "id": "b", "label": "Nelson" },
+        { "id": "c", "label": "Milhouse" },
+        { "id": "d", "label": "Rod" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-m14",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel présentateur vedette du journal télévisé de la ville a une voix grave et solennelle ?",
+      "answer": "Kent Brockman"
+    },
+    {
+      "id": "simpson-m15",
+      "difficulty": "moyen",
+      "text": "Quelles sont les deux sœurs jumelles de Marge, fumeuses et acariâtres ?",
+      "options": [
+        { "id": "a", "label": "Patty et Selma" },
+        { "id": "b", "label": "Maude et Edna" },
+        { "id": "c", "label": "Sarah et Helen" },
+        { "id": "d", "label": "Manjula et Bernice" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-m16",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Comment se nomme le pasteur qui officie à l'église de la ville et s'ennuie ferme ?",
+      "answer": "Lovejoy"
+    },
+    {
+      "id": "simpson-m17",
+      "difficulty": "moyen",
+      "text": "Quelle marque de bière remplit les cannettes que Homer engloutit à la maison ?",
+      "options": [
+        { "id": "a", "label": "Duff" },
+        { "id": "b", "label": "Skittlebrau" },
+        { "id": "c", "label": "Fudd" },
+        { "id": "d", "label": "Red Tick" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-m18",
+      "difficulty": "moyen",
+      "type": "estimation",
+      "text": "En quelle année la série a-t-elle démarré sous forme de programme à part entière (mi-décembre) ?",
+      "answerValue": 1989,
+      "unit": ""
+    },
+    {
+      "id": "simpson-m19",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle le chien de la famille, adopté lors d'un réveillon de fin d'année ?",
+      "options": [
+        { "id": "a", "label": "Petit Papa Noël" },
+        { "id": "b", "label": "Boule de Neige" },
+        { "id": "c", "label": "Rex" },
+        { "id": "d", "label": "Laddie" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-m20",
+      "difficulty": "moyen",
+      "text": "Comment se prénomme le chat de la famille, de couleur sombre ?",
+      "options": [
+        { "id": "a", "label": "Boule de Neige" },
+        { "id": "b", "label": "Petit Papa Noël" },
+        { "id": "c", "label": "Garfield" },
+        { "id": "d", "label": "Félix" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-d1",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel dessinateur américain est le créateur de la série animée à la famille jaune ?",
+      "answer": "Matt Groening"
+    },
+    {
+      "id": "simpson-d2",
+      "difficulty": "dur",
+      "text": "Sur quelle grande chaîne américaine la série est-elle diffusée depuis ses débuts ?",
+      "options": [
+        { "id": "a", "label": "Fox" },
+        { "id": "b", "label": "NBC" },
+        { "id": "c", "label": "ABC" },
+        { "id": "d", "label": "CBS" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-d3",
+      "difficulty": "dur",
+      "text": "Dans quelle émission la famille est-elle d'abord apparue sous forme de courts sketchs animés ?",
+      "options": [
+        { "id": "a", "label": "Le Tracey Ullman Show" },
+        { "id": "b", "label": "Saturday Night Live" },
+        { "id": "c", "label": "Le Cosby Show" },
+        { "id": "d", "label": "Le Muppet Show" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-d4",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel sinistre bandit de la ville, cheveux verts, est le criminel de rue le plus récurrent ?",
+      "answer": "Serpent"
+    },
+    {
+      "id": "simpson-d5",
+      "difficulty": "dur",
+      "text": "Quel ancien acolyte du clown, à la voix rauque, veut se venger et l'a fait accuser à sa place ?",
+      "options": [
+        { "id": "a", "label": "Tahiti Bob" },
+        { "id": "b", "label": "Gil" },
+        { "id": "c", "label": "Snake" },
+        { "id": "d", "label": "Fat Tony" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-d6",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Comment s'appelle le pathétique vendeur malchanceux qui rate toutes ses affaires ?",
+      "answer": "Gil"
+    },
+    {
+      "id": "simpson-d7",
+      "difficulty": "dur",
+      "text": "Quels deux collègues de Homer à la centrale sont ses copains inséparables au travail ?",
+      "options": [
+        { "id": "a", "label": "Lenny et Carl" },
+        { "id": "b", "label": "Patty et Selma" },
+        { "id": "c", "label": "Rod et Todd" },
+        { "id": "d", "label": "Bart et Milhouse" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-d8",
+      "difficulty": "dur",
+      "text": "Quel savant à lunettes et voix nasillarde présente ses inventions farfelues à la ville ?",
+      "options": [
+        { "id": "a", "label": "Professeur Frink" },
+        { "id": "b", "label": "Docteur Nick" },
+        { "id": "c", "label": "Docteur Hibbert" },
+        { "id": "d", "label": "Troy McClure" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-d9",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Comment s'appelle l'institutrice de Bart, souvent lassée et proche du directeur ?",
+      "answer": "Edna Krabappel"
+    },
+    {
+      "id": "simpson-d10",
+      "difficulty": "dur",
+      "text": "Quelle épouse pieuse du voisin Ned meurt lors d'un accident dans un stade ?",
+      "options": [
+        { "id": "a", "label": "Maude" },
+        { "id": "b", "label": "Edna" },
+        { "id": "c", "label": "Helen" },
+        { "id": "d", "label": "Bernice" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-d11",
+      "difficulty": "dur",
+      "text": "Comment se nomment les deux jeunes fils très sages du voisin très croyant ?",
+      "options": [
+        { "id": "a", "label": "Rod et Todd" },
+        { "id": "b", "label": "Lenny et Carl" },
+        { "id": "c", "label": "Sherri et Terri" },
+        { "id": "d", "label": "Bart et Milhouse" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-d12",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel acteur has-been des films de prévention est célèbre pour son « Vous me connaissez peut-être... » ?",
+      "answer": "Troy McClure"
+    },
+    {
+      "id": "simpson-d13",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Comment s'appelle l'avocat véreux et incompétent qui défend souvent la famille au tribunal ?",
+      "answer": "Lionel Hutz"
+    },
+    {
+      "id": "simpson-d14",
+      "difficulty": "dur",
+      "text": "Quel personnage obèse tient la boutique de bandes dessinées et juge tout « pire épisode ever » ?",
+      "options": [
+        { "id": "a", "label": "Le vendeur de BD" },
+        { "id": "b", "label": "Le professeur Frink" },
+        { "id": "c", "label": "Le docteur Nick" },
+        { "id": "d", "label": "Gil" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-d15",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel péquenaud crasseux vit dans une cabane et a une ribambelle d'enfants sales ?",
+      "answer": "Cletus"
+    },
+    {
+      "id": "simpson-d16",
+      "difficulty": "dur",
+      "text": "Quel héros d'action, favori de Bart et Milhouse, tue ses ennemis à l'écran ?",
+      "options": [
+        { "id": "a", "label": "McBain" },
+        { "id": "b", "label": "Radioactive Man" },
+        { "id": "c", "label": "Duffman" },
+        { "id": "d", "label": "Fallout Boy" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-d17",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Comment se nomme le maire beau parleur et corrompu qui dirige la ville ?",
+      "answer": "Quimby"
+    },
+    {
+      "id": "simpson-d18",
+      "difficulty": "dur",
+      "text": "Dans quelle zone numérotée de la centrale Homer surveille-t-il un tableau de contrôle ?",
+      "options": [
+        { "id": "a", "label": "Le secteur 7-G" },
+        { "id": "b", "label": "Le secteur 3-B" },
+        { "id": "c", "label": "Le secteur 12-F" },
+        { "id": "d", "label": "Le secteur 9-A" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-d19",
+      "difficulty": "dur",
+      "type": "estimation",
+      "text": "En quelle année est sorti le long-métrage de cinéma consacré à la famille jaune ?",
+      "answerValue": 2007,
+      "unit": ""
+    },
+    {
+      "id": "simpson-d20",
+      "difficulty": "dur",
+      "text": "Quel dessin animé ultra-violent, dans le programme du clown, met en scène un chat et une souris ?",
+      "options": [
+        { "id": "a", "label": "Itchy et Scratchy" },
+        { "id": "b", "label": "Tom et Jerry" },
+        { "id": "c", "label": "Bécassine" },
+        { "id": "d", "label": "Radioactive Man" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-d21",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Qui a tiré sur Monsieur Burns dans le célèbre cliffhanger en deux parties ?",
+      "answer": "Maggie"
+    },
+    {
+      "id": "simpson-d22",
+      "difficulty": "dur",
+      "type": "ordre",
+      "text": "Classe ces trois enfants de la famille du plus âgé au plus jeune.",
+      "items": [
+        { "id": "a", "label": "Bart" },
+        { "id": "b", "label": "Lisa" },
+        { "id": "c", "label": "Maggie" }
+      ]
+    },
+    {
+      "id": "simpson-d23",
+      "difficulty": "dur",
+      "text": "Quel gag récurrent du générique montre la famille se précipitant devant sa télévision ?",
+      "options": [
+        { "id": "a", "label": "Le gag du canapé" },
+        { "id": "b", "label": "Le gag du tableau noir" },
+        { "id": "c", "label": "Le gag du klaxon" },
+        { "id": "d", "label": "Le gag de la voiture" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-d24",
+      "difficulty": "dur",
+      "text": "Quelle punition Bart écrit-il en boucle au début de nombreux épisodes ?",
+      "options": [
+        { "id": "a", "label": "Des lignes au tableau" },
+        { "id": "b", "label": "Un poème récité" },
+        { "id": "c", "label": "Une chanson au piano" },
+        { "id": "d", "label": "Un dessin effacé" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-d25",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel épisode spécial d'Halloween revient chaque année sous un titre récurrent en anglais ?",
+      "answer": "Treehouse of Horror"
+    },
+    {
+      "id": "simpson-d26",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel proviseur, supérieur du directeur d'école, lâche un « Skinner ! » exaspéré ?",
+      "answer": "Chalmers"
+    },
+    {
+      "id": "simpson-d27",
+      "difficulty": "dur",
+      "text": "Quel vieil homme minuscule et malchanceux se blesse constamment dans la ville ?",
+      "options": [
+        { "id": "a", "label": "Hans Taupeman" },
+        { "id": "b", "label": "Abraham" },
+        { "id": "c", "label": "Jasper" },
+        { "id": "d", "label": "Gil" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-d28",
+      "difficulty": "dur",
+      "text": "Quel est le nom de famille de jeune fille de Marge, partagé avec ses sœurs jumelles ?",
+      "options": [
+        { "id": "a", "label": "Bouvier" },
+        { "id": "b", "label": "Van Houten" },
+        { "id": "c", "label": "Flanders" },
+        { "id": "d", "label": "Simpson" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-d29",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Comment s'appelle le père de Homer, vieil homme aigri vivant en maison de retraite ?",
+      "answer": "Abraham"
+    },
+    {
+      "id": "simpson-d30",
+      "difficulty": "dur",
+      "text": "Quel instrument de musique Lisa pratique-t-elle avec passion ?",
+      "options": [
+        { "id": "a", "label": "Le saxophone" },
+        { "id": "b", "label": "La trompette" },
+        { "id": "c", "label": "Le violon" },
+        { "id": "d", "label": "La batterie" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-p1",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelle comédienne prête sa voix à Bart en version originale depuis le début ?",
+      "answer": "Nancy Cartwright"
+    },
+    {
+      "id": "simpson-p2",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel acteur double à la fois Homer, le patron de la centrale et le barman en version originale ?",
+      "answer": "Dan Castellaneta"
+    },
+    {
+      "id": "simpson-p3",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelle actrice, à la voix éraillée, prête sa voix à Marge en version originale ?",
+      "answer": "Julie Kavner"
+    },
+    {
+      "id": "simpson-p4",
+      "difficulty": "pro",
+      "text": "Quel comédien polyvalent double Apu, le proviseur Chalmers et le chef Wiggum en version originale ?",
+      "options": [
+        { "id": "a", "label": "Hank Azaria" },
+        { "id": "b", "label": "Harry Shearer" },
+        { "id": "c", "label": "Dan Castellaneta" },
+        { "id": "d", "label": "Yeardley Smith" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-p5",
+      "difficulty": "pro",
+      "text": "Quel comédien double Ned Flanders et le révérend Lovejoy en version originale ?",
+      "options": [
+        { "id": "a", "label": "Harry Shearer" },
+        { "id": "b", "label": "Hank Azaria" },
+        { "id": "c", "label": "Dan Castellaneta" },
+        { "id": "d", "label": "Nancy Cartwright" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-p6",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelle comédienne est l'unique voix de Lisa en version originale ?",
+      "answer": "Yeardley Smith"
+    },
+    {
+      "id": "simpson-p7",
+      "difficulty": "pro",
+      "text": "Quelle autre série animée de science-fiction le créateur de la famille jaune a-t-il aussi imaginée ?",
+      "options": [
+        { "id": "a", "label": "Futurama" },
+        { "id": "b", "label": "South Park" },
+        { "id": "c", "label": "American Dad" },
+        { "id": "d", "label": "Rick et Morty" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-p8",
+      "difficulty": "pro",
+      "text": "De quel État américain le créateur de la série s'est-il inspiré pour nommer la ville fictive ?",
+      "options": [
+        { "id": "a", "label": "L'Oregon" },
+        { "id": "b", "label": "Le Texas" },
+        { "id": "c", "label": "La Floride" },
+        { "id": "d", "label": "Le Nevada" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-p9",
+      "difficulty": "pro",
+      "text": "Quelle ville rivale voisine est l'ennemie jurée de la cité où vit la famille ?",
+      "options": [
+        { "id": "a", "label": "Shelbyville" },
+        { "id": "b", "label": "Ogdenville" },
+        { "id": "c", "label": "Capital City" },
+        { "id": "d", "label": "North Haverbrook" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-p10",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Dans quelle avenue se trouve la maison familiale, au numéro 742 ?",
+      "answer": "Evergreen Terrace"
+    },
+    {
+      "id": "simpson-p11",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "À quel numéro de l'avenue Evergreen se situe la maison de la famille ?",
+      "answerValue": 742,
+      "unit": ""
+    },
+    {
+      "id": "simpson-p12",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment se prénomme l'épouse indienne de l'épicier, mère de ses octuplés ?",
+      "answer": "Manjula"
+    },
+    {
+      "id": "simpson-p13",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien de bébés l'épicier et sa femme ont-ils eus d'un coup grâce à un traitement de fertilité ?",
+      "answerValue": 8,
+      "unit": "bébés"
+    },
+    {
+      "id": "simpson-p14",
+      "difficulty": "pro",
+      "text": "Comment se nomme l'équipe de baseball de ligue mineure de la ville ?",
+      "options": [
+        { "id": "a", "label": "Les Isotopes" },
+        { "id": "b", "label": "Les Atomes" },
+        { "id": "c", "label": "Les Nucléaires" },
+        { "id": "d", "label": "Les Électrons" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-p15",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment s'appelle le chauffeur de bus scolaire, cheveux longs et amateur de rock ?",
+      "answer": "Otto"
+    },
+    {
+      "id": "simpson-p16",
+      "difficulty": "pro",
+      "text": "Quel médecin de famille, au rire caractéristique, soigne les habitants de la ville ?",
+      "options": [
+        { "id": "a", "label": "Docteur Hibbert" },
+        { "id": "b", "label": "Docteur Nick" },
+        { "id": "c", "label": "Professeur Frink" },
+        { "id": "d", "label": "Docteur Wolfe" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-p17",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel charlatan à l'accent douteux lance « Bonjour tout le monde ! » à ses patients ?",
+      "answer": "Docteur Nick"
+    },
+    {
+      "id": "simpson-p18",
+      "difficulty": "pro",
+      "text": "Quel chef mafieux italien de la ville dirige la pègre locale avec ses hommes de main ?",
+      "options": [
+        { "id": "a", "label": "Fat Tony" },
+        { "id": "b", "label": "Serpent" },
+        { "id": "c", "label": "Gil" },
+        { "id": "d", "label": "Tahiti Bob" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-p19",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel danseur ringard, amateur des années 70, ne jure que par la boule à facettes ?",
+      "answer": "Disco Stu"
+    },
+    {
+      "id": "simpson-p20",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelle mascotte publicitaire de la bière préférée de Homer scande « Oh yeah ! » ?",
+      "answer": "Duffman"
+    },
+    {
+      "id": "simpson-p21",
+      "difficulty": "pro",
+      "text": "Quel acteur autrichien bodybuildé incarne le héros d'action favori de Bart à l'écran ?",
+      "options": [
+        { "id": "a", "label": "Rainier Wolfcastle" },
+        { "id": "b", "label": "Troy McClure" },
+        { "id": "c", "label": "Krusty" },
+        { "id": "d", "label": "Duffman" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-p22",
+      "difficulty": "pro",
+      "text": "Quel super-héros de bande dessinée, favori local, a pour acolyte Fallout Boy ?",
+      "options": [
+        { "id": "a", "label": "Radioactive Man" },
+        { "id": "b", "label": "McBain" },
+        { "id": "c", "label": "Duffman" },
+        { "id": "d", "label": "Bartman" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-p23",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel animal rose devient la star improbable du long-métrage de cinéma de 2007 ?",
+      "answer": "Spider-cochon"
+    },
+    {
+      "id": "simpson-p24",
+      "difficulty": "pro",
+      "text": "Comment se prénomme la fille du révérend, dont Bart tombe amoureux dans un épisode ?",
+      "options": [
+        { "id": "a", "label": "Jessica" },
+        { "id": "b", "label": "Allison" },
+        { "id": "c", "label": "Greta" },
+        { "id": "d", "label": "Nikki" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-p25",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quels sont les deux prénoms du patron milliardaire de la centrale, avant son nom Burns ?",
+      "answer": "Charles Montgomery"
+    },
+    {
+      "id": "simpson-p26",
+      "difficulty": "pro",
+      "text": "Quelle est la profession officielle de Marge dans la famille ?",
+      "options": [
+        { "id": "a", "label": "Femme au foyer" },
+        { "id": "b", "label": "Institutrice" },
+        { "id": "c", "label": "Infirmière" },
+        { "id": "d", "label": "Serveuse" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-p27",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Quel âge Bart a-t-il, figé, depuis le début de la série ?",
+      "answerValue": 10,
+      "unit": "ans"
+    },
+    {
+      "id": "simpson-p28",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Quel âge Lisa a-t-elle, figé, au fil des saisons ?",
+      "answerValue": 8,
+      "unit": "ans"
+    },
+    {
+      "id": "simpson-p29",
+      "difficulty": "pro",
+      "text": "Comment se nomme la boutique pour gauchers que le voisin Ned finit par ouvrir ?",
+      "options": [
+        { "id": "a", "label": "Le Léftorium" },
+        { "id": "b", "label": "Le Kwik-E-Mart" },
+        { "id": "c", "label": "Le Gauchorama" },
+        { "id": "d", "label": "Le Sinistrium" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-p30",
+      "difficulty": "pro",
+      "text": "Quel numéro spécial récurrent, diffusé pour Halloween, sort du canon habituel de la série ?",
+      "options": [
+        { "id": "a", "label": "Simpson Horror Show" },
+        { "id": "b", "label": "Le gag du canapé" },
+        { "id": "c", "label": "Le Krusty Show" },
+        { "id": "d", "label": "Itchy et Scratchy Show" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-p31",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel maigre gérant grincheux de bar prépare parfois des cocktails avec du sirop pour la toux ?",
+      "answer": "Moe Szyslak"
+    },
+    {
+      "id": "simpson-p32",
+      "difficulty": "pro",
+      "text": "Quel appareil électroménager, cadeau raté de Homer à sa femme, lance l'intrigue d'un épisode culte ?",
+      "options": [
+        { "id": "a", "label": "Une boule de bowling" },
+        { "id": "b", "label": "Un grille-pain" },
+        { "id": "c", "label": "Un aspirateur" },
+        { "id": "d", "label": "Un mixeur" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-p33",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel surnom donne-t-on au bébé de la famille, célèbre pour son coup de feu sur le patron de la centrale ?",
+      "answer": "Maggie"
+    },
+    {
+      "id": "simpson-p34",
+      "difficulty": "pro",
+      "text": "Quel élève chouchou et lèche-bottes de la classe de Bart est premier de la classe ?",
+      "options": [
+        { "id": "a", "label": "Martin Prince" },
+        { "id": "b", "label": "Milhouse" },
+        { "id": "c", "label": "Nelson" },
+        { "id": "d", "label": "Ralph" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-p35",
+      "difficulty": "pro",
+      "text": "Quel groupe de hard rock donne un concert mémorable auquel Homer et Bart assistent dans un épisode ?",
+      "options": [
+        { "id": "a", "label": "Spinal Tap" },
+        { "id": "b", "label": "Metallica" },
+        { "id": "c", "label": "Aerosmith" },
+        { "id": "d", "label": "Kiss" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-p36",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel gros bras et brute de l'école ne quitte jamais son air renfrogné et sa mère alcoolique ?",
+      "answer": "Nelson Muntz"
+    },
+    {
+      "id": "simpson-p37",
+      "difficulty": "pro",
+      "text": "Dans quel groupe vocal a cappella masculin Homer a-t-il chanté et connu la gloire un temps ?",
+      "options": [
+        { "id": "a", "label": "Les Borés" },
+        { "id": "b", "label": "Les Duff Beats" },
+        { "id": "c", "label": "Les Springfield Boys" },
+        { "id": "d", "label": "Les Barbershop" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-p38",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel personnage bleu et poilu, monstre de biscuits, n'existe pas ici mais dans une autre émission moquée par le clown ?",
+      "answer": "Gonflette"
+    },
+    {
+      "id": "simpson-p39",
+      "difficulty": "pro",
+      "text": "Quel métier Homer occupe-t-il officiellement à la centrale nucléaire ?",
+      "options": [
+        { "id": "a", "label": "Inspecteur de sécurité" },
+        { "id": "b", "label": "Directeur" },
+        { "id": "c", "label": "Ingénieur en chef" },
+        { "id": "d", "label": "Gardien" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "simpson-p40",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel est le nom de famille du meilleur ami à lunettes de Bart, partagé avec ses parents Kirk et Luann ?",
+      "answer": "Van Houten"
+    }
+  ]
+}
