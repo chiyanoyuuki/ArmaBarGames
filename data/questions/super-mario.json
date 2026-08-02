@@ -1,0 +1,1078 @@
+{
+  "universeId": "super-mario",
+  "questions": [
+    {
+      "id": "mario-f1",
+      "difficulty": "facile",
+      "text": "Quel plombier moustachu en salopette rouge est la mascotte de Nintendo ?",
+      "options": [
+        { "id": "a", "label": "Mario" },
+        { "id": "b", "label": "Luigi" },
+        { "id": "c", "label": "Sonic" },
+        { "id": "d", "label": "Link" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-f2",
+      "difficulty": "facile",
+      "text": "Quel est le frère de Mario, habillé en vert ?",
+      "options": [
+        { "id": "a", "label": "Luigi" },
+        { "id": "b", "label": "Wario" },
+        { "id": "c", "label": "Yoshi" },
+        { "id": "d", "label": "Toad" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-f3",
+      "difficulty": "facile",
+      "text": "Quelle princesse Mario doit-il souvent délivrer ?",
+      "options": [
+        { "id": "a", "label": "Peach" },
+        { "id": "b", "label": "Daisy" },
+        { "id": "c", "label": "Zelda" },
+        { "id": "d", "label": "Rosalina" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-f4",
+      "difficulty": "facile",
+      "text": "Quel grand méchant reptilien à carapace enlève la princesse Peach ?",
+      "options": [
+        { "id": "a", "label": "Bowser" },
+        { "id": "b", "label": "Wario" },
+        { "id": "c", "label": "Kamek" },
+        { "id": "d", "label": "Waluigi" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-f5",
+      "difficulty": "facile",
+      "text": "Quel dinosaure vert sert souvent de monture à Mario ?",
+      "options": [
+        { "id": "a", "label": "Yoshi" },
+        { "id": "b", "label": "Bowser" },
+        { "id": "c", "label": "Toad" },
+        { "id": "d", "label": "Koopa" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-f6",
+      "difficulty": "facile",
+      "text": "Quel aliment Mario avale-t-il pour grandir et devenir Super Mario ?",
+      "options": [
+        { "id": "a", "label": "Un champignon" },
+        { "id": "b", "label": "Une fleur" },
+        { "id": "c", "label": "Une étoile" },
+        { "id": "d", "label": "Une pièce" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-f7",
+      "difficulty": "facile",
+      "text": "Quel objet rend Mario invincible et clignotant pendant quelques secondes ?",
+      "options": [
+        { "id": "a", "label": "L'étoile" },
+        { "id": "b", "label": "Le champignon" },
+        { "id": "c", "label": "La fleur" },
+        { "id": "d", "label": "La plume" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-f8",
+      "difficulty": "facile",
+      "type": "estimation",
+      "text": "Combien de pièces faut-il souvent ramasser pour gagner une vie ?",
+      "answerValue": 100,
+      "unit": "pièces"
+    },
+    {
+      "id": "mario-f9",
+      "difficulty": "facile",
+      "text": "Quel petit serviteur à tête de champignon aide la princesse Peach ?",
+      "options": [
+        { "id": "a", "label": "Toad" },
+        { "id": "b", "label": "Yoshi" },
+        { "id": "c", "label": "Wario" },
+        { "id": "d", "label": "Bowser" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-f10",
+      "difficulty": "facile",
+      "text": "Quelle entreprise japonaise a créé Mario et édite ses jeux ?",
+      "options": [
+        { "id": "a", "label": "Nintendo" },
+        { "id": "b", "label": "Sony" },
+        { "id": "c", "label": "Sega" },
+        { "id": "d", "label": "Microsoft" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-m1",
+      "difficulty": "moyen",
+      "text": "Quel rival cupide de Mario est vêtu de jaune et violet ?",
+      "options": [
+        { "id": "a", "label": "Wario" },
+        { "id": "b", "label": "Waluigi" },
+        { "id": "c", "label": "Bowser" },
+        { "id": "d", "label": "Kamek" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-m2",
+      "difficulty": "moyen",
+      "text": "Quel rival de Luigi, grand et mince, en violet, accompagne Wario ?",
+      "options": [
+        { "id": "a", "label": "Waluigi" },
+        { "id": "b", "label": "Wario" },
+        { "id": "c", "label": "Toad" },
+        { "id": "d", "label": "Kamek" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-m3",
+      "difficulty": "moyen",
+      "text": "Quel gorille, ancien ennemi de Mario, est devenu un héros à part entière ?",
+      "options": [
+        { "id": "a", "label": "Donkey Kong" },
+        { "id": "b", "label": "Diddy Kong" },
+        { "id": "c", "label": "Cranky Kong" },
+        { "id": "d", "label": "Funky Kong" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-m4",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel bonus permet à Mario de lancer des boules de feu ?",
+      "answer": "La Fleur de feu"
+    },
+    {
+      "id": "mario-m5",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Sur quelle terre gouvernée par la princesse Peach se déroulent les aventures ?",
+      "answer": "Le Royaume Champignon"
+    },
+    {
+      "id": "mario-m6",
+      "difficulty": "moyen",
+      "text": "Comment appelle-t-on les tortues-soldats de l'armée de Bowser ?",
+      "options": [
+        { "id": "a", "label": "Les Koopas" },
+        { "id": "b", "label": "Les Goombas" },
+        { "id": "c", "label": "Les Boos" },
+        { "id": "d", "label": "Les Toads" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-m7",
+      "difficulty": "moyen",
+      "text": "Comment appelle-t-on les petits champignons marrons ennemis qui marchent vers Mario ?",
+      "options": [
+        { "id": "a", "label": "Les Goombas" },
+        { "id": "b", "label": "Les Koopas" },
+        { "id": "c", "label": "Les Boos" },
+        { "id": "d", "label": "Les Maskass" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-m8",
+      "difficulty": "moyen",
+      "text": "Comment appelle-t-on les fantômes timides qui se figent quand Mario les regarde ?",
+      "options": [
+        { "id": "a", "label": "Les Boos" },
+        { "id": "b", "label": "Les Goombas" },
+        { "id": "c", "label": "Les Koopas" },
+        { "id": "d", "label": "Les Thwomps" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-m9",
+      "difficulty": "moyen",
+      "text": "Quelle princesse en jaune et orange, amie de Peach, apparaît souvent dans les jeux ?",
+      "options": [
+        { "id": "a", "label": "Daisy" },
+        { "id": "b", "label": "Rosalina" },
+        { "id": "c", "label": "Pauline" },
+        { "id": "d", "label": "Toadette" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-m10",
+      "difficulty": "moyen",
+      "text": "Quelle série de jeux de course met en scène le plombier et ses amis au volant de karts ?",
+      "options": [
+        { "id": "a", "label": "Mario Kart" },
+        { "id": "b", "label": "Mario Party" },
+        { "id": "c", "label": "Mario Tennis" },
+        { "id": "d", "label": "Mario Golf" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-m11",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel objet redouté de Mario Kart file jusqu'au joueur en tête pour le frapper ?",
+      "answer": "La carapace bleue"
+    },
+    {
+      "id": "mario-m12",
+      "difficulty": "moyen",
+      "text": "Quelle série de jeux de fête réunit ces personnages autour de mini-jeux sur un plateau ?",
+      "options": [
+        { "id": "a", "label": "Mario Party" },
+        { "id": "b", "label": "Mario Kart" },
+        { "id": "c", "label": "Mario Tennis" },
+        { "id": "d", "label": "Mario Golf" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-m13",
+      "difficulty": "moyen",
+      "text": "Quel sorcier Magikoopa, fidèle de Bowser, lance des sorts ?",
+      "options": [
+        { "id": "a", "label": "Kamek" },
+        { "id": "b", "label": "Wario" },
+        { "id": "c", "label": "Toad" },
+        { "id": "d", "label": "Boo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-m14",
+      "difficulty": "moyen",
+      "text": "Comment appelle-t-on les sept enfants de Bowser, mini-boss récurrents ?",
+      "options": [
+        { "id": "a", "label": "Les Koopalings" },
+        { "id": "b", "label": "Les Goombas" },
+        { "id": "c", "label": "Les Boos" },
+        { "id": "d", "label": "Les Maskass" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-m15",
+      "difficulty": "moyen",
+      "text": "Quel fils du roi des Koopas, au foulard à dents, l'accompagne souvent dans ses plans ?",
+      "options": [
+        { "id": "a", "label": "Bowser Jr" },
+        { "id": "b", "label": "Kamek" },
+        { "id": "c", "label": "Wario" },
+        { "id": "d", "label": "Yoshi" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-m16",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel jeu de 1996 fait passer le plombier moustachu à la 3D sur Nintendo 64 ?",
+      "answer": "Super Mario 64"
+    },
+    {
+      "id": "mario-m17",
+      "difficulty": "moyen",
+      "text": "Quel objet donne à Mario une queue de raton laveur pour voler ?",
+      "options": [
+        { "id": "a", "label": "La Feuille" },
+        { "id": "b", "label": "L'Étoile" },
+        { "id": "c", "label": "Le Champignon" },
+        { "id": "d", "label": "La Cloche" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-m18",
+      "difficulty": "moyen",
+      "text": "Quelle princesse coiffée d'une couronne veille sur les Luma dans Super Mario Galaxy ?",
+      "options": [
+        { "id": "a", "label": "Rosalina" },
+        { "id": "b", "label": "Peach" },
+        { "id": "c", "label": "Daisy" },
+        { "id": "d", "label": "Pauline" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-m19",
+      "difficulty": "moyen",
+      "text": "Dans Super Mario Odyssey, quel chapeau vivant Mario lance-t-il pour posséder les ennemis ?",
+      "options": [
+        { "id": "a", "label": "Cappy" },
+        { "id": "b", "label": "Toad" },
+        { "id": "c", "label": "Kamek" },
+        { "id": "d", "label": "Boo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-m20",
+      "difficulty": "moyen",
+      "type": "estimation",
+      "text": "En quelle année le premier Super Mario Bros est-il sorti sur NES ?",
+      "answerValue": 1985,
+      "unit": ""
+    },
+    {
+      "id": "mario-d1",
+      "difficulty": "dur",
+      "text": "Quel créateur japonais est le père de Mario chez Nintendo ?",
+      "options": [
+        { "id": "a", "label": "Shigeru Miyamoto" },
+        { "id": "b", "label": "Satoru Iwata" },
+        { "id": "c", "label": "Hideo Kojima" },
+        { "id": "d", "label": "Satoshi Tajiri" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-d2",
+      "difficulty": "dur",
+      "text": "Dans quel jeu d'arcade de 1981 Mario apparaît-il pour la première fois, sous le nom de Jumpman ?",
+      "options": [
+        { "id": "a", "label": "Donkey Kong" },
+        { "id": "b", "label": "Mario Bros" },
+        { "id": "c", "label": "Pac-Man" },
+        { "id": "d", "label": "Space Invaders" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-d3",
+      "difficulty": "dur",
+      "text": "Quel était le métier de Mario dans le tout premier jeu Donkey Kong ?",
+      "options": [
+        { "id": "a", "label": "Charpentier" },
+        { "id": "b", "label": "Plombier" },
+        { "id": "c", "label": "Médecin" },
+        { "id": "d", "label": "Pompier" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-d4",
+      "difficulty": "dur",
+      "text": "Comment s'appelle la demoiselle en détresse du tout premier jeu Donkey Kong ?",
+      "options": [
+        { "id": "a", "label": "Pauline" },
+        { "id": "b", "label": "Peach" },
+        { "id": "c", "label": "Daisy" },
+        { "id": "d", "label": "Rosalina" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-d5",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Dans quel jeu de 1990 sur console 16 bits Yoshi fait-il ses débuts ?",
+      "answer": "Super Mario World"
+    },
+    {
+      "id": "mario-d6",
+      "difficulty": "dur",
+      "text": "Quelle console 8 bits de Nintendo a accueilli Super Mario Bros en 1985 ?",
+      "options": [
+        { "id": "a", "label": "La NES" },
+        { "id": "b", "label": "La SNES" },
+        { "id": "c", "label": "La N64" },
+        { "id": "d", "label": "La Wii" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-d7",
+      "difficulty": "dur",
+      "text": "Comment appelle-t-on les statues à visage fâché qui écrasent Mario en tombant ?",
+      "options": [
+        { "id": "a", "label": "Les Thwomps" },
+        { "id": "b", "label": "Les Goombas" },
+        { "id": "c", "label": "Les Boos" },
+        { "id": "d", "label": "Les Maskass" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-d8",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on les créatures carnivores qui jaillissent des tuyaux pour mordre Mario ?",
+      "answer": "Les Plantes Piranha"
+    },
+    {
+      "id": "mario-d9",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel item violet et grimaçant fait perdre une vie à Mario s'il le touche ?",
+      "answer": "Le champignon vénéneux"
+    },
+    {
+      "id": "mario-d10",
+      "difficulty": "dur",
+      "text": "Comment appelle-t-on les Koopas morts-vivants qui se reforment après avoir été écrasés ?",
+      "options": [
+        { "id": "a", "label": "Les Skelerex" },
+        { "id": "b", "label": "Les Goombas" },
+        { "id": "c", "label": "Les Boos" },
+        { "id": "d", "label": "Les Thwomps" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-d11",
+      "difficulty": "dur",
+      "text": "Quel personnage est la version nourrisson du plombier rouge, apparue dans Yoshi's Island ?",
+      "options": [
+        { "id": "a", "label": "Bébé Mario" },
+        { "id": "b", "label": "Bébé Luigi" },
+        { "id": "c", "label": "Bébé Peach" },
+        { "id": "d", "label": "Bébé Bowser" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-d12",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel jeu Wii de 2007 envoie le plombier sauter de planète en planète dans l'espace ?",
+      "answer": "Super Mario Galaxy"
+    },
+    {
+      "id": "mario-d13",
+      "difficulty": "dur",
+      "text": "Quel spin-off met le plombier et ses amis sur des courts, raquette en main ?",
+      "options": [
+        { "id": "a", "label": "Mario Tennis" },
+        { "id": "b", "label": "Mario Kart" },
+        { "id": "c", "label": "Mario Party" },
+        { "id": "d", "label": "Mario Golf" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-d14",
+      "difficulty": "dur",
+      "text": "Quel jeu de combat Nintendo réunit Mario, Link, Pikachu et d'autres mascottes ?",
+      "options": [
+        { "id": "a", "label": "Super Smash Bros" },
+        { "id": "b", "label": "Mario Kart" },
+        { "id": "c", "label": "Mario Party" },
+        { "id": "d", "label": "Mario Tennis" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-d15",
+      "difficulty": "dur",
+      "text": "Quel objet en forme de clochette transforme Mario en chat dans Super Mario 3D World ?",
+      "options": [
+        { "id": "a", "label": "La Cloche" },
+        { "id": "b", "label": "La Feuille" },
+        { "id": "c", "label": "La Fleur" },
+        { "id": "d", "label": "L'Étoile" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-d16",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quelle ville aux gratte-ciel, dirigée par la maire Pauline, apparaît dans Super Mario Odyssey ?",
+      "answer": "New Donk City"
+    },
+    {
+      "id": "mario-d17",
+      "difficulty": "dur",
+      "text": "Qui est la maire de New Donk City dans Super Mario Odyssey ?",
+      "options": [
+        { "id": "a", "label": "Pauline" },
+        { "id": "b", "label": "Peach" },
+        { "id": "c", "label": "Daisy" },
+        { "id": "d", "label": "Rosalina" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-d18",
+      "difficulty": "dur",
+      "text": "Quel objet doré et brillant faut-il collecter par dizaines dans Super Mario 64 ?",
+      "options": [
+        { "id": "a", "label": "Les étoiles" },
+        { "id": "b", "label": "Les pièces" },
+        { "id": "c", "label": "Les lunes" },
+        { "id": "d", "label": "Les soleils" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-d19",
+      "difficulty": "dur",
+      "text": "Quel objet faut-il collecter dans Super Mario Odyssey, à la place des étoiles ?",
+      "options": [
+        { "id": "a", "label": "Les lunes" },
+        { "id": "b", "label": "Les étoiles" },
+        { "id": "c", "label": "Les pièces" },
+        { "id": "d", "label": "Les soleils" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-d20",
+      "difficulty": "dur",
+      "text": "Quel jeu de rôle de 1996 sur console 16 bits ajoute Geno à l'équipe du plombier ?",
+      "options": [
+        { "id": "a", "label": "Super Mario RPG" },
+        { "id": "b", "label": "Paper Mario" },
+        { "id": "c", "label": "Mario & Luigi" },
+        { "id": "d", "label": "Mario Party" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-d21",
+      "difficulty": "dur",
+      "text": "Quelle série de jeux de rôle représente le plombier en papier découpé ?",
+      "options": [
+        { "id": "a", "label": "Paper Mario" },
+        { "id": "b", "label": "Super Mario RPG" },
+        { "id": "c", "label": "Mario & Luigi" },
+        { "id": "d", "label": "Mario Kart" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-d22",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel troisième opus des aventures du plombier a introduit le costume de raton laveur et la carte des mondes ?",
+      "answer": "Super Mario Bros 3"
+    },
+    {
+      "id": "mario-d23",
+      "difficulty": "dur",
+      "text": "Quel ennemi vole sur un nuage et lance des œufs de tortue sur Mario ?",
+      "options": [
+        { "id": "a", "label": "Lakitu" },
+        { "id": "b", "label": "Kamek" },
+        { "id": "c", "label": "Boo" },
+        { "id": "d", "label": "Thwomp" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-d24",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel item vert, marqué « 1-Up », offre une vie supplémentaire à Mario ?",
+      "answer": "Le champignon 1-Up"
+    },
+    {
+      "id": "mario-d25",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel jeu GameCube envoie le plombier nettoyer une île tropicale à l'aide d'un pistolet à eau nommé JET ?",
+      "answer": "Super Mario Sunshine"
+    },
+    {
+      "id": "mario-d26",
+      "difficulty": "dur",
+      "text": "Comment s'appelle le pistolet à eau dorsal de Mario dans Super Mario Sunshine ?",
+      "options": [
+        { "id": "a", "label": "JET" },
+        { "id": "b", "label": "Cappy" },
+        { "id": "c", "label": "Yoshi" },
+        { "id": "d", "label": "Kamek" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-d27",
+      "difficulty": "dur",
+      "text": "De quelle couleur est la casquette de Luigi ?",
+      "options": [
+        { "id": "a", "label": "Verte" },
+        { "id": "b", "label": "Rouge" },
+        { "id": "c", "label": "Bleue" },
+        { "id": "d", "label": "Jaune" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-d28",
+      "difficulty": "dur",
+      "text": "Comment appelle-t-on les cubes marqués d'un point d'interrogation qui contiennent des objets ?",
+      "options": [
+        { "id": "a", "label": "Les blocs mystère" },
+        { "id": "b", "label": "Les blocs brique" },
+        { "id": "c", "label": "Les blocs béton" },
+        { "id": "d", "label": "Les blocs glace" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-d29",
+      "difficulty": "dur",
+      "type": "ordre",
+      "text": "Classe ces consoles Nintendo par ordre de sortie.",
+      "items": [
+        { "id": "1", "label": "NES" },
+        { "id": "2", "label": "Super Nintendo" },
+        { "id": "3", "label": "Nintendo 64" },
+        { "id": "4", "label": "Nintendo Switch" }
+      ]
+    },
+    {
+      "id": "mario-d30",
+      "difficulty": "dur",
+      "type": "estimation",
+      "text": "Combien de mondes compte classiquement un jeu Super Mario Bros ?",
+      "answerValue": 8,
+      "unit": "mondes"
+    },
+    {
+      "id": "mario-p1",
+      "difficulty": "pro",
+      "text": "Selon Nintendo, quel est le nom de famille des deux frères plombiers ?",
+      "options": [
+        { "id": "a", "label": "Mario" },
+        { "id": "b", "label": "Bros" },
+        { "id": "c", "label": "Nintendo" },
+        { "id": "d", "label": "Koopa" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-p2",
+      "difficulty": "pro",
+      "text": "Quel compositeur a créé les musiques légendaires de Super Mario Bros ?",
+      "options": [
+        { "id": "a", "label": "Koji Kondo" },
+        { "id": "b", "label": "Nobuo Uematsu" },
+        { "id": "c", "label": "Junichi Masuda" },
+        { "id": "d", "label": "Yoko Shimomura" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-p3",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "En quelle année est sorti Super Mario 64 ?",
+      "answerValue": 1996,
+      "unit": ""
+    },
+    {
+      "id": "mario-p4",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel jeu de 1985 est longtemps resté le titre le plus vendu de la NES ?",
+      "answer": "Super Mario Bros"
+    },
+    {
+      "id": "mario-p5",
+      "difficulty": "pro",
+      "text": "Quel petit singe à casquette rouge est le fidèle acolyte de Donkey dans ses aventures ?",
+      "options": [
+        { "id": "a", "label": "Diddy Kong" },
+        { "id": "b", "label": "Dixie Kong" },
+        { "id": "c", "label": "Cranky Kong" },
+        { "id": "d", "label": "Funky Kong" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-p6",
+      "difficulty": "pro",
+      "text": "À quelle famille d'animaux le personnage Yoshi appartient-il ?",
+      "options": [
+        { "id": "a", "label": "Les dinosaures" },
+        { "id": "b", "label": "Les dragons" },
+        { "id": "c", "label": "Les lézards" },
+        { "id": "d", "label": "Les tortues" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-p7",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien d'étoiles peut-on collecter au total dans Super Mario 64 ?",
+      "answerValue": 120,
+      "unit": "étoiles"
+    },
+    {
+      "id": "mario-p8",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel bonus transforme Mario en statue argentée invulnérable dans Super Mario 64 ?",
+      "answer": "La casquette de métal"
+    },
+    {
+      "id": "mario-p9",
+      "difficulty": "pro",
+      "text": "Comment s'appelle le grand-père grincheux de la célèbre famille de singes ?",
+      "options": [
+        { "id": "a", "label": "Cranky Kong" },
+        { "id": "b", "label": "Diddy Kong" },
+        { "id": "c", "label": "Dixie Kong" },
+        { "id": "d", "label": "Funky Kong" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-p10",
+      "difficulty": "pro",
+      "text": "Quel spin-off met le plombier et ses amis dans des matchs de football endiablés ?",
+      "options": [
+        { "id": "a", "label": "Mario Strikers" },
+        { "id": "b", "label": "Mario Tennis" },
+        { "id": "c", "label": "Mario Golf" },
+        { "id": "d", "label": "Mario Kart" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-p11",
+      "difficulty": "pro",
+      "text": "Quel fantôme couronné est le roi des Boos, ennemi récurrent de Luigi ?",
+      "options": [
+        { "id": "a", "label": "Roi Boo" },
+        { "id": "b", "label": "Kamek" },
+        { "id": "c", "label": "Bowser" },
+        { "id": "d", "label": "Wario" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-p12",
+      "difficulty": "pro",
+      "text": "Dans quelle série le frère de Mario chasse-t-il les fantômes avec un aspirateur ?",
+      "options": [
+        { "id": "a", "label": "Luigi's Mansion" },
+        { "id": "b", "label": "Mario Party" },
+        { "id": "c", "label": "Paper Mario" },
+        { "id": "d", "label": "Mario Kart" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-p13",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel bonus transforme Mario en insecte volant et bourdonnant dans Super Mario Galaxy ?",
+      "answer": "Le champignon abeille"
+    },
+    {
+      "id": "mario-p14",
+      "difficulty": "pro",
+      "text": "Quel personnage est la version nourrisson du roi des Koopas, apparue dans Yoshi's Island ?",
+      "options": [
+        { "id": "a", "label": "Bébé Bowser" },
+        { "id": "b", "label": "Bowser Jr" },
+        { "id": "c", "label": "Kamek" },
+        { "id": "d", "label": "Bébé Mario" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-p15",
+      "difficulty": "pro",
+      "text": "Comment appelle-t-on les créatures blanches masquées qui lancent des objets, ennemis fréquents ?",
+      "options": [
+        { "id": "a", "label": "Les Maskass" },
+        { "id": "b", "label": "Les Goombas" },
+        { "id": "c", "label": "Les Koopas" },
+        { "id": "d", "label": "Les Boos" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-p16",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel circuit arc-en-ciel spatial est le plus célèbre et le plus redouté de Mario Kart ?",
+      "answer": "Rainbow Road"
+    },
+    {
+      "id": "mario-p17",
+      "difficulty": "pro",
+      "text": "Quel objet de Mario Kart projette une peau glissante pour faire déraper les adversaires ?",
+      "options": [
+        { "id": "a", "label": "La banane" },
+        { "id": "b", "label": "La carapace" },
+        { "id": "c", "label": "Le champignon" },
+        { "id": "d", "label": "L'éclair" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-p18",
+      "difficulty": "pro",
+      "text": "Quel objet de Mario Kart rétrécit d'un coup tous les adversaires ?",
+      "options": [
+        { "id": "a", "label": "L'éclair" },
+        { "id": "b", "label": "La banane" },
+        { "id": "c", "label": "La carapace" },
+        { "id": "d", "label": "L'étoile" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-p19",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien de coureurs s'affrontent en général dans une course de Mario Kart 8 ?",
+      "answerValue": 12,
+      "unit": "coureurs"
+    },
+    {
+      "id": "mario-p20",
+      "difficulty": "pro",
+      "text": "Quel jeu Nintendo Switch de 2017 envoie le plombier voyager dans le monde avec Cappy ?",
+      "options": [
+        { "id": "a", "label": "Super Mario Odyssey" },
+        { "id": "b", "label": "Super Mario Galaxy" },
+        { "id": "c", "label": "Super Mario Sunshine" },
+        { "id": "d", "label": "Super Mario Maker" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-p21",
+      "difficulty": "pro",
+      "text": "Quel monstre-chien enchaîné, noir et grinçant, s'élance sur Mario au bout de sa chaîne ?",
+      "options": [
+        { "id": "a", "label": "Chomp" },
+        { "id": "b", "label": "Boo" },
+        { "id": "c", "label": "Goomba" },
+        { "id": "d", "label": "Koopa" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-p22",
+      "difficulty": "pro",
+      "text": "Quelle est la profession officielle de Mario, popularisée dès le jeu Mario Bros de 1983 ?",
+      "options": [
+        { "id": "a", "label": "Plombier" },
+        { "id": "b", "label": "Charpentier" },
+        { "id": "c", "label": "Médecin" },
+        { "id": "d", "label": "Pompier" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-p23",
+      "difficulty": "pro",
+      "text": "Dans quel jeu de 1990 le plombier devient médecin et aligne des virus colorés ?",
+      "options": [
+        { "id": "a", "label": "Dr Mario" },
+        { "id": "b", "label": "Mario Paint" },
+        { "id": "c", "label": "Mario Bros" },
+        { "id": "d", "label": "Paper Mario" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-p24",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel bonus scintillant, accompagné d'une musique endiablée, rend Mario invincible quelques secondes ?",
+      "answer": "La Super Étoile"
+    },
+    {
+      "id": "mario-p25",
+      "difficulty": "pro",
+      "text": "Que fait la « Double Cerise » dans Super Mario 3D World ?",
+      "options": [
+        { "id": "a", "label": "Elle crée un clone" },
+        { "id": "b", "label": "Elle donne une vie" },
+        { "id": "c", "label": "Elle rend invincible" },
+        { "id": "d", "label": "Elle fait voler" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-p26",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Complète la réplique culte du plombier : « It's-a me… »",
+      "answer": "Mario!"
+    },
+    {
+      "id": "mario-p27",
+      "difficulty": "pro",
+      "text": "Quel acteur a doublé la voix de Mario dans les jeux vidéo pendant près de trente ans ?",
+      "options": [
+        { "id": "a", "label": "Charles Martinet" },
+        { "id": "b", "label": "Shigeru Miyamoto" },
+        { "id": "c", "label": "Chris Pratt" },
+        { "id": "d", "label": "Koji Kondo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-p28",
+      "difficulty": "pro",
+      "text": "Quel acteur double Mario dans le film d'animation de 2023 ?",
+      "options": [
+        { "id": "a", "label": "Chris Pratt" },
+        { "id": "b", "label": "Charles Martinet" },
+        { "id": "c", "label": "Jack Black" },
+        { "id": "d", "label": "Chris Pine" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-p29",
+      "difficulty": "pro",
+      "text": "Quel acteur double Bowser dans le film Super Mario Bros de 2023 ?",
+      "options": [
+        { "id": "a", "label": "Jack Black" },
+        { "id": "b", "label": "Chris Pratt" },
+        { "id": "c", "label": "Charles Martinet" },
+        { "id": "d", "label": "Seth Rogen" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-p30",
+      "difficulty": "pro",
+      "text": "Quel studio d'animation (celui des Minions) a coproduit le film Super Mario Bros de 2023 ?",
+      "options": [
+        { "id": "a", "label": "Illumination" },
+        { "id": "b", "label": "Pixar" },
+        { "id": "c", "label": "DreamWorks" },
+        { "id": "d", "label": "Ghibli" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-p31",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "En quelle année le film d'animation Super Mario Bros est-il sorti au cinéma ?",
+      "answerValue": 2023,
+      "unit": ""
+    },
+    {
+      "id": "mario-p32",
+      "difficulty": "pro",
+      "text": "De quelle couleur sont les Koopas qui rebroussent chemin au bord d'un précipice ?",
+      "options": [
+        { "id": "a", "label": "Rouge" },
+        { "id": "b", "label": "Verte" },
+        { "id": "c", "label": "Bleue" },
+        { "id": "d", "label": "Jaune" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-p33",
+      "difficulty": "pro",
+      "text": "Comment appelle-t-on les petites créatures-étoiles colorées qui aident Mario dans Super Mario Galaxy ?",
+      "options": [
+        { "id": "a", "label": "Les Lumas" },
+        { "id": "b", "label": "Les Toads" },
+        { "id": "c", "label": "Les Boos" },
+        { "id": "d", "label": "Les Goombas" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-p34",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel énorme manchot Mario affronte-t-il lors d'une course de glisse enneigée dans Super Mario 64 ?",
+      "answer": "Le roi Pingouin"
+    },
+    {
+      "id": "mario-p35",
+      "difficulty": "pro",
+      "text": "Quelle console de 2017 a accueilli Super Mario Odyssey ?",
+      "options": [
+        { "id": "a", "label": "La Switch" },
+        { "id": "b", "label": "La Wii U" },
+        { "id": "c", "label": "La 3DS" },
+        { "id": "d", "label": "La Wii" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-p36",
+      "difficulty": "pro",
+      "text": "Quelle console de 2006, à la manette-télécommande, a accueilli Super Mario Galaxy ?",
+      "options": [
+        { "id": "a", "label": "La Wii" },
+        { "id": "b", "label": "La Switch" },
+        { "id": "c", "label": "La GameCube" },
+        { "id": "d", "label": "La 3DS" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-p37",
+      "difficulty": "pro",
+      "text": "Quel jeu Wii U puis Switch permet aux joueurs de créer leurs propres niveaux de plateforme ?",
+      "options": [
+        { "id": "a", "label": "Super Mario Maker" },
+        { "id": "b", "label": "Super Mario Odyssey" },
+        { "id": "c", "label": "Super Mario Party" },
+        { "id": "d", "label": "Super Mario Galaxy" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-p38",
+      "difficulty": "pro",
+      "text": "Comment s'appelle le partenaire étoile qui accompagne Mario dans Paper Mario premier du nom ?",
+      "options": [
+        { "id": "a", "label": "Goombario" },
+        { "id": "b", "label": "Cappy" },
+        { "id": "c", "label": "Toad" },
+        { "id": "d", "label": "Kamek" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-p39",
+      "difficulty": "pro",
+      "text": "Quel singe décontracté à lunettes de soleil apparaît souvent en pilote ou en marchand ?",
+      "options": [
+        { "id": "a", "label": "Funky Kong" },
+        { "id": "b", "label": "Diddy Kong" },
+        { "id": "c", "label": "Cranky Kong" },
+        { "id": "d", "label": "Dixie Kong" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mario-p40",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "En quelle année la Nintendo Switch est-elle sortie ?",
+      "answerValue": 2017,
+      "unit": ""
+    }
+  ]
+}
