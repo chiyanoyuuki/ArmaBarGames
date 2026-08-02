@@ -1,0 +1,1117 @@
+{
+  "universeId": "asterix",
+  "questions": [
+    {
+      "id": "asterix-f1",
+      "difficulty": "facile",
+      "text": "Quel petit guerrier gaulois malin est le héros de la bande dessinée ?",
+      "options": [
+        { "id": "a", "label": "Astérix" },
+        { "id": "b", "label": "Obélix" },
+        { "id": "c", "label": "Idéfix" },
+        { "id": "d", "label": "Panoramix" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-f2",
+      "difficulty": "facile",
+      "text": "Quel gros Gaulois, livreur de menhirs, est l'inséparable ami du héros ?",
+      "options": [
+        { "id": "a", "label": "Obélix" },
+        { "id": "b", "label": "Panoramix" },
+        { "id": "c", "label": "Abraracourcix" },
+        { "id": "d", "label": "Assurancetourix" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-f3",
+      "difficulty": "facile",
+      "text": "Quel petit chien fidèle accompagne partout Obélix ?",
+      "options": [
+        { "id": "a", "label": "Idéfix" },
+        { "id": "b", "label": "Rex" },
+        { "id": "c", "label": "Milou" },
+        { "id": "d", "label": "Pif" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-f4",
+      "difficulty": "facile",
+      "type": "buzzer",
+      "text": "Quelle préparation du druide donne une force surhumaine aux Gaulois ?",
+      "answer": "La potion magique"
+    },
+    {
+      "id": "asterix-f5",
+      "difficulty": "facile",
+      "text": "Quel druide prépare la potion magique du village ?",
+      "options": [
+        { "id": "a", "label": "Panoramix" },
+        { "id": "b", "label": "Astérix" },
+        { "id": "c", "label": "Obélix" },
+        { "id": "d", "label": "Assurancetourix" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-f6",
+      "difficulty": "facile",
+      "text": "Quelle grande puissance antique cherche en vain à conquérir le petit village gaulois ?",
+      "options": [
+        { "id": "a", "label": "L'Empire romain" },
+        { "id": "b", "label": "L'Empire grec" },
+        { "id": "c", "label": "L'Empire perse" },
+        { "id": "d", "label": "L'Empire égyptien" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-f7",
+      "difficulty": "facile",
+      "type": "buzzer",
+      "text": "Dans quoi Obélix est-il tombé étant bébé, ce qui lui donne une force permanente ?",
+      "answer": "La marmite de potion"
+    },
+    {
+      "id": "asterix-f8",
+      "difficulty": "facile",
+      "text": "Quel plat les Gaulois dévorent-ils lors de leurs grands banquets ?",
+      "options": [
+        { "id": "a", "label": "Le sanglier" },
+        { "id": "b", "label": "Le poulet" },
+        { "id": "c", "label": "Le poisson" },
+        { "id": "d", "label": "Le mouton" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-f9",
+      "difficulty": "facile",
+      "type": "buzzer",
+      "text": "Quel est le métier d'Obélix, qui taille et transporte de grosses pierres dressées ?",
+      "answer": "Livreur de menhirs"
+    },
+    {
+      "id": "asterix-f10",
+      "difficulty": "facile",
+      "type": "estimation",
+      "text": "En quelle année avant J.-C. se déroulent les aventures des Gaulois ?",
+      "answerValue": 50,
+      "unit": "av. J.-C."
+    },
+    {
+      "id": "asterix-m1",
+      "difficulty": "moyen",
+      "text": "Quel chef gaulois, porté sur un pavois, dirige le village ?",
+      "options": [
+        { "id": "a", "label": "Abraracourcix" },
+        { "id": "b", "label": "Panoramix" },
+        { "id": "c", "label": "Ordralfabétix" },
+        { "id": "d", "label": "Cétautomatix" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-m2",
+      "difficulty": "moyen",
+      "text": "Quel barde du village chante horriblement mal, souvent bâillonné ?",
+      "options": [
+        { "id": "a", "label": "Assurancetourix" },
+        { "id": "b", "label": "Panoramix" },
+        { "id": "c", "label": "Ordralfabétix" },
+        { "id": "d", "label": "Cétautomatix" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-m3",
+      "difficulty": "moyen",
+      "text": "Quel poissonnier du village se dispute souvent avec le forgeron ?",
+      "options": [
+        { "id": "a", "label": "Ordralfabétix" },
+        { "id": "b", "label": "Cétautomatix" },
+        { "id": "c", "label": "Assurancetourix" },
+        { "id": "d", "label": "Abraracourcix" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-m4",
+      "difficulty": "moyen",
+      "text": "Quel forgeron du village se bagarre avec le poissonnier au sujet du poisson pas frais ?",
+      "options": [
+        { "id": "a", "label": "Cétautomatix" },
+        { "id": "b", "label": "Ordralfabétix" },
+        { "id": "c", "label": "Panoramix" },
+        { "id": "d", "label": "Abraracourcix" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-m5",
+      "difficulty": "moyen",
+      "text": "Quel empereur romain, chauve et ambitieux, cherche à soumettre les Gaulois ?",
+      "options": [
+        { "id": "a", "label": "Jules César" },
+        { "id": "b", "label": "Auguste" },
+        { "id": "c", "label": "Néron" },
+        { "id": "d", "label": "Brutus" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-m6",
+      "difficulty": "moyen",
+      "text": "Quel scénariste a créé la série avec le dessinateur Uderzo ?",
+      "options": [
+        { "id": "a", "label": "René Goscinny" },
+        { "id": "b", "label": "Albert Uderzo" },
+        { "id": "c", "label": "Hergé" },
+        { "id": "d", "label": "André Franquin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-m7",
+      "difficulty": "moyen",
+      "text": "Quel dessinateur a créé la série avec le scénariste Goscinny ?",
+      "options": [
+        { "id": "a", "label": "Albert Uderzo" },
+        { "id": "b", "label": "René Goscinny" },
+        { "id": "c", "label": "Hergé" },
+        { "id": "d", "label": "André Franquin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-m8",
+      "difficulty": "moyen",
+      "text": "Lequel de ces noms est un camp romain encerclant le village gaulois ?",
+      "options": [
+        { "id": "a", "label": "Babaorum" },
+        { "id": "b", "label": "Lutèce" },
+        { "id": "c", "label": "Massilia" },
+        { "id": "d", "label": "Gergovie" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-m9",
+      "difficulty": "moyen",
+      "text": "Dans quelle région de Gaule se situe le village des irréductibles ?",
+      "options": [
+        { "id": "a", "label": "L'Armorique" },
+        { "id": "b", "label": "La Provence" },
+        { "id": "c", "label": "L'Aquitaine" },
+        { "id": "d", "label": "La Bourgogne" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-m10",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle la grande ville gauloise, ancêtre antique de Paris ?",
+      "options": [
+        { "id": "a", "label": "Lutèce" },
+        { "id": "b", "label": "Massilia" },
+        { "id": "c", "label": "Gergovie" },
+        { "id": "d", "label": "Alésia" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-m11",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Dans quel album les deux héros voyagent-ils sur la grande île d'outre-Manche ?",
+      "answer": "Astérix chez les Bretons"
+    },
+    {
+      "id": "asterix-m12",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Dans quel album les Gaulois participent-ils aux célèbres épreuves sportives de la Grèce antique ?",
+      "answer": "Astérix aux Jeux Olympiques"
+    },
+    {
+      "id": "asterix-m13",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle le doyen du village, ancien combattant qui radote volontiers ?",
+      "options": [
+        { "id": "a", "label": "Agecanonix" },
+        { "id": "b", "label": "Panoramix" },
+        { "id": "c", "label": "Abraracourcix" },
+        { "id": "d", "label": "Ordralfabétix" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-m14",
+      "difficulty": "moyen",
+      "text": "Quel acteur incarne Obélix dans les films avec Christian Clavier ?",
+      "options": [
+        { "id": "a", "label": "Gérard Depardieu" },
+        { "id": "b", "label": "Christian Clavier" },
+        { "id": "c", "label": "Jamel Debbouze" },
+        { "id": "d", "label": "Alain Chabat" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-m15",
+      "difficulty": "moyen",
+      "text": "Quel acteur incarne Astérix dans le film Mission Cléopâtre ?",
+      "options": [
+        { "id": "a", "label": "Christian Clavier" },
+        { "id": "b", "label": "Gérard Depardieu" },
+        { "id": "c", "label": "Jamel Debbouze" },
+        { "id": "d", "label": "Alain Chabat" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-m16",
+      "difficulty": "moyen",
+      "text": "Quel acteur-réalisateur a signé le film Mission Cléopâtre en 2002 ?",
+      "options": [
+        { "id": "a", "label": "Alain Chabat" },
+        { "id": "b", "label": "Christian Clavier" },
+        { "id": "c", "label": "Gérard Depardieu" },
+        { "id": "d", "label": "Claude Zidi" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-m17",
+      "difficulty": "moyen",
+      "text": "Quelle reine d'Égypte, au nez célèbre, commande un palais aux Gaulois dans le film de 2002 ?",
+      "options": [
+        { "id": "a", "label": "Cléopâtre" },
+        { "id": "b", "label": "Néfertiti" },
+        { "id": "c", "label": "Falbala" },
+        { "id": "d", "label": "Bonemine" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-m18",
+      "difficulty": "moyen",
+      "text": "Quel architecte égyptien doit bâtir un palais en trois mois dans Mission Cléopâtre ?",
+      "options": [
+        { "id": "a", "label": "Numérobis" },
+        { "id": "b", "label": "Amonbofis" },
+        { "id": "c", "label": "Otis" },
+        { "id": "d", "label": "Détritus" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-m19",
+      "difficulty": "moyen",
+      "text": "Quel objet, grosse pierre dressée, Obélix taille et livre à longueur de journée ?",
+      "options": [
+        { "id": "a", "label": "Le menhir" },
+        { "id": "b", "label": "La statue" },
+        { "id": "c", "label": "La colonne" },
+        { "id": "d", "label": "La borne" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-m20",
+      "difficulty": "moyen",
+      "type": "estimation",
+      "text": "Combien de villages gaulois résistent encore à l'envahisseur, selon l'introduction ?",
+      "answerValue": 1,
+      "unit": "village"
+    },
+    {
+      "id": "asterix-d1",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel dessin animé de 1976 impose une série d'épreuves impossibles aux deux Gaulois ?",
+      "answer": "Les Douze Travaux d'Astérix"
+    },
+    {
+      "id": "asterix-d2",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel formulaire administratif faut-il obtenir dans « la maison qui rend fou » ?",
+      "answer": "Le laissez-passer A-38"
+    },
+    {
+      "id": "asterix-d3",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Comment s'intitule le tout premier album de la série, publié en 1961 ?",
+      "answer": "Astérix le Gaulois"
+    },
+    {
+      "id": "asterix-d4",
+      "difficulty": "dur",
+      "text": "Dans quel magazine la série est-elle apparue pour la première fois en 1959 ?",
+      "options": [
+        { "id": "a", "label": "Pilote" },
+        { "id": "b", "label": "Spirou" },
+        { "id": "c", "label": "Tintin" },
+        { "id": "d", "label": "Fluide" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-d5",
+      "difficulty": "dur",
+      "text": "Comment s'appelle l'épouse du chef Abraracourcix ?",
+      "options": [
+        { "id": "a", "label": "Bonemine" },
+        { "id": "b", "label": "Falbala" },
+        { "id": "c", "label": "Iélosubmarine" },
+        { "id": "d", "label": "Maestria" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-d6",
+      "difficulty": "dur",
+      "text": "Quelle jeune femme blonde du village fait tourner les têtes, dont celle d'Obélix ?",
+      "options": [
+        { "id": "a", "label": "Falbala" },
+        { "id": "b", "label": "Bonemine" },
+        { "id": "c", "label": "Iélosubmarine" },
+        { "id": "d", "label": "Maestria" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-d7",
+      "difficulty": "dur",
+      "text": "Quel album envoie les Gaulois en Amérique, bien avant Christophe Colomb ?",
+      "options": [
+        { "id": "a", "label": "La Grande Traversée" },
+        { "id": "b", "label": "Le Tour de Gaule" },
+        { "id": "c", "label": "Le Domaine des Dieux" },
+        { "id": "d", "label": "La Zizanie" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-d8",
+      "difficulty": "dur",
+      "text": "Quel album, adapté au cinéma en 2014, voit César bâtir un lotissement près du village ?",
+      "options": [
+        { "id": "a", "label": "Le Domaine des Dieux" },
+        { "id": "b", "label": "La Grande Traversée" },
+        { "id": "c", "label": "Le Tour de Gaule" },
+        { "id": "d", "label": "La Zizanie" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-d9",
+      "difficulty": "dur",
+      "text": "Quel Romain semeur de discorde César envoie-t-il pour diviser le village dans La Zizanie ?",
+      "options": [
+        { "id": "a", "label": "Détritus" },
+        { "id": "b", "label": "Numérobis" },
+        { "id": "c", "label": "Amonbofis" },
+        { "id": "d", "label": "Caius Bonus" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-d10",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Dans quel album le héros parcourt-il le pays pour en rapporter les spécialités régionales ?",
+      "answer": "Le Tour de Gaule d'Astérix"
+    },
+    {
+      "id": "asterix-d11",
+      "difficulty": "dur",
+      "text": "Quel chef gaulois historique, vaincu à Alésia, est un sujet tabou pour les personnages ?",
+      "options": [
+        { "id": "a", "label": "Vercingétorix" },
+        { "id": "b", "label": "Abraracourcix" },
+        { "id": "c", "label": "Brennus" },
+        { "id": "d", "label": "Ambiorix" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-d12",
+      "difficulty": "dur",
+      "text": "Quel nom de lieu, celui de la défaite gauloise, les personnages refusent-ils d'entendre ?",
+      "options": [
+        { "id": "a", "label": "Alésia" },
+        { "id": "b", "label": "Gergovie" },
+        { "id": "c", "label": "Lutèce" },
+        { "id": "d", "label": "Massilia" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-d13",
+      "difficulty": "dur",
+      "text": "Quel capitaine pirate voit son bateau coulé à chacune de ses apparitions ?",
+      "options": [
+        { "id": "a", "label": "Barbe-Rouge" },
+        { "id": "b", "label": "Triple-Patte" },
+        { "id": "c", "label": "Baba" },
+        { "id": "d", "label": "Érix" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-d14",
+      "difficulty": "dur",
+      "text": "Quel architecte égyptien, rival jaloux de Numérobis, veut le voir échouer dans Mission Cléopâtre ?",
+      "options": [
+        { "id": "a", "label": "Amonbofis" },
+        { "id": "b", "label": "Numérobis" },
+        { "id": "c", "label": "Otis" },
+        { "id": "d", "label": "Détritus" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-d15",
+      "difficulty": "dur",
+      "text": "Quel acteur incarne l'architecte maladroit Numérobis dans Mission Cléopâtre ?",
+      "options": [
+        { "id": "a", "label": "Jamel Debbouze" },
+        { "id": "b", "label": "Alain Chabat" },
+        { "id": "c", "label": "Gérard Darmon" },
+        { "id": "d", "label": "Édouard Baer" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-d16",
+      "difficulty": "dur",
+      "text": "Quel acteur incarne Jules César dans le film Mission Cléopâtre ?",
+      "options": [
+        { "id": "a", "label": "Alain Chabat" },
+        { "id": "b", "label": "Jamel Debbouze" },
+        { "id": "c", "label": "Gérard Darmon" },
+        { "id": "d", "label": "Christian Clavier" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-d17",
+      "difficulty": "dur",
+      "text": "Quel humoriste incarne l'architecte rival Amonbofis dans Mission Cléopâtre ?",
+      "options": [
+        { "id": "a", "label": "Gérard Darmon" },
+        { "id": "b", "label": "Jamel Debbouze" },
+        { "id": "c", "label": "Alain Chabat" },
+        { "id": "d", "label": "Édouard Baer" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-d18",
+      "difficulty": "dur",
+      "text": "Quel acteur incarne le scribe nonchalant Otis dans Mission Cléopâtre ?",
+      "options": [
+        { "id": "a", "label": "Édouard Baer" },
+        { "id": "b", "label": "Jamel Debbouze" },
+        { "id": "c", "label": "Gérard Darmon" },
+        { "id": "d", "label": "Alain Chabat" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-d19",
+      "difficulty": "dur",
+      "text": "Quelle actrice incarne Cléopâtre dans le film de 2002 ?",
+      "options": [
+        { "id": "a", "label": "Monica Bellucci" },
+        { "id": "b", "label": "Marion Cotillard" },
+        { "id": "c", "label": "Sophie Marceau" },
+        { "id": "d", "label": "Laetitia Casta" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-d20",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel premier film en prises de vues réelles, sorti en 1999, adapte les aventures des Gaulois ?",
+      "answer": "Astérix et Obélix contre César"
+    },
+    {
+      "id": "asterix-d21",
+      "difficulty": "dur",
+      "text": "Quel réalisateur a signé le premier film en prises de vues réelles, sorti en 1999 ?",
+      "options": [
+        { "id": "a", "label": "Claude Zidi" },
+        { "id": "b", "label": "Alain Chabat" },
+        { "id": "c", "label": "Laurent Tirard" },
+        { "id": "d", "label": "Guillaume Canet" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-d22",
+      "difficulty": "dur",
+      "text": "Quel acteur-réalisateur incarne le héros dans le film L'Empire du Milieu (2023) ?",
+      "options": [
+        { "id": "a", "label": "Guillaume Canet" },
+        { "id": "b", "label": "Christian Clavier" },
+        { "id": "c", "label": "Alain Chabat" },
+        { "id": "d", "label": "Gérard Depardieu" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-d23",
+      "difficulty": "dur",
+      "text": "Dans quel pays se déroule le film L'Empire du Milieu, sorti en 2023 ?",
+      "options": [
+        { "id": "a", "label": "La Chine" },
+        { "id": "b", "label": "L'Égypte" },
+        { "id": "c", "label": "La Grèce" },
+        { "id": "d", "label": "La Bretagne" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-d24",
+      "difficulty": "dur",
+      "text": "Quel peuple scandinave, venu chercher la peur, les Gaulois rencontrent-ils dans un album de 1966 ?",
+      "options": [
+        { "id": "a", "label": "Les Normands" },
+        { "id": "b", "label": "Les Goths" },
+        { "id": "c", "label": "Les Bretons" },
+        { "id": "d", "label": "Les Ibères" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-d25",
+      "difficulty": "dur",
+      "text": "Quel peuple germain, très discipliné, apparaît dans un album de 1963 ?",
+      "options": [
+        { "id": "a", "label": "Les Goths" },
+        { "id": "b", "label": "Les Normands" },
+        { "id": "c", "label": "Les Bretons" },
+        { "id": "d", "label": "Les Ibères" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-d26",
+      "difficulty": "dur",
+      "text": "Quelle boisson chaude, inventée par le héros chez les Bretons, deviendra célèbre outre-Manche ?",
+      "options": [
+        { "id": "a", "label": "Le thé" },
+        { "id": "b", "label": "Le café" },
+        { "id": "c", "label": "La bière" },
+        { "id": "d", "label": "Le cidre" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-d27",
+      "difficulty": "dur",
+      "text": "Comment s'appelle le cousin breton du héros dans « Astérix chez les Bretons » ?",
+      "options": [
+        { "id": "a", "label": "Jolitorax" },
+        { "id": "b", "label": "Zebigbos" },
+        { "id": "c", "label": "Relax" },
+        { "id": "d", "label": "Ipipourax" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-d28",
+      "difficulty": "dur",
+      "type": "estimation",
+      "text": "Combien d'albums de la série ont été publiés au total (à quelques unités près) ?",
+      "answerValue": 40,
+      "unit": "albums"
+    },
+    {
+      "id": "asterix-d29",
+      "difficulty": "dur",
+      "type": "ordre",
+      "text": "Classe ces films par ordre de sortie.",
+      "items": [
+        { "id": "1", "label": "Les Douze Travaux (1976)" },
+        { "id": "2", "label": "Contre César (1999)" },
+        { "id": "3", "label": "Mission Cléopâtre (2002)" },
+        { "id": "4", "label": "L'Empire du Milieu (2023)" }
+      ]
+    },
+    {
+      "id": "asterix-d30",
+      "difficulty": "dur",
+      "text": "Quel dessinateur a repris seul la série après la mort de Goscinny en 1977 ?",
+      "options": [
+        { "id": "a", "label": "Albert Uderzo" },
+        { "id": "b", "label": "René Goscinny" },
+        { "id": "c", "label": "Jean-Yves Ferri" },
+        { "id": "d", "label": "Didier Conrad" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p1",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "En quelle année le héros gaulois est-il apparu pour la première fois dans un magazine ?",
+      "answerValue": 1959,
+      "unit": ""
+    },
+    {
+      "id": "asterix-p2",
+      "difficulty": "pro",
+      "text": "Quel scénariste a repris la série à partir de 2013 avec le dessinateur Conrad ?",
+      "options": [
+        { "id": "a", "label": "Jean-Yves Ferri" },
+        { "id": "b", "label": "Didier Conrad" },
+        { "id": "c", "label": "Albert Uderzo" },
+        { "id": "d", "label": "René Goscinny" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p3",
+      "difficulty": "pro",
+      "text": "Quel dessinateur a repris le dessin de la série à partir de 2013 ?",
+      "options": [
+        { "id": "a", "label": "Didier Conrad" },
+        { "id": "b", "label": "Jean-Yves Ferri" },
+        { "id": "c", "label": "Albert Uderzo" },
+        { "id": "d", "label": "René Goscinny" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p4",
+      "difficulty": "pro",
+      "text": "Quel camp romain porte un nom évoquant un gâteau au rhum ?",
+      "options": [
+        { "id": "a", "label": "Babaorum" },
+        { "id": "b", "label": "Aquarium" },
+        { "id": "c", "label": "Laudanum" },
+        { "id": "d", "label": "Petibonum" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p5",
+      "difficulty": "pro",
+      "text": "Quel camp romain porte un nom évoquant un bocal à poissons ?",
+      "options": [
+        { "id": "a", "label": "Aquarium" },
+        { "id": "b", "label": "Babaorum" },
+        { "id": "c", "label": "Laudanum" },
+        { "id": "d", "label": "Petibonum" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p6",
+      "difficulty": "pro",
+      "text": "Quel camp romain porte un nom évoquant un médicament somnifère ?",
+      "options": [
+        { "id": "a", "label": "Laudanum" },
+        { "id": "b", "label": "Babaorum" },
+        { "id": "c", "label": "Aquarium" },
+        { "id": "d", "label": "Petibonum" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p7",
+      "difficulty": "pro",
+      "text": "Quel est le nom du quatrième camp romain (« petit bonhomme ») ?",
+      "options": [
+        { "id": "a", "label": "Petibonum" },
+        { "id": "b", "label": "Babaorum" },
+        { "id": "c", "label": "Aquarium" },
+        { "id": "d", "label": "Laudanum" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p8",
+      "difficulty": "pro",
+      "text": "Comment s'appelle l'épouse du poissonnier du village ?",
+      "options": [
+        { "id": "a", "label": "Iélosubmarine" },
+        { "id": "b", "label": "Bonemine" },
+        { "id": "c", "label": "Falbala" },
+        { "id": "d", "label": "Maestria" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p9",
+      "difficulty": "pro",
+      "text": "De quel instrument le barde du village joue-t-il ?",
+      "options": [
+        { "id": "a", "label": "La lyre" },
+        { "id": "b", "label": "La harpe" },
+        { "id": "c", "label": "Le luth" },
+        { "id": "d", "label": "La flûte" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p10",
+      "difficulty": "pro",
+      "text": "Quel centurion romain benêt commande un camp dans le tout premier album ?",
+      "options": [
+        { "id": "a", "label": "Caius Bonus" },
+        { "id": "b", "label": "Tullius Détritus" },
+        { "id": "c", "label": "Numérobis" },
+        { "id": "d", "label": "Amonbofis" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p11",
+      "difficulty": "pro",
+      "text": "Quel scribe égyptien nonchalant enchaîne les tirades absurdes dans Mission Cléopâtre ?",
+      "options": [
+        { "id": "a", "label": "Otis" },
+        { "id": "b", "label": "Numérobis" },
+        { "id": "c", "label": "Amonbofis" },
+        { "id": "d", "label": "Détritus" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p12",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Complète la réplique culte d'Obélix : « Ils sont fous, ces… »",
+      "answer": "Romains"
+    },
+    {
+      "id": "asterix-p13",
+      "difficulty": "pro",
+      "text": "Quel est le nom officiel du petit village gaulois dans les albums ?",
+      "options": [
+        { "id": "a", "label": "Aucun" },
+        { "id": "b", "label": "Babaorum" },
+        { "id": "c", "label": "Lutèce" },
+        { "id": "d", "label": "Gergovie" }
+      ],
+      "correctOptionId": "a",
+      "funFact": "Le village n'a jamais reçu de nom officiel dans la série."
+    },
+    {
+      "id": "asterix-p14",
+      "difficulty": "pro",
+      "text": "Sur quelle île de Méditerranée, au fromage odorant, les deux héros se rendent-ils ?",
+      "options": [
+        { "id": "a", "label": "Astérix en Corse" },
+        { "id": "b", "label": "Astérix en Hispanie" },
+        { "id": "c", "label": "Astérix légionnaire" },
+        { "id": "d", "label": "Astérix gladiateur" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p15",
+      "difficulty": "pro",
+      "text": "Quel album, le dernier scénarisé par Goscinny, emmène les héros dans le nord ?",
+      "options": [
+        { "id": "a", "label": "Astérix chez les Belges" },
+        { "id": "b", "label": "Astérix en Corse" },
+        { "id": "c", "label": "Astérix en Hispanie" },
+        { "id": "d", "label": "Astérix légionnaire" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p16",
+      "difficulty": "pro",
+      "text": "Quel végétal Panoramix cueille-t-il en haut des arbres avec sa serpe d'or pour la potion ?",
+      "options": [
+        { "id": "a", "label": "Le gui" },
+        { "id": "b", "label": "Le houx" },
+        { "id": "c", "label": "Le lierre" },
+        { "id": "d", "label": "La mousse" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p17",
+      "difficulty": "pro",
+      "text": "De quel métal est faite la serpe du druide Panoramix ?",
+      "options": [
+        { "id": "a", "label": "L'or" },
+        { "id": "b", "label": "L'argent" },
+        { "id": "c", "label": "Le bronze" },
+        { "id": "d", "label": "Le fer" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p18",
+      "difficulty": "pro",
+      "text": "Quel jeune garçon ibère turbulent est pris en otage dans « Astérix en Hispanie » ?",
+      "options": [
+        { "id": "a", "label": "Pépé" },
+        { "id": "b", "label": "Jolitorax" },
+        { "id": "c", "label": "Assurancetourix" },
+        { "id": "d", "label": "Idéfix" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p19",
+      "difficulty": "pro",
+      "text": "Quel acteur incarne Obélix dans le film L'Empire du Milieu (2023) ?",
+      "options": [
+        { "id": "a", "label": "Gilles Lellouche" },
+        { "id": "b", "label": "Gérard Depardieu" },
+        { "id": "c", "label": "Guillaume Canet" },
+        { "id": "d", "label": "Jonathan Cohen" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p20",
+      "difficulty": "pro",
+      "text": "Dans quel album les héros s'engagent-ils dans l'armée romaine pour retrouver le fiancé de Falbala ?",
+      "options": [
+        { "id": "a", "label": "Astérix légionnaire" },
+        { "id": "b", "label": "Astérix gladiateur" },
+        { "id": "c", "label": "Astérix en Corse" },
+        { "id": "d", "label": "Le Combat des chefs" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p21",
+      "difficulty": "pro",
+      "text": "Dans quel album le héros affronte-t-il des fauves dans l'arène pour sauver le barde enlevé à Rome ?",
+      "options": [
+        { "id": "a", "label": "Astérix gladiateur" },
+        { "id": "b", "label": "Astérix légionnaire" },
+        { "id": "c", "label": "Le Bouclier arverne" },
+        { "id": "d", "label": "Le Combat des chefs" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p22",
+      "difficulty": "pro",
+      "text": "Quel album met en scène un duel rituel entre deux dirigeants gaulois pour la région ?",
+      "options": [
+        { "id": "a", "label": "Le Combat des chefs" },
+        { "id": "b", "label": "Le Bouclier arverne" },
+        { "id": "c", "label": "La Serpe d'or" },
+        { "id": "d", "label": "Le Devin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p23",
+      "difficulty": "pro",
+      "text": "Dans quel album recherche-t-on l'objet défensif ayant appartenu à Vercingétorix ?",
+      "options": [
+        { "id": "a", "label": "Le Bouclier arverne" },
+        { "id": "b", "label": "Le Combat des chefs" },
+        { "id": "c", "label": "La Serpe d'or" },
+        { "id": "d", "label": "Le Devin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p24",
+      "difficulty": "pro",
+      "text": "Quel imposteur prétend lire l'avenir et manipule le village dans un album de 1972 ?",
+      "options": [
+        { "id": "a", "label": "Prolix" },
+        { "id": "b", "label": "Numérobis" },
+        { "id": "c", "label": "Détritus" },
+        { "id": "d", "label": "Amonbofis" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p25",
+      "difficulty": "pro",
+      "text": "Comment se termine presque chaque album, sous un ciel étoilé ?",
+      "options": [
+        { "id": "a", "label": "Par un banquet" },
+        { "id": "b", "label": "Par une bataille" },
+        { "id": "c", "label": "Par une chasse" },
+        { "id": "d", "label": "Par un départ" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p26",
+      "difficulty": "pro",
+      "text": "Quel est le nom du fidèle chien d'Obélix dans les traductions anglaises ?",
+      "options": [
+        { "id": "a", "label": "Dogmatix" },
+        { "id": "b", "label": "Snoopy" },
+        { "id": "c", "label": "Pluto" },
+        { "id": "d", "label": "Rex" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p27",
+      "difficulty": "pro",
+      "text": "Quel est le nom anglais du druide Panoramix ?",
+      "options": [
+        { "id": "a", "label": "Getafix" },
+        { "id": "b", "label": "Cacofonix" },
+        { "id": "c", "label": "Vitalstatistix" },
+        { "id": "d", "label": "Dogmatix" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p28",
+      "difficulty": "pro",
+      "text": "Quel est le nom anglais du barde Assurancetourix ?",
+      "options": [
+        { "id": "a", "label": "Cacofonix" },
+        { "id": "b", "label": "Getafix" },
+        { "id": "c", "label": "Vitalstatistix" },
+        { "id": "d", "label": "Dogmatix" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p29",
+      "difficulty": "pro",
+      "text": "Quel est le nom anglais du chef Abraracourcix ?",
+      "options": [
+        { "id": "a", "label": "Vitalstatistix" },
+        { "id": "b", "label": "Getafix" },
+        { "id": "c", "label": "Cacofonix" },
+        { "id": "d", "label": "Dogmatix" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p30",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel site de loisirs dédié aux Gaulois a ouvert au nord de Paris en 1989 ?",
+      "answer": "Le Parc Astérix"
+    },
+    {
+      "id": "asterix-p31",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien d'albums Goscinny et Uderzo ont-ils réalisés ensemble avant la mort de Goscinny ?",
+      "answerValue": 24,
+      "unit": "albums"
+    },
+    {
+      "id": "asterix-p32",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel album de 2019 confie au village gaulois la descendante d'un chef vaincu à Alésia ?",
+      "answer": "La Fille de Vercingétorix"
+    },
+    {
+      "id": "asterix-p33",
+      "difficulty": "pro",
+      "text": "Quel vieux pirate à la jambe de bois cite souvent des locutions latines ?",
+      "options": [
+        { "id": "a", "label": "Triple-Patte" },
+        { "id": "b", "label": "Barbe-Rouge" },
+        { "id": "c", "label": "Baba" },
+        { "id": "d", "label": "Érix" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p34",
+      "difficulty": "pro",
+      "text": "Quel jeune pirate, vigie de l'équipage, écorche les mots avec un fort accent ?",
+      "options": [
+        { "id": "a", "label": "Baba" },
+        { "id": "b", "label": "Triple-Patte" },
+        { "id": "c", "label": "Érix" },
+        { "id": "d", "label": "Jolitorax" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p35",
+      "difficulty": "pro",
+      "text": "Quelle spécialité culinaire les Gaulois découvrent-ils chez les Helvètes ?",
+      "options": [
+        { "id": "a", "label": "La fondue" },
+        { "id": "b", "label": "Le chocolat" },
+        { "id": "c", "label": "Le thé" },
+        { "id": "d", "label": "La bière" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p36",
+      "difficulty": "pro",
+      "text": "Dans quel album les Gaulois visitent-ils un peuple montagnard très propre et amateur de fondue ?",
+      "options": [
+        { "id": "a", "label": "Astérix chez les Helvètes" },
+        { "id": "b", "label": "Astérix en Corse" },
+        { "id": "c", "label": "Astérix en Hispanie" },
+        { "id": "d", "label": "Astérix chez les Belges" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p37",
+      "difficulty": "pro",
+      "text": "Quel peuple ibère résiste aussi aux Romains, visité dans « Astérix en Hispanie » ?",
+      "options": [
+        { "id": "a", "label": "Les Ibères" },
+        { "id": "b", "label": "Les Goths" },
+        { "id": "c", "label": "Les Normands" },
+        { "id": "d", "label": "Les Bretons" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p38",
+      "difficulty": "pro",
+      "text": "Quel objet Obélix porte-t-il en permanence sur son dos ?",
+      "options": [
+        { "id": "a", "label": "Un menhir" },
+        { "id": "b", "label": "Un bouclier" },
+        { "id": "c", "label": "Une lance" },
+        { "id": "d", "label": "Un tonneau" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p39",
+      "difficulty": "pro",
+      "text": "Quel petit chien, premier héros écologiste de BD, hurle de désespoir quand on abat un arbre ?",
+      "options": [
+        { "id": "a", "label": "Idéfix" },
+        { "id": "b", "label": "Rex" },
+        { "id": "c", "label": "Milou" },
+        { "id": "d", "label": "Pif" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "asterix-p40",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "En quelle année le premier album de la série a-t-il été publié ?",
+      "answerValue": 1961,
+      "unit": ""
+    }
+  ]
+}
