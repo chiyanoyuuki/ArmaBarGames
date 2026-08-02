@@ -32,7 +32,16 @@ import {
 import { GameRoom } from "./game.js";
 import { themes, universes } from "./data.js";
 import { MUSIC_DIR, listMusic } from "./music.js";
-import { computeStats, knownTeamNames, loadGames, saveGame, teamProfile } from "./store.js";
+import {
+  computeStats,
+  forgetQuestionsSeen,
+  getSeenQuestions,
+  knownTeamNames,
+  loadGames,
+  markQuestionsSeen,
+  saveGame,
+  teamProfile,
+} from "./store.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PORT = Number(process.env.PORT) || 3001;
@@ -51,6 +60,15 @@ function makeBroadcaster(io: Server, code: string) {
     },
     archive(record: GameRecord) {
       saveGame(record);
+    },
+    getSeenQuestions() {
+      return getSeenQuestions();
+    },
+    markQuestionsSeen(ids: string[]) {
+      markQuestionsSeen(ids);
+    },
+    forgetQuestionsSeen(ids: string[]) {
+      forgetQuestionsSeen(ids);
     },
   };
 }

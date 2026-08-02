@@ -437,6 +437,14 @@ function ConfigPanel({ state, send }: { state: GameState; send: SendFn }) {
             onChange={(e) => setCfg({ streakBonus: e.target.checked })}
           />
         </label>
+        <label className="config-toggle">
+          <span>Difficulté adaptative (monte/descend selon les scores)</span>
+          <input
+            type="checkbox"
+            checked={cfg.adaptiveDifficulty}
+            onChange={(e) => setCfg({ adaptiveDifficulty: e.target.checked })}
+          />
+        </label>
       </div>
     </details>
   );

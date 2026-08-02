@@ -1365,6 +1365,58 @@ button.home-card {
 .award-team { font-weight: 700; }
 .award-detail { color: var(--muted); font-size: 0.85rem; }
 
+/* Revelation des trophees un a un (ceremonie de fin). */
+.award-card.reveal {
+  animation: award-in 0.55s cubic-bezier(0.2, 1.4, 0.4, 1) both;
+}
+.award-card.latest {
+  box-shadow: 0 0 0 3px var(--gold), 0 0 30px rgba(255, 210, 63, 0.55);
+}
+@keyframes award-in {
+  0% { opacity: 0; transform: translateY(24px) scale(0.6) rotate(-6deg); }
+  100% { opacity: 1; transform: translateY(0) scale(1) rotate(0); }
+}
+
+/* --- Annonce de difficulte adaptative (overlay TV) -------------------- */
+
+.diff-notice {
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 22px;
+  border-radius: 999px;
+  font-weight: 800;
+  font-size: 1.15rem;
+  color: #fff;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+  animation: diff-notice-in 0.5s cubic-bezier(0.2, 1.4, 0.4, 1) both,
+    diff-notice-out 0.6s ease-in 4.4s both;
+  pointer-events: none;
+}
+.diff-notice.up {
+  background: linear-gradient(90deg, #b5197a, #ff3d81);
+}
+.diff-notice.down {
+  background: linear-gradient(90deg, #1e5a8a, #2ee6a6);
+}
+.diff-notice-icon {
+  font-size: 1.4rem;
+  animation: pulse 0.8s ease-in-out infinite;
+}
+@keyframes diff-notice-in {
+  0% { opacity: 0; transform: translate(-50%, -26px) scale(0.8); }
+  100% { opacity: 1; transform: translate(-50%, 0) scale(1); }
+}
+@keyframes diff-notice-out {
+  0%, 70% { opacity: 1; }
+  100% { opacity: 0; transform: translate(-50%, -10px); }
+}
+
 /* --- Page statistiques ------------------------------------------------- */
 
 .stats {

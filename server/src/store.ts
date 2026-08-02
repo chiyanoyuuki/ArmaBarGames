@@ -20,14 +20,20 @@ interface Backend {
   kind: string;
   saveGame(record: GameRecord): void;
   loadGames(): GameRecord[];
+  /** Ids des questions deja jouees lors de soirees precedentes. */
+  getSeenQuestions(): Set<string>;
+  /** Marque des questions comme vues (persistant). */
+  markQuestionsSeen(ids: string[]): void;
+  /** Oublie des questions vues (reset quand un univers est epuise). */
+  forgetQuestionsSeen(ids: string[]): void;
 }
 
 // --- Backend JSON (repli universel) ---------------------------------------
 
 function makeJsonBackend(): Backend {
-  const file = process.env.ARMABAR_ARCHIVE
-    ? join(process.env.ARMABAR_ARCHIVE, "history.json")
-    : join(ARCHIVE_DIR, "history.json");
+  const baseDir = process.env.ARMABAR_ARCHIVE || ARCHIVE_DIR;
+  const file = join(baseDir, "history.json");
+  const seenFile = join(baseDir, "seen.json");
 
   const read = (): GameRecord[] => {
     try {
@@ -36,6 +42,24 @@ function makeJsonBackend(): Backend {
       return Array.isArray(data) ? (data as GameRecord[]) : [];
     } catch {
       return [];
+    }
+  };
+
+  const readSeen = (): string[] => {
+    try {
+      if (!existsSync(seenFile)) return [];
+      const data = JSON.parse(readFileSync(seenFile, "utf8"));
+      return Array.isArray(data) ? (data as string[]) : [];
+    } catch {
+      return [];
+    }
+  };
+  const writeSeen = (ids: string[]) => {
+    try {
+      if (!existsSync(dirname(seenFile))) mkdirSync(dirname(seenFile), { recursive: true });
+      writeFileSync(seenFile, JSON.stringify([...new Set(ids)]));
+    } catch (e) {
+      console.error("Sauvegarde des questions vues impossible :", e);
     }
   };
 
@@ -51,6 +75,21 @@ function makeJsonBackend(): Backend {
       } catch (e) {
         console.error("Archivage impossible :", e);
       }
+    },
+    getSeenQuestions() {
+      return new Set(readSeen());
+    },
+    markQuestionsSeen(ids) {
+      if (ids.length === 0) return;
+      const set = new Set(readSeen());
+      for (const id of ids) set.add(id);
+      writeSeen([...set]);
+    },
+    forgetQuestionsSeen(ids) {
+      if (ids.length === 0) return;
+      const set = new Set(readSeen());
+      for (const id of ids) set.delete(id);
+      writeSeen([...set]);
     },
   };
 }
@@ -78,6 +117,9 @@ function makeSqliteBackend(): Backend {
       gameId TEXT, questionId TEXT, text TEXT, type TEXT, difficulty TEXT,
       universeId TEXT, answerCount INTEGER, correctCount INTEGER
     );
+    CREATE TABLE IF NOT EXISTS seen_questions (
+      questionId TEXT PRIMARY KEY, seenAt INTEGER
+    );
     CREATE INDEX IF NOT EXISTS idx_teams_game ON game_teams(gameId);
     CREATE INDEX IF NOT EXISTS idx_rounds_game ON game_rounds(gameId);
   `);
@@ -101,6 +143,18 @@ function makeSqliteBackend(): Backend {
     for (const q of r.rounds) insertRound.run({ gameId: r.id, ...q });
   });
 
+  const insertSeen = db.prepare(
+    `INSERT OR REPLACE INTO seen_questions VALUES (?, ?)`
+  );
+  const deleteSeen = db.prepare(`DELETE FROM seen_questions WHERE questionId = ?`);
+  const markSeenTx = db.transaction((ids: string[]) => {
+    const now = Date.now();
+    for (const id of ids) insertSeen.run(id, now);
+  });
+  const forgetSeenTx = db.transaction((ids: string[]) => {
+    for (const id of ids) deleteSeen.run(id);
+  });
+
   const backend: Backend = {
     kind: "sqlite",
     saveGame(record) {
@@ -117,6 +171,18 @@ function makeSqliteBackend(): Backend {
         teams: teamsStmt.all(g.id).map(({ gameId, ...t }: any) => t),
         rounds: roundsStmt.all(g.id).map(({ gameId, ...q }: any) => q),
       }));
+    },
+    getSeenQuestions() {
+      const rows = db.prepare(`SELECT questionId FROM seen_questions`).all() as {
+        questionId: string;
+      }[];
+      return new Set(rows.map((r) => r.questionId));
+    },
+    markQuestionsSeen(ids) {
+      if (ids.length) try { markSeenTx(ids); } catch (e) { console.error(e); }
+    },
+    forgetQuestionsSeen(ids) {
+      if (ids.length) try { forgetSeenTx(ids); } catch (e) { console.error(e); }
     },
   };
 
@@ -157,6 +223,19 @@ export function saveGame(record: GameRecord): void {
 }
 export function loadGames(): GameRecord[] {
   return backend.loadGames();
+}
+
+/** Ids des questions deja jouees (toutes soirees confondues). */
+export function getSeenQuestions(): Set<string> {
+  return backend.getSeenQuestions();
+}
+/** Marque des questions comme vues, de facon persistante. */
+export function markQuestionsSeen(ids: string[]): void {
+  backend.markQuestionsSeen(ids);
+}
+/** Oublie des questions vues (utilise au reset d'un univers epuise). */
+export function forgetQuestionsSeen(ids: string[]): void {
+  backend.forgetQuestionsSeen(ids);
 }
 
 // --- Statistiques agregees (identique quel que soit le backend) -----------

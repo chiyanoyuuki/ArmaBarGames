@@ -63,6 +63,12 @@ export interface GameConfig {
   leaderboardTimeMs: number;
   /** Duree de l'annonce de manche entre univers (ms ; 0 = desactive). */
   roundIntroMs: number;
+  /**
+   * Difficulte adaptative : la difficulte d'un univers monte ou descend selon
+   * la reussite des equipes, avec une annonce a l'ecran. Desactive -> courbe
+   * de difficulte fixe (facile -> pro).
+   */
+  adaptiveDifficulty: boolean;
 }
 
 export const DEFAULT_CONFIG: GameConfig = {
@@ -77,7 +83,22 @@ export const DEFAULT_CONFIG: GameConfig = {
   leaderboardEvery: 5,
   leaderboardTimeMs: 8_000,
   roundIntroMs: 3_500,
+  adaptiveDifficulty: true,
 };
+
+/**
+ * Seuils de la difficulte adaptative. On regarde la reussite moyenne des
+ * dernieres questions d'une manche : au-dessus de UP on corse, en dessous de
+ * DOWN on allege. Une fenetre plus courte reagit plus vite.
+ */
+export const ADAPTIVE = {
+  /** Taux de reussite au-dela duquel on monte d'un cran. */
+  upThreshold: 0.7,
+  /** Taux de reussite en deca duquel on descend d'un cran. */
+  downThreshold: 0.3,
+  /** Nombre de questions observees avant de pouvoir reajuster. */
+  window: 2,
+} as const;
 
 /** Bornes autorisees pour l'UI de configuration (validees aussi cote serveur). */
 export const CONFIG_LIMITS = {
@@ -114,6 +135,7 @@ export function sanitizeConfig(
   next.leaderboardTimeMs = clamp("leaderboardTimeMs", next.leaderboardTimeMs);
   next.roundIntroMs = clamp("roundIntroMs", next.roundIntroMs);
   next.streakBonus = !!next.streakBonus;
+  next.adaptiveDifficulty = next.adaptiveDifficulty !== false;
   return next;
 }
 
@@ -414,6 +436,11 @@ export interface GameState {
   reveal?: RevealState;
   standings?: Standing[]; // present uniquement pendant la phase leaderboard
   awards?: Award[]; // present uniquement a la fin (trophees rigolos de la partie)
+  /**
+   * Annonce de changement de difficulte (montee/descente), affichee brievement
+   * sur la TV pour la question concernee. Absente si pas de changement.
+   */
+  difficultyNotice?: { dir: "up" | "down"; to: Difficulty };
 
   // Musique d'ambiance (jouee sur la TV, pilotee par l'animateur).
   // track = fichier a jouer (playlist) ; absent -> musique generative.
@@ -532,7 +559,17 @@ export const S2C = {
   Error: "error",
 } as const;
 
-export type SfxKind = "correct" | "wrong" | "tick" | "reveal" | "podium" | "join" | "manche";
+export type SfxKind =
+  | "correct"
+  | "wrong"
+  | "tick"
+  | "reveal"
+  | "podium"
+  | "join"
+  | "manche"
+  | "levelup"
+  | "leveldown"
+  | "award";
 
 // --- Payloads ------------------------------------------------------------
 

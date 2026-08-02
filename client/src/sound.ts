@@ -61,6 +61,23 @@ export function playSfx(kind: SfxKind) {
         beep(f, i * 0.11, 0.22, "triangle", 0.13)
       );
       break;
+    case "levelup":
+      // Montee : gamme ascendante energique.
+      [523, 659, 784, 988, 1319].forEach((f, i) =>
+        beep(f, i * 0.07, 0.16, "square", 0.11)
+      );
+      break;
+    case "leveldown":
+      // Descente : glissando descendant.
+      [659, 523, 440, 349, 262].forEach((f, i) =>
+        beep(f, i * 0.08, 0.18, "sawtooth", 0.1)
+      );
+      break;
+    case "award":
+      // Petit "ta-da" pour chaque trophee revele.
+      beep(587, 0, 0.12, "triangle", 0.13);
+      beep(880, 0.11, 0.28, "triangle", 0.14);
+      break;
   }
 }
 

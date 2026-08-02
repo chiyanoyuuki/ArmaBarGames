@@ -5,11 +5,14 @@ import {
   streakMultiplier,
   sanitizeConfig,
   isAnswerClose,
+  ADAPTIVE,
   DEFAULT_CONFIG,
+  DIFFICULTIES,
   DIFFICULTY_POINTS,
   TEAM_AVATARS,
   type Award,
   type BuzzState,
+  type Difficulty,
   type GameConfig,
   type GamePhase,
   type GameRecord,
@@ -29,11 +32,12 @@ import {
   type SfxKind,
 } from "@armabar/shared";
 import {
-  pickQuestions,
-  pickQuestionsForUniverses,
+  buildUniversePool,
   playableThemes,
+  questionsForUniverse,
   themeById,
   universeById,
+  universeQuestionCount,
   universesForThemes,
 } from "./data.js";
 import { listMusic } from "./music.js";
@@ -42,6 +46,12 @@ export interface Broadcaster {
   emitState(state: GameState): void;
   sfx(kind: SfxKind): void;
   archive?(record: GameRecord): void;
+  /** Ids des questions deja jouees lors des soirees precedentes. */
+  getSeenQuestions?(): Set<string>;
+  /** Marque des questions comme vues (persistant). */
+  markQuestionsSeen?(ids: string[]): void;
+  /** Oublie des questions vues (reset d'un univers epuise). */
+  forgetQuestionsSeen?(ids: string[]): void;
 }
 
 interface TeamStat {
@@ -82,11 +92,17 @@ export class GameRoom {
   private selectedUniverseIds: string[] = [];
 
   private config: GameConfig;
-  private questions: Question[] = [];
+  private questions: Question[] = []; // sequence realisee (piochee au fil de l'eau)
   private round = 0; // 1-based une fois la partie lancee
   private totalRounds: number;
   private manches: MancheInfo[] = []; // une manche par univers
   private roundToManche: number[] = []; // index de manche (1-based) par round
+
+  // Difficulte adaptative : vivier par manche + niveau courant.
+  private manchePools = new Map<number, Record<Difficulty, Question[]>>();
+  private difficultyTarget = 0; // index dans DIFFICULTIES
+  private mancheRates: number[] = []; // taux de reussite recents (manche courante)
+  private difficultyNotice?: { dir: "up" | "down"; to: Difficulty };
   private answers = new Map<string, AnswerRecord>();
   private questionStartAt = 0;
   private questionEndsAt?: number;
@@ -359,16 +375,77 @@ export class GameRoom {
           ? this.selectedThemeIds
           : this.themes.slice(0, this.config.selectedThemeCount).map((t) => t.id);
     this.selectedThemeIds = selected;
-    // Si des univers precis ont ete votes, on les privilegie ; sinon tous
-    // les univers des themes retenus.
-    const picked =
-      this.selectedUniverseIds.length > 0
-        ? pickQuestionsForUniverses(this.selectedUniverseIds, this.totalRounds)
-        : pickQuestions(selected, this.totalRounds);
-    // Regroupe les questions par univers -> chaque univers devient une manche.
-    this.questions = this.groupIntoManches(picked);
-    this.totalRounds = this.questions.length;
+
+    // Univers a jouer (dans l'ordre) : ceux votes, sinon un echantillon des
+    // themes retenus (borne pour garder des manches de plusieurs questions).
+    let universeIds: string[];
+    if (this.selectedUniverseIds.length > 0) {
+      universeIds = [...this.selectedUniverseIds];
+    } else {
+      const maxUniv = Math.max(1, Math.ceil(this.config.totalRounds / 3));
+      universeIds = shuffle(universesForThemes(selected).map((u) => u.id)).slice(0, maxUniv);
+    }
+
+    // Anti-repetition : questions deja vues lors des soirees precedentes.
+    // Si un univers est entierement epuise, on l'oublie pour repartir a neuf.
+    const seen = this.broadcaster?.getSeenQuestions?.() ?? new Set<string>();
+    for (const uid of universeIds) {
+      const all = questionsForUniverse(uid).map((q) => q.id);
+      if (all.length > 0 && all.every((id) => seen.has(id))) {
+        this.broadcaster?.forgetQuestionsSeen?.(all);
+        for (const id of all) seen.delete(id);
+      }
+    }
+
+    // Repartition des tours sur les univers (manches equilibrees).
+    const target = this.totalRounds = this.config.totalRounds;
+    const n = universeIds.length;
+    const plan: { universeId: string; count: number }[] = [];
+    if (n === 0) {
+      // Aucun contenu jouable : on termine proprement.
+      this.questions = [];
+      this.manches = [];
+      this.roundToManche = [];
+      this.totalRounds = 0;
+      this.finish();
+      return;
+    } else if (n >= target) {
+      for (const uid of universeIds.slice(0, target)) plan.push({ universeId: uid, count: 1 });
+    } else {
+      const base = Math.floor(target / n);
+      let rem = target % n;
+      for (const uid of universeIds) {
+        let count = base + (rem > 0 ? 1 : 0);
+        if (rem > 0) rem--;
+        count = Math.max(1, Math.min(count, universeQuestionCount(uid)));
+        plan.push({ universeId: uid, count });
+      }
+    }
+
+    // Prepare le vivier de chaque manche + la carte round -> manche.
+    this.manchePools.clear();
+    this.manches = [];
+    this.roundToManche = [];
+    plan.forEach((p, i) => {
+      const universe = universeById(p.universeId);
+      const theme = universe ? themeById(universe.themeId) : undefined;
+      this.manches.push({
+        index: i + 1,
+        total: plan.length,
+        universeName: universe?.name ?? "",
+        themeName: theme?.name ?? "",
+        emoji: universe?.emoji,
+      });
+      this.manchePools.set(i + 1, buildUniversePool(p.universeId, seen));
+      for (let k = 0; k < p.count; k++) this.roundToManche.push(i + 1);
+    });
+
+    this.questions = [];
+    this.totalRounds = this.roundToManche.length;
     this.round = 0;
+    this.difficultyTarget = 0;
+    this.mancheRates = [];
+    this.difficultyNotice = undefined;
     this.lastRanks.clear();
     this.gameStartAt = Date.now();
     this.teamStats.clear();
@@ -432,40 +509,73 @@ export class GameRoom {
     return this.questions[this.round - 1];
   }
 
-  /** Regroupe les questions par univers ; chaque univers devient une manche. */
-  private groupIntoManches(picked: Question[]): Question[] {
-    const order: Question["difficulty"][] = ["facile", "moyen", "dur", "pro"];
-    const universeOrder: string[] = [];
-    const byUniverse = new Map<string, Question[]>();
-    for (const q of picked) {
-      if (!byUniverse.has(q.universeId)) {
-        byUniverse.set(q.universeId, []);
-        universeOrder.push(q.universeId);
-      }
-      byUniverse.get(q.universeId)!.push(q);
+  // --- Difficulte adaptative --------------------------------------------
+
+  /**
+   * Ajuste le niveau de difficulte de la manche courante selon la reussite
+   * recente des equipes, et prepare l'annonce a afficher. Sans effet au tout
+   * premier tour d'une manche (pas encore d'historique).
+   */
+  private applyAdaptation(round: number) {
+    this.difficultyNotice = undefined;
+    if (!this.config.adaptiveDifficulty) return;
+    if (this.isMancheStart(round)) return;
+    if (this.mancheRates.length < ADAPTIVE.window) return;
+    const recent = this.mancheRates.slice(-ADAPTIVE.window);
+    const avg = recent.reduce((a, b) => a + b, 0) / recent.length;
+    const maxIdx = DIFFICULTIES.length - 1;
+    if (avg >= ADAPTIVE.upThreshold && this.difficultyTarget < maxIdx) {
+      this.difficultyTarget++;
+      this.difficultyNotice = { dir: "up", to: DIFFICULTIES[this.difficultyTarget] };
+      this.mancheRates = [];
+      this.playSfx("levelup");
+    } else if (avg <= ADAPTIVE.downThreshold && this.difficultyTarget > 0) {
+      this.difficultyTarget--;
+      this.difficultyNotice = { dir: "down", to: DIFFICULTIES[this.difficultyTarget] };
+      this.mancheRates = [];
+      this.playSfx("leveldown");
     }
-    const result: Question[] = [];
-    this.manches = [];
-    this.roundToManche = [];
-    universeOrder.forEach((uid, i) => {
-      const qs = byUniverse
-        .get(uid)!
-        .sort((a, b) => order.indexOf(a.difficulty) - order.indexOf(b.difficulty));
-      const universe = universeById(uid);
-      const theme = universe ? themeById(universe.themeId) : undefined;
-      this.manches.push({
-        index: i + 1,
-        total: universeOrder.length,
-        universeName: universe?.name ?? "",
-        themeName: theme?.name ?? "",
-        emoji: universe?.emoji,
-      });
-      for (const q of qs) {
-        result.push(q);
-        this.roundToManche.push(i + 1);
+  }
+
+  /** Difficulte fixe (mode non adaptatif) : montee reguliere sur la manche. */
+  private fixedTargetForRound(round: number, mancheIdx: number): number {
+    let start = round;
+    while (start > 1 && this.roundToManche[start - 2] === mancheIdx) start--;
+    const pos = round - start; // 0-based dans la manche
+    const len = this.roundToManche.filter((m) => m === mancheIdx).length || 1;
+    return Math.min(DIFFICULTIES.length - 1, Math.floor((pos / len) * DIFFICULTIES.length));
+  }
+
+  /** Retire une question du vivier au niveau vise (ou au plus proche dispo). */
+  private popNearestTier(
+    pool: Record<Difficulty, Question[]>,
+    targetIdx: number
+  ): Question | undefined {
+    const N = DIFFICULTIES.length;
+    for (let dist = 0; dist < N; dist++) {
+      const candidates = dist === 0 ? [targetIdx] : [targetIdx - dist, targetIdx + dist];
+      for (const idx of candidates) {
+        if (idx < 0 || idx >= N) continue;
+        const arr = pool[DIFFICULTIES[idx]];
+        if (arr && arr.length) return arr.shift();
       }
-    });
-    return result;
+    }
+    return undefined;
+  }
+
+  /** Choisit et reserve la question du tour selon la difficulte courante. */
+  private serveQuestion(round: number): Question | undefined {
+    const mancheIdx = this.roundToManche[round - 1];
+    if (!mancheIdx) return undefined;
+    const pool = this.manchePools.get(mancheIdx);
+    if (!pool) return undefined;
+    this.applyAdaptation(round);
+    const targetIdx = this.config.adaptiveDifficulty
+      ? this.difficultyTarget
+      : this.fixedTargetForRound(round, mancheIdx);
+    const q = this.popNearestTier(pool, targetIdx);
+    if (q) this.broadcaster?.markQuestionsSeen?.([q.id]);
+    return q;
   }
 
   private mancheForRound(round: number): MancheInfo | undefined {
@@ -486,9 +596,15 @@ export class GameRoom {
     this.shuffledItems = undefined;
     this.openPoints.clear();
     this.round++;
-    if (this.round > this.totalRounds || this.round > this.questions.length) {
+    if (this.round > this.totalRounds) {
       this.finish();
       return;
+    }
+    // Nouveau debut de manche : remise a zero de la difficulte adaptative.
+    if (this.isMancheStart(this.round)) {
+      this.difficultyTarget = 0;
+      this.mancheRates = [];
+      this.difficultyNotice = undefined;
     }
     // Annonce de manche a chaque changement d'univers (si activee).
     if (this.config.roundIntroMs > 0 && this.isMancheStart(this.round)) {
@@ -502,6 +618,15 @@ export class GameRoom {
   }
 
   private presentCurrentQuestion() {
+    // Pioche la question du tour si elle n'a pas encore ete realisee.
+    if (!this.questions[this.round - 1]) {
+      const served = this.serveQuestion(this.round);
+      if (!served) {
+        this.finish();
+        return;
+      }
+      this.questions[this.round - 1] = served;
+    }
     const q = this.current()!;
     this.phase = "question";
     this.questionStartAt = Date.now();
@@ -775,6 +900,22 @@ export class GameRoom {
 
     this.reveal = reveal;
     const anyoneRight = Object.values(gains).some((g) => g > 0);
+
+    // Mesure de "facilite" du tour pour la difficulte adaptative.
+    // Types a gagnant unique (buzzer/estimation) : reussi ou non ; les autres :
+    // proportion des equipes connectees ayant marque.
+    const connectedCount = [...this.teams.values()].filter((t) => t.connected).length;
+    const winners = Object.values(gains).filter((g) => g > 0).length;
+    const rate =
+      q.type === "buzzer" || q.type === "estimation"
+        ? anyoneRight
+          ? 1
+          : 0
+        : connectedCount > 0
+          ? winners / connectedCount
+          : 0;
+    this.mancheRates.push(rate);
+
     this.playSfx(anyoneRight ? "correct" : "wrong");
     this.emit();
 
@@ -831,28 +972,65 @@ export class GameRoom {
 
   private computeAwards(teams: TeamGameStats[]): Award[] {
     const awards: Award[] = [];
+    if (teams.length === 0) return awards;
     const byBest = <T>(arr: T[], score: (t: T) => number) =>
       arr.reduce((best, cur) => (score(cur) > score(best) ? cur : best), arr[0]);
+    const many = teams.length >= 2;
 
+    // 🧠 Le Cerveau : le plus de bonnes reponses.
     const brains = teams.filter((t) => t.correct > 0);
     if (brains.length) {
       const t = byBest(brains, (x) => x.correct);
       awards.push({ id: "brain", emoji: "🧠", title: "Le Cerveau", teamName: t.name, detail: `${t.correct} bonnes réponses` });
     }
+    // ⚡ L'Éclair : meilleure moyenne de rapidite.
     const fast = teams.filter((t) => t.avgAnswerMs != null);
     if (fast.length) {
       const t = fast.reduce((b, c) => ((c.avgAnswerMs as number) < (b.avgAnswerMs as number) ? c : b));
       awards.push({ id: "flash", emoji: "⚡", title: "L'Éclair", teamName: t.name, detail: `${((t.avgAnswerMs as number) / 1000).toFixed(1)} s de moyenne` });
     }
+    // 🐢 La Tortue Zen : la plus lente (mais elle a pris son temps).
+    if (many && fast.length >= 2) {
+      const t = fast.reduce((b, c) => ((c.avgAnswerMs as number) > (b.avgAnswerMs as number) ? c : b));
+      awards.push({ id: "turtle", emoji: "🐢", title: "La Tortue Zen", teamName: t.name, detail: `${((t.avgAnswerMs as number) / 1000).toFixed(1)} s… mais sereine` });
+    }
+    // 🔔 Roi du Buzzer : le plus de buzz gagnes.
     const buzz = teams.filter((t) => t.buzzerWins > 0);
     if (buzz.length) {
       const t = byBest(buzz, (x) => x.buzzerWins);
       awards.push({ id: "buzzer", emoji: "🔔", title: "Roi du Buzzer", teamName: t.name, detail: `${t.buzzerWins} buzz gagnés` });
     }
+    // 🔥 En Feu : plus longue serie.
     const streaky = teams.filter((t) => t.maxStreak >= 3);
     if (streaky.length) {
       const t = byBest(streaky, (x) => x.maxStreak);
-      awards.push({ id: "streak", emoji: "🔥", title: "Série record", teamName: t.name, detail: `${t.maxStreak} d'affilée` });
+      awards.push({ id: "streak", emoji: "🔥", title: "En Feu", teamName: t.name, detail: `${t.maxStreak} bonnes d'affilée` });
+    }
+    // 🎯 Le Sniper : meilleure precision (min. 4 reponses).
+    const precise = teams.filter((t) => t.answered >= 4);
+    if (precise.length) {
+      const t = byBest(precise, (x) => x.correct / x.answered);
+      const pct = Math.round((t.correct / t.answered) * 100);
+      if (pct >= 50) awards.push({ id: "sniper", emoji: "🎯", title: "Le Sniper", teamName: t.name, detail: `${pct}% de réussite` });
+    }
+    // 💥 Le Casse-cou : a tenté le plus de questions.
+    const brave = teams.filter((t) => t.answered > 0);
+    if (many && brave.length) {
+      const t = byBest(brave, (x) => x.answered);
+      awards.push({ id: "daredevil", emoji: "💥", title: "Le Casse-cou", teamName: t.name, detail: `${t.answered} réponses tentées` });
+    }
+    // 👻 Le Fantôme : la participation la plus discrète.
+    if (teams.length >= 3) {
+      const t = teams.reduce((b, c) => (c.answered < b.answered ? c : b));
+      const top = byBest(brave.length ? brave : teams, (x) => x.answered);
+      if (t.name !== top.name) {
+        awards.push({ id: "ghost", emoji: "👻", title: "Le Fantôme", teamName: t.name, detail: `${t.answered} réponse${t.answered > 1 ? "s" : ""} seulement` });
+      }
+    }
+    // 🔦 La Lanterne rouge : dernier au classement (lot de consolation).
+    if (teams.length >= 3) {
+      const last = teams.reduce((b, c) => (c.finalRank > b.finalRank ? c : b));
+      awards.push({ id: "lantern", emoji: "🔦", title: "La Lanterne rouge", teamName: last.name, detail: "La présence, c'est l'essentiel !" });
     }
     return awards;
   }
@@ -942,6 +1120,10 @@ export class GameRoom {
       reveal: this.phase === "reveal" ? this.reveal : undefined,
       standings: this.phase === "leaderboard" ? this.standings : undefined,
       awards: this.phase === "finished" ? this.awards : undefined,
+      difficultyNotice:
+        this.phase === "question" || this.phase === "reveal"
+          ? this.difficultyNotice
+          : undefined,
       music: { on: this.musicOn, volume: this.musicVolume, track: this.currentTrack() },
     };
   }

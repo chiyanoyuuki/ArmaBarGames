@@ -32,6 +32,25 @@ thèmes retenus) → **Annonce de manche** (un univers = une manche) →
 **Questions** chronométrées → **Reveal** (bonne réponse + points) →
 *(classement intermédiaire)* → **Podium**.
 
+### Difficulté adaptative
+
+Pendant une manche, le niveau des questions **monte ou descend** selon la
+réussite des équipes : si l'univers s'avère trop facile (beaucoup de bonnes
+réponses), on corse ; si les équipes rament, on allège. Chaque changement
+déclenche une **annonce animée** sur la TV (« Ça se corse ! » / « On
+allège… ») et un effet sonore. Chaque manche redémarre en douceur (facile)
+puis s'ajuste. Activable/désactivable dans la config animateur
+(`adaptiveDifficulty`, seuils dans `ADAPTIVE` côté `shared`).
+
+### Anti-répétition entre soirées
+
+Les questions **déjà jouées** sont mémorisées durablement et ne reviennent
+**pas** lors des soirées suivantes, tant que toutes les questions de
+l'univers concerné ne sont pas épuisées. Une fois un univers entièrement
+parcouru, son historique est remis à zéro pour repartir sur un cycle neuf.
+Stockage via le même backend que l'archive (JSON `seen.json` ou table
+SQLite `seen_questions`).
+
 ## Architecture
 
 Monorepo npm workspaces, tout en TypeScript.
@@ -127,8 +146,11 @@ trophées, trace des questions). Une page **`/stats`** agrège au fil des
 soirées des statistiques rigolotes : meilleur score, plus longue série, roi
 du buzzer, univers favori, question la plus ratée / la plus facile,
 répartition par type, classement des habitués et historique des parties. À
-la fin de chaque partie, la TV affiche aussi des **trophées** (⚡ L'Éclair,
-🔔 Roi du buzzer, 🔥 Série record, 🧠 Le Cerveau).
+la fin de chaque partie, la TV déroule une **cérémonie de trophées** rigolos
+**révélés un à un** (avec son) : 🧠 Le Cerveau, ⚡ L'Éclair, 🐢 La Tortue
+Zen, 🔔 Roi du Buzzer, 🔥 En Feu, 🎯 Le Sniper, 💥 Le Casse-cou, 👻 Le
+Fantôme, 🔦 La Lanterne rouge — attribués selon les scores et statistiques
+de la partie.
 
 - **Équipes récurrentes** : une équipe qui revient (même nom) est reconnue —
   badge ⭐ « habitué » sur la TV, accueil « Bon retour » avec son palmarès sur

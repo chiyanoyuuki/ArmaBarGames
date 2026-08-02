@@ -2,7 +2,8 @@
 import { readFileSync, readdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
-import type { Question, Theme, Universe } from "@armabar/shared";
+import type { Difficulty, Question, Theme, Universe } from "@armabar/shared";
+import { DIFFICULTIES } from "@armabar/shared";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = join(__dirname, "..", "..", "data");
@@ -108,4 +109,34 @@ function shuffle<T>(arr: T[]): T[] {
     [a[i], a[j]] = [a[j], a[i]];
   }
   return a;
+}
+
+/** Toutes les questions d'un univers (memoire chargee). */
+export function questionsForUniverse(universeId: string): Question[] {
+  return questions.filter((q) => q.universeId === universeId);
+}
+
+/**
+ * Construit le vivier d'un univers par difficulte, questions non vues d'abord.
+ * Utilise par la difficulte adaptative : chaque manche pioche dans ce vivier
+ * selon le niveau courant. `seen` = ids des questions deja jouees a eviter.
+ */
+export function buildUniversePool(
+  universeId: string,
+  seen: Set<string> = new Set()
+): Record<Difficulty, Question[]> {
+  const pool = {} as Record<Difficulty, Question[]>;
+  for (const d of DIFFICULTIES) {
+    const tier = questions.filter((q) => q.universeId === universeId && q.difficulty === d);
+    const unseen = shuffle(tier.filter((q) => !seen.has(q.id)));
+    const already = shuffle(tier.filter((q) => seen.has(q.id)));
+    // Non vues en priorite ; on ne repioche du deja-vu qu'en dernier recours.
+    pool[d] = [...unseen, ...already];
+  }
+  return pool;
+}
+
+/** Nombre de questions d'un univers (tous niveaux confondus). */
+export function universeQuestionCount(universeId: string): number {
+  return questions.reduce((n, q) => (q.universeId === universeId ? n + 1 : n), 0);
 }

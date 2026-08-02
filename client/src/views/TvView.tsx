@@ -10,7 +10,7 @@ import {
 } from "@armabar/shared";
 import { emitAck, socket } from "../socket";
 import { useCountdown, useGameState, useSfx } from "../hooks";
-import { unlockAudio, startMusic, stopMusic, setMusicVolume } from "../sound";
+import { unlockAudio, startMusic, stopMusic, setMusicVolume, playSfx } from "../sound";
 
 export function TvView() {
   const [params] = useSearchParams();
@@ -365,6 +365,12 @@ function QuestionBoard({ state }: { state: GameState }) {
 
   return (
     <div className="question-board">
+      {state.difficultyNotice && (
+        <DifficultyNotice
+          key={`${q.id}-${state.difficultyNotice.dir}`}
+          notice={state.difficultyNotice}
+        />
+      )}
       <div className="question-head">
         <span className={`diff-badge diff-${q.difficulty}`}>
           {q.difficulty.toUpperCase()} · {DIFFICULTY_POINTS[q.difficulty]} pts
@@ -393,6 +399,28 @@ function QuestionBoard({ state }: { state: GameState }) {
 
       {!revealing && q.type !== "buzzer" && <AnswerDots state={state} />}
       {revealing && reveal?.funFact && <p className="fun-fact">💡 {reveal.funFact}</p>}
+    </div>
+  );
+}
+
+const DIFF_LABELS: Record<string, string> = {
+  facile: "FACILE",
+  moyen: "MOYEN",
+  dur: "DUR",
+  pro: "PRO",
+};
+
+function DifficultyNotice({ notice }: { notice: NonNullable<GameState["difficultyNotice"]> }) {
+  const up = notice.dir === "up";
+  return (
+    <div className={`diff-notice ${up ? "up" : "down"}`}>
+      <span className="diff-notice-icon">{up ? "🔺" : "🔻"}</span>
+      <span className="diff-notice-text">
+        {up ? "Ça se corse !" : "On allège un peu…"}
+      </span>
+      <span className={`diff-badge diff-${notice.to}`}>
+        Niveau {DIFF_LABELS[notice.to] ?? notice.to.toUpperCase()}
+      </span>
     </div>
   );
 }
@@ -581,14 +609,33 @@ function Confetti() {
 function Podium({ teams, awards }: { teams: Team[]; awards: Award[] }) {
   const sorted = [...teams].sort((a, b) => b.score - a.score);
   const [first, second, third] = sorted;
+
+  // Palmares revele un a un, facon ceremonie.
+  const awardsKey = awards.map((a) => a.id).join(",");
+  const [shown, setShown] = useState(0);
+  useEffect(() => {
+    setShown(0);
+    if (awards.length === 0) return;
+    const timers: ReturnType<typeof setTimeout>[] = [];
+    let i = 0;
+    const revealNext = () => {
+      i += 1;
+      setShown(i);
+      playSfx("award");
+      if (i < awards.length) timers.push(setTimeout(revealNext, 2600));
+    };
+    timers.push(setTimeout(revealNext, 1400));
+    return () => timers.forEach(clearTimeout);
+  }, [awardsKey]);
+
   return (
     <div className="podium">
       <Confetti />
       <h2 className="podium-title">🏆 Résultats finaux 🏆</h2>
       {awards.length > 0 && (
         <div className="awards-row">
-          {awards.map((a) => (
-            <div key={a.id} className="award-card">
+          {awards.slice(0, shown).map((a, i) => (
+            <div key={a.id} className={`award-card reveal ${i === shown - 1 ? "latest" : ""}`}>
               <span className="award-emoji">{a.emoji}</span>
               <span className="award-title">{a.title}</span>
               <span className="award-team">{a.teamName}</span>
