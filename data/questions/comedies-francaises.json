@@ -1,0 +1,929 @@
+{
+  "universeId": "comedies-francaises",
+  "questions": [
+    {
+      "id": "comfr-f1",
+      "difficulty": "facile",
+      "text": "Quel acteur handicapé, riche et cloué dans un fauteuil roulant, est incarné par François Cluzet dans « Intouchables » ?",
+      "options": [
+        { "id": "a", "label": "Philippe" },
+        { "id": "b", "label": "Driss" },
+        { "id": "c", "label": "Bakari" },
+        { "id": "d", "label": "Antoine" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-f2",
+      "difficulty": "facile",
+      "text": "Quel acteur, révélé par « Intouchables », y joue l'aide à domicile plein d'énergie venu de banlieue ?",
+      "options": [
+        { "id": "a", "label": "Omar Sy" },
+        { "id": "b", "label": "Jamel Debbouze" },
+        { "id": "c", "label": "Dany Boon" },
+        { "id": "d", "label": "Kad Merad" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-f3",
+      "difficulty": "facile",
+      "text": "Dans quelle région, tout en haut de la carte de France, se déroule « Bienvenue chez les Ch'tis » ?",
+      "options": [
+        { "id": "a", "label": "Le Nord-Pas-de-Calais" },
+        { "id": "b", "label": "La Bretagne" },
+        { "id": "c", "label": "L'Alsace" },
+        { "id": "d", "label": "La Normandie" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-f4",
+      "difficulty": "facile",
+      "type": "buzzer",
+      "text": "Quel comédien du Nord réalise et joue dans « Bienvenue chez les Ch'tis » aux côtés de Kad Merad ?",
+      "answer": "Dany Boon"
+    },
+    {
+      "id": "comfr-f5",
+      "difficulty": "facile",
+      "text": "Quel agent secret français maladroit et macho Jean Dujardin incarne-t-il dans deux comédies d'espionnage ?",
+      "options": [
+        { "id": "a", "label": "OSS 117" },
+        { "id": "b", "label": "James Bond" },
+        { "id": "c", "label": "Le Gendarme" },
+        { "id": "d", "label": "Largo Winch" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-f6",
+      "difficulty": "facile",
+      "type": "buzzer",
+      "text": "Quel humoriste incarne le surfeur bête et prétentieux « Brice » dans une comédie de 2005 ?",
+      "answer": "Jean Dujardin"
+    },
+    {
+      "id": "comfr-f7",
+      "difficulty": "facile",
+      "text": "Dans « Les Visiteurs », de quelle époque viennent le chevalier et son écuyer, propulsés dans le présent ?",
+      "options": [
+        { "id": "a", "label": "Le Moyen Âge" },
+        { "id": "b", "label": "L'Antiquité" },
+        { "id": "c", "label": "La Renaissance" },
+        { "id": "d", "label": "La Révolution" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-f8",
+      "difficulty": "facile",
+      "text": "Dans quelle ville du sud le chauffeur de « Taxi » fonce-t-il à toute allure dans sa Peugeot blanche ?",
+      "options": [
+        { "id": "a", "label": "Marseille" },
+        { "id": "b", "label": "Nice" },
+        { "id": "c", "label": "Lyon" },
+        { "id": "d", "label": "Toulouse" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-f9",
+      "difficulty": "facile",
+      "text": "Quel campeur en marcel, incarné par Franck Dubosc, drague sans relâche dans la saga « Camping » ?",
+      "options": [
+        { "id": "a", "label": "Patrick Chirac" },
+        { "id": "b", "label": "Jacquouille" },
+        { "id": "c", "label": "José" },
+        { "id": "d", "label": "Popeye" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-f10",
+      "difficulty": "facile",
+      "text": "Dans « Astérix et Obélix : Mission Cléopâtre », qui interprète le rôle d'Obélix ?",
+      "options": [
+        { "id": "a", "label": "Gérard Depardieu" },
+        { "id": "b", "label": "Christian Clavier" },
+        { "id": "c", "label": "Jamel Debbouze" },
+        { "id": "d", "label": "Alain Chabat" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-m1",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel acteur bougon au visage grimaçant incarne le gendarme Cruchot dans la saga tournée à Saint-Tropez ?",
+      "answer": "Louis de Funès"
+    },
+    {
+      "id": "comfr-m2",
+      "difficulty": "moyen",
+      "text": "Dans quelle station balnéaire de la Côte d'Azur le célèbre gendarme fait-il régner l'ordre ?",
+      "options": [
+        { "id": "a", "label": "Saint-Tropez" },
+        { "id": "b", "label": "Cannes" },
+        { "id": "c", "label": "Deauville" },
+        { "id": "d", "label": "Biarritz" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-m3",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel chanteur et acteur à l'air naïf forme un duo comique culte avec Louis de Funès dans « La Grande Vadrouille » ?",
+      "answer": "Bourvil"
+    },
+    {
+      "id": "comfr-m4",
+      "difficulty": "moyen",
+      "text": "Sur quel arrière-plan historique se déroule la fuite burlesque des héros de « La Grande Vadrouille » ?",
+      "options": [
+        { "id": "a", "label": "L'Occupation allemande" },
+        { "id": "b", "label": "La Première Guerre mondiale" },
+        { "id": "c", "label": "La Révolution française" },
+        { "id": "d", "label": "La guerre d'Algérie" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-m5",
+      "difficulty": "moyen",
+      "text": "Quelle bande de comédiens, née au café-théâtre, est à l'origine des « Bronzés » et du « Père Noël est une ordure » ?",
+      "options": [
+        { "id": "a", "label": "Le Splendid" },
+        { "id": "b", "label": "Les Nuls" },
+        { "id": "c", "label": "Les Robins des Bois" },
+        { "id": "d", "label": "Les Inconnus" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-m6",
+      "difficulty": "moyen",
+      "text": "Dans quel décor les héros du premier « Bronzés » passent-ils un séjour catastrophique ?",
+      "options": [
+        { "id": "a", "label": "Un club de vacances en Afrique" },
+        { "id": "b", "label": "Une croisière" },
+        { "id": "c", "label": "Un camping en Espagne" },
+        { "id": "d", "label": "Une île déserte" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-m7",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Comment s'appelle l'association caritative débordée où se déroule « Le Père Noël est une ordure », un soir de réveillon ?",
+      "answer": "SOS Détresse Amitié"
+    },
+    {
+      "id": "comfr-m8",
+      "difficulty": "moyen",
+      "text": "Quel trio d'humoristes est derrière la comédie déjantée « La Cité de la peur » ?",
+      "options": [
+        { "id": "a", "label": "Les Nuls" },
+        { "id": "b", "label": "Le Splendid" },
+        { "id": "c", "label": "Les Inconnus" },
+        { "id": "d", "label": "Les Robins des Bois" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-m9",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel comédien du trio des Nuls réalise « La Cité de la peur » puis « Mission Cléopâtre » ?",
+      "answer": "Alain Chabat"
+    },
+    {
+      "id": "comfr-m10",
+      "difficulty": "moyen",
+      "text": "Dans « Le Dîner de cons », quel personnage naïf et gaffeur, joué par Jacques Villeret, gâche la soirée ?",
+      "options": [
+        { "id": "a", "label": "François Pignon" },
+        { "id": "b", "label": "Pierre Brochant" },
+        { "id": "c", "label": "Just Leblanc" },
+        { "id": "d", "label": "Lucien Cheval" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-m11",
+      "difficulty": "moyen",
+      "text": "Dans « Les Visiteurs », quel serviteur crasseux et couard, joué par Christian Clavier, accompagne le chevalier ?",
+      "options": [
+        { "id": "a", "label": "Jacquouille la Fripouille" },
+        { "id": "b", "label": "Godefroy" },
+        { "id": "c", "label": "Jacquart" },
+        { "id": "d", "label": "Ganelon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-m12",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel acteur au regard clair incarne le noble chevalier Godefroy de Montmirail dans « Les Visiteurs » ?",
+      "answer": "Jean Reno"
+    },
+    {
+      "id": "comfr-m13",
+      "difficulty": "moyen",
+      "text": "Dans « Qu'est-ce qu'on a fait au Bon Dieu ? », quel est le principal sujet de discorde du père de famille ?",
+      "options": [
+        { "id": "a", "label": "Les mariages mixtes de ses filles" },
+        { "id": "b", "label": "L'héritage familial" },
+        { "id": "c", "label": "La politique locale" },
+        { "id": "d", "label": "Un déménagement" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-m14",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel humoriste manchot au sourire malicieux joue le rôle de Numérobis dans « Mission Cléopâtre » ?",
+      "answer": "Jamel Debbouze"
+    },
+    {
+      "id": "comfr-m15",
+      "difficulty": "moyen",
+      "text": "Quelle actrice italienne incarne la reine d'Égypte dans « Astérix et Obélix : Mission Cléopâtre » ?",
+      "options": [
+        { "id": "a", "label": "Monica Bellucci" },
+        { "id": "b", "label": "Sophia Loren" },
+        { "id": "c", "label": "Laetitia Casta" },
+        { "id": "d", "label": "Marion Cotillard" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-m16",
+      "difficulty": "moyen",
+      "text": "Dans « Le Grand Blond avec une chaussure noire », quel détail vestimentaire trahit le héros joué par Pierre Richard ?",
+      "options": [
+        { "id": "a", "label": "Un soulier d'une autre couleur" },
+        { "id": "b", "label": "Une cravate rouge" },
+        { "id": "c", "label": "Un chapeau melon" },
+        { "id": "d", "label": "Un manteau troué" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-m17",
+      "difficulty": "moyen",
+      "text": "Quel duo d'acteurs, l'un maladroit et l'autre bourru, forme la paire comique de « La Chèvre » et « Les Compères » ?",
+      "options": [
+        { "id": "a", "label": "Pierre Richard et Gérard Depardieu" },
+        { "id": "b", "label": "Bourvil et de Funès" },
+        { "id": "c", "label": "Kad Merad et Dany Boon" },
+        { "id": "d", "label": "Lhermitte et Villeret" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-m18",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Dans « Rabbi Jacob », quel patron d'usine raciste et colérique, joué par de Funès, se retrouve déguisé en rabbin ?",
+      "answer": "Victor Pivert"
+    },
+    {
+      "id": "comfr-m19",
+      "difficulty": "moyen",
+      "text": "Dans « Le Corniaud », quelle petite voiture le personnage de Bourvil conduit-il avant qu'elle ne tombe en pièces ?",
+      "options": [
+        { "id": "a", "label": "Une 2 CV" },
+        { "id": "b", "label": "Une Dauphine" },
+        { "id": "c", "label": "Une DS" },
+        { "id": "d", "label": "Une 4L" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-m20",
+      "difficulty": "moyen",
+      "text": "Dans « Les Ripoux », quel univers professionnel est croqué avec des agents magouilleurs ?",
+      "options": [
+        { "id": "a", "label": "La police" },
+        { "id": "b", "label": "La médecine" },
+        { "id": "c", "label": "La justice" },
+        { "id": "d", "label": "La banque" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-d1",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel réalisateur au nom d'origine arménienne signe « Le Corniaud » et « La Grande Vadrouille » ?",
+      "answer": "Gérard Oury"
+    },
+    {
+      "id": "comfr-d2",
+      "difficulty": "dur",
+      "type": "estimation",
+      "text": "En quelle année « La Grande Vadrouille » est-elle sortie sur les écrans ?",
+      "answerValue": 1966,
+      "unit": ""
+    },
+    {
+      "id": "comfr-d3",
+      "difficulty": "dur",
+      "text": "Quel film de Dany Boon a longtemps détenu le record d'entrées pour un film français en salles ?",
+      "options": [
+        { "id": "a", "label": "Bienvenue chez les Ch'tis" },
+        { "id": "b", "label": "Intouchables" },
+        { "id": "c", "label": "Les Visiteurs" },
+        { "id": "d", "label": "La Grande Vadrouille" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-d4",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Dans quelle petite ville du Nord, dont le nom commence par un B, le bureau de poste de « Bienvenue chez les Ch'tis » est-il situé ?",
+      "answer": "Bergues"
+    },
+    {
+      "id": "comfr-d5",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel réalisateur, connu aussi pour « The Artist », met en scène les deux volets de « OSS 117 » avec Jean Dujardin ?",
+      "answer": "Michel Hazanavicius"
+    },
+    {
+      "id": "comfr-d6",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel est le nom complet de l'espion français incarné par Jean Dujardin dans la saga d'espionnage parodique ?",
+      "answer": "Hubert Bonisseur de La Bath"
+    },
+    {
+      "id": "comfr-d7",
+      "difficulty": "dur",
+      "text": "Dans quel pays se déroule le tout premier volet de « OSS 117 » avec Jean Dujardin ?",
+      "options": [
+        { "id": "a", "label": "L'Égypte" },
+        { "id": "b", "label": "Le Brésil" },
+        { "id": "c", "label": "Le Maroc" },
+        { "id": "d", "label": "L'Iran" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-d8",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel scénariste et réalisateur, spécialiste du personnage de François Pignon, a écrit « Le Dîner de cons » ?",
+      "answer": "Francis Veber"
+    },
+    {
+      "id": "comfr-d9",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel duo de réalisateurs signe « Intouchables », inspiré d'une histoire vraie ?",
+      "answer": "Toledano et Nakache"
+    },
+    {
+      "id": "comfr-d10",
+      "difficulty": "dur",
+      "text": "Pour quel film Omar Sy a-t-il reçu le César du meilleur acteur, une première pour un comédien noir ?",
+      "options": [
+        { "id": "a", "label": "Intouchables" },
+        { "id": "b", "label": "Nos jours heureux" },
+        { "id": "c", "label": "Chocolat" },
+        { "id": "d", "label": "Samba" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-d11",
+      "difficulty": "dur",
+      "text": "Dans « Les Tontons flingueurs », quel breuvage artisanal fait tousser les truands attablés dans la cuisine ?",
+      "options": [
+        { "id": "a", "label": "Un alcool maison très fort" },
+        { "id": "b", "label": "Un vin bouchonné" },
+        { "id": "c", "label": "Un café brûlant" },
+        { "id": "d", "label": "Une tisane amère" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-d12",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel dialoguiste au verbe truculent a signé les répliques cultes des « Tontons flingueurs » ?",
+      "answer": "Michel Audiard"
+    },
+    {
+      "id": "comfr-d13",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel acteur au physique de dur à cuire mène la bande des « Tontons flingueurs » dans le rôle de Fernand ?",
+      "answer": "Lino Ventura"
+    },
+    {
+      "id": "comfr-d14",
+      "difficulty": "dur",
+      "text": "Quel réalisateur, habitué du café-théâtre, met en scène « Les Bronzés » et « Le Père Noël est une ordure » ?",
+      "options": [
+        { "id": "a", "label": "Patrice Leconte" },
+        { "id": "b", "label": "Jean-Marie Poiré" },
+        { "id": "c", "label": "Claude Zidi" },
+        { "id": "d", "label": "Francis Veber" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-d15",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Dans « Le Père Noël est une ordure », comment se prénomme le personnage travesti et déstabilisant, joué par Christian Clavier ?",
+      "answer": "Katia"
+    },
+    {
+      "id": "comfr-d16",
+      "difficulty": "dur",
+      "text": "Dans « Le Père Noël est une ordure », quelle spécialité culinaire ratée de Josette est devenue culte ?",
+      "options": [
+        { "id": "a", "label": "Les doubitchous" },
+        { "id": "b", "label": "La bûche glacée" },
+        { "id": "c", "label": "Le gratin dauphinois" },
+        { "id": "d", "label": "La dinde farcie" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-d17",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Dans « La Cité de la peur », comment se prénomme l'attachée de presse survoltée jouée par Chantal Lauby ?",
+      "answer": "Odile Deray"
+    },
+    {
+      "id": "comfr-d18",
+      "difficulty": "dur",
+      "text": "Dans « La Cité de la peur », à l'occasion de quel grand événement se déroule l'intrigue policière déjantée ?",
+      "options": [
+        { "id": "a", "label": "Le Festival de Cannes" },
+        { "id": "b", "label": "Les Césars" },
+        { "id": "c", "label": "Le Tour de France" },
+        { "id": "d", "label": "La Fête du cinéma" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-d19",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel cinéaste au nom à rallonge réalise « Les Visiteurs » et « Les Anges gardiens » avec Clavier ?",
+      "answer": "Jean-Marie Poiré"
+    },
+    {
+      "id": "comfr-d20",
+      "difficulty": "dur",
+      "text": "Quel écrivain de blockbusters d'action a co-écrit et produit le premier « Taxi » ?",
+      "options": [
+        { "id": "a", "label": "Luc Besson" },
+        { "id": "b", "label": "Christophe Gans" },
+        { "id": "c", "label": "Jan Kounen" },
+        { "id": "d", "label": "Olivier Marchal" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-d21",
+      "difficulty": "dur",
+      "text": "Dans « Trois hommes et un couffin », qu'est-ce qui bouleverse la vie de trois célibataires déposé devant leur porte ?",
+      "options": [
+        { "id": "a", "label": "Un bébé" },
+        { "id": "b", "label": "Un chien" },
+        { "id": "c", "label": "Une valise d'argent" },
+        { "id": "d", "label": "Un colis piégé" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-d22",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel acteur, immense vedette comique des années 60-70, tourne « Le Grand Restaurant » et « L'Avare » ?",
+      "answer": "Louis de Funès"
+    },
+    {
+      "id": "comfr-d23",
+      "difficulty": "dur",
+      "text": "Dans « La Soupe aux choux », quel élément de science-fiction s'invite dans une France rurale et paysanne ?",
+      "options": [
+        { "id": "a", "label": "Un extraterrestre" },
+        { "id": "b", "label": "Un robot" },
+        { "id": "c", "label": "Une machine à remonter le temps" },
+        { "id": "d", "label": "Un savant fou" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-d24",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel comédien à moustache et éternel râleur incarne un chômeur devenu Père Noël dans « Le Père Noël est une ordure » puis « Les Bronzés » ?",
+      "answer": "Gérard Jugnot"
+    },
+    {
+      "id": "comfr-d25",
+      "difficulty": "dur",
+      "text": "Dans « Un indien dans la ville », d'où débarque le jeune garçon qui bouleverse la vie parisienne de son père ?",
+      "options": [
+        { "id": "a", "label": "De la forêt amazonienne" },
+        { "id": "b", "label": "Du Grand Nord" },
+        { "id": "c", "label": "D'une île du Pacifique" },
+        { "id": "d", "label": "Du désert australien" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-d26",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quelle comédie de 1997 sur le milieu du textile parisien a donné lieu à plusieurs suites à succès ?",
+      "answer": "La Vérité si je mens"
+    },
+    {
+      "id": "comfr-d27",
+      "difficulty": "dur",
+      "text": "Dans « Les Bronzés font du ski », quel breuvage chaud maison est censé « réchauffer » les vacanciers perdus dans la montagne ?",
+      "options": [
+        { "id": "a", "label": "Une liqueur artisanale immonde" },
+        { "id": "b", "label": "Un vin chaud" },
+        { "id": "c", "label": "Un chocolat épicé" },
+        { "id": "d", "label": "Une soupe de poisson" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-d28",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel humoriste au crâne dégarni et à l'accent chantant incarne un fainéant du sud dans la saga « Camping » ?",
+      "answer": "Franck Dubosc"
+    },
+    {
+      "id": "comfr-d29",
+      "difficulty": "dur",
+      "text": "Dans « Le Dîner de cons », quel personnage porte le nom de famille improbable « Just Leblanc » ?",
+      "options": [
+        { "id": "a", "label": "Un ami écrivain de Brochant" },
+        { "id": "b", "label": "Le patron de Pignon" },
+        { "id": "c", "label": "Le voisin de Villeret" },
+        { "id": "d", "label": "Le contrôleur des impôts" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-d30",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel acteur au regard bleu et à la voix posée forme le trio du Splendid avec Jugnot et Blanc, et joue le tombeur des « Bronzés » ?",
+      "answer": "Thierry Lhermitte"
+    },
+    {
+      "id": "comfr-p1",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "En quelle année est né le célèbre acteur comique Louis de Funès ?",
+      "answerValue": 1914,
+      "unit": ""
+    },
+    {
+      "id": "comfr-p2",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "En quelle année « Intouchables » est-il sorti au cinéma ?",
+      "answerValue": 2011,
+      "unit": ""
+    },
+    {
+      "id": "comfr-p3",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "De quelle personnalité réelle, aristocrate tétraplégique, le film « Intouchables » est-il librement inspiré ?",
+      "answer": "Philippe Pozzo di Borgo"
+    },
+    {
+      "id": "comfr-p4",
+      "difficulty": "pro",
+      "text": "Quel tableau, revendu très cher par le héros dans « Intouchables », est un gag récurrent sur l'art moderne ?",
+      "options": [
+        { "id": "a", "label": "Une toile rouge avec une goutte de sang" },
+        { "id": "b", "label": "Un carré blanc" },
+        { "id": "c", "label": "Un autoportrait raté" },
+        { "id": "d", "label": "Une nature morte" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-p5",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien de millions d'entrées « Bienvenue chez les Ch'tis » a-t-il approximativement réalisées en France ?",
+      "answerValue": 20,
+      "unit": "millions"
+    },
+    {
+      "id": "comfr-p6",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment s'appelle le personnage de postier ch'ti, joué par Dany Boon, qui accueille son nouveau directeur ?",
+      "answer": "Antoine Bailleul"
+    },
+    {
+      "id": "comfr-p7",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel acteur incarne le directeur de la poste muté dans le Nord contre son gré dans « Bienvenue chez les Ch'tis » ?",
+      "answer": "Kad Merad"
+    },
+    {
+      "id": "comfr-p8",
+      "difficulty": "pro",
+      "text": "Dans « OSS 117 : Le Caire, nid d'espions », quelle décennie est parodiée avec ses préjugés d'un autre temps ?",
+      "options": [
+        { "id": "a", "label": "Les années 1950" },
+        { "id": "b", "label": "Les années 1970" },
+        { "id": "c", "label": "Les années 1930" },
+        { "id": "d", "label": "Les années 1980" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-p9",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel romancier français est le créateur original du personnage littéraire d'espion repris parodiquement au cinéma sous le nom d'OSS 117 ?",
+      "answer": "Jean Bruce"
+    },
+    {
+      "id": "comfr-p10",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel réalisateur signe la saga « Taxi » dont le premier volet sort en 1998 ?",
+      "answer": "Gérard Pirès"
+    },
+    {
+      "id": "comfr-p11",
+      "difficulty": "pro",
+      "text": "Quel modèle de voiture le chauffeur de « Taxi » transforme-t-il en bolide surpuissant ?",
+      "options": [
+        { "id": "a", "label": "Une Peugeot 406" },
+        { "id": "b", "label": "Une Renault 21" },
+        { "id": "c", "label": "Une Citroën BX" },
+        { "id": "d", "label": "Une Peugeot 205" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-p12",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel acteur incarne le chauffeur de taxi marseillais amateur de vitesse dans le premier volet de la saga ?",
+      "answer": "Samy Naceri"
+    },
+    {
+      "id": "comfr-p13",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment se prénomme le policier maladroit et incapable de conduire, partenaire du chauffeur dans « Taxi » ?",
+      "answer": "Émilien"
+    },
+    {
+      "id": "comfr-p14",
+      "difficulty": "pro",
+      "text": "Dans « Les Visiteurs », quel descendant snob et parvenu du chevalier occupe désormais le château familial ?",
+      "options": [
+        { "id": "a", "label": "Jacquart" },
+        { "id": "b", "label": "Béatrice" },
+        { "id": "c", "label": "Jacquouille" },
+        { "id": "d", "label": "Ganelon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-p15",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel cri de ralliement médiéval le chevalier et son écuyer poussent-ils dans « Les Visiteurs » ?",
+      "answer": "Okay"
+    },
+    {
+      "id": "comfr-p16",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel réalisateur signe « Qu'est-ce qu'on a fait au Bon Dieu ? » et ses suites ?",
+      "answer": "Philippe de Chauveron"
+    },
+    {
+      "id": "comfr-p17",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel acteur incarne le père de famille catholique et conservateur, Claude Verneuil, dans « Qu'est-ce qu'on a fait au Bon Dieu ? » ?",
+      "answer": "Christian Clavier"
+    },
+    {
+      "id": "comfr-p18",
+      "difficulty": "pro",
+      "text": "Dans « Mission Cléopâtre », quel édifice grandiose Numérobis doit-il bâtir en un temps record afin de satisfaire la reine ?",
+      "options": [
+        { "id": "a", "label": "Un palais pour César" },
+        { "id": "b", "label": "Une pyramide" },
+        { "id": "c", "label": "Un phare" },
+        { "id": "d", "label": "Un temple" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-p19",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel acteur incarne Astérix dans « Astérix et Obélix : Mission Cléopâtre » ?",
+      "answer": "Christian Clavier"
+    },
+    {
+      "id": "comfr-p20",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment se nomme le scribe zélé et servile de Cléopâtre, rival de Numérobis dans « Mission Cléopâtre » ?",
+      "answer": "Amonbofis"
+    },
+    {
+      "id": "comfr-p21",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelle réalisatrice signe « Trois hommes et un couffin », immense succès de 1985 ?",
+      "answer": "Coline Serreau"
+    },
+    {
+      "id": "comfr-p22",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel réalisateur signe « Les Tontons flingueurs » en 1963 ?",
+      "answer": "Georges Lautner"
+    },
+    {
+      "id": "comfr-p23",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Dans « Le Dîner de cons », quel acteur incarne l'éditeur imbu de lui-même Pierre Brochant ?",
+      "answer": "Thierry Lhermitte"
+    },
+    {
+      "id": "comfr-p24",
+      "difficulty": "pro",
+      "text": "Quelle passion encombrante anime le personnage de François Pignon dans « Le Dîner de cons » ?",
+      "options": [
+        { "id": "a", "label": "Construire des maquettes en allumettes" },
+        { "id": "b", "label": "Collectionner les timbres" },
+        { "id": "c", "label": "Élever des pigeons" },
+        { "id": "d", "label": "Peindre des aquarelles" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-p25",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel membre du Splendid, à la petite taille et l'air malheureux, incarne le voisin dépressif des « Bronzés font du ski » ?",
+      "answer": "Michel Blanc"
+    },
+    {
+      "id": "comfr-p26",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelle actrice et humoriste du Splendid incarne Nathalie, la responsable du club de vacances dans « Les Bronzés » ?",
+      "answer": "Josiane Balasko"
+    },
+    {
+      "id": "comfr-p27",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel réalisateur populaire signe « Le Gendarme de Saint-Tropez » en 1964 ?",
+      "answer": "Jean Girault"
+    },
+    {
+      "id": "comfr-p28",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment se prénomme le personnage de gendarme joué par Louis de Funès à Saint-Tropez ?",
+      "answer": "Ludovic Cruchot"
+    },
+    {
+      "id": "comfr-p29",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel comédien, futur créateur des Restos du cœur, partage l'affiche de « L'Aile ou la Cuisse » avec de Funès ?",
+      "answer": "Coluche"
+    },
+    {
+      "id": "comfr-p30",
+      "difficulty": "pro",
+      "text": "Dans « L'Aile ou la Cuisse », quel univers professionnel oppose le fin gastronome au roi de la malbouffe industrielle ?",
+      "options": [
+        { "id": "a", "label": "La critique gastronomique" },
+        { "id": "b", "label": "L'hôtellerie de luxe" },
+        { "id": "c", "label": "La grande distribution" },
+        { "id": "d", "label": "La télévision" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-p31",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel humoriste et acteur belge au crâne rasé signe « Rien à déclarer » sur les douaniers de la frontière franco-belge ?",
+      "answer": "Dany Boon"
+    },
+    {
+      "id": "comfr-p32",
+      "difficulty": "pro",
+      "text": "Dans « Brice de Nice », quelle activité le héros bête et prétentieux prétend-il pratiquer, faute de vagues ?",
+      "options": [
+        { "id": "a", "label": "Le surf" },
+        { "id": "b", "label": "Le ski nautique" },
+        { "id": "c", "label": "La planche à voile" },
+        { "id": "d", "label": "Le skateboard" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-p33",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel geste-signature accompagne la réplique « Je t'ai cassé » de Brice de Nice ?",
+      "answer": "Un mouvement de la main"
+    },
+    {
+      "id": "comfr-p34",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel acteur bourru au visage cabossé incarne le truand Raoul Volfoni dans « Les Tontons flingueurs » ?",
+      "answer": "Bernard Blier"
+    },
+    {
+      "id": "comfr-p35",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Dans « La Vérité si je mens ! », dans quel quartier parisien dédié au textile et au prêt-à-porter l'intrigue se déroule-t-elle ?",
+      "answer": "Le Sentier"
+    },
+    {
+      "id": "comfr-p36",
+      "difficulty": "pro",
+      "text": "Dans « Le Grand Blond avec une chaussure noire », quel métier exerce le héros involontairement pris pour un espion ?",
+      "options": [
+        { "id": "a", "label": "Violoniste" },
+        { "id": "b", "label": "Médecin" },
+        { "id": "c", "label": "Professeur" },
+        { "id": "d", "label": "Journaliste" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-p37",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel comédien à lunettes, roi du quiproquo, forme le duo burlesque de « La Chèvre » face à Depardieu ?",
+      "answer": "Pierre Richard"
+    },
+    {
+      "id": "comfr-p38",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel acteur à la carrure imposante incarne l'inspecteur Campana lancé aux trousses des héros de « La Chèvre » ?",
+      "answer": "Gérard Depardieu"
+    },
+    {
+      "id": "comfr-p39",
+      "difficulty": "pro",
+      "text": "Dans « Les Ripoux », dans quel quartier populaire de Paris les deux policiers magouillent-ils ?",
+      "options": [
+        { "id": "a", "label": "Barbès" },
+        { "id": "b", "label": "Montmartre" },
+        { "id": "c", "label": "Belleville" },
+        { "id": "d", "label": "Pigalle" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "comfr-p40",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel acteur à la voix douce et au visage rond incarne le gaffeur François Pignon dans « Le Dîner de cons » ?",
+      "answer": "Jacques Villeret"
+    }
+  ]
+}
