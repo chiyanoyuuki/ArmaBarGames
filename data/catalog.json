@@ -25,6 +25,7 @@
     { "id": "cinema-blockbusters", "name": "Cinéma (blockbusters)", "themeId": "cinema", "emoji": "🎬" },
     { "id": "asterix", "name": "Astérix", "themeId": "cinema", "emoji": "🪨" },
     { "id": "les-simpson", "name": "Les Simpson", "themeId": "cinema", "emoji": "🍩" },
+    { "id": "breaking-bad", "name": "Breaking Bad", "themeId": "cinema", "emoji": "🧪" },
     { "id": "coupe-du-monde", "name": "Coupe du monde de foot", "themeId": "sport", "emoji": "🏆" },
     { "id": "sport-general", "name": "Sport (tous sports)", "themeId": "sport", "emoji": "🏅" },
     { "id": "the-witcher", "name": "The Witcher", "themeId": "jeux-video", "emoji": "🐺" },

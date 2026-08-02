@@ -1,0 +1,944 @@
+{
+  "universeId": "breaking-bad",
+  "questions": [
+    {
+      "id": "brba-f1",
+      "difficulty": "facile",
+      "text": "Quel métier exerce le personnage principal avant de basculer dans la drogue ?",
+      "options": [
+        { "id": "a", "label": "Professeur de chimie" },
+        { "id": "b", "label": "Médecin" },
+        { "id": "c", "label": "Avocat" },
+        { "id": "d", "label": "Policier" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-f2",
+      "difficulty": "facile",
+      "type": "buzzer",
+      "text": "Quel pseudonyme le héros se choisit-il pour incarner son alter ego de trafiquant ?",
+      "answer": "Heisenberg"
+    },
+    {
+      "id": "brba-f3",
+      "difficulty": "facile",
+      "type": "buzzer",
+      "text": "Quel est le nom complet du professeur devenu baron de la drogue ?",
+      "answer": "Walter White"
+    },
+    {
+      "id": "brba-f4",
+      "difficulty": "facile",
+      "text": "Quel ancien élève cancre devient l'associé du chimiste dans la fabrication de drogue ?",
+      "options": [
+        { "id": "a", "label": "Jesse Pinkman" },
+        { "id": "b", "label": "Hank Schrader" },
+        { "id": "c", "label": "Saul Goodman" },
+        { "id": "d", "label": "Gustavo Fring" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-f5",
+      "difficulty": "facile",
+      "text": "Quelle maladie grave pousse le héros à fabriquer de la drogue pour assurer l'avenir de sa famille ?",
+      "options": [
+        { "id": "a", "label": "Un cancer du poumon" },
+        { "id": "b", "label": "Une crise cardiaque" },
+        { "id": "c", "label": "Un diabète" },
+        { "id": "d", "label": "Une sclérose" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-f6",
+      "difficulty": "facile",
+      "text": "De quelle couleur est la méthamphétamine ultra-pure fabriquée par le duo ?",
+      "options": [
+        { "id": "a", "label": "Bleue" },
+        { "id": "b", "label": "Rose" },
+        { "id": "c", "label": "Verte" },
+        { "id": "d", "label": "Jaune" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-f7",
+      "difficulty": "facile",
+      "text": "Dans quel type de véhicule le duo installe-t-il son tout premier laboratoire ambulant ?",
+      "options": [
+        { "id": "a", "label": "Un camping-car" },
+        { "id": "b", "label": "Un semi-remorque" },
+        { "id": "c", "label": "Un bus scolaire" },
+        { "id": "d", "label": "Une camionnette de glaces" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-f8",
+      "difficulty": "facile",
+      "text": "Dans quelle ville des États-Unis se déroule principalement l'action de la série ?",
+      "options": [
+        { "id": "a", "label": "Albuquerque" },
+        { "id": "b", "label": "Phoenix" },
+        { "id": "c", "label": "Las Vegas" },
+        { "id": "d", "label": "El Paso" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-f9",
+      "difficulty": "facile",
+      "text": "Quel avocat véreux et haut en couleur devient le conseiller juridique du chimiste ?",
+      "options": [
+        { "id": "a", "label": "Saul Goodman" },
+        { "id": "b", "label": "Mike Ehrmantraut" },
+        { "id": "c", "label": "Hank Schrader" },
+        { "id": "d", "label": "Ted Beneke" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-f10",
+      "difficulty": "facile",
+      "type": "buzzer",
+      "text": "Comment se prénomme l'épouse blonde du héros, qui découvre peu à peu ses secrets ?",
+      "answer": "Skyler"
+    },
+    {
+      "id": "brba-m1",
+      "difficulty": "moyen",
+      "text": "Dans quelle agence fédérale de lutte antidrogue travaille le beau-frère du héros ?",
+      "options": [
+        { "id": "a", "label": "La DEA" },
+        { "id": "b", "label": "Le FBI" },
+        { "id": "c", "label": "La CIA" },
+        { "id": "d", "label": "L'ATF" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-m2",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Comment se prénomme le beau-frère du héros, agent fédéral bavard et sûr de lui ?",
+      "answer": "Hank"
+    },
+    {
+      "id": "brba-m3",
+      "difficulty": "moyen",
+      "text": "Quel homme d'affaires latino, propriétaire d'une chaîne de poulet frit, dirige un immense trafic ?",
+      "options": [
+        { "id": "a", "label": "Gustavo Fring" },
+        { "id": "b", "label": "Tuco Salamanca" },
+        { "id": "c", "label": "Hector Salamanca" },
+        { "id": "d", "label": "Don Eladio" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-m4",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Comment s'appelle la chaîne de restaurants de poulet frit qui sert de couverture à Gustavo ?",
+      "answer": "Los Pollos Hermanos"
+    },
+    {
+      "id": "brba-m5",
+      "difficulty": "moyen",
+      "text": "Quel ancien flic devenu homme de main et nettoyeur travaille pour l'avocat puis pour Gustavo ?",
+      "options": [
+        { "id": "a", "label": "Mike Ehrmantraut" },
+        { "id": "b", "label": "Victor" },
+        { "id": "c", "label": "Tyrus" },
+        { "id": "d", "label": "Todd" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-m6",
+      "difficulty": "moyen",
+      "text": "Quel produit chimique clé, difficile à se procurer, est indispensable à la recette du duo ?",
+      "options": [
+        { "id": "a", "label": "La méthylamine" },
+        { "id": "b", "label": "L'ammoniac" },
+        { "id": "c", "label": "L'acétone" },
+        { "id": "d", "label": "Le phosphore rouge" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-m7",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel premier dealer psychopathe et défoncé achète la drogue du duo avant de mal tourner ?",
+      "answer": "Tuco"
+    },
+    {
+      "id": "brba-m8",
+      "difficulty": "moyen",
+      "text": "Comment surnomme-t-on le fils adolescent du héros, atteint d'une paralysie cérébrale ?",
+      "options": [
+        { "id": "a", "label": "Flynn" },
+        { "id": "b", "label": "Brock" },
+        { "id": "c", "label": "Drew" },
+        { "id": "d", "label": "Todd" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-m9",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Comment se prénomme la belle-sœur du héros, kleptomane et mariée à l'agent fédéral ?",
+      "answer": "Marie"
+    },
+    {
+      "id": "brba-m10",
+      "difficulty": "moyen",
+      "text": "Quel poison d'origine végétale le chimiste fabrique-t-il et cache-t-il pour éliminer ses ennemis ?",
+      "options": [
+        { "id": "a", "label": "La ricine" },
+        { "id": "b", "label": "Le cyanure" },
+        { "id": "c", "label": "L'arsenic" },
+        { "id": "d", "label": "La strychnine" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-m11",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quelle célèbre réplique de menace le héros lance-t-il, terminant par « celui qui frappe » ?",
+      "answer": "Je suis le danger"
+    },
+    {
+      "id": "brba-m12",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel commerce de nettoyage de voitures le couple rachète-t-il pour blanchir l'argent de la drogue ?",
+      "answer": "Une station de lavage"
+    },
+    {
+      "id": "brba-m13",
+      "difficulty": "moyen",
+      "text": "Quelle petite amie droguée de l'associé meurt étouffée sous les yeux impassibles du chimiste ?",
+      "options": [
+        { "id": "a", "label": "Jane" },
+        { "id": "b", "label": "Andrea" },
+        { "id": "c", "label": "Lydia" },
+        { "id": "d", "label": "Wendy" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-m14",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel chimiste soigné et cultivé assiste Gustavo dans son laboratoire ultra-moderne ?",
+      "answer": "Gale"
+    },
+    {
+      "id": "brba-m15",
+      "difficulty": "moyen",
+      "text": "Où le grand laboratoire secret de Gustavo est-il dissimulé ?",
+      "options": [
+        { "id": "a", "label": "Sous une blanchisserie industrielle" },
+        { "id": "b", "label": "Sous un restaurant" },
+        { "id": "c", "label": "Dans un entrepôt désert" },
+        { "id": "d", "label": "Dans une mine abandonnée" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-m16",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quelle réplique culte le héros ordonne-t-il, exigeant qu'on prononce son nom de trafiquant ?",
+      "answer": "Dis mon nom"
+    },
+    {
+      "id": "brba-m17",
+      "difficulty": "moyen",
+      "text": "Quel jeune homme d'apparence inoffensive rejoint le gang de néonazis et tue un enfant à moto ?",
+      "options": [
+        { "id": "a", "label": "Todd" },
+        { "id": "b", "label": "Jack" },
+        { "id": "c", "label": "Kenny" },
+        { "id": "d", "label": "Victor" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-m18",
+      "difficulty": "moyen",
+      "text": "Quelle femme d'affaires stressée fournit la méthylamine depuis une grande entreprise agroalimentaire ?",
+      "options": [
+        { "id": "a", "label": "Lydia" },
+        { "id": "b", "label": "Jane" },
+        { "id": "c", "label": "Andrea" },
+        { "id": "d", "label": "Gretchen" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-m19",
+      "difficulty": "moyen",
+      "type": "estimation",
+      "text": "Quel âge le héros a-t-il exactement au tout début de la série ?",
+      "answerValue": 50,
+      "unit": "ans"
+    },
+    {
+      "id": "brba-m20",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel prénom la fille nourrisson du couple reçoit-elle à sa naissance ?",
+      "answer": "Holly"
+    },
+    {
+      "id": "brba-d1",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel scénariste américain a créé la série sur le professeur devenu trafiquant ?",
+      "answer": "Vince Gilligan"
+    },
+    {
+      "id": "brba-d2",
+      "difficulty": "dur",
+      "text": "Sur quelle chaîne câblée américaine la série a-t-elle été diffusée à l'origine ?",
+      "options": [
+        { "id": "a", "label": "AMC" },
+        { "id": "b", "label": "HBO" },
+        { "id": "c", "label": "Showtime" },
+        { "id": "d", "label": "FX" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-d3",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel acteur incarne le professeur de chimie devenu baron de la drogue ?",
+      "answer": "Bryan Cranston"
+    },
+    {
+      "id": "brba-d4",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel acteur interprète le jeune associé et complice du héros ?",
+      "answer": "Aaron Paul"
+    },
+    {
+      "id": "brba-d5",
+      "difficulty": "dur",
+      "text": "Quelle entreprise, cofondée jadis par le héros, l'a laissé partir avant de faire fortune ?",
+      "options": [
+        { "id": "a", "label": "Gray Matter" },
+        { "id": "b", "label": "Madrigal" },
+        { "id": "c", "label": "Vamonos Pest" },
+        { "id": "d", "label": "Beneke Fabricators" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-d6",
+      "difficulty": "dur",
+      "text": "Quel couple d'anciens amis, désormais riches, dirige l'entreprise que le héros a quittée ?",
+      "options": [
+        { "id": "a", "label": "Elliott et Gretchen" },
+        { "id": "b", "label": "Ted et Skyler" },
+        { "id": "c", "label": "Hank et Marie" },
+        { "id": "d", "label": "Jack et Lydia" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-d7",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel vieux chef mexicain paralysé communique en agitant furieusement une clochette ?",
+      "answer": "Hector Salamanca"
+    },
+    {
+      "id": "brba-d8",
+      "difficulty": "dur",
+      "text": "Quels deux frères tueurs impassibles, parents de Tuco, traquent le héros pour venger leur famille ?",
+      "options": [
+        { "id": "a", "label": "Les cousins Salamanca" },
+        { "id": "b", "label": "Les frères Schrader" },
+        { "id": "c", "label": "Les jumeaux Fring" },
+        { "id": "d", "label": "Les frères Pinkman" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-d9",
+      "difficulty": "dur",
+      "text": "Comment Gustavo élimine-t-il brutalement son homme de main Victor, en pleine réunion ?",
+      "options": [
+        { "id": "a", "label": "Avec un cutter à la gorge" },
+        { "id": "b", "label": "D'une balle en pleine tête" },
+        { "id": "c", "label": "Par empoisonnement" },
+        { "id": "d", "label": "Par strangulation" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-d10",
+      "difficulty": "dur",
+      "text": "Comment le patron latino trouve-t-il finalement la mort dans une maison de retraite ?",
+      "options": [
+        { "id": "a", "label": "Une bombe déclenchée par le vieil homme à la clochette" },
+        { "id": "b", "label": "Empoisonné par la ricine" },
+        { "id": "c", "label": "Abattu par la police fédérale" },
+        { "id": "d", "label": "Égorgé par le héros" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-d11",
+      "difficulty": "dur",
+      "text": "Quel spin-off préquelle raconte les débuts de l'avocat véreux avant sa rencontre avec le héros ?",
+      "options": [
+        { "id": "a", "label": "Better Call Saul" },
+        { "id": "b", "label": "El Camino" },
+        { "id": "c", "label": "Los Pollos" },
+        { "id": "d", "label": "The Cousins" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-d12",
+      "difficulty": "dur",
+      "text": "Quel film prolonge la série en suivant la fuite de l'associé après le carnage final ?",
+      "options": [
+        { "id": "a", "label": "El Camino" },
+        { "id": "b", "label": "Better Call Saul" },
+        { "id": "c", "label": "Ozymandias" },
+        { "id": "d", "label": "Granite State" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-d13",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel objet tombé du ciel, aperçu dès le générique, annonce la catastrophe aérienne de la fin de la saison 2 ?",
+      "answer": "Un ours en peluche"
+    },
+    {
+      "id": "brba-d14",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "De quelle couleur est l'ours en peluche à demi calciné qui flotte dans la piscine du héros ?",
+      "answer": "Rose"
+    },
+    {
+      "id": "brba-d15",
+      "difficulty": "dur",
+      "text": "Quel épisode, souvent cité comme sommet de la série, emprunte son titre à un poème sur la chute d'un roi ?",
+      "options": [
+        { "id": "a", "label": "Ozymandias" },
+        { "id": "b", "label": "Felina" },
+        { "id": "c", "label": "Face Off" },
+        { "id": "d", "label": "Crawl Space" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-d16",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel gadget géant le duo utilise-t-il pour effacer les données d'un ordinateur saisi par les fédéraux ?",
+      "answer": "Un aimant"
+    },
+    {
+      "id": "brba-d17",
+      "difficulty": "dur",
+      "text": "Sous quelle couverture d'entreprise de dératisation le héros installe-t-il un labo mobile de maison en maison ?",
+      "options": [
+        { "id": "a", "label": "Vamonos Pest" },
+        { "id": "b", "label": "Madrigal" },
+        { "id": "c", "label": "Gray Matter" },
+        { "id": "d", "label": "Los Pollos" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-d18",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel petit garçon, fils d'Andrea, est empoisonné pour manipuler l'associé du héros ?",
+      "answer": "Brock"
+    },
+    {
+      "id": "brba-d19",
+      "difficulty": "dur",
+      "text": "Avec quelle plante toxique le chimiste empoisonne-t-il en réalité le petit garçon, et non avec la ricine ?",
+      "options": [
+        { "id": "a", "label": "Le muguet" },
+        { "id": "b", "label": "La belladone" },
+        { "id": "c", "label": "La ciguë" },
+        { "id": "d", "label": "Le laurier-rose" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-d20",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Dans quel lieu tranquille l'agent fédéral fait-il le lien décisif, un livre à la main, entre son beau-frère et Heisenberg ?",
+      "answer": "Aux toilettes"
+    },
+    {
+      "id": "brba-d21",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel jeune drogué maladroit, ami de l'associé, se fait aussi appeler « Combo » et meurt dans la rue ?",
+      "answer": "Christian"
+    },
+    {
+      "id": "brba-d22",
+      "difficulty": "dur",
+      "text": "Quels deux comparses défoncés et fidèles secondent souvent le jeune associé dans ses combines ?",
+      "options": [
+        { "id": "a", "label": "Badger et Skinny Pete" },
+        { "id": "b", "label": "Todd et Jack" },
+        { "id": "c", "label": "Victor et Tyrus" },
+        { "id": "d", "label": "Elliott et Gretchen" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-d23",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel dealer surnommé « Krazy-8 » devient la toute première victime que le professeur doit éliminer ?",
+      "answer": "Domingo"
+    },
+    {
+      "id": "brba-d24",
+      "difficulty": "dur",
+      "text": "Comment le professeur tue-t-il ce premier prisonnier retenu enchaîné dans une cave ?",
+      "options": [
+        { "id": "a", "label": "En l'étranglant avec un antivol de vélo" },
+        { "id": "b", "label": "D'une balle dans la tête" },
+        { "id": "c", "label": "Avec un couteau de cuisine" },
+        { "id": "d", "label": "Par empoisonnement au gaz" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-d25",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel gaz toxique le duo improvise-t-il en chimie pour neutraliser deux dealers dans le camping-car ?",
+      "answer": "Du phosphine"
+    },
+    {
+      "id": "brba-d26",
+      "difficulty": "dur",
+      "text": "Quel patron de la banque, amant de Skyler, blanchit un temps l'argent avant de finir gravement blessé ?",
+      "options": [
+        { "id": "a", "label": "Ted Beneke" },
+        { "id": "b", "label": "Elliott" },
+        { "id": "c", "label": "Gustavo" },
+        { "id": "d", "label": "Saul" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-d27",
+      "difficulty": "dur",
+      "type": "estimation",
+      "text": "Combien de saisons compte la série originale au total ?",
+      "answerValue": 5,
+      "unit": "saisons"
+    },
+    {
+      "id": "brba-d28",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel proverbe menaçant, gravé plus tard sur une plaque, l'avocat conseille-t-il de suivre avec prudence ?",
+      "answer": "Marche sur des œufs"
+    },
+    {
+      "id": "brba-d29",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel titre porte l'ultime épisode de la série, un prénom espagnol de femme ?",
+      "answer": "Felina"
+    },
+    {
+      "id": "brba-d30",
+      "difficulty": "dur",
+      "text": "Quelle arme le héros fabrique-t-il et actionne à distance depuis son coffre pour le carnage final ?",
+      "options": [
+        { "id": "a", "label": "Une mitrailleuse motorisée" },
+        { "id": "b", "label": "Un lance-flammes" },
+        { "id": "c", "label": "Une bombe artisanale" },
+        { "id": "d", "label": "Un fusil de précision" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-p1",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel est le vrai nom de l'avocat véreux, dévoilé dans le spin-off qui lui est consacré ?",
+      "answer": "Jimmy McGill"
+    },
+    {
+      "id": "brba-p2",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel élément chimique, symbole Br, ouvre le titre de la série dans son générique stylisé ?",
+      "answer": "Le brome"
+    },
+    {
+      "id": "brba-p3",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel élément chimique, symbole Ba, complète le titre stylisé de la série dans son générique ?",
+      "answer": "Le baryum"
+    },
+    {
+      "id": "brba-p4",
+      "difficulty": "pro",
+      "text": "Dans quel État américain, célèbre pour ses déserts, se situe la ville de l'action ?",
+      "options": [
+        { "id": "a", "label": "Le Nouveau-Mexique" },
+        { "id": "b", "label": "L'Arizona" },
+        { "id": "c", "label": "Le Texas" },
+        { "id": "d", "label": "Le Nevada" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-p5",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment se nomme la grande société agroalimentaire allemande qui possède la chaîne de poulet frit ?",
+      "answer": "Madrigal"
+    },
+    {
+      "id": "brba-p6",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelle boisson chaude Lydia commande-t-elle systématiquement, avec du lait de soja, dans ses réunions ?",
+      "answer": "Du thé à la camomille"
+    },
+    {
+      "id": "brba-p7",
+      "difficulty": "pro",
+      "text": "Quel objet fétiche le héros porte-t-il sur la tête pour parachever son allure de trafiquant ?",
+      "options": [
+        { "id": "a", "label": "Un chapeau porkpie" },
+        { "id": "b", "label": "Une casquette de baseball" },
+        { "id": "c", "label": "Un bonnet noir" },
+        { "id": "d", "label": "Un feutre borsalino" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-p8",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel plat livré à domicile le héros, furieux d'être mis dehors, lance-t-il rageusement sur le toit de sa maison ?",
+      "answer": "Une pizza"
+    },
+    {
+      "id": "brba-p9",
+      "difficulty": "pro",
+      "text": "Avec quel aliment Skyler dessine-t-elle l'âge du héros sur son assiette lors de ses anniversaires ?",
+      "options": [
+        { "id": "a", "label": "Du bacon" },
+        { "id": "b", "label": "Des œufs" },
+        { "id": "c", "label": "Des saucisses" },
+        { "id": "d", "label": "Des toasts" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-p10",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelle marque de voiture de sport rouge le héros offre-t-il à son fils, au grand dam de sa femme ?",
+      "answer": "Dodge Challenger"
+    },
+    {
+      "id": "brba-p11",
+      "difficulty": "pro",
+      "text": "Quel modèle de berline verte cabossée le professeur conduit-il au début de la série ?",
+      "options": [
+        { "id": "a", "label": "Une Pontiac Aztek" },
+        { "id": "b", "label": "Une Toyota Corolla" },
+        { "id": "c", "label": "Une Chrysler 300" },
+        { "id": "d", "label": "Une Ford Mustang" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-p12",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment se nomme la mère de Brock, petite amie de l'associé rencontrée aux Narcotiques Anonymes ?",
+      "answer": "Andrea"
+    },
+    {
+      "id": "brba-p13",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel enquêteur privé et homme de main sert d'intermédiaire fiable au fixeur en costume ?",
+      "answer": "Mike"
+    },
+    {
+      "id": "brba-p14",
+      "difficulty": "pro",
+      "text": "Dans quelle étendue aride le héros et son associé abandonnent-ils souvent leur camping-car pour cuisiner ?",
+      "options": [
+        { "id": "a", "label": "Le désert de Tohajiilee" },
+        { "id": "b", "label": "La Vallée de la Mort" },
+        { "id": "c", "label": "Le désert de Mojave" },
+        { "id": "d", "label": "Le désert de Sonora" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-p15",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelle citation le chimiste inscrit-il au tableau pour définir sa matière dès le premier cours ?",
+      "answer": "La chimie est l'étude du changement"
+    },
+    {
+      "id": "brba-p16",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Quel pourcentage de pureté record la drogue bleue du duo atteint-elle, chiffre souvent cité ?",
+      "answerValue": 99,
+      "unit": "%"
+    },
+    {
+      "id": "brba-p17",
+      "difficulty": "pro",
+      "text": "Comment l'associé se débarrasse-t-il du cadavre de son premier meurtre, sur ordre du chimiste ?",
+      "options": [
+        { "id": "a", "label": "En le dissolvant dans l'acide" },
+        { "id": "b", "label": "En l'enterrant dans le désert" },
+        { "id": "c", "label": "En le brûlant" },
+        { "id": "d", "label": "En le jetant dans un ravin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-p18",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "À travers quelle surface le corps rongé par l'acide traverse-t-il, dans une scène marquante du pilote ?",
+      "answer": "Le plafond de la salle de bain"
+    },
+    {
+      "id": "brba-p19",
+      "difficulty": "pro",
+      "text": "Quel chef de gang néonazi, oncle de Todd, massacre l'agent fédéral dans le désert ?",
+      "options": [
+        { "id": "a", "label": "Jack Welker" },
+        { "id": "b", "label": "Kenny" },
+        { "id": "c", "label": "Tuco" },
+        { "id": "d", "label": "Don Eladio" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-p20",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment Gustavo assassine-t-il en masse les hommes du cartel mexicain, lors d'un repas au bord d'une piscine ?",
+      "answer": "En les empoisonnant à la tequila"
+    },
+    {
+      "id": "brba-p21",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelle célèbre chanson accompagne la scène finale où le héros, blessé, s'effondre dans le laboratoire ?",
+      "answer": "Baby Blue"
+    },
+    {
+      "id": "brba-p22",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel groupe britannique interprète la chanson diffusée sur le tout dernier plan de la série ?",
+      "answer": "Badfinger"
+    },
+    {
+      "id": "brba-p23",
+      "difficulty": "pro",
+      "text": "Où le héros cache-t-il finalement les barils remplis de son immense fortune en liquide ?",
+      "options": [
+        { "id": "a", "label": "Enterrés dans le désert" },
+        { "id": "b", "label": "Dans un coffre de banque" },
+        { "id": "c", "label": "Sous la station de lavage" },
+        { "id": "d", "label": "Dans un garde-meuble" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-p24",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Dans quel État enneigé le héros se cache-t-il, reclus dans une cabane, durant l'avant-dernier épisode ?",
+      "answer": "Le New Hampshire"
+    },
+    {
+      "id": "brba-p25",
+      "difficulty": "pro",
+      "text": "Quel objet le fixeur en costume utilise-t-il pour effacer discrètement son passé de policier corrompu ?",
+      "options": [
+        { "id": "a", "label": "Un aspirateur qui « efface » les gens" },
+        { "id": "b", "label": "Un faux passeport" },
+        { "id": "c", "label": "Un coffre bancaire" },
+        { "id": "d", "label": "Un disque dur crypté" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-p26",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel prénom donne le héros mourant comme véritable raison de tout ce qu'il a fait : « Je l'ai fait pour moi » ?",
+      "answer": "Moi-même"
+    },
+    {
+      "id": "brba-p27",
+      "difficulty": "pro",
+      "type": "ordre",
+      "text": "Classe ces personnages selon l'ordre chronologique de leur mort dans la série.",
+      "items": [
+        { "id": "a", "label": "Jane" },
+        { "id": "b", "label": "Gale" },
+        { "id": "c", "label": "Gustavo" },
+        { "id": "d", "label": "Hank" }
+      ]
+    },
+    {
+      "id": "brba-p28",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel objet enregistreur le professeur laisse-t-il, contenant de faux aveux pour piéger son beau-frère ?",
+      "answer": "Un DVD"
+    },
+    {
+      "id": "brba-p29",
+      "difficulty": "pro",
+      "text": "Quelle spécialité de la belle-sœur kleptomane transparaît dans sa garde-robe et sa décoration ?",
+      "options": [
+        { "id": "a", "label": "Tout en violet" },
+        { "id": "b", "label": "Tout en rouge" },
+        { "id": "c", "label": "Tout en noir" },
+        { "id": "d", "label": "Tout en jaune" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-p30",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelle pierre précieuse minérale collectionne l'agent fédéral, malgré les moqueries sur le mot exact ?",
+      "answer": "Les minéraux"
+    },
+    {
+      "id": "brba-p31",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment se prénomme le père de Todd, non : quel oncle dirige le gang qui séquestre l'associé pour cuisiner ?",
+      "answer": "Jack"
+    },
+    {
+      "id": "brba-p32",
+      "difficulty": "pro",
+      "text": "Quel surnom l'associé donne-t-il constamment aux gens et aux situations, sa tournure de langage fétiche ?",
+      "options": [
+        { "id": "a", "label": "« Yo, bitch ! »" },
+        { "id": "b", "label": "« Say my name »" },
+        { "id": "c", "label": "« Tread lightly »" },
+        { "id": "d", "label": "« I am the danger »" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-p33",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel personnage prononce la phrase « J'y suis allé » et rachète l'entreprise Gray Matter à la toute fin, selon la ruse du héros ?",
+      "answer": "Elliott"
+    },
+    {
+      "id": "brba-p34",
+      "difficulty": "pro",
+      "text": "Comment le héros contraint-il finalement ses anciens associés fortunés à léguer son argent à son fils ?",
+      "options": [
+        { "id": "a", "label": "En feignant d'avoir engagé des tueurs à gages" },
+        { "id": "b", "label": "En les menaçant d'un pistolet" },
+        { "id": "c", "label": "En les faisant chanter avec des photos" },
+        { "id": "d", "label": "En kidnappant leur enfant" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-p35",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelle usine de boissons gazeuses fournit un temps la façade pour écouler la production, via une chaîne de fast-food ?",
+      "answer": "Los Pollos Hermanos"
+    },
+    {
+      "id": "brba-p36",
+      "difficulty": "pro",
+      "text": "Quel personnage tue de sang-froid le gentil chimiste Gale sur ordre, pour se rendre indispensable ?",
+      "options": [
+        { "id": "a", "label": "L'associé du héros" },
+        { "id": "b", "label": "Le héros lui-même" },
+        { "id": "c", "label": "Mike" },
+        { "id": "d", "label": "Victor" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-p37",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien d'hommes emprisonnés le gang fait-il assassiner en prison en deux minutes, sur commande du héros ?",
+      "answerValue": 10,
+      "unit": "hommes"
+    },
+    {
+      "id": "brba-p38",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel État natal, symbole d'un passé plus doux, correspond au drapeau que le professeur n'a jamais quitté : le Nouveau-… ?",
+      "answer": "Mexique"
+    },
+    {
+      "id": "brba-p39",
+      "difficulty": "pro",
+      "text": "Quel accessoire du héros, abandonné dans le désert, permet plus tard à l'agent fédéral de progresser dans son enquête ?",
+      "options": [
+        { "id": "a", "label": "Un exemplaire dédicacé de Walt Whitman" },
+        { "id": "b", "label": "Une montre gravée" },
+        { "id": "c", "label": "Un briquet" },
+        { "id": "d", "label": "Une paire de lunettes" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "brba-p40",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel poète américain, dont les initiales évoquent celles du héros, signe le recueil qui le trahit ?",
+      "answer": "Walt Whitman"
+    }
+  ]
+}
