@@ -1,0 +1,1067 @@
+{
+  "universeId": "zelda",
+  "questions": [
+    {
+      "id": "zld-f1",
+      "difficulty": "facile",
+      "text": "Quel héros vêtu de vert, à l'épée et au bouclier, est le protagoniste de la saga ?",
+      "options": [
+        { "id": "a", "label": "Link" },
+        { "id": "b", "label": "Ganon" },
+        { "id": "c", "label": "Impa" },
+        { "id": "d", "label": "Sidon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-f2",
+      "difficulty": "facile",
+      "text": "Quelle princesse de la famille royale d'Hyrule le héros doit-il protéger ?",
+      "options": [
+        { "id": "a", "label": "Zelda" },
+        { "id": "b", "label": "Peach" },
+        { "id": "c", "label": "Midona" },
+        { "id": "d", "label": "Impa" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-f3",
+      "difficulty": "facile",
+      "text": "Quel royaume médiéval-fantastique sert de cadre à la plupart des jeux ?",
+      "options": [
+        { "id": "a", "label": "Hyrule" },
+        { "id": "b", "label": "Termina" },
+        { "id": "c", "label": "Cocolint" },
+        { "id": "d", "label": "Lorule" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-f4",
+      "difficulty": "facile",
+      "text": "Quel grand méchant, roi démon, veut s'emparer d'Hyrule ?",
+      "options": [
+        { "id": "a", "label": "Ganon" },
+        { "id": "b", "label": "Zant" },
+        { "id": "c", "label": "Vaati" },
+        { "id": "d", "label": "Ghirahim" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-f5",
+      "difficulty": "facile",
+      "text": "Quelle relique sacrée composée de trois triangles dorés est au cœur de la saga ?",
+      "options": [
+        { "id": "a", "label": "La Triforce" },
+        { "id": "b", "label": "Le Talisman" },
+        { "id": "c", "label": "L'Amulette" },
+        { "id": "d", "label": "Le Médaillon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-f6",
+      "difficulty": "facile",
+      "type": "buzzer",
+      "text": "Quelle arme légendaire, capable de repousser le mal, le héros brandit-il souvent ?",
+      "answer": "L'Épée de Légende"
+    },
+    {
+      "id": "zld-f7",
+      "difficulty": "facile",
+      "text": "Quel studio japonais développe la série The Legend of Zelda ?",
+      "options": [
+        { "id": "a", "label": "Nintendo" },
+        { "id": "b", "label": "Sega" },
+        { "id": "c", "label": "Sony" },
+        { "id": "d", "label": "Capcom" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-f8",
+      "difficulty": "facile",
+      "type": "estimation",
+      "text": "Combien de triangles composent la Triforce ?",
+      "answerValue": 3,
+      "unit": "triangles"
+    },
+    {
+      "id": "zld-f9",
+      "difficulty": "facile",
+      "text": "De quelle couleur est la tunique emblématique du héros ?",
+      "options": [
+        { "id": "a", "label": "Verte" },
+        { "id": "b", "label": "Rouge" },
+        { "id": "c", "label": "Bleue" },
+        { "id": "d", "label": "Jaune" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-f10",
+      "difficulty": "facile",
+      "text": "Quel petit instrument à vent Link utilise-t-il dans l'un des jeux les plus célèbres ?",
+      "options": [
+        { "id": "a", "label": "L'ocarina" },
+        { "id": "b", "label": "La flûte" },
+        { "id": "c", "label": "Le tambour" },
+        { "id": "d", "label": "La harpe" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-m1",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel jeu Nintendo 64 de 1998, souvent cité comme le meilleur de tous les temps, met en scène un petit instrument à vent magique ?",
+      "answer": "Ocarina of Time"
+    },
+    {
+      "id": "zld-m2",
+      "difficulty": "moyen",
+      "text": "Quelle fée compagnon accompagne Link dans Ocarina of Time en criant « Hey ! Listen ! » ?",
+      "options": [
+        { "id": "a", "label": "Navi" },
+        { "id": "b", "label": "Midona" },
+        { "id": "c", "label": "Fay" },
+        { "id": "d", "label": "Taya" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-m3",
+      "difficulty": "moyen",
+      "text": "Quel peuple aquatique, mi-humain mi-poisson, vit dans Hyrule ?",
+      "options": [
+        { "id": "a", "label": "Les Zoras" },
+        { "id": "b", "label": "Les Gorons" },
+        { "id": "c", "label": "Les Gerudos" },
+        { "id": "d", "label": "Les Piafs" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-m4",
+      "difficulty": "moyen",
+      "text": "Quel peuple de robustes montagnards mangeurs de roche vit près des volcans ?",
+      "options": [
+        { "id": "a", "label": "Les Gorons" },
+        { "id": "b", "label": "Les Zoras" },
+        { "id": "c", "label": "Les Gerudos" },
+        { "id": "d", "label": "Les Piafs" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-m5",
+      "difficulty": "moyen",
+      "text": "Quel peuple de femmes guerrières du désert, dont Ganondorf est issu, vit à l'ouest ?",
+      "options": [
+        { "id": "a", "label": "Les Gerudos" },
+        { "id": "b", "label": "Les Zoras" },
+        { "id": "c", "label": "Les Gorons" },
+        { "id": "d", "label": "Les Sheikahs" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-m6",
+      "difficulty": "moyen",
+      "text": "Sous quelle forme humaine le roi démon apparaît-il, un homme du désert à la peau sombre ?",
+      "options": [
+        { "id": "a", "label": "Ganondorf" },
+        { "id": "b", "label": "Zant" },
+        { "id": "c", "label": "Vaati" },
+        { "id": "d", "label": "Agahnim" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-m7",
+      "difficulty": "moyen",
+      "text": "Quelle jument fidèle sert de monture à Link dans plusieurs jeux ?",
+      "options": [
+        { "id": "a", "label": "Épona" },
+        { "id": "b", "label": "Roach" },
+        { "id": "c", "label": "Gripoil" },
+        { "id": "d", "label": "Ablette" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-m8",
+      "difficulty": "moyen",
+      "text": "Quelle arme permet à Link de tirer des flèches à distance ?",
+      "options": [
+        { "id": "a", "label": "L'arc" },
+        { "id": "b", "label": "Le boomerang" },
+        { "id": "c", "label": "La fronde" },
+        { "id": "d", "label": "La bombe" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-m9",
+      "difficulty": "moyen",
+      "text": "Quel objet Link lance et qui lui revient, utile contre les ennemis et les leviers ?",
+      "options": [
+        { "id": "a", "label": "Le boomerang" },
+        { "id": "b", "label": "L'arc" },
+        { "id": "c", "label": "La bombe" },
+        { "id": "d", "label": "Le grappin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-m10",
+      "difficulty": "moyen",
+      "text": "Sous quelle identité masquée la princesse aide-t-elle Link dans Ocarina of Time ?",
+      "options": [
+        { "id": "a", "label": "Sheik" },
+        { "id": "b", "label": "Navi" },
+        { "id": "c", "label": "Midona" },
+        { "id": "d", "label": "Impa" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-m11",
+      "difficulty": "moyen",
+      "text": "Quelle gouvernante et protectrice sheikah veille sur la princesse d'Hyrule ?",
+      "options": [
+        { "id": "a", "label": "Impa" },
+        { "id": "b", "label": "Navi" },
+        { "id": "c", "label": "Midona" },
+        { "id": "d", "label": "Fay" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-m12",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel jeu de 2017 sur Switch a révolutionné la série avec un immense monde ouvert ?",
+      "answer": "Breath of the Wild"
+    },
+    {
+      "id": "zld-m13",
+      "difficulty": "moyen",
+      "text": "Quelle princesse du crépuscule, sarcastique, aide Link dans Twilight Princess ?",
+      "options": [
+        { "id": "a", "label": "Midona" },
+        { "id": "b", "label": "Navi" },
+        { "id": "c", "label": "Fay" },
+        { "id": "d", "label": "Impa" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-m14",
+      "difficulty": "moyen",
+      "text": "En quel animal Link se transforme-t-il dans Twilight Princess ?",
+      "options": [
+        { "id": "a", "label": "Un loup" },
+        { "id": "b", "label": "Un aigle" },
+        { "id": "c", "label": "Un ours" },
+        { "id": "d", "label": "Un lapin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-m15",
+      "difficulty": "moyen",
+      "text": "Quel outil permet à Link de s'accrocher au loin et de se propulser vers un point ?",
+      "options": [
+        { "id": "a", "label": "Le grappin" },
+        { "id": "b", "label": "L'arc" },
+        { "id": "c", "label": "La bombe" },
+        { "id": "d", "label": "Le boomerang" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-m16",
+      "difficulty": "moyen",
+      "text": "Quel objet explosif Link utilise-t-il pour détruire murs fissurés et ennemis ?",
+      "options": [
+        { "id": "a", "label": "La bombe" },
+        { "id": "b", "label": "L'arc" },
+        { "id": "c", "label": "Le grappin" },
+        { "id": "d", "label": "Le boomerang" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-m17",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Comment s'appelle la grande étendue centrale que Link traverse souvent à cheval ?",
+      "answer": "La plaine d'Hyrule"
+    },
+    {
+      "id": "zld-m18",
+      "difficulty": "moyen",
+      "text": "Quel équipement défensif, souvent orné du blason royal, Link porte-t-il au bras ?",
+      "options": [
+        { "id": "a", "label": "Le bouclier" },
+        { "id": "b", "label": "L'épée" },
+        { "id": "c", "label": "L'arc" },
+        { "id": "d", "label": "La lance" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-m19",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel tout premier opus de la saga est sorti sur NES en 1986 ?",
+      "answer": "The Legend of Zelda"
+    },
+    {
+      "id": "zld-m20",
+      "difficulty": "moyen",
+      "type": "estimation",
+      "text": "En quelle année le tout premier jeu de la saga est-il sorti ?",
+      "answerValue": 1986,
+      "unit": ""
+    },
+    {
+      "id": "zld-d1",
+      "difficulty": "dur",
+      "text": "Quel créateur japonais est le père de la saga, également créateur de Mario ?",
+      "options": [
+        { "id": "a", "label": "Shigeru Miyamoto" },
+        { "id": "b", "label": "Eiji Aonuma" },
+        { "id": "c", "label": "Satoru Iwata" },
+        { "id": "d", "label": "Koji Kondo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-d2",
+      "difficulty": "dur",
+      "text": "Quel producteur est le responsable principal de la série depuis les années 2000 ?",
+      "options": [
+        { "id": "a", "label": "Eiji Aonuma" },
+        { "id": "b", "label": "Shigeru Miyamoto" },
+        { "id": "c", "label": "Koji Kondo" },
+        { "id": "d", "label": "Satoru Iwata" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-d3",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel jeu de 2000 se déroule à Termina, menacé par une lune qui va s'écraser en trois jours ?",
+      "answer": "Majora's Mask"
+    },
+    {
+      "id": "zld-d4",
+      "difficulty": "dur",
+      "type": "estimation",
+      "text": "Combien de jours Link a-t-il, en boucle temporelle, pour sauver Termina dans Majora's Mask ?",
+      "answerValue": 3,
+      "unit": "jours"
+    },
+    {
+      "id": "zld-d5",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel jeu Super Nintendo de 1991 fait voyager le héros entre le monde de la Lumière et celui des Ténèbres ?",
+      "answer": "A Link to the Past"
+    },
+    {
+      "id": "zld-d6",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel jeu GameCube de 2003, au style dessin animé, se déroule sur un vaste océan parsemé d'îles ?",
+      "answer": "The Wind Waker"
+    },
+    {
+      "id": "zld-d7",
+      "difficulty": "dur",
+      "text": "Quel jeu plus sombre de 2006 voit Link se changer en loup, sur GameCube et Wii ?",
+      "options": [
+        { "id": "a", "label": "Twilight Princess" },
+        { "id": "b", "label": "Wind Waker" },
+        { "id": "c", "label": "Skyward Sword" },
+        { "id": "d", "label": "Majora's Mask" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-d8",
+      "difficulty": "dur",
+      "text": "Quel jeu Wii de 2011 raconte les origines de l'Épée de Légende, avec des contrôles au mouvement ?",
+      "options": [
+        { "id": "a", "label": "Skyward Sword" },
+        { "id": "b", "label": "Twilight Princess" },
+        { "id": "c", "label": "Wind Waker" },
+        { "id": "d", "label": "Phantom Hourglass" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-d9",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Comment s'appelle la suite de Breath of the Wild, parue en 2023 ?",
+      "answer": "Tears of the Kingdom"
+    },
+    {
+      "id": "zld-d10",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel appareil ancien, aux multiples pouvoirs, sert d'outil principal à Link dans Breath of the Wild ?",
+      "answer": "La tablette Sheikah"
+    },
+    {
+      "id": "zld-d11",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on les quatre colosses mécaniques que Link doit reprendre dans Breath of the Wild ?",
+      "answer": "Les Créatures Divines"
+    },
+    {
+      "id": "zld-d12",
+      "difficulty": "dur",
+      "text": "Comment appelle-t-on les nombreux petits temples-énigmes disséminés dans Breath of the Wild ?",
+      "options": [
+        { "id": "a", "label": "Les sanctuaires" },
+        { "id": "b", "label": "Les donjons" },
+        { "id": "c", "label": "Les tours" },
+        { "id": "d", "label": "Les cavernes" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-d13",
+      "difficulty": "dur",
+      "text": "Quel peuple ailé, mi-humain mi-oiseau, habite les cieux dans Breath of the Wild ?",
+      "options": [
+        { "id": "a", "label": "Les Piafs" },
+        { "id": "b", "label": "Les Zoras" },
+        { "id": "c", "label": "Les Gorons" },
+        { "id": "d", "label": "Les Gerudos" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-d14",
+      "difficulty": "dur",
+      "text": "Quel jeune prince zora, allié enthousiaste, aide Link dans Breath of the Wild ?",
+      "options": [
+        { "id": "a", "label": "Sidon" },
+        { "id": "b", "label": "Revali" },
+        { "id": "c", "label": "Daruk" },
+        { "id": "d", "label": "Yunobo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-d15",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Sous quel nom la grande menace destructrice apparaît-elle dans Breath of the Wild ?",
+      "answer": "Le Fléau Ganon"
+    },
+    {
+      "id": "zld-d16",
+      "difficulty": "dur",
+      "text": "Comment s'appelle l'esprit-fée de l'Épée qui accompagne Link dans Skyward Sword ?",
+      "options": [
+        { "id": "a", "label": "Fay" },
+        { "id": "b", "label": "Navi" },
+        { "id": "c", "label": "Midona" },
+        { "id": "d", "label": "Taya" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-d17",
+      "difficulty": "dur",
+      "text": "Quelle gemme sert de monnaie principale dans la plupart des jeux de la saga ?",
+      "options": [
+        { "id": "a", "label": "Le rubis" },
+        { "id": "b", "label": "La pièce" },
+        { "id": "c", "label": "Le lingot" },
+        { "id": "d", "label": "Le diamant" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-d18",
+      "difficulty": "dur",
+      "text": "Quel monstre-sanglier géant, forme bestiale de Ganondorf, sert souvent de boss final ?",
+      "options": [
+        { "id": "a", "label": "Ganon" },
+        { "id": "b", "label": "Zant" },
+        { "id": "c", "label": "Vaati" },
+        { "id": "d", "label": "Ghirahim" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-d19",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel artefact maléfique, à l'origine de la menace du jeu de 2000, donne son nom au titre ?",
+      "answer": "Le Masque de Majora"
+    },
+    {
+      "id": "zld-d20",
+      "difficulty": "dur",
+      "text": "Quel usurpateur du crépuscule, pantin de Ganondorf, sévit dans Twilight Princess ?",
+      "options": [
+        { "id": "a", "label": "Zant" },
+        { "id": "b", "label": "Vaati" },
+        { "id": "c", "label": "Agahnim" },
+        { "id": "d", "label": "Ghirahim" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-d21",
+      "difficulty": "dur",
+      "text": "Quel sorcier du vent, en forme d'œil, est l'antagoniste de Minish Cap et Four Swords ?",
+      "options": [
+        { "id": "a", "label": "Vaati" },
+        { "id": "b", "label": "Zant" },
+        { "id": "c", "label": "Ghirahim" },
+        { "id": "d", "label": "Agahnim" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-d22",
+      "difficulty": "dur",
+      "text": "Quel démon maniéré, serviteur de Ganon et esprit d'une épée déchue, apparaît dans Skyward Sword ?",
+      "options": [
+        { "id": "a", "label": "Ghirahim" },
+        { "id": "b", "label": "Zant" },
+        { "id": "c", "label": "Vaati" },
+        { "id": "d", "label": "Agahnim" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-d23",
+      "difficulty": "dur",
+      "text": "Quel prêtre maléfique manipule le roi d'Hyrule dans A Link to the Past ?",
+      "options": [
+        { "id": "a", "label": "Agahnim" },
+        { "id": "b", "label": "Zant" },
+        { "id": "c", "label": "Vaati" },
+        { "id": "d", "label": "Ghirahim" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-d24",
+      "difficulty": "dur",
+      "text": "Comment appelle-t-on les squelettes ennemis récurrents qui surgissent la nuit ?",
+      "options": [
+        { "id": "a", "label": "Les Stalfos" },
+        { "id": "b", "label": "Les Moblins" },
+        { "id": "c", "label": "Les Bokoblins" },
+        { "id": "d", "label": "Les Octoroks" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-d25",
+      "difficulty": "dur",
+      "text": "Comment appelle-t-on les petits ennemis gobelins très courants, notamment dans Breath of the Wild ?",
+      "options": [
+        { "id": "a", "label": "Les Bokoblins" },
+        { "id": "b", "label": "Les Stalfos" },
+        { "id": "c", "label": "Les Octoroks" },
+        { "id": "d", "label": "Les Peahats" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-d26",
+      "difficulty": "dur",
+      "text": "Comment appelle-t-on les créatures qui crachent des projectiles depuis l'eau ou le sol ?",
+      "options": [
+        { "id": "a", "label": "Les Octoroks" },
+        { "id": "b", "label": "Les Bokoblins" },
+        { "id": "c", "label": "Les Stalfos" },
+        { "id": "d", "label": "Les Moblins" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-d27",
+      "difficulty": "dur",
+      "text": "Quelle tenue spéciale permet à Link de respirer et de nager profondément sous l'eau ?",
+      "options": [
+        { "id": "a", "label": "La tunique Zora" },
+        { "id": "b", "label": "La tunique Goron" },
+        { "id": "c", "label": "La tunique verte" },
+        { "id": "d", "label": "La cape rouge" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-d28",
+      "difficulty": "dur",
+      "text": "Quelle tenue ignifugée permet à Link de résister à la chaleur des volcans ?",
+      "options": [
+        { "id": "a", "label": "La tunique Goron" },
+        { "id": "b", "label": "La tunique Zora" },
+        { "id": "c", "label": "La tunique verte" },
+        { "id": "d", "label": "La cape bleue" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-d29",
+      "difficulty": "dur",
+      "type": "ordre",
+      "text": "Classe ces jeux Zelda par ordre de sortie.",
+      "items": [
+        { "id": "1", "label": "A Link to the Past" },
+        { "id": "2", "label": "Ocarina of Time" },
+        { "id": "3", "label": "Twilight Princess" },
+        { "id": "4", "label": "Breath of the Wild" }
+      ]
+    },
+    {
+      "id": "zld-d30",
+      "difficulty": "dur",
+      "text": "Sur quelle île, qui se révèle être un rêve, Link s'échoue dans Link's Awakening ?",
+      "options": [
+        { "id": "a", "label": "Cocolint" },
+        { "id": "b", "label": "Termina" },
+        { "id": "c", "label": "Lorule" },
+        { "id": "d", "label": "Hébra" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-p1",
+      "difficulty": "pro",
+      "text": "Quel compositeur a signé les musiques mémorables de la saga ?",
+      "options": [
+        { "id": "a", "label": "Koji Kondo" },
+        { "id": "b", "label": "Nobuo Uematsu" },
+        { "id": "c", "label": "Yoko Shimomura" },
+        { "id": "d", "label": "Yuzo Koshiro" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-p2",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "En quelle année est sorti Ocarina of Time ?",
+      "answerValue": 1998,
+      "unit": ""
+    },
+    {
+      "id": "zld-p3",
+      "difficulty": "pro",
+      "text": "Sur quelle console est sorti Ocarina of Time à l'origine ?",
+      "options": [
+        { "id": "a", "label": "La Nintendo 64" },
+        { "id": "b", "label": "La Super Nintendo" },
+        { "id": "c", "label": "La Game Boy" },
+        { "id": "d", "label": "La GameCube" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-p4",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment s'appelle le vénérable gardien végétal de la forêt Kokiri, au début d'Ocarina of Time ?",
+      "answer": "L'Arbre Mojo"
+    },
+    {
+      "id": "zld-p5",
+      "difficulty": "pro",
+      "text": "Quel peuple d'enfants de la forêt, qui ne grandissent jamais, élève Link dans Ocarina of Time ?",
+      "options": [
+        { "id": "a", "label": "Les Kokiris" },
+        { "id": "b", "label": "Les Zoras" },
+        { "id": "c", "label": "Les Gorons" },
+        { "id": "d", "label": "Les Sheikahs" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-p6",
+      "difficulty": "pro",
+      "text": "Comment s'appelle l'amie d'enfance de Link chez les Kokiris ?",
+      "options": [
+        { "id": "a", "label": "Saria" },
+        { "id": "b", "label": "Malon" },
+        { "id": "c", "label": "Ruto" },
+        { "id": "d", "label": "Navi" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-p7",
+      "difficulty": "pro",
+      "text": "Comment s'appelle la fille du ranch Lon Lon qui chante la mélodie d'Épona ?",
+      "options": [
+        { "id": "a", "label": "Malon" },
+        { "id": "b", "label": "Saria" },
+        { "id": "c", "label": "Ruto" },
+        { "id": "d", "label": "Navi" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-p8",
+      "difficulty": "pro",
+      "text": "Quelle princesse zora capricieuse devient l'une des sages dans Ocarina of Time ?",
+      "options": [
+        { "id": "a", "label": "Ruto" },
+        { "id": "b", "label": "Malon" },
+        { "id": "c", "label": "Saria" },
+        { "id": "d", "label": "Impa" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-p9",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien de sages Link doit-il réveiller pour vaincre Ganondorf dans Ocarina of Time ?",
+      "answerValue": 6,
+      "unit": "sages"
+    },
+    {
+      "id": "zld-p10",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel jeu Game Boy de 1993 fait échouer le héros sur l'île de Cocolint, dans un rêve ?",
+      "answer": "Link's Awakening"
+    },
+    {
+      "id": "zld-p11",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel être endormi Link doit-il réveiller pour quitter l'île de Cocolint ?",
+      "answer": "Le Poisson-Rêve"
+    },
+    {
+      "id": "zld-p12",
+      "difficulty": "pro",
+      "text": "Quel jeu Nintendo DS de 2007, joué au stylet, se déroule après The Wind Waker ?",
+      "options": [
+        { "id": "a", "label": "Phantom Hourglass" },
+        { "id": "b", "label": "Spirit Tracks" },
+        { "id": "c", "label": "Minish Cap" },
+        { "id": "d", "label": "Four Swords" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-p13",
+      "difficulty": "pro",
+      "text": "Quel jeu Nintendo DS de 2009 met Link aux commandes d'un train à travers le royaume ?",
+      "options": [
+        { "id": "a", "label": "Spirit Tracks" },
+        { "id": "b", "label": "Phantom Hourglass" },
+        { "id": "c", "label": "Minish Cap" },
+        { "id": "d", "label": "Four Swords" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-p14",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel jeu Game Boy Advance met en scène un peuple minuscule et un chapeau parlant nommé Ezlo ?",
+      "answer": "The Minish Cap"
+    },
+    {
+      "id": "zld-p15",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel jeu 3DS de 2013 permet au héros de se transformer en dessin pour longer les murs ?",
+      "answer": "A Link Between Worlds"
+    },
+    {
+      "id": "zld-p16",
+      "difficulty": "pro",
+      "text": "Comment s'appelle le royaume miroir d'Hyrule dans A Link Between Worlds ?",
+      "options": [
+        { "id": "a", "label": "Lorule" },
+        { "id": "b", "label": "Termina" },
+        { "id": "c", "label": "Cocolint" },
+        { "id": "d", "label": "Hébra" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-p17",
+      "difficulty": "pro",
+      "text": "Quelle princesse règne sur le royaume miroir de Lorule, double de la princesse d'Hyrule ?",
+      "options": [
+        { "id": "a", "label": "Hilda" },
+        { "id": "b", "label": "Midona" },
+        { "id": "c", "label": "Impa" },
+        { "id": "d", "label": "Ruto" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-p18",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien de déesses ont créé le monde d'Hyrule et forgé la Triforce ?",
+      "answerValue": 3,
+      "unit": "déesses"
+    },
+    {
+      "id": "zld-p19",
+      "difficulty": "pro",
+      "text": "Quelle déesse du courage a insufflé la vie aux êtres d'Hyrule ?",
+      "options": [
+        { "id": "a", "label": "Farore" },
+        { "id": "b", "label": "Din" },
+        { "id": "c", "label": "Nayru" },
+        { "id": "d", "label": "Hylia" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-p20",
+      "difficulty": "pro",
+      "text": "Quelle déesse de la force a façonné la terre d'Hyrule ?",
+      "options": [
+        { "id": "a", "label": "Din" },
+        { "id": "b", "label": "Farore" },
+        { "id": "c", "label": "Nayru" },
+        { "id": "d", "label": "Hylia" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-p21",
+      "difficulty": "pro",
+      "text": "Quelle déesse de la sagesse a établi les lois du monde ?",
+      "options": [
+        { "id": "a", "label": "Nayru" },
+        { "id": "b", "label": "Din" },
+        { "id": "c", "label": "Farore" },
+        { "id": "d", "label": "Hylia" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-p22",
+      "difficulty": "pro",
+      "text": "De quelle déesse protectrice la princesse est-elle souvent la réincarnation ?",
+      "options": [
+        { "id": "a", "label": "Hylia" },
+        { "id": "b", "label": "Din" },
+        { "id": "c", "label": "Nayru" },
+        { "id": "d", "label": "Farore" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-p23",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel fragment de la relique sacrée le méchant Ganondorf obtient-il le plus souvent ?",
+      "answer": "La Triforce du Pouvoir"
+    },
+    {
+      "id": "zld-p24",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel fragment de la relique sacrée incarne la princesse et sa clairvoyance ?",
+      "answer": "La Triforce de la Sagesse"
+    },
+    {
+      "id": "zld-p25",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel fragment de la relique sacrée incarne le héros et sa bravoure ?",
+      "answer": "La Triforce du Courage"
+    },
+    {
+      "id": "zld-p26",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment s'appelle la forêt labyrinthique où l'on se perd, présente dans plusieurs jeux ?",
+      "answer": "Les Bois Perdus"
+    },
+    {
+      "id": "zld-p27",
+      "difficulty": "pro",
+      "text": "Quel oiseau géant sert de monture volante dans Skyward Sword, où les gens vivent dans le ciel ?",
+      "options": [
+        { "id": "a", "label": "Le Célestrier" },
+        { "id": "b", "label": "L'Aigle royal" },
+        { "id": "c", "label": "Le Grand Corbeau" },
+        { "id": "d", "label": "Le Roc doré" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-p28",
+      "difficulty": "pro",
+      "text": "Comment s'appelle la cité flottante dans les nuages où grandit Link dans Skyward Sword ?",
+      "options": [
+        { "id": "a", "label": "Célesbourg" },
+        { "id": "b", "label": "Cocorico" },
+        { "id": "c", "label": "Toal" },
+        { "id": "d", "label": "Elimith" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-p29",
+      "difficulty": "pro",
+      "text": "Quel village paisible, refuge du peuple sheikah, revient dans plusieurs jeux ?",
+      "options": [
+        { "id": "a", "label": "Cocorico" },
+        { "id": "b", "label": "Célesbourg" },
+        { "id": "c", "label": "Toal" },
+        { "id": "d", "label": "Elimith" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-p30",
+      "difficulty": "pro",
+      "text": "Quel module de la tablette Sheikah déplace les objets métalliques dans Breath of the Wild ?",
+      "options": [
+        { "id": "a", "label": "Magnésis" },
+        { "id": "b", "label": "Cryonis" },
+        { "id": "c", "label": "Cinétis" },
+        { "id": "d", "label": "Polaris" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-p31",
+      "difficulty": "pro",
+      "text": "Quel module de la tablette crée des blocs de glace sur l'eau dans Breath of the Wild ?",
+      "options": [
+        { "id": "a", "label": "Cryonis" },
+        { "id": "b", "label": "Magnésis" },
+        { "id": "c", "label": "Cinétis" },
+        { "id": "d", "label": "Polaris" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-p32",
+      "difficulty": "pro",
+      "text": "Quel module fige un objet dans le temps pour y accumuler de l'énergie, dans Breath of the Wild ?",
+      "options": [
+        { "id": "a", "label": "Cinétis" },
+        { "id": "b", "label": "Magnésis" },
+        { "id": "c", "label": "Cryonis" },
+        { "id": "d", "label": "Polaris" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-p33",
+      "difficulty": "pro",
+      "text": "Quel champion goron, colosse de pierre, pilote une Créature Divine dans Breath of the Wild ?",
+      "options": [
+        { "id": "a", "label": "Daruk" },
+        { "id": "b", "label": "Revali" },
+        { "id": "c", "label": "Urbosa" },
+        { "id": "d", "label": "Mipha" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-p34",
+      "difficulty": "pro",
+      "text": "Quelle championne gerudo, cheffe du désert, pilote une Créature Divine dans Breath of the Wild ?",
+      "options": [
+        { "id": "a", "label": "Urbosa" },
+        { "id": "b", "label": "Mipha" },
+        { "id": "c", "label": "Revali" },
+        { "id": "d", "label": "Daruk" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-p35",
+      "difficulty": "pro",
+      "text": "Quel champion piaf, archer arrogant, pilote une Créature Divine dans Breath of the Wild ?",
+      "options": [
+        { "id": "a", "label": "Revali" },
+        { "id": "b", "label": "Daruk" },
+        { "id": "c", "label": "Urbosa" },
+        { "id": "d", "label": "Mipha" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-p36",
+      "difficulty": "pro",
+      "text": "Quelle princesse zora, guérisseuse aimée de Link, pilote une Créature Divine dans Breath of the Wild ?",
+      "options": [
+        { "id": "a", "label": "Mipha" },
+        { "id": "b", "label": "Urbosa" },
+        { "id": "c", "label": "Revali" },
+        { "id": "d", "label": "Daruk" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-p37",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien de Créatures Divines Link doit-il libérer dans Breath of the Wild ?",
+      "answerValue": 4,
+      "unit": "créatures"
+    },
+    {
+      "id": "zld-p38",
+      "difficulty": "pro",
+      "text": "Comment appelle-t-on les hautes structures qu'il faut activer pour cartographier les régions dans Breath of the Wild ?",
+      "options": [
+        { "id": "a", "label": "Les tours Sheikah" },
+        { "id": "b", "label": "Les sanctuaires" },
+        { "id": "c", "label": "Les créatures divines" },
+        { "id": "d", "label": "Les balises" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-p39",
+      "difficulty": "pro",
+      "text": "Quel roi gerudo momifié, scellé sous le château, réapparaît comme le grand méchant de Tears of the Kingdom ?",
+      "options": [
+        { "id": "a", "label": "Ganondorf" },
+        { "id": "b", "label": "Zant" },
+        { "id": "c", "label": "Vaati" },
+        { "id": "d", "label": "Ghirahim" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "zld-p40",
+      "difficulty": "pro",
+      "text": "Quel jeune héros du destin, réincarné à travers les âges, incarne toujours le courage dans la saga ?",
+      "options": [
+        { "id": "a", "label": "Link" },
+        { "id": "b", "label": "Sheik" },
+        { "id": "c", "label": "Sidon" },
+        { "id": "d", "label": "Revali" }
+      ],
+      "correctOptionId": "a"
+    }
+  ]
+}
