@@ -1845,7 +1845,6 @@ button.home-card {
 /* Fil discret affiché sur la TV (coin bas-gauche), hors questions. */
 .chat-feed {
   position: fixed;
-  left: 20px;
   bottom: 20px;
   z-index: 5;
   display: flex;
@@ -1854,6 +1853,9 @@ button.home-card {
   max-width: 34vw;
   pointer-events: none;
 }
+.chat-feed.left { left: 20px; align-items: flex-start; }
+/* Dans le salon : ancré à droite pour laisser le code/QR (à gauche) dégagés. */
+.chat-feed.right { right: 20px; align-items: flex-end; text-align: right; }
 .chat-msg {
   display: flex;
   align-items: baseline;
