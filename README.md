@@ -69,6 +69,27 @@ parcouru, son historique est remis à zéro pour repartir sur un cycle neuf.
 Stockage via le même backend que l'archive (JSON `seen.json` ou table
 SQLite `seen_questions`).
 
+## Jouer en soirée (même Wi-Fi)
+
+Une seule machine (un portable) fait office de serveur ; tout le monde s'y
+connecte depuis le même Wi-Fi.
+
+```bash
+npm install     # une seule fois
+npm run lan     # build + démarre le serveur ET affiche l'URL à partager
+```
+
+Le serveur affiche au démarrage l'adresse LAN à partager (ex.
+`http://192.168.1.42:3001`). Chacun ouvre cette adresse :
+
+- **Animateur** (ton téléphone) → « Créer une partie » → code à 4 lettres.
+- **TV** (navigateur de la TV, ou PC en HDMI, ou Chromecast) → « Ouvrir la
+  TV » + code, puis clique sur « 🔊 Activer le son ».
+- **Joueurs** → scannent le QR affiché sur la TV (ou l'adresse + code).
+
+Astuce : `PORT=80 npm run lan` évite d'avoir à taper `:3001` (droits admin
+parfois requis). Pense à autoriser Node dans le pare-feu au 1er lancement.
+
 ## Architecture
 
 Monorepo npm workspaces, tout en TypeScript.

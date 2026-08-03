@@ -2,6 +2,7 @@ import express from "express";
 import { createServer } from "node:http";
 import { Server, type Socket } from "socket.io";
 import { existsSync } from "node:fs";
+import { networkInterfaces } from "node:os";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import {
@@ -291,6 +292,32 @@ setInterval(() => {
   }
 }, 5 * 60_000);
 
+/** Adresses IPv4 locales (LAN) de la machine, pour partager l'accès. */
+function lanAddresses(): string[] {
+  const out: string[] = [];
+  for (const addrs of Object.values(networkInterfaces())) {
+    for (const a of addrs ?? []) {
+      if (a.family === "IPv4" && !a.internal) out.push(a.address);
+    }
+  }
+  return out;
+}
+
 httpServer.listen(PORT, () => {
-  console.log(`🎉 ArmaBarGames server sur http://localhost:${PORT}`);
+  const ips = lanAddresses();
+  const port = PORT === 80 ? "" : `:${PORT}`;
+  console.log("\n🎉 ArmaBarGames est lancé !\n");
+  if (ips.length === 0) {
+    console.log(`   Sur cette machine : http://localhost${port}`);
+    console.log("   (aucune adresse réseau détectée — vérifie le Wi-Fi)");
+  } else {
+    console.log("   📶 Tout le monde se connecte, sur le MÊME Wi-Fi, à :");
+    for (const ip of ips) console.log(`      →  http://${ip}${port}`);
+    const main = ips[0];
+    console.log("");
+    console.log("   🎛️  Toi (animateur) : ouvre l'adresse → « Créer une partie »");
+    console.log("   📺  La TV           : ouvre l'adresse → « Ouvrir la TV » + code");
+    console.log("   📱  La famille      : scanne le QR de la TV (ou l'adresse + code)");
+    console.log(`\n   Exemple joueur : http://${main}${port}/play\n`);
+  }
 });
