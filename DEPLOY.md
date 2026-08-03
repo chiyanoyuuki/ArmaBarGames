@@ -1,4 +1,68 @@
-# Déployer ArmaBarGames sur un serveur OVH (HTTPS, 24/7)
+# Déployer ArmaBarGames en ligne (HTTPS, 24/7)
+
+Objectif : l'appli **à une adresse fixe, disponible en permanence, en
+HTTPS** — ce qui débloque aussi le **micro du téléphone** (la capture micro
+exige une connexion sécurisée).
+
+Deux options :
+
+- **Option A — Hébergeur géré (Render)** : la plus simple, HTTPS automatique,
+  sans admin serveur. **Recommandée.** → section ci-dessous.
+- **Option B — VPS OVH** : tu gères ton propre serveur Linux (SSH). → plus bas.
+
+> ⚠️ Un **hébergement mutualisé** OVH (« Hébergement Web », FTP/PHP, **sans
+> SSH**) ne peut **pas** faire tourner cette appli (serveur Node temps réel +
+> WebSockets). Il faut Render (option A) ou un VPS (option B).
+
+---
+
+# Option A — Render (recommandé, gratuit)
+
+Render déploie directement depuis un dépôt **GitHub**. Le fichier
+`render.yaml` fourni configure tout automatiquement.
+
+## 1. Mettre le code sur GitHub (une fois)
+
+1. Crée un dépôt **vide** sur https://github.com (ex. `armabargames`).
+2. En local, dans le projet (après avoir appliqué tous les patchs) :
+   ```bash
+   git remote add github https://github.com/TON_PSEUDO/armabargames.git
+   git push github HEAD:main
+   ```
+
+## 2. Déployer sur Render
+
+1. Crée un compte sur https://render.com (connecte ton GitHub).
+2. **New +** → **Blueprint** → sélectionne ton dépôt.
+3. Render lit `render.yaml` et propose le service **armabargames** → **Apply**.
+   (Sinon, en manuel : **New +** → **Web Service** →
+   *Build* `npm install && npm run build`, *Start* `npm start`, plan *Free*.)
+4. Attends le build (quelques minutes). Render te donne une adresse :
+   **`https://armabargames-xxxx.onrender.com`**.
+
+## 3. Jouer
+
+Tout le monde ouvre cette adresse (depuis n'importe où) :
+- **Toi** → « Créer une partie » ; **TV** → « Ouvrir la TV » + code + « Activer
+  le son » ; **joueurs** → QR de la TV.
+- **Micro au buzzer** : fonctionne (HTTPS) — bouton « 🎙️ Parler dans la TV ».
+
+## 4. Mettre à jour
+
+Chaque `git push github HEAD:main` redéclenche un déploiement automatique.
+
+## Bon à savoir (offre gratuite Render)
+
+- **Mise en veille** après ~15 min d'inactivité : la 1re ouverture réveille le
+  service (~30 s). Ouvre la page **une minute avant** de commencer la soirée.
+- **Disque éphémère** : l'historique des parties et la liste des questions déjà
+  vues se réinitialisent à chaque redéploiement/veille. Sans impact sur une
+  soirée ; pour une conservation durable, prends un plan payant avec disque
+  persistant (et pointe `ARMABAR_DB`/`ARMABAR_ARCHIVE` dessus).
+
+---
+
+# Option B — VPS OVH (HTTPS, contrôle total)
 
 Ce guide met l'appli en ligne **à une adresse fixe, disponible en
 permanence, en HTTPS** — ce qui débloque aussi le **micro du téléphone**

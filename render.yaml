@@ -1,0 +1,18 @@
+# Déploiement « un clic » sur Render (https://render.com).
+# Sur Render : New + → Blueprint → connecte ce dépôt : ce fichier est lu
+# automatiquement. HTTPS + WebSockets sont gérés par Render.
+services:
+  - type: web
+    name: armabargames
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      # Archive en fichier JSON (évite de compiler le module natif SQLite).
+      # NB : sur l'offre gratuite le disque est éphémère (l'historique se
+      # réinitialise à chaque redéploiement) — sans impact sur le jeu.
+      - key: ARMABAR_STORE
+        value: json
