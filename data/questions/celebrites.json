@@ -1,0 +1,958 @@
+{
+  "universeId": "celebrites",
+  "questions": [
+    {
+      "id": "celeb-f1",
+      "difficulty": "facile",
+      "text": "Quel milliardaire dirige les entreprises Tesla et SpaceX ?",
+      "options": [
+        { "id": "a", "label": "Elon Musk" },
+        { "id": "b", "label": "Jeff Bezos" },
+        { "id": "c", "label": "Bill Gates" },
+        { "id": "d", "label": "Mark Zuckerberg" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-f2",
+      "difficulty": "facile",
+      "type": "buzzer",
+      "text": "Quel footballeur argentin surnommé « la Pulga » a soulevé la Coupe du monde 2022 ?",
+      "answer": "Lionel Messi"
+    },
+    {
+      "id": "celeb-f3",
+      "difficulty": "facile",
+      "text": "Quelle chanteuse américaine a écrit les tubes « Shake It Off » et « Anti-Hero » ?",
+      "options": [
+        { "id": "a", "label": "Taylor Swift" },
+        { "id": "b", "label": "Beyoncé" },
+        { "id": "c", "label": "Adele" },
+        { "id": "d", "label": "Katy Perry" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-f4",
+      "difficulty": "facile",
+      "text": "Quel acteur incarne Iron Man dans les films Marvel ?",
+      "options": [
+        { "id": "a", "label": "Robert Downey Jr." },
+        { "id": "b", "label": "Chris Evans" },
+        { "id": "c", "label": "Chris Hemsworth" },
+        { "id": "d", "label": "Mark Ruffalo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-f5",
+      "difficulty": "facile",
+      "text": "Quel ex-acteur de « Terminator » est devenu gouverneur de Californie ?",
+      "options": [
+        { "id": "a", "label": "Arnold Schwarzenegger" },
+        { "id": "b", "label": "Sylvester Stallone" },
+        { "id": "c", "label": "Bruce Willis" },
+        { "id": "d", "label": "Jean-Claude Van Damme" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-f6",
+      "difficulty": "facile",
+      "type": "buzzer",
+      "text": "Quelle chanteuse née à la Barbade a lancé la marque de maquillage Fenty ?",
+      "answer": "Rihanna"
+    },
+    {
+      "id": "celeb-f7",
+      "difficulty": "facile",
+      "text": "Quel acteur français, révélé par « Intouchables », incarne Arsène Lupin dans la série Netflix ?",
+      "options": [
+        { "id": "a", "label": "Omar Sy" },
+        { "id": "b", "label": "Jamel Debbouze" },
+        { "id": "c", "label": "Jean Dujardin" },
+        { "id": "d", "label": "Gad Elmaleh" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-f8",
+      "difficulty": "facile",
+      "text": "Quel « roi de la pop » est l'interprète de l'album « Thriller » ?",
+      "options": [
+        { "id": "a", "label": "Michael Jackson" },
+        { "id": "b", "label": "Prince" },
+        { "id": "c", "label": "Elvis Presley" },
+        { "id": "d", "label": "Freddie Mercury" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-f9",
+      "difficulty": "facile",
+      "text": "Quel milliardaire a fondé la boutique en ligne Amazon ?",
+      "options": [
+        { "id": "a", "label": "Jeff Bezos" },
+        { "id": "b", "label": "Elon Musk" },
+        { "id": "c", "label": "Bill Gates" },
+        { "id": "d", "label": "Steve Jobs" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-f10",
+      "difficulty": "facile",
+      "type": "buzzer",
+      "text": "Quel footballeur portugais est surnommé « CR7 » ?",
+      "answer": "Cristiano Ronaldo"
+    },
+    {
+      "id": "celeb-m1",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel cofondateur d'Apple, disparu en 2011, a présenté le tout premier iPhone ?",
+      "answer": "Steve Jobs"
+    },
+    {
+      "id": "celeb-m2",
+      "difficulty": "moyen",
+      "text": "Quel cofondateur de Microsoft est aussi connu pour son immense fondation philanthropique ?",
+      "options": [
+        { "id": "a", "label": "Bill Gates" },
+        { "id": "b", "label": "Steve Jobs" },
+        { "id": "c", "label": "Elon Musk" },
+        { "id": "d", "label": "Jeff Bezos" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-m3",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel jeune informaticien dirige le réseau social Facebook, devenu Meta ?",
+      "answer": "Mark Zuckerberg"
+    },
+    {
+      "id": "celeb-m4",
+      "difficulty": "moyen",
+      "text": "Quelle chanteuse américaine, ex-membre des Destiny's Child, est surnommée « Queen B » ?",
+      "options": [
+        { "id": "a", "label": "Beyoncé" },
+        { "id": "b", "label": "Rihanna" },
+        { "id": "c", "label": "Taylor Swift" },
+        { "id": "d", "label": "Lady Gaga" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-m5",
+      "difficulty": "moyen",
+      "text": "Quel duo français masqué de musique électronique a sorti le tube « Get Lucky » ?",
+      "options": [
+        { "id": "a", "label": "Daft Punk" },
+        { "id": "b", "label": "Justice" },
+        { "id": "c", "label": "The Chemical Brothers" },
+        { "id": "d", "label": "Modjo" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-m6",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel chanteur belge est l'auteur des titres « Papaoutai » et « Alors on danse » ?",
+      "answer": "Stromae"
+    },
+    {
+      "id": "celeb-m7",
+      "difficulty": "moyen",
+      "text": "Quel footballeur français, champion du monde 2018, a quitté le PSG pour le Real Madrid ?",
+      "options": [
+        { "id": "a", "label": "Kylian Mbappé" },
+        { "id": "b", "label": "Antoine Griezmann" },
+        { "id": "c", "label": "Karim Benzema" },
+        { "id": "d", "label": "Ousmane Dembélé" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-m8",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel meneur français a brillé pendant des années aux San Antonio Spurs en NBA ?",
+      "answer": "Tony Parker"
+    },
+    {
+      "id": "celeb-m9",
+      "difficulty": "moyen",
+      "text": "Quelle chanteuse québécoise interprète « My Heart Will Go On » du film Titanic ?",
+      "options": [
+        { "id": "a", "label": "Céline Dion" },
+        { "id": "b", "label": "Lara Fabian" },
+        { "id": "c", "label": "Mylène Farmer" },
+        { "id": "d", "label": "Adele" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-m10",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel sprinteur jamaïcain est considéré comme l'homme le plus rapide de l'histoire ?",
+      "answer": "Usain Bolt"
+    },
+    {
+      "id": "celeb-m11",
+      "difficulty": "moyen",
+      "text": "Quel basketteur américain, star des Chicago Bulls, a donné son nom aux baskets « Air » ?",
+      "options": [
+        { "id": "a", "label": "Michael Jordan" },
+        { "id": "b", "label": "LeBron James" },
+        { "id": "c", "label": "Kobe Bryant" },
+        { "id": "d", "label": "Shaquille O'Neal" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-m12",
+      "difficulty": "moyen",
+      "text": "Quel acteur incarne le pirate Jack Sparrow dans « Pirates des Caraïbes » ?",
+      "options": [
+        { "id": "a", "label": "Johnny Depp" },
+        { "id": "b", "label": "Orlando Bloom" },
+        { "id": "c", "label": "Javier Bardem" },
+        { "id": "d", "label": "Geoffrey Rush" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-m13",
+      "difficulty": "moyen",
+      "text": "Quel acteur, oscarisé pour « The Revenant », jouait le héros de Titanic ?",
+      "options": [
+        { "id": "a", "label": "Leonardo DiCaprio" },
+        { "id": "b", "label": "Brad Pitt" },
+        { "id": "c", "label": "Matthew McConaughey" },
+        { "id": "d", "label": "Tom Hardy" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-m14",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quelle animatrice américaine est célèbre pour son talk-show et son empire médiatique, symbole de réussite ?",
+      "answer": "Oprah Winfrey"
+    },
+    {
+      "id": "celeb-m15",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel 44e président des États-Unis fut le premier chef d'État noir du pays ?",
+      "answer": "Barack Obama"
+    },
+    {
+      "id": "celeb-m16",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel militant sud-africain, emprisonné 27 ans, est devenu président après la fin de l'apartheid ?",
+      "answer": "Nelson Mandela"
+    },
+    {
+      "id": "celeb-m17",
+      "difficulty": "moyen",
+      "text": "Quel acteur surnommé « The Rock », ex-catcheur, est une superstar d'Hollywood ?",
+      "options": [
+        { "id": "a", "label": "Dwayne Johnson" },
+        { "id": "b", "label": "John Cena" },
+        { "id": "c", "label": "Vin Diesel" },
+        { "id": "d", "label": "Jason Statham" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-m18",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quelle jeune militante suédoise pour le climat est connue pour son coup de gueule « How dare you » ?",
+      "answer": "Greta Thunberg"
+    },
+    {
+      "id": "celeb-m19",
+      "difficulty": "moyen",
+      "text": "Quel rappeur de Detroit, alias « Slim Shady », a vendu des dizaines de millions d'albums ?",
+      "options": [
+        { "id": "a", "label": "Eminem" },
+        { "id": "b", "label": "Jay-Z" },
+        { "id": "c", "label": "Snoop Dogg" },
+        { "id": "d", "label": "50 Cent" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-m20",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel judoka français, multiple champion olympique, est un colosse resté longtemps invaincu ?",
+      "answer": "Teddy Riner"
+    },
+    {
+      "id": "celeb-d1",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel est le vrai nom du rappeur connu sous le pseudo « Eminem » ?",
+      "answer": "Marshall Mathers"
+    },
+    {
+      "id": "celeb-d2",
+      "difficulty": "dur",
+      "text": "Dans quel pays est né le patron de Tesla, Elon Musk ?",
+      "options": [
+        { "id": "a", "label": "L'Afrique du Sud" },
+        { "id": "b", "label": "Les États-Unis" },
+        { "id": "c", "label": "Le Canada" },
+        { "id": "d", "label": "L'Australie" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-d3",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quelle actrice française a reçu l'Oscar de la meilleure actrice pour son rôle d'Édith Piaf dans « La Môme » ?",
+      "answer": "Marion Cotillard"
+    },
+    {
+      "id": "celeb-d4",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel acteur français a remporté l'Oscar du meilleur acteur pour le film muet « The Artist » ?",
+      "answer": "Jean Dujardin"
+    },
+    {
+      "id": "celeb-d5",
+      "difficulty": "dur",
+      "type": "estimation",
+      "text": "Combien d'années la reine Elizabeth II a-t-elle régné sur le Royaume-Uni ?",
+      "answerValue": 70,
+      "unit": "ans"
+    },
+    {
+      "id": "celeb-d6",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel chanteur français, « l'idole des jeunes », est décédé en 2017 après une immense carrière ?",
+      "answer": "Johnny Hallyday"
+    },
+    {
+      "id": "celeb-d7",
+      "difficulty": "dur",
+      "text": "Quel groupe de rock britannique comptait Lennon, McCartney, Harrison et Starr ?",
+      "options": [
+        { "id": "a", "label": "The Beatles" },
+        { "id": "b", "label": "The Rolling Stones" },
+        { "id": "c", "label": "Queen" },
+        { "id": "d", "label": "Pink Floyd" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-d8",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel chanteur du groupe Queen, à la voix légendaire, est décédé en 1991 ?",
+      "answer": "Freddie Mercury"
+    },
+    {
+      "id": "celeb-d9",
+      "difficulty": "dur",
+      "text": "Quel pilote allemand a décroché sept titres de champion du monde de Formule 1, surtout au début des années 2000 chez Ferrari ?",
+      "options": [
+        { "id": "a", "label": "Michael Schumacher" },
+        { "id": "b", "label": "Sebastian Vettel" },
+        { "id": "c", "label": "Nico Rosberg" },
+        { "id": "d", "label": "Ayrton Senna" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-d10",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel boxeur américain de légende se surnommait lui-même « The Greatest » ?",
+      "answer": "Muhammad Ali"
+    },
+    {
+      "id": "celeb-d11",
+      "difficulty": "dur",
+      "text": "Quelle chanteuse britannique a cartonné avec les albums intitulés « 21 » et « 25 » ?",
+      "options": [
+        { "id": "a", "label": "Adele" },
+        { "id": "b", "label": "Dua Lipa" },
+        { "id": "c", "label": "Amy Winehouse" },
+        { "id": "d", "label": "Ed Sheeran" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-d12",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel réseau social le patron de Tesla a-t-il racheté en 2022 avant de le renommer « X » ?",
+      "answer": "Twitter"
+    },
+    {
+      "id": "celeb-d13",
+      "difficulty": "dur",
+      "text": "Quel couple de stars d'Hollywood était surnommé par les médias « Brangelina » ?",
+      "options": [
+        { "id": "a", "label": "Brad Pitt et Angelina Jolie" },
+        { "id": "b", "label": "Ben Affleck et Jennifer Lopez" },
+        { "id": "c", "label": "Tom Cruise et Nicole Kidman" },
+        { "id": "d", "label": "Johnny Depp et Amber Heard" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-d14",
+      "difficulty": "dur",
+      "text": "Quel acteur de « Top Gun » et « Mission: Impossible » est connu pour réaliser lui-même ses cascades ?",
+      "options": [
+        { "id": "a", "label": "Tom Cruise" },
+        { "id": "b", "label": "Keanu Reeves" },
+        { "id": "c", "label": "Matt Damon" },
+        { "id": "d", "label": "Brad Pitt" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-d15",
+      "difficulty": "dur",
+      "text": "Quelle famille de télé-réalité américaine, menée par Kim, est ultra-médiatisée ?",
+      "options": [
+        { "id": "a", "label": "Les Kardashian" },
+        { "id": "b", "label": "Les Osbourne" },
+        { "id": "c", "label": "Les Hilton" },
+        { "id": "d", "label": "Les Jackson" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-d16",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel groupe de K-pop sud-coréen à sept membres a conquis la planète dans les années 2010 ?",
+      "answer": "BTS"
+    },
+    {
+      "id": "celeb-d17",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quelle chanteuse française d'origine malienne a explosé avec le tube « Djadja » ?",
+      "answer": "Aya Nakamura"
+    },
+    {
+      "id": "celeb-d18",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel acteur a giflé Chris Rock en direct pendant la cérémonie des Oscars 2022 ?",
+      "answer": "Will Smith"
+    },
+    {
+      "id": "celeb-d19",
+      "difficulty": "dur",
+      "text": "Quel attaquant français a été sacré Ballon d'Or 2022 ?",
+      "options": [
+        { "id": "a", "label": "Karim Benzema" },
+        { "id": "b", "label": "Kylian Mbappé" },
+        { "id": "c", "label": "Antoine Griezmann" },
+        { "id": "d", "label": "Olivier Giroud" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-d20",
+      "difficulty": "dur",
+      "text": "Quel pilote britannique de Formule 1 a égalé le record de sept titres mondiaux dans les années 2010-2020 ?",
+      "options": [
+        { "id": "a", "label": "Lewis Hamilton" },
+        { "id": "b", "label": "Jenson Button" },
+        { "id": "c", "label": "George Russell" },
+        { "id": "d", "label": "Damon Hill" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-d21",
+      "difficulty": "dur",
+      "text": "Quel golfeur américain a écrasé son sport pendant près de deux décennies ?",
+      "options": [
+        { "id": "a", "label": "Tiger Woods" },
+        { "id": "b", "label": "Rory McIlroy" },
+        { "id": "c", "label": "Phil Mickelson" },
+        { "id": "d", "label": "Jack Nicklaus" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-d22",
+      "difficulty": "dur",
+      "text": "Quelle actrice américaine détient le record de nominations aux Oscars ?",
+      "options": [
+        { "id": "a", "label": "Meryl Streep" },
+        { "id": "b", "label": "Cate Blanchett" },
+        { "id": "c", "label": "Nicole Kidman" },
+        { "id": "d", "label": "Julia Roberts" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-d23",
+      "difficulty": "dur",
+      "text": "Quel acteur canadien joue Neo dans « Matrix » et le tueur de « John Wick » ?",
+      "options": [
+        { "id": "a", "label": "Keanu Reeves" },
+        { "id": "b", "label": "Hugh Jackman" },
+        { "id": "c", "label": "Ryan Reynolds" },
+        { "id": "d", "label": "Ryan Gosling" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-d24",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quelle chanteuse américaine excentrique a lancé « Bad Romance » et « Poker Face » ?",
+      "answer": "Lady Gaga"
+    },
+    {
+      "id": "celeb-d25",
+      "difficulty": "dur",
+      "text": "Quelle actrice incarne Black Widow dans les films Marvel ?",
+      "options": [
+        { "id": "a", "label": "Scarlett Johansson" },
+        { "id": "b", "label": "Brie Larson" },
+        { "id": "c", "label": "Elizabeth Olsen" },
+        { "id": "d", "label": "Gal Gadot" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-d26",
+      "difficulty": "dur",
+      "text": "Quel rappeur canadien, ancien acteur de la série « Degrassi », est devenu une superstar mondiale ?",
+      "options": [
+        { "id": "a", "label": "Drake" },
+        { "id": "b", "label": "The Weeknd" },
+        { "id": "c", "label": "Travis Scott" },
+        { "id": "d", "label": "Post Malone" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-d27",
+      "difficulty": "dur",
+      "text": "Quel DJ français, star mondiale, a produit le tube « Titanium » ?",
+      "options": [
+        { "id": "a", "label": "David Guetta" },
+        { "id": "b", "label": "Bob Sinclar" },
+        { "id": "c", "label": "DJ Snake" },
+        { "id": "d", "label": "Martin Solveig" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-d28",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel footballeur français, auteur d'un coup de tête en finale 2006, est devenu entraîneur du Real Madrid ?",
+      "answer": "Zinedine Zidane"
+    },
+    {
+      "id": "celeb-d29",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel chanteur américain est surnommé « The King of Rock'n'Roll » ?",
+      "answer": "Elvis Presley"
+    },
+    {
+      "id": "celeb-d30",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quelle chanteuse américaine, star provocatrice des années 80, est surnommée « Queen of Pop » ?",
+      "answer": "Madonna"
+    },
+    {
+      "id": "celeb-p1",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel est le vrai nom de la chanteuse connue sous le nom de scène « Lady Gaga » ?",
+      "answer": "Stefani Germanotta"
+    },
+    {
+      "id": "celeb-p2",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "En quelle année le duo électronique Daft Punk a-t-il annoncé sa séparation ?",
+      "answerValue": 2021,
+      "unit": ""
+    },
+    {
+      "id": "celeb-p3",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel est le vrai nom du chanteur belge dont le pseudo est l'anagramme de « Maestro » ?",
+      "answer": "Paul Van Haver"
+    },
+    {
+      "id": "celeb-p4",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien de Ballons d'Or Lionel Messi a-t-il remportés, un record absolu ?",
+      "answerValue": 8,
+      "unit": "Ballons d'Or"
+    },
+    {
+      "id": "celeb-p5",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel est le nom de naissance du chanteur français « Johnny Hallyday » ?",
+      "answer": "Jean-Philippe Smet"
+    },
+    {
+      "id": "celeb-p6",
+      "difficulty": "pro",
+      "text": "Quelle chanteuse belge a sorti l'album « Nonante-Cinq » ?",
+      "options": [
+        { "id": "a", "label": "Angèle" },
+        { "id": "b", "label": "Clara Luciani" },
+        { "id": "c", "label": "Pomme" },
+        { "id": "d", "label": "Zaz" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-p7",
+      "difficulty": "pro",
+      "text": "Quel acteur américain a gagné deux Oscars consécutifs pour « Philadelphia » puis « Forrest Gump » ?",
+      "options": [
+        { "id": "a", "label": "Tom Hanks" },
+        { "id": "b", "label": "Denzel Washington" },
+        { "id": "c", "label": "Al Pacino" },
+        { "id": "d", "label": "Kevin Costner" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-p8",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel pilote brésilien de Formule 1, légende du sport, est mort en course en 1994 ?",
+      "answer": "Ayrton Senna"
+    },
+    {
+      "id": "celeb-p9",
+      "difficulty": "pro",
+      "text": "Dans quelle grande ville américaine le rappeur « Slim Shady » a-t-il grandi ?",
+      "options": [
+        { "id": "a", "label": "Detroit" },
+        { "id": "b", "label": "New York" },
+        { "id": "c", "label": "Los Angeles" },
+        { "id": "d", "label": "Atlanta" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-p10",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel est le vrai nom du rappeur américain, mari de Beyoncé, connu sous le pseudo « Jay-Z » ?",
+      "answer": "Shawn Carter"
+    },
+    {
+      "id": "celeb-p11",
+      "difficulty": "pro",
+      "text": "Quel groupe de K-pop féminin sud-coréen réunit Jisoo, Jennie, Rosé et Lisa ?",
+      "options": [
+        { "id": "a", "label": "Blackpink" },
+        { "id": "b", "label": "Twice" },
+        { "id": "c", "label": "Red Velvet" },
+        { "id": "d", "label": "Aespa" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-p12",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel physicien allemand du XXe siècle est l'auteur de la célèbre formule E=mc² ?",
+      "answer": "Albert Einstein"
+    },
+    {
+      "id": "celeb-p13",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel homme d'affaires américain a cofondé Microsoft aux côtés de Bill Gates ?",
+      "answer": "Paul Allen"
+    },
+    {
+      "id": "celeb-p14",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quels deux informaticiens américains ont fondé le moteur de recherche Google ?",
+      "answer": "Larry Page et Sergey Brin"
+    },
+    {
+      "id": "celeb-p15",
+      "difficulty": "pro",
+      "text": "Quel joueur de tennis suisse, réputé pour son élégance, a pris sa retraite en 2022 ?",
+      "options": [
+        { "id": "a", "label": "Roger Federer" },
+        { "id": "b", "label": "Stan Wawrinka" },
+        { "id": "c", "label": "Rafael Nadal" },
+        { "id": "d", "label": "Andy Murray" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-p16",
+      "difficulty": "pro",
+      "text": "Quel tennisman espagnol est surnommé « le roi de la terre battue » pour ses titres à Roland-Garros ?",
+      "options": [
+        { "id": "a", "label": "Rafael Nadal" },
+        { "id": "b", "label": "Carlos Alcaraz" },
+        { "id": "c", "label": "David Ferrer" },
+        { "id": "d", "label": "Novak Djokovic" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-p17",
+      "difficulty": "pro",
+      "text": "Quelle icône française du cinéma des années 60, surnommée « BB », est devenue militante pour les animaux ?",
+      "options": [
+        { "id": "a", "label": "Brigitte Bardot" },
+        { "id": "b", "label": "Catherine Deneuve" },
+        { "id": "c", "label": "Jeanne Moreau" },
+        { "id": "d", "label": "Romy Schneider" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-p18",
+      "difficulty": "pro",
+      "text": "Quel acteur français légendaire, au regard bleu glacé, tient le rôle-titre du « Samouraï » de Melville ?",
+      "options": [
+        { "id": "a", "label": "Alain Delon" },
+        { "id": "b", "label": "Jean-Paul Belmondo" },
+        { "id": "c", "label": "Lino Ventura" },
+        { "id": "d", "label": "Yves Montand" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-p19",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel humoriste français au grand cœur, disparu en 1986, a fondé les Restos du Cœur ?",
+      "answer": "Coluche"
+    },
+    {
+      "id": "celeb-p20",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelle chanteuse française à la voix inimitable, « la Môme », a interprété « La Vie en rose » ?",
+      "answer": "Édith Piaf"
+    },
+    {
+      "id": "celeb-p21",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel est le vrai nom du chanteur canadien connu sous le pseudo « The Weeknd » ?",
+      "answer": "Abel Tesfaye"
+    },
+    {
+      "id": "celeb-p22",
+      "difficulty": "pro",
+      "text": "Quelle est la nationalité d'origine de la chanteuse Céline Dion ?",
+      "options": [
+        { "id": "a", "label": "Canadienne" },
+        { "id": "b", "label": "Française" },
+        { "id": "c", "label": "Belge" },
+        { "id": "d", "label": "Suisse" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-p23",
+      "difficulty": "pro",
+      "text": "Quel acteur britannique a incarné James Bond au cinéma de 2006 à 2021 ?",
+      "options": [
+        { "id": "a", "label": "Daniel Craig" },
+        { "id": "b", "label": "Pierce Brosnan" },
+        { "id": "c", "label": "Idris Elba" },
+        { "id": "d", "label": "Henry Cavill" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-p24",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel acteur écossais fut le tout premier interprète de James Bond au cinéma ?",
+      "answer": "Sean Connery"
+    },
+    {
+      "id": "celeb-p25",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel basketteur américain surnommé « le Roi » a battu le record de points de toute l'histoire de la NBA ?",
+      "answer": "LeBron James"
+    },
+    {
+      "id": "celeb-p26",
+      "difficulty": "pro",
+      "text": "Quel groupe suédois des années 70 a chanté « Dancing Queen » et « Waterloo » ?",
+      "options": [
+        { "id": "a", "label": "ABBA" },
+        { "id": "b", "label": "Boney M." },
+        { "id": "c", "label": "Bee Gees" },
+        { "id": "d", "label": "Roxette" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-p27",
+      "difficulty": "pro",
+      "text": "Quel réalisateur américain a signé « Jurassic Park », « E.T. » et « Les Dents de la mer » ?",
+      "options": [
+        { "id": "a", "label": "Steven Spielberg" },
+        { "id": "b", "label": "George Lucas" },
+        { "id": "c", "label": "James Cameron" },
+        { "id": "d", "label": "Ridley Scott" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-p28",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel chanteur français, ancien membre de la Sexion d'Assaut, a cartonné en solo avec « Bella » ?",
+      "answer": "Maître Gims"
+    },
+    {
+      "id": "celeb-p29",
+      "difficulty": "pro",
+      "text": "Quelle est la nationalité du buteur Erling Haaland ?",
+      "options": [
+        { "id": "a", "label": "Norvégienne" },
+        { "id": "b", "label": "Suédoise" },
+        { "id": "c", "label": "Danoise" },
+        { "id": "d", "label": "Islandaise" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-p30",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel chanteur portoricain a battu tous les records de vues avec le tube « Despacito » ?",
+      "answer": "Luis Fonsi"
+    },
+    {
+      "id": "celeb-p31",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel est le vrai nom du chanteur du groupe U2, connu sous le pseudo « Bono » ?",
+      "answer": "Paul Hewson"
+    },
+    {
+      "id": "celeb-p32",
+      "difficulty": "pro",
+      "text": "Quelle chanteuse américaine a lancé les tubes acidulés « Firework » et « Roar » ?",
+      "options": [
+        { "id": "a", "label": "Katy Perry" },
+        { "id": "b", "label": "Kesha" },
+        { "id": "c", "label": "Pink" },
+        { "id": "d", "label": "Miley Cyrus" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-p33",
+      "difficulty": "pro",
+      "text": "Quel réalisateur canadien a filmé « Titanic » puis « Avatar » ?",
+      "options": [
+        { "id": "a", "label": "James Cameron" },
+        { "id": "b", "label": "Denis Villeneuve" },
+        { "id": "c", "label": "Christopher Nolan" },
+        { "id": "d", "label": "Peter Jackson" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-p34",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel prodige français du basket a été choisi en tout premier lors de la draft NBA 2023 ?",
+      "answer": "Victor Wembanyama"
+    },
+    {
+      "id": "celeb-p35",
+      "difficulty": "pro",
+      "text": "Quel pilote néerlandais de Formule 1 a dominé les championnats du début des années 2020 ?",
+      "options": [
+        { "id": "a", "label": "Max Verstappen" },
+        { "id": "b", "label": "Lewis Hamilton" },
+        { "id": "c", "label": "Charles Leclerc" },
+        { "id": "d", "label": "Fernando Alonso" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-p36",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel chanteur britannique roux a composé les tubes « Perfect » et « Shape of You » ?",
+      "answer": "Ed Sheeran"
+    },
+    {
+      "id": "celeb-p37",
+      "difficulty": "pro",
+      "text": "Quel acteur américain incarne Captain America (Steve Rogers) dans les films Marvel ?",
+      "options": [
+        { "id": "a", "label": "Chris Evans" },
+        { "id": "b", "label": "Chris Hemsworth" },
+        { "id": "c", "label": "Sebastian Stan" },
+        { "id": "d", "label": "Chris Pratt" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-p38",
+      "difficulty": "pro",
+      "text": "Quel acteur australien incarne Thor dans les films Marvel ?",
+      "options": [
+        { "id": "a", "label": "Chris Hemsworth" },
+        { "id": "b", "label": "Chris Evans" },
+        { "id": "c", "label": "Hugh Jackman" },
+        { "id": "d", "label": "Liam Hemsworth" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "celeb-p39",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel homme d'affaires français, patron du groupe de luxe LVMH, figure parmi les plus grandes fortunes du monde ?",
+      "answer": "Bernard Arnault"
+    },
+    {
+      "id": "celeb-p40",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelle chanteuse française, révélée par l'émission The Voice, a interprété le tube « Avenir » ?",
+      "answer": "Louane"
+    }
+  ]
+}

@@ -41,6 +41,7 @@
     { "id": "rock-classique", "name": "Rock classique", "themeId": "musique", "emoji": "🤘" },
     { "id": "musique-tubes", "name": "Musique (tubes & variété)", "themeId": "musique", "emoji": "🎤" },
     { "id": "geographie-monde", "name": "Géographie du monde", "themeId": "geographie", "emoji": "🌍" },
-    { "id": "culture-generale", "name": "Culture générale", "themeId": "culture", "emoji": "🧠" }
+    { "id": "culture-generale", "name": "Culture générale", "themeId": "culture", "emoji": "🧠" },
+    { "id": "celebrites", "name": "Célébrités", "themeId": "culture", "emoji": "🌟" }
   ]
 }
