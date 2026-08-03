@@ -24,6 +24,7 @@ import {
   type HostStartGamePayload,
   type JoinRoomPayload,
   type SfxKind,
+  type RtcSignalPayload,
   type TeamAnswerPayload,
   type TeamChatPayload,
   type TeamJoinAck,
@@ -221,6 +222,25 @@ io.on("connection", (socket: Socket) => {
   socket.on(C2S.TeamChat, (payload: TeamChatPayload) => {
     const room = rooms.get(socket.data.roomCode);
     if (room && socket.data.teamId) room.postChat(socket.data.teamId, payload?.text ?? "");
+  });
+
+  // --- Micro en direct (WebRTC) : relais de signalisation dans la room ---
+  socket.on(C2S.RtcStart, () => {
+    const code = socket.data.roomCode;
+    if (!code) return;
+    socket.to(code).emit(S2C.RtcStart, { from: socket.id, teamId: socket.data.teamId });
+  });
+  socket.on(C2S.RtcStop, () => {
+    const code = socket.data.roomCode;
+    if (!code) return;
+    socket.to(code).emit(S2C.RtcStop, { from: socket.id });
+  });
+  socket.on(C2S.RtcSignal, (payload: RtcSignalPayload) => {
+    const code = socket.data.roomCode;
+    const target = payload?.to ? io.sockets.sockets.get(payload.to) : undefined;
+    // On ne relaie qu'entre deux sockets de la meme room.
+    if (!code || !target || target.data.roomCode !== code) return;
+    target.emit(S2C.RtcSignal, { from: socket.id, data: payload.data });
   });
 
   // --- Actions host ---

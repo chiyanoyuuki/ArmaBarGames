@@ -10,6 +10,7 @@ import {
 } from "@armabar/shared";
 import { emitAck, socket } from "../socket";
 import { useGameState, useCountdown } from "../hooks";
+import { useMicSender, micSupported } from "../rtc";
 import { unlockAudio } from "../sound";
 
 function storageKey(room: string) {
@@ -399,13 +400,7 @@ function BuzzerPanel({ state, teamId }: { state: GameState; teamId: string }) {
   const currentTeam = state.teams.find((t) => t.id === buzz?.current);
 
   if (iAmCurrent) {
-    return (
-      <div className="answer-panel center grow">
-        <p className="big-emoji">🎤</p>
-        <h2>À toi de répondre !</h2>
-        <p className="muted">Réponds à voix haute, l'animateur valide.</p>
-      </div>
-    );
+    return <BuzzerFloor />;
   }
   if (someoneElse) {
     return (
@@ -431,6 +426,33 @@ function BuzzerPanel({ state, teamId }: { state: GameState; teamId: string }) {
         BUZZ
       </button>
       <p className="muted">Sois le premier à buzzer !</p>
+    </div>
+  );
+}
+
+/** Écran de l'équipe qui a la main au buzzer : réponse orale + micro→TV. */
+function BuzzerFloor() {
+  const [micOn, setMicOn] = useState(false);
+  const supported = micSupported();
+  useMicSender(micOn);
+  return (
+    <div className="answer-panel center grow">
+      <p className="big-emoji">🎤</p>
+      <h2>À toi de répondre !</h2>
+      <p className="muted">Réponds à voix haute, l'animateur valide.</p>
+      {supported ? (
+        <>
+          <button
+            className={`btn big ${micOn ? "danger" : ""}`}
+            onClick={() => setMicOn((v) => !v)}
+          >
+            {micOn ? "🔴 Micro ON — couper" : "🎙️ Parler dans la TV"}
+          </button>
+          {micOn && <p className="muted">Ta voix sort sur la télé 📺</p>}
+        </>
+      ) : (
+        <p className="muted">🎙️ Micro indisponible ici (nécessite une connexion HTTPS).</p>
+      )}
     </div>
   );
 }

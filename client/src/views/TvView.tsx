@@ -11,6 +11,7 @@ import {
 } from "@armabar/shared";
 import { emitAck, socket } from "../socket";
 import { useCountdown, useGameState, useSfx } from "../hooks";
+import { useMicReceiver } from "../rtc";
 import { unlockAudio, startMusic, stopMusic, setMusicVolume, playSfx } from "../sound";
 
 export function TvView() {
@@ -20,6 +21,8 @@ export function TvView() {
   const [joinError, setJoinError] = useState<string | null>(null);
   const [audioOn, setAudioOn] = useState(false);
   useSfx(audioOn);
+  // Reçoit et joue le micro des équipes une fois le son débloqué.
+  useMicReceiver(audioOn);
 
   // Musique d'ambiance : pilotee a distance par l'animateur (state.music).
   // Si des .mp3 sont deposes dans data/music/, la TV joue la playlist ; sinon
@@ -507,7 +510,7 @@ function BuzzerBody({ state }: { state: GameState }) {
   return (
     <div className="buzzer-tv">
       {current ? (
-        <div className="buzzer-current">🔔 <strong>{current.name}</strong> répond !</div>
+        <div className="buzzer-current">🔔 <strong>{current.name}</strong> répond ! 🎤</div>
       ) : (
         <div className="buzzer-open">Buzzez ! 🔔</div>
       )}

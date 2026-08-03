@@ -51,6 +51,12 @@ s'arrête plus toute seule : elle **continue jusqu'à une bonne réponse ou
 jusqu'à ce que l'animateur la passe**. Le téléphone affiche le compte à
 rebours de pénalité, la TV la liste des équipes en pénalité.
 
+L'équipe qui a la main peut aussi **parler dans le micro de son téléphone**,
+le son sortant sur la TV (liaison audio WebRTC en direct, bouton « 🎙️ Parler
+dans la TV »). Le micro nécessite une **connexion sécurisée (HTTPS)** ; en
+LAN sur `http://…` le bouton indique simplement qu'il est indisponible. Voir
+`DEPLOY.md` pour un déploiement HTTPS 24/7.
+
 ### Chat en direct des équipes
 
 Les équipes peuvent taper de courts messages depuis leur téléphone ; ils

@@ -568,6 +568,11 @@ export const C2S = {
   TeamChat: "team:chat", // message de chat en direct
   TvTrackEnded: "tv:trackEnded", // la TV signale la fin d'un morceau
 
+  // Micro en direct (WebRTC) : l'equipe au buzzer parle, le son sort sur la TV.
+  RtcStart: "rtc:start", // le telephone commence a diffuser son micro
+  RtcStop: "rtc:stop", // le telephone arrete
+  RtcSignal: "rtc:signal", // echange offer/answer/ICE (relaye dans la room)
+
   HostConfigure: "host:configure",
   HostMusic: "host:music", // pilote la musique d'ambiance de la TV
   HostBuzzVerdict: "host:buzzVerdict", // valide l'equipe qui buzze
@@ -589,7 +594,17 @@ export const S2C = {
   State: "state", // GameState complet
   Sfx: "sfx", // effet sonore/animation ponctuel
   Error: "error",
+  // Micro en direct (relaye entre telephone et TV de la meme room).
+  RtcStart: "rtc:start", // un telephone commence a parler {from, teamId}
+  RtcStop: "rtc:stop", // un telephone arrete {from}
+  RtcSignal: "rtc:signal", // offer/answer/ICE {from, data}
 } as const;
+
+/** Signalisation WebRTC relayee : `to` = socket cible, `data` = offer/answer/ICE. */
+export interface RtcSignalPayload {
+  to: string;
+  data: unknown;
+}
 
 export type SfxKind =
   | "correct"
