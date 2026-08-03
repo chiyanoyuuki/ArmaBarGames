@@ -480,6 +480,9 @@ function BuzzerBody({ state }: { state: GameState }) {
   }
   const buzz = state.buzz;
   const current = state.teams.find((t) => t.id === buzz?.current);
+  const penalized = buzz
+    ? Object.keys(buzz.penalties).filter((id) => buzz.penalties[id] > Date.now())
+    : [];
   return (
     <div className="buzzer-tv">
       {current ? (
@@ -487,9 +490,9 @@ function BuzzerBody({ state }: { state: GameState }) {
       ) : (
         <div className="buzzer-open">Buzzez ! 🔔</div>
       )}
-      {buzz && buzz.lockedOut.length > 0 && (
+      {penalized.length > 0 && (
         <p className="muted">
-          Éliminés : {buzz.lockedOut.map((id) => state.teams.find((t) => t.id === id)?.name).join(", ")}
+          ⏳ En pénalité : {penalized.map((id) => state.teams.find((t) => t.id === id)?.name).join(", ")}
         </p>
       )}
     </div>

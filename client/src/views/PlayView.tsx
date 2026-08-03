@@ -8,7 +8,7 @@ import {
   type TeamProfile,
 } from "@armabar/shared";
 import { emitAck, socket } from "../socket";
-import { useGameState } from "../hooks";
+import { useGameState, useCountdown } from "../hooks";
 import { unlockAudio } from "../sound";
 
 function storageKey(room: string) {
@@ -340,6 +340,15 @@ function BuzzerPanel({ state, teamId }: { state: GameState; teamId: string }) {
   const gain = state.reveal?.gains[teamId] ?? 0;
   const buzz = state.buzz;
 
+  // Pénalité de temps après un mauvais buzz : compte à rebours local qui
+  // réactive le bouton une fois écoulé (le serveur n'émet pas à l'expiration).
+  const penaltyEnd = buzz?.penalties?.[teamId];
+  const penaltyRemaining = useCountdown(
+    penaltyEnd && penaltyEnd > Date.now() ? penaltyEnd : undefined,
+    false
+  );
+  const penalized = penaltyRemaining > 0;
+
   if (revealing) {
     return (
       <div className="answer-panel">
@@ -352,7 +361,6 @@ function BuzzerPanel({ state, teamId }: { state: GameState; teamId: string }) {
   }
 
   const iAmCurrent = buzz?.current === teamId;
-  const lockedOut = buzz?.lockedOut.includes(teamId);
   const someoneElse = buzz?.current && buzz.current !== teamId;
   const currentTeam = state.teams.find((t) => t.id === buzz?.current);
 
@@ -373,11 +381,13 @@ function BuzzerPanel({ state, teamId }: { state: GameState; teamId: string }) {
       </div>
     );
   }
-  if (lockedOut) {
+  if (penalized) {
     return (
       <div className="answer-panel center grow">
-        <p className="big-emoji">🚫</p>
-        <p>Éliminé pour cette question.</p>
+        <p className="big-emoji">⏳</p>
+        <p>Mauvaise réponse… pénalité !</p>
+        <p className="penalty-count">{Math.ceil(penaltyRemaining / 1000)} s</p>
+        <p className="muted">Tu pourras rebuzzer ensuite.</p>
       </div>
     );
   }

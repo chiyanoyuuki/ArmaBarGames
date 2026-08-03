@@ -377,9 +377,17 @@ export interface TeamSubmission {
 export interface BuzzState {
   order: string[]; // equipes dans l'ordre des buzz
   current?: string; // equipe en train de repondre (en attente du verdict)
-  lockedOut: string[]; // equipes ayant deja repondu faux ce tour
+  /**
+   * Equipes en penalite de temps apres un mauvais buzz : teamId -> epoch ms de
+   * fin de penalite. Elles ne peuvent pas rebuzzer avant cette echeance, mais
+   * la question continue (pas d'elimination definitive).
+   */
+  penalties: Record<string, number>;
   open: boolean; // le buzzer accepte-t-il de nouveaux buzz ?
 }
+
+/** Duree de la penalite de temps apres un mauvais buzz (ms). */
+export const BUZZ_PENALTY_MS = 5_000;
 
 export interface RevealState {
   /** Type de la question revelee. */

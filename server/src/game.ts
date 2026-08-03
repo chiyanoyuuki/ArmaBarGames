@@ -6,6 +6,7 @@ import {
   sanitizeConfig,
   isAnswerClose,
   ADAPTIVE,
+  BUZZ_PENALTY_MS,
   DEFAULT_CONFIG,
   DIFFICULTIES,
   DIFFICULTY_POINTS,
@@ -633,12 +634,18 @@ export class GameRoom {
     this.questionEndsAt = this.questionStartAt + this.config.questionTimeMs;
 
     if (q.type === "buzzer") {
-      this.buzz = { order: [], current: undefined, lockedOut: [], open: true };
+      this.buzz = { order: [], current: undefined, penalties: {}, open: true };
     }
     if (q.type === "ordre" && q.items) {
       this.shuffledItems = shuffle(q.items);
     }
-    this.schedule(this.config.questionTimeMs, () => this.revealAnswer());
+    // Les questions au buzzer ne s'arretent pas toutes seules : elles durent
+    // jusqu'a une bonne reponse ou jusqu'a ce que l'animateur passe.
+    if (q.type === "buzzer") {
+      this.questionEndsAt = undefined;
+    } else {
+      this.schedule(this.config.questionTimeMs, () => this.revealAnswer());
+    }
     this.emit();
   }
 
@@ -684,7 +691,10 @@ export class GameRoom {
     const q = this.current();
     if (this.phase !== "question" || !q || q.type !== "buzzer" || !this.buzz) return;
     if (!this.buzz.open || this.buzz.current) return;
-    if (this.buzz.lockedOut.includes(teamId) || !this.teams.has(teamId)) return;
+    if (!this.teams.has(teamId)) return;
+    // Refus si l'equipe est encore en penalite de temps.
+    const penaltyEnd = this.buzz.penalties[teamId];
+    if (penaltyEnd && Date.now() < penaltyEnd) return;
     this.buzz.current = teamId;
     this.buzz.open = false;
     this.buzz.order.push(teamId);
@@ -715,22 +725,15 @@ export class GameRoom {
       for (const t of this.teams.values()) if (t.id !== teamId) t.streak = 0;
       this.revealAnswer();
     } else {
+      // Mauvais buzz : petite penalite de temps pour cette equipe, puis le
+      // buzzer rouvre. La question continue jusqu'a une bonne reponse ou
+      // jusqu'a ce que l'animateur la passe (aucune elimination definitive).
       team.streak = 0;
-      this.buzz.lockedOut.push(teamId);
+      this.buzz.penalties[teamId] = Date.now() + BUZZ_PENALTY_MS;
       this.buzz.current = undefined;
       this.buzz.open = true;
       this.playSfx("wrong");
-      const connected = [...this.teams.values()].filter((t) => t.connected);
-      const allLocked = connected.every((t) => this.buzz!.lockedOut.includes(t.id));
-      if (connected.length > 0 && allLocked) {
-        this.revealAnswer(); // personne n'a trouve
-      } else {
-        // Rouvre le buzzer avec une nouvelle fenetre.
-        this.questionStartAt = Date.now();
-        this.questionEndsAt = this.questionStartAt + this.config.questionTimeMs;
-        this.schedule(this.config.questionTimeMs, () => this.revealAnswer());
-        this.emit();
-      }
+      this.emit();
     }
   }
 

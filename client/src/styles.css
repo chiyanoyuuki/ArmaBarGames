@@ -1831,3 +1831,11 @@ button.home-card {
     display: none;
   }
 }
+
+/* Compte à rebours de pénalité de buzz (téléphone). */
+.penalty-count {
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--gold);
+  margin: 4px 0;
+}
