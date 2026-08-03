@@ -1,0 +1,1005 @@
+{
+  "universeId": "league-of-legends",
+  "questions": [
+    {
+      "id": "lol-f1",
+      "difficulty": "facile",
+      "type": "buzzer",
+      "text": "Quel studio américain a créé et édite ce célèbre jeu en ligne compétitif ?",
+      "answer": "Riot Games"
+    },
+    {
+      "id": "lol-f2",
+      "difficulty": "facile",
+      "text": "À quel genre de jeu vidéo appartient le titre, opposant deux équipes sur une carte ?",
+      "options": [
+        { "id": "a", "label": "Un MOBA" },
+        { "id": "b", "label": "Un FPS" },
+        { "id": "c", "label": "Un jeu de course" },
+        { "id": "d", "label": "Un city-builder" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-f3",
+      "difficulty": "facile",
+      "type": "estimation",
+      "text": "Combien de joueurs composent chaque équipe dans une partie classée classique ?",
+      "answerValue": 5,
+      "unit": "joueurs"
+    },
+    {
+      "id": "lol-f4",
+      "difficulty": "facile",
+      "text": "Quel est le but principal d'une partie ?",
+      "options": [
+        { "id": "a", "label": "Détruire le Nexus adverse" },
+        { "id": "b", "label": "Marquer le plus de buts" },
+        { "id": "c", "label": "Finir premier de la course" },
+        { "id": "d", "label": "Capturer un drapeau" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-f5",
+      "difficulty": "facile",
+      "text": "Comment appelle-t-on la carte principale où se joue le mode classique 5 contre 5 ?",
+      "options": [
+        { "id": "a", "label": "La Faille de l'invocateur" },
+        { "id": "b", "label": "L'Abîme hurlant" },
+        { "id": "c", "label": "La Forêt torturée" },
+        { "id": "d", "label": "Le Cercle du chaos" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-f6",
+      "difficulty": "facile",
+      "text": "Faut-il payer pour télécharger et commencer à jouer ?",
+      "options": [
+        { "id": "a", "label": "Gratuit (free-to-play)" },
+        { "id": "b", "label": "Payant à l'achat" },
+        { "id": "c", "label": "Sur abonnement mensuel" },
+        { "id": "d", "label": "Uniquement en location" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-f7",
+      "difficulty": "facile",
+      "type": "estimation",
+      "text": "Combien d'ennemis faut-il tuer coup sur coup pour réaliser un « Pentakill » ?",
+      "answerValue": 5,
+      "unit": "ennemis"
+    },
+    {
+      "id": "lol-f8",
+      "difficulty": "facile",
+      "text": "Comment appelle-t-on les personnages jouables, chacun avec ses propres capacités ?",
+      "options": [
+        { "id": "a", "label": "Les champions" },
+        { "id": "b", "label": "Les héros" },
+        { "id": "c", "label": "Les agents" },
+        { "id": "d", "label": "Les avatars" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-f9",
+      "difficulty": "facile",
+      "type": "buzzer",
+      "text": "Quelle série animée Netflix, primée aux Emmy, est tirée de cet univers ?",
+      "answer": "Arcane"
+    },
+    {
+      "id": "lol-f10",
+      "difficulty": "facile",
+      "text": "Comment appelle-t-on les petites créatures qui déferlent en continu sur chaque voie pour attaquer ?",
+      "options": [
+        { "id": "a", "label": "Les sbires (minions)" },
+        { "id": "b", "label": "Les golems" },
+        { "id": "c", "label": "Les zombies" },
+        { "id": "d", "label": "Les drones" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-m1",
+      "difficulty": "moyen",
+      "type": "estimation",
+      "text": "Combien de voies (lanes) relient les deux bases sur la carte principale ?",
+      "answerValue": 3,
+      "unit": "voies"
+    },
+    {
+      "id": "lol-m2",
+      "difficulty": "moyen",
+      "text": "Comment appelle-t-on le joueur qui évolue entre les voies pour tuer les monstres neutres ?",
+      "options": [
+        { "id": "a", "label": "Le jungler" },
+        { "id": "b", "label": "Le support" },
+        { "id": "c", "label": "Le mid" },
+        { "id": "d", "label": "Le top" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-m3",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel sort d'invocateur, emblématique, permet de se téléporter instantanément sur une courte distance ?",
+      "answer": "Flash"
+    },
+    {
+      "id": "lol-m4",
+      "difficulty": "moyen",
+      "text": "Quel sort d'invocateur est indispensable au jungler pour vaincre les gros monstres neutres ?",
+      "options": [
+        { "id": "a", "label": "Châtiment (Smite)" },
+        { "id": "b", "label": "Embrasement (Ignite)" },
+        { "id": "c", "label": "Téléportation" },
+        { "id": "d", "label": "Soin" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-m5",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel énorme monstre violet, le plus puissant de la carte, donne un puissant bonus à l'équipe qui l'abat ?",
+      "answer": "Le Baron Nashor"
+    },
+    {
+      "id": "lol-m6",
+      "difficulty": "moyen",
+      "text": "Quelle créature reptilienne, tuée plusieurs fois, finit par offrir un « âme » élémentaire à l'équipe ?",
+      "options": [
+        { "id": "a", "label": "Le Dragon" },
+        { "id": "b", "label": "Le Baron" },
+        { "id": "c", "label": "Le crabe" },
+        { "id": "d", "label": "Le golem bleu" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-m7",
+      "difficulty": "moyen",
+      "text": "Quelles structures défensives, alignées sur chaque voie, tirent sur les ennemis qui s'approchent ?",
+      "options": [
+        { "id": "a", "label": "Les tourelles" },
+        { "id": "b", "label": "Les murailles" },
+        { "id": "c", "label": "Les pièges" },
+        { "id": "d", "label": "Les catapultes" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-m8",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on la toute première élimination d'un joueur dans la partie, annoncée avec fracas ?",
+      "answer": "First Blood"
+    },
+    {
+      "id": "lol-m9",
+      "difficulty": "moyen",
+      "text": "Quel champion renarde à neuf queues, séductrice, envoie des orbes et se déplace en série de bonds ?",
+      "options": [
+        { "id": "a", "label": "Ahri" },
+        { "id": "b", "label": "Lux" },
+        { "id": "c", "label": "Jinx" },
+        { "id": "d", "label": "Sona" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-m10",
+      "difficulty": "moyen",
+      "text": "Quel bretteur exilé, cheveux attachés, manie l'épée et le vent avec sa réplique « la mort est comme le vent » ?",
+      "options": [
+        { "id": "a", "label": "Yasuo" },
+        { "id": "b", "label": "Zed" },
+        { "id": "c", "label": "Garen" },
+        { "id": "d", "label": "Darius" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-m11",
+      "difficulty": "moyen",
+      "text": "Quelle criminelle survoltée aux cheveux bleus manie une mitraillette et un lance-roquettes nommé « Fishbones » ?",
+      "options": [
+        { "id": "a", "label": "Jinx" },
+        { "id": "b", "label": "Vi" },
+        { "id": "c", "label": "Caitlyn" },
+        { "id": "d", "label": "Miss Fortune" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-m12",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel robot d'acier attrape un ennemi à distance avec son poing-grappin pour l'attirer vers lui ?",
+      "answer": "Blitzcrank"
+    },
+    {
+      "id": "lol-m13",
+      "difficulty": "moyen",
+      "text": "Quel joueur sud-coréen est considéré comme le plus grand de l'histoire, surnommé « le Démon-Roi » ?",
+      "options": [
+        { "id": "a", "label": "Faker" },
+        { "id": "b", "label": "Uzi" },
+        { "id": "c", "label": "Caps" },
+        { "id": "d", "label": "Bjergsen" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-m14",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on le grand tournoi mondial annuel qui couronne la meilleure équipe de la saison ?",
+      "answer": "Les Worlds"
+    },
+    {
+      "id": "lol-m15",
+      "difficulty": "moyen",
+      "text": "Quel poste occupe le joueur qui accompagne et protège le tireur sur la voie du bas ?",
+      "options": [
+        { "id": "a", "label": "Le support" },
+        { "id": "b", "label": "Le jungler" },
+        { "id": "c", "label": "Le mid" },
+        { "id": "d", "label": "Le top" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-m16",
+      "difficulty": "moyen",
+      "text": "Quel groupe de K-pop virtuel, créé par le studio, cartonne avec le titre « POP/STARS » ?",
+      "options": [
+        { "id": "a", "label": "K/DA" },
+        { "id": "b", "label": "Pentakill" },
+        { "id": "c", "label": "True Damage" },
+        { "id": "d", "label": "Blackpink" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-m17",
+      "difficulty": "moyen",
+      "text": "Quel spin-off, jeu d'auto-battler avec des pièces sur un plateau, est dérivé de la licence ?",
+      "options": [
+        { "id": "a", "label": "Teamfight Tactics" },
+        { "id": "b", "label": "Valorant" },
+        { "id": "c", "label": "Legends of Runeterra" },
+        { "id": "d", "label": "Wild Rift" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-m18",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle la version mobile du jeu, adaptée pour smartphones ?",
+      "options": [
+        { "id": "a", "label": "Wild Rift" },
+        { "id": "b", "label": "Teamfight Tactics" },
+        { "id": "c", "label": "Mobile Legends" },
+        { "id": "d", "label": "Pocket Rift" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-m19",
+      "difficulty": "moyen",
+      "text": "Quel colosse de pierre en armure lourde envoie une capacité ultime en fonçant sur toute la carte ?",
+      "options": [
+        { "id": "a", "label": "Malphite" },
+        { "id": "b", "label": "Garen" },
+        { "id": "c", "label": "Darius" },
+        { "id": "d", "label": "Sett" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-m20",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel petit éclaireur yordle, tout mignon, dissimule des champignons toxiques sur le sol ?",
+      "answer": "Teemo"
+    },
+    {
+      "id": "lol-d1",
+      "difficulty": "dur",
+      "type": "estimation",
+      "text": "En quelle année le jeu est-il sorti pour la première fois ?",
+      "answerValue": 2009,
+      "unit": ""
+    },
+    {
+      "id": "lol-d2",
+      "difficulty": "dur",
+      "text": "Comment s'appelle le trophée remis aux vainqueurs du championnat du monde ?",
+      "options": [
+        { "id": "a", "label": "La Coupe de l'invocateur" },
+        { "id": "b", "label": "Le Baron d'or" },
+        { "id": "c", "label": "La Faille d'argent" },
+        { "id": "d", "label": "Le Nexus doré" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-d3",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quelle équipe sud-coréenne mythique, celle du meilleur joueur du monde, a remporté de nombreux titres mondiaux ?",
+      "answer": "T1"
+    },
+    {
+      "id": "lol-d4",
+      "difficulty": "dur",
+      "text": "Dans quelles deux cités opposées, l'une prospère en haut et l'autre souterraine, se déroule la série animée ?",
+      "options": [
+        { "id": "a", "label": "Piltover et Zaun" },
+        { "id": "b", "label": "Demacia et Noxus" },
+        { "id": "c", "label": "Ionia et Ixtal" },
+        { "id": "d", "label": "Targon et Shurima" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-d5",
+      "difficulty": "dur",
+      "text": "Dans la série animée, quelles deux héroïnes sont en réalité des sœurs séparées par le drame ?",
+      "options": [
+        { "id": "a", "label": "Vi et Jinx" },
+        { "id": "b", "label": "Caitlyn et Vi" },
+        { "id": "c", "label": "Jinx et Caitlyn" },
+        { "id": "d", "label": "Mel et Sevika" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-d6",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel chef de la pègre souterraine, borgne et impitoyable, est le grand antagoniste de la première saison de la série animée ?",
+      "answer": "Silco"
+    },
+    {
+      "id": "lol-d7",
+      "difficulty": "dur",
+      "text": "Quel royaume, cité de la lumière et de la justice, est la patrie de Garen et de Lux ?",
+      "options": [
+        { "id": "a", "label": "Demacia" },
+        { "id": "b", "label": "Noxus" },
+        { "id": "c", "label": "Ionia" },
+        { "id": "d", "label": "Freljord" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-d8",
+      "difficulty": "dur",
+      "text": "Quel empire guerrier et expansionniste, rival de la cité de la lumière, compte Darius et Katarina ?",
+      "options": [
+        { "id": "a", "label": "Noxus" },
+        { "id": "b", "label": "Demacia" },
+        { "id": "c", "label": "Piltover" },
+        { "id": "d", "label": "Bilgewater" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-d9",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on le monde imaginaire dans lequel se déroulent toutes les intrigues et régions de l'univers ?",
+      "answer": "Runeterra"
+    },
+    {
+      "id": "lol-d10",
+      "difficulty": "dur",
+      "text": "Quel rang, tout en haut de l'échelle classée, réunit les meilleurs joueurs du serveur ?",
+      "options": [
+        { "id": "a", "label": "Challenger" },
+        { "id": "b", "label": "Diamant" },
+        { "id": "c", "label": "Master" },
+        { "id": "d", "label": "Platine" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-d11",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel monstre-limace, tué tôt dans la partie, laisse un « œil » qui charge et défonce les tourelles ?",
+      "answer": "Le Héraut de la Faille"
+    },
+    {
+      "id": "lol-d12",
+      "difficulty": "dur",
+      "text": "Comment appelle-t-on les structures qui, une fois détruites, laissent apparaître des sbires surpuissants pour l'ennemi ?",
+      "options": [
+        { "id": "a", "label": "Les inhibiteurs" },
+        { "id": "b", "label": "Les tourelles" },
+        { "id": "c", "label": "Les totems" },
+        { "id": "d", "label": "Les balises" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-d13",
+      "difficulty": "dur",
+      "text": "Quel maître d'armes aveugle du monastère combat à mains nues et frappe d'un coup de pied dévastateur ?",
+      "options": [
+        { "id": "a", "label": "Lee Sin" },
+        { "id": "b", "label": "Master Yi" },
+        { "id": "c", "label": "Zed" },
+        { "id": "d", "label": "Jax" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-d14",
+      "difficulty": "dur",
+      "text": "Quel maître des ombres, ninja renégat, projette un clone pour exécuter ses ennemis ?",
+      "options": [
+        { "id": "a", "label": "Zed" },
+        { "id": "b", "label": "Yasuo" },
+        { "id": "c", "label": "Akali" },
+        { "id": "d", "label": "Kayn" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-d15",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel gardien des âmes, geôlier squelettique, attrape ses proies avec une chaîne et pose une lanterne pour ses alliés ?",
+      "answer": "Thresh"
+    },
+    {
+      "id": "lol-d16",
+      "difficulty": "dur",
+      "text": "Quelle région insulaire maudite, brumeuse et hantée, abrite les morts-vivants comme Thresh et Hécarim ?",
+      "options": [
+        { "id": "a", "label": "Les Îles Obscures" },
+        { "id": "b", "label": "Bilgewater" },
+        { "id": "c", "label": "Le Freljord" },
+        { "id": "d", "label": "Ixtal" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-d17",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quels deux fondateurs américains ont créé le studio en 2006 ?",
+      "answer": "Brandon Beck et Marc Merrill"
+    },
+    {
+      "id": "lol-d18",
+      "difficulty": "dur",
+      "text": "Quel autre jeu du même studio, jeu de cartes à collectionner, reprend les champions et les régions du même univers ?",
+      "options": [
+        { "id": "a", "label": "Legends of Runeterra" },
+        { "id": "b", "label": "Hearthstone" },
+        { "id": "c", "label": "Teamfight Tactics" },
+        { "id": "d", "label": "Valorant" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-d19",
+      "difficulty": "dur",
+      "text": "Quel groupe de metal virtuel, autre projet musical du studio, réunit des champions comme Karthus et Mordekaiser ?",
+      "options": [
+        { "id": "a", "label": "Pentakill" },
+        { "id": "b", "label": "K/DA" },
+        { "id": "c", "label": "True Damage" },
+        { "id": "d", "label": "Heartsteel" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-d20",
+      "difficulty": "dur",
+      "text": "Quel duo de scientifiques, amis puis ennemis, invente la technologie « hextech » dans la série animée ?",
+      "options": [
+        { "id": "a", "label": "Jayce et Viktor" },
+        { "id": "b", "label": "Ekko et Heimerdinger" },
+        { "id": "c", "label": "Silco et Singed" },
+        { "id": "d", "label": "Vi et Caitlyn" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-d21",
+      "difficulty": "dur",
+      "text": "Quelle ligue régie l'élite européenne du jeu compétitif ?",
+      "options": [
+        { "id": "a", "label": "La LEC" },
+        { "id": "b", "label": "La LCK" },
+        { "id": "c", "label": "La LPL" },
+        { "id": "d", "label": "La LCS" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-d22",
+      "difficulty": "dur",
+      "text": "Dans quelle ligue asiatique évoluent les meilleures équipes sud-coréennes ?",
+      "options": [
+        { "id": "a", "label": "La LCK" },
+        { "id": "b", "label": "La LEC" },
+        { "id": "c", "label": "La LPL" },
+        { "id": "d", "label": "La LLA" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-d23",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on le moment, avant chaque partie classée, où les équipes bannissent et choisissent tour à tour leurs champions ?",
+      "answer": "La phase de pick and ban"
+    },
+    {
+      "id": "lol-d24",
+      "difficulty": "dur",
+      "text": "Quelle créature colossale, plus puissante que toutes les autres, apparaît quand une équipe a déjà obtenu son âme élémentaire ?",
+      "options": [
+        { "id": "a", "label": "Le Dragon ancestral" },
+        { "id": "b", "label": "Le Baron Nashor" },
+        { "id": "c", "label": "Le Héraut" },
+        { "id": "d", "label": "Le drake infernal" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-d25",
+      "difficulty": "dur",
+      "text": "Quel gardien des sables, chien-momie qui grandit sans fin, vient de la région désertique de Shurima ?",
+      "options": [
+        { "id": "a", "label": "Nasus" },
+        { "id": "b", "label": "Renekton" },
+        { "id": "c", "label": "Azir" },
+        { "id": "d", "label": "Xerath" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-d26",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel démon de la haine, autrefois humain nommé Aatreus, est une immense épée-guerrier assoiffée de destruction ?",
+      "answer": "Aatrox"
+    },
+    {
+      "id": "lol-d27",
+      "difficulty": "dur",
+      "text": "Quelle chanson d'Imagine Dragons sert de générique explosif à la série animée ?",
+      "options": [
+        { "id": "a", "label": "Enemy" },
+        { "id": "b", "label": "Believer" },
+        { "id": "c", "label": "Legends Never Die" },
+        { "id": "d", "label": "Thunder" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-d28",
+      "difficulty": "dur",
+      "text": "Combien de dragons élémentaires une équipe doit-elle tuer pour obtenir son « âme » du dragon ?",
+      "options": [
+        { "id": "a", "label": "4" },
+        { "id": "b", "label": "2" },
+        { "id": "c", "label": "6" },
+        { "id": "d", "label": "1" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-d29",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel épéiste, frère de Yasuo revenu de la mort, chasse les démons avec ses deux lames ?",
+      "answer": "Yone"
+    },
+    {
+      "id": "lol-d30",
+      "difficulty": "dur",
+      "text": "Quelle enforcer de Piltover, grande dame au chapeau, traque les criminels avec son immense fusil de précision ?",
+      "options": [
+        { "id": "a", "label": "Caitlyn" },
+        { "id": "b", "label": "Vi" },
+        { "id": "c", "label": "Miss Fortune" },
+        { "id": "d", "label": "Ashe" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-p1",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "Combien de champions jouables le jeu propose-t-il environ (à quelques unités près) ?",
+      "answerValue": 168,
+      "unit": "champions"
+    },
+    {
+      "id": "lol-p2",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel est le vrai nom du joueur sud-coréen surnommé « Faker » ?",
+      "answer": "Lee Sang-hyeok"
+    },
+    {
+      "id": "lol-p3",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel tout premier champion, un colosse arboricole, apparaît en tête de la liste alphabétique du jeu ?",
+      "answer": "Aatrox"
+    },
+    {
+      "id": "lol-p4",
+      "difficulty": "pro",
+      "text": "Quel studio d'animation français a réalisé la série Netflix tirée du jeu ?",
+      "options": [
+        { "id": "a", "label": "Fortiche" },
+        { "id": "b", "label": "Ankama" },
+        { "id": "c", "label": "Ufotable" },
+        { "id": "d", "label": "Illumination" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-p5",
+      "difficulty": "pro",
+      "text": "Quel empereur ressuscité de Shurima, commandant une armée de soldats de sable, façonne le terrain à coups d'oiseaux-soldats ?",
+      "options": [
+        { "id": "a", "label": "Azir" },
+        { "id": "b", "label": "Nasus" },
+        { "id": "c", "label": "Sivir" },
+        { "id": "d", "label": "Renekton" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-p6",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel champion-roi déchu des Îles Obscures, à l'origine de la Ruine, possède les corps de ses ennemis dans un jeu récent ?",
+      "answer": "Viego"
+    },
+    {
+      "id": "lol-p7",
+      "difficulty": "pro",
+      "text": "Quelle région ninja et spirituelle, en équilibre entre nature et magie, est la patrie de Yasuo, Zed et Akali ?",
+      "options": [
+        { "id": "a", "label": "Ionia" },
+        { "id": "b", "label": "Demacia" },
+        { "id": "c", "label": "Noxus" },
+        { "id": "d", "label": "Shurima" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-p8",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on, terme générique, les grands pouvoirs (infernal, océan, montagne, nuage) obtenus après avoir tué assez de dragons ?",
+      "answer": "Les âmes élémentaires"
+    },
+    {
+      "id": "lol-p9",
+      "difficulty": "pro",
+      "text": "Quel objet légendaire, symbole des tireurs, garantit des coups critiques dévastateurs ?",
+      "options": [
+        { "id": "a", "label": "La Lame d'infini (Infinity Edge)" },
+        { "id": "b", "label": "Le Chuchoteur mortel" },
+        { "id": "c", "label": "La Dent de Nashor" },
+        { "id": "d", "label": "Le Gantelet de glace" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-p10",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelles améliorations, choisies avant la partie, personnalisent un champion via un arbre principal et secondaire ?",
+      "answer": "Les runes"
+    },
+    {
+      "id": "lol-p11",
+      "difficulty": "pro",
+      "text": "Quel rang, ajouté en 2023, s'intercale entre Platine et Diamant ?",
+      "options": [
+        { "id": "a", "label": "Émeraude" },
+        { "id": "b", "label": "Rubis" },
+        { "id": "c", "label": "Saphir" },
+        { "id": "d", "label": "Cobalt" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-p12",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelle inventrice-enfant de Zaun, dans la série animée, remonte le temps grâce à son appareil au poignet ?",
+      "answer": "Ekko"
+    },
+    {
+      "id": "lol-p13",
+      "difficulty": "pro",
+      "text": "Quel yordle savant à grande moustache, inventeur génial, apparaît aussi bien dans le jeu que dans la série animée ?",
+      "options": [
+        { "id": "a", "label": "Heimerdinger" },
+        { "id": "b", "label": "Teemo" },
+        { "id": "c", "label": "Ziggs" },
+        { "id": "d", "label": "Corki" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-p14",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelle chanson de la cérémonie des Worlds 2017, hymne devenu culte, parle de légendes qui ne meurent jamais ?",
+      "answer": "Legends Never Die"
+    },
+    {
+      "id": "lol-p15",
+      "difficulty": "pro",
+      "text": "Quelle ligue chinoise, l'une des plus fortes au monde, produit de redoutables équipes au championnat mondial ?",
+      "options": [
+        { "id": "a", "label": "La LPL" },
+        { "id": "b", "label": "La LCK" },
+        { "id": "c", "label": "La LEC" },
+        { "id": "d", "label": "La PCS" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-p16",
+      "difficulty": "pro",
+      "text": "Quelle championne, chasseresse du Vide en combinaison, est l'une des quatre membres du groupe virtuel K/DA ?",
+      "options": [
+        { "id": "a", "label": "Kai'Sa" },
+        { "id": "b", "label": "Ahri" },
+        { "id": "c", "label": "Akali" },
+        { "id": "d", "label": "Evelynn" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-p17",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on l'assassin ninja qui, selon ses choix, se transforme en assassin bleu Rhaast ou en ombre rouge ?",
+      "answer": "Kayn"
+    },
+    {
+      "id": "lol-p18",
+      "difficulty": "pro",
+      "text": "Quel monstre-buff de la jungle rend les capacités moins coûteuses au champion qui l'élimine ?",
+      "options": [
+        { "id": "a", "label": "Le Golem bleu (Sentinelle)" },
+        { "id": "b", "label": "Le Krug" },
+        { "id": "c", "label": "Le Gromp" },
+        { "id": "d", "label": "Le crabe des sables" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-p19",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel petit crustacé neutre, dans la rivière, offre une vision précieuse à qui le capture ?",
+      "answer": "Le crabe pillard (Scuttler)"
+    },
+    {
+      "id": "lol-p20",
+      "difficulty": "pro",
+      "text": "En quelle année la première saison de la série animée est-elle sortie sur Netflix ?",
+      "options": [
+        { "id": "a", "label": "2021" },
+        { "id": "b", "label": "2019" },
+        { "id": "c", "label": "2023" },
+        { "id": "d", "label": "2020" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-p21",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel champion-fléau du Vide, insecte sauteur qui évolue en combat, chasse les proies les plus faibles ?",
+      "answer": "Kha'Zix"
+    },
+    {
+      "id": "lol-p22",
+      "difficulty": "pro",
+      "text": "Quel bras droit borgne et tatoué de Silco, dans la série animée, reste fidèle à la cause de Zaun ?",
+      "options": [
+        { "id": "a", "label": "Sevika" },
+        { "id": "b", "label": "Mel" },
+        { "id": "c", "label": "Vi" },
+        { "id": "d", "label": "Ambessa" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-p23",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel titre de champion la reine barbare Ashe porte-t-elle, unificatrice des tribus du Freljord ?",
+      "answer": "L'Archère du gel"
+    },
+    {
+      "id": "lol-p24",
+      "difficulty": "pro",
+      "text": "Quel spin-off de tir tactique de Riot Games, tout en restant un studio commun, n'appartient PAS à l'univers de Runeterra ?",
+      "options": [
+        { "id": "a", "label": "Valorant" },
+        { "id": "b", "label": "Wild Rift" },
+        { "id": "c", "label": "Teamfight Tactics" },
+        { "id": "d", "label": "Legends of Runeterra" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-p25",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quelle boisson magique, achetée en base, restaure vie et mana au fil du temps en début de partie ?",
+      "answer": "La potion"
+    },
+    {
+      "id": "lol-p26",
+      "difficulty": "pro",
+      "text": "Qui peut réaliser un « Pentakill » en éliminant seul les cinq adversaires ?",
+      "options": [
+        { "id": "a", "label": "Tous les champions" },
+        { "id": "b", "label": "Uniquement Karthus" },
+        { "id": "c", "label": "Uniquement Master Yi" },
+        { "id": "d", "label": "Uniquement Katarina" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-p27",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel champion-comptable de la mort, chantre squelettique, inflige des dégâts à toute la carte avec son ultime « Requiem » ?",
+      "answer": "Karthus"
+    },
+    {
+      "id": "lol-p28",
+      "difficulty": "pro",
+      "text": "Quelle cité pirate et sans foi ni loi, port des chasseurs de monstres marins, abrite Gangplank et Miss Fortune ?",
+      "options": [
+        { "id": "a", "label": "Bilgewater" },
+        { "id": "b", "label": "Piltover" },
+        { "id": "c", "label": "Zaun" },
+        { "id": "d", "label": "Ixtal" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-p29",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel capitaine pirate à la barbe et au pistolet, roi déchu de la cité portuaire, réduit ses ennemis à coups de canon ?",
+      "answer": "Gangplank"
+    },
+    {
+      "id": "lol-p30",
+      "difficulty": "pro",
+      "text": "Quelle région montagneuse céleste, tournée vers les astres et le soleil, est la patrie de Leona, Diana et Pantheon ?",
+      "options": [
+        { "id": "a", "label": "Targon" },
+        { "id": "b", "label": "Ionia" },
+        { "id": "c", "label": "Freljord" },
+        { "id": "d", "label": "Ixtal" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-p31",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel dragon céleste géant, un des plus vieux êtres de l'univers, manie les étoiles et fut longtemps le champion le plus complexe à jouer ?",
+      "answer": "Aurelion Sol"
+    },
+    {
+      "id": "lol-p32",
+      "difficulty": "pro",
+      "text": "Quelle générale noxienne, mère de Mel et redoutable stratège, prend de l'importance dans la deuxième saison de la série animée ?",
+      "options": [
+        { "id": "a", "label": "Ambessa" },
+        { "id": "b", "label": "Sevika" },
+        { "id": "c", "label": "Caitlyn" },
+        { "id": "d", "label": "Vi" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-p33",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on le fait de tuer un sbire au dernier instant pour récupérer sa prime d'or ?",
+      "answer": "Le last hit"
+    },
+    {
+      "id": "lol-p34",
+      "difficulty": "pro",
+      "text": "Quel poste désigne le tireur qui inflige des dégâts à distance sur la voie du bas, souvent abrégé en trois lettres ?",
+      "options": [
+        { "id": "a", "label": "ADC" },
+        { "id": "b", "label": "APC" },
+        { "id": "c", "label": "AFK" },
+        { "id": "d", "label": "CDR" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-p35",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel monstre-buff de la jungle ajoute des dégâts brûlants et un ralentissement aux attaques du champion qui l'abat ?",
+      "answer": "Le Broyeur rouge"
+    },
+    {
+      "id": "lol-p36",
+      "difficulty": "pro",
+      "text": "Quel champion combattant de rue, à la fois charmeur et brutal, est né du croisement d'Ionia et de Noxus (« le Boss ») ?",
+      "options": [
+        { "id": "a", "label": "Sett" },
+        { "id": "b", "label": "Sylas" },
+        { "id": "c", "label": "Aphelios" },
+        { "id": "d", "label": "Rell" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-p37",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on l'événement, en fin de cycle classé, où les récompenses sont distribuées puis le classement remis à zéro ?",
+      "answer": "Le reset de saison"
+    },
+    {
+      "id": "lol-p38",
+      "difficulty": "pro",
+      "text": "Quel joueur européen star, mid emblématique surnommé « le Roi de l'Ouest », a longtemps porté l'équipe G2 ?",
+      "options": [
+        { "id": "a", "label": "Caps" },
+        { "id": "b", "label": "Rekkles" },
+        { "id": "c", "label": "Perkz" },
+        { "id": "d", "label": "Jankos" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "lol-p39",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on la ressource bleue, sous la barre de vie, que la plupart des champions dépensent pour lancer leurs sorts ?",
+      "answer": "Le mana"
+    },
+    {
+      "id": "lol-p40",
+      "difficulty": "pro",
+      "text": "Quelle jeune inventrice de Zaun, héroïne de la série animée, devient la championne connue sous un autre nom lié aux explosifs ?",
+      "options": [
+        { "id": "a", "label": "Powder, devenue Jinx" },
+        { "id": "b", "label": "Vi" },
+        { "id": "c", "label": "Caitlyn" },
+        { "id": "d", "label": "Zeri" }
+      ],
+      "correctOptionId": "a"
+    }
+  ]
+}
