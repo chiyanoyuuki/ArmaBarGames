@@ -35,6 +35,8 @@
     { "id": "world-of-warcraft", "name": "World of Warcraft", "themeId": "jeux-video", "emoji": "⚔️" },
     { "id": "super-mario", "name": "Super Mario", "themeId": "jeux-video", "emoji": "🍄" },
     { "id": "dofus", "name": "Dofus", "themeId": "jeux-video", "emoji": "🥚" },
+    { "id": "minecraft", "name": "Minecraft", "themeId": "jeux-video", "emoji": "⛏️" },
+    { "id": "league-of-legends", "name": "League of Legends", "themeId": "jeux-video", "emoji": "🧙" },
     { "id": "ed-sheeran", "name": "Ed Sheeran", "themeId": "musique", "emoji": "🎸" },
     { "id": "rock-classique", "name": "Rock classique", "themeId": "musique", "emoji": "🤘" },
     { "id": "musique-tubes", "name": "Musique (tubes & variété)", "themeId": "musique", "emoji": "🎤" },

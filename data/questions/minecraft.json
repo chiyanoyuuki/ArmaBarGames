@@ -1,0 +1,998 @@
+{
+  "universeId": "minecraft",
+  "questions": [
+    {
+      "id": "mc-f1",
+      "difficulty": "facile",
+      "text": "De quelle forme géométrique sont faits presque tous les éléments du monde du jeu ?",
+      "options": [
+        { "id": "a", "label": "Des cubes" },
+        { "id": "b", "label": "Des sphères" },
+        { "id": "c", "label": "Des pyramides" },
+        { "id": "d", "label": "Des cylindres" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-f2",
+      "difficulty": "facile",
+      "text": "Quelle créature verte s'approche en silence et explose près du joueur ?",
+      "options": [
+        { "id": "a", "label": "Le Creeper" },
+        { "id": "b", "label": "Le zombie" },
+        { "id": "c", "label": "L'araignée" },
+        { "id": "d", "label": "Le cochon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-f3",
+      "difficulty": "facile",
+      "text": "Quelle gemme bleue et brillante est le minerai le plus convoité pour fabriquer le meilleur équipement classique ?",
+      "options": [
+        { "id": "a", "label": "Le diamant" },
+        { "id": "b", "label": "Le charbon" },
+        { "id": "c", "label": "Le fer" },
+        { "id": "d", "label": "L'or" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-f4",
+      "difficulty": "facile",
+      "text": "Comment s'appelle le personnage masculin par défaut du jeu ?",
+      "options": [
+        { "id": "a", "label": "Steve" },
+        { "id": "b", "label": "Mario" },
+        { "id": "c", "label": "Link" },
+        { "id": "d", "label": "Herobrine" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-f5",
+      "difficulty": "facile",
+      "text": "Que fait le joueur pour transformer des ressources en objets, sur une grille dédiée ?",
+      "options": [
+        { "id": "a", "label": "Il fabrique (craft)" },
+        { "id": "b", "label": "Il achète" },
+        { "id": "c", "label": "Il pêche" },
+        { "id": "d", "label": "Il vote" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-f6",
+      "difficulty": "facile",
+      "type": "buzzer",
+      "text": "Quel outil le joueur utilise-t-il pour casser la pierre et extraire les minerais ?",
+      "answer": "La pioche"
+    },
+    {
+      "id": "mc-f7",
+      "difficulty": "facile",
+      "text": "Dans quelle façon de jouer faut-il se nourrir et se défendre contre les monstres ?",
+      "options": [
+        { "id": "a", "label": "Le mode Survie" },
+        { "id": "b", "label": "Le mode Créatif" },
+        { "id": "c", "label": "Le mode Spectateur" },
+        { "id": "d", "label": "Le mode Aventure" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-f8",
+      "difficulty": "facile",
+      "text": "Dans quelle façon de jouer le joueur a-t-il toutes les ressources en illimité et peut voler librement ?",
+      "options": [
+        { "id": "a", "label": "Le mode Créatif" },
+        { "id": "b", "label": "Le mode Survie" },
+        { "id": "c", "label": "Le mode Hardcore" },
+        { "id": "d", "label": "Le mode Aventure" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-f9",
+      "difficulty": "facile",
+      "text": "Quel monstre nocturne à ossements blancs tire des flèches sur le joueur ?",
+      "options": [
+        { "id": "a", "label": "Le squelette" },
+        { "id": "b", "label": "Le Creeper" },
+        { "id": "c", "label": "Le villageois" },
+        { "id": "d", "label": "Le loup" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-f10",
+      "difficulty": "facile",
+      "text": "Quel animal à laine le joueur tond-il pour récupérer de quoi fabriquer un lit ?",
+      "options": [
+        { "id": "a", "label": "Le mouton" },
+        { "id": "b", "label": "La vache" },
+        { "id": "c", "label": "Le cochon" },
+        { "id": "d", "label": "La poule" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-m1",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel studio suédois a développé le célèbre jeu de blocs à l'origine ?",
+      "answer": "Mojang"
+    },
+    {
+      "id": "mc-m2",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel grand mob noir se téléporte, ramasse des blocs et déteste qu'on le regarde dans les yeux ?",
+      "answer": "L'Enderman"
+    },
+    {
+      "id": "mc-m3",
+      "difficulty": "moyen",
+      "text": "Comment s'appelle la dimension rougeoyante et infernale, remplie de lave ?",
+      "options": [
+        { "id": "a", "label": "Le Nether" },
+        { "id": "b", "label": "L'End" },
+        { "id": "c", "label": "L'Overworld" },
+        { "id": "d", "label": "Le Void" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-m4",
+      "difficulty": "moyen",
+      "text": "Quel bloc violet et indestructible sert à construire le cadre d'un portail vers la dimension infernale ?",
+      "options": [
+        { "id": "a", "label": "L'obsidienne" },
+        { "id": "b", "label": "Le grès" },
+        { "id": "c", "label": "La roche" },
+        { "id": "d", "label": "Le quartz" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-m5",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Avec quel objet allume-t-on un portail une fois son cadre en obsidienne construit ?",
+      "answer": "Un briquet"
+    },
+    {
+      "id": "mc-m6",
+      "difficulty": "moyen",
+      "text": "Quel minerai rouge sert à créer des circuits et des mécanismes automatiques ?",
+      "options": [
+        { "id": "a", "label": "La redstone" },
+        { "id": "b", "label": "Le charbon" },
+        { "id": "c", "label": "Le lapis-lazuli" },
+        { "id": "d", "label": "L'émeraude" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-m7",
+      "difficulty": "moyen",
+      "text": "Quelle monnaie verte les villageois acceptent-ils lors des échanges ?",
+      "options": [
+        { "id": "a", "label": "L'émeraude" },
+        { "id": "b", "label": "Le diamant" },
+        { "id": "c", "label": "L'or" },
+        { "id": "d", "label": "Le lingot de fer" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-m8",
+      "difficulty": "moyen",
+      "text": "Quel bloc noir et totalement incassable forme le fond du monde ?",
+      "options": [
+        { "id": "a", "label": "La bedrock" },
+        { "id": "b", "label": "L'obsidienne" },
+        { "id": "c", "label": "Le charbon" },
+        { "id": "d", "label": "Le basalte" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-m9",
+      "difficulty": "moyen",
+      "text": "Quelle grande créature métallique le joueur peut-il construire pour protéger un village ?",
+      "options": [
+        { "id": "a", "label": "Le golem de fer" },
+        { "id": "b", "label": "Le golem de neige" },
+        { "id": "c", "label": "Le gardien" },
+        { "id": "d", "label": "Le ravageur" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-m10",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel bloc explosif rouge, une fois amorcé, détruit tout autour de lui ?",
+      "answer": "Le TNT"
+    },
+    {
+      "id": "mc-m11",
+      "difficulty": "moyen",
+      "text": "Quel appareil sert à cuire les aliments et à fondre les minerais ?",
+      "options": [
+        { "id": "a", "label": "Le four" },
+        { "id": "b", "label": "L'enclume" },
+        { "id": "c", "label": "L'établi" },
+        { "id": "d", "label": "Le chaudron" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-m12",
+      "difficulty": "moyen",
+      "text": "Quel animal sauvage, une fois apprivoisé, devient un compagnon domestique qui défend le joueur ?",
+      "options": [
+        { "id": "a", "label": "Le loup" },
+        { "id": "b", "label": "Le chat" },
+        { "id": "c", "label": "Le renard" },
+        { "id": "d", "label": "Le cheval" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-m13",
+      "difficulty": "moyen",
+      "text": "De quoi le joueur a-t-il besoin pour dormir, passer la nuit et fixer son point de réapparition ?",
+      "options": [
+        { "id": "a", "label": "Un lit" },
+        { "id": "b", "label": "Une tente" },
+        { "id": "c", "label": "Un hamac" },
+        { "id": "d", "label": "Une chaise" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-m14",
+      "difficulty": "moyen",
+      "text": "Quelle barre, en plus de la vie, se vide quand le joueur agit et doit être remplie en mangeant ?",
+      "options": [
+        { "id": "a", "label": "La faim" },
+        { "id": "b", "label": "La soif" },
+        { "id": "c", "label": "L'endurance" },
+        { "id": "d", "label": "Le moral" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-m15",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Quel grand monstre pâle et flottant crache des boules de feu dans la dimension infernale ?",
+      "answer": "Le Ghast"
+    },
+    {
+      "id": "mc-m16",
+      "difficulty": "moyen",
+      "text": "Quel liquide, mélangé à l'eau, crée de l'obsidienne au contact ?",
+      "options": [
+        { "id": "a", "label": "La lave" },
+        { "id": "b", "label": "Le lait" },
+        { "id": "c", "label": "La potion" },
+        { "id": "d", "label": "Le miel" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-m17",
+      "difficulty": "moyen",
+      "text": "Quel véhicule sur rails permet de se déplacer vite dans les mines ?",
+      "options": [
+        { "id": "a", "label": "Le wagonnet" },
+        { "id": "b", "label": "Le bateau" },
+        { "id": "c", "label": "Le cheval" },
+        { "id": "d", "label": "L'elytra" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-m18",
+      "difficulty": "moyen",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on le personnage-fantôme, légende urbaine, qui n'existe pas vraiment dans le jeu ?",
+      "answer": "Herobrine"
+    },
+    {
+      "id": "mc-m19",
+      "difficulty": "moyen",
+      "text": "Quel ingrédient, lâché par les Creepers, sert à fabriquer des explosifs ?",
+      "options": [
+        { "id": "a", "label": "La poudre à canon" },
+        { "id": "b", "label": "La poudre de blaze" },
+        { "id": "c", "label": "Le sucre" },
+        { "id": "d", "label": "La poudre de redstone" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-m20",
+      "difficulty": "moyen",
+      "type": "estimation",
+      "text": "Combien de points de vie (cœurs) le joueur possède-t-il au maximum par défaut ?",
+      "answerValue": 10,
+      "unit": "cœurs"
+    },
+    {
+      "id": "mc-d1",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel programmeur suédois, surnommé « Notch », est le créateur original du jeu ?",
+      "answer": "Markus Persson"
+    },
+    {
+      "id": "mc-d2",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quelle entreprise américaine a racheté le jeu et son studio en 2014 pour environ 2,5 milliards de dollars ?",
+      "answer": "Microsoft"
+    },
+    {
+      "id": "mc-d3",
+      "difficulty": "dur",
+      "text": "Comment s'appelle la dimension finale, faite d'îles flottantes, où vit le boss ailé ?",
+      "options": [
+        { "id": "a", "label": "L'End" },
+        { "id": "b", "label": "Le Nether" },
+        { "id": "c", "label": "L'Overworld" },
+        { "id": "d", "label": "Le Deep Dark" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-d4",
+      "difficulty": "dur",
+      "text": "Quel boss ailé le joueur doit-il vaincre dans la dimension finale pour « finir » le jeu ?",
+      "options": [
+        { "id": "a", "label": "Le Dragon de l'End" },
+        { "id": "b", "label": "Le Wither" },
+        { "id": "c", "label": "Le Gardien ancien" },
+        { "id": "d", "label": "Le Warden" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-d5",
+      "difficulty": "dur",
+      "text": "Comment s'appelle le second boss, à trois têtes, invoqué par le joueur avec des crânes et du sable des âmes ?",
+      "options": [
+        { "id": "a", "label": "Le Wither" },
+        { "id": "b", "label": "Le Dragon de l'End" },
+        { "id": "c", "label": "Le Ravageur" },
+        { "id": "d", "label": "L'Evoker" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-d6",
+      "difficulty": "dur",
+      "text": "Combien de crânes de wither-squelette faut-il pour invoquer le boss à trois têtes ?",
+      "options": [
+        { "id": "a", "label": "3" },
+        { "id": "b", "label": "1" },
+        { "id": "c", "label": "4" },
+        { "id": "d", "label": "6" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-d7",
+      "difficulty": "dur",
+      "text": "Quels objets, lancés, faut-il placer dans un cadre au fond d'un fort pour ouvrir le portail final ?",
+      "options": [
+        { "id": "a", "label": "Les Yeux de l'Ender" },
+        { "id": "b", "label": "Les perles de l'Ender" },
+        { "id": "c", "label": "Les étoiles du Nether" },
+        { "id": "d", "label": "Les totems" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-d8",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quelle structure souterraine géante abrite le cadre du portail vers la dimension finale ?",
+      "answer": "Le fort (stronghold)"
+    },
+    {
+      "id": "mc-d9",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel objet ramassé sur les Endermen permet de se téléporter sur une courte distance ?",
+      "answer": "La perle de l'Ender"
+    },
+    {
+      "id": "mc-d10",
+      "difficulty": "dur",
+      "text": "Quel matériau, le plus résistant du jeu, s'obtient en raffinant des débris antiques trouvés dans la dimension infernale ?",
+      "options": [
+        { "id": "a", "label": "Le netherite" },
+        { "id": "b", "label": "Le diamant" },
+        { "id": "c", "label": "L'obsidienne" },
+        { "id": "d", "label": "Le quartz" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-d11",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel monstre jaune de la dimension infernale lâche des bâtons servant à fabriquer de la poudre pour les potions ?",
+      "answer": "Le Blaze"
+    },
+    {
+      "id": "mc-d12",
+      "difficulty": "dur",
+      "text": "Sur quel meuble, entouré de bibliothèques, le joueur améliore-t-il ses objets avec de l'expérience ?",
+      "options": [
+        { "id": "a", "label": "La table d'enchantement" },
+        { "id": "b", "label": "L'établi" },
+        { "id": "c", "label": "L'enclume" },
+        { "id": "d", "label": "Le métier à tisser" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-d13",
+      "difficulty": "dur",
+      "text": "Quel appareil, avec de la verrue du Nether, sert à préparer les potions ?",
+      "options": [
+        { "id": "a", "label": "L'alambic" },
+        { "id": "b", "label": "Le four" },
+        { "id": "c", "label": "Le chaudron" },
+        { "id": "d", "label": "La table d'enchantement" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-d14",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Comment s'appelle le personnage féminin proposé par défaut, en plus de Steve ?",
+      "answer": "Alex"
+    },
+    {
+      "id": "mc-d15",
+      "difficulty": "dur",
+      "text": "Quel monstre volant attaque les joueurs qui ne dorment pas depuis plusieurs nuits ?",
+      "options": [
+        { "id": "a", "label": "Le Phantom" },
+        { "id": "b", "label": "Le Ghast" },
+        { "id": "c", "label": "La chauve-souris" },
+        { "id": "d", "label": "L'abeille" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-d16",
+      "difficulty": "dur",
+      "text": "Quelles paires d'ailes, trouvées dans les cités de l'End, permettent de planer ?",
+      "options": [
+        { "id": "a", "label": "L'élytra" },
+        { "id": "b", "label": "Le jetpack" },
+        { "id": "c", "label": "La cape" },
+        { "id": "d", "label": "Les plumes" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-d17",
+      "difficulty": "dur",
+      "text": "De quoi les Creepers ont-ils peur, ce qui les fait fuir ?",
+      "options": [
+        { "id": "a", "label": "Les chats et ocelots" },
+        { "id": "b", "label": "Les loups" },
+        { "id": "c", "label": "L'eau" },
+        { "id": "d", "label": "La lumière" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-d18",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Comment se nomme la version historique du jeu pour ordinateur, la toute première créée ?",
+      "answer": "L'édition Java"
+    },
+    {
+      "id": "mc-d19",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel musicien allemand, connu sous le nom de C418, a composé la bande-son emblématique du jeu ?",
+      "answer": "Daniel Rosenfeld"
+    },
+    {
+      "id": "mc-d20",
+      "difficulty": "dur",
+      "text": "Quelle façon de jouer supprime définitivement le monde à la mort du joueur ?",
+      "options": [
+        { "id": "a", "label": "Le mode Hardcore" },
+        { "id": "b", "label": "Le mode Survie" },
+        { "id": "c", "label": "Le mode Aventure" },
+        { "id": "d", "label": "Le mode Spectateur" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-d21",
+      "difficulty": "dur",
+      "text": "Quel poisson-monstre hostile protège les temples engloutis au fond de l'océan ?",
+      "options": [
+        { "id": "a", "label": "Le Gardien" },
+        { "id": "b", "label": "Le noyé" },
+        { "id": "c", "label": "Le dauphin" },
+        { "id": "d", "label": "Le poisson-globe" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-d22",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quel objet rare, lâché par les Evokers, empêche le joueur de mourir une fois en le sauvant in extremis ?",
+      "answer": "Le totem d'immortalité"
+    },
+    {
+      "id": "mc-d23",
+      "difficulty": "dur",
+      "text": "Dans quelle grande bâtisse boisée trouve-t-on les Evokers et les Vindicators ?",
+      "options": [
+        { "id": "a", "label": "Le manoir des bois" },
+        { "id": "b", "label": "Le fort du Nether" },
+        { "id": "c", "label": "La cité de l'End" },
+        { "id": "d", "label": "Le temple du désert" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-d24",
+      "difficulty": "dur",
+      "text": "Quelle brute grise chevauchée par les pillards enfonce les défenses lors des raids ?",
+      "options": [
+        { "id": "a", "label": "Le Ravageur" },
+        { "id": "b", "label": "Le golem de fer" },
+        { "id": "c", "label": "Le Wither" },
+        { "id": "d", "label": "L'Enderman" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-d25",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on les blocs lumineux bleus-verts qui se propagent dans le biome sombre des profondeurs ?",
+      "answer": "Le sculk"
+    },
+    {
+      "id": "mc-d26",
+      "difficulty": "dur",
+      "text": "Quel monstre aveugle et colossal, attiré par les vibrations, hante le biome des profondeurs obscures ?",
+      "options": [
+        { "id": "a", "label": "Le Warden" },
+        { "id": "b", "label": "Le Ravageur" },
+        { "id": "c", "label": "Le Gardien ancien" },
+        { "id": "d", "label": "Le Wither" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-d27",
+      "difficulty": "dur",
+      "text": "Quels habitants au gros nez proposent des échanges dans les villages ?",
+      "options": [
+        { "id": "a", "label": "Les villageois" },
+        { "id": "b", "label": "Les pillards" },
+        { "id": "c", "label": "Les piglins" },
+        { "id": "d", "label": "Les golems" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-d28",
+      "difficulty": "dur",
+      "text": "Quel outil est indispensable pour miner l'obsidienne sans la perdre ?",
+      "options": [
+        { "id": "a", "label": "Une pioche en diamant" },
+        { "id": "b", "label": "Une pioche en fer" },
+        { "id": "c", "label": "Une pelle en or" },
+        { "id": "d", "label": "Une hache en pierre" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-d29",
+      "difficulty": "dur",
+      "type": "buzzer",
+      "text": "Quelles créatures cochons, habitantes de la dimension infernale, deviennent hostiles si on ouvre un coffre chez elles ?",
+      "answer": "Les Piglins"
+    },
+    {
+      "id": "mc-d30",
+      "difficulty": "dur",
+      "text": "Quelle est la portée d'une explosion de TNT posée toute seule ?",
+      "options": [
+        { "id": "a", "label": "Quelques blocs autour" },
+        { "id": "b", "label": "Tout un continent" },
+        { "id": "c", "label": "Un seul bloc" },
+        { "id": "d", "label": "Aucun dégât" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-p1",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "En quelle année la version complète (1.0) du jeu est-elle sortie officiellement ?",
+      "answerValue": 2011,
+      "unit": ""
+    },
+    {
+      "id": "mc-p2",
+      "difficulty": "pro",
+      "text": "Quel est le titre de vente le plus vendu de l'histoire du jeu vidéo, toutes plateformes confondues ?",
+      "options": [
+        { "id": "a", "label": "Ce jeu de blocs" },
+        { "id": "b", "label": "Tetris" },
+        { "id": "c", "label": "GTA V" },
+        { "id": "d", "label": "Wii Sports" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-p3",
+      "difficulty": "pro",
+      "type": "estimation",
+      "text": "À combien de crânes correspond le sable des âmes nécessaire pour bâtir le boss à trois têtes : combien de blocs de sable des âmes ?",
+      "answerValue": 4,
+      "unit": "blocs"
+    },
+    {
+      "id": "mc-p4",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel objet, obtenu en tuant le dragon puis récupéré, permet de fabriquer une balise (beacon) ?",
+      "answer": "L'étoile du Nether"
+    },
+    {
+      "id": "mc-p5",
+      "difficulty": "pro",
+      "text": "De quoi est fabriquée l'étoile du Nether nécessaire à la balise ?",
+      "options": [
+        { "id": "a", "label": "En tuant le Wither" },
+        { "id": "b", "label": "En tuant le dragon" },
+        { "id": "c", "label": "Dans une cité de l'End" },
+        { "id": "d", "label": "En pêchant" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-p6",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on la version multiplateforme du jeu (mobiles, consoles, Windows 10), différente de la version Java ?",
+      "answer": "L'édition Bedrock"
+    },
+    {
+      "id": "mc-p7",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Que fabrique-t-on en combinant de la poudre de blaze et une perle spéciale pour localiser le portail final ?",
+      "answer": "En Œil de l'Ender"
+    },
+    {
+      "id": "mc-p8",
+      "difficulty": "pro",
+      "text": "À quelle altitude (niveau Y) les diamants sont-ils devenus les plus abondants dans les versions récentes ?",
+      "options": [
+        { "id": "a", "label": "Vers Y = -59" },
+        { "id": "b", "label": "Vers Y = 64" },
+        { "id": "c", "label": "Vers Y = 128" },
+        { "id": "d", "label": "Au niveau de la mer" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-p9",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel enchantement d'outil fait tomber le bloc lui-même plutôt que sa ressource (utile pour la pierre, la glace…) ?",
+      "answer": "Toucher de soie"
+    },
+    {
+      "id": "mc-p10",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel enchantement augmente la quantité de ressources lâchées par un minerai miné ?",
+      "answer": "Fortune"
+    },
+    {
+      "id": "mc-p11",
+      "difficulty": "pro",
+      "text": "Que se passe-t-il si on tente de dormir dans un lit dans la dimension infernale ou finale ?",
+      "options": [
+        { "id": "a", "label": "Le lit explose" },
+        { "id": "b", "label": "Rien du tout" },
+        { "id": "c", "label": "Le joueur est soigné" },
+        { "id": "d", "label": "La nuit passe" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-p12",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on le composant redstone qui prolonge et amplifie un signal sur une distance ?",
+      "answer": "Le répéteur"
+    },
+    {
+      "id": "mc-p13",
+      "difficulty": "pro",
+      "text": "Quel mob cubique et gélatineux se divise en plus petits exemplaires quand on le frappe ?",
+      "options": [
+        { "id": "a", "label": "Le slime" },
+        { "id": "b", "label": "Le Ghast" },
+        { "id": "c", "label": "Le Creeper" },
+        { "id": "d", "label": "L'araignée" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-p14",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel monstre-boîte violet, dans les cités de l'End, tire des projectiles qui font léviter le joueur ?",
+      "answer": "Le Shulker"
+    },
+    {
+      "id": "mc-p15",
+      "difficulty": "pro",
+      "text": "Quelle ressource orange, plus récente, sert notamment à fabriquer une longue-vue et des paratonnerres ?",
+      "options": [
+        { "id": "a", "label": "Le cuivre" },
+        { "id": "b", "label": "L'étain" },
+        { "id": "c", "label": "Le bronze" },
+        { "id": "d", "label": "Le laiton" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-p16",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel animal, ajouté dans la mise à jour des grottes, aide le joueur sous l'eau et joue le mort hors de l'eau ?",
+      "answer": "L'axolotl"
+    },
+    {
+      "id": "mc-p17",
+      "difficulty": "pro",
+      "text": "Quel insecte, ajouté au jeu, produit du miel et pollinise les fleurs ?",
+      "options": [
+        { "id": "a", "label": "L'abeille" },
+        { "id": "b", "label": "Le papillon" },
+        { "id": "c", "label": "La luciole" },
+        { "id": "d", "label": "La fourmi" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-p18",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel sol spécial, semé de graines, permet de cultiver du blé une fois travaillé à la houe ?",
+      "answer": "La terre labourée"
+    },
+    {
+      "id": "mc-p19",
+      "difficulty": "pro",
+      "text": "Quel biome rare, couvert d'immenses chapeaux colorés, n'a jamais de monstres hostiles la nuit ?",
+      "options": [
+        { "id": "a", "label": "L'île aux champignons" },
+        { "id": "b", "label": "La taïga" },
+        { "id": "c", "label": "La savane" },
+        { "id": "d", "label": "Le marais" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-p20",
+      "difficulty": "pro",
+      "text": "Quelle vache-champignon rouge peut être « traite » pour obtenir de la soupe ?",
+      "options": [
+        { "id": "a", "label": "La champimeuh" },
+        { "id": "b", "label": "La vache classique" },
+        { "id": "c", "label": "Le mouton" },
+        { "id": "d", "label": "La chèvre" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-p21",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel aliment cru le joueur utilise-t-il pour apprivoiser et soigner les chats et les ocelots ?",
+      "answer": "Le poisson cru"
+    },
+    {
+      "id": "mc-p22",
+      "difficulty": "pro",
+      "text": "Quelles sont les dimensions minimales (intérieur) d'un cadre de portail infernal, obsidienne comprise ?",
+      "options": [
+        { "id": "a", "label": "5 de haut sur 4 de large" },
+        { "id": "b", "label": "3 de haut sur 3 de large" },
+        { "id": "c", "label": "10 de haut sur 10 de large" },
+        { "id": "d", "label": "2 de haut sur 2 de large" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-p23",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on les objets violets, posés sur les tours d'obsidienne, qui soignent le dragon et qu'il faut détruire d'abord ?",
+      "answer": "Les cristaux de l'End"
+    },
+    {
+      "id": "mc-p24",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel fruit violet, trouvé dans la dimension finale, propulse le joueur vers le haut quand il marche dessus ?",
+      "answer": "La chorus"
+    },
+    {
+      "id": "mc-p25",
+      "difficulty": "pro",
+      "text": "Quel ancien nom de code, avant le titre définitif, le créateur avait-il d'abord donné au projet ?",
+      "options": [
+        { "id": "a", "label": "Cave Game" },
+        { "id": "b", "label": "Block World" },
+        { "id": "c", "label": "Cube Story" },
+        { "id": "d", "label": "Dig Dig" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-p26",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on l'ennemi humanoïde vert qui sort de l'eau, version aquatique du zombie ?",
+      "answer": "Le noyé"
+    },
+    {
+      "id": "mc-p27",
+      "difficulty": "pro",
+      "text": "Quel objet rare, lâché par le noyé, est une arme de mêlée et de jet liée à la pluie et à l'eau ?",
+      "options": [
+        { "id": "a", "label": "Le trident" },
+        { "id": "b", "label": "L'arc" },
+        { "id": "c", "label": "L'arbalète" },
+        { "id": "d", "label": "La hallebarde" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-p28",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel enchantement de trident renvoie le joueur en l'air quand il le lance sous la pluie ou dans l'eau ?",
+      "answer": "Riptide"
+    },
+    {
+      "id": "mc-p29",
+      "difficulty": "pro",
+      "text": "Quelle création annuelle de Mojang permet aux joueurs de voter pour ajouter un nouveau mob au jeu ?",
+      "options": [
+        { "id": "a", "label": "Le Mob Vote" },
+        { "id": "b", "label": "Le Block Poll" },
+        { "id": "c", "label": "Le Craft Vote" },
+        { "id": "d", "label": "La Mine Élection" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-p30",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel événement annuel en ligne, diffusé par Mojang, dévoile les grandes nouveautés à venir du jeu ?",
+      "answer": "Le Minecraft Live"
+    },
+    {
+      "id": "mc-p31",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel enchantement d'armure réduit tous les types de dégâts subis par le joueur ?",
+      "answer": "Protection"
+    },
+    {
+      "id": "mc-p32",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel enchantement, très recherché, répare peu à peu un objet quand le joueur gagne de l'expérience ?",
+      "answer": "Raccommodage"
+    },
+    {
+      "id": "mc-p33",
+      "difficulty": "pro",
+      "text": "Quel bloc, placé au fond de l'eau, crée un courant de bulles ascendant qui fait remonter le joueur ?",
+      "options": [
+        { "id": "a", "label": "Le sable des âmes" },
+        { "id": "b", "label": "L'éponge" },
+        { "id": "c", "label": "La glace bleue" },
+        { "id": "d", "label": "Le prismarine" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-p34",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel bloc bleu très glissant, le plus rapide pour les traîneaux et bateaux, se fabrique en compactant de l'eau gelée ?",
+      "answer": "La glace bleue"
+    },
+    {
+      "id": "mc-p35",
+      "difficulty": "pro",
+      "text": "Quelle plante rouge de la dimension infernale est indispensable pour lancer la préparation des potions ?",
+      "options": [
+        { "id": "a", "label": "La verrue du Nether" },
+        { "id": "b", "label": "La fougère" },
+        { "id": "c", "label": "Le champignon brun" },
+        { "id": "d", "label": "La liane" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-p36",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on le petit robot blanc que le joueur assemble avec deux blocs glacés et une citrouille ?",
+      "answer": "Le golem de neige"
+    },
+    {
+      "id": "mc-p37",
+      "difficulty": "pro",
+      "text": "Quel objet permet de nommer un mob ou un objet, et rend un mob nommé permanent ?",
+      "options": [
+        { "id": "a", "label": "L'étiquette (name tag)" },
+        { "id": "b", "label": "La boussole" },
+        { "id": "c", "label": "La carte" },
+        { "id": "d", "label": "Le livre et plume" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-p38",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Comment appelle-t-on un serveur communautaire géant très célèbre, l'un des plus fréquentés au monde sur ce jeu ?",
+      "answer": "Hypixel"
+    },
+    {
+      "id": "mc-p39",
+      "difficulty": "pro",
+      "text": "Quelle mise à jour majeure, sortie en deux parties (2021), a bouleversé les grottes et les montagnes ?",
+      "options": [
+        { "id": "a", "label": "Caves & Cliffs" },
+        { "id": "b", "label": "The Nether Update" },
+        { "id": "c", "label": "The Wild Update" },
+        { "id": "d", "label": "Village & Pillage" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "mc-p40",
+      "difficulty": "pro",
+      "type": "buzzer",
+      "text": "Quel studio, spécialiste des jeux d'aventure narratifs, a décliné l'univers en « Story Mode » épisodique ?",
+      "answer": "Telltale"
+    }
+  ]
+}
