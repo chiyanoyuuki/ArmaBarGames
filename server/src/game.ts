@@ -7,12 +7,16 @@ import {
   isAnswerClose,
   ADAPTIVE,
   BUZZ_PENALTY_MS,
+  CHAT_MAX_LENGTH,
+  CHAT_MAX_MESSAGES,
+  CHAT_MIN_INTERVAL_MS,
   DEFAULT_CONFIG,
   DIFFICULTIES,
   DIFFICULTY_POINTS,
   TEAM_AVATARS,
   type Award,
   type BuzzState,
+  type ChatMessage,
   type Difficulty,
   type GameConfig,
   type GamePhase,
@@ -117,6 +121,11 @@ export class GameRoom {
   private openPoints = new Map<string, number>(); // open : points si valide (override)
   private standings?: Standing[]; // classement intermediaire courant
   private lastRanks = new Map<string, number>(); // rang de chaque equipe au dernier classement
+
+  // Chat en direct des equipes (buffer glissant + anti-spam par equipe).
+  private chat: ChatMessage[] = [];
+  private lastChatAt = new Map<string, number>();
+  private chatSeq = 0;
 
   // Archivage / statistiques
   private gameStartAt = 0;
@@ -264,6 +273,38 @@ export class GameRoom {
       team.score = Math.max(0, team.score + delta);
       this.emit();
     }
+  }
+
+  // --- Chat en direct ----------------------------------------------------
+
+  /** Une equipe poste un message de chat (nettoye + limite en debit). */
+  postChat(teamId: string, rawText: string) {
+    const team = this.teams.get(teamId);
+    if (!team) return;
+    // Nettoyage : une seule ligne, sans caracteres de controle, longueur bornee.
+    const text = (rawText ?? "")
+      .replace(/[\u0000-\u001f\u007f]/g, " ")
+      .replace(/\s+/g, " ")
+      .trim()
+      .slice(0, CHAT_MAX_LENGTH);
+    if (!text) return;
+    // Anti-spam : un message maximum toutes les CHAT_MIN_INTERVAL_MS.
+    const now = Date.now();
+    const last = this.lastChatAt.get(teamId) ?? 0;
+    if (now - last < CHAT_MIN_INTERVAL_MS) return;
+    this.lastChatAt.set(teamId, now);
+    this.chat.push({
+      id: `c${now.toString(36)}${this.chatSeq++}`,
+      teamId,
+      teamName: team.name,
+      avatar: team.avatar,
+      text,
+      at: now,
+    });
+    if (this.chat.length > CHAT_MAX_MESSAGES) {
+      this.chat.splice(0, this.chat.length - CHAT_MAX_MESSAGES);
+    }
+    this.emit();
   }
 
   // --- Vote des themes ---------------------------------------------------
@@ -1127,6 +1168,7 @@ export class GameRoom {
         this.phase === "question" || this.phase === "reveal"
           ? this.difficultyNotice
           : undefined,
+      chat: this.chat,
       music: { on: this.musicOn, volume: this.musicVolume, track: this.currentTrack() },
     };
   }

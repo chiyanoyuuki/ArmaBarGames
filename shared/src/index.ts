@@ -450,6 +450,10 @@ export interface GameState {
    */
   difficultyNotice?: { dir: "up" | "down"; to: Difficulty };
 
+  // Chat en direct des equipes (buffer glissant). Affiche discretement sur la
+  // TV, masque pendant les questions pour ne pas divulguer de reponses.
+  chat: ChatMessage[];
+
   // Musique d'ambiance (jouee sur la TV, pilotee par l'animateur).
   // track = fichier a jouer (playlist) ; absent -> musique generative.
   music: { on: boolean; volume: number; track?: string };
@@ -519,6 +523,25 @@ export interface GlobalStats {
   topTeams: { name: string; games: number; wins: number; totalScore: number }[];
 }
 
+// --- Chat en direct des equipes -------------------------------------------
+
+/** Message de chat envoye par une equipe (affiche sur la TV). */
+export interface ChatMessage {
+  id: string;
+  teamId: string;
+  teamName: string;
+  avatar: string;
+  text: string;
+  at: number; // epoch ms
+}
+
+/** Nombre de messages de chat conserves et diffuses (buffer glissant). */
+export const CHAT_MAX_MESSAGES = 25;
+/** Longueur maximale d'un message de chat. */
+export const CHAT_MAX_LENGTH = 140;
+/** Intervalle minimal entre deux messages d'une meme equipe (anti-spam, ms). */
+export const CHAT_MIN_INTERVAL_MS = 1_500;
+
 /** Ligne de classement intermediaire, avec mouvement depuis le dernier point. */
 export interface Standing {
   teamId: string;
@@ -542,6 +565,7 @@ export const C2S = {
   TeamAnswer: "team:answer", // qcm
   TeamSubmit: "team:submit", // open / estimation / ordre
   TeamBuzz: "team:buzz", // buzzer
+  TeamChat: "team:chat", // message de chat en direct
   TvTrackEnded: "tv:trackEnded", // la TV signale la fin d'un morceau
 
   HostConfigure: "host:configure",
@@ -629,6 +653,10 @@ export interface TeamSubmitPayload {
   text?: string; // open
   value?: number; // estimation
   orderIds?: string[]; // ordre
+}
+
+export interface TeamChatPayload {
+  text: string;
 }
 
 export interface HostBuzzVerdictPayload extends HostAuthPayload {

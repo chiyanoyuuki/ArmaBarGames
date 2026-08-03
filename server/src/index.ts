@@ -24,6 +24,7 @@ import {
   type JoinRoomPayload,
   type SfxKind,
   type TeamAnswerPayload,
+  type TeamChatPayload,
   type TeamJoinAck,
   type TeamJoinPayload,
   type TeamSubmitPayload,
@@ -214,6 +215,11 @@ io.on("connection", (socket: Socket) => {
   socket.on(C2S.TeamBuzz, () => {
     const room = rooms.get(socket.data.roomCode);
     if (room && socket.data.teamId) room.pressBuzz(socket.data.teamId);
+  });
+
+  socket.on(C2S.TeamChat, (payload: TeamChatPayload) => {
+    const room = rooms.get(socket.data.roomCode);
+    if (room && socket.data.teamId) room.postChat(socket.data.teamId, payload?.text ?? "");
   });
 
   // --- Actions host ---

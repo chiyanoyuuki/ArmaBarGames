@@ -1839,3 +1839,65 @@ button.home-card {
   color: var(--gold);
   margin: 4px 0;
 }
+
+/* --- Chat en direct ---------------------------------------------------- */
+
+/* Fil discret affiché sur la TV (coin bas-gauche), hors questions. */
+.chat-feed {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 34vw;
+  pointer-events: none;
+}
+.chat-msg {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  background: rgba(36, 22, 64, 0.72);
+  border-radius: 12px;
+  padding: 6px 12px;
+  font-size: 0.95rem;
+  animation: chat-in 0.35s ease;
+  backdrop-filter: blur(4px);
+}
+.chat-avatar { font-size: 1.1rem; }
+.chat-name { font-weight: 800; color: var(--blue); }
+.chat-text { color: var(--text); word-break: break-word; }
+@keyframes chat-in {
+  from { opacity: 0; transform: translateX(-12px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+/* Barre de saisie du chat (téléphone). */
+.chat-bar {
+  margin-top: 12px;
+  border-top: 1px solid var(--card2);
+  padding-top: 10px;
+}
+.chat-bar-last {
+  color: var(--muted);
+  font-size: 0.8rem;
+  margin-bottom: 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.chat-bar-row {
+  display: flex;
+  gap: 8px;
+}
+.chat-bar-input {
+  flex: 1;
+  min-width: 0;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 2px solid var(--card2);
+  background: var(--bg2);
+  color: var(--text);
+  font-size: 0.95rem;
+}

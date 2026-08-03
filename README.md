@@ -42,6 +42,24 @@ allège… ») et un effet sonore. Chaque manche redémarre en douceur (facile)
 puis s'ajuste. Activable/désactivable dans la config animateur
 (`adaptiveDifficulty`, seuils dans `ADAPTIVE` côté `shared`).
 
+### Buzzer sans élimination
+
+Un mauvais buzz n'élimine plus l'équipe pour la question : elle écope d'une
+**petite pénalité de temps** (cooldown, `BUZZ_PENALTY_MS`) pendant laquelle
+elle ne peut pas rebuzzer, puis le buzzer rouvre. Une question au buzzer ne
+s'arrête plus toute seule : elle **continue jusqu'à une bonne réponse ou
+jusqu'à ce que l'animateur la passe**. Le téléphone affiche le compte à
+rebours de pénalité, la TV la liste des équipes en pénalité.
+
+### Chat en direct des équipes
+
+Les équipes peuvent taper de courts messages depuis leur téléphone ; ils
+s'affichent **discrètement sur la TV** (coin bas-gauche, buffer glissant de
+`CHAT_MAX_MESSAGES`). Le fil est **masqué pendant les questions et les
+révélations** pour ne rien divulguer, et n'apparaît que sur la TV (pas sur
+les téléphones) afin d'éviter tout partage de réponses. Anti-spam intégré
+(`CHAT_MIN_INTERVAL_MS`, longueur bornée à `CHAT_MAX_LENGTH`).
+
 ### Anti-répétition entre soirées
 
 Les questions **déjà jouées** sont mémorisées durablement et ne reviennent

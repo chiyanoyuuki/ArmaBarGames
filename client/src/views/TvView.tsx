@@ -5,6 +5,7 @@ import {
   C2S,
   DIFFICULTY_POINTS,
   type Award,
+  type ChatMessage,
   type GameState,
   type Team,
 } from "@armabar/shared";
@@ -117,6 +118,26 @@ export function TvView() {
       <Scoreboard teams={state.teams} phase={state.phase} />
       {state.paused && <div className="pause-banner">⏸ Partie en pause</div>}
       <TvBody state={state} />
+      {/* Chat discret, masqué pendant les questions pour ne rien divulguer. */}
+      {state.phase !== "question" && state.phase !== "reveal" && (
+        <ChatFeed messages={state.chat ?? []} />
+      )}
+    </div>
+  );
+}
+
+function ChatFeed({ messages }: { messages: ChatMessage[] }) {
+  if (messages.length === 0) return null;
+  const recent = messages.slice(-6);
+  return (
+    <div className="chat-feed" aria-hidden>
+      {recent.map((m) => (
+        <div key={m.id} className="chat-msg">
+          <span className="chat-avatar">{m.avatar}</span>
+          <span className="chat-name">{m.teamName}</span>
+          <span className="chat-text">{m.text}</span>
+        </div>
+      ))}
     </div>
   );
 }

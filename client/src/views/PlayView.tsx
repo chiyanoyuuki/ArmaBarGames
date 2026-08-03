@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import {
   C2S,
+  CHAT_MAX_LENGTH,
   TEAM_AVATARS,
   type GameState,
   type TeamJoinAck,
@@ -201,6 +202,39 @@ function PlayBody({
           <p>{me?.score} points</p>
         </div>
       )}
+
+      <ChatBar state={state} teamId={teamId} />
+    </div>
+  );
+}
+
+function ChatBar({ state, teamId }: { state: GameState; teamId: string }) {
+  const [text, setText] = useState("");
+  const send = () => {
+    const t = text.trim();
+    if (!t) return;
+    socket.emit(C2S.TeamChat, { text: t });
+    setText("");
+  };
+  // Dernier message envoyé par cette équipe (simple accusé de réception ;
+  // le fil complet ne s'affiche que sur la TV, pour éviter toute triche).
+  const mine = [...(state.chat ?? [])].reverse().find((m) => m.teamId === teamId);
+  return (
+    <div className="chat-bar">
+      {mine && <p className="chat-bar-last">💬 « {mine.text} » · sur la TV</p>}
+      <div className="chat-bar-row">
+        <input
+          className="chat-bar-input"
+          value={text}
+          maxLength={CHAT_MAX_LENGTH}
+          placeholder="Un mot sur la TV…"
+          onChange={(e) => setText(e.target.value)}
+          onKeyDown={(e) => { if (e.key === "Enter") send(); }}
+        />
+        <button className="btn small" onClick={send} disabled={!text.trim()}>
+          Envoyer
+        </button>
+      </div>
     </div>
   );
 }
