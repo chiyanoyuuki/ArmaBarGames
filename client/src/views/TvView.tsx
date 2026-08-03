@@ -121,10 +121,11 @@ export function TvView() {
       <Scoreboard teams={state.teams} phase={state.phase} />
       {state.paused && <div className="pause-banner">⏸ Partie en pause</div>}
       <TvBody state={state} />
-      {/* Chat discret, masqué pendant les questions pour ne rien divulguer. */}
-      {state.phase !== "question" && state.phase !== "reveal" && (
-        <ChatFeed messages={state.chat ?? []} />
-      )}
+      {/* Chat discret : masqué pendant les questions (anti-triche) et dans le
+          salon (pour ne pas cacher le code/QR). */}
+      {state.phase !== "question" &&
+        state.phase !== "reveal" &&
+        state.phase !== "lobby" && <ChatFeed messages={state.chat ?? []} />}
     </div>
   );
 }
@@ -137,7 +138,7 @@ function ChatFeed({ messages }: { messages: ChatMessage[] }) {
       {recent.map((m) => (
         <div key={m.id} className="chat-msg">
           <span className="chat-avatar">{m.avatar}</span>
-          <span className="chat-name">{m.teamName}</span>
+          <span className="chat-name" style={{ color: m.color }}>{m.teamName}</span>
           <span className="chat-text">{m.text}</span>
         </div>
       ))}

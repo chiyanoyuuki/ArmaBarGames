@@ -14,6 +14,7 @@ import {
   DIFFICULTIES,
   DIFFICULTY_POINTS,
   TEAM_AVATARS,
+  TEAM_COLORS,
   type Award,
   type BuzzState,
   type ChatMessage,
@@ -37,12 +38,10 @@ import {
   type SfxKind,
 } from "@armabar/shared";
 import {
-  buildUniversePool,
   playableThemes,
   questionsForUniverse,
   themeById,
   universeById,
-  universeQuestionCount,
   universesForThemes,
 } from "./data.js";
 import { listMusic } from "./music.js";
@@ -103,10 +102,11 @@ export class GameRoom {
   private manches: MancheInfo[] = []; // une manche par univers
   private roundToManche: number[] = []; // index de manche (1-based) par round
 
-  // Difficulte adaptative : vivier par manche + niveau courant.
-  private manchePools = new Map<number, Record<Difficulty, Question[]>>();
+  // Difficulte adaptative : un seul vivier MELANGE (tous les univers), par
+  // difficulte. Les questions des univers retenus s'entremelent (plus de manches).
+  private pool: Record<Difficulty, Question[]> = { facile: [], moyen: [], dur: [], pro: [] };
   private difficultyTarget = 0; // index dans DIFFICULTIES
-  private mancheRates: number[] = []; // taux de reussite recents (manche courante)
+  private mancheRates: number[] = []; // taux de reussite recents (partie en cours)
   private difficultyNotice?: { dir: "up" | "down"; to: Difficulty };
   private answers = new Map<string, AnswerRecord>();
   private questionStartAt = 0;
@@ -118,6 +118,7 @@ export class GameRoom {
   private buzzAt = 0; // horodatage du buzz gagnant (scoring vitesse)
   private buzzGains: Record<string, number> = {};
   private shuffledItems?: QuestionOption[]; // ordre : elements melanges (stables)
+  private shuffledOptions?: QuestionOption[]; // qcm : propositions melangees (stables)
   private openPoints = new Map<string, number>(); // open : points si valide (override)
   private standings?: Standing[]; // classement intermediaire courant
   private lastRanks = new Map<string, number>(); // rang de chaque equipe au dernier classement
@@ -126,6 +127,7 @@ export class GameRoom {
   private chat: ChatMessage[] = [];
   private lastChatAt = new Map<string, number>();
   private chatSeq = 0;
+  private chatEnabled = true;
 
   // Archivage / statistiques
   private gameStartAt = 0;
@@ -138,6 +140,7 @@ export class GameRoom {
   private pendingFn?: () => void;
   private deadline = 0;
   private remainingOnPause = 0;
+  private questionRemaining = 0; // chrono cosmetique de la question, gele en pause
 
   private broadcaster?: Broadcaster;
 
@@ -228,6 +231,7 @@ export class GameRoom {
     const id = generateRoomCode() + Date.now().toString(36);
     const avatar =
       input.avatar ?? TEAM_AVATARS[this.teams.size % TEAM_AVATARS.length];
+    const color = TEAM_COLORS[this.teams.size % TEAM_COLORS.length];
     const team: Team = {
       id,
       name: input.name || `Équipe ${this.teams.size + 1}`,
@@ -235,6 +239,7 @@ export class GameRoom {
       streak: 0,
       connected: true,
       avatar,
+      color,
       returning: input.returning,
     };
     this.teams.set(id, team);
@@ -254,9 +259,31 @@ export class GameRoom {
   renameTeam(teamId: string, name: string) {
     const team = this.teams.get(teamId);
     if (team && name.trim()) {
-      team.name = name.trim();
+      team.name = name.trim().slice(0, 24);
       this.emit();
     }
+  }
+
+  setTeamColor(teamId: string, color: string) {
+    const team = this.teams.get(teamId);
+    // On n'accepte que les couleurs de la palette (evite l'injection).
+    if (team && TEAM_COLORS.includes(color)) {
+      team.color = color;
+      this.emit();
+    }
+  }
+
+  setTeamMuted(teamId: string, muted: boolean) {
+    const team = this.teams.get(teamId);
+    if (team) {
+      team.muted = muted;
+      this.emit();
+    }
+  }
+
+  setChatEnabled(enabled: boolean) {
+    this.chatEnabled = enabled;
+    this.emit();
   }
 
   removeTeam(teamId: string) {
@@ -281,6 +308,7 @@ export class GameRoom {
   postChat(teamId: string, rawText: string) {
     const team = this.teams.get(teamId);
     if (!team) return;
+    if (!this.chatEnabled || team.muted) return;
     // Nettoyage : une seule ligne, sans caracteres de controle, longueur bornee.
     const text = (rawText ?? "")
       .replace(/[\u0000-\u001f\u007f]/g, " ")
@@ -298,6 +326,7 @@ export class GameRoom {
       teamId,
       teamName: team.name,
       avatar: team.avatar,
+      color: team.color,
       text,
       at: now,
     });
@@ -418,15 +447,11 @@ export class GameRoom {
           : this.themes.slice(0, this.config.selectedThemeCount).map((t) => t.id);
     this.selectedThemeIds = selected;
 
-    // Univers a jouer (dans l'ordre) : ceux votes, sinon un echantillon des
-    // themes retenus (borne pour garder des manches de plusieurs questions).
-    let universeIds: string[];
-    if (this.selectedUniverseIds.length > 0) {
-      universeIds = [...this.selectedUniverseIds];
-    } else {
-      const maxUniv = Math.max(1, Math.ceil(this.config.totalRounds / 3));
-      universeIds = shuffle(universesForThemes(selected).map((u) => u.id)).slice(0, maxUniv);
-    }
+    // Univers a jouer : ceux votes, sinon tous les univers des themes retenus.
+    const universeIds =
+      this.selectedUniverseIds.length > 0
+        ? [...this.selectedUniverseIds]
+        : universesForThemes(selected).map((u) => u.id);
 
     // Anti-repetition : questions deja vues lors des soirees precedentes.
     // Si un univers est entierement epuise, on l'oublie pour repartir a neuf.
@@ -439,11 +464,7 @@ export class GameRoom {
       }
     }
 
-    // Repartition des tours sur les univers (manches equilibrees).
-    const target = this.totalRounds = this.config.totalRounds;
-    const n = universeIds.length;
-    const plan: { universeId: string; count: number }[] = [];
-    if (n === 0) {
+    if (universeIds.length === 0) {
       // Aucun contenu jouable : on termine proprement.
       this.questions = [];
       this.manches = [];
@@ -451,39 +472,27 @@ export class GameRoom {
       this.totalRounds = 0;
       this.finish();
       return;
-    } else if (n >= target) {
-      for (const uid of universeIds.slice(0, target)) plan.push({ universeId: uid, count: 1 });
-    } else {
-      const base = Math.floor(target / n);
-      let rem = target % n;
-      for (const uid of universeIds) {
-        let count = base + (rem > 0 ? 1 : 0);
-        if (rem > 0) rem--;
-        count = Math.max(1, Math.min(count, universeQuestionCount(uid)));
-        plan.push({ universeId: uid, count });
-      }
     }
 
-    // Prepare le vivier de chaque manche + la carte round -> manche.
-    this.manchePools.clear();
+    // Un seul vivier MELANGE : toutes les questions des univers retenus,
+    // regroupees par difficulte, non-vues en priorite et univers entremeles.
+    for (const d of DIFFICULTIES) {
+      const unseen: Question[] = [];
+      const already: Question[] = [];
+      for (const uid of universeIds) {
+        for (const q of questionsForUniverse(uid)) {
+          if (q.difficulty !== d) continue;
+          (seen.has(q.id) ? already : unseen).push(q);
+        }
+      }
+      this.pool[d] = [...shuffle(unseen), ...shuffle(already)];
+    }
+    const available = DIFFICULTIES.reduce((n, d) => n + this.pool[d].length, 0);
+
     this.manches = [];
     this.roundToManche = [];
-    plan.forEach((p, i) => {
-      const universe = universeById(p.universeId);
-      const theme = universe ? themeById(universe.themeId) : undefined;
-      this.manches.push({
-        index: i + 1,
-        total: plan.length,
-        universeName: universe?.name ?? "",
-        themeName: theme?.name ?? "",
-        emoji: universe?.emoji,
-      });
-      this.manchePools.set(i + 1, buildUniversePool(p.universeId, seen));
-      for (let k = 0; k < p.count; k++) this.roundToManche.push(i + 1);
-    });
-
     this.questions = [];
-    this.totalRounds = this.roundToManche.length;
+    this.totalRounds = Math.min(this.config.totalRounds, available);
     this.round = 0;
     this.difficultyTarget = 0;
     this.mancheRates = [];
@@ -544,7 +553,7 @@ export class GameRoom {
     this.phase = "leaderboard";
     this.playSfx("reveal");
     this.emit();
-    this.schedule(this.config.leaderboardTimeMs, () => this.nextQuestion());
+    // Plus d'auto-avance : l'animateur passe au clic (« Continuer »).
   }
 
   private current(): Question | undefined {
@@ -561,7 +570,7 @@ export class GameRoom {
   private applyAdaptation(round: number) {
     this.difficultyNotice = undefined;
     if (!this.config.adaptiveDifficulty) return;
-    if (this.isMancheStart(round)) return;
+    if (round <= 1) return; // pas encore d'historique
     if (this.mancheRates.length < ADAPTIVE.window) return;
     const recent = this.mancheRates.slice(-ADAPTIVE.window);
     const avg = recent.reduce((a, b) => a + b, 0) / recent.length;
@@ -579,13 +588,13 @@ export class GameRoom {
     }
   }
 
-  /** Difficulte fixe (mode non adaptatif) : montee reguliere sur la manche. */
-  private fixedTargetForRound(round: number, mancheIdx: number): number {
-    let start = round;
-    while (start > 1 && this.roundToManche[start - 2] === mancheIdx) start--;
-    const pos = round - start; // 0-based dans la manche
-    const len = this.roundToManche.filter((m) => m === mancheIdx).length || 1;
-    return Math.min(DIFFICULTIES.length - 1, Math.floor((pos / len) * DIFFICULTIES.length));
+  /** Difficulte fixe (mode non adaptatif) : montee reguliere sur la partie. */
+  private fixedTargetForRound(round: number): number {
+    const total = this.totalRounds || 1;
+    return Math.min(
+      DIFFICULTIES.length - 1,
+      Math.floor(((round - 1) / total) * DIFFICULTIES.length)
+    );
   }
 
   /** Retire une question du vivier au niveau vise (ou au plus proche dispo). */
@@ -607,15 +616,11 @@ export class GameRoom {
 
   /** Choisit et reserve la question du tour selon la difficulte courante. */
   private serveQuestion(round: number): Question | undefined {
-    const mancheIdx = this.roundToManche[round - 1];
-    if (!mancheIdx) return undefined;
-    const pool = this.manchePools.get(mancheIdx);
-    if (!pool) return undefined;
     this.applyAdaptation(round);
     const targetIdx = this.config.adaptiveDifficulty
       ? this.difficultyTarget
-      : this.fixedTargetForRound(round, mancheIdx);
-    const q = this.popNearestTier(pool, targetIdx);
+      : this.fixedTargetForRound(round);
+    const q = this.popNearestTier(this.pool, targetIdx);
     if (q) this.broadcaster?.markQuestionsSeen?.([q.id]);
     return q;
   }
@@ -636,27 +641,14 @@ export class GameRoom {
     this.buzz = undefined;
     this.buzzGains = {};
     this.shuffledItems = undefined;
+    this.shuffledOptions = undefined;
     this.openPoints.clear();
     this.round++;
     if (this.round > this.totalRounds) {
       this.finish();
       return;
     }
-    // Nouveau debut de manche : remise a zero de la difficulte adaptative.
-    if (this.isMancheStart(this.round)) {
-      this.difficultyTarget = 0;
-      this.mancheRates = [];
-      this.difficultyNotice = undefined;
-    }
-    // Annonce de manche a chaque changement d'univers (si activee).
-    if (this.config.roundIntroMs > 0 && this.isMancheStart(this.round)) {
-      this.phase = "round_intro";
-      this.playSfx("manche");
-      this.schedule(this.config.roundIntroMs, () => this.presentCurrentQuestion());
-      this.emit();
-    } else {
-      this.presentCurrentQuestion();
-    }
+    this.presentCurrentQuestion();
   }
 
   private presentCurrentQuestion() {
@@ -676,17 +668,19 @@ export class GameRoom {
 
     if (q.type === "buzzer") {
       this.buzz = { order: [], current: undefined, penalties: {}, open: true };
+      // Le buzzer n'a pas de chrono : il dure jusqu'a la bonne reponse / passage.
+      this.questionEndsAt = undefined;
     }
     if (q.type === "ordre" && q.items) {
       this.shuffledItems = shuffle(q.items);
     }
-    // Les questions au buzzer ne s'arretent pas toutes seules : elles durent
-    // jusqu'a une bonne reponse ou jusqu'a ce que l'animateur passe.
-    if (q.type === "buzzer") {
-      this.questionEndsAt = undefined;
-    } else {
-      this.schedule(this.config.questionTimeMs, () => this.revealAnswer());
+    // Melange des 4 propositions (une fois, stable) pour ne pas toujours avoir
+    // la bonne reponse a la meme place.
+    if (q.type === "qcm" && q.options) {
+      this.shuffledOptions = shuffle(q.options);
     }
+    // Plus d'auto-reveal : c'est l'animateur qui revele puis passe chaque
+    // question. Le chrono reste affiche (scoring a la vitesse, hors buzzer).
     this.emit();
   }
 
@@ -702,8 +696,9 @@ export class GameRoom {
     if (q.id !== questionId || !this.teams.has(teamId)) return;
     if (this.answers.has(teamId)) return; // reponse verrouillee
     this.answers.set(teamId, { optionId, at: Date.now() });
-    if (this.allConnectedAnswered()) this.revealAnswer();
-    else this.emit();
+    // Plus d'auto-reveal : l'animateur revele quand il veut (meme si tout le
+    // monde a repondu). On rafraichit juste l'affichage.
+    this.emit();
   }
 
   /** Modes ecrits : open / estimation / ordre. */
@@ -723,8 +718,7 @@ export class GameRoom {
       value: payload.value,
       orderIds: payload.orderIds,
     });
-    if (this.allConnectedAnswered()) this.revealAnswer();
-    else this.emit();
+    this.emit();
   }
 
   /** Buzzer : une equipe appuie. */
@@ -962,11 +956,7 @@ export class GameRoom {
 
     this.playSfx(anyoneRight ? "correct" : "wrong");
     this.emit();
-
-    // Auto-avance pour les types automatiques ; l'animateur pilote open/buzzer.
-    if (q.type === "qcm" || q.type === "estimation" || q.type === "ordre") {
-      this.schedule(this.config.revealTimeMs, () => this.advance());
-    }
+    // Plus d'auto-avance : l'animateur passe a la suite au clic.
   }
 
   private finish() {
@@ -1092,18 +1082,24 @@ export class GameRoom {
       this.remainingOnPause = Math.max(0, this.deadline - Date.now());
       this.clearTimer();
     }
+    // Gel du chrono cosmetique de la question (plus de timer serveur en jeu).
+    if (this.phase === "question" && this.questionEndsAt) {
+      this.questionRemaining = Math.max(0, this.questionEndsAt - Date.now());
+    }
     this.emit();
   }
 
   resume() {
     if (!this.paused) return;
     this.paused = false;
+    // Reprise du chrono cosmetique de la question.
+    if (this.phase === "question" && this.questionRemaining > 0) {
+      this.questionEndsAt = Date.now() + this.questionRemaining;
+      this.questionRemaining = 0;
+    }
     if (this.pendingFn && this.remainingOnPause > 0) {
       const fn = this.pendingFn;
-      // Recale l'echeance visible cote clients.
-      if (this.phase === "question") {
-        this.questionEndsAt = Date.now() + this.remainingOnPause;
-      }
+      // Recale l'echeance visible cote clients (votes).
       if (this.phase === "theme_voting" || this.phase === "universe_voting") {
         this.voteEndsAt = Date.now() + this.remainingOnPause;
       }
@@ -1129,7 +1125,7 @@ export class GameRoom {
       themeName: theme?.name ?? "",
       index: this.round,
       total: this.totalRounds,
-      options: q.type === "qcm" ? q.options : undefined,
+      options: q.type === "qcm" ? this.shuffledOptions ?? q.options : undefined,
       items: q.type === "ordre" ? this.shuffledItems : undefined,
       unit: q.type === "estimation" ? q.unit : undefined,
     };
@@ -1169,6 +1165,7 @@ export class GameRoom {
           ? this.difficultyNotice
           : undefined,
       chat: this.chat,
+      chatEnabled: this.chatEnabled,
       music: { on: this.musicOn, volume: this.musicVolume, track: this.currentTrack() },
     };
   }

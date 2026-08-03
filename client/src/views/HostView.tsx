@@ -209,7 +209,16 @@ function HostConsole({
 
       {/* Gestion des équipes */}
       <div className="host-teams">
-        <h3>Équipes ({state.teams.length})</h3>
+        <div className="host-teams-head">
+          <h3>Équipes ({state.teams.length})</h3>
+          <button
+            className={`btn tiny ${state.chatEnabled ? "" : "ghost"}`}
+            onClick={() => send(C2S.HostSetChat, { enabled: !state.chatEnabled })}
+            title="Activer/désactiver le chat des équipes"
+          >
+            {state.chatEnabled ? "💬 Chat ON" : "🚫 Chat OFF"}
+          </button>
+        </div>
         {state.teams.length === 0 && (
           <p className="muted">Les équipes rejoignent via le QR de la TV.</p>
         )}
@@ -218,11 +227,19 @@ function HostConsole({
           .map((t) => (
             <div key={t.id} className={`host-team-row ${t.connected ? "" : "off"}`}>
               <span className="host-team-avatar">{t.avatar}</span>
-              <span className="host-team-name">{t.name}{t.returning ? " ⭐" : ""}</span>
+              <span className="host-team-name" style={{ color: t.color }}>
+                {t.name}{t.returning ? " ⭐" : ""}{t.muted ? " 🔇" : ""}
+              </span>
               <span className="host-team-score">{t.score}</span>
               <div className="host-team-actions">
                 <button onClick={() => send(C2S.HostAdjustScore, { teamId: t.id, delta: -50 })}>−</button>
                 <button onClick={() => send(C2S.HostAdjustScore, { teamId: t.id, delta: 50 })}>+</button>
+                <button
+                  onClick={() => send(C2S.HostMuteTeam, { teamId: t.id, muted: !t.muted })}
+                  title={t.muted ? "Réautoriser le chat" : "Mettre en sourdine"}
+                >
+                  {t.muted ? "🔈" : "🔇"}
+                </button>
                 <button
                   onClick={() => {
                     const name = prompt("Nouveau nom :", t.name);

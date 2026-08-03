@@ -1901,3 +1901,32 @@ button.home-card {
   color: var(--text);
   font-size: 0.95rem;
 }
+
+/* Renommage + couleur de chat (téléphone) */
+.play-name-edit {
+  background: none;
+  border: none;
+  color: var(--text);
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  flex: 1;
+  text-align: left;
+}
+.play-name-editing { display: flex; gap: 6px; flex: 1; }
+.chat-colors { display: flex; gap: 6px; margin-bottom: 8px; flex-wrap: wrap; }
+.chat-color {
+  width: 22px; height: 22px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+.chat-color.on { border-color: #fff; box-shadow: 0 0 0 2px rgba(255,255,255,0.4); }
+
+/* En-tête équipes (animateur) + bouton chat */
+.host-teams-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}

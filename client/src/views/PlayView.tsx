@@ -4,6 +4,7 @@ import {
   C2S,
   CHAT_MAX_LENGTH,
   TEAM_AVATARS,
+  TEAM_COLORS,
   type GameState,
   type TeamJoinAck,
   type TeamProfile,
@@ -157,7 +158,7 @@ function PlayBody({
     <div className="screen play">
       <div className="play-header">
         <span className="play-avatar">{me?.avatar}</span>
-        <span className="play-name">{me?.name}</span>
+        <TeamNameEditor name={me?.name ?? ""} />
         <span className="play-score">{me?.score ?? 0} pts</span>
       </div>
       {state.paused && <div className="pause-banner small">⏸ En pause</div>}
@@ -209,20 +210,72 @@ function PlayBody({
   );
 }
 
+/** Champ pour se renommer soi-même (téléphone). */
+function TeamNameEditor({ name }: { name: string }) {
+  const [editing, setEditing] = useState(false);
+  const [draft, setDraft] = useState(name);
+  useEffect(() => { if (!editing) setDraft(name); }, [name, editing]);
+  const save = () => {
+    const n = draft.trim();
+    if (n && n !== name) socket.emit(C2S.TeamRename, { name: n });
+    setEditing(false);
+  };
+  if (!editing) {
+    return (
+      <button className="play-name-edit" onClick={() => setEditing(true)} title="Renommer">
+        {name} ✏️
+      </button>
+    );
+  }
+  return (
+    <span className="play-name-editing">
+      <input
+        autoFocus
+        className="chat-bar-input"
+        value={draft}
+        maxLength={24}
+        onChange={(e) => setDraft(e.target.value)}
+        onKeyDown={(e) => { if (e.key === "Enter") save(); if (e.key === "Escape") setEditing(false); }}
+      />
+      <button className="btn small" onClick={save}>OK</button>
+    </span>
+  );
+}
+
 function ChatBar({ state, teamId }: { state: GameState; teamId: string }) {
   const [text, setText] = useState("");
+  const me = state.teams.find((t) => t.id === teamId);
   const send = () => {
     const t = text.trim();
     if (!t) return;
     socket.emit(C2S.TeamChat, { text: t });
     setText("");
   };
+
+  if (!state.chatEnabled) {
+    return <div className="chat-bar"><p className="chat-bar-last">💬 Chat désactivé par l'animateur.</p></div>;
+  }
+  if (me?.muted) {
+    return <div className="chat-bar"><p className="chat-bar-last">🔇 Tu es en sourdine (chat).</p></div>;
+  }
+
   // Dernier message envoyé par cette équipe (simple accusé de réception ;
   // le fil complet ne s'affiche que sur la TV, pour éviter toute triche).
   const mine = [...(state.chat ?? [])].reverse().find((m) => m.teamId === teamId);
   return (
     <div className="chat-bar">
       {mine && <p className="chat-bar-last">💬 « {mine.text} » · sur la TV</p>}
+      <div className="chat-colors">
+        {TEAM_COLORS.map((c) => (
+          <button
+            key={c}
+            className={`chat-color ${me?.color === c ? "on" : ""}`}
+            style={{ background: c }}
+            title="Ma couleur dans le chat"
+            onClick={() => socket.emit(C2S.TeamSetColor, { color: c })}
+          />
+        ))}
+      </div>
       <div className="chat-bar-row">
         <input
           className="chat-bar-input"

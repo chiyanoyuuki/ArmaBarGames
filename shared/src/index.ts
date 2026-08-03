@@ -315,9 +315,19 @@ export interface Team {
   connected: boolean;
   /** Emoji/avatar simple choisi par l'equipe. */
   avatar: string;
+  /** Couleur de l'equipe (nom dans le chat), choisie par le joueur. */
+  color: string;
+  /** true si l'animateur a mis cette equipe en sourdine (chat). */
+  muted?: boolean;
   /** true si ce nom d'equipe a deja joue lors d'une soiree archivee. */
   returning?: boolean;
 }
+
+/** Palette de couleurs d'equipe (choix dans le chat). */
+export const TEAM_COLORS = [
+  "#ff6b9d", "#7c9dff", "#4dd0ff", "#2ee6a6", "#ffd23f",
+  "#ff9f43", "#c07cff", "#ff5470", "#5ad1c2", "#a3e635",
+];
 
 /** Fiche d'une equipe recurrente, agregee sur toutes ses soirees archivees. */
 export interface TeamProfile {
@@ -453,6 +463,8 @@ export interface GameState {
   // Chat en direct des equipes (buffer glissant). Affiche discretement sur la
   // TV, masque pendant les questions pour ne pas divulguer de reponses.
   chat: ChatMessage[];
+  /** false si l'animateur a coupe le chat. */
+  chatEnabled: boolean;
 
   // Musique d'ambiance (jouee sur la TV, pilotee par l'animateur).
   // track = fichier a jouer (playlist) ; absent -> musique generative.
@@ -531,6 +543,7 @@ export interface ChatMessage {
   teamId: string;
   teamName: string;
   avatar: string;
+  color: string;
   text: string;
   at: number; // epoch ms
 }
@@ -562,6 +575,8 @@ export const C2S = {
   TvJoin: "tv:join",
   TeamJoin: "team:join",
   TeamVote: "team:vote",
+  TeamRename: "team:rename", // l'equipe se renomme elle-meme
+  TeamSetColor: "team:setColor", // l'equipe choisit sa couleur de chat
   TeamAnswer: "team:answer", // qcm
   TeamSubmit: "team:submit", // open / estimation / ordre
   TeamBuzz: "team:buzz", // buzzer
@@ -586,6 +601,8 @@ export const C2S = {
   HostAdjustScore: "host:adjustScore",
   HostRenameTeam: "host:renameTeam",
   HostRemoveTeam: "host:removeTeam",
+  HostSetChat: "host:setChat", // active/desactive le chat
+  HostMuteTeam: "host:muteTeam", // met une equipe en sourdine
   HostEndGame: "host:endGame",
 } as const;
 
@@ -674,6 +691,14 @@ export interface TeamChatPayload {
   text: string;
 }
 
+export interface TeamRenamePayload {
+  name: string;
+}
+
+export interface TeamColorPayload {
+  color: string;
+}
+
 export interface HostBuzzVerdictPayload extends HostAuthPayload {
   correct: boolean;
 }
@@ -700,6 +725,13 @@ export interface HostRenameTeamPayload extends HostAuthPayload {
 }
 export interface HostRemoveTeamPayload extends HostAuthPayload {
   teamId: string;
+}
+export interface HostSetChatPayload extends HostAuthPayload {
+  enabled: boolean;
+}
+export interface HostMuteTeamPayload extends HostAuthPayload {
+  teamId: string;
+  muted: boolean;
 }
 
 export interface AckResult<T = unknown> {

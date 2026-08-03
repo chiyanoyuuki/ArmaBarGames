@@ -19,9 +19,13 @@ import {
   type HostConfigurePayload,
   type HostGradeAnswerPayload,
   type HostMusicPayload,
+  type HostMuteTeamPayload,
   type HostRemoveTeamPayload,
   type HostRenameTeamPayload,
+  type HostSetChatPayload,
   type HostStartGamePayload,
+  type TeamColorPayload,
+  type TeamRenamePayload,
   type JoinRoomPayload,
   type SfxKind,
   type RtcSignalPayload,
@@ -196,6 +200,16 @@ io.on("connection", (socket: Socket) => {
     }
   });
 
+  socket.on(C2S.TeamRename, (payload: TeamRenamePayload) => {
+    const room = rooms.get(socket.data.roomCode);
+    if (room && socket.data.teamId) room.renameTeam(socket.data.teamId, payload?.name ?? "");
+  });
+
+  socket.on(C2S.TeamSetColor, (payload: TeamColorPayload) => {
+    const room = rooms.get(socket.data.roomCode);
+    if (room && socket.data.teamId) room.setTeamColor(socket.data.teamId, payload?.color ?? "");
+  });
+
   socket.on(C2S.TeamAnswer, (payload: TeamAnswerPayload) => {
     const room = rooms.get(socket.data.roomCode);
     if (room && socket.data.teamId) {
@@ -294,6 +308,12 @@ io.on("connection", (socket: Socket) => {
   });
   socket.on(C2S.HostRemoveTeam, (payload: HostRemoveTeamPayload) => {
     requireHost(payload)?.removeTeam(payload.teamId);
+  });
+  socket.on(C2S.HostSetChat, (payload: HostSetChatPayload) => {
+    requireHost(payload)?.setChatEnabled(!!payload.enabled);
+  });
+  socket.on(C2S.HostMuteTeam, (payload: HostMuteTeamPayload) => {
+    requireHost(payload)?.setTeamMuted(payload.teamId, !!payload.muted);
   });
 
   // --- Deconnexion ---
